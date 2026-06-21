@@ -1,0 +1,31 @@
+# VALIDATION REPORT v3.0
+
+Status: PASS
+
+Base: v2.9
+New module: 28_debt11_chiral_representation_projection_v3_0
+
+Counts:
+- files: 592
+- directories: 164
+
+Preservation:
+- missing files from v2.9: 0
+- unexpected changed old files: 0
+
+Archive hygiene:
+- nested archives: 0
+
+New module checks:
+- script compile: PASS
+- observed masses used: false
+- PDG values used: false
+- anomaly residuals zero: True
+- Higgs legality residuals zero: True
+- gate: STRUCTURAL_ENUMERATION_PASS
+- Debt 11 status: conditionally_closed_for_one_generation_chiral_table_not_for_mass_projection
+
+Notes:
+- This module does not compute masses.
+- This module does not close CKM/PMNS.
+- Optional sterile neutrino remains quarantined.

@@ -1,0 +1,26 @@
+{
+  "created_utc": "2026-06-21T20:22:28Z",
+  "module": "v6.9",
+  "module_validator": "PASS",
+  "full_root_compileall": "PASS",
+  "nested_archives_count": 0,
+  "technical_status": "PASS",
+  "substantive_status": "SEALED_CHARGED_LEPTON_RECONSTRUCTION_PARTIAL_PASS_E_TO_MU_RELEASE_REFINEMENT_REQUIRED",
+  "metrics": {
+    "particle_count": 3,
+    "mean_abs_relative_error_percent": 3.4414842288192085,
+    "max_abs_relative_error_percent": 5.23460792414586,
+    "electron_abs_relative_error_percent": 0.12585172327104704,
+    "muon_abs_relative_error_percent": 4.963993039040719,
+    "tau_abs_relative_error_percent": 5.23460792414586,
+    "predicted_mu_over_e": 216.75945988991637,
+    "scoring_mu_over_e": 206.76829179394596,
+    "mu_over_e_relative_error_percent": 4.8320600848833495,
+    "predicted_tau_over_mu": 16.8603857535734,
+    "scoring_tau_over_mu": 16.817028616187375,
+    "tau_over_mu_relative_error_percent": 0.2578168734534314,
+    "predicted_tau_over_e": 3654.648109480211,
+    "scoring_tau_over_e": 3477.228280018971,
+    "tau_over_e_relative_error_percent": 5.102334824571031
+  }
+}

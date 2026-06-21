@@ -1,0 +1,8 @@
+{
+  "missing_from_v3_0": [],
+  "unexpected_changed_from_v3_0": [],
+  "allowed_changed_files": [
+    "README.md",
+    "CURRENT_STATUS.md"
+  ]
+}

@@ -1,0 +1,28 @@
+VALIDATION REPORT — METATIME STANDARD MODEL DERIVATION MERGED REPO v2.6
+
+Status: PASS
+
+Base repo: v2.5
+Update mode: append-only copy, then add one new module.
+
+Checks:
+- v2.5 files missing in v2.6: 0
+- Unexpected old-file changes outside README/CURRENT_STATUS/manifests/validation: 0
+- Nested archives inside repo: 0
+- New script compile check: PASS
+- New module run status: PASS
+- Gate class: COMPUTATIONAL_STRESS_TEST_PASS
+- Debt 9 closure: PARTIAL_ADVANCE_NOT_CLOSED
+- Observed masses used as model inputs: exactly one anchor (electron)
+- Observed masses other than anchor used as inputs: false
+- Non-anchor masses used as validation targets only: true
+
+Counts:
+- Files: 540
+- Directories: 147
+- Size bytes: 36384900
+
+Important numerical result:
+- Ramanujan improves median absolute log-error versus EB-only.
+- Numerical charged-fermion ratios are not yet derived.
+- No exact mass claim is made.

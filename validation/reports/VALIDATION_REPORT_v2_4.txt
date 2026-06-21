@@ -1,0 +1,26 @@
+VALIDATION REPORT v2.4
+
+Status: PASS
+Mode: append-only update from v2.3
+New module: 22_euler_identity_berry_phase_spin_constraint_v2_4
+
+File count: 522
+Directory count: 138
+Missing files from v2.3: 0
+Unexpected changed old files: 0
+Nested archives: 0
+Observed masses used as input: no
+External NOEMA SoT claimed: no
+
+Gate taxonomy:
+- central proof: FORMAL_SYMBOLIC_PASS
+- auxiliary check: COMPUTATIONAL_SANITY_CHECK
+
+Euler-Berry spin sanity check:
+- selected minimal spin: 1/2
+- expected: 1/2
+- pass: True
+
+Notes:
+This validation is not a computational mass-ratio proof.
+It validates preservation, packaging hygiene, and implementation consistency with the formal Euler-Berry spin gate.

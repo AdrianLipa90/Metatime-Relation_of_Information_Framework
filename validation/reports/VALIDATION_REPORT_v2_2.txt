@@ -1,0 +1,24 @@
+VALIDATION REPORT v2.2
+
+Parent: v2.1
+Generated: 2026-06-19T20:30:36Z
+
+Preservation:
+- missing files from v2.1: 0
+- changed old files except README/CURRENT_STATUS: 0
+
+Archive hygiene:
+- nested archives: 0
+
+New module:
+- 20_debt7_weak_axis_first_principles_v2_2
+- validation script compile return code: 0
+- validation gate type: structural-enumeration PASS
+- observed masses used as input: false
+
+Overall status: PASS
+
+Notes:
+- v2.2 separates formal/symbolic PASS, computational PASS, and structural-enumeration PASS.
+- Debt 7 is conditionally closed, not fully proven from absolute root geometry.
+- New Debt 11 opened: candidate-axis completeness from root geometry.

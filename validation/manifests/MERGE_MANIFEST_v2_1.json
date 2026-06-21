@@ -1,0 +1,13 @@
+{
+  "repo": "METATIME_STANDARD_MODEL_DERIVATION_MERGED_REPO_v2_1_NO_NESTED_ZIPS",
+  "version": "v2.1",
+  "generated_utc": "2026-06-19T20:24:51Z",
+  "base_version": "v2.0",
+  "new_module": "19_debt5_ramanujan_seed_suppression_v2_1",
+  "file_count": 473,
+  "directory_count": 125,
+  "missing_files_from_v2_0_count": 0,
+  "nested_archives_count": 0,
+  "validation_status": "PASS",
+  "observed_masses_used_as_inputs": false
+}

@@ -1,0 +1,20 @@
+VALIDATION REPORT v2.1
+Generated: 2026-06-19T20:24:51Z
+
+Repository: METATIME_STANDARD_MODEL_DERIVATION_MERGED_REPO_v2_1_NO_NESTED_ZIPS
+
+File count: 473
+Directory count: 125
+Missing files from v2.0: 0
+Nested archives in repo: 0
+New module script py_compile returncode: 0
+Observed mass inputs used: NO
+Ramanujan scaling installed: YES
+Validation status: PASS
+Extended seed exceptions in current ansatz: 0
+
+Missing files detail:
+[]
+
+Nested archive detail:
+[]

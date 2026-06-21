@@ -1,0 +1,10 @@
+VALIDATION REPORT — v1.7
+
+file_count: 424
+nested_archives_found: 0
+new_module: 15_debt1_killing_generator_polar_axis_v1_7
+new_script_compile: PASS
+new_script_run: PASS
+debt1_killing_generator_validation: PASS
+poincare_hopf_bookkeeping: PASS
+no_nested_archives: PASS

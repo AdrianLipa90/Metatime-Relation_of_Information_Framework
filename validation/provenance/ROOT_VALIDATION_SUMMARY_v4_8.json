@@ -1,0 +1,14 @@
+{
+  "module48_validation": {
+    "active_script": "48_debt9_charged_lepton_generation_review_v4_8/scripts/charged_lepton_generation_review_v4_8.py",
+    "checked_nested_archives_count": 0,
+    "issues": [],
+    "result_json": "48_debt9_charged_lepton_generation_review_v4_8/results/charged_lepton_generation_review_v4_8.json",
+    "schema": "VALIDATION_MODULE48_V4_8",
+    "status": "PASS"
+  },
+  "nested_archives": [],
+  "nested_archives_count": 0,
+  "schema": "ROOT_VALIDATION_SUMMARY_V4_8",
+  "status": "PASS"
+}

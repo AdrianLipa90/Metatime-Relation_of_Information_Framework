@@ -1,0 +1,13 @@
+{
+  "testzip": "PASS",
+  "nested_archives": 0,
+  "active_module_validation": {
+    "module": "58_debt9_hadron_scale_provenance_audit_v5_8",
+    "validation_status": "PASS",
+    "issues": []
+  },
+  "full_root_compileall": "NOT_CLAIMED_LEGACY_BLOCKER_REMAINS",
+  "legacy_compile_blocker": "00_original_metatime/Metatime-main/simulations/Standard Model/plots.py contains markdown code fence, inherited from prior versions",
+  "entry_count": 1026,
+  "top_level_entries": 1
+}

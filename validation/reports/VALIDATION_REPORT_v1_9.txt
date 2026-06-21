@@ -1,0 +1,12 @@
+VALIDATION REPORT v1.9
+
+Repository: /mnt/data/METATIME_STANDARD_MODEL_DERIVATION_MERGED_REPO_v1_9_NO_NESTED_ZIPS
+File count: 448
+Nested archive count: 0
+Nested archive gate: PASS
+Python compile status: PASS
+New module: 17_debt2_debt4_eb_coherence_seed_assignment_v1_9
+Debt 2 status: operationally paid
+Debt 4 status: partially paid for ordering only
+Exact mass prediction claimed: false
+Observed masses used as inputs: false

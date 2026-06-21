@@ -1,0 +1,28 @@
+{
+  "version": "v6.5",
+  "created_at_utc": "2026-06-21T16:56:14.364990+00:00",
+  "root_name": "METATIME_STANDARD_MODEL_DERIVATION_MERGED_REPO_v6_5_UNIT_ANCHOR_LEDGER_NO_NESTED_ZIPS",
+  "parent": {
+    "file": "METATIME_STANDARD_MODEL_DERIVATION_MERGED_REPO_v6_4_EXACT_TABLE_PROVENANCE_MATRIX_NO_NESTED_ZIPS.zip",
+    "sha256": "a17771fb6797c9351bf4a2aa5c16e02ce84839bf53a3a15bfc8112b8934bc6ac",
+    "size_bytes": 35163160
+  },
+  "module_added": "65_unit_anchor_ledger_v6_5",
+  "debt_closed": [
+    "DEBT-006"
+  ],
+  "debt_remaining": [
+    "DEBT-007",
+    "DEBT-009",
+    "DEBT-011"
+  ],
+  "validation": {
+    "testzip": "PENDING_UNTIL_AFTER_EXPORT",
+    "nested_archives_count": 0,
+    "compileall": "PASS",
+    "module65_validator": "PASS"
+  },
+  "entry_count_before_export": 1254,
+  "canon_allowed": false,
+  "current_promotion": "DENY_CURRENT"
+}

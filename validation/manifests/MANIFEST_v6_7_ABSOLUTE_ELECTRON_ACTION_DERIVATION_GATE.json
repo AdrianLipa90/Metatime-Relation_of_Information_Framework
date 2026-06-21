@@ -1,0 +1,11 @@
+{
+  "schema": "METATIME_v6_7_MANIFEST",
+  "created_utc": "2026-06-21T17:37:00+00:00",
+  "parent_zip": "METATIME_STANDARD_MODEL_DERIVATION_MERGED_REPO_v6_6_DOCUMENT_OPERATOR_SOURCE_INDEX_NO_NESTED_ZIPS.zip",
+  "parent_sha256": "33d04c60094fcf23a0a8354c96c3ef65b677bb730ef5080e0c8b068fc680a7e6",
+  "root": "METATIME_STANDARD_MODEL_DERIVATION_MERGED_REPO_v6_7_ABSOLUTE_ELECTRON_ACTION_DERIVATION_GATE_NO_NESTED_ZIPS",
+  "module_added": "67_absolute_electron_action_derivation_gate_v6_7",
+  "technical_status": "PASS",
+  "debt_delta": "DEBT-007 CLOSED_AS_DERIVATION_GATE_NOT_CANON",
+  "canon_allowed": false
+}

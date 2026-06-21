@@ -1,0 +1,36 @@
+VALIDATION REPORT — METATIME STANDARD MODEL DERIVATION MERGED REPO v2.7
+
+Status: PASS
+
+Base repo: v2.6
+Update mode: append-only copy, then add one new module.
+
+Checks:
+- v2.6 files missing in v2.7: 0
+- Unexpected old-file changes outside README/CURRENT_STATUS/manifests/validation: 0
+- Nested archives inside repo: 0
+- New script compile check: PASS
+- New module run status: PASS
+- Gate class: AUDIT_BRIDGE_PASS
+- Debt 9 closure: NOT_CLOSED_DYNAMIC_RANGE_BRIDGE_ONLY
+- Information operator role: preference fluctuation quantum
+- Old tau/eigenvalue promoted to model input: false
+- Observed masses used as model inputs: exactly one anchor inherited from v2.6 (electron)
+
+Counts:
+- Files: 551
+- Directories: 151
+- Size bytes: 36602866
+
+Important result:
+- The old tau/eigenvalue table has useful dynamic range but remains quarantined.
+- A clean v2.x informational eigenvalue tau_v2 must be derived before rerunning the mass test as a derivation.
+
+Missing files:
+- none
+
+Unexpected changed old files:
+- none
+
+Nested archives:
+- none

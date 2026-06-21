@@ -1,0 +1,23 @@
+{
+  "status": "PASS",
+  "version": "v3.1",
+  "root": "METATIME_STANDARD_MODEL_DERIVATION_MERGED_REPO_v3_1_NO_NESTED_ZIPS",
+  "created_utc": "2026-06-19T22:11:49.927450+00:00",
+  "base_version": "v3.0",
+  "append_only_vs_base": true,
+  "allowed_changed_files": [
+    "CURRENT_STATUS.md",
+    "README.md"
+  ],
+  "new_module": "29_debt9_debt11_frozen_sector_projection_operator_v3_1",
+  "file_count": 608,
+  "dir_count": 169,
+  "total_bytes": 37010628,
+  "nested_archives": [],
+  "missing_from_v3_0": [],
+  "unexpected_changed_from_v3_0": [],
+  "gate": "PRE_MASS_PROJECTION_OPERATOR_PASS",
+  "observed_masses_used": false,
+  "mass_predictions_made": false,
+  "compile_stderr": ""
+}

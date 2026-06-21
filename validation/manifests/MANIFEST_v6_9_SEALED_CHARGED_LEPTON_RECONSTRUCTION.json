@@ -1,0 +1,17 @@
+{
+  "schema": "METATIME_MANIFEST_V6_9_SEALED_CHARGED_LEPTON_RECONSTRUCTION",
+  "created_utc": "2026-06-21T20:22:28Z",
+  "parent_artifact": "METATIME_STANDARD_MODEL_DERIVATION_MERGED_REPO_v6_8_MU_TAU_RELEASE_REFINEMENT_GATE_NO_NESTED_ZIPS.zip",
+  "parent_sha256": "611d91f6461e7d36db4618ff55d76472765042e39001483a6255e2be30eec259",
+  "top_level_dir": "METATIME_STANDARD_MODEL_DERIVATION_MERGED_REPO_v6_9_SEALED_CHARGED_LEPTON_RECONSTRUCTION_BENCHMARK_NO_NESTED_ZIPS",
+  "module_added": "69_sealed_charged_lepton_reconstruction_benchmark_v6_9",
+  "no_nested_archives": true,
+  "full_root_compileall": "PASS",
+  "module_validator": "PASS",
+  "entry_count_pre_zip": 1310,
+  "substantive_status": "SEALED_CHARGED_LEPTON_RECONSTRUCTION_PARTIAL_PASS_E_TO_MU_RELEASE_REFINEMENT_REQUIRED",
+  "debt9_numeric_spectrum": "OPEN_NOT_CLOSED",
+  "canon_allowed": false,
+  "mass_spectrum_closure_claimed": false,
+  "next_step": "v7.0 e->mu release refinement gate"
+}

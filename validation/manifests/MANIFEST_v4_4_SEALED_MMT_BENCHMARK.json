@@ -1,0 +1,11 @@
+{
+  "created_utc": "2026-06-20T00:00:00Z",
+  "entry_count_pre_zip": 812,
+  "module_added": "44_debt9_mmt_sealed_benchmark_v4_4",
+  "nested_archives": 0,
+  "repo_root": "METATIME_STANDARD_MODEL_DERIVATION_MERGED_REPO_v4_4_SEALED_MMT_BENCHMARK_FAIL_NO_NESTED_ZIPS",
+  "schema": "MANIFEST_V4_4_SEALED_MMT_BENCHMARK",
+  "source_zip": "METATIME_STANDARD_MODEL_DERIVATION_MERGED_REPO_v4_3_FROZEN_MMT_OPERATOR_NO_NESTED_ZIPS.zip",
+  "source_zip_sha256": "98e5f34aac3f80548b6aa9ba944471f0f056de74bc777e87ced56fa609165bc0",
+  "status": "TECHNICAL_PASS_FORMAL_PASS_SUBSTANTIVE_FAIL_NUMERIC_DEBT9_OPEN"
+}

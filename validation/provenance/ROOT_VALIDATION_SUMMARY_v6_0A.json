@@ -1,0 +1,12 @@
+{
+  "version": "v6.0A",
+  "technical": "PASS",
+  "formal": "PASS_SEALED_RATIO_BENCHMARK_WITH_BOUNDARIES",
+  "substantive": "DIRECT_CARRIER_FAILS_INVERSE_BARYON_ORIENTATION_PARTIAL_SIGNAL_ABSOLUTE_SCALE_OPEN",
+  "debt9_numeric_spectrum": "OPEN_NOT_CLOSED",
+  "canon_allowed": false,
+  "current_promotion": "DENY_CURRENT",
+  "nested_archives": 0,
+  "active_module_validation": "PASS",
+  "legacy_compileall_status": "not_claimed; previous legacy plots.py blocker remains in old tree"
+}

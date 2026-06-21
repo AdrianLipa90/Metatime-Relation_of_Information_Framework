@@ -1,0 +1,19 @@
+{
+  "schema": "METATIME_RELEASE_MANIFEST_V6_4",
+  "created_utc": "2026-06-21T16:50:52Z",
+  "artifact": "METATIME_STANDARD_MODEL_DERIVATION_MERGED_REPO_v6_4_EXACT_TABLE_PROVENANCE_MATRIX_NO_NESTED_ZIPS.zip",
+  "parent_artifact": "METATIME_STANDARD_MODEL_DERIVATION_MERGED_REPO_v6_3_MASTER_DEBT_REGISTER_CLOSURE_QUEUE_NO_NESTED_ZIPS.zip",
+  "parent_sha256": "55cc6fc17d164b2f6abf318b28894cd4d3e8cb4a438e3fecf1b10ca6e6821a49",
+  "root_dir": "METATIME_STANDARD_MODEL_DERIVATION_MERGED_REPO_v6_4_EXACT_TABLE_PROVENANCE_MATRIX_NO_NESTED_ZIPS",
+  "module_added": "64_exact_table_replay_pdg_provenance_matrix_v6_4",
+  "mode": "PROVENANCE_MATRIX_ONLY_NO_NEW_PHYSICS",
+  "debt_closed": "DEBT-005",
+  "next_debt": "DEBT-006 unit anchors removal ledger",
+  "no_nested_archives_required": true,
+  "canon_allowed": false,
+  "current_promotion": "DENY_CURRENT",
+  "validation": {
+    "module64_validator": "PASS",
+    "compileall": "PASS"
+  }
+}

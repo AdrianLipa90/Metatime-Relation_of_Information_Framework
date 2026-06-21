@@ -1,0 +1,12 @@
+{
+  "schema": "ROOT_VALIDATION_SUMMARY_v4_9",
+  "testzip": "PASS",
+  "nested_archives": 0,
+  "nested_archive_paths": [],
+  "module49_validation": "PASS",
+  "zip_sha256": "e6e6e7c050a540b4ef03b7e62c554d4693845cf00ef04e5d85c46a1ac9bc2d9c",
+  "zip_size": 32751372,
+  "top_level_entries": 1,
+  "entry_count": 895,
+  "nested_archives_inside_zip": 0
+}

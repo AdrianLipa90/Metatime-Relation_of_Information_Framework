@@ -1,0 +1,22 @@
+{
+  "canon_allowed": false,
+  "created_utc": "2026-06-20T00:00:00Z",
+  "current_promotion": "DENY_CURRENT",
+  "current_status": "SEALED_BENCHMARK_FAIL_NUMERIC_DEBT9_REMAINS_OPEN",
+  "debt9_numeric_spectrum_status": "OPEN_NOT_CLOSED",
+  "module44_validation": {
+    "debt9_numeric_spectrum_status": "OPEN_NOT_CLOSED",
+    "doctor_verdict": "CONTINUE_RESEARCH_DENY_CANON_DENY_CURRENT",
+    "issues": [],
+    "schema": "VALIDATION_MODULE44_V4_4",
+    "status": "PASS"
+  },
+  "nested_archives": 0,
+  "output_zip_sha256": "f2348a24543207b76d28653c530b5516f8ad1a320f66f9f25ab39b59fd80dd76",
+  "repo_root": "METATIME_STANDARD_MODEL_DERIVATION_MERGED_REPO_v4_4_SEALED_MMT_BENCHMARK_FAIL_NO_NESTED_ZIPS",
+  "schema": "ROOT_VALIDATION_SUMMARY_V4_4",
+  "testzip": "PASS",
+  "top_level_entries": 1,
+  "zip_entry_count": 817,
+  "zip_size_bytes": 32312145
+}

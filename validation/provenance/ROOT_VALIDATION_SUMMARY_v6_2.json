@@ -1,0 +1,10 @@
+{
+  "schema": "ROOT_VALIDATION_SUMMARY_V6_2",
+  "technical": "PASS",
+  "active_module_validation": "PASS",
+  "nested_archives": 0,
+  "debt9_numeric_spectrum": "OPEN_NOT_CLOSED",
+  "canon_allowed": false,
+  "current_promotion": "DENY_CURRENT",
+  "full_root_compileall": "NOT_CLAIMED_LEGACY_BLOCKER_REMAINS"
+}

@@ -1,0 +1,11 @@
+{
+  "schema": "METATIME_v6_8_MANIFEST",
+  "created_utc": "2026-06-21T17:51:00+00:00",
+  "parent_zip": "METATIME_STANDARD_MODEL_DERIVATION_MERGED_REPO_v6_7_ABSOLUTE_ELECTRON_ACTION_DERIVATION_GATE_NO_NESTED_ZIPS.zip",
+  "parent_sha256": "63dad8b172247e00820a7d666d5696dbb519792e639eab336f50e02ba2e2544e",
+  "root": "METATIME_STANDARD_MODEL_DERIVATION_MERGED_REPO_v6_8_MU_TAU_RELEASE_REFINEMENT_GATE_NO_NESTED_ZIPS",
+  "module_added": "68_mu_tau_release_refinement_gate_v6_8",
+  "technical_status": "PASS",
+  "debt_delta": "DEBT-008 CLOSED_AS_RELEASE_REFINEMENT_GATE_NOT_CANON",
+  "canon_allowed": false
+}

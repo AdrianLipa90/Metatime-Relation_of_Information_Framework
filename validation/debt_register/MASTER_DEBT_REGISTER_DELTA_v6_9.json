@@ -1,0 +1,20 @@
+{
+  "schema": "MASTER_DEBT_REGISTER_DELTA_V6_9",
+  "created_utc": "2026-06-21T20:22:28Z",
+  "debt_updates": [
+    {
+      "debt_id": "DEBT-010",
+      "name": "sealed charged-lepton reconstruction benchmark",
+      "status": "CLOSED_AS_SEALED_BENCHMARK_NOT_CANON",
+      "evidence": "69_sealed_charged_lepton_reconstruction_benchmark_v6_9/results/SEALED_CHARGED_LEPTON_RECONSTRUCTION_BENCHMARK_v6_9.json"
+    },
+    {
+      "debt_id": "DEBT-013",
+      "name": "e->mu release refinement gate",
+      "status": "ACTIVE_NOW",
+      "reason": "full reconstruction shows muon/tau errors dominated by inherited v6.2 e->mu release overestimate",
+      "next_version": "v7.0"
+    }
+  ],
+  "forbidden_statuses_present": false
+}

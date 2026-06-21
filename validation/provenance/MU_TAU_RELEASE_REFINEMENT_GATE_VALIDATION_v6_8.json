@@ -1,0 +1,18 @@
+{
+  "created_utc": "2026-06-21T17:51:00+00:00",
+  "technical_status": "PASS",
+  "nested_archives_count": 0,
+  "nested_archives": [],
+  "module68_validator": {
+    "returncode": 0,
+    "stdout": "{\n  \"status\": \"PASS\",\n  \"errors\": []\n}\n",
+    "stderr": ""
+  },
+  "full_root_compileall": "PASS",
+  "derived_mu_tau_release_action": 0.025970343850677605,
+  "predicted_tau_over_mu_energy_ratio": 16.860385753573407,
+  "energy_ratio_rel_error_percent_scoring_only": 0.25781687345348253,
+  "action_rel_error_percent_scoring_only": 0.09122938897251934,
+  "canon_allowed": false,
+  "current_promotion": "DENY_CURRENT_PENDING_USER007_ACCEPTANCE"
+}

@@ -1,0 +1,19 @@
+{
+  "schema": "MANIFEST_v4_9_SHORTDOC_LEPTON_KERNEL_FREEZE",
+  "created_utc": "2026-06-21T07:40:32.324999+00:00",
+  "root": "METATIME_STANDARD_MODEL_DERIVATION_MERGED_REPO_v4_9_SHORTDOC_LEPTON_KERNEL_FREEZE_NO_NESTED_ZIPS",
+  "file_count": 890,
+  "module": "49_short_doc_charged_lepton_kernel_freeze_v4_9",
+  "status": {
+    "version": "v4.9",
+    "module": "49_short_doc_charged_lepton_kernel_freeze_v4_9",
+    "technical": "PASS",
+    "formal": "PASS_WITH_STRICT_SHORT_DOC_SOURCE_LEDGER",
+    "substantive": "FROZEN_SHORT_DOC_KERNEL_NOT_NUMERIC_CLOSURE",
+    "debt9_numeric_spectrum": "OPEN_NOT_CLOSED",
+    "canon_allowed": false,
+    "current_promotion": "DENY_CURRENT",
+    "short_doc_priority": "ACTIVE",
+    "large_document_F_table": "diagnostic_only_not_promoted"
+  }
+}

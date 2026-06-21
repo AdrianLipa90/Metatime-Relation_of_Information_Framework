@@ -1,0 +1,15 @@
+VALIDATION REPORT v2.9
+
+status: PASS
+base: v2.8
+module_added: 27_debt9_tau_v2_clean_information_eigenvalue_v2_9
+file_count: 578
+dir_count: 159
+missing_files_from_v2_8: 0
+unexpected_changed_existing_files: 0
+nested_archives: 0
+new_module_gate: PRE_MASS_RESCORING_STRUCTURAL_PASS
+observed_masses_used_in_new_module: False
+old_tau_used_in_new_module: False
+formula_frozen_before_mass_rescore: True
+created_utc: 2026-06-19T21:49:03Z

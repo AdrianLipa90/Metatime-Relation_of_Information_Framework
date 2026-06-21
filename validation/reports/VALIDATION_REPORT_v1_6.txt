@@ -1,0 +1,13 @@
+METATIME STANDARD MODEL DERIVATION MERGED REPO v1.6 VALIDATION
+
+file_count: 415
+directory_count: 106
+nested_archive_count: 0
+no_nested_archives: PASS
+new_module_python_compile: PASS
+debt3_debt6_validation: PASS
+
+Notes:
+- Debt 3 is operationally closed as definition plus non-fitted ansatz.
+- Debt 6 is partially closed for ordinal charged-fermion hierarchy.
+- Numerical mass derivation remains open.

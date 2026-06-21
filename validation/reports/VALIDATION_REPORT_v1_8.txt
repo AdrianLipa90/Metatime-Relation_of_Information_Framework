@@ -1,0 +1,8 @@
+METATIME STANDARD MODEL DERIVATION MERGED REPO v1.8 VALIDATION
+
+file_count: 434
+nested_archive_count: 0
+nested_archive_policy: must_be_zero
+nested_archive_status: PASS
+axis_selection_gate: PASS
+process_status: single merged repository update; no stage-specific nested archives

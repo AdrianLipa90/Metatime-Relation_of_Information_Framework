@@ -1,0 +1,12 @@
+{
+  "version": "v5.8",
+  "root": "METATIME_STANDARD_MODEL_DERIVATION_MERGED_REPO_v5_8_HADRON_SCALE_PROVENANCE_AUDIT_NO_NESTED_ZIPS",
+  "created_utc": "2026-06-21T08:44:30Z",
+  "module": "58_debt9_hadron_scale_provenance_audit_v5_8",
+  "technical_status": "PASS",
+  "formal_status": "PASS_WITH_STRONGER_PROVENANCE_DISTINCTION",
+  "debt9_numeric_spectrum": "OPEN_NOT_CLOSED",
+  "canon_allowed": false,
+  "current_promotion": "DENY_CURRENT",
+  "nested_archives": []
+}

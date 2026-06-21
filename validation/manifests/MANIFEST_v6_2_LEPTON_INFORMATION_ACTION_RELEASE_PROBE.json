@@ -1,0 +1,3673 @@
+{
+  "schema": "MANIFEST_V6_2",
+  "root": "METATIME_STANDARD_MODEL_DERIVATION_MERGED_REPO_v6_2_LEPTON_INFORMATION_ACTION_RELEASE_PROBE_NO_NESTED_ZIPS",
+  "files": [
+    {
+      "path": "00_original_metatime/Metatime-main/.github/FUNDING.yml",
+      "size": 891,
+      "sha256": "13f32b7367f35537394212869121370f41f984b99c97484be99b8be4d89b5b0f"
+    },
+    {
+      "path": "00_original_metatime/Metatime-main/AGENT5.md",
+      "size": 399,
+      "sha256": "39697e2367faf2ffb4e4a8ad6222d4f1945dd80f25383e9afbb89062ad5a3f7a"
+    },
+    {
+      "path": "00_original_metatime/Metatime-main/AGENT6.md",
+      "size": 2505,
+      "sha256": "b0e3381eae97a2397821e38b9c54ce2cfeb0753743349052c19b81a33efa426e"
+    },
+    {
+      "path": "00_original_metatime/Metatime-main/LICENSE",
+      "size": 5137,
+      "sha256": "543f23a3d2bbacc453beed3f361ffc009105fc7b0f4e1847ca572bb0c63cbd22"
+    },
+    {
+      "path": "00_original_metatime/Metatime-main/LICENSE.txt",
+      "size": 5137,
+      "sha256": "543f23a3d2bbacc453beed3f361ffc009105fc7b0f4e1847ca572bb0c63cbd22"
+    },
+    {
+      "path": "00_original_metatime/Metatime-main/MetaTheory_260218_073120.txt",
+      "size": 222752,
+      "sha256": "800c3bbae247b335e679b87df76f6337b51ecae152a9c1c9164bdeef0c944475"
+    },
+    {
+      "path": "00_original_metatime/Metatime-main/Metatime framework summary.pdf",
+      "size": 321262,
+      "sha256": "48a6be05efa1e216864df326be4e255904f4b68f4ef0209e96e2fb2de872fe96"
+    },
+    {
+      "path": "00_original_metatime/Metatime-main/NoParamSM/gluons.py",
+      "size": 8816,
+      "sha256": "7a57ea4aa358207bbb1ad323a65a5a123874d70eee199cac304bf06106af18e1"
+    },
+    {
+      "path": "00_original_metatime/Metatime-main/NoParamSM/gluonsfull.py",
+      "size": 7968,
+      "sha256": "5b21e9a326b59a81d96dd86ca0259ec8c6ff0ea0d20ba4412a8ae20dc06ef7e5"
+    },
+    {
+      "path": "00_original_metatime/Metatime-main/NoParamSM/gluonsfullresults.txt",
+      "size": 1414,
+      "sha256": "373bf0e82c4e329fee065c951da6feb531bd501a06c58d6fba4b21f9ed7891d9"
+    },
+    {
+      "path": "00_original_metatime/Metatime-main/NoParamSM/gluonsresults.txt",
+      "size": 2199,
+      "sha256": "a8b483f11805026b125443bc01205dc1a4cbc96714650a00f5aacc52f0b01549"
+    },
+    {
+      "path": "00_original_metatime/Metatime-main/NoParamSM/noparamSMextended.py",
+      "size": 5743,
+      "sha256": "86e6407f0946bfe65458486ad97bdeed50d81520e895e80fa629c72a160bde92"
+    },
+    {
+      "path": "00_original_metatime/Metatime-main/NoParamSM/noparamSMextendedresult.txt",
+      "size": 842,
+      "sha256": "d803f16eca7c8abb0727b7b59c58b8e5674bff6f17a123ef8ce826be87341468"
+    },
+    {
+      "path": "00_original_metatime/Metatime-main/NoParamSM/noparamSMresult.json",
+      "size": 1593,
+      "sha256": "7c5ef86098603e401fe7a080066a3255800593dafb769ee75e22e17896a2614c"
+    },
+    {
+      "path": "00_original_metatime/Metatime-main/NoParamSM/noparamSMresult.txt",
+      "size": 1207,
+      "sha256": "3de96293e5682dc1bc607544b9764f51937661b5d8b644d24f03d51e2701d534"
+    },
+    {
+      "path": "00_original_metatime/Metatime-main/NoParamSM/noparamSMsolver.py",
+      "size": 14550,
+      "sha256": "e5d1e99c911bc7f66a702152af3168b6928cad00b7541f4643fc05b876fcdbe3"
+    },
+    {
+      "path": "00_original_metatime/Metatime-main/README.md",
+      "size": 26984,
+      "sha256": "e3595f9e66ed0f7e3cc97649f9c1b0e11aa34e4c2d51ea5bef3aec7f82b84ab9"
+    },
+    {
+      "path": "00_original_metatime/Metatime-main/ResChem/ResChem#U00d7Metatime.pdf",
+      "size": 216773,
+      "sha256": "d2c0636d2eae22e058205a61e77edcc52523c8bfd338f913b96c379de1d8381d"
+    },
+    {
+      "path": "00_original_metatime/Metatime-main/ResChem/Solver.py",
+      "size": 10588,
+      "sha256": "dba212f67a53723dd587df3927102aae38f40140988539d700578e5adfc6b533"
+    },
+    {
+      "path": "00_original_metatime/Metatime-main/cielnofft.py",
+      "size": 26823,
+      "sha256": "80b2c39ec78e605c241e34a5d32b3ffe2020f62a83a3ce2400c8458d768c680d"
+    },
+    {
+      "path": "00_original_metatime/Metatime-main/data/107_-26_Equ_J2000_planck_100Rel3.fits",
+      "size": 2563200,
+      "sha256": "1bef9697e314ad212d8aa2d1eec606968e189ead61a2d07e3d9eebec691409c5"
+    },
+    {
+      "path": "00_original_metatime/Metatime-main/data/107_-26_Equ_J2000_planck_143Rel1.fits",
+      "size": 2563200,
+      "sha256": "893e21091e6c9b770c9acc17a88ae874bc57ccef8a0e3dd35c5bce5552de1f8b"
+    },
+    {
+      "path": "00_original_metatime/Metatime-main/data/107_-26_Equ_J2000_planck_143Rel2.fits",
+      "size": 2563200,
+      "sha256": "63ebab928422961985d69b537744785d8321e5f023dfe523bb6586be524f1748"
+    },
+    {
+      "path": "00_original_metatime/Metatime-main/data/107_-26_Equ_J2000_planck_143Rel3.fits",
+      "size": 2563200,
+      "sha256": "61770ad10ac6eb20b85a6587da21149b5e46d69b33273ff9f5eea93ed09d44a1"
+    },
+    {
+      "path": "00_original_metatime/Metatime-main/data/107_-26_Equ_J2000_planck_217Rel3.fits",
+      "size": 2563200,
+      "sha256": "ba03fb5d2aaedfc56de6079529cd6bdc22ef875dd5019d6d2abcb7c5c0e7cd1a"
+    },
+    {
+      "path": "00_original_metatime/Metatime-main/data/2025/app.js",
+      "size": 23217,
+      "sha256": "9aa35a2ad6c05b48ba07c38e5d0c54bc4a963747a0af2bec08a6e1bc38efa204"
+    },
+    {
+      "path": "00_original_metatime/Metatime-main/data/2025/cmb_power_spectrum.png",
+      "size": 130423,
+      "sha256": "9110f44a7f77d6219e727b63d60e6412561a5d6f4ee1736642c5ab712ee707c3"
+    },
+    {
+      "path": "00_original_metatime/Metatime-main/data/2025/cmb_spectrum_comparison.csv",
+      "size": 102207,
+      "sha256": "976f2599fbe0575a5fd09f46903255f1e21b9ac53a611990278b58b52aaf8060"
+    },
+    {
+      "path": "00_original_metatime/Metatime-main/data/2025/harmonic_zones_analysis.csv",
+      "size": 223,
+      "sha256": "c293938dbcf18232d199091882dd4fe09d5cdb2347ddc9f8036dea577b0ced44"
+    },
+    {
+      "path": "00_original_metatime/Metatime-main/data/2025/index.html",
+      "size": 13695,
+      "sha256": "b0402c5b8ddfc285eaa1878453f85a6f8f2f1bc4658cace7f6117f4c85ab0ab4"
+    },
+    {
+      "path": "00_original_metatime/Metatime-main/data/2025/lpeg_harmonic_zones_analysis.png",
+      "size": 156881,
+      "sha256": "3d68ddeb476932fe3972652f6ef2f6767871880758f4042aa9b5e1cdf33cb770"
+    },
+    {
+      "path": "00_original_metatime/Metatime-main/data/2025/style.css",
+      "size": 32041,
+      "sha256": "892dffcb06f257ab267d16797f5f94065e99c76bf01edc4837703c2cc787205a"
+    },
+    {
+      "path": "00_original_metatime/Metatime-main/data/2025/time_evolution_animation.csv",
+      "size": 225329,
+      "sha256": "21db39a61c9cc9f969eb584cdd31fdb46a08110fd9c406cdedb9816b288f3bbb"
+    },
+    {
+      "path": "00_original_metatime/Metatime-main/data/2025/time_field_data.csv",
+      "size": 331844,
+      "sha256": "1d67b5f32477a7fbafec94e49878e509e15b8628667c6342bbd8ef7d16ed93b7"
+    },
+    {
+      "path": "00_original_metatime/Metatime-main/data/2025/time_field_visualization.png",
+      "size": 887917,
+      "sha256": "ea7f6dc0a890da07c91ff9a560e922ec1ef9613ea386b0a0faeca2f3e3b28f19"
+    },
+    {
+      "path": "00_original_metatime/Metatime-main/data/2025/time_flow_profiles.csv",
+      "size": 4987,
+      "sha256": "e2dca68b093562d9d9c645c1af46da1b213664534e02cc9f73cdf64696df49e5"
+    },
+    {
+      "path": "00_original_metatime/Metatime-main/data/2025/time_flow_profiles.png",
+      "size": 223885,
+      "sha256": "7ebe6e4f308a11c210fa613943eb190349005898f17b0ad8bf9a79f029ce5d09"
+    },
+    {
+      "path": "00_original_metatime/Metatime-main/data/2026/01/Standard Model/Fij_toy_S2_delta_theta.csv",
+      "size": 2559,
+      "sha256": "35cbb64f3be0e7ac368dea99d8838e217c5984dcf59d9799ed27a041d0ce2977"
+    },
+    {
+      "path": "00_original_metatime/Metatime-main/data/2026/01/Standard Model/Fij_toy_S2_directional.csv",
+      "size": 1537,
+      "sha256": "36f86e9a25b8343d207cced8d7c325db811456976dff6f078ce6160c013f1b10"
+    },
+    {
+      "path": "00_original_metatime/Metatime-main/data/2026/01/Standard Model/Fij_toy_S2_stats_by_generation.csv",
+      "size": 598,
+      "sha256": "2af5faa69b4684d25c5b72609022c84964d42a7d8cdda26ec7231f11cf7ce188"
+    },
+    {
+      "path": "00_original_metatime/Metatime-main/data/2026/01/Standard Model/Fij_toy_S2_sym_abs.csv",
+      "size": 1552,
+      "sha256": "eec6da0cf4d5775ee9c3ad74071eb94c63a4680b7c9d5bb45aec78972aab6c62"
+    },
+    {
+      "path": "00_original_metatime/Metatime-main/data/2026/01/Standard Model/Fij_toy_S2_sym_cos.csv",
+      "size": 1614,
+      "sha256": "923dd65dd09abe202c5574b21d65e1903b42e2927825b47188c8cc8c04478d7d"
+    },
+    {
+      "path": "00_original_metatime/Metatime-main/data/2026/01/Standard Model/analysis_F_directional_full.csv",
+      "size": 2227,
+      "sha256": "fe6cf21b23d164eed67bdaefa9f4b89d8fd6bb45372efb3e281b1f9cd811ed1e"
+    },
+    {
+      "path": "00_original_metatime/Metatime-main/data/2026/01/Standard Model/analysis_F_sym_abs_full.csv",
+      "size": 2227,
+      "sha256": "0b8fc6d3868460f1533540017a16703dbe809805c6f46903f2d6d7023de21930"
+    },
+    {
+      "path": "00_original_metatime/Metatime-main/data/2026/01/Standard Model/analysis_F_sym_cos_full.csv",
+      "size": 2227,
+      "sha256": "5554d81feb2f7effbeccdbb4ee531247725a2ca311b4c4a4a567a72cce043356"
+    },
+    {
+      "path": "00_original_metatime/Metatime-main/data/2026/01/Standard Model/analysis_blocks_directional.csv",
+      "size": 466,
+      "sha256": "67ef6c65f6a33ea05756c3b4d055163cbc52d3823f3ecd86e53581ff252c027b"
+    },
+    {
+      "path": "00_original_metatime/Metatime-main/data/2026/01/Standard Model/analysis_blocks_sym_abs.csv",
+      "size": 466,
+      "sha256": "43c54f8053c3126f454ea25db4b7b399fb39088cd5e616ead6ab057ee031a755"
+    },
+    {
+      "path": "00_original_metatime/Metatime-main/data/2026/01/Standard Model/analysis_blocks_sym_cos.csv",
+      "size": 466,
+      "sha256": "5e3357991308a527e0abb4f54ead0c06dc1a5be2e2f5c8be9ec7d43229918c33"
+    },
+    {
+      "path": "00_original_metatime/Metatime-main/data/2026/01/Standard Model/analysis_sample_pairs.csv",
+      "size": 436,
+      "sha256": "64b42923a074db7df0d15a5d2cf96eab9733ec358751873ea5eb1e7ccaf3a03f"
+    },
+    {
+      "path": "00_original_metatime/Metatime-main/data/2026/01/Standard Model/analysis_summary_variants.csv",
+      "size": 233,
+      "sha256": "4a451fcc063726211d8e86cf37d00c6299b4f6d70f00f80ab9d626697ab560e1"
+    },
+    {
+      "path": "00_original_metatime/Metatime-main/data/2026/01/Standard Model/analysis_top_deviations_directional.csv",
+      "size": 551,
+      "sha256": "1f4c890a7d8f6e7c8aa5574fe791fe11bf6f3273cd6b26f3d8ffb735e83c3ca1"
+    },
+    {
+      "path": "00_original_metatime/Metatime-main/data/2026/01/Standard Model/analysis_top_deviations_sym_abs.csv",
+      "size": 545,
+      "sha256": "0779e85c3ef7e22c4a81eeaeb86e5575c6d2a852becb9f458bbaafdb450a25b7"
+    },
+    {
+      "path": "00_original_metatime/Metatime-main/data/2026/01/Standard Model/analysis_top_deviations_sym_cos.csv",
+      "size": 556,
+      "sha256": "3c120dd309aa71783aab8788703c7c40888ee00baf7c948f598e9a1bea13af0e"
+    },
+    {
+      "path": "00_original_metatime/Metatime-main/data/2026/01/Standard Model/heatmap_F_directional.png",
+      "size": 23321,
+      "sha256": "fcef36f5081d746c18c6c91b00eb4a5cae666de1c196440f96f9cfe946bfd4a9"
+    },
+    {
+      "path": "00_original_metatime/Metatime-main/data/2026/01/Standard Model/heatmap_F_sym_abs.png",
+      "size": 23415,
+      "sha256": "9dfde177cc76daf2ed0a37753b6d47bd2c02678edc891c4467906aa2393a0d5d"
+    },
+    {
+      "path": "00_original_metatime/Metatime-main/data/2026/01/Standard Model/heatmap_F_sym_cos.png",
+      "size": 22833,
+      "sha256": "a1db5a02ce3d62a5982e3e354f26873ba83baa8c45451dc90e83d95fed3648a8"
+    },
+    {
+      "path": "00_original_metatime/Metatime-main/data/2026/01/Standard Model/interpretation.md",
+      "size": 4436,
+      "sha256": "f9b65a3159cf4fd5aeea0e7db71512c7f310585bf4c402fbfe8ca12c42c182c4"
+    },
+    {
+      "path": "00_original_metatime/Metatime-main/data/2026/01/beta-berry-hadron sim results/F_berry_monopole.csv",
+      "size": 2227,
+      "sha256": "58b663d5b2fab009bf7fbc0ed786053fd78babd52402b80d652ae213df11bf34"
+    },
+    {
+      "path": "00_original_metatime/Metatime-main/data/2026/01/beta-berry-hadron sim results/F_calibrated_beta.csv",
+      "size": 2227,
+      "sha256": "602a60f535b2c5f04754b33e00084e8945aefb6753d15af01e776b7c94fca063"
+    },
+    {
+      "path": "00_original_metatime/Metatime-main/data/2026/01/beta-berry-hadron sim results/beta_fit_check.csv",
+      "size": 177,
+      "sha256": "a68d1253a30fd2538b0c53fd1a525b598f7f8e19e338e2728516e39f4992af40"
+    },
+    {
+      "path": "00_original_metatime/Metatime-main/data/2026/01/beta-berry-hadron sim results/hadron_F_results.csv",
+      "size": 250,
+      "sha256": "b15affcce36945e73970ae3f777c9f65502e1bd89af212fa146cd41359a7c954"
+    },
+    {
+      "path": "00_original_metatime/Metatime-main/data/2026/01/beta-berry-hadron sim results/interpretation.md",
+      "size": 2990,
+      "sha256": "7b1ad07c360df2441c9de1f4d2d7ab8310036d0c093cd7892029907d7bc42457"
+    },
+    {
+      "path": "00_original_metatime/Metatime-main/data/2026/02/oneparamSM.json",
+      "size": 1593,
+      "sha256": "7c5ef86098603e401fe7a080066a3255800593dafb769ee75e22e17896a2614c"
+    },
+    {
+      "path": "00_original_metatime/Metatime-main/data/2026/02/oneparamSM.txt",
+      "size": 1207,
+      "sha256": "3de96293e5682dc1bc607544b9764f51937661b5d8b644d24f03d51e2701d534"
+    },
+    {
+      "path": "00_original_metatime/Metatime-main/data/collatzprimetwins.ipynb",
+      "size": 159262,
+      "sha256": "1468367a0602489d1bc03e82c9cbedece6888129bcce4c3f3c0d30afb743dc56"
+    },
+    {
+      "path": "00_original_metatime/Metatime-main/data/fits.md",
+      "size": 108,
+      "sha256": "b139069f827485c2041480fafe1adbc649eb18adcc7d065d66d187405b05d376"
+    },
+    {
+      "path": "00_original_metatime/Metatime-main/documents/CMB_Dynamics-3-1.pdf",
+      "size": 548409,
+      "sha256": "aa4384879a8b5f5105df0a707253ff7302e2810e21599441a2527e3930494375"
+    },
+    {
+      "path": "00_original_metatime/Metatime-main/documents/CMB_fixed2.pdf",
+      "size": 160371,
+      "sha256": "60f4ac92921fb15cf300a31212a1a7701a5768652503fb72784c09af005f49ed"
+    },
+    {
+      "path": "00_original_metatime/Metatime-main/documents/Calabi_Yau.pdf",
+      "size": 244134,
+      "sha256": "da3dff4de0c6d8a74af512a81767cd0ca624a8bdf3bc8aab52f15287f9e55af2"
+    },
+    {
+      "path": "00_original_metatime/Metatime-main/documents/Calabi_Yau2.pdf",
+      "size": 163226,
+      "sha256": "16e483e8d6a96c13e26e7a9c2e659e9294411b338f5696c13fd951d7764df52a"
+    },
+    {
+      "path": "00_original_metatime/Metatime-main/documents/Coherence_law_application.pdf",
+      "size": 461106,
+      "sha256": "2c7035ae59c92ddc1df7f455ee8b1b18515e0300656b684ff1b277652ce8d7d7"
+    },
+    {
+      "path": "00_original_metatime/Metatime-main/documents/Collatz_emergence (6).pdf",
+      "size": 321765,
+      "sha256": "ea5acf4654e74a654b158418790dae47e4933bfa433ead09596c731d19504229"
+    },
+    {
+      "path": "00_original_metatime/Metatime-main/documents/Collatz_emergence1.pdf",
+      "size": 223237,
+      "sha256": "c0b8306612c549f261a69e2c3fa910cb3a3150eebe32171d8e44c298ef3aa526"
+    },
+    {
+      "path": "00_original_metatime/Metatime-main/documents/Corrections (1).pdf",
+      "size": 224070,
+      "sha256": "f559edb762f79a3fc2b20c71d63b1282c912032be50ebbe867e73808fbc3d730"
+    },
+    {
+      "path": "00_original_metatime/Metatime-main/documents/Corrections (2).pdf",
+      "size": 213866,
+      "sha256": "434733cbae87924485ebabed641ea20c9de613f0205f420945d4a946d835ff1a"
+    },
+    {
+      "path": "00_original_metatime/Metatime-main/documents/Corrections (3).pdf",
+      "size": 265229,
+      "sha256": "f057a5e81d5a7860d44bc595b84bb63fccc162558708de78fd9ccd05e8620a33"
+    },
+    {
+      "path": "00_original_metatime/Metatime-main/documents/Docs.md",
+      "size": 56,
+      "sha256": "b2a43ca8b034a4f141a0539cffe1da97246f22281a2f75c592b8a0626f222a5a"
+    },
+    {
+      "path": "00_original_metatime/Metatime-main/documents/Formal_SM.pdf",
+      "size": 377871,
+      "sha256": "ee77dbe2617d7c015252a2277756cec1582338271316cc6fbe7472f6848dec1c"
+    },
+    {
+      "path": "00_original_metatime/Metatime-main/documents/Kappa_from_geometry.pdf",
+      "size": 315593,
+      "sha256": "acda64eb0a98f91606c4364030e7aa3d38855ca9fe3cbe0aebeebcd279d92e13"
+    },
+    {
+      "path": "00_original_metatime/Metatime-main/documents/Lambda_meta.pdf",
+      "size": 302370,
+      "sha256": "6dadc31aec6df49e9c7c923e544b5377c40fafc26ffbed02f52106a196ac6020"
+    },
+    {
+      "path": "00_original_metatime/Metatime-main/documents/MetaEFT.pdf",
+      "size": 271712,
+      "sha256": "e22fbfd48fc65b3cbe6c07f3ed66bd87b53d62da0ba24a62f9e85cb334b7a18c"
+    },
+    {
+      "path": "00_original_metatime/Metatime-main/documents/MetatimeRama.pdf",
+      "size": 175259,
+      "sha256": "a85c41e104c2ab56a752b17855e40048fee2ce7a217cbc913973b2006180dee4"
+    },
+    {
+      "path": "00_original_metatime/Metatime-main/documents/Metatime_with_Euler_extension (8).pdf",
+      "size": 274916,
+      "sha256": "3a58cd2092743b1ed94a6ef86c0ac6e535954dcbfa9cc25ad27ad94a5d589b74"
+    },
+    {
+      "path": "00_original_metatime/Metatime-main/documents/NVIDIA H200 & GB300 Harmonic Topological Resonance Inducement (HTRI).md",
+      "size": 36892,
+      "sha256": "e1b00f2aeb40fc55ffd9a7fdcc66292ea0c376d04447eaadafc35f42b98f98fc"
+    },
+    {
+      "path": "00_original_metatime/Metatime-main/documents/Neutrinotime14.pdf",
+      "size": 777516,
+      "sha256": "8b4071fe995b1981bfa4376f331e78fef428a7211fcafd02ead799f59dbe04aa"
+    },
+    {
+      "path": "00_original_metatime/Metatime-main/documents/Perfect_manifestation-1.pdf",
+      "size": 526363,
+      "sha256": "59d4b1818adbfa2603f26890fd34ee8ebcb728c316b2ce25b188b51b1c1d0736"
+    },
+    {
+      "path": "00_original_metatime/Metatime-main/documents/Perfect_numbers_and_rhe_strings.pdf",
+      "size": 300508,
+      "sha256": "3ea346b0579874ea88746de22b8c7bf125b71c1c8b99f3cc66288142bd415f08"
+    },
+    {
+      "path": "00_original_metatime/Metatime-main/documents/PrimordialBlackholeorplanetXlocationcomputing.pdf",
+      "size": 138870,
+      "sha256": "4b11ff89a6adf7bff2ad08ecb67161d1960a9d085c5f0930260ed1ad30bc943a"
+    },
+    {
+      "path": "00_original_metatime/Metatime-main/documents/SM_and_M_Theory_generalisation.pdf",
+      "size": 315018,
+      "sha256": "af9dd34945f05879f9067945c9ee257253d2ccc57360900f87d4697650452bc3"
+    },
+    {
+      "path": "00_original_metatime/Metatime-main/documents/Sigma (1).pdf",
+      "size": 441089,
+      "sha256": "06aa9f8046e694cd3d06aaecd9b69679948cd64b18a908245deffe76eda58954"
+    },
+    {
+      "path": "00_original_metatime/Metatime-main/documents/Sigma.pdf",
+      "size": 221758,
+      "sha256": "f56f05c6a042ae7364508abbd57e2c279919f7911e3f3d330dc65ee56be402fd"
+    },
+    {
+      "path": "00_original_metatime/Metatime-main/documents/White_threads (1).pdf",
+      "size": 222792,
+      "sha256": "bcdc1f885f5902f479f502537a1aee3e9ae111c2e08cb1ce188df2fcefa5a4f9"
+    },
+    {
+      "path": "00_original_metatime/Metatime-main/documents/White_threads.pdf",
+      "size": 304493,
+      "sha256": "4f5f6e5a5d9b1b64932cfb954032eb3137801fbf58ae2f91f4da365f209453ad"
+    },
+    {
+      "path": "00_original_metatime/Metatime-main/documents/collatz emergence.pdf",
+      "size": 185510,
+      "sha256": "c1ba2a6d495fcd82702b7de92965bc91c8f2bd6567d959f4b38eea9d3216edd9"
+    },
+    {
+      "path": "00_original_metatime/Metatime-main/documents/fa00b095.md",
+      "size": 13152,
+      "sha256": "51b71cf5ae53fd1c786abb27ea7efa0ad18ad9f47e3952461fadb640bc647227"
+    },
+    {
+      "path": "00_original_metatime/Metatime-main/file_0000000074ac720aa48d13b55bb80b5c.png",
+      "size": 867099,
+      "sha256": "d432c85205060d9c5988a98691244b0333e4c9b08475b4d1aeffc9fcc03e7583"
+    },
+    {
+      "path": "00_original_metatime/Metatime-main/registries/AGENT6_EQUATION_PRIORITY_REGISTER_2026-03-25.yaml",
+      "size": 7574,
+      "sha256": "8a21ac1a1e7bf26087dbb6446b4590e9a986fcc5c4c2302e7b4d513d1515e0a7"
+    },
+    {
+      "path": "00_original_metatime/Metatime-main/reports/AGENT6_DERIVATION_PRIORITY_REPORT_2026-03-25.md",
+      "size": 8431,
+      "sha256": "7079df958c8fe9daea06db10162f3b2127114b9c2453fa0dc6595c100935e294"
+    },
+    {
+      "path": "00_original_metatime/Metatime-main/reports/AGENT6_FILE_PLACEMENT_AUDIT_2026-03-25.md",
+      "size": 6885,
+      "sha256": "468bc2543059f0f0d900f240c060880865579fe35ed11ebc2f77b54dda33daf4"
+    },
+    {
+      "path": "00_original_metatime/Metatime-main/simulations/Metatime_Framework(1).py",
+      "size": 14729,
+      "sha256": "616a9e069ac6223f160c047021c9fe7dc1bbc7d236a5679d4af2095eebeab14d"
+    },
+    {
+      "path": "00_original_metatime/Metatime-main/simulations/PBH/primordialblackhole.py",
+      "size": 3030,
+      "sha256": "a9cc4284e251a2b7a59232658155ec5b300a35c6861d637ca5ca1889468c10a9"
+    },
+    {
+      "path": "00_original_metatime/Metatime-main/simulations/Standard Model/README.md",
+      "size": 2353,
+      "sha256": "38820521e7def5bf77b23cdeb4e4b9c83e7e8da16f4db4e02dd610442564931b"
+    },
+    {
+      "path": "00_original_metatime/Metatime-main/simulations/Standard Model/Simulation 1",
+      "size": 3368,
+      "sha256": "2f9efeadc9425f3571b1c9678fa113e0940e84e73512b9b37ce111500eb9bfbe"
+    },
+    {
+      "path": "00_original_metatime/Metatime-main/simulations/Standard Model/full solver.py",
+      "size": 39348,
+      "sha256": "9b6baa590016044719a40bf9244ac8f0d2f4ee3997d57b23abf8ddb993d5b216"
+    },
+    {
+      "path": "00_original_metatime/Metatime-main/simulations/Standard Model/metatime enhanced solver.py:",
+      "size": 19402,
+      "sha256": "954371bdf38278fa70aadceb1bdf59f7d6904f0a650b982956b70384f0ea129b"
+    },
+    {
+      "path": "00_original_metatime/Metatime-main/simulations/Standard Model/oneparamSM.py",
+      "size": 14550,
+      "sha256": "e5d1e99c911bc7f66a702152af3168b6928cad00b7541f4643fc05b876fcdbe3"
+    },
+    {
+      "path": "00_original_metatime/Metatime-main/simulations/Standard Model/plots.py",
+      "size": 44665,
+      "sha256": "bdb792ce037aa8bab58ebcaeb9d04fc8b0864dfa26ba0139c44e0abd9b520816"
+    },
+    {
+      "path": "00_original_metatime/Metatime-main/simulations/Toy-Model White-Thread Matrix F_ij #U2014 Next Steps/Module: #U03b2#U2011Calibration.py",
+      "size": 856,
+      "sha256": "598685daaf28470347efd2ff81e25fbdfbaf950f156a67a18b5c5595a7f42807"
+    },
+    {
+      "path": "00_original_metatime/Metatime-main/simulations/Toy-Model White-Thread Matrix F_ij #U2014 Next Steps/Module: Berry Monopole A on S#U00b2.py",
+      "size": 544,
+      "sha256": "d40786c83da71dfd5e3c7560061ae8f174a8e68ddc29e11451f7928724a4b17b"
+    },
+    {
+      "path": "00_original_metatime/Metatime-main/simulations/Toy-Model White-Thread Matrix F_ij #U2014 Next Steps/Module: Extend to Full SM Baryons and Mesons.py",
+      "size": 452,
+      "sha256": "914313eea041cb2cb71cf70e6eb3c0a394f90f11b3ff3fcc0fdbd74557b3227a"
+    },
+    {
+      "path": "00_original_metatime/Metatime-main/simulations/Toy-Model White-Thread Matrix F_ij #U2014 Next Steps/README.md",
+      "size": 3501,
+      "sha256": "78d9bdd9827c4255b491747714478a525a4d6b538bdde14d410a101ee1a90d27"
+    },
+    {
+      "path": "01_foundational_formal_notes/Hamiltonian_fazowo_intencjonalny_podkladka.pdf",
+      "size": 664918,
+      "sha256": "8c1a6e9ca10fbc7a29f62333e5e924eaf146331f84a8d73985fdaa0ec586782e"
+    },
+    {
+      "path": "01_foundational_formal_notes/Hamiltonian_fazowo_intencjonalny_podkladka.tex",
+      "size": 14574,
+      "sha256": "3ce61cd11df8869d7798cc16ac11d16faa9abb8321114de122818783ec4a4223"
+    },
+    {
+      "path": "01_foundational_formal_notes/Hilbert_Kahler_Phase_Intention_Hamiltonian.pdf",
+      "size": 479405,
+      "sha256": "6f2e148b0c1a09c6c4b0e39c84b5eefde2b94603d264a5ce22913007a9f1fe00"
+    },
+    {
+      "path": "01_foundational_formal_notes/Hilbert_Kahler_Phase_Intention_Hamiltonian.tex",
+      "size": 22010,
+      "sha256": "102124cb530756dd5c08fe8a81c63f0649a304bfd6e89fab5f781c96663fe605"
+    },
+    {
+      "path": "01_foundational_formal_notes/METATIME_COMPLETENESS_AND_PHASE_HAMILTONIAN_AUDIT_20260619.md",
+      "size": 9054,
+      "sha256": "bfc070d6ebb31c8083d71a586fa4916a65adce6e8c5505883fed1e501b5a3d98"
+    },
+    {
+      "path": "01_foundational_formal_notes/METATIME_HARD_MATH_SUBSTITUTION_AUDIT_20260619.md",
+      "size": 5473,
+      "sha256": "3ebdef4e1ed3223de9b8204cffd1ec750743da29d864e97a00dea17164d1ccea"
+    },
+    {
+      "path": "01_foundational_formal_notes/Phase_Intention_Hamiltonian_Formal_Derivations.pdf",
+      "size": 809188,
+      "sha256": "93f4ba2c1c53a71d2685604f35fc8b7c989d9f9798abda66a54eb267f99a1a97"
+    },
+    {
+      "path": "01_foundational_formal_notes/Phase_Intention_Hamiltonian_Formal_Derivations.tex",
+      "size": 22330,
+      "sha256": "4ab7c5fd89fd5d9bf5ff223625250dfd9baacf04c36c7362d07be1125ca0c8ed"
+    },
+    {
+      "path": "01_foundational_formal_notes/hilbert_kahler_phase_hamiltonian/README.md",
+      "size": 1176,
+      "sha256": "fef74fdf5bf88d5ab56c8848a8bb0ba19663ad6483d7023052d29913cffd0077"
+    },
+    {
+      "path": "01_foundational_formal_notes/hilbert_kahler_phase_hamiltonian/figures/berry_curvature_density.pdf",
+      "size": 13406,
+      "sha256": "77c93eeadc97d3e671e5f7d903bf612c291bf7ce96b94bc3858f4e303d6d43fb"
+    },
+    {
+      "path": "01_foundational_formal_notes/hilbert_kahler_phase_hamiltonian/figures/closure_defect.pdf",
+      "size": 15037,
+      "sha256": "8919bf07b935f725741b91478f466ea3eec4e392595ff5da6b4af21006bad9da"
+    },
+    {
+      "path": "01_foundational_formal_notes/hilbert_kahler_phase_hamiltonian/figures/collatz_rhythm.pdf",
+      "size": 13949,
+      "sha256": "9aa5402e823b552441cad00b8b423ff1330271e963dd791a97f44c0113fdacde"
+    },
+    {
+      "path": "01_foundational_formal_notes/hilbert_kahler_phase_hamiltonian/figures/poincare_collatz_trajectory.pdf",
+      "size": 15946,
+      "sha256": "7c34a4d4f44a98d32c49162ed23f87ab7ce7e83cf89d3f68f9cd3c28d246e881"
+    },
+    {
+      "path": "01_foundational_formal_notes/hilbert_kahler_phase_hamiltonian/figures/zeta_tetrahedral_frame.pdf",
+      "size": 27515,
+      "sha256": "bf150796eb16fa07abcad0aa0cd1080b75e339f4b1aba8b7d8ada432a27d4e48"
+    },
+    {
+      "path": "01_foundational_formal_notes/hilbert_kahler_phase_hamiltonian/main.aux",
+      "size": 4505,
+      "sha256": "3de9f0da2ecd3a8299a1f7493d096f3345cc1a5bede06762c93956a395376ead"
+    },
+    {
+      "path": "01_foundational_formal_notes/hilbert_kahler_phase_hamiltonian/main.log",
+      "size": 31800,
+      "sha256": "2d4baecaba62a21a4de4b0c721a0ccb295ca236d90ca0a7039c7ffb8ae8de563"
+    },
+    {
+      "path": "01_foundational_formal_notes/hilbert_kahler_phase_hamiltonian/main.out",
+      "size": 5237,
+      "sha256": "857fbcbb970346fa7a7721b79aa7e765fcbdd278a07c8a648fdf1861356051ce"
+    },
+    {
+      "path": "01_foundational_formal_notes/hilbert_kahler_phase_hamiltonian/main.pdf",
+      "size": 479405,
+      "sha256": "6f2e148b0c1a09c6c4b0e39c84b5eefde2b94603d264a5ce22913007a9f1fe00"
+    },
+    {
+      "path": "01_foundational_formal_notes/hilbert_kahler_phase_hamiltonian/main.tex",
+      "size": 22010,
+      "sha256": "102124cb530756dd5c08fe8a81c63f0649a304bfd6e89fab5f781c96663fe605"
+    },
+    {
+      "path": "01_foundational_formal_notes/hilbert_kahler_phase_hamiltonian/main.toc",
+      "size": 1978,
+      "sha256": "f660e20bbdb3bf6c55ca6dcd84bea20ddb0959715dd10f0565038868a585b395"
+    },
+    {
+      "path": "01_foundational_formal_notes/hilbert_kahler_phase_hamiltonian/render/contact_sheet.jpg",
+      "size": 168646,
+      "sha256": "16ab6ad83a487b778886b82cf7423591f753497bc67b1264f56de3a2677dcfe1"
+    },
+    {
+      "path": "01_foundational_formal_notes/hilbert_kahler_phase_hamiltonian/render/page-01.png",
+      "size": 279106,
+      "sha256": "5479637defa6f5e3941fc7a04a1c1a1f9358bd4a048dd7c5a05a5ad5dcdbb28d"
+    },
+    {
+      "path": "01_foundational_formal_notes/hilbert_kahler_phase_hamiltonian/render/page-02.png",
+      "size": 109640,
+      "sha256": "4e97b201c24429b95a115214973604e8f3abc2431890422d6e4718c9d19e4a3c"
+    },
+    {
+      "path": "01_foundational_formal_notes/hilbert_kahler_phase_hamiltonian/render/page-03.png",
+      "size": 219327,
+      "sha256": "4b120c8748119dc6d992233fff72e4ad74c38bcffffc5e4f4caf9fd1999c8fde"
+    },
+    {
+      "path": "01_foundational_formal_notes/hilbert_kahler_phase_hamiltonian/render/page-04.png",
+      "size": 201950,
+      "sha256": "feb9457003588b528c16623008e1af0f81122657811770dd9a625984e1d50fda"
+    },
+    {
+      "path": "01_foundational_formal_notes/hilbert_kahler_phase_hamiltonian/render/page-05.png",
+      "size": 220892,
+      "sha256": "ec5b0a752f47d9c9ab498d2a36cef67b33e027b2ef282e00e09d6a30d9381240"
+    },
+    {
+      "path": "01_foundational_formal_notes/hilbert_kahler_phase_hamiltonian/render/page-06.png",
+      "size": 214551,
+      "sha256": "c22841808f3eae94a53e6f34db7c8117ae58874fd39b9a38767ed02d4c013835"
+    },
+    {
+      "path": "01_foundational_formal_notes/hilbert_kahler_phase_hamiltonian/render/page-07.png",
+      "size": 304526,
+      "sha256": "3e8fb68cfc479d234718949c5959551687b48d0a2e6948bbb8ec9836c5c17923"
+    },
+    {
+      "path": "01_foundational_formal_notes/hilbert_kahler_phase_hamiltonian/render/page-08.png",
+      "size": 215934,
+      "sha256": "5054b41a47bdfe3ed45e33bdd2c37c59cd84e01b303a0ea5410b8c6d961efec9"
+    },
+    {
+      "path": "01_foundational_formal_notes/hilbert_kahler_phase_hamiltonian/render/page-09.png",
+      "size": 91239,
+      "sha256": "cbb5bec7646ce5d5f1978cd1f53574c636ac86f6da40bb1100dc3836b16c95a7"
+    },
+    {
+      "path": "01_foundational_formal_notes/hilbert_kahler_phase_hamiltonian/render/page-10.png",
+      "size": 190730,
+      "sha256": "b692421e211227f2c9c5e94cf47f554a8ea65d3cc83f206a7aafa7d40b45ca80"
+    },
+    {
+      "path": "01_foundational_formal_notes/hilbert_kahler_phase_hamiltonian/render/page-11.png",
+      "size": 271268,
+      "sha256": "32af6333b56cd8b7d7ac45ef61be66710f9efe0e2714cabc86a2295f46285f51"
+    },
+    {
+      "path": "01_foundational_formal_notes/hilbert_kahler_phase_hamiltonian/render/page-12.png",
+      "size": 73264,
+      "sha256": "93a4ffdeb149f40cd5890a77b269f119cf6140144b3e2ebd5444a9ae37f580ec"
+    },
+    {
+      "path": "01_foundational_formal_notes/hilbert_kahler_phase_hamiltonian/render/page-13.png",
+      "size": 259194,
+      "sha256": "bc8f2dd242bb8ccc1b2d9048f3f09abeeef588a4246bc9b222bee713bc558907"
+    },
+    {
+      "path": "01_foundational_formal_notes/hilbert_kahler_phase_hamiltonian/render/page-14.png",
+      "size": 181644,
+      "sha256": "38c88f1ca16657eff9b64611b2763ac6f341d708280cb3f79760200fdb0c3228"
+    },
+    {
+      "path": "01_foundational_formal_notes/hilbert_kahler_phase_hamiltonian/render/page-15.png",
+      "size": 279673,
+      "sha256": "71682bc839f30ec914b36c21053208110bf8e7d1f3aa5be783653ac627e50cf4"
+    },
+    {
+      "path": "01_foundational_formal_notes/hilbert_kahler_phase_hamiltonian/render/page-16.png",
+      "size": 24816,
+      "sha256": "52581fd18fa657c5bac8118b6a8d9d87b558aa9f376c96d0779e1624dfdf71d6"
+    },
+    {
+      "path": "01_foundational_formal_notes/hilbert_kahler_phase_hamiltonian/render/page-17.png",
+      "size": 267980,
+      "sha256": "3bf76ab8884c84147ad6b2fd1b17b33c2f097db9ab7416e03b4ca27df3645913"
+    },
+    {
+      "path": "01_foundational_formal_notes/hilbert_kahler_phase_hamiltonian/render/page-18.png",
+      "size": 171991,
+      "sha256": "412f04a659c3201065c6886d16453bdc9f0681860e6a8d7e6087ba731b193bf5"
+    },
+    {
+      "path": "01_foundational_formal_notes/hilbert_kahler_phase_hamiltonian/results/collatz_poincare_phase.json",
+      "size": 27024,
+      "sha256": "14867e628529f9b0f8e99f018781764ee0e0c5d3992146be45cdd57fef1792ac"
+    },
+    {
+      "path": "01_foundational_formal_notes/hilbert_kahler_phase_hamiltonian/results/cp1_berry_geometry_check.json",
+      "size": 225,
+      "sha256": "9dc6353c08276d167f39e8df01ad82f4df462662455830a3a4b7b8ede50a3464"
+    },
+    {
+      "path": "01_foundational_formal_notes/hilbert_kahler_phase_hamiltonian/results/zeta_tetrahedral_map.json",
+      "size": 1465,
+      "sha256": "41b1e910f89c9381008297deeb4e151f025c6369c7c53f5b60ff0dd1938f0398"
+    },
+    {
+      "path": "01_foundational_formal_notes/hilbert_kahler_phase_hamiltonian/scripts/geometry_checks.py",
+      "size": 1507,
+      "sha256": "903be43de5471a113a53f5bb3a0aa0eaeff610955aa19d9f371b34844eeec956"
+    },
+    {
+      "path": "01_foundational_formal_notes/hilbert_kahler_phase_hamiltonian/scripts/simulate_collatz_poincare.py",
+      "size": 3930,
+      "sha256": "125c2fa729889d870804defcc333773e95870477e4a052030bf5df54fea7877c"
+    },
+    {
+      "path": "01_foundational_formal_notes/hilbert_kahler_phase_hamiltonian/scripts/zeta_tetrahedral_map.py",
+      "size": 2638,
+      "sha256": "0555f956203d1968067fe4377c7b5ef7058a6fc910045abc9f7920aad542acd1"
+    },
+    {
+      "path": "01_foundational_formal_notes/intention_phase_hamiltonian_workbench/data/simulation_summary.json",
+      "size": 91112,
+      "sha256": "5f8218ba38dcd585bb2ad2228721d78140ed9deebd669def7260e8285212dec2"
+    },
+    {
+      "path": "01_foundational_formal_notes/intention_phase_hamiltonian_workbench/figures/phase_trace.pdf",
+      "size": 21104,
+      "sha256": "091fe59d4d01d2b3b1762141dd1ee8604e7a17714aefaf5a3d62de7469feb576"
+    },
+    {
+      "path": "01_foundational_formal_notes/intention_phase_hamiltonian_workbench/figures/phase_trace.png",
+      "size": 103511,
+      "sha256": "4a9a73d9c070e62c5f25d1f00d46ace631c65c1210194f75f9f1b5ca395813fd"
+    },
+    {
+      "path": "01_foundational_formal_notes/intention_phase_hamiltonian_workbench/figures/seed_final_phase.pdf",
+      "size": 14614,
+      "sha256": "cfe8495bb666cf0335a86e1713059cd9f96b9851c69848505cc1d63fde8d082c"
+    },
+    {
+      "path": "01_foundational_formal_notes/intention_phase_hamiltonian_workbench/figures/seed_final_phase.png",
+      "size": 87710,
+      "sha256": "4365ccc6ea470efeec3b27c22e6878d6570ced6dba8d14fd2653a7284ca3df73"
+    },
+    {
+      "path": "01_foundational_formal_notes/intention_phase_hamiltonian_workbench/figures/unitarity_scan.pdf",
+      "size": 14265,
+      "sha256": "77d174cde7e33272ccebbf898fe5ca348649f261dbc97adee13e9f04164bbc6d"
+    },
+    {
+      "path": "01_foundational_formal_notes/intention_phase_hamiltonian_workbench/figures/unitarity_scan.png",
+      "size": 42242,
+      "sha256": "59bc6e05cac74a6bfd82eb45df7b6f43380f997234c2a3c78bdff74fbe4ac60f"
+    },
+    {
+      "path": "01_foundational_formal_notes/intention_phase_hamiltonian_workbench/receipts/verification_receipt.txt",
+      "size": 48,
+      "sha256": "42b5a936b84d5eeee7e776c25513988695f80f64e3d9692afb6ee50283d39661"
+    },
+    {
+      "path": "01_foundational_formal_notes/intention_phase_hamiltonian_workbench/simulations/intention_phase_sim.py",
+      "size": 8751,
+      "sha256": "544b9bfcca8db5bd5508823a4f1abcc2d81ac408cbd5573dcaccbac85295d577"
+    },
+    {
+      "path": "01_foundational_formal_notes/intention_phase_hamiltonian_workbench/simulations/verify_formal_constraints.py",
+      "size": 1163,
+      "sha256": "c21b52d4a395637bbf3390e90ccbe9abf511614ea875758b4923d39dc76f7df3"
+    },
+    {
+      "path": "01_foundational_formal_notes/phase_hamiltonian_english_derivations/README.md",
+      "size": 932,
+      "sha256": "e7ba1a151c408d8e491369382f917b2f252d2f99c64408dc56c30683f715aecd"
+    },
+    {
+      "path": "01_foundational_formal_notes/phase_hamiltonian_english_derivations/figures/collatz_orbit.png",
+      "size": 92687,
+      "sha256": "f6a673cafea6499f960b9187e2d3bb0917d653e9f58a8692f2d8466b8b1c8173"
+    },
+    {
+      "path": "01_foundational_formal_notes/phase_hamiltonian_english_derivations/figures/collatz_rhythm.png",
+      "size": 117344,
+      "sha256": "ae4ceddc9f873289725c6308f0f9fa5d559f52b491f9e0a3114a7791bfd95cb4"
+    },
+    {
+      "path": "01_foundational_formal_notes/phase_hamiltonian_english_derivations/figures/energy_expectation_demo.png",
+      "size": 56129,
+      "sha256": "b2a558d062d1381e71509651ea6772ae55e47291ff8ad36f26b81498747577f1"
+    },
+    {
+      "path": "01_foundational_formal_notes/phase_hamiltonian_english_derivations/figures/euler_berry_constraint_scan.png",
+      "size": 92823,
+      "sha256": "3a4148fd8dd36fe4ca389a1d14ee118da849f500df74215d8c15f13159158f73"
+    },
+    {
+      "path": "01_foundational_formal_notes/phase_hamiltonian_english_derivations/figures/intention_phase_accumulation.png",
+      "size": 56867,
+      "sha256": "78c4fcc8b0bf49bf1b0bb68f96c0207d82e622aebfb2d6ae6b854a413b5e9e19"
+    },
+    {
+      "path": "01_foundational_formal_notes/phase_hamiltonian_english_derivations/figures/unitary_norm_check.png",
+      "size": 38633,
+      "sha256": "4389d8a409ac534843631323b8a0a48198c5a1ba2ba251714d458e46e3690254"
+    },
+    {
+      "path": "01_foundational_formal_notes/phase_hamiltonian_english_derivations/main.aux",
+      "size": 7334,
+      "sha256": "2afd37f18890ea38dd4442fb607a6b9bd7e76fce69d2f7937fc2d39d12b59c55"
+    },
+    {
+      "path": "01_foundational_formal_notes/phase_hamiltonian_english_derivations/main.log",
+      "size": 31143,
+      "sha256": "3ea15fcaf1034f3317213ad6d9bc6be6a5736824f6d2993c38fa6841c698efa2"
+    },
+    {
+      "path": "01_foundational_formal_notes/phase_hamiltonian_english_derivations/main.out",
+      "size": 4969,
+      "sha256": "9778853e5e5df758acbcdef7a6ec3db0c7d9ce46335b24e5d0cc95d5e2562c8c"
+    },
+    {
+      "path": "01_foundational_formal_notes/phase_hamiltonian_english_derivations/main.pdf",
+      "size": 809188,
+      "sha256": "93f4ba2c1c53a71d2685604f35fc8b7c989d9f9798abda66a54eb267f99a1a97"
+    },
+    {
+      "path": "01_foundational_formal_notes/phase_hamiltonian_english_derivations/main.tex",
+      "size": 22330,
+      "sha256": "4ab7c5fd89fd5d9bf5ff223625250dfd9baacf04c36c7362d07be1125ca0c8ed"
+    },
+    {
+      "path": "01_foundational_formal_notes/phase_hamiltonian_english_derivations/main.toc",
+      "size": 2096,
+      "sha256": "2c3f0635817742b29a91fab967425f010bbdb4cfc040a87bb6cd9fbf0de25808"
+    },
+    {
+      "path": "01_foundational_formal_notes/phase_hamiltonian_english_derivations/results/collatz_phase_result.json",
+      "size": 372,
+      "sha256": "c000c696918a3908709a786d1af011ebec2fbe31352cd5e71ae1110281d6e2e0"
+    },
+    {
+      "path": "01_foundational_formal_notes/phase_hamiltonian_english_derivations/results/euler_berry_scan.json",
+      "size": 137677,
+      "sha256": "ca97f92aff5507c9d79d276df8a66e221f2c048385374c818588f7efb0b1f4b0"
+    },
+    {
+      "path": "01_foundational_formal_notes/phase_hamiltonian_english_derivations/results/hamiltonian_matrix_result.json",
+      "size": 238,
+      "sha256": "bebc8f3998d3a9e1b2201f8b7b56b49d00d8ae10ae57535d3d0742ee933a7af3"
+    },
+    {
+      "path": "01_foundational_formal_notes/phase_hamiltonian_english_derivations/scripts/collatz_phase_sim.py",
+      "size": 6128,
+      "sha256": "10d7be072dd153a45b3668bcadfd2dccf62da7aa75e6ddf89d638510d1b7958c"
+    },
+    {
+      "path": "01_foundational_formal_notes/phase_hamiltonian_english_derivations/scripts/euler_berry_constraint_scan.py",
+      "size": 2339,
+      "sha256": "9166ee915757a3ddf3ed78fdf57503cd23f238c50bbb4c5d8d022f76efe915bd"
+    },
+    {
+      "path": "01_foundational_formal_notes/phase_hamiltonian_english_derivations/scripts/hamiltonian_matrix_demo.py",
+      "size": 3447,
+      "sha256": "874b93c6afa16349231be13a3e28787924763b0077ed380508a6257d03c29afe"
+    },
+    {
+      "path": "01_foundational_formal_notes/phase_hamiltonian_english_derivations/scripts/run_all.py",
+      "size": 703,
+      "sha256": "aeb0ecb4b177f74867b0ef73d22a7105267fc736ac7871ab7e1c5eaf90fe4fdf"
+    },
+    {
+      "path": "01_foundational_formal_notes/phase_hamiltonian_podkladka/README.md",
+      "size": 1032,
+      "sha256": "a4ff9c8522d0c19e44f644b540128d7efdbbad117892a2e3a29f285c31697abc"
+    },
+    {
+      "path": "01_foundational_formal_notes/phase_hamiltonian_podkladka/figures/collatz_intention_phase.png",
+      "size": 74494,
+      "sha256": "692ef6af85806e192d7b578bb85ed07341b0458692739e2ced7ac4eb3bee4b0f"
+    },
+    {
+      "path": "01_foundational_formal_notes/phase_hamiltonian_podkladka/figures/energy_expectation_demo.png",
+      "size": 81962,
+      "sha256": "0bb829ed7c9b1707e19b03f535c7ed23f22c29de41126bd31e4affa2b7725497"
+    },
+    {
+      "path": "01_foundational_formal_notes/phase_hamiltonian_podkladka/figures/euler_berry_epsilon_scan.png",
+      "size": 94610,
+      "sha256": "12ec39f2aa5f870c456d9a8b4c5f780e509bda791f21c30f3eec343492d10abb"
+    },
+    {
+      "path": "01_foundational_formal_notes/phase_hamiltonian_podkladka/figures/unitary_norm_check.png",
+      "size": 42004,
+      "sha256": "0c75bcaecd965d2dfa72e785513f1da70bff7c29ef62061b14739e072e653e67"
+    },
+    {
+      "path": "01_foundational_formal_notes/phase_hamiltonian_podkladka/main.aux",
+      "size": 3991,
+      "sha256": "e1bc3bf624f513b5830cb368f8cbcf7bb86664f2f7f3a572900a0f04ba535d0f"
+    },
+    {
+      "path": "01_foundational_formal_notes/phase_hamiltonian_podkladka/main.log",
+      "size": 29262,
+      "sha256": "d948e1b960deb6e345307a2e985410d09db061032f8111a1fcf0c48d3b372e3b"
+    },
+    {
+      "path": "01_foundational_formal_notes/phase_hamiltonian_podkladka/main.out",
+      "size": 3635,
+      "sha256": "226b6f0542afe1a5d9cbf9a48252f7379b97592c8c75a971afd4acdffedb40be"
+    },
+    {
+      "path": "01_foundational_formal_notes/phase_hamiltonian_podkladka/main.pdf",
+      "size": 664918,
+      "sha256": "8c1a6e9ca10fbc7a29f62333e5e924eaf146331f84a8d73985fdaa0ec586782e"
+    },
+    {
+      "path": "01_foundational_formal_notes/phase_hamiltonian_podkladka/main.tex",
+      "size": 14574,
+      "sha256": "3ce61cd11df8869d7798cc16ac11d16faa9abb8321114de122818783ec4a4223"
+    },
+    {
+      "path": "01_foundational_formal_notes/phase_hamiltonian_podkladka/main.toc",
+      "size": 1610,
+      "sha256": "54152b0d0f910e290f1b21b1801288e1945aadb321857efeeeaa0e90a270f6f1"
+    },
+    {
+      "path": "01_foundational_formal_notes/phase_hamiltonian_podkladka/results/collatz_phase_results.json",
+      "size": 8858,
+      "sha256": "5fcb4de580de5d705b4dc88c91c36342078df666d354faac32e0c0ba05dab227"
+    },
+    {
+      "path": "01_foundational_formal_notes/phase_hamiltonian_podkladka/results/hamiltonian_matrix_results.json",
+      "size": 254,
+      "sha256": "cd62b161804ae5aac0b29d1577010a211f8bc63eaf010eecb5d909d72bc4f6cd"
+    },
+    {
+      "path": "01_foundational_formal_notes/phase_hamiltonian_podkladka/results/summary.json",
+      "size": 280,
+      "sha256": "c01321e157949d396c01037a0757bd8490bfd887d35a39c2e92f0e47dd6d6afc"
+    },
+    {
+      "path": "01_foundational_formal_notes/phase_hamiltonian_podkladka/scripts/collatz_phase_sim.py",
+      "size": 6147,
+      "sha256": "c35a590e496a8cf51f039efcd204a171d2e161edf54b3f55019f68716c8e251b"
+    },
+    {
+      "path": "01_foundational_formal_notes/phase_hamiltonian_podkladka/scripts/hamiltonian_matrix_demo.py",
+      "size": 3465,
+      "sha256": "140c84c8efad96ccd42f5f9027a50523c9a9206c4900d90890b4e653544b5f60"
+    },
+    {
+      "path": "01_foundational_formal_notes/phase_hamiltonian_podkladka/scripts/run_all.py",
+      "size": 584,
+      "sha256": "3897861a2557fefd6d8026cd9c605604861c66c23eaae6719602cbb61e80cf5e"
+    },
+    {
+      "path": "02_canonical_freezes_and_audits/metatime_eulerberry_freeze_v0_1/METATIME_EULERBERRY_FREEZE_v0_1.json",
+      "size": 1310,
+      "sha256": "31895d35b2ecd173c5b9a169046920931fe11c544211b12bf308da74de02951a"
+    },
+    {
+      "path": "02_canonical_freezes_and_audits/metatime_eulerberry_freeze_v0_1/METATIME_EULERBERRY_FREEZE_v0_1.md",
+      "size": 9051,
+      "sha256": "1d830c32858fbe40148e45173a08c3abdb14f244d9ad579ef5e034003e304ecf"
+    },
+    {
+      "path": "02_canonical_freezes_and_audits/metatime_eulerberry_freeze_v0_1/OPEN_DERIVATION_DEBTS.md",
+      "size": 1758,
+      "sha256": "a4474e1ceb8048d6d6a8d6f3e14714f7b54e7680dc41e7c6af996f86c267eafd"
+    },
+    {
+      "path": "02_canonical_freezes_and_audits/metatime_eulerberry_freeze_v0_1/README.md",
+      "size": 560,
+      "sha256": "b3a94f52cd795384c733c41c50da06ca7b42d78d2dab78fccdd9d9619abfa6c3"
+    },
+    {
+      "path": "02_canonical_freezes_and_audits/metatime_eulerberry_freeze_v0_1/canonical_spine.tex",
+      "size": 1667,
+      "sha256": "2cf7e29209320f562518cc851a3c2b66345dd279cbcbc5c631ae601305aca110"
+    },
+    {
+      "path": "02_canonical_freezes_and_audits/metatime_eulerberry_freeze_v0_1/results/eb_freeze_check_stdout.json",
+      "size": 1814,
+      "sha256": "2549c344cf347a5557e374d735d1334802cec17cfaf6a3f71263dd31d3280637"
+    },
+    {
+      "path": "02_canonical_freezes_and_audits/metatime_eulerberry_freeze_v0_1/results/eb_freeze_numbers.json",
+      "size": 1813,
+      "sha256": "836c2802f9c01edac0ea584e1f34c98acf93e9952a99c63b69686a5301894436"
+    },
+    {
+      "path": "02_canonical_freezes_and_audits/metatime_eulerberry_freeze_v0_1/scripts/eb_freeze_check.py",
+      "size": 2488,
+      "sha256": "e0ffbf09bfd78dd7f1ae32c86022c0be26b868aadef0badc89dad3b4b3520010"
+    },
+    {
+      "path": "02_canonical_freezes_and_audits/metatime_hardmath_outputs/closure_rhs_residuals_Ddisk.csv",
+      "size": 634,
+      "sha256": "31cbce776c79bf895a89dbd9b73419274ca452b26dbc8c30dd94f0b151db9c0b"
+    },
+    {
+      "path": "02_canonical_freezes_and_audits/metatime_hardmath_outputs/lambda_D_variants.csv",
+      "size": 174,
+      "sha256": "9434c3d0273f6386253cf88672a0e98fe674dda11179069526992ecc1a0dd305"
+    },
+    {
+      "path": "02_canonical_freezes_and_audits/metatime_hardmath_outputs/neutrino_epsilons.csv",
+      "size": 724,
+      "sha256": "59a85dc01a544e15cb970dfcd4ba3cc73ce2970adaacf3e452a04eef9f76ec62"
+    },
+    {
+      "path": "02_canonical_freezes_and_audits/metatime_hardmath_outputs/noparamSM_audit.json",
+      "size": 150,
+      "sha256": "f5a3f218d9413bc4797bbf541c6c652112e480509fcf9450239006bac52991f9"
+    },
+    {
+      "path": "02_canonical_freezes_and_audits/metatime_hardmath_outputs/sm_anomaly_cancellation.json",
+      "size": 93,
+      "sha256": "75757fed3192be9f5beb7ab9e3d1931fa60df885b0d59e9c50d1590c208be7bd"
+    },
+    {
+      "path": "02_canonical_freezes_and_audits/metatime_hardmath_outputs/yukawa_required_holonomic_actions.csv",
+      "size": 1177,
+      "sha256": "fb28228e8713b2a84a0c62dc4898020fd38ae84c5bd40d26db05ba2064f688c9"
+    },
+    {
+      "path": "02_canonical_freezes_and_audits/metatime_sm_closure_audit_20260619/METATIME_SM_CLOSURE_SOURCE_MAP_20260619.json",
+      "size": 1160,
+      "sha256": "69e757a939b84a1fb24d02a5406fd0e66689ee728f252a62a5786d27841576fe"
+    },
+    {
+      "path": "02_canonical_freezes_and_audits/metatime_sm_closure_audit_20260619/METATIME_SM_CLOSURE_SOURCE_MAP_20260619.md",
+      "size": 11437,
+      "sha256": "a5896b01b5f3fdac622508e1b82eb43650d1901165af9c4c0a49d2e47c05d08c"
+    },
+    {
+      "path": "02_canonical_freezes_and_audits/metatime_sm_closure_audit_20260619/source_table.csv",
+      "size": 1186,
+      "sha256": "58a40bfa5cd71c12f7f6ddd0c22d80205a33d8b183daf029e5f9e21847143eb2"
+    },
+    {
+      "path": "10_standard_model_derivation_stages/01_metatime_sm_gauge_skeleton_v0_1/METATIME_SM_GAUGE_SKELETON_v0_1.json",
+      "size": 1048,
+      "sha256": "08dc5fee3f529c7cb17971043d6e7d302058421ce749995b4466cd914a1d158e"
+    },
+    {
+      "path": "10_standard_model_derivation_stages/01_metatime_sm_gauge_skeleton_v0_1/METATIME_SM_GAUGE_SKELETON_v0_1.md",
+      "size": 11631,
+      "sha256": "7456ea6dc310fa30c626f190e411b69a946bc10940047a7ba89ae2e65021c9e5"
+    },
+    {
+      "path": "10_standard_model_derivation_stages/01_metatime_sm_gauge_skeleton_v0_1/README.md",
+      "size": 536,
+      "sha256": "51de53b0aea2c419cf8134f0c3f9e50e5d15218d08f9f5deab8ee7751df1f139"
+    },
+    {
+      "path": "10_standard_model_derivation_stages/01_metatime_sm_gauge_skeleton_v0_1/SOURCE_DECISION_TABLE.md",
+      "size": 1061,
+      "sha256": "4b556edfcb1f141e56845d7941cb017535c75d929abae25cc2940e218ceda7c3"
+    },
+    {
+      "path": "10_standard_model_derivation_stages/01_metatime_sm_gauge_skeleton_v0_1/anomaly_check.py",
+      "size": 869,
+      "sha256": "8a0cb3576e98eefa68243f9ab1a3840126d149885cf4618b4d7d62cab62955ad"
+    },
+    {
+      "path": "10_standard_model_derivation_stages/01_metatime_sm_gauge_skeleton_v0_1/anomaly_check_result.txt",
+      "size": 162,
+      "sha256": "bbc32ca0c70dedf1050c590f4de2f4a52f8d148b9e9a370ae9bfa6753b26173a"
+    },
+    {
+      "path": "10_standard_model_derivation_stages/02_metatime_sm_mass_vectorization_v0_1/MASS_VECTORIZATION_SCHEMA.json",
+      "size": 2448,
+      "sha256": "19cd158b2eae966c95bcce7f7e68f9ec1b87f93ea2813a0ae92e19f8a825554d"
+    },
+    {
+      "path": "10_standard_model_derivation_stages/02_metatime_sm_mass_vectorization_v0_1/METATIME_EULERBERRY_FREEZE_v0_1_REFERENCE.md",
+      "size": 9051,
+      "sha256": "1d830c32858fbe40148e45173a08c3abdb14f244d9ad579ef5e034003e304ecf"
+    },
+    {
+      "path": "10_standard_model_derivation_stages/02_metatime_sm_mass_vectorization_v0_1/METATIME_SM_GAUGE_SKELETON_v0_1_REFERENCE.md",
+      "size": 11631,
+      "sha256": "7456ea6dc310fa30c626f190e411b69a946bc10940047a7ba89ae2e65021c9e5"
+    },
+    {
+      "path": "10_standard_model_derivation_stages/02_metatime_sm_mass_vectorization_v0_1/METATIME_SM_MASS_VECTORIZATION_v0_1.md",
+      "size": 4856,
+      "sha256": "e3123abbfa7861e4a29f835cd22ef4ee748dfd332722635e1634584c97bfb4c4"
+    },
+    {
+      "path": "10_standard_model_derivation_stages/02_metatime_sm_mass_vectorization_v0_1/PACKAGE_SHA256.txt",
+      "size": 106,
+      "sha256": "9888cab48b4a581f491e16f42d00bfd336973dff0b7822f8a0617e9d380e6714"
+    },
+    {
+      "path": "10_standard_model_derivation_stages/02_metatime_sm_mass_vectorization_v0_1/README.md",
+      "size": 754,
+      "sha256": "38c7911730949548a05927ba126b0ebb3a66c4c739bb4ec480df96958b9dbc34"
+    },
+    {
+      "path": "10_standard_model_derivation_stages/02_metatime_sm_mass_vectorization_v0_1/VALIDATION_GATES.md",
+      "size": 621,
+      "sha256": "b751a0de68e4943592c091b7ba60c7f5a25e33f3776ae8640de99582a30c21a5"
+    },
+    {
+      "path": "10_standard_model_derivation_stages/02_metatime_sm_mass_vectorization_v0_1/mass_action_validation_targets.csv",
+      "size": 1597,
+      "sha256": "5ca95108200135de3ba2fbf101653d892715e66825be6adef840c43b56019abf"
+    },
+    {
+      "path": "10_standard_model_derivation_stages/02_metatime_sm_mass_vectorization_v0_1/sm_mass_vectorization_check.py",
+      "size": 1109,
+      "sha256": "8094b327ede6623da90769113ea04ad44db0bd62e941e3771f5f83c36f63fd1e"
+    },
+    {
+      "path": "10_standard_model_derivation_stages/02_metatime_sm_mass_vectorization_v0_1/sm_mass_vectorization_check_result.txt",
+      "size": 140,
+      "sha256": "ae57f608505c23716dca8ccf050d142f37cf2b0d257871fad0f0b13d5a45afeb"
+    },
+    {
+      "path": "10_standard_model_derivation_stages/02_metatime_sm_mass_vectorization_v0_1/sm_representation_vectors.csv",
+      "size": 717,
+      "sha256": "2830cc3da912b1b4516a951fb637cb9fd5434e7e00ff8e898bd454846fb4841c"
+    },
+    {
+      "path": "10_standard_model_derivation_stages/03_metatime_sm_eb_action_closure_v0_2/ACTION_FUNCTIONAL_SCHEMA_v0_2.json",
+      "size": 1361,
+      "sha256": "1ca9dbc8b4945069d076ce65d566f6141a248c6b529a3619ffea918199fc886e"
+    },
+    {
+      "path": "10_standard_model_derivation_stages/03_metatime_sm_eb_action_closure_v0_2/METATIME_SM_EB_ACTION_CLOSURE_v0_2.md",
+      "size": 6504,
+      "sha256": "57ddf60b819cba7f0daeaa78ae90b24ccb2587e27ca918a5f35467b2a71a2684"
+    },
+    {
+      "path": "10_standard_model_derivation_stages/03_metatime_sm_eb_action_closure_v0_2/PACKAGE_SHA256.txt",
+      "size": 105,
+      "sha256": "c3740026cdec89d8ad66a56787815ab47370efe68fb849cb16b51aca5b6a032b"
+    },
+    {
+      "path": "10_standard_model_derivation_stages/03_metatime_sm_eb_action_closure_v0_2/PREVIOUS_EULERBERRY_REFERENCE.md",
+      "size": 9051,
+      "sha256": "1d830c32858fbe40148e45173a08c3abdb14f244d9ad579ef5e034003e304ecf"
+    },
+    {
+      "path": "10_standard_model_derivation_stages/03_metatime_sm_eb_action_closure_v0_2/PREVIOUS_GAUGE_SKELETON_REFERENCE.md",
+      "size": 11631,
+      "sha256": "7456ea6dc310fa30c626f190e411b69a946bc10940047a7ba89ae2e65021c9e5"
+    },
+    {
+      "path": "10_standard_model_derivation_stages/03_metatime_sm_eb_action_closure_v0_2/PREVIOUS_MASS_VECTORIZATION_REFERENCE.md",
+      "size": 4842,
+      "sha256": "8a69fcaf8fe16c400125f1d64f054b61ec8bdfcd29676c94acc6c24fd8a05933"
+    },
+    {
+      "path": "10_standard_model_derivation_stages/03_metatime_sm_eb_action_closure_v0_2/README.md",
+      "size": 406,
+      "sha256": "db4eb6a5753aa0f5d27ac05b6d2674ec3af2b4c46a4980e8cd719e17ccb9ee79"
+    },
+    {
+      "path": "10_standard_model_derivation_stages/03_metatime_sm_eb_action_closure_v0_2/VALIDATION_STATUS_v0_2.md",
+      "size": 739,
+      "sha256": "6516b7260d2f595b300296634e779a524412d1591dcf04104200cd913fe21a1a"
+    },
+    {
+      "path": "10_standard_model_derivation_stages/03_metatime_sm_eb_action_closure_v0_2/results/mass_action_basis_report.txt",
+      "size": 378,
+      "sha256": "df98e72336305ccc0404c5e6061880ac4b568d51b16ff950c7ae722bb753c88c"
+    },
+    {
+      "path": "10_standard_model_derivation_stages/03_metatime_sm_eb_action_closure_v0_2/results/mass_action_feature_table.csv",
+      "size": 3741,
+      "sha256": "b72b398316bc7b647990291772e3796e3a16cf512591c6d675d7fc43d253c4c5"
+    },
+    {
+      "path": "10_standard_model_derivation_stages/03_metatime_sm_eb_action_closure_v0_2/results/mass_action_rank_summary.json",
+      "size": 1415,
+      "sha256": "efaa233a12b93e11fe6e01c94658e6bfb76d17346aaeb56f4c92449770427f6a"
+    },
+    {
+      "path": "10_standard_model_derivation_stages/03_metatime_sm_eb_action_closure_v0_2/results/run_stdout.json",
+      "size": 1416,
+      "sha256": "d57971877f075d54d7b9466715623d19d0f7480b6089b519c96ae2265809cbbb"
+    },
+    {
+      "path": "10_standard_model_derivation_stages/03_metatime_sm_eb_action_closure_v0_2/scripts/eb_action_basis_audit.py",
+      "size": 7188,
+      "sha256": "0fa846c3b35238e34e7c01633d38bae1ed24274d2426d8a6dafcb2565fca42ce"
+    },
+    {
+      "path": "10_standard_model_derivation_stages/04_metatime_sm_generation_embedding_v0_3/GENERATION_VECTOR_SCHEMA_v0_3.json",
+      "size": 983,
+      "sha256": "25703046f460f0527ec14f77a0f39caa4256fdd46dbededc628e14da412dcbb5"
+    },
+    {
+      "path": "10_standard_model_derivation_stages/04_metatime_sm_generation_embedding_v0_3/METATIME_SM_GENERATION_EMBEDDING_v0_3.md",
+      "size": 2738,
+      "sha256": "4125b0c4d277892d3821e148a32f94b12bfbcafa974878ee65080fe39f20e453"
+    },
+    {
+      "path": "10_standard_model_derivation_stages/04_metatime_sm_generation_embedding_v0_3/PACKAGE_SHA256.txt",
+      "size": 108,
+      "sha256": "a084153e0219c758d37febf795b2b00e1ca63ef86acf031d4511e86e50de7f4f"
+    },
+    {
+      "path": "10_standard_model_derivation_stages/04_metatime_sm_generation_embedding_v0_3/README.md",
+      "size": 695,
+      "sha256": "593db17fe069ff628e7228f338aa3a55e9012d732838d6f34a9f0b0cfd41c7a5"
+    },
+    {
+      "path": "10_standard_model_derivation_stages/04_metatime_sm_generation_embedding_v0_3/VALIDATION_STATUS_v0_3.md",
+      "size": 712,
+      "sha256": "fdd8748c4b75c0dc53d5cba5399afffac8819f15b03305060af867fb39adecc7"
+    },
+    {
+      "path": "10_standard_model_derivation_stages/04_metatime_sm_generation_embedding_v0_3/results/collatz_poincare_generation_candidates.csv",
+      "size": 1845,
+      "sha256": "0f73bd09d24d1cbde9087e31e8a0ddf779fc71a571b3ef069c0c65ea014cf3d9"
+    },
+    {
+      "path": "10_standard_model_derivation_stages/04_metatime_sm_generation_embedding_v0_3/results/generation_embedding_report.txt",
+      "size": 422,
+      "sha256": "4b72cf8513084168ddc8d5a16841b5daa4934f01d19205a05d8a8900798a5bc7"
+    },
+    {
+      "path": "10_standard_model_derivation_stages/04_metatime_sm_generation_embedding_v0_3/results/generation_embedding_summary.json",
+      "size": 1564,
+      "sha256": "68ce23716612c0a81c4442dc0061f0b6ad2a0d7d25610240b5be6e763b7ca039"
+    },
+    {
+      "path": "10_standard_model_derivation_stages/04_metatime_sm_generation_embedding_v0_3/results/run_stdout.json",
+      "size": 1565,
+      "sha256": "b23c4946494b50c5b464232e940b0b62327ac824cac303f8f814ee38c0a2201a"
+    },
+    {
+      "path": "10_standard_model_derivation_stages/04_metatime_sm_generation_embedding_v0_3/scripts/generation_embedding.py",
+      "size": 7484,
+      "sha256": "26954f4dae56271799a3eea42897dec0e4e9469328b5152f846631fb840f29a8"
+    },
+    {
+      "path": "10_standard_model_derivation_stages/05_metatime_sm_collatz_poincare_action_v0_4/ACTION_KERNEL_SCHEMA_v0_4.json",
+      "size": 897,
+      "sha256": "0c49b770559d15ecba27fdb44f4585f5ac9f4a6d631ca2d9eb4a3512de090c3f"
+    },
+    {
+      "path": "10_standard_model_derivation_stages/05_metatime_sm_collatz_poincare_action_v0_4/MANIFEST.json",
+      "size": 2056,
+      "sha256": "48588568935d71135aac3fa207c8d7fda37f9f1641ce8538b28df9e540ebe6f2"
+    },
+    {
+      "path": "10_standard_model_derivation_stages/05_metatime_sm_collatz_poincare_action_v0_4/METATIME_SM_COLLATZ_POINCARE_ACTION_KERNEL_v0_4.md",
+      "size": 3520,
+      "sha256": "6c824a9c6575239af382f6a0632ed9c8d65db22a2b098fec75217dc4b9264c21"
+    },
+    {
+      "path": "10_standard_model_derivation_stages/05_metatime_sm_collatz_poincare_action_v0_4/README.md",
+      "size": 701,
+      "sha256": "e64c9eb8ae73d5d3ba57281c2faa6071c0b5e2e03d89afd111cb8a84ddbf7adc"
+    },
+    {
+      "path": "10_standard_model_derivation_stages/05_metatime_sm_collatz_poincare_action_v0_4/VALIDATION_STATUS_v0_4.md",
+      "size": 959,
+      "sha256": "8011aa5ab8fcd57974502f04744efac82ae82083bc32dcb791321f499df76851"
+    },
+    {
+      "path": "10_standard_model_derivation_stages/05_metatime_sm_collatz_poincare_action_v0_4/references/EB_ACTION_CLOSURE_v0_2_REFERENCE.md",
+      "size": 6504,
+      "sha256": "57ddf60b819cba7f0daeaa78ae90b24ccb2587e27ca918a5f35467b2a71a2684"
+    },
+    {
+      "path": "10_standard_model_derivation_stages/05_metatime_sm_collatz_poincare_action_v0_4/references/GAUGE_SKELETON_v0_1_REFERENCE.md",
+      "size": 11631,
+      "sha256": "7456ea6dc310fa30c626f190e411b69a946bc10940047a7ba89ae2e65021c9e5"
+    },
+    {
+      "path": "10_standard_model_derivation_stages/05_metatime_sm_collatz_poincare_action_v0_4/references/GENERATION_EMBEDDING_v0_3_REFERENCE.md",
+      "size": 2738,
+      "sha256": "4125b0c4d277892d3821e148a32f94b12bfbcafa974878ee65080fe39f20e453"
+    },
+    {
+      "path": "10_standard_model_derivation_stages/05_metatime_sm_collatz_poincare_action_v0_4/references/MASS_VECTORIZATION_v0_1_REFERENCE.md",
+      "size": 4856,
+      "sha256": "e3123abbfa7861e4a29f835cd22ef4ee748dfd332722635e1634584c97bfb4c4"
+    },
+    {
+      "path": "10_standard_model_derivation_stages/05_metatime_sm_collatz_poincare_action_v0_4/results/collatz_poincare_action_summary_v0_4.json",
+      "size": 1791,
+      "sha256": "282d494c794e629d3fe6a89173cad2cac21203b9317adc416e0ceeee62e4896a"
+    },
+    {
+      "path": "10_standard_model_derivation_stages/05_metatime_sm_collatz_poincare_action_v0_4/results/collatz_poincare_action_table_v0_4.csv",
+      "size": 6190,
+      "sha256": "54c691024532fbe458cfd031089fdbb3d23d922eb9aacbafa399522b5a9dab04"
+    },
+    {
+      "path": "10_standard_model_derivation_stages/05_metatime_sm_collatz_poincare_action_v0_4/scripts/collatz_poincare_action_kernel_v0_4.py",
+      "size": 15718,
+      "sha256": "f227b69266578650733ace08a429a06d0c16c111647de6dc1fa1b53856a2f4c4"
+    },
+    {
+      "path": "10_standard_model_derivation_stages/06_metatime_sm_mass_action_assembly_v0_5/ACTION_ASSEMBLY_SCHEMA_v0_5.json",
+      "size": 3089,
+      "sha256": "8af6d4b34a6a9efa8b855c23192739f9d3aa14db8ae48b68ed0569d847d5bd02"
+    },
+    {
+      "path": "10_standard_model_derivation_stages/06_metatime_sm_mass_action_assembly_v0_5/MANIFEST.json",
+      "size": 3204,
+      "sha256": "2d0a29bd2bea576f0160a962e62a0740f8ef716457aa1c1fb77c65beb4e6629c"
+    },
+    {
+      "path": "10_standard_model_derivation_stages/06_metatime_sm_mass_action_assembly_v0_5/METATIME_SM_MASS_ACTION_ASSEMBLY_v0_5.md",
+      "size": 4095,
+      "sha256": "bbd8ad496ed86d71600bbd6a84a3280c7a86aad792b3dc093c24ac844882e76e"
+    },
+    {
+      "path": "10_standard_model_derivation_stages/06_metatime_sm_mass_action_assembly_v0_5/README.md",
+      "size": 369,
+      "sha256": "ec3ac4bc3b7c56dcbda30e745e398f108244e9f105cd3cc56f133bc10896ba85"
+    },
+    {
+      "path": "10_standard_model_derivation_stages/06_metatime_sm_mass_action_assembly_v0_5/VALIDATION_STATUS_v0_5.md",
+      "size": 1019,
+      "sha256": "3552c6b017b47e00c4504308887e069d2d203f331eb474f0f1cbe374ff39225a"
+    },
+    {
+      "path": "10_standard_model_derivation_stages/06_metatime_sm_mass_action_assembly_v0_5/input/collatz_poincare_action_table_v0_4.csv",
+      "size": 6190,
+      "sha256": "54c691024532fbe458cfd031089fdbb3d23d922eb9aacbafa399522b5a9dab04"
+    },
+    {
+      "path": "10_standard_model_derivation_stages/06_metatime_sm_mass_action_assembly_v0_5/input/mass_action_validation_targets.csv",
+      "size": 1597,
+      "sha256": "5ca95108200135de3ba2fbf101653d892715e66825be6adef840c43b56019abf"
+    },
+    {
+      "path": "10_standard_model_derivation_stages/06_metatime_sm_mass_action_assembly_v0_5/input/sm_representation_vectors.csv",
+      "size": 717,
+      "sha256": "2830cc3da912b1b4516a951fb637cb9fd5434e7e00ff8e898bd454846fb4841c"
+    },
+    {
+      "path": "10_standard_model_derivation_stages/06_metatime_sm_mass_action_assembly_v0_5/references/COLLATZ_POINCARE_KERNEL_V0_4_REFERENCE.md",
+      "size": 3520,
+      "sha256": "6c824a9c6575239af382f6a0632ed9c8d65db22a2b098fec75217dc4b9264c21"
+    },
+    {
+      "path": "10_standard_model_derivation_stages/06_metatime_sm_mass_action_assembly_v0_5/references/EB_ACTION_CLOSURE_V0_2_REFERENCE.md",
+      "size": 6504,
+      "sha256": "57ddf60b819cba7f0daeaa78ae90b24ccb2587e27ca918a5f35467b2a71a2684"
+    },
+    {
+      "path": "10_standard_model_derivation_stages/06_metatime_sm_mass_action_assembly_v0_5/references/EULERBERRY_FREEZE_V0_1_REFERENCE.md",
+      "size": 9051,
+      "sha256": "1d830c32858fbe40148e45173a08c3abdb14f244d9ad579ef5e034003e304ecf"
+    },
+    {
+      "path": "10_standard_model_derivation_stages/06_metatime_sm_mass_action_assembly_v0_5/references/GAUGE_SKELETON_V0_1_REFERENCE.md",
+      "size": 11631,
+      "sha256": "7456ea6dc310fa30c626f190e411b69a946bc10940047a7ba89ae2e65021c9e5"
+    },
+    {
+      "path": "10_standard_model_derivation_stages/06_metatime_sm_mass_action_assembly_v0_5/references/GENERATION_EMBEDDING_V0_3_REFERENCE.md",
+      "size": 2738,
+      "sha256": "4125b0c4d277892d3821e148a32f94b12bfbcafa974878ee65080fe39f20e453"
+    },
+    {
+      "path": "10_standard_model_derivation_stages/06_metatime_sm_mass_action_assembly_v0_5/references/MASS_VECTORIZATION_V0_1_REFERENCE.md",
+      "size": 4856,
+      "sha256": "e3123abbfa7861e4a29f835cd22ef4ee748dfd332722635e1634584c97bfb4c4"
+    },
+    {
+      "path": "10_standard_model_derivation_stages/06_metatime_sm_mass_action_assembly_v0_5/results/generation_seed_assignment_v0_5.csv",
+      "size": 638,
+      "sha256": "56c7b97f596465fb63a20afbe581fede239a7023e991bcb80ed4a7c0f20fc445"
+    },
+    {
+      "path": "10_standard_model_derivation_stages/06_metatime_sm_mass_action_assembly_v0_5/results/mass_action_assembly_check_result.txt",
+      "size": 722,
+      "sha256": "d0d2dd382aeb6eb2009e4aacf15d4c43fc803997c1fc44a28c8fe021692e49c6"
+    },
+    {
+      "path": "10_standard_model_derivation_stages/06_metatime_sm_mass_action_assembly_v0_5/results/mass_hierarchy_order_validation_v0_5.csv",
+      "size": 1165,
+      "sha256": "3bb20feb949d9e05782f434ccd0aaaad615af5148544aab10ffaa100b9884857"
+    },
+    {
+      "path": "10_standard_model_derivation_stages/06_metatime_sm_mass_action_assembly_v0_5/results/order_validation_summary_v0_5.json",
+      "size": 671,
+      "sha256": "8c4732edb7d6213e56eff3e1b662e775069f7731baed51cf2b4d55bc9ca0e038"
+    },
+    {
+      "path": "10_standard_model_derivation_stages/06_metatime_sm_mass_action_assembly_v0_5/scripts/mass_action_assembly_v0_5.py",
+      "size": 2188,
+      "sha256": "cfca30dcfade387a8710bc43438c8a26017fda34c9db15e4b642a81e0a0d7fd3"
+    },
+    {
+      "path": "10_standard_model_derivation_stages/07_metatime_sm_chiral_holonomy_cost_v0_6/CHIRAL_COST_SCHEMA_v0_6.json",
+      "size": 606,
+      "sha256": "054f70d4175490ff1c424b568dcf6f78b0f86de247de95a2427f9c4aad92b4e7"
+    },
+    {
+      "path": "10_standard_model_derivation_stages/07_metatime_sm_chiral_holonomy_cost_v0_6/MANIFEST.json",
+      "size": 1607,
+      "sha256": "b5539f6001aba3b1a8d5f39c4bb6303c0c70fc991d4f4672851681844e7e9779"
+    },
+    {
+      "path": "10_standard_model_derivation_stages/07_metatime_sm_chiral_holonomy_cost_v0_6/METATIME_SM_CHIRAL_HOLONOMY_COST_v0_6.md",
+      "size": 4010,
+      "sha256": "8bb4a73cfa2754651c46b8ee885ebe43b5c834f20dcbc2494d07c7e56a5baca8"
+    },
+    {
+      "path": "10_standard_model_derivation_stages/07_metatime_sm_chiral_holonomy_cost_v0_6/PREVIOUS_GAUGE_SKELETON_REFERENCE.md",
+      "size": 11631,
+      "sha256": "7456ea6dc310fa30c626f190e411b69a946bc10940047a7ba89ae2e65021c9e5"
+    },
+    {
+      "path": "10_standard_model_derivation_stages/07_metatime_sm_chiral_holonomy_cost_v0_6/PREVIOUS_MASS_ACTION_ASSEMBLY_REFERENCE.md",
+      "size": 4095,
+      "sha256": "bbd8ad496ed86d71600bbd6a84a3280c7a86aad792b3dc093c24ac844882e76e"
+    },
+    {
+      "path": "10_standard_model_derivation_stages/07_metatime_sm_chiral_holonomy_cost_v0_6/README.md",
+      "size": 682,
+      "sha256": "7136b595848390f51339fcadaa83f65460d3a5fc68ef9c4459ccfbe246b59879"
+    },
+    {
+      "path": "10_standard_model_derivation_stages/07_metatime_sm_chiral_holonomy_cost_v0_6/VALIDATION_STATUS_v0_6.md",
+      "size": 828,
+      "sha256": "f9e8ffcfd3a91f9fedb115b32c64543885c2dcbbdb20cc8daf9a963261ead286"
+    },
+    {
+      "path": "10_standard_model_derivation_stages/07_metatime_sm_chiral_holonomy_cost_v0_6/results/chiral_transition_table_v0_6.csv",
+      "size": 443,
+      "sha256": "403680b9655bcef849e273c574616acf3fa11c3cd90ac2c7a74b579390f3291c"
+    },
+    {
+      "path": "10_standard_model_derivation_stages/07_metatime_sm_chiral_holonomy_cost_v0_6/results/chiral_validation_result_v0_6.txt",
+      "size": 623,
+      "sha256": "a2c2710f4a2f52976c752408560ddcb48c60e3eb12587f5d7fbcd57888dffbde"
+    },
+    {
+      "path": "10_standard_model_derivation_stages/07_metatime_sm_chiral_holonomy_cost_v0_6/scripts/chiral_holonomy_cost_v0_6.py",
+      "size": 3963,
+      "sha256": "01e4b6a1b9dc0f47d83359c35537df7b2dbdcc90c263f5d9002b5e3be75c9a59"
+    },
+    {
+      "path": "10_standard_model_derivation_stages/08_metatime_sm_representation_holonomy_cost_v0_7/METATIME_SM_REPRESENTATION_HOLONOMY_COST_v0_7.json",
+      "size": 1509,
+      "sha256": "d0afd3b3bdd30eb6855cd15e2c423e3d6828b9444f76ecc1d2e974d47f886e2b"
+    },
+    {
+      "path": "10_standard_model_derivation_stages/08_metatime_sm_representation_holonomy_cost_v0_7/METATIME_SM_REPRESENTATION_HOLONOMY_COST_v0_7.md",
+      "size": 4184,
+      "sha256": "bc1cafb5327b003e58250889151c2464ec730c3b399818479e8a573440c64165"
+    },
+    {
+      "path": "10_standard_model_derivation_stages/08_metatime_sm_representation_holonomy_cost_v0_7/README.md",
+      "size": 617,
+      "sha256": "270521b51db7a27c009614d7a50089026c11baa3e65cc97cdecdebc729137521"
+    },
+    {
+      "path": "10_standard_model_derivation_stages/08_metatime_sm_representation_holonomy_cost_v0_7/REPRESENTATION_COST_SCHEMA_v0_7.json",
+      "size": 1349,
+      "sha256": "d8e7a9c54a0e5135eb32946d05b57351395713fd8f1696207204fa81c5290ffd"
+    },
+    {
+      "path": "10_standard_model_derivation_stages/08_metatime_sm_representation_holonomy_cost_v0_7/VALIDATION_STATUS_v0_7.md",
+      "size": 727,
+      "sha256": "db74e8c766e1d07181fcd9a7e5c6d1d293b90796e8bbb3f471b7659a73029e59"
+    },
+    {
+      "path": "10_standard_model_derivation_stages/08_metatime_sm_representation_holonomy_cost_v0_7/results/representation_rank_summary_v0_7.json",
+      "size": 710,
+      "sha256": "9b9af7dbaff2cc6a98d0e855f61c15e21271358b9c02728a700d3a10d4dd56bd"
+    },
+    {
+      "path": "10_standard_model_derivation_stages/08_metatime_sm_representation_holonomy_cost_v0_7/results/representation_transition_features_v0_7.csv",
+      "size": 887,
+      "sha256": "82241574c4498fb4391707b83b84afc8312f1d8eed693f2dfd961a621238796d"
+    },
+    {
+      "path": "10_standard_model_derivation_stages/08_metatime_sm_representation_holonomy_cost_v0_7/scripts/representation_holonomy_cost_v0_7.py",
+      "size": 13789,
+      "sha256": "375adfd7f57e616e064845e0a13a94b62fc82cb1d0df2a691081f802d45761d3"
+    },
+    {
+      "path": "10_standard_model_derivation_stages/09_metatime_sm_tetrahedral_poincare_depth_v0_8/MANIFEST_v0_8.json",
+      "size": 1986,
+      "sha256": "f87809562216cd99a881a83c9ca47c52823efe78909993c8d27a031db465688f"
+    },
+    {
+      "path": "10_standard_model_derivation_stages/09_metatime_sm_tetrahedral_poincare_depth_v0_8/METATIME_SM_TETRAHEDRAL_POINCARE_DEPTH_v0_8.md",
+      "size": 5633,
+      "sha256": "114b9552fd34c9129f1b5d2c3483667f77dab2aa9beae13951c4c67af8199178"
+    },
+    {
+      "path": "10_standard_model_derivation_stages/09_metatime_sm_tetrahedral_poincare_depth_v0_8/PREVIOUS_COLLATZ_POINCARE_KERNEL_REFERENCE.md",
+      "size": 3520,
+      "sha256": "6c824a9c6575239af382f6a0632ed9c8d65db22a2b098fec75217dc4b9264c21"
+    },
+    {
+      "path": "10_standard_model_derivation_stages/09_metatime_sm_tetrahedral_poincare_depth_v0_8/PREVIOUS_MASS_ACTION_ASSEMBLY_REFERENCE.md",
+      "size": 4095,
+      "sha256": "bbd8ad496ed86d71600bbd6a84a3280c7a86aad792b3dc093c24ac844882e76e"
+    },
+    {
+      "path": "10_standard_model_derivation_stages/09_metatime_sm_tetrahedral_poincare_depth_v0_8/PREVIOUS_REPRESENTATION_HOLONOMY_REFERENCE.md",
+      "size": 4184,
+      "sha256": "bc1cafb5327b003e58250889151c2464ec730c3b399818479e8a573440c64165"
+    },
+    {
+      "path": "10_standard_model_derivation_stages/09_metatime_sm_tetrahedral_poincare_depth_v0_8/README.md",
+      "size": 739,
+      "sha256": "4fb34487ae2c1c6eab0ecfc18da9c3db677cd63e932a740fbc719617849c0b57"
+    },
+    {
+      "path": "10_standard_model_derivation_stages/09_metatime_sm_tetrahedral_poincare_depth_v0_8/TETRAHEDRAL_POINCARE_SCHEMA_v0_8.json",
+      "size": 1431,
+      "sha256": "37a3cc3f48765bf6c739cf020408abbad6b7fb7bf835cf4c97823aa70a777784"
+    },
+    {
+      "path": "10_standard_model_derivation_stages/09_metatime_sm_tetrahedral_poincare_depth_v0_8/VALIDATION_STATUS_v0_8.md",
+      "size": 1040,
+      "sha256": "c93ea4794587ca98b946c5ab9ba9f7dc7a104f0ebdd10424de0fa0de3ccdd2d9"
+    },
+    {
+      "path": "10_standard_model_derivation_stages/09_metatime_sm_tetrahedral_poincare_depth_v0_8/results/tetra_poincare_depth_summary_v0_8.json",
+      "size": 1482,
+      "sha256": "b2e65b9c01c454844f5fec7e786511160ca7c0dd41814e2bce10dfeea272261e"
+    },
+    {
+      "path": "10_standard_model_derivation_stages/09_metatime_sm_tetrahedral_poincare_depth_v0_8/results/tetra_poincare_depth_table_v0_8.csv",
+      "size": 1631,
+      "sha256": "d013da4d81e0c59796615c68293270f062cd748497956027276d21116af1c7b9"
+    },
+    {
+      "path": "10_standard_model_derivation_stages/09_metatime_sm_tetrahedral_poincare_depth_v0_8/results/tetra_poincare_minimal_triplet_paths_v0_8.svg",
+      "size": 3701,
+      "sha256": "a3dc686cfe42df47bb0be9abfaa8b3b7b9e494035c494450d547649b0c5db2de"
+    },
+    {
+      "path": "10_standard_model_derivation_stages/09_metatime_sm_tetrahedral_poincare_depth_v0_8/scripts/tetrahedral_poincare_depth_v0_8.py",
+      "size": 8315,
+      "sha256": "7c7bcb535dddef5477b0cd818f1476d923f043cb53298b50eceffaa12cc2fe4a"
+    },
+    {
+      "path": "10_standard_model_derivation_stages/10_metatime_sm_spin_fibonacci_kepler_collatz_kernel_v0_9/METATIME_SM_SPIN_FIBONACCI_KEPLER_COLLATZ_KERNEL_v0_9.md",
+      "size": 4633,
+      "sha256": "5ad5c7ad8102dc9284190b982cb981484a1d454eaddaeb72988954d200b76f84"
+    },
+    {
+      "path": "10_standard_model_derivation_stages/10_metatime_sm_spin_fibonacci_kepler_collatz_kernel_v0_9/PREVIOUS_CHIRAL_COST_REFERENCE.md",
+      "size": 4010,
+      "sha256": "8bb4a73cfa2754651c46b8ee885ebe43b5c834f20dcbc2494d07c7e56a5baca8"
+    },
+    {
+      "path": "10_standard_model_derivation_stages/10_metatime_sm_spin_fibonacci_kepler_collatz_kernel_v0_9/PREVIOUS_MASS_ACTION_ASSEMBLY_REFERENCE.md",
+      "size": 4095,
+      "sha256": "bbd8ad496ed86d71600bbd6a84a3280c7a86aad792b3dc093c24ac844882e76e"
+    },
+    {
+      "path": "10_standard_model_derivation_stages/10_metatime_sm_spin_fibonacci_kepler_collatz_kernel_v0_9/PREVIOUS_REPRESENTATION_COST_REFERENCE.md",
+      "size": 4184,
+      "sha256": "bc1cafb5327b003e58250889151c2464ec730c3b399818479e8a573440c64165"
+    },
+    {
+      "path": "10_standard_model_derivation_stages/10_metatime_sm_spin_fibonacci_kepler_collatz_kernel_v0_9/PREVIOUS_TETRAHEDRAL_POINCARE_REFERENCE.md",
+      "size": 5633,
+      "sha256": "114b9552fd34c9129f1b5d2c3483667f77dab2aa9beae13951c4c67af8199178"
+    },
+    {
+      "path": "10_standard_model_derivation_stages/10_metatime_sm_spin_fibonacci_kepler_collatz_kernel_v0_9/README.md",
+      "size": 246,
+      "sha256": "a9c50ade96971022c3bd2fdb18432dfe1d701f66951841491f1226f28d481975"
+    },
+    {
+      "path": "10_standard_model_derivation_stages/10_metatime_sm_spin_fibonacci_kepler_collatz_kernel_v0_9/SPIN_FIBONACCI_KEPLER_COLLATZ_SCHEMA_v0_9.json",
+      "size": 1046,
+      "sha256": "99686f6dbaa3893379a53fc2f152041143c91ca0f1b7d599305b44a2db41f0a3"
+    },
+    {
+      "path": "10_standard_model_derivation_stages/10_metatime_sm_spin_fibonacci_kepler_collatz_kernel_v0_9/VALIDATION_STATUS_v0_9.md",
+      "size": 663,
+      "sha256": "1ea30bfb4d4d79226f19ecab277c56bb80c19f5da06f519fb4a243f7fc1cf851"
+    },
+    {
+      "path": "10_standard_model_derivation_stages/10_metatime_sm_spin_fibonacci_kepler_collatz_kernel_v0_9/results/spin_fibonacci_kepler_collatz_kernel_v0_9.csv",
+      "size": 2641,
+      "sha256": "7d7b76c88d65a0bca2ed2132d2b16b82e8cb84ff8f72a5f49f71605881e7173d"
+    },
+    {
+      "path": "10_standard_model_derivation_stages/10_metatime_sm_spin_fibonacci_kepler_collatz_kernel_v0_9/results/spin_fibonacci_kepler_collatz_summary_v0_9.json",
+      "size": 876,
+      "sha256": "6839523e45ff47f5f26e1352ed48f0d8df0305a93c3d3196fe8f616b0c059038"
+    },
+    {
+      "path": "10_standard_model_derivation_stages/10_metatime_sm_spin_fibonacci_kepler_collatz_kernel_v0_9/scripts/spin_fibonacci_kepler_collatz_kernel_v0_9.py",
+      "size": 15162,
+      "sha256": "32b9abc751d7b4ccef759bde45905bf9a6957ba5cdeaf4b2089af65500350c6b"
+    },
+    {
+      "path": "10_standard_model_derivation_stages/11_metatime_sm_full_action_seed_arbitration_v1_0/FULL_ACTION_SEED_ARBITRATION_SCHEMA_v1_0.json",
+      "size": 1079,
+      "sha256": "1e231ea023d268d7ac195118a5c9098ca246166e82dc1694192378d8b40bab20"
+    },
+    {
+      "path": "10_standard_model_derivation_stages/11_metatime_sm_full_action_seed_arbitration_v1_0/MANIFEST_v1_0.json",
+      "size": 405,
+      "sha256": "6a4f9fea852323ac08144cedd10974c82fdd23b31385faf6261ffc2246c86710"
+    },
+    {
+      "path": "10_standard_model_derivation_stages/11_metatime_sm_full_action_seed_arbitration_v1_0/METATIME_SM_FULL_ACTION_SEED_ARBITRATION_v1_0.md",
+      "size": 5096,
+      "sha256": "ea87392a96b1ff5518a39dfcdf5700b9c3eadeb3e192a1b1dfd0950f30b26822"
+    },
+    {
+      "path": "10_standard_model_derivation_stages/11_metatime_sm_full_action_seed_arbitration_v1_0/PACKAGE_SHA256.txt",
+      "size": 116,
+      "sha256": "a261318fe879b776240952dc03a47b2dedb3b811c385a5a09c42b46fba32fa25"
+    },
+    {
+      "path": "10_standard_model_derivation_stages/11_metatime_sm_full_action_seed_arbitration_v1_0/README.md",
+      "size": 337,
+      "sha256": "bf82b093c3103d5f7f8181a8b5bd73b38c6270da63c512a238a5869f957b0282"
+    },
+    {
+      "path": "10_standard_model_derivation_stages/11_metatime_sm_full_action_seed_arbitration_v1_0/VALIDATION_STATUS_v1_0.md",
+      "size": 1046,
+      "sha256": "8a358dfc0c4134c22e3a0f44384dcfbf8f2c66a288ef82e3040b5468fbb90848"
+    },
+    {
+      "path": "10_standard_model_derivation_stages/11_metatime_sm_full_action_seed_arbitration_v1_0/references/PREVIOUS_CHIRAL_REFERENCE.md",
+      "size": 4010,
+      "sha256": "8bb4a73cfa2754651c46b8ee885ebe43b5c834f20dcbc2494d07c7e56a5baca8"
+    },
+    {
+      "path": "10_standard_model_derivation_stages/11_metatime_sm_full_action_seed_arbitration_v1_0/references/PREVIOUS_REPRESENTATION_REFERENCE.md",
+      "size": 4184,
+      "sha256": "bc1cafb5327b003e58250889151c2464ec730c3b399818479e8a573440c64165"
+    },
+    {
+      "path": "10_standard_model_derivation_stages/11_metatime_sm_full_action_seed_arbitration_v1_0/references/PREVIOUS_SPIN_FIBONACCI_KEPLER_COLLATZ_REFERENCE.md",
+      "size": 4633,
+      "sha256": "5ad5c7ad8102dc9284190b982cb981484a1d454eaddaeb72988954d200b76f84"
+    },
+    {
+      "path": "10_standard_model_derivation_stages/11_metatime_sm_full_action_seed_arbitration_v1_0/references/PREVIOUS_TETRAHEDRAL_POINCARE_REFERENCE.md",
+      "size": 5633,
+      "sha256": "114b9552fd34c9129f1b5d2c3483667f77dab2aa9beae13951c4c67af8199178"
+    },
+    {
+      "path": "10_standard_model_derivation_stages/11_metatime_sm_full_action_seed_arbitration_v1_0/results/charged_fermion_action_assembly_v1_0.csv",
+      "size": 1616,
+      "sha256": "d1507386c4a534067a28531aea3a73e0ce7a65c2189fe0f699cfaa9ac8c70b80"
+    },
+    {
+      "path": "10_standard_model_derivation_stages/11_metatime_sm_full_action_seed_arbitration_v1_0/results/extended_seed_quarantine_v1_0.csv",
+      "size": 539,
+      "sha256": "cf8620086afa72ab5b28ff3dbf2f68ed8d6603bb17c3b3470d4dd834ba3bcb9b"
+    },
+    {
+      "path": "10_standard_model_derivation_stages/11_metatime_sm_full_action_seed_arbitration_v1_0/results/full_action_assembly_summary_v1_0.json",
+      "size": 2144,
+      "sha256": "aa75b89932201f8f42f46a0b8ee4533bad299e1da6237e86c95595d67176d514"
+    },
+    {
+      "path": "10_standard_model_derivation_stages/11_metatime_sm_full_action_seed_arbitration_v1_0/results/ordinal_validation_v1_0.csv",
+      "size": 296,
+      "sha256": "e39eae859805c34f504f36bfff0370ba4a3f9f8455501ec894f30b42c7cd8160"
+    },
+    {
+      "path": "10_standard_model_derivation_stages/11_metatime_sm_full_action_seed_arbitration_v1_0/results/representation_features_corrected_v1_0.csv",
+      "size": 776,
+      "sha256": "5e567c9f1bf2b173719e143c49d54abb737e6f67bf1271dc9f6b17592ac9a3a2"
+    },
+    {
+      "path": "10_standard_model_derivation_stages/11_metatime_sm_full_action_seed_arbitration_v1_0/results/seed_arbitration_v1_0.csv",
+      "size": 678,
+      "sha256": "a8c9610fa0c4755784d02e8d4e667fc64641ac89a54a4964cfca626ea35e0a2a"
+    },
+    {
+      "path": "10_standard_model_derivation_stages/11_metatime_sm_full_action_seed_arbitration_v1_0/scripts/full_action_assembly_v1_0.py",
+      "size": 1968,
+      "sha256": "cd0e35f04cdc78347ee09ccdb0d39a910c9c18d938bb100364577c159f57cfc1"
+    },
+    {
+      "path": "10_standard_model_derivation_stages/12_metatime_sm_zeta_tetrahedral_anchor_v1_1/METATIME_SM_ZETA_TETRAHEDRAL_ANCHOR_v1_1.json",
+      "size": 931,
+      "sha256": "428d1a4fca2f751cfc9f284b0cd4e61ccbee6c5dcf9575d21de5d1b8d31a9b7d"
+    },
+    {
+      "path": "10_standard_model_derivation_stages/12_metatime_sm_zeta_tetrahedral_anchor_v1_1/METATIME_SM_ZETA_TETRAHEDRAL_ANCHOR_v1_1.md",
+      "size": 4340,
+      "sha256": "e1ff4e9a25bb232bd10bafe689df009b9b43ff91b0dafdad66c864166ed50240"
+    },
+    {
+      "path": "10_standard_model_derivation_stages/12_metatime_sm_zeta_tetrahedral_anchor_v1_1/README.md",
+      "size": 370,
+      "sha256": "e99f314e941729a643e8cfdc9ae177b30577255d795354290d89d963b7461c44"
+    },
+    {
+      "path": "10_standard_model_derivation_stages/12_metatime_sm_zeta_tetrahedral_anchor_v1_1/VALIDATION_STATUS_v1_1.md",
+      "size": 1052,
+      "sha256": "fb3ddef4ff52f18a6578bc6d836409cfe70895bdb4f8509492ffe7b46370010e"
+    },
+    {
+      "path": "10_standard_model_derivation_stages/12_metatime_sm_zeta_tetrahedral_anchor_v1_1/ZETA_TETRAHEDRAL_SCHEMA_v1_1.json",
+      "size": 937,
+      "sha256": "f3d5dec5138909f34d3d9d202de0ae0e83ce1cabd59f2c798b9f75e6e0215c89"
+    },
+    {
+      "path": "10_standard_model_derivation_stages/12_metatime_sm_zeta_tetrahedral_anchor_v1_1/references/PREVIOUS_FULL_ACTION_SEED_ARBITRATION_REFERENCE.md",
+      "size": 5096,
+      "sha256": "ea87392a96b1ff5518a39dfcdf5700b9c3eadeb3e192a1b1dfd0950f30b26822"
+    },
+    {
+      "path": "10_standard_model_derivation_stages/12_metatime_sm_zeta_tetrahedral_anchor_v1_1/references/PREVIOUS_SPIN_FIBONACCI_KEPLER_COLLATZ_REFERENCE.md",
+      "size": 4633,
+      "sha256": "5ad5c7ad8102dc9284190b982cb981484a1d454eaddaeb72988954d200b76f84"
+    },
+    {
+      "path": "10_standard_model_derivation_stages/12_metatime_sm_zeta_tetrahedral_anchor_v1_1/references/PREVIOUS_TETRAHEDRAL_POINCARE_REFERENCE.md",
+      "size": 5633,
+      "sha256": "114b9552fd34c9129f1b5d2c3483667f77dab2aa9beae13951c4c67af8199178"
+    },
+    {
+      "path": "10_standard_model_derivation_stages/12_metatime_sm_zeta_tetrahedral_anchor_v1_1/results/charged_fermion_action_with_zeta_v1_1.csv",
+      "size": 2431,
+      "sha256": "53391b2ccae9ae7fbbd803160300b50b3a8a3aab6d660c48934db7b2463cc8cc"
+    },
+    {
+      "path": "10_standard_model_derivation_stages/12_metatime_sm_zeta_tetrahedral_anchor_v1_1/results/seed_zeta_tetrahedral_table_v1_1.csv",
+      "size": 1891,
+      "sha256": "e78e68eb45aae554e05afbc7019cbe89e98d6bf9ddb6fc10a46ed520ba9a0d94"
+    },
+    {
+      "path": "10_standard_model_derivation_stages/12_metatime_sm_zeta_tetrahedral_anchor_v1_1/results/zeta_tetrahedral_summary_v1_1.json",
+      "size": 1478,
+      "sha256": "f67ff01a54fa05479926f6cc0f238fe552e46384eea609f0d25856c07d397dac"
+    },
+    {
+      "path": "10_standard_model_derivation_stages/12_metatime_sm_zeta_tetrahedral_anchor_v1_1/results/zeta_zero_tetrahedral_weights_v1_1.csv",
+      "size": 12629,
+      "sha256": "aaf33c9bd979aa55c7ccdbecbb144b2c6a30a5dceae5bd0a9fa1685a1c2e498a"
+    },
+    {
+      "path": "10_standard_model_derivation_stages/12_metatime_sm_zeta_tetrahedral_anchor_v1_1/scripts/zeta_tetrahedral_anchor_v1_1.py",
+      "size": 6175,
+      "sha256": "7b5c69469869819f5ebf5001f1c2be9060796b82128e87dd0d9296faeb34c64f"
+    },
+    {
+      "path": "10_standard_model_derivation_stages/13_metatime_sm_eulerberry_coherence_gate_v1_3/EULERBERRY_COHERENCE_GATE_SCHEMA_v1_3.json",
+      "size": 1032,
+      "sha256": "680928ca0944ae74588d341304a0216a44555e4ad80926510250b595bbf82353"
+    },
+    {
+      "path": "10_standard_model_derivation_stages/13_metatime_sm_eulerberry_coherence_gate_v1_3/METATIME_SM_EULERBERRY_COHERENCE_GATE_v1_3.md",
+      "size": 4343,
+      "sha256": "84f58228dfda7666a83984dbdee3555c7f27f36599502197b651aa0f8b9ca992"
+    },
+    {
+      "path": "10_standard_model_derivation_stages/13_metatime_sm_eulerberry_coherence_gate_v1_3/README.md",
+      "size": 383,
+      "sha256": "4de2b5a30929a430a1f17444f306de5730001ec1eee9b3c3a194d894188d8b17"
+    },
+    {
+      "path": "10_standard_model_derivation_stages/13_metatime_sm_eulerberry_coherence_gate_v1_3/VALIDATION_STATUS_v1_3.md",
+      "size": 758,
+      "sha256": "e9266a842109e6a9459f7da539fbfe92e6462b549fd8e0406aaa97b01114e9fd"
+    },
+    {
+      "path": "10_standard_model_derivation_stages/13_metatime_sm_eulerberry_coherence_gate_v1_3/references/PREVIOUS_FULL_ACTION_SEED_ARBITRATION_REFERENCE.md",
+      "size": 5096,
+      "sha256": "ea87392a96b1ff5518a39dfcdf5700b9c3eadeb3e192a1b1dfd0950f30b26822"
+    },
+    {
+      "path": "10_standard_model_derivation_stages/13_metatime_sm_eulerberry_coherence_gate_v1_3/references/PREVIOUS_SPIN_FIBONACCI_KEPLER_COLLATZ_REFERENCE.md",
+      "size": 4633,
+      "sha256": "5ad5c7ad8102dc9284190b982cb981484a1d454eaddaeb72988954d200b76f84"
+    },
+    {
+      "path": "10_standard_model_derivation_stages/13_metatime_sm_eulerberry_coherence_gate_v1_3/references/PREVIOUS_ZETA_TETRAHEDRAL_ANCHOR_REFERENCE.md",
+      "size": 4340,
+      "sha256": "e1ff4e9a25bb232bd10bafe689df009b9b43ff91b0dafdad66c864166ed50240"
+    },
+    {
+      "path": "10_standard_model_derivation_stages/13_metatime_sm_eulerberry_coherence_gate_v1_3/results/charged_fermion_action_with_coherence_v1_3.csv",
+      "size": 1955,
+      "sha256": "1e350fc194121e1792c23107774b7bd60a87d060d541a6c8534c11a5c7bf9863"
+    },
+    {
+      "path": "10_standard_model_derivation_stages/13_metatime_sm_eulerberry_coherence_gate_v1_3/results/coherence_validation_summary_v1_3.json",
+      "size": 1113,
+      "sha256": "f3d337ce6de1776f6e0e1945d1d897841905d12cf2e07420c809c2ee5db88d0d"
+    },
+    {
+      "path": "10_standard_model_derivation_stages/13_metatime_sm_eulerberry_coherence_gate_v1_3/results/eulerberry_coherence_gate_run_v1_3.json",
+      "size": 1114,
+      "sha256": "9aaeb805b0a8416211075e5429fbaf3ef626ddc1fea87b5511e0a4fd231d792b"
+    },
+    {
+      "path": "10_standard_model_derivation_stages/13_metatime_sm_eulerberry_coherence_gate_v1_3/results/seed_coherence_gate_v1_3.csv",
+      "size": 680,
+      "sha256": "cf3649103d11a63c7774a81820a835420f3df58759d87f3c844c7e54d91e4944"
+    },
+    {
+      "path": "10_standard_model_derivation_stages/13_metatime_sm_eulerberry_coherence_gate_v1_3/scripts/eulerberry_coherence_gate_v1_3.py",
+      "size": 8608,
+      "sha256": "90e2c93a6984faf8adb54c148d16f1bb7caffcf4d8d7148be5d7e07a1211995b"
+    },
+    {
+      "path": "12_collatz_transition_axis_zeta_imaginary_zero_v1_4/METATIME_SM_COLLATZ_TRANSITION_AXIS_ZETA_IMAGINARY_ZERO_v1_4.md",
+      "size": 3168,
+      "sha256": "04c99a11a85f93a0b93a6763b1d2ee45c2ab4dbacdf0fb70743f7285a732cd9f"
+    },
+    {
+      "path": "12_collatz_transition_axis_zeta_imaginary_zero_v1_4/README.md",
+      "size": 357,
+      "sha256": "d32451e8fea79def4459a6da1990219feecce50d8e851711f374b94b96d912ba"
+    },
+    {
+      "path": "12_collatz_transition_axis_zeta_imaginary_zero_v1_4/VALIDATION_STATUS_v1_4.md",
+      "size": 528,
+      "sha256": "fdad4b17d423fad8ec3e159ff6cfff0b2e9bf7846852f0731e9f800b5df81639"
+    },
+    {
+      "path": "12_collatz_transition_axis_zeta_imaginary_zero_v1_4/results/script_stdout_v1_4.txt",
+      "size": 2259,
+      "sha256": "c7fbe4588edebf7a16880c94fd336bed626afd6f560c4ee40ceafcfa4cc2c51e"
+    },
+    {
+      "path": "12_collatz_transition_axis_zeta_imaginary_zero_v1_4/results/transition_axis_summary_v1_4.json",
+      "size": 2258,
+      "sha256": "e6f94d51c186ffaea400cf6e9f316dbdf54ad589ad8b1506278ce9d20d8172f0"
+    },
+    {
+      "path": "12_collatz_transition_axis_zeta_imaginary_zero_v1_4/results/transition_axis_zeta_imaginary_zero_v1_4.csv",
+      "size": 813,
+      "sha256": "d03b76e84a2d2d14848d95313cf2bf304b44efac1e98c479db636898ba67b87e"
+    },
+    {
+      "path": "12_collatz_transition_axis_zeta_imaginary_zero_v1_4/schemas/TRANSITION_AXIS_ZETA_SCHEMA_v1_4.json",
+      "size": 1395,
+      "sha256": "8f06c830bc4ba73b171741a1f92aa968ef5eec646080219b7ce65719a3adfc24"
+    },
+    {
+      "path": "12_collatz_transition_axis_zeta_imaginary_zero_v1_4/scripts/transition_axis_zeta_imaginary_zero_v1_4.py",
+      "size": 7200,
+      "sha256": "cb436a3f38432f5eca3a0bd40e47df48dae74b0f8d37edd3c0fb2452dcb22029"
+    },
+    {
+      "path": "13_formal_status_and_phase_axis_action_v1_5/FORMAL_STATUS_LEDGER_v1_5.csv",
+      "size": 1556,
+      "sha256": "fb2f7f272e055ea562d82ccf1c9faaad0ddc212212645cddef53d09dc18f9096"
+    },
+    {
+      "path": "13_formal_status_and_phase_axis_action_v1_5/FORMAL_STATUS_SCHEMA_v1_5.json",
+      "size": 4024,
+      "sha256": "07067c10c5aed0607b5e1b42c7d182876f7b1ada1dcbacdf8db10056014e68e4"
+    },
+    {
+      "path": "13_formal_status_and_phase_axis_action_v1_5/METATIME_SM_FORMAL_STATUS_PHASE_AXIS_ACTION_v1_5.md",
+      "size": 10333,
+      "sha256": "82a61d0d1f2532fd34c0bd0abf52161799373e44d82fec4598ec32bafdbe7e42"
+    },
+    {
+      "path": "13_formal_status_and_phase_axis_action_v1_5/README.md",
+      "size": 412,
+      "sha256": "17d51e51f14d6b9e0af29a299d4627a826ea90d5f977ddd084ff4d2063ab19f4"
+    },
+    {
+      "path": "13_formal_status_and_phase_axis_action_v1_5/VALIDATION_STATUS_v1_5.md",
+      "size": 251,
+      "sha256": "7f261000e2682770f185f48276713c70c5ff2aea25312584eced7208049ecfe4"
+    },
+    {
+      "path": "13_formal_status_and_phase_axis_action_v1_5/results/formal_status_validation_v1_5.json",
+      "size": 113,
+      "sha256": "ab4d61f671a98f388d0770635d4896afa77d1be2c00fe425166f38127bb0a01c"
+    },
+    {
+      "path": "13_formal_status_and_phase_axis_action_v1_5/scripts/formal_status_validation_v1_5.py",
+      "size": 1478,
+      "sha256": "9e33a66b37784fc555e00538536e911714413299f1e9a6e7675d1eb678ef8022"
+    },
+    {
+      "path": "14_debt3_debt6_zeta_polar_eb_action_v1_6/DEBT_3_6_STATUS_LEDGER_v1_6.md",
+      "size": 1080,
+      "sha256": "d627d6ea9a13d88403c1750f6032d9b69ce9abc8bcddb057aabb4f310fe94282"
+    },
+    {
+      "path": "14_debt3_debt6_zeta_polar_eb_action_v1_6/METATIME_SM_DEBT3_DEBT6_ZETA_POLAR_EB_ACTION_v1_6.md",
+      "size": 6930,
+      "sha256": "4ceec0b0c508d8ef34d7563613819ac46ba9ad00457910a589dfb07f60b803fa"
+    },
+    {
+      "path": "14_debt3_debt6_zeta_polar_eb_action_v1_6/README.md",
+      "size": 587,
+      "sha256": "52108dd09d0aebb46c4a6dd253ba8d938d66bb26496855e5d596133ff14c1f06"
+    },
+    {
+      "path": "14_debt3_debt6_zeta_polar_eb_action_v1_6/VALIDATION_STATUS_v1_6.md",
+      "size": 915,
+      "sha256": "96c1409be763703424292f92c0fc41de3263936c160978a18562b13a7f7edbc9"
+    },
+    {
+      "path": "14_debt3_debt6_zeta_polar_eb_action_v1_6/results/charged_fermion_eb_action_debt6_v1_6.csv",
+      "size": 1683,
+      "sha256": "f6474eb7e8df2da994aaedd2fed89d1db597bdb1e014531def8a0b928145a2df"
+    },
+    {
+      "path": "14_debt3_debt6_zeta_polar_eb_action_v1_6/results/debt3_debt6_summary_v1_6.json",
+      "size": 1651,
+      "sha256": "517117950b48ef6dac6779cff6a4154673fa8ecf0a416bcba218d0311acfa23a"
+    },
+    {
+      "path": "14_debt3_debt6_zeta_polar_eb_action_v1_6/results/debt6_ordinal_validation_v1_6.csv",
+      "size": 359,
+      "sha256": "a4e34beaba236ca57b4286e2cc765a3e951eab4774392fc782dac1db8358960e"
+    },
+    {
+      "path": "14_debt3_debt6_zeta_polar_eb_action_v1_6/results/generation_seed_zeta_anchor_map_v1_6.csv",
+      "size": 484,
+      "sha256": "4fcc38af7966c47c93644d5a4cbe910a5626a826a2082eb08b2a94ff62751d4c"
+    },
+    {
+      "path": "14_debt3_debt6_zeta_polar_eb_action_v1_6/results/script_stdout_v1_6.txt",
+      "size": 1652,
+      "sha256": "9d6ad2044c221a33343e61b6288e9c1b51f357c139a4684766ba29e1ebddb266"
+    },
+    {
+      "path": "14_debt3_debt6_zeta_polar_eb_action_v1_6/results/zeta_polar_anchor_table_v1_6.csv",
+      "size": 3393,
+      "sha256": "91ea1c552f18677daeebddbee09b8ce283ab5be38d3c124f987ac4f26e3de211"
+    },
+    {
+      "path": "14_debt3_debt6_zeta_polar_eb_action_v1_6/schemas/DEBT3_DEBT6_SCHEMA_v1_6.json",
+      "size": 1028,
+      "sha256": "4bfd1be9f109d1a4597139042c5c46018dd404915e094156c1e8acdb29ba76f3"
+    },
+    {
+      "path": "14_debt3_debt6_zeta_polar_eb_action_v1_6/scripts/debt3_debt6_zeta_polar_eb_action_v1_6.py",
+      "size": 10394,
+      "sha256": "79a72cf9a33468aef58d52b4bc75a6dcb5fc5e447d0746f0b186c0a29a475615"
+    },
+    {
+      "path": "15_debt1_killing_generator_polar_axis_v1_7/METATIME_SM_DEBT1_KILLING_GENERATOR_POLAR_AXIS_v1_7.md",
+      "size": 5944,
+      "sha256": "aa70057709b87d1fe5080b73069ebe2c85e72744dc3b235502ce54f75690b377"
+    },
+    {
+      "path": "15_debt1_killing_generator_polar_axis_v1_7/README.md",
+      "size": 449,
+      "sha256": "8bfa2269a70aa0d415616643c2b974ec183aa225d6d054f620f799d86e644c47"
+    },
+    {
+      "path": "15_debt1_killing_generator_polar_axis_v1_7/results/debt1_killing_generator_validation_v1_7.json",
+      "size": 395,
+      "sha256": "2d301d5f608896b2d161d7b4633d5bd19e7b10b2fbf8ddb0905635191e472acf"
+    },
+    {
+      "path": "15_debt1_killing_generator_polar_axis_v1_7/results/debt1_killing_generator_validation_v1_7.txt",
+      "size": 396,
+      "sha256": "26bb50fea932af84ce5285b5c1dfc99f41c57f35960d749be9ed5a3e412a7a48"
+    },
+    {
+      "path": "15_debt1_killing_generator_polar_axis_v1_7/schemas/DEBT1_KILLING_GENERATOR_SCHEMA_v1_7.json",
+      "size": 948,
+      "sha256": "25cf98d2551af5b679b8067e78feb190bf088c9a9c158a7abe16febcb724a2e2"
+    },
+    {
+      "path": "15_debt1_killing_generator_polar_axis_v1_7/scripts/debt1_killing_generator_validation_v1_7.py",
+      "size": 1441,
+      "sha256": "a20bf550e19807e63724680fc373cd0518f691002f7dba14e08de6bf90deb888"
+    },
+    {
+      "path": "16_debt_axis_selection_berry_weak_twinprime_v1_8/AXIS_SELECTION_SCHEMA_v1_8.json",
+      "size": 965,
+      "sha256": "454739facdc8d00e4bd6cb37e8e00c0fcc95f8460d8cc3a54b866bfc99f597f0"
+    },
+    {
+      "path": "16_debt_axis_selection_berry_weak_twinprime_v1_8/METATIME_SM_AXIS_SELECTION_DEBT_v1_8.md",
+      "size": 7040,
+      "sha256": "97cdeee209ac6d9544d7000830ff0ffdfce0d07072a8163318005656a2403a12"
+    },
+    {
+      "path": "16_debt_axis_selection_berry_weak_twinprime_v1_8/README.md",
+      "size": 400,
+      "sha256": "505e6ae18f3e10d3ce7a4e5fad5890c75e74e618aa78fdb1b4f0153c89ee8cac"
+    },
+    {
+      "path": "16_debt_axis_selection_berry_weak_twinprime_v1_8/VALIDATION_STATUS_v1_8.md",
+      "size": 595,
+      "sha256": "ae727ca204fcb97103e0909518b829ecfa9fbc607834fe5e66e8b2fdbec8dbe1"
+    },
+    {
+      "path": "16_debt_axis_selection_berry_weak_twinprime_v1_8/results/axis_selection_gate_v1_8.json",
+      "size": 384,
+      "sha256": "809f394270c27c2eff78e62a5869a75a8d165d2b1d1348f2fcf6348d99bf76dc"
+    },
+    {
+      "path": "16_debt_axis_selection_berry_weak_twinprime_v1_8/results/axis_selection_gate_v1_8.txt",
+      "size": 384,
+      "sha256": "809f394270c27c2eff78e62a5869a75a8d165d2b1d1348f2fcf6348d99bf76dc"
+    },
+    {
+      "path": "16_debt_axis_selection_berry_weak_twinprime_v1_8/results/axis_selection_gate_v1_8_rerun.txt",
+      "size": 384,
+      "sha256": "809f394270c27c2eff78e62a5869a75a8d165d2b1d1348f2fcf6348d99bf76dc"
+    },
+    {
+      "path": "16_debt_axis_selection_berry_weak_twinprime_v1_8/scripts/axis_selection_gate_v1_8.py",
+      "size": 1217,
+      "sha256": "7333bca82728fe984d14c5ac7a8f3eace912179e1eff91c1a92be1b6c5e7bb12"
+    },
+    {
+      "path": "17_debt2_debt4_eb_coherence_seed_assignment_v1_9/EB_COHERENCE_SCHEMA_v1_9.json",
+      "size": 820,
+      "sha256": "c74b6aedc7b231530fbebd9ac84f030740f960c9f39c711ceb431fd1d2728992"
+    },
+    {
+      "path": "17_debt2_debt4_eb_coherence_seed_assignment_v1_9/METATIME_SM_DEBT2_DEBT4_EB_COHERENCE_SEED_ASSIGNMENT_v1_9.md",
+      "size": 6397,
+      "sha256": "6609a29168631a0dac8e2938b75075f4372f395d2478cc0b903c4a6a374f4155"
+    },
+    {
+      "path": "17_debt2_debt4_eb_coherence_seed_assignment_v1_9/README.md",
+      "size": 483,
+      "sha256": "3711f8f09ba0ca2584f28085677d4c1f58d7f5a4a3ded3ca6a4018f2e5662658"
+    },
+    {
+      "path": "17_debt2_debt4_eb_coherence_seed_assignment_v1_9/VALIDATION_STATUS_v1_9.md",
+      "size": 475,
+      "sha256": "96ca36dab2b41682efb0723f6445e1f90b76edc1fd06fb83fc53b69da3ccd61d"
+    },
+    {
+      "path": "17_debt2_debt4_eb_coherence_seed_assignment_v1_9/results/eb_coherence_seed_assignment_summary_v1_9.json",
+      "size": 474,
+      "sha256": "d85b82bfcbc21e2622fda7adee23287857e77d8405833b230f7605df3e24d2c2"
+    },
+    {
+      "path": "17_debt2_debt4_eb_coherence_seed_assignment_v1_9/results/eb_coherence_seed_assignment_v1_9.csv",
+      "size": 558,
+      "sha256": "e3c72e9595b4e08c256e653d2b1a9adff527a567d3962c2bd226f9c6573ad6c5"
+    },
+    {
+      "path": "17_debt2_debt4_eb_coherence_seed_assignment_v1_9/scripts/eb_coherence_seed_assignment_v1_9.py",
+      "size": 2953,
+      "sha256": "0028bd252fb98f5746e32e671af440cd9587b9417b98ae9d5775fe05e3d038a4"
+    },
+    {
+      "path": "18_preference_zeta_heisenberg_fluctuation_v2_0/METATIME_SM_PREFERENCE_ZETA_HEISENBERG_FLUCTUATION_v2_0.md",
+      "size": 6178,
+      "sha256": "991044757c2b348f1607f2a3a2cff415db378160a8ef2199fed0138e0bdae1b8"
+    },
+    {
+      "path": "18_preference_zeta_heisenberg_fluctuation_v2_0/README.md",
+      "size": 327,
+      "sha256": "a219a424165f62a74d51fec11dd91fa2d43112c0dd51b8747c4b96e3f1e4315e"
+    },
+    {
+      "path": "18_preference_zeta_heisenberg_fluctuation_v2_0/VALIDATION_STATUS_v2_0.md",
+      "size": 530,
+      "sha256": "b917f08c86214ce29651d61a9e19ddfe7a808b4e9cb9d5e47e103b36b513a2fb"
+    },
+    {
+      "path": "18_preference_zeta_heisenberg_fluctuation_v2_0/results/preference_zeta_heisenberg_seed_diagnostics_v2_0.csv",
+      "size": 1456,
+      "sha256": "4fedfc724bb9f78d76595f56b42e9b0ba18a61dfd8bb0a9a1c989838b9dbcb5d"
+    },
+    {
+      "path": "18_preference_zeta_heisenberg_fluctuation_v2_0/results/preference_zeta_heisenberg_validation_v2_0.txt",
+      "size": 207,
+      "sha256": "fb862304ea2c081c7dd100ce2d102e220969356e46c6bbb02e2c35c098935570"
+    },
+    {
+      "path": "18_preference_zeta_heisenberg_fluctuation_v2_0/schemas/PREFERENCE_ZETA_HEISENBERG_SCHEMA_v2_0.json",
+      "size": 1288,
+      "sha256": "d3b3f6d18367cac7dac81ed1b474de2eafdc9bcf33841a1b18b56fbe9829c02b"
+    },
+    {
+      "path": "18_preference_zeta_heisenberg_fluctuation_v2_0/scripts/preference_zeta_heisenberg_kernel_v2_0.py",
+      "size": 3823,
+      "sha256": "9789318ee5d0c3edeff38dfa0e3d90d3645428689d6b62d303028aefb446bd38"
+    },
+    {
+      "path": "19_debt5_ramanujan_seed_suppression_v2_1/DEBT_LEDGER_UPDATE_v2_1.md",
+      "size": 1631,
+      "sha256": "38157620abcf2f5e0e72d2c8cc2d7aa61348381db309a35459186be33780d863"
+    },
+    {
+      "path": "19_debt5_ramanujan_seed_suppression_v2_1/METATIME_SM_DEBT5_RAMANUJAN_SEED_SUPPRESSION_v2_1.md",
+      "size": 3985,
+      "sha256": "ebd08164f180f7672cd0ae75b7145a831e6dc936dc3711a5f4a78ccf0c8de334"
+    },
+    {
+      "path": "19_debt5_ramanujan_seed_suppression_v2_1/README.md",
+      "size": 248,
+      "sha256": "dc7c99e0c31cf6eb07ae09c6a93f0084fdae893fdf839997db52328b3e58d728"
+    },
+    {
+      "path": "19_debt5_ramanujan_seed_suppression_v2_1/results/ramanujan_seed_suppression_summary_v2_1.json",
+      "size": 685,
+      "sha256": "d5f40831ebc3a80a684680fc4ab0bf654846c8329f0d94515598f43ebb825512"
+    },
+    {
+      "path": "19_debt5_ramanujan_seed_suppression_v2_1/results/ramanujan_seed_suppression_table_v2_1.csv",
+      "size": 1224,
+      "sha256": "3255310c498efe8b6aee85368eed84eed2fd3559d311abaf4b9ec29a9b2e437e"
+    },
+    {
+      "path": "19_debt5_ramanujan_seed_suppression_v2_1/results/ramanujan_seed_suppression_validation_v2_1.txt",
+      "size": 203,
+      "sha256": "f9ac597092a028fe06e4507fca23c864062bba7266eeec33ec09e65b68221d23"
+    },
+    {
+      "path": "19_debt5_ramanujan_seed_suppression_v2_1/schemas/RAMANUJAN_SEED_SUPPRESSION_SCHEMA_v2_1.json",
+      "size": 1002,
+      "sha256": "3bc27a65782976bc85e566b2bb6d36f3e38ae95de64eeb3400dd859e082ff36f"
+    },
+    {
+      "path": "19_debt5_ramanujan_seed_suppression_v2_1/scripts/ramanujan_seed_suppression_v2_1.py",
+      "size": 7216,
+      "sha256": "1907c861cb4fd08c8e5a52d5c3beae771e7d42fbe6d5aeb050198c6071e04c4e"
+    },
+    {
+      "path": "20_debt7_weak_axis_first_principles_v2_2/DEBT_LEDGER_UPDATE_v2_2.md",
+      "size": 1535,
+      "sha256": "c3cf7a305937da0a8b1ee41a9abe42bb4f5d8047406e4125a144862b04cbb4b1"
+    },
+    {
+      "path": "20_debt7_weak_axis_first_principles_v2_2/GATE_TAXONOMY_v2_2.json",
+      "size": 592,
+      "sha256": "2410799198a9e7f13994d327586c532e7788602b651c3c10d0e269e5834028ff"
+    },
+    {
+      "path": "20_debt7_weak_axis_first_principles_v2_2/METATIME_SM_DEBT7_WEAK_AXIS_FIRST_PRINCIPLES_v2_2.md",
+      "size": 9863,
+      "sha256": "18937da340a60152584e720f6e39cf3d44be8f06d9c1e4529bc7d2703abcce4b"
+    },
+    {
+      "path": "20_debt7_weak_axis_first_principles_v2_2/README.md",
+      "size": 600,
+      "sha256": "37c42f6c0906a5d452124c9a92c788ab44b89fd43731d8ba7a4f2e7933af7f61"
+    },
+    {
+      "path": "20_debt7_weak_axis_first_principles_v2_2/VALIDATION_STATUS_v2_2.md",
+      "size": 1080,
+      "sha256": "d3d743aa67475593b0e72598b6cf8897a2c25c59f372024aad8659076451aa30"
+    },
+    {
+      "path": "20_debt7_weak_axis_first_principles_v2_2/results/axis_candidate_gate_summary_v2_2.json",
+      "size": 545,
+      "sha256": "614e3d503c46a34c56bad5472964640811f712b26cedfe30725e0918b6bfaec0"
+    },
+    {
+      "path": "20_debt7_weak_axis_first_principles_v2_2/results/axis_candidate_gate_v2_2.csv",
+      "size": 768,
+      "sha256": "6bc97adcf10b668d74a9bc523ef47e5f470301c3f8b41cface42edec1744d7a7"
+    },
+    {
+      "path": "20_debt7_weak_axis_first_principles_v2_2/scripts/weak_axis_selection_gate_v2_2.py",
+      "size": 4360,
+      "sha256": "c619c201d1798f85de660fabe2d170a9bb9d1df0b7ecd7e2daa7f693a38d164b"
+    },
+    {
+      "path": "21_debt8_source_axis_candidate_grammar_v2_3/DEBT_LEDGER_UPDATE_v2_3.md",
+      "size": 850,
+      "sha256": "fc448894cb44c28a2ab39ccad6463e31d8d39d3a84124c03f52bff4b8977c6e2"
+    },
+    {
+      "path": "21_debt8_source_axis_candidate_grammar_v2_3/METATIME_SM_DEBT8_SOURCE_AXIS_CANDIDATE_GRAMMAR_v2_3.md",
+      "size": 8155,
+      "sha256": "e58e31bf656236f26101109b7d510546005c8253269e6082ccf3b41206599de8"
+    },
+    {
+      "path": "21_debt8_source_axis_candidate_grammar_v2_3/README.md",
+      "size": 616,
+      "sha256": "8af63e41beb338810943d7fd11f4e25cb436c6584a785ba0e485b2d647ae2008"
+    },
+    {
+      "path": "21_debt8_source_axis_candidate_grammar_v2_3/SOURCE_AXIS_GRAMMAR_SCHEMA_v2_3.json",
+      "size": 1281,
+      "sha256": "42525739b1b818aececc97b6510ab287dd31e67d15e48780bca3e2fe1f89b2a7"
+    },
+    {
+      "path": "21_debt8_source_axis_candidate_grammar_v2_3/VALIDATION_STATUS_v2_3.md",
+      "size": 945,
+      "sha256": "d1f9fc18865f6626042e182ba2adce70fab6ab963de75eba6feaec8f63517265"
+    },
+    {
+      "path": "21_debt8_source_axis_candidate_grammar_v2_3/results/gate_taxonomy_update_v2_3.csv",
+      "size": 408,
+      "sha256": "bd6b7df2c71fc35deba278608f385e7ddbf750c53dfda6ba4d598eb02435dfb8"
+    },
+    {
+      "path": "21_debt8_source_axis_candidate_grammar_v2_3/results/source_axis_candidate_summary_v2_3.json",
+      "size": 389,
+      "sha256": "f4a75dc8c8b0fa2a74047de9a3c8b5a2790329bd4294db8fb66e8d7b4c46d804"
+    },
+    {
+      "path": "21_debt8_source_axis_candidate_grammar_v2_3/results/source_axis_candidate_table_v2_3.csv",
+      "size": 1826,
+      "sha256": "a77602f144ddfc17c726a47924ec5ce070fc697e45bcbb512c8857515e0e5606"
+    },
+    {
+      "path": "21_debt8_source_axis_candidate_grammar_v2_3/scripts/source_axis_candidate_grammar_v2_3.py",
+      "size": 6169,
+      "sha256": "9573495abafb99034fa56d9487298569bb2ee24dcec786b839721cb3dbcc5eb1"
+    },
+    {
+      "path": "22_euler_identity_berry_phase_spin_constraint_v2_4/DEBT_LEDGER_UPDATE_v2_4.md",
+      "size": 788,
+      "sha256": "8cb6adcef4ce49ca28922eb639f722d55d32a37a20dcb333a5ae698028805333"
+    },
+    {
+      "path": "22_euler_identity_berry_phase_spin_constraint_v2_4/METATIME_SM_EULER_IDENTITY_BERRY_PHASE_SPIN_CONSTRAINT_v2_4.md",
+      "size": 6258,
+      "sha256": "0d045c89055d8168b2b700712da023a95f8c5a2241a8f2a22f8e28540692d84d"
+    },
+    {
+      "path": "22_euler_identity_berry_phase_spin_constraint_v2_4/README.md",
+      "size": 403,
+      "sha256": "8ddc14352d339073be40ed5db05c4b3422ff4196e792e5003ac0f950fdd5bac9"
+    },
+    {
+      "path": "22_euler_identity_berry_phase_spin_constraint_v2_4/VALIDATION_STATUS_v2_4.md",
+      "size": 379,
+      "sha256": "a47ea3c2a6ba39714bebc0e646f4d7c7aeadcbfac53c5229423f7830e37d2c4a"
+    },
+    {
+      "path": "22_euler_identity_berry_phase_spin_constraint_v2_4/results/euler_berry_spin_candidates_v2_4.csv",
+      "size": 440,
+      "sha256": "2c0686820e9b7156c1ce80bb3f8ccacdc30af027e2fae7f2a4a118692090bfd0"
+    },
+    {
+      "path": "22_euler_identity_berry_phase_spin_constraint_v2_4/results/euler_berry_spin_gate_summary_v2_4.json",
+      "size": 217,
+      "sha256": "8f19b9169bb6bd6d229649b8755c7cfc64f300915b24c755b3795f6ba7dafd8d"
+    },
+    {
+      "path": "22_euler_identity_berry_phase_spin_constraint_v2_4/schemas/EULER_BERRY_SPIN_SCHEMA_v2_4.json",
+      "size": 604,
+      "sha256": "435ba92476b7d923c78c90d6a373204b94ae5355343e881959d08ea7ea98c837"
+    },
+    {
+      "path": "22_euler_identity_berry_phase_spin_constraint_v2_4/scripts/euler_berry_spin_gate_v2_4.py",
+      "size": 2486,
+      "sha256": "3576a3128eb671bd97f6bf8cb26e3d21efe330cdfee25235dd2512571ffdaaba"
+    },
+    {
+      "path": "23_old_metatime_debt9_ckm_table_mining_v2_5/METATIME_SM_OLD_DOCS_DEBT9_CKM_TABLE_AUDIT_v2_5.md",
+      "size": 6562,
+      "sha256": "3fc87a1a31ecefaca27a4904f40a6f60652a02502cd27462dddd81a3676d2bce"
+    },
+    {
+      "path": "23_old_metatime_debt9_ckm_table_mining_v2_5/README.md",
+      "size": 771,
+      "sha256": "da9ade77e873abb0ca30c2407a4a6fa7262f788bb641998d0f22159dd9295218"
+    },
+    {
+      "path": "23_old_metatime_debt9_ckm_table_mining_v2_5/results/old_docs_reference_mining_v2_5_result.txt",
+      "size": 656,
+      "sha256": "eafa7163288ce66fc45efa3a6d28e4eb57d976f909c5ad3b58ed1744fcaa5d39"
+    },
+    {
+      "path": "23_old_metatime_debt9_ckm_table_mining_v2_5/results/old_metatime_reference_findings_v2_5.csv",
+      "size": 3347,
+      "sha256": "a8bdb6d0864ee41c105a1be4cf145cc606b95f63ed3398313b6af895da843408"
+    },
+    {
+      "path": "23_old_metatime_debt9_ckm_table_mining_v2_5/results/old_metatime_reference_findings_v2_5.json",
+      "size": 719,
+      "sha256": "4a82b2e7ea80d6e41c330a8e45bdd9d682fffcf8629c77a3cb1ebe44795e0edd"
+    },
+    {
+      "path": "23_old_metatime_debt9_ckm_table_mining_v2_5/scripts/old_docs_reference_mining_v2_5.py",
+      "size": 1570,
+      "sha256": "8232260966d34efed122de8169cea3fc18f14a843ac9f1368744df1caa62ec86"
+    },
+    {
+      "path": "24_debt9_one_anchor_mass_scaling_v2_6/METATIME_SM_DEBT9_ONE_ANCHOR_MASS_SCALING_v2_6.md",
+      "size": 7174,
+      "sha256": "a2f811ded9ca0778250318802f7eb184fba8816843d36177e39d35b781e5eb82"
+    },
+    {
+      "path": "24_debt9_one_anchor_mass_scaling_v2_6/results/debt9_one_anchor_scaling_run_v2_6.json",
+      "size": 2190,
+      "sha256": "fdc020f4af978d5b901d830852fca848d9ad5174f678e4d56984ca12507faa3f"
+    },
+    {
+      "path": "24_debt9_one_anchor_mass_scaling_v2_6/results/debt9_status_update_v2_6.json",
+      "size": 3076,
+      "sha256": "5325c6655c146ac53dc00164cb49ed6ce6a9cc03707aaaf93750795a3738ec65"
+    },
+    {
+      "path": "24_debt9_one_anchor_mass_scaling_v2_6/results/one_anchor_mass_scaling_predictions_v2_6.csv",
+      "size": 9490,
+      "sha256": "9cb16ba943399984ac9b938516e2d6df98bb91596190ac9f7318702828e24000"
+    },
+    {
+      "path": "24_debt9_one_anchor_mass_scaling_v2_6/results/one_anchor_mass_scaling_summary_v2_6.csv",
+      "size": 856,
+      "sha256": "4577f917b6a93c690adc9e45de6fdce642fc3ccfcb58d23c5be9d8675e84e26f"
+    },
+    {
+      "path": "24_debt9_one_anchor_mass_scaling_v2_6/schemas/DEBT9_ONE_ANCHOR_SCHEMA_v2_6.json",
+      "size": 859,
+      "sha256": "86ba3a4e0be001efd1ff27009c259b68f73c32e0efa9422257de4873166d92d1"
+    },
+    {
+      "path": "24_debt9_one_anchor_mass_scaling_v2_6/scripts/debt9_one_anchor_scaling_v2_6.py",
+      "size": 10656,
+      "sha256": "3de836a27607b9091df074c060204fdfd3d0d17cc1c332864db20502aaa41c25"
+    },
+    {
+      "path": "25_debt9_information_quantum_dynamic_range_bridge_v2_7/METATIME_SM_DEBT9_INFORMATION_QUANTUM_DYNAMIC_RANGE_BRIDGE_v2_7.md",
+      "size": 4961,
+      "sha256": "4da2d73b10d63df8b34dd0270952b11e7c773d85c8d7412c697d3587d2940738"
+    },
+    {
+      "path": "25_debt9_information_quantum_dynamic_range_bridge_v2_7/results/information_quantum_dynamic_range_summary_v2_7.csv",
+      "size": 1376,
+      "sha256": "c2030dc6e8fb84979d780e5b2d97cd869d7d3017d5171b1df38c38edc0c9daff"
+    },
+    {
+      "path": "25_debt9_information_quantum_dynamic_range_bridge_v2_7/results/information_quantum_dynamic_range_summary_v2_7.json",
+      "size": 1538,
+      "sha256": "7c3be48941975a28e596c22ef1f565fd58068940da8f8a07e40b35cad5db4c93"
+    },
+    {
+      "path": "25_debt9_information_quantum_dynamic_range_bridge_v2_7/results/old_tau_eigenvalue_bridge_audit_v2_7.csv",
+      "size": 2948,
+      "sha256": "47af91471be56eede242f9f294abb29b221696844314b9e9358bc795f4a2b821"
+    },
+    {
+      "path": "25_debt9_information_quantum_dynamic_range_bridge_v2_7/schemas/INFO_QUANTUM_DYNAMIC_RANGE_SCHEMA_v2_7.json",
+      "size": 633,
+      "sha256": "ab5bcc671eb39a495774e494b1c74afa8fe051fa0c983106db999123dbd1d445"
+    },
+    {
+      "path": "25_debt9_information_quantum_dynamic_range_bridge_v2_7/scripts/information_quantum_dynamic_range_bridge_v2_7.py",
+      "size": 7925,
+      "sha256": "2c74cf42f82b4d2b6089e0063c80e2c21ec772f479d7cf1d65ba3182f795f618"
+    },
+    {
+      "path": "26_debt9_numeric_gap_no_hidden_fit_guard_v2_8/METATIME_SM_DEBT9_NUMERIC_GAP_NO_HIDDEN_FIT_GUARD_v2_8.md",
+      "size": 3602,
+      "sha256": "c56ace1e2e23bcbb24d99af403128458edc0799b33f70a4501561ccecc29146c"
+    },
+    {
+      "path": "26_debt9_numeric_gap_no_hidden_fit_guard_v2_8/README.md",
+      "size": 462,
+      "sha256": "60ac8df2ed435db5c393e8812773b817274261e1d11b013d0df94ca1500d42ca"
+    },
+    {
+      "path": "26_debt9_numeric_gap_no_hidden_fit_guard_v2_8/VALIDATION_STATUS_v2_8.md",
+      "size": 374,
+      "sha256": "4810851ddcea15c0e843cc804bc110fff8bb9251db86f44c39c44fbf8a155367"
+    },
+    {
+      "path": "26_debt9_numeric_gap_no_hidden_fit_guard_v2_8/results/debt9_numeric_gap_no_hidden_fit_guard_v2_8.json",
+      "size": 2759,
+      "sha256": "dded1899796038cc83b99e93af65f13323ebda726c65733de7108c439080cd19"
+    },
+    {
+      "path": "26_debt9_numeric_gap_no_hidden_fit_guard_v2_8/results/debt9_numeric_gap_summary_v2_8.csv",
+      "size": 329,
+      "sha256": "b602bdaf45521f339f13b2058854a700918a7fbe61cc4bd6dbc2dd1abe53ac6f"
+    },
+    {
+      "path": "26_debt9_numeric_gap_no_hidden_fit_guard_v2_8/results/no_hidden_fit_guard_run_v2_8.json",
+      "size": 545,
+      "sha256": "8d7b3a4be2be7d0c4aee484e23f1976605720ff81eb9736161f6a1bd9f51bc61"
+    },
+    {
+      "path": "26_debt9_numeric_gap_no_hidden_fit_guard_v2_8/results/no_hidden_fit_guard_stdout_v2_8.txt",
+      "size": 546,
+      "sha256": "47a827b35f563b33a6f99473e1be1872e29e3e6045d75a893bb61630d4aa82c4"
+    },
+    {
+      "path": "26_debt9_numeric_gap_no_hidden_fit_guard_v2_8/schemas/NO_HIDDEN_FIT_GUARD_SCHEMA_v2_8.json",
+      "size": 804,
+      "sha256": "e7f29515bfd94904931e675df4ea8ec2739b08696b5baf9ca1b0c4bc606067f2"
+    },
+    {
+      "path": "26_debt9_numeric_gap_no_hidden_fit_guard_v2_8/scripts/no_hidden_fit_guard_v2_8.py",
+      "size": 2663,
+      "sha256": "73f4c630f5a2f0415f6ad677fbd549583418532bdb67299d0add6d1344c1127d"
+    },
+    {
+      "path": "27_debt9_tau_v2_clean_information_eigenvalue_v2_9/METATIME_SM_DEBT9_TAU_V2_CLEAN_INFORMATION_EIGENVALUE_v2_9.md",
+      "size": 4010,
+      "sha256": "a6a848369c55eeff203d6c59559694b2b6b17e22ebe7c68927da21b22c13fe67"
+    },
+    {
+      "path": "27_debt9_tau_v2_clean_information_eigenvalue_v2_9/README.md",
+      "size": 137,
+      "sha256": "1bd8a6b3cd01c5c387439f7f1f294b9861e4cb473962d431aba89ebe84beff72"
+    },
+    {
+      "path": "27_debt9_tau_v2_clean_information_eigenvalue_v2_9/results/tau_v2_script_stderr_v2_9.txt",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "27_debt9_tau_v2_clean_information_eigenvalue_v2_9/results/tau_v2_script_stdout_v2_9.json",
+      "size": 1554,
+      "sha256": "7bc49d508ec7cba1c4d268b87aa4e1c7f3dabc9d70ad85bd97277bff40088cc3"
+    },
+    {
+      "path": "27_debt9_tau_v2_clean_information_eigenvalue_v2_9/results/tau_v2_structural_information_eigenvalue_summary_v2_9.csv",
+      "size": 1271,
+      "sha256": "d225dbd985240951d2d264f8be554f99c952d61324e44c40458708a14aeed8b8"
+    },
+    {
+      "path": "27_debt9_tau_v2_clean_information_eigenvalue_v2_9/results/tau_v2_structural_information_eigenvalue_summary_v2_9.json",
+      "size": 1553,
+      "sha256": "ebd0b04b33832d982804d2734b650c491ee3b7602f955059e4522e7edd0a87d3"
+    },
+    {
+      "path": "27_debt9_tau_v2_clean_information_eigenvalue_v2_9/results/tau_v2_structural_information_eigenvalue_table_v2_9.csv",
+      "size": 3817,
+      "sha256": "6dc73892e6d2d3cc3ae4c74ff10d1b05dc2d572cbae8861211928601a923ece5"
+    },
+    {
+      "path": "27_debt9_tau_v2_clean_information_eigenvalue_v2_9/schemas/TAU_V2_STRUCTURAL_INFORMATION_EIGENVALUE_SCHEMA_v2_9.json",
+      "size": 458,
+      "sha256": "e9ae418f44d7c795576019b543040c8753b5798f0d0727007aaacfb09462288a"
+    },
+    {
+      "path": "27_debt9_tau_v2_clean_information_eigenvalue_v2_9/scripts/tau_v2_structural_information_eigenvalue_v2_9.py",
+      "size": 7722,
+      "sha256": "ea2ac2a9e6aa9092de3cbefb40da97f5dd5f61fdbe0483a038c7e6be4031109b"
+    },
+    {
+      "path": "28_debt11_chiral_representation_projection_v3_0/METATIME_SM_DEBT11_CHIRAL_REPRESENTATION_PROJECTION_v3_0.md",
+      "size": 5786,
+      "sha256": "15b49a6e9d25ebb67f02139153c4e5172d15f42ecfc876b9a76fa186663ee4e0"
+    },
+    {
+      "path": "28_debt11_chiral_representation_projection_v3_0/README.md",
+      "size": 457,
+      "sha256": "d15cf3174aa9cc88d72b152fa5a7c9667d3e0cc015c62803fe550dd24c4ed997"
+    },
+    {
+      "path": "28_debt11_chiral_representation_projection_v3_0/VALIDATION_STATUS_v3_0.md",
+      "size": 585,
+      "sha256": "64f3d747cb215842647683c5b6c1439980cddaefe9d6408eb7bf21e1b9448ee6"
+    },
+    {
+      "path": "28_debt11_chiral_representation_projection_v3_0/results/anomaly_and_higgs_gate_report_v3_0.json",
+      "size": 1043,
+      "sha256": "c2d7b665961e981ab8fb32b66dcac16b88620f3aefc7535cb45d61868912e576"
+    },
+    {
+      "path": "28_debt11_chiral_representation_projection_v3_0/results/chiral_representation_table_v3_0.csv",
+      "size": 3049,
+      "sha256": "57d2666bf2a81be5b4e5d48882941943761730e3f1b6761171b2699c780ed70d"
+    },
+    {
+      "path": "28_debt11_chiral_representation_projection_v3_0/results/debt11_status_ledger_v3_0.json",
+      "size": 643,
+      "sha256": "29b62d4c9f3f3961529d79db344046a7af332c319486a39889bf177b336834e1"
+    },
+    {
+      "path": "28_debt11_chiral_representation_projection_v3_0/results/projection_channel_table_v3_0.csv",
+      "size": 2540,
+      "sha256": "49d0cd50402ee9bd0db818265e597bc2f33f7ac59c1311c492156c9d55035df5"
+    },
+    {
+      "path": "28_debt11_chiral_representation_projection_v3_0/schemas/REPRESENTATION_PROJECTION_SCHEMA_v3_0.json",
+      "size": 796,
+      "sha256": "02c0f777220927621aa2c485e67c8d8f24a2930f2ed6ff4d528b1f5c3e1d3a70"
+    },
+    {
+      "path": "28_debt11_chiral_representation_projection_v3_0/scripts/debt11_chiral_representation_projection_v3_0.py",
+      "size": 10472,
+      "sha256": "8fc71bbcb5e7fcb195e339b359f0ddbb36031b78ba85524b3e845c58dc4b3c38"
+    },
+    {
+      "path": "29_debt9_debt11_frozen_sector_projection_operator_v3_1/METATIME_SM_DEBT9_DEBT11_FROZEN_SECTOR_PROJECTION_OPERATOR_v3_1.md",
+      "size": 3643,
+      "sha256": "ee92c99efa35416ecb18dbdce395475f94efa5509e617dc31826e09176fa0f40"
+    },
+    {
+      "path": "29_debt9_debt11_frozen_sector_projection_operator_v3_1/README.md",
+      "size": 278,
+      "sha256": "6643a2dbf3f0319f34e35ea5ee9ed8242aa537e2b2f6dfd926480a7bf4385cc6"
+    },
+    {
+      "path": "29_debt9_debt11_frozen_sector_projection_operator_v3_1/VALIDATION_STATUS_v3_1.md",
+      "size": 498,
+      "sha256": "9c31875456c576fda3ef25f0a63d17b1d1867d1ac470a027b35bf9f89ef5aa05"
+    },
+    {
+      "path": "29_debt9_debt11_frozen_sector_projection_operator_v3_1/results/fermion_projected_tau_surface_v3_1.csv",
+      "size": 3133,
+      "sha256": "7678a9a55cde50161f9ad46b4d951d8ccaf9044e2eb6aea01910ca18b1594d1e"
+    },
+    {
+      "path": "29_debt9_debt11_frozen_sector_projection_operator_v3_1/results/sector_projection_operator_script_stderr_v3_1.txt",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "29_debt9_debt11_frozen_sector_projection_operator_v3_1/results/sector_projection_operator_script_stdout_v3_1.json",
+      "size": 1826,
+      "sha256": "f7643877ca7f264236fc34613ae9e2c5cb14abd4b37c802f0f9e1cb202ea84f2"
+    },
+    {
+      "path": "29_debt9_debt11_frozen_sector_projection_operator_v3_1/results/sector_projection_operator_summary_v3_1.json",
+      "size": 1825,
+      "sha256": "95135578f3476889febdf80dcd74fc0cf98145ec4fb68f590dbb287bd36cef12"
+    },
+    {
+      "path": "29_debt9_debt11_frozen_sector_projection_operator_v3_1/results/sector_projection_operator_v3_1.csv",
+      "size": 1687,
+      "sha256": "b0a692c8daa6ab108548449b7a1dd546d551029c3dd6226364dc9eab9cf86c70"
+    },
+    {
+      "path": "29_debt9_debt11_frozen_sector_projection_operator_v3_1/schemas/SECTOR_PROJECTION_OPERATOR_SCHEMA_v3_1.json",
+      "size": 656,
+      "sha256": "262af44ef58ae5c48725b430eb55293a65606306003f1f6d8029774069c736af"
+    },
+    {
+      "path": "29_debt9_debt11_frozen_sector_projection_operator_v3_1/scripts/sector_projection_operator_v3_1.py",
+      "size": 8496,
+      "sha256": "89c9ddf976db68d30750e8b34e5eb6ee13ddab574a32ec786a55a71f7b603756"
+    },
+    {
+      "path": "30_debt9_one_anchor_rescore_frozen_projection_v3_2/METATIME_SM_DEBT9_ONE_ANCHOR_FROZEN_PROJECTION_RESC0RE_v3_2.md",
+      "size": 3788,
+      "sha256": "764e0e75ae40e6112d435f34082f934f4bfef743a891150397a20403965546c6"
+    },
+    {
+      "path": "30_debt9_one_anchor_rescore_frozen_projection_v3_2/README.md",
+      "size": 130,
+      "sha256": "d724464669862e985501fcef33a7f1c3b73e08595255c0c83aefd34a3cf14c42"
+    },
+    {
+      "path": "30_debt9_one_anchor_rescore_frozen_projection_v3_2/VALIDATION_STATUS_v3_2.md",
+      "size": 297,
+      "sha256": "4e202214da43c1138c69e3cc85c849bbbb399c486d59ee0c204de38fb43b6735"
+    },
+    {
+      "path": "30_debt9_one_anchor_rescore_frozen_projection_v3_2/results/one_anchor_frozen_projection_anti_fit_audit_v3_2.json",
+      "size": 1263,
+      "sha256": "fd1bf700656571840247632123840947b9d8fcf4710099590c733a525792194a"
+    },
+    {
+      "path": "30_debt9_one_anchor_rescore_frozen_projection_v3_2/results/one_anchor_frozen_projection_rescore_predictions_v3_2.csv",
+      "size": 11753,
+      "sha256": "89b10d805f2ec1475858ba6363dc1d62b9667c190864dc36dd15b5f6795f500f"
+    },
+    {
+      "path": "30_debt9_one_anchor_rescore_frozen_projection_v3_2/results/one_anchor_frozen_projection_rescore_script_stderr_v3_2.txt",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "30_debt9_one_anchor_rescore_frozen_projection_v3_2/results/one_anchor_frozen_projection_rescore_script_stdout_v3_2.json",
+      "size": 4590,
+      "sha256": "f1ed2008a112119b8657a18f71383bd4b261a00e16e519d13e992d754d57cfb8"
+    },
+    {
+      "path": "30_debt9_one_anchor_rescore_frozen_projection_v3_2/results/one_anchor_frozen_projection_rescore_summary_v3_2.csv",
+      "size": 1293,
+      "sha256": "bb1877e8daf71514d2701497bd5ce5777500340f61edd07b6b2bac6162b8e25a"
+    },
+    {
+      "path": "30_debt9_one_anchor_rescore_frozen_projection_v3_2/schemas/ONE_ANCHOR_FROZEN_PROJECTION_RESC0RE_SCHEMA_v3_2.json",
+      "size": 527,
+      "sha256": "2d7d915451981123b2c5c5100e5a327b90e55fb1095303012d6120238f48c931"
+    },
+    {
+      "path": "30_debt9_one_anchor_rescore_frozen_projection_v3_2/scripts/one_anchor_frozen_projection_rescore_v3_2.py",
+      "size": 9910,
+      "sha256": "cbf41782523864eb66ca9e2c70ff5733746aba39d59cdc7661746f944e530763"
+    },
+    {
+      "path": "31_debt9_sector_basis_white_thread_operator_v3_3/METATIME_SM_DEBT9_DEBT10_DEBT11_SECTOR_BASIS_WHITE_THREAD_OPERATOR_v3_3.md",
+      "size": 3784,
+      "sha256": "65d961bdba4df7df57ff4c803ad8d0160a74fb28998ad62b45774f71f7f6f59c"
+    },
+    {
+      "path": "31_debt9_sector_basis_white_thread_operator_v3_3/README.md",
+      "size": 421,
+      "sha256": "5d6b94f3c58dcc1504cbccccb4e05946fc32b006ceb9431bae4f620625c6bc39"
+    },
+    {
+      "path": "31_debt9_sector_basis_white_thread_operator_v3_3/VALIDATION_STATUS_v3_3.md",
+      "size": 452,
+      "sha256": "646062959773aca6bdeface466114a3c88cdac0f75037555190f5f60b9840785"
+    },
+    {
+      "path": "31_debt9_sector_basis_white_thread_operator_v3_3/results/ckm_relative_basis_skeleton_v3_3.csv",
+      "size": 1178,
+      "sha256": "977f540f58c87218f1074944ea7dbf5df3d247151f527daabe01d56728b0f553"
+    },
+    {
+      "path": "31_debt9_sector_basis_white_thread_operator_v3_3/results/fermion_sector_basis_assignment_v3_3.csv",
+      "size": 1320,
+      "sha256": "c34c9c277d3eeed0b42e59308be9942be92a0d1a4f02ee40a0c9f212e31b7836"
+    },
+    {
+      "path": "31_debt9_sector_basis_white_thread_operator_v3_3/results/sector_basis_operator_script_stderr_v3_3.txt",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "31_debt9_sector_basis_white_thread_operator_v3_3/results/sector_basis_operator_script_stdout_v3_3.json",
+      "size": 1216,
+      "sha256": "d6e79306dab98a824a0a42425d5f7134f5aa40ead216e96215af3f0cc59b11f3"
+    },
+    {
+      "path": "31_debt9_sector_basis_white_thread_operator_v3_3/results/sector_basis_operator_summary_v3_3.json",
+      "size": 1215,
+      "sha256": "483bee98ed4fc5fce2647bcc34a056137efaf37471679136c3ea3357b89c18be"
+    },
+    {
+      "path": "31_debt9_sector_basis_white_thread_operator_v3_3/results/sector_basis_table_v3_3.csv",
+      "size": 1326,
+      "sha256": "7477640b9718fcb4cbd9dbf2e6512402e538f86f16405da6eafa0ba8565d22a7"
+    },
+    {
+      "path": "31_debt9_sector_basis_white_thread_operator_v3_3/results/white_thread_operator_skeleton_v3_3.csv",
+      "size": 10687,
+      "sha256": "6921a383bdd48282619948f73bbb4b5720487a3a15473b633ac24450ba2908da"
+    },
+    {
+      "path": "31_debt9_sector_basis_white_thread_operator_v3_3/schemas/SECTOR_BASIS_WHITE_THREAD_OPERATOR_SCHEMA_v3_3.json",
+      "size": 918,
+      "sha256": "5aed02b2ca7da9f3d52490bb0a526d22f7b35ce159474d7fefa33b87275e5395"
+    },
+    {
+      "path": "31_debt9_sector_basis_white_thread_operator_v3_3/scripts/sector_basis_white_thread_operator_v3_3.py",
+      "size": 10716,
+      "sha256": "e364d2bb42cb4b0ef3e455caabd724673558c3e549574b8c82cd9b987841bcc0"
+    },
+    {
+      "path": "32_debt9_projection_orientation_sector_basis_v3_4/METATIME_SM_DEBT9_DEBT10_DEBT11_PROJECTION_ORIENTATION_SECTOR_BASIS_v3_4.md",
+      "size": 3855,
+      "sha256": "f4834f931d139220ec81802545fc4af612fcf08d3b78d0e965de84ccb1560804"
+    },
+    {
+      "path": "32_debt9_projection_orientation_sector_basis_v3_4/README.md",
+      "size": 550,
+      "sha256": "360b899f35eb4edd6821c4754ab432b7ff299d81b44e2a38c95d5974e4337244"
+    },
+    {
+      "path": "32_debt9_projection_orientation_sector_basis_v3_4/VALIDATION_STATUS_v3_4.md",
+      "size": 589,
+      "sha256": "d00c4926816eed0694fe090a1247341b8646fe5122c5132a674b4e9e0009d416"
+    },
+    {
+      "path": "32_debt9_projection_orientation_sector_basis_v3_4/results/projection_orientation_status_v3_4.json",
+      "size": 1255,
+      "sha256": "05bb60046ed3ce61efce024c0122788756b1f2e95cabbd2ecd7410ca125284d3"
+    },
+    {
+      "path": "32_debt9_projection_orientation_sector_basis_v3_4/results/sector_basis_orientation_channels_v3_4.csv",
+      "size": 4812,
+      "sha256": "9b71e2f1cf2bff099e1d782535e2f0f425ce7cf18ad3650b630fc3730ef887aa"
+    },
+    {
+      "path": "32_debt9_projection_orientation_sector_basis_v3_4/results/up_down_basis_overlap_matrix_v3_4.csv",
+      "size": 276,
+      "sha256": "33d397ea4344ccf03c7c927f2dd29a26ef954c52a2a0458256b12e87e7dc43d6"
+    },
+    {
+      "path": "32_debt9_projection_orientation_sector_basis_v3_4/schemas/PROJECTION_ORIENTATION_SCHEMA_v3_4.json",
+      "size": 756,
+      "sha256": "a44e400e5f37f376258312961b6fe42017c36893664010e2759129184930c561"
+    },
+    {
+      "path": "32_debt9_projection_orientation_sector_basis_v3_4/scripts/projection_orientation_operator_v3_4.py",
+      "size": 12215,
+      "sha256": "ad72951ee71286bafa25dd22d4940fa2cd73af7b45ad8fd688db604783e04d0a"
+    },
+    {
+      "path": "33_debt10_white_thread_open_holonomy_preckm_v3_5/METATIME_SM_WHITE_THREAD_OPEN_HOLONOMY_PRECKM_v3_5.md",
+      "size": 4023,
+      "sha256": "2df51b3f864800fa7f02ba8f10da95a570a58e39a59e4d5e9487e520792b185a"
+    },
+    {
+      "path": "33_debt10_white_thread_open_holonomy_preckm_v3_5/README.md",
+      "size": 232,
+      "sha256": "82669bd31d2721dc03435164b9442f4ee02ed32d5ebe6b54fe92e0928f23d0fd"
+    },
+    {
+      "path": "33_debt10_white_thread_open_holonomy_preckm_v3_5/VALIDATION_STATUS_v3_5.md",
+      "size": 404,
+      "sha256": "bc9418c57cde78e5982fe25829c2c35c43e0e54a745c151b2a2163d146bd7b91"
+    },
+    {
+      "path": "33_debt10_white_thread_open_holonomy_preckm_v3_5/results/row_normalized_pre_ckm_diagnostic_not_ckm_v3_5.csv",
+      "size": 324,
+      "sha256": "4725f35f40b486c379fbe8e44c6cd9c938c55eeec81e535052632a19a7ae79d6"
+    },
+    {
+      "path": "33_debt10_white_thread_open_holonomy_preckm_v3_5/results/white_thread_open_holonomy_pairs_v3_5.csv",
+      "size": 3539,
+      "sha256": "b130aaadce420b20640d662d2948087600e65901297ed367849540362a452b23"
+    },
+    {
+      "path": "33_debt10_white_thread_open_holonomy_preckm_v3_5/results/white_thread_open_holonomy_status_v3_5.json",
+      "size": 1213,
+      "sha256": "f1db88ff4fe5399dc64fd739ba1764055d73003a98cafb8ea351a6efe96266d1"
+    },
+    {
+      "path": "33_debt10_white_thread_open_holonomy_preckm_v3_5/results/white_thread_pre_ckm_matrix_not_ckm_v3_5.csv",
+      "size": 324,
+      "sha256": "189b6b65597d85daba2a097ae15325277433b926218e2e84eac606fb88de484e"
+    },
+    {
+      "path": "33_debt10_white_thread_open_holonomy_preckm_v3_5/schemas/WHITE_THREAD_OPEN_HOLONOMY_PRECKM_SCHEMA_v3_5.json",
+      "size": 1269,
+      "sha256": "65e849a11a3989ffa69daf1208ff6012c2d6685f128f6b6486b1a66f9765c8c5"
+    },
+    {
+      "path": "33_debt10_white_thread_open_holonomy_preckm_v3_5/scripts/white_thread_open_holonomy_preckm_v3_5.py",
+      "size": 9446,
+      "sha256": "2a6001c2b2f80f1c45792f1c58e69538386ce6895fba7680cff2ec79bbc6a155"
+    },
+    {
+      "path": "34_debt9_corrected_operator_projection_derivation_v3_6/METATIME_SM_DEBT9_CORRECTED_OPERATOR_PROJECTION_DERIVATION_v3_6.md",
+      "size": 5809,
+      "sha256": "dc2a7109b4097ecb99342c3869301ce63b7f37c3eb6b2853a6994e20f4f432f8"
+    },
+    {
+      "path": "34_debt9_corrected_operator_projection_derivation_v3_6/results/projection_scalar_amplification_sanity_v3_6.json",
+      "size": 1756,
+      "sha256": "88b0f4550e9d13d9bad4cfbe51fa88b0633912c8d718c5ab519458208c904fbb"
+    },
+    {
+      "path": "34_debt9_corrected_operator_projection_derivation_v3_6/results/script_stderr.txt",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "34_debt9_corrected_operator_projection_derivation_v3_6/results/script_stdout.txt",
+      "size": 1757,
+      "sha256": "ebbaa1e9f7d4b89a22b2971beda41649055c20aa07976f422d93d76591ebdae6"
+    },
+    {
+      "path": "34_debt9_corrected_operator_projection_derivation_v3_6/scripts/corrected_projection_sanity_v3_6.py",
+      "size": 1037,
+      "sha256": "995090d16d49b450d95ed0b82d7867489e070ed03da3eebb5fe2ace6cf075c21"
+    },
+    {
+      "path": "35_repair1_archive_formula_formalization_from_v3_6/METATIME_SM_REPAIR1_ARCHIVE_FORMULA_FORMALIZATION_FROM_v3_6.md",
+      "size": 3609,
+      "sha256": "41a9f4260a5482408d78228cc98e13d693fd72ca2bff3a49a9f8150dbb3a43d1"
+    },
+    {
+      "path": "35_repair1_archive_formula_formalization_from_v3_6/external_archive_execution_sources/METATIME_ARCHIVE_FORMULA_MASS_EXECUTION_SUMMARY_v3_9.csv",
+      "size": 629,
+      "sha256": "3b8c0eb76b3d72d6a21d0f237e108b5e697acedc804fb6968e2f0f089d47e240"
+    },
+    {
+      "path": "35_repair1_archive_formula_formalization_from_v3_6/external_archive_execution_sources/METATIME_ARCHIVE_FORMULA_MASS_EXECUTION_v3_9.csv",
+      "size": 5233,
+      "sha256": "a4e920eb91adc5fd9845a0a06a1cf18fca6499c055268aaf79e24293c1743e98"
+    },
+    {
+      "path": "35_repair1_archive_formula_formalization_from_v3_6/external_archive_execution_sources/METATIME_MASS_CALCULATION_RESULTS_v3_8_CHAT_REPORT.md",
+      "size": 4999,
+      "sha256": "39b0e11b68da877ca45cefcfbac04d06477fe225e9a636d6994324a3d9a24686"
+    },
+    {
+      "path": "35_repair1_archive_formula_formalization_from_v3_6/external_archive_execution_sources/METATIME_MASS_CALCULATION_TABLE_v3_8.csv",
+      "size": 1030,
+      "sha256": "0a1684e0f36c7b1c751c791ab0300ad6e37eee03773c0035adac34a020f7a046"
+    },
+    {
+      "path": "35_repair1_archive_formula_formalization_from_v3_6/results/archive_formula_formalization_repair1.json",
+      "size": 1173,
+      "sha256": "bd21ef182964c70f75bd547ce6a66132d2ba0124c20ecf8f576ac3a594364160"
+    },
+    {
+      "path": "35_repair1_archive_formula_formalization_from_v3_6/results/mass_formula_dependency_ledger_v3_6_repair1.csv",
+      "size": 7051,
+      "sha256": "1997c5deb9f70cfee7f90f48e2d704e574d33b7adef4dd39c81ac42ca4f396fe"
+    },
+    {
+      "path": "35_repair1_archive_formula_formalization_from_v3_6/results/repair1_validation_status.json",
+      "size": 605,
+      "sha256": "c0619f73c59936b66930d0c099c57e4573b2bfae709353142b116a27483c0fea"
+    },
+    {
+      "path": "35_repair1_archive_formula_formalization_from_v3_6/results/validate_repair1_stderr.txt",
+      "size": 1069,
+      "sha256": "5d7d4a15d6155aee5fb01e5fe2585decd7a5b67874ef6bf7aeaaeea2e7985e9e"
+    },
+    {
+      "path": "35_repair1_archive_formula_formalization_from_v3_6/results/validate_repair1_stdout.txt",
+      "size": 606,
+      "sha256": "085a6739d6815ccf022fd1d570a5edbcbad03794d2dc60ee79816bc1e150c844"
+    },
+    {
+      "path": "35_repair1_archive_formula_formalization_from_v3_6/scripts/validate_repair1_formalization.py",
+      "size": 1057,
+      "sha256": "107b1aff0a939a6e53b26e144b4fc5554ca7be4051d64d5fa91cd80e2c09b6d7"
+    },
+    {
+      "path": "36_repair2_archive_formula_source_extraction_execution/METATIME_SM_REPAIR2_FORMULA_SOURCE_EXTRACTION_EXECUTION_LEDGER.md",
+      "size": 2314,
+      "sha256": "2daf589d0c649572c4195dafb5f735c08c00110587dfa04632a4df4c8f41cf3b"
+    },
+    {
+      "path": "36_repair2_archive_formula_source_extraction_execution/external_mass_execution_sources/METATIME_ARCHIVE_FORMULA_MASS_EXECUTION_SUMMARY_v3_9.csv",
+      "size": 629,
+      "sha256": "3b8c0eb76b3d72d6a21d0f237e108b5e697acedc804fb6968e2f0f089d47e240"
+    },
+    {
+      "path": "36_repair2_archive_formula_source_extraction_execution/external_mass_execution_sources/METATIME_ARCHIVE_FORMULA_MASS_EXECUTION_v3_9.csv",
+      "size": 5233,
+      "sha256": "a4e920eb91adc5fd9845a0a06a1cf18fca6499c055268aaf79e24293c1743e98"
+    },
+    {
+      "path": "36_repair2_archive_formula_source_extraction_execution/external_mass_execution_sources/METATIME_MASS_CALCULATION_RESULTS_v3_8_CHAT_REPORT.md",
+      "size": 4999,
+      "sha256": "39b0e11b68da877ca45cefcfbac04d06477fe225e9a636d6994324a3d9a24686"
+    },
+    {
+      "path": "36_repair2_archive_formula_source_extraction_execution/external_mass_execution_sources/METATIME_MASS_CALCULATION_TABLE_v3_8.csv",
+      "size": 1030,
+      "sha256": "0a1684e0f36c7b1c751c791ab0300ad6e37eee03773c0035adac34a020f7a046"
+    },
+    {
+      "path": "36_repair2_archive_formula_source_extraction_execution/results/archive_formula_mass_execution_summary_repair2.csv",
+      "size": 63,
+      "sha256": "8af66b7034a333c61d005879e3bba0162d9ec986b90d7fb20a630c7b79a18921"
+    },
+    {
+      "path": "36_repair2_archive_formula_source_extraction_execution/results/archive_formula_mass_execution_unified_repair2.csv",
+      "size": 14329,
+      "sha256": "17a90afeb49195a21a79d02f086f336a91bbe5c390087973174179e429e2432d"
+    },
+    {
+      "path": "36_repair2_archive_formula_source_extraction_execution/results/archive_formula_source_extraction_ledger_repair2.csv",
+      "size": 304810,
+      "sha256": "ad3d9fa2dcddac286a7511b6b7fae3345835cffb28b57eb3cf605ea4fd0f5799"
+    },
+    {
+      "path": "36_repair2_archive_formula_source_extraction_execution/results/external_mass_execution_source_manifest_repair2.json",
+      "size": 951,
+      "sha256": "9bc80c68bafae5c63e026d2e46d9e1702ea9023d682e1e355bc5a6e8db1ad3db"
+    },
+    {
+      "path": "36_repair2_archive_formula_source_extraction_execution/results/repair2_validation_status.json",
+      "size": 250,
+      "sha256": "9c7e28b323c8fa5058682383c6b1d19c29bb6aa9cbd3db8c686ae54c9eff75fe"
+    },
+    {
+      "path": "36_repair2_archive_formula_source_extraction_execution/results/validate_repair2_stderr.txt",
+      "size": 1069,
+      "sha256": "5d7d4a15d6155aee5fb01e5fe2585decd7a5b67874ef6bf7aeaaeea2e7985e9e"
+    },
+    {
+      "path": "36_repair2_archive_formula_source_extraction_execution/results/validate_repair2_stdout.txt",
+      "size": 251,
+      "sha256": "e16af70a48d35fd670b4fd5325ac90fe4b2065bdab67fb233ed71c27ed01f752"
+    },
+    {
+      "path": "36_repair2_archive_formula_source_extraction_execution/scripts/validate_repair2_source_execution.py",
+      "size": 1171,
+      "sha256": "bed82239be9efb3b2e2d54a2133210ef0a8e1b9b58a8c3ece7cb846b8ee7242a"
+    },
+    {
+      "path": "36_repair2_archive_formula_source_extraction_execution/source_excerpts/SELECTED_ARCHIVE_FORMULA_EXCERPTS_REPAIR2.md",
+      "size": 77626,
+      "sha256": "d11978d0f5a0b3066c57170612ddee80581e6d3360cc1a031246d7a536902ab3"
+    },
+    {
+      "path": "60B_information_energy_normalizer_v6_0B/METATIME_INFORMATION_ENERGY_NORMALIZER_v6_0B.md",
+      "size": 835,
+      "sha256": "3a05d58ab0d4eff0a8720968ac102926fe8a37eff0e02e7532c84d645b1aae58"
+    },
+    {
+      "path": "60B_information_energy_normalizer_v6_0B/provenance/LINEAGE_FROM_AVAILABLE_v3_6.md",
+      "size": 403,
+      "sha256": "e253e0173a071f198a0e406d79f001df454b48a7919c9302222ccc2978e5c8c0"
+    },
+    {
+      "path": "60B_information_energy_normalizer_v6_0B/results/VALIDATION_MODULE60B_v6_0B.json",
+      "size": 100,
+      "sha256": "b4b6130bb1d453805b5c1106f07cf4b926b844f1dbde6b9146c6c9d6171a82ee"
+    },
+    {
+      "path": "60B_information_energy_normalizer_v6_0B/results/information_energy_normalizer_v6_0B.json",
+      "size": 13179,
+      "sha256": "eb2d97cdf027b92ce239c906c677b2304684cab7a07085e695f1e2a6a723b0de"
+    },
+    {
+      "path": "60B_information_energy_normalizer_v6_0B/results/information_energy_required_counts_v6_0B.csv",
+      "size": 2990,
+      "sha256": "a00ef1758c83d77b85239fa9cf624dee1bf5bfd4e3f58ef82f88e0069759046a"
+    },
+    {
+      "path": "60B_information_energy_normalizer_v6_0B/results/information_energy_scales_v6_0B.csv",
+      "size": 1338,
+      "sha256": "50360e26d7bbe4dbded676d773c3ca69018c59bf7c49a83de11e8696cafe34d0"
+    },
+    {
+      "path": "60B_information_energy_normalizer_v6_0B/schemas/METATIME_INFORMATION_ENERGY_NORMALIZER_SCHEMA_v6_0B.json",
+      "size": 408,
+      "sha256": "01bb60d38e2c9b388209b7a74121bfff8751e673464e7a1e68cc1a2e499cd1f6"
+    },
+    {
+      "path": "60B_information_energy_normalizer_v6_0B/scripts/information_energy_normalizer_v6_0B.py",
+      "size": 6366,
+      "sha256": "d07f2cd8332452ba6a5719c4dbfebd2212cf4c05377a4bed11e39595b843751e"
+    },
+    {
+      "path": "60B_information_energy_normalizer_v6_0B/scripts/validate_information_energy_normalizer_v6_0B.py",
+      "size": 1715,
+      "sha256": "5ace4434441d93d6f9df8878fc0cbecdb789a01b0ab4dfbdd7d47b769c149d45"
+    },
+    {
+      "path": "61_planck_information_action_ledger_v6_1/METATIME_SM_PLANCK_INFORMATION_ACTION_LEDGER_v6_1.md",
+      "size": 1165,
+      "sha256": "2c12662a47425aa2925dca36922dd376dc99610a3a6d393bef6e625ad94bf264"
+    },
+    {
+      "path": "61_planck_information_action_ledger_v6_1/README.md",
+      "size": 312,
+      "sha256": "5170fd7ad67b4070bd074990c50ce8dcb098a690e42be9eb8f3130744dad966c"
+    },
+    {
+      "path": "61_planck_information_action_ledger_v6_1/provenance/LINEAGE_FROM_V6_0B.md",
+      "size": 466,
+      "sha256": "437031be98e2f18397f522142465073da62dcc4ad2eb574ea57a2ae84c3a8628"
+    },
+    {
+      "path": "61_planck_information_action_ledger_v6_1/results/VALIDATION_MODULE61_v6_1.json",
+      "size": 78,
+      "sha256": "62dee541236fc08b60e9fdb95fa172eea09a5a8580c907dc0e3f67ca9031541d"
+    },
+    {
+      "path": "61_planck_information_action_ledger_v6_1/results/planck_information_action_ledger_v6_1.json",
+      "size": 11092,
+      "sha256": "19658aec4237f80beb10146eb1202bb8ce5270964c373f4d67f1899b6cfe8dee"
+    },
+    {
+      "path": "61_planck_information_action_ledger_v6_1/results/planck_information_action_releases_v6_1.csv",
+      "size": 825,
+      "sha256": "3ed1167d289ab70fba4891ec9ec316c1b2a829fe6f04102d14081fac6b1b4378"
+    },
+    {
+      "path": "61_planck_information_action_ledger_v6_1/results/planck_information_action_targets_v6_1.csv",
+      "size": 1397,
+      "sha256": "c998ca18f4503cee3f63466da14aff08b318ab162e4d16c3d5fbf8f324a80342"
+    },
+    {
+      "path": "61_planck_information_action_ledger_v6_1/schemas/METATIME_PLANCK_INFORMATION_ACTION_LEDGER_SCHEMA_v6_1.json",
+      "size": 439,
+      "sha256": "5a933b5fda5aa1b4e71a0068dcb61c2161bdf9bb41233181f616d1810524bc20"
+    },
+    {
+      "path": "61_planck_information_action_ledger_v6_1/scripts/planck_information_action_ledger_v6_1.py",
+      "size": 9800,
+      "sha256": "ea2b0516a16a8f11294baada52b4153b294d7b8f30f9a02d3f77e7c16b292975"
+    },
+    {
+      "path": "61_planck_information_action_ledger_v6_1/scripts/validate_module61_v6_1.py",
+      "size": 2137,
+      "sha256": "e95dfdb6abf622ecc001f328a746344747c5d0555cba1e5a27f6e2ef9bc8c861"
+    },
+    {
+      "path": "62_lepton_information_action_release_probe_v6_2/METATIME_SM_LEPTON_INFORMATION_ACTION_RELEASE_PROBE_v6_2.md",
+      "size": 1215,
+      "sha256": "121ea313efd1e0ffd2c3c40f3599533f67b4ca020a0c58ac53ea94f634ad1f20"
+    },
+    {
+      "path": "62_lepton_information_action_release_probe_v6_2/README.md",
+      "size": 1215,
+      "sha256": "121ea313efd1e0ffd2c3c40f3599533f67b4ca020a0c58ac53ea94f634ad1f20"
+    },
+    {
+      "path": "62_lepton_information_action_release_probe_v6_2/provenance/LINEAGE_FROM_V6_1.md",
+      "size": 394,
+      "sha256": "a9f616ca9aa770d67105d7f0d210ea84dad719b7ff0471e6cf574e167855028f"
+    },
+    {
+      "path": "62_lepton_information_action_release_probe_v6_2/results/VALIDATION_MODULE62_v6_2.json",
+      "size": 205,
+      "sha256": "8b05777505dd0c597655bdcb3f8bf21b826e032e3654ac0d382a8b571220d6ab"
+    },
+    {
+      "path": "62_lepton_information_action_release_probe_v6_2/results/lepton_information_action_release_probe_v6_2.csv",
+      "size": 1043,
+      "sha256": "583b155c03f77f03d74969ef759db3226bddddd1bc837fc08d6acffc260db74e"
+    },
+    {
+      "path": "62_lepton_information_action_release_probe_v6_2/results/lepton_information_action_release_probe_v6_2.json",
+      "size": 12745,
+      "sha256": "69e098e947991b78e7f5f7191627009d05f45b592a3872c7fb041fca15d27f85"
+    },
+    {
+      "path": "62_lepton_information_action_release_probe_v6_2/results/source_match_ledger_v6_2.csv",
+      "size": 2887,
+      "sha256": "9a2939a381150811dcc1bd6949b1a9e1caa98408041a5369ef3f0e94d4a0820b"
+    },
+    {
+      "path": "62_lepton_information_action_release_probe_v6_2/schemas/METATIME_LEPTON_INFORMATION_ACTION_RELEASE_PROBE_SCHEMA_v6_2.json",
+      "size": 588,
+      "sha256": "ce53bd49298b3d55a3437f2ee0e39d5f4a82ae9816590b6a4799056081f9be8f"
+    },
+    {
+      "path": "62_lepton_information_action_release_probe_v6_2/scripts/lepton_information_action_release_probe_v6_2.py",
+      "size": 8675,
+      "sha256": "a3e42d0a67cc575051210af832d09b0e2bf57e5d4eed48b8165165991b10de2d"
+    },
+    {
+      "path": "62_lepton_information_action_release_probe_v6_2/scripts/validate_module62_v6_2.py",
+      "size": 2334,
+      "sha256": "f77c165e4bc79ce9eb886f099bd2b4aeef2d0086b37d3ce8fdfa65933f779453"
+    },
+    {
+      "path": "90_manifests/FILE_TREE.txt",
+      "size": 55162,
+      "sha256": "506966c08106ad5d06b1e44043887b87bc43644eed5d30092615864b785e8595"
+    },
+    {
+      "path": "90_manifests/FILE_TREE_REPAIR1.txt",
+      "size": 70881,
+      "sha256": "7194bd46c9ae474266bda8c39852307a9fe7be1cbad4843f96c3cead191d6d6b"
+    },
+    {
+      "path": "90_manifests/FILE_TREE_REPAIR2.txt",
+      "size": 72957,
+      "sha256": "e5be370c62f21a26381780ee28cc76a14c47a4aac29357ac6506640baef6f827"
+    },
+    {
+      "path": "90_manifests/FILE_TREE_v1_6.txt",
+      "size": 38769,
+      "sha256": "73664b5dca4e12504a3ba4065f35b88030d7cf45b02ff5f56be1301940fbc6ea"
+    },
+    {
+      "path": "90_manifests/FILE_TREE_v1_8.txt",
+      "size": 40102,
+      "sha256": "19d89daa64d57a807651fe22df918326e9102846bce99b07df0e4f7a46384b3b"
+    },
+    {
+      "path": "90_manifests/FILE_TREE_v1_9.txt",
+      "size": 41024,
+      "sha256": "35458d9a3766c25b25bdd695afcc9c7abe7ebfdb491a858db34b4adeafdf962d"
+    },
+    {
+      "path": "90_manifests/FILE_TREE_v2_0.txt",
+      "size": 41822,
+      "sha256": "8fe65d2af7b7bc7b797cc4138ae771b992ce0fe083ff11848602d2caa573b051"
+    },
+    {
+      "path": "90_manifests/FILE_TREE_v2_2.txt",
+      "size": 52167,
+      "sha256": "896756e8e4646e497bcb1ce8561cac19fa82a2539a47d7cc0ff99b01d54d7cd4"
+    },
+    {
+      "path": "90_manifests/FILE_TREE_v2_3.txt",
+      "size": 53487,
+      "sha256": "0a4858a43e870c327d57b0d86873289fd214accae06c70bb468ab0d0a36f28f4"
+    },
+    {
+      "path": "90_manifests/FILE_TREE_v2_4.txt",
+      "size": 54778,
+      "sha256": "087a0d61f3158fff842b35a16b107865f766d5f965b5695a06b1f81689914aa7"
+    },
+    {
+      "path": "90_manifests/FILE_TREE_v2_5.txt",
+      "size": 55747,
+      "sha256": "c5fc944156508208af275d2ebd4eebfffa580a51878f6418a917b10e2292524d"
+    },
+    {
+      "path": "90_manifests/FILE_TREE_v2_6.txt",
+      "size": 58016,
+      "sha256": "23b4d625963238f509d08aa2a2d400d2d325367626162ae30fac675d2fd6f408"
+    },
+    {
+      "path": "90_manifests/FILE_TREE_v2_8.txt",
+      "size": 49311,
+      "sha256": "65e0068667e8f56692f2fd5afe3c5cfec93f7f16baadc9a7a2ffea9ce56b3efd"
+    },
+    {
+      "path": "90_manifests/FILE_TREE_v3_0.txt",
+      "size": 61661,
+      "sha256": "d2662a9c52a088347b69c5d63e746f920b5c54ec9bf24c0093536c791cb6c6c1"
+    },
+    {
+      "path": "90_manifests/FILE_TREE_v3_1.txt",
+      "size": 63384,
+      "sha256": "69a01a8a5f373d20a754b5cf438088ebe559f1c2e39035bbbce38c66a23c5b38"
+    },
+    {
+      "path": "90_manifests/FILE_TREE_v3_6.txt",
+      "size": 69336,
+      "sha256": "6c0cdfcca7a4827b7025f3a690612964a925eb3f46b5c5fcb961a63bae8fccb0"
+    },
+    {
+      "path": "90_manifests/FILE_TREE_v6_0B.txt",
+      "size": 60609,
+      "sha256": "c4503dd18bf6cbdf186cf9ce68ec8d28a438604ed4b4001b258c1e53668ee14f"
+    },
+    {
+      "path": "90_manifests/FILE_TREE_v6_1.txt",
+      "size": 61659,
+      "sha256": "8eadf36708093b5ebce0906f2c63b411fd67e134d48ae74542bc33a52d7d3997"
+    },
+    {
+      "path": "90_manifests/MANIFEST_v6_0B_INFORMATION_ENERGY_NORMALIZER.json",
+      "size": 154232,
+      "sha256": "d46748417fddec25a5669beddcf2d35705787e10d18a732d7878c745a707cbf8"
+    },
+    {
+      "path": "90_manifests/MANIFEST_v6_1_PLANCK_INFORMATION_ACTION_LEDGER.json",
+      "size": 157382,
+      "sha256": "22c679e04efab0f25d2993c4c969e80ecdb0bb5c103d3fe7d014554b51833aa5"
+    },
+    {
+      "path": "90_manifests/MERGE_MANIFEST.json",
+      "size": 522,
+      "sha256": "811debef8cac70c1a104cc5601caa3533928770409d5670ddb0612759101ecaa"
+    },
+    {
+      "path": "90_manifests/MERGE_MANIFEST_v1_3.json",
+      "size": 456,
+      "sha256": "2d4c7529e21398b3e3ea0b8edb77cefb973992c885cf4bd79d53f10cc991a964"
+    },
+    {
+      "path": "90_manifests/MERGE_MANIFEST_v1_4.json",
+      "size": 291,
+      "sha256": "c08c06d72f93bc1105c4204300d15df6568b1c1cddbe83c484d9053eeb20b3da"
+    },
+    {
+      "path": "90_manifests/MERGE_MANIFEST_v1_5.json",
+      "size": 527,
+      "sha256": "10c18e03d7e5b3b31b24a830b8a9891402975140236f6627541461f926b7842d"
+    },
+    {
+      "path": "90_manifests/MERGE_MANIFEST_v1_6.json",
+      "size": 430,
+      "sha256": "6cf44e0e231b4eb9ecdfd4459b42664c5f323d58925229d124299c81c6b2aee6"
+    },
+    {
+      "path": "90_manifests/MERGE_MANIFEST_v1_7.json",
+      "size": 400,
+      "sha256": "b262ef03c29784451f040ca45ad4a2321ddf5c3dc821f5efa094a25a976c7a9e"
+    },
+    {
+      "path": "90_manifests/MERGE_MANIFEST_v1_8.json",
+      "size": 246,
+      "sha256": "663244ac8aacd6ab5f6e8ffbaee8dee0b05e07d8d25fbee5a6cc77c3cf3d55ea"
+    },
+    {
+      "path": "90_manifests/MERGE_MANIFEST_v1_9.json",
+      "size": 356,
+      "sha256": "adb270a0468486498da22c9f1ba5bd596bbdf634075c965b645382bf0c71674c"
+    },
+    {
+      "path": "90_manifests/MERGE_MANIFEST_v2_0.json",
+      "size": 576,
+      "sha256": "30a941840652091b9dde6c7d62c4c6063b8835d8bb151cc69b0c456eec509294"
+    },
+    {
+      "path": "90_manifests/MERGE_MANIFEST_v2_1.json",
+      "size": 421,
+      "sha256": "e9a9766b88ad6b05d49092a006fc0bab72f25cec7506a651ef126e58176bb010"
+    },
+    {
+      "path": "90_manifests/MERGE_MANIFEST_v2_2.json",
+      "size": 584,
+      "sha256": "fc3cea68706956a950b4fc9839697d9f354d9d4287ca17ae6e6563eaf0c7c093"
+    },
+    {
+      "path": "90_manifests/MERGE_MANIFEST_v2_3.json",
+      "size": 909,
+      "sha256": "7f86ea97532c0998d79296ac3aa1567060a4455c371e472582d6c056dc5037cc"
+    },
+    {
+      "path": "90_manifests/MERGE_MANIFEST_v2_4.json",
+      "size": 511,
+      "sha256": "2275897ad9d85acbf9f265aca6022b3cf9a0eebc6b22503c0d9ebd8e6184065c"
+    },
+    {
+      "path": "90_manifests/MERGE_MANIFEST_v2_6.json",
+      "size": 727,
+      "sha256": "9e9931487bf2602d2809bb89a60eb0d32edbeeba6c7e46338f29d0e31e562033"
+    },
+    {
+      "path": "90_manifests/MERGE_MANIFEST_v2_7.json",
+      "size": 634,
+      "sha256": "a14d54c436ad068183e23bee7daa425d5ed080fa3d64e79c84ddab23b7dc2da4"
+    },
+    {
+      "path": "90_manifests/MERGE_MANIFEST_v2_8.json",
+      "size": 583,
+      "sha256": "3f726bf5160616ea7b540e11dbfb04da37726ecea9d69a28188aad93e9ef8ed9"
+    },
+    {
+      "path": "90_manifests/MERGE_MANIFEST_v3_0.json",
+      "size": 590,
+      "sha256": "48fb21c07eefc934a5b289d8525d84286076f9a276ccf0594701ac33826b0a42"
+    },
+    {
+      "path": "90_manifests/MERGE_MANIFEST_v3_1.json",
+      "size": 634,
+      "sha256": "8f33877da0f4dc4a61111c9d7be37de65e3e75bf33cb7b91c7844e9bcd176aea"
+    },
+    {
+      "path": "90_manifests/MERGE_MANIFEST_v3_3.json",
+      "size": 469,
+      "sha256": "efa18e1100a919629caae6406ddc12d32211b36c151d5d8973094b8aeb924320"
+    },
+    {
+      "path": "90_manifests/MERGE_MANIFEST_v3_4.json",
+      "size": 469,
+      "sha256": "1dca55d73a0acda857a1ed42a097d786b358a0d7082240a30001cf85ced86340"
+    },
+    {
+      "path": "90_manifests/MERGE_MANIFEST_v3_5.json",
+      "size": 518,
+      "sha256": "1d6576cdd0b2624dd22eeaa3ca8216fa61ebee59c9f66e962b7349f69d23c746"
+    },
+    {
+      "path": "90_manifests/SHA256SUMS.txt",
+      "size": 97270,
+      "sha256": "5889f220f162fbba0eba60009ac7f4b2503de6c53ebc02a64864065b93243f0a"
+    },
+    {
+      "path": "90_manifests/SHA256SUMS_REPAIR1.txt",
+      "size": 104289,
+      "sha256": "ae9d18ea0e3abb0416d62b8e1998f8a464198f7f8221a6ec919326c0c7a3201d"
+    },
+    {
+      "path": "90_manifests/SHA256SUMS_REPAIR2.txt",
+      "size": 107148,
+      "sha256": "7c3294b478101993faae3d208eaa75adc7178fd3df62b0242288bcd25726f3f9"
+    },
+    {
+      "path": "90_manifests/SHA256SUMS_v1_6.txt",
+      "size": 67125,
+      "sha256": "0f4c13e4f02a0a4d62c63179b46d139cc3633bf96e1c1900f347c73ec2bdb7dc"
+    },
+    {
+      "path": "90_manifests/SHA256SUMS_v1_8.txt",
+      "size": 69919,
+      "sha256": "e51f968de3b24ffb44f89455c6f112ee9c98658ecc37269921ab24a730cee7dd"
+    },
+    {
+      "path": "90_manifests/SHA256SUMS_v1_9.txt",
+      "size": 71624,
+      "sha256": "02d933fdf5cea39d073747d6056dc12aaafabf64cece5ad2398f6eb70eb08216"
+    },
+    {
+      "path": "90_manifests/SHA256SUMS_v2_0.txt",
+      "size": 72248,
+      "sha256": "9bb0899589524dcfcc481a680cf9b64fb18fe5784f72c0d9d7b02b2341111acb"
+    },
+    {
+      "path": "90_manifests/SHA256SUMS_v2_2.txt",
+      "size": 75534,
+      "sha256": "15dfbfc1b987f023ad9750016ec9d259acb4a29ee9b4af7a00175b3bfa37d18b"
+    },
+    {
+      "path": "90_manifests/SHA256SUMS_v2_3.txt",
+      "size": 78189,
+      "sha256": "68977f5506badc7134cc663e18819c5c91a26d13620430e93cec868ce4a4fa42"
+    },
+    {
+      "path": "90_manifests/SHA256SUMS_v2_4.txt",
+      "size": 79703,
+      "sha256": "1969f936ef2ff2c1548e3f30168b56003fc49bc94c3c295ee719f0bc71412360"
+    },
+    {
+      "path": "90_manifests/SHA256SUMS_v2_5.txt",
+      "size": 81446,
+      "sha256": "ae4570539a2e3aa3d52b5704d39090162bbe3864d2b772b93ae32c8449e5f25c"
+    },
+    {
+      "path": "90_manifests/SHA256SUMS_v2_6.txt",
+      "size": 84170,
+      "sha256": "3c2584507b988fc711fb40d63be1d2f295e7d8864bbd67e08a80c7d6b9fff2a3"
+    },
+    {
+      "path": "90_manifests/SHA256SUMS_v2_8.txt",
+      "size": 86865,
+      "sha256": "27f5a96d2247f749335e2c196d62b2d2403ea0922e1f626ae247516b0fb44f31"
+    },
+    {
+      "path": "90_manifests/SHA256SUMS_v3_0.txt",
+      "size": 90191,
+      "sha256": "5b5fcfa12c5b70439c2e1a7e3ca96009f2a5421f21332ef37a096959e94e86fe"
+    },
+    {
+      "path": "90_manifests/SHA256SUMS_v3_1.txt",
+      "size": 93517,
+      "sha256": "6f272a34934826c268f7b75f6591eb40eb307b44b4e3573a996cc9fc670882cb"
+    },
+    {
+      "path": "90_manifests/SHA256SUMS_v3_4.txt",
+      "size": 99162,
+      "sha256": "9cff2a17b4a9f1a5dde5b5267cdae7aa268fe8b4b4bcdd71501415f2af475549"
+    },
+    {
+      "path": "90_manifests/SHA256SUMS_v3_5.txt",
+      "size": 101105,
+      "sha256": "67170511edb3b8b977ccff7b2c631d71af7dd717ce687efd2af78d5d79902411"
+    },
+    {
+      "path": "90_manifests/SHA256SUMS_v3_6.txt",
+      "size": 102141,
+      "sha256": "e344c4dccef4d2bcc31836851c69f849900ba342008461af5f7ea0a2d4c9f2dc"
+    },
+    {
+      "path": "90_manifests/SHA256SUMS_v6_0B.txt",
+      "size": 107007,
+      "sha256": "fc675d7651281a314efb9f295af525a5cf7475974e09cc3a52d807415e165a38"
+    },
+    {
+      "path": "90_manifests/SHA256SUMS_v6_1.txt",
+      "size": 109113,
+      "sha256": "26398fe613405c1eafea7b2dbc99853b80f6ef7bf88a4fe482ed598b35420615"
+    },
+    {
+      "path": "99_validation/NESTED_ARCHIVE_SCAN.txt",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "99_validation/NESTED_ARCHIVE_SCAN_v1_8.txt",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "99_validation/NESTED_ARCHIVE_SCAN_v1_9.txt",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "99_validation/NESTED_ARCHIVE_SCAN_v2_0.txt",
+      "size": 50,
+      "sha256": "ca016673504736b65a708648e198cc3c97de3df7a3a0d6f40d91e3f9728695e2"
+    },
+    {
+      "path": "99_validation/NESTED_ARCHIVE_SCAN_v2_2.txt",
+      "size": 31,
+      "sha256": "652381c4a431d61f6caf8c81ebff66402e86669944c1ea7d1ca581e780f4f6b9"
+    },
+    {
+      "path": "99_validation/NESTED_ARCHIVE_SCAN_v2_3.txt",
+      "size": 57,
+      "sha256": "2e16b315db435825eb7ca8f16108965a40152c2c3fb7e28ec1972cd82c1ba5ee"
+    },
+    {
+      "path": "99_validation/NESTED_ARCHIVE_SCAN_v2_4.txt",
+      "size": 31,
+      "sha256": "652381c4a431d61f6caf8c81ebff66402e86669944c1ea7d1ca581e780f4f6b9"
+    },
+    {
+      "path": "99_validation/NESTED_ARCHIVE_SCAN_v2_6.txt",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "99_validation/NESTED_ARCHIVE_SCAN_v2_8.txt",
+      "size": 25,
+      "sha256": "c9790e86284cf5bb492c0ea5bb2ab816e368823d4affd77bf70c61b49b032321"
+    },
+    {
+      "path": "99_validation/NESTED_ARCHIVE_SCAN_v3_0.txt",
+      "size": 31,
+      "sha256": "652381c4a431d61f6caf8c81ebff66402e86669944c1ea7d1ca581e780f4f6b9"
+    },
+    {
+      "path": "99_validation/NESTED_ARCHIVE_SCAN_v3_1.txt",
+      "size": 31,
+      "sha256": "652381c4a431d61f6caf8c81ebff66402e86669944c1ea7d1ca581e780f4f6b9"
+    },
+    {
+      "path": "99_validation/NESTED_ARCHIVE_SCAN_v6_0B.txt",
+      "size": 25,
+      "sha256": "c0efee31cc39efa1362aa9083dfbb618a6836daa1448f8473cc7b849580efaa1"
+    },
+    {
+      "path": "99_validation/NESTED_ARCHIVE_SCAN_v6_1.txt",
+      "size": 25,
+      "sha256": "c0efee31cc39efa1362aa9083dfbb618a6836daa1448f8473cc7b849580efaa1"
+    },
+    {
+      "path": "99_validation/NESTED_ARCHIVE_SCAN_v6_2.txt",
+      "size": 25,
+      "sha256": "c0efee31cc39efa1362aa9083dfbb618a6836daa1448f8473cc7b849580efaa1"
+    },
+    {
+      "path": "99_validation/PRESERVATION_CHECK_v2_0.txt",
+      "size": 164,
+      "sha256": "eec6607feb08235a70ee90ba67ae1ec39b8d6c7d6d57bdeaf7dfd6a4977cfc26"
+    },
+    {
+      "path": "99_validation/PRESERVATION_CHECK_v2_2.txt",
+      "size": 77,
+      "sha256": "e7873acdb1a26dba93d636fd01f2c9f6afee4d2f203f38ed23a5bb8516e60b9c"
+    },
+    {
+      "path": "99_validation/PRESERVATION_CHECK_v2_3.txt",
+      "size": 330,
+      "sha256": "d08bc5a3398524b36605355c88e7ab62a9e71ebefa576232a612621ad41da684"
+    },
+    {
+      "path": "99_validation/PRESERVATION_CHECK_v2_4.txt",
+      "size": 252,
+      "sha256": "5a158e8f9d43b2e988ee7d69a7ad628bdd821e4dabdce0592d7b40217a137b2e"
+    },
+    {
+      "path": "99_validation/PRESERVATION_CHECK_v2_8.json",
+      "size": 505,
+      "sha256": "d8bb12a71ecbe6af96f0bf7c1a31a18a0549a55c68c0c1f0e26bf935e0b8b1e2"
+    },
+    {
+      "path": "99_validation/PRESERVATION_CHECK_v2_8.txt",
+      "size": 505,
+      "sha256": "d8bb12a71ecbe6af96f0bf7c1a31a18a0549a55c68c0c1f0e26bf935e0b8b1e2"
+    },
+    {
+      "path": "99_validation/PRESERVATION_CHECK_v3_0.json",
+      "size": 80,
+      "sha256": "c8d99f46b71dad348b3667789c376cd31efad7374e725e0189534f836e79e5b5"
+    },
+    {
+      "path": "99_validation/PRESERVATION_CHECK_v3_1.json",
+      "size": 142,
+      "sha256": "65ab079d8c03285f1c9918eda9be2ed6695c56c9f72d4230e1d16b4abfcda1e5"
+    },
+    {
+      "path": "99_validation/ROOT_VALIDATION_SUMMARY_v6_0B.json",
+      "size": 242,
+      "sha256": "2c2486e3488d3118062bb63e34302b1685b0ab91fbec55f830d84109642d2628"
+    },
+    {
+      "path": "99_validation/ROOT_VALIDATION_SUMMARY_v6_1.json",
+      "size": 288,
+      "sha256": "308e0c6b70f44bc958d5ce29860be2ca3f42a775fe54a3519648bd3e60db300b"
+    },
+    {
+      "path": "99_validation/VALIDATION_REPORT.txt",
+      "size": 901,
+      "sha256": "b4433a92f28b7b1b568617d0c6e0246e4b4e656974067578ba495061c3105324"
+    },
+    {
+      "path": "99_validation/VALIDATION_REPORT_REPAIR1.txt",
+      "size": 721,
+      "sha256": "19e12edaa84f88234402f8dd0daed25d6ec4d555ab30e2c6e9049b8d384dabdd"
+    },
+    {
+      "path": "99_validation/VALIDATION_REPORT_REPAIR2.txt",
+      "size": 735,
+      "sha256": "598826b215adcceb802fd96cd6261ac9cd3b609ef5e1be07442369aed27f7b7e"
+    },
+    {
+      "path": "99_validation/VALIDATION_REPORT_v1_3.txt",
+      "size": 269,
+      "sha256": "7f7505fe5c5eb25d49b0e793c70454408539143866a28af24ef1bb1e03b11ab1"
+    },
+    {
+      "path": "99_validation/VALIDATION_REPORT_v1_4.txt",
+      "size": 165,
+      "sha256": "8d5cdf26921a05ddac3dab4e2e6b0a05bf950c0864bca1dcc3d7070e3e525c47"
+    },
+    {
+      "path": "99_validation/VALIDATION_REPORT_v1_5.txt",
+      "size": 447,
+      "sha256": "bc3fcb3ef1127d7ceb1b7fe3928662764f753433a331920cf3e624f518e438e3"
+    },
+    {
+      "path": "99_validation/VALIDATION_REPORT_v1_6.txt",
+      "size": 400,
+      "sha256": "41b2e8b90b6189ea940db0ca49747c18312ac968d523a365469d7595a590514e"
+    },
+    {
+      "path": "99_validation/VALIDATION_REPORT_v1_7.txt",
+      "size": 268,
+      "sha256": "608f8d9cd6b302026afc3d10745991720754e5898b20c72a1b619fde6edc7fc7"
+    },
+    {
+      "path": "99_validation/VALIDATION_REPORT_v1_8.txt",
+      "size": 277,
+      "sha256": "0057690bb517a111fd5b18395931af23c5487124a4ab12edd45792f877fcf66b"
+    },
+    {
+      "path": "99_validation/VALIDATION_REPORT_v1_9.txt",
+      "size": 425,
+      "sha256": "72b6397f334b7d43d672b30fb00a87a808858e1c7d113b0f87b54f4bd3c3eccb"
+    },
+    {
+      "path": "99_validation/VALIDATION_REPORT_v2_0.txt",
+      "size": 553,
+      "sha256": "f5938376c7402541747d720ab71b24b5cc95803af09ddf2e408bbccd95121707"
+    },
+    {
+      "path": "99_validation/VALIDATION_REPORT_v2_1.txt",
+      "size": 456,
+      "sha256": "f8bdfc5edba13e6cf5381b4738c401147402bec8d8f5021b51a5ab6753676d0c"
+    },
+    {
+      "path": "99_validation/VALIDATION_REPORT_v2_2.txt",
+      "size": 666,
+      "sha256": "679d66e905189c72bcec9159eda542830596fbf734d1c5bb2e44912bf01cbf13"
+    },
+    {
+      "path": "99_validation/VALIDATION_REPORT_v2_3.txt",
+      "size": 1154,
+      "sha256": "91746bbf5bdefc63d18be3f331a4179aa54123eba2e008deb24b00901fb5817e"
+    },
+    {
+      "path": "99_validation/VALIDATION_REPORT_v2_4.txt",
+      "size": 687,
+      "sha256": "4ae3fa2df83d36fdee17ef118a60b8c050062526fe546b6afbeff814908647e0"
+    },
+    {
+      "path": "99_validation/VALIDATION_REPORT_v2_5.txt",
+      "size": 315,
+      "sha256": "99cada65e7b9fdbddf94251a205b8d582a4356e6aa83c7327d76432ff8fae3e1"
+    },
+    {
+      "path": "99_validation/VALIDATION_REPORT_v2_6.txt",
+      "size": 901,
+      "sha256": "b4433a92f28b7b1b568617d0c6e0246e4b4e656974067578ba495061c3105324"
+    },
+    {
+      "path": "99_validation/VALIDATION_REPORT_v2_7.txt",
+      "size": 1032,
+      "sha256": "0ab55cb71022e3d30e334c182f15f99855b005e4ad0f3b197ce52c55568dae60"
+    },
+    {
+      "path": "99_validation/VALIDATION_REPORT_v2_8.txt",
+      "size": 1090,
+      "sha256": "1646e4f5d3baa58b3c448d146961e88ffc66707fe81c4a942667f033bf25382c"
+    },
+    {
+      "path": "99_validation/VALIDATION_REPORT_v2_9.json",
+      "size": 641,
+      "sha256": "d310bc2733df5293e03dafcf78a9012935a75119337e04a49024e42381e3e704"
+    },
+    {
+      "path": "99_validation/VALIDATION_REPORT_v2_9.txt",
+      "size": 429,
+      "sha256": "f366f961ba6aa594944530c150d1ea1f133b722f334c7bb2543f6684a5a816a4"
+    },
+    {
+      "path": "99_validation/VALIDATION_REPORT_v3_0.json",
+      "size": 610,
+      "sha256": "f3a4ce54b0e4656f6fed567fb8cb02e00f9ec613643b45ca1934b735fc9d5b0a"
+    },
+    {
+      "path": "99_validation/VALIDATION_REPORT_v3_0.txt",
+      "size": 702,
+      "sha256": "2eb7e2aa010177c9b2f00cc4209288eadc873e990cd1292b282a1a341590269b"
+    },
+    {
+      "path": "99_validation/VALIDATION_REPORT_v3_1.json",
+      "size": 678,
+      "sha256": "a5cfac003d562565bc6a73c1dc64f3df6c2d84f66f52fe3c0aa57082026a8fe4"
+    },
+    {
+      "path": "99_validation/VALIDATION_REPORT_v3_1.txt",
+      "size": 605,
+      "sha256": "5c911bc00ee62abfe251503414f87c5d64f272f96ffb4c80270fd8139fa19463"
+    },
+    {
+      "path": "99_validation/VALIDATION_REPORT_v3_2.txt",
+      "size": 639,
+      "sha256": "86e93d90413559eda4a1961762682583380abc7aaec371f3141515c2928dd057"
+    },
+    {
+      "path": "99_validation/VALIDATION_REPORT_v3_3.txt",
+      "size": 781,
+      "sha256": "700868d41cc6b4d45d2d5f1b19e20442e9e10ee2aba90dd00ee34eda79bc199f"
+    },
+    {
+      "path": "99_validation/VALIDATION_REPORT_v3_4.txt",
+      "size": 805,
+      "sha256": "19fa7588dd8e4c85c88f699acd46e8f5608cc6a8e99e52af463adc5f7f2c7d80"
+    },
+    {
+      "path": "99_validation/VALIDATION_REPORT_v3_5.txt",
+      "size": 980,
+      "sha256": "e8d293858fe71a8a08835951658664a3d0ef25e7c1ee5de91ddc0877bbdc9ad4"
+    },
+    {
+      "path": "99_validation/VALIDATION_REPORT_v3_6.txt",
+      "size": 696,
+      "sha256": "0885ec8ec9f0613e2004fcf8fdc65991eb1d587000aeba7c5449687a40ea92c9"
+    },
+    {
+      "path": "CURRENT_STATUS.md",
+      "size": 624,
+      "sha256": "71de617821183f11ff45ab50eedb297fd9e24482de64aada4e839a9b3582d4c3"
+    },
+    {
+      "path": "README.md",
+      "size": 4450,
+      "sha256": "cca819683d7fa5b2e30e599baabb86d7521f21c525eefc5cd2fc8eb462768a5f"
+    }
+  ],
+  "nested_archives": 0,
+  "canon_allowed": false
+}

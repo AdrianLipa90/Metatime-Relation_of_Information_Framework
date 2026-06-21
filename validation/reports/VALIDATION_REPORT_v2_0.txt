@@ -1,0 +1,18 @@
+VALIDATION REPORT v2.0
+
+Repository: METATIME_STANDARD_MODEL_DERIVATION_MERGED_REPO_v2_0_NO_NESTED_ZIPS
+Source: METATIME_STANDARD_MODEL_DERIVATION_MERGED_REPO_v1_9_NO_NESTED_ZIPS
+Created UTC: 2026-06-19T20:19:16Z
+
+File count: 463
+Nested archives: 0
+Missing files from v1.9 copy: 0
+Changed files from v1.9 excluding intentional status/readme: 0
+New module: 18_preference_zeta_heisenberg_fluctuation_v2_0
+Mass inputs used: False
+Kappa fixed: 0.009193150006360484
+
+Nested archive scan: PASS
+Preservation check: PASS
+Module script: PASS
+Overall status: PASS

@@ -1,0 +1,1 @@
+Full-root compileall is intentionally not claimed. Legacy file 00_original_metatime/Metatime-main/simulations/Standard Model/plots.py contains a markdown code fence and is not valid Python. Active module scripts compile PASS.

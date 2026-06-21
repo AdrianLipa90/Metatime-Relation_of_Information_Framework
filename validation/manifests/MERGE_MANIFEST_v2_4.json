@@ -1,0 +1,16 @@
+{
+  "repo_version": "v2.4",
+  "base_version": "v2.3",
+  "new_module": "22_euler_identity_berry_phase_spin_constraint_v2_4",
+  "file_count": 516,
+  "directory_count": 138,
+  "missing_files_from_v2_3": 0,
+  "unexpected_changed_existing_files": 0,
+  "nested_archives": 0,
+  "validation_status": "PASS",
+  "gate_type": "FORMAL_SYMBOLIC_PASS",
+  "auxiliary_gate": "COMPUTATIONAL_SANITY_CHECK",
+  "external_noema_sot_claimed": false,
+  "observed_masses_used_as_input": false,
+  "created_utc": "2026-06-19T20:00:00Z"
+}

@@ -1,0 +1,33 @@
+VALIDATION REPORT v3.3
+======================
+
+Repo: METATIME_STANDARD_MODEL_DERIVATION_MERGED_REPO_v3_3_NO_NESTED_ZIPS
+Timestamp UTC: 2026-06-19T22:21:35Z
+
+Base copied from: METATIME_STANDARD_MODEL_DERIVATION_MERGED_REPO_v3_2_NO_NESTED_ZIPS
+Module added: 31_debt9_sector_basis_white_thread_operator_v3_3
+
+File count: 638
+Directory count: 177
+Nested archives: 0
+Missing files from v3.2: 0
+Unexpected changed old files: 0
+
+Observed masses used: false
+Mass predictions made: false
+Old fitted constants imported: false
+CKM numeric matrix derived: false
+PMNS numeric matrix derived: false
+White-Thread numeric couplings derived: false
+
+Gate: PRE_MASS_SECTOR_BASIS_OPERATOR_PASS
+Status: PASS
+
+Nested archive list:
+(none)
+
+Missing from v3.2:
+(none)
+
+Unexpected changed old files:
+(none)

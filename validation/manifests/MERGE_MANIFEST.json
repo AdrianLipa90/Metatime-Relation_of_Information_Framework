@@ -1,0 +1,19 @@
+{
+  "repo_version": "v3.2",
+  "source_version": "v3.1",
+  "created_utc": "2026-06-19T22:15:20Z",
+  "append_only_check": {
+    "missing_from_v3_1": [],
+    "unexpected_changed_old_files": [],
+    "allowed_changed_old_files": [
+      "CURRENT_STATUS.md",
+      "README.md"
+    ]
+  },
+  "nested_archives": [],
+  "file_count": 625,
+  "dir_count": 173,
+  "latest_module": "30_debt9_one_anchor_rescore_frozen_projection_v3_2",
+  "gate": "COMPUTATIONAL_STRESS_TEST_PASS_WITH_ANTI_FIT_AUDIT",
+  "debt9_status": "open_after_v3_2"
+}

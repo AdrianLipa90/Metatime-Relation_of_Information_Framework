@@ -1,0 +1,51 @@
+# VALIDATION REPORT v3.5
+
+Generated: 2026-06-19T22:30:44Z
+
+Base repo: `METATIME_STANDARD_MODEL_DERIVATION_MERGED_REPO_v3_4_NO_NESTED_ZIPS`  
+New repo: `METATIME_STANDARD_MODEL_DERIVATION_MERGED_REPO_v3_5_NO_NESTED_ZIPS`
+
+## Append-only check
+
+- Missing files from v3.4: 0
+- Unexpected changed old files excluding README/CURRENT_STATUS: 0
+- New files added: 9
+
+## Hygiene
+
+- Nested archives inside repo: 0
+- Python compile return code: 0
+
+## Module gate
+
+- Gate: `PRE_CKM_OPEN_HOLONOMY_OPERATOR_PASS`
+- Validation pass: True
+- Uses observed masses: False
+- Uses observed CKM: False
+- Uses observed PMNS: False
+- Uses old tau: False
+- Uses fitted White-Thread values: False
+- Mass rescore: False
+
+## Counts
+
+- File count: 665
+- Directory count: 187
+
+## PASS condition
+
+PASS iff no missing files, no unexpected old-file changes, no nested archives, script compiles, and module validation passes.
+
+Overall: PASS
+
+## Missing files
+
+[]
+
+## Changed old files
+
+[]
+
+## Nested archives
+
+[]

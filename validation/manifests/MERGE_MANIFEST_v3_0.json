@@ -1,0 +1,17 @@
+{
+  "version": "v3.0",
+  "base": "v2.9",
+  "update_mode": "append_only_copy_then_add_module",
+  "new_module": "28_debt11_chiral_representation_projection_v3_0",
+  "file_count": 592,
+  "dir_count": 164,
+  "missing_from_v2_9_count": 0,
+  "unexpected_changed_old_files_count": 0,
+  "nested_archives_count": 0,
+  "observed_masses_used_in_new_module": false,
+  "gate": "STRUCTURAL_ENUMERATION_PASS",
+  "debt11_status": "conditionally_closed_for_one_generation_chiral_table_not_for_mass_projection",
+  "all_anomaly_residuals_zero": true,
+  "all_higgs_residuals_zero": true,
+  "compile_ok": true
+}

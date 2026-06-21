@@ -1,0 +1,18 @@
+{
+  "no_nested_archives": {
+    "check": "no_nested_archives",
+    "passed": true,
+    "count": 0,
+    "paths": []
+  },
+  "module_validator": {
+    "validator": "v6_6_document_operator_source_index",
+    "passed": true,
+    "failures": [],
+    "operator_count": 10
+  },
+  "compileall": {
+    "check": "full_root_compileall",
+    "passed": true
+  }
+}

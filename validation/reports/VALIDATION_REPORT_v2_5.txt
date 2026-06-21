@@ -1,0 +1,21 @@
+VALIDATION REPORT v2.5
+{
+  "version": "v2.5",
+  "base": "v2.4",
+  "file_count": 528,
+  "dir_count": 141,
+  "missing_from_v2_4": 0,
+  "changed_old_files_unexpected": 0,
+  "nested_archives": 0,
+  "new_module": "23_old_metatime_debt9_ckm_table_mining_v2_5",
+  "gate": "PASS"
+}
+
+missing:
+
+
+changed:
+
+
+nested_archives:
+

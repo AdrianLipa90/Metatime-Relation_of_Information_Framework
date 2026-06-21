@@ -1,0 +1,10 @@
+{
+  "schema": "ROOT_VALIDATION_SUMMARY_V4_0",
+  "latest_module": "40_holonomic_gluon_wij_couplings_v4_0",
+  "module_validation_status": "PASS",
+  "no_nested_archives": true,
+  "compileall_status": "PASS",
+  "canon_allowed": false,
+  "current_promotion": "DENY_CURRENT",
+  "debt9": "OPEN_NOT_CLOSED"
+}

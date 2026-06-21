@@ -1,0 +1,18 @@
+{
+  "schema": "METATIME_V6_4_FINAL_ZIP_VALIDATION",
+  "created_utc": "2026-06-21T16:50:52Z",
+  "zip_path": "/mnt/data/METATIME_STANDARD_MODEL_DERIVATION_MERGED_REPO_v6_4_EXACT_TABLE_PROVENANCE_MATRIX_NO_NESTED_ZIPS.zip",
+  "zip_sha256": "81b76bff3d2107fb07b3e27d32a4bded1b9b43e09341791ec6295c2619a9f394",
+  "testzip": "PASS",
+  "top_level_entries": 1,
+  "top_level_names": [
+    "METATIME_STANDARD_MODEL_DERIVATION_MERGED_REPO_v6_4_EXACT_TABLE_PROVENANCE_MATRIX_NO_NESTED_ZIPS"
+  ],
+  "entry_count": 1649,
+  "compressed_size_bytes": 35162413,
+  "uncompressed_size_bytes": 49018244,
+  "nested_archives_count": 0,
+  "nested_archives": [],
+  "module64_validator": "PASS",
+  "compileall": "PASS"
+}

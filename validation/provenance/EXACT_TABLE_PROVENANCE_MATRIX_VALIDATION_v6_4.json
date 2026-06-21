@@ -1,0 +1,12 @@
+{
+  "schema": "METATIME_V6_4_FINAL_VALIDATION",
+  "created_utc": "2026-06-21T16:50:52Z",
+  "testzip": "PENDING",
+  "nested_archives_count": "PENDING",
+  "top_level_entries": "PENDING",
+  "compileall": "PASS",
+  "module64_validator": "PASS",
+  "debt005": "CLOSED",
+  "canon_allowed": false,
+  "current_promotion": "DENY_CURRENT"
+}

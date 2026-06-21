@@ -1,0 +1,38 @@
+VALIDATION REPORT v2.3
+
+Status: PASS
+Repo: METATIME_STANDARD_MODEL_DERIVATION_MERGED_REPO_v2_3_NO_NESTED_ZIPS
+Base: METATIME_STANDARD_MODEL_DERIVATION_MERGED_REPO_v2_2_NO_NESTED_ZIPS
+
+Counts:
+- files: 506
+- directories: 133
+
+Preservation:
+- missing files from v2.2: 0
+- unexpected changed old files: 0
+- allowed changed old files: README.md, CURRENT_STATUS.md
+
+Archive hygiene:
+- nested archives found: 0
+
+New module:
+- 21_debt8_source_axis_candidate_grammar_v2_3
+- purpose: source-derived candidate axis grammar, avoiding SM-hindsight circularity
+- gate class: STRUCTURAL_ENUMERATION_PASS
+- observed masses used as input: false
+
+Script checks:
+- py_compile source_axis_candidate_grammar_v2_3.py: PASS
+- run source_axis_candidate_grammar_v2_3.py: PASS
+
+Script output:
+PASS: Debt 8 source-axis candidate grammar has exactly one primitive survivor.
+Gate class: STRUCTURAL_ENUMERATION_PASS
+Candidate table: /mnt/data/METATIME_STANDARD_MODEL_DERIVATION_MERGED_REPO_v2_3_NO_NESTED_ZIPS/21_debt8_source_axis_candidate_grammar_v2_3/results/source_axis_candidate_table_v2_3.csv
+
+
+Do not claim:
+- exact mass ratios
+- CKM/PMNS closure
+- external NOEMA CURRENT/ACK

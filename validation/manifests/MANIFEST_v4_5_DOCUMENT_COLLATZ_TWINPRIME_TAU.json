@@ -1,0 +1,12 @@
+{
+  "canon_allowed": false,
+  "created_utc": "2026-06-20T00:00:00Z",
+  "current_promotion": "DENY_CURRENT",
+  "debt9_numeric_spectrum": "OPEN_NOT_CLOSED",
+  "entry_count": 826,
+  "module_added": "45_debt9_document_collatz_twinprime_tau_v4_5",
+  "operator_trace_sha256": "9319315c92c2604af33f33be4e7b427790022a6d76040b9f04ccd478b9d932e4",
+  "root_name": "METATIME_STANDARD_MODEL_DERIVATION_MERGED_REPO_v4_5_DOCUMENT_COLLATZ_TWINPRIME_TAU_NO_NESTED_ZIPS",
+  "schema": "ROOT_MANIFEST_V4_5_DOCUMENT_COLLATZ_TWINPRIME_TAU",
+  "validation_status": "PASS"
+}

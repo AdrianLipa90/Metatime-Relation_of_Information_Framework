@@ -1,0 +1,25 @@
+{
+  "canon_allowed": false,
+  "current_promotion": "DENY_CURRENT",
+  "debt9_numeric_spectrum": "OPEN_NOT_CLOSED",
+  "file_count_before_manifest_self_update": 841,
+  "formal": "PASS_WITH_EXPLICIT_TAINT_LEDGER",
+  "freeze_sha256": "e4aa922a71266f453a49b3545f009d8680503dc6550221da9bf3d9501ba5f389",
+  "latest_module": "46_debt9_document_formula_selection_benchmark_v4_6",
+  "module46_validation": {
+    "checked_files": [
+      "46_debt9_document_formula_selection_benchmark_v4_6/scripts/document_formula_selection_benchmark_v4_6.py",
+      "46_debt9_document_formula_selection_benchmark_v4_6/results/document_formula_selection_benchmark_v4_6.json"
+    ],
+    "issues": [],
+    "module": "46_debt9_document_formula_selection_benchmark_v4_6",
+    "result": "PASS",
+    "schema": "VALIDATION_MODULE46_V4_6"
+  },
+  "nested_archives": [],
+  "repo_name": "METATIME_STANDARD_MODEL_DERIVATION_MERGED_REPO_v4_6_DOCUMENT_FORMULA_SELECTION_BENCHMARK_NO_NESTED_ZIPS",
+  "schema": "MANIFEST_v4_6_DOCUMENT_FORMULA_SELECTION_BENCHMARK",
+  "selected_formula": "CENTER_P_PLUS_1_L3_POWER_SELECTED_CLEAN_DIAGNOSTIC",
+  "substantive": "SELECTED_CLEAN_DOCUMENT_FORMULA_BENCHMARK_FAILS_AS_NUMERIC_MASS_CLOSURE",
+  "technical": "PASS"
+}

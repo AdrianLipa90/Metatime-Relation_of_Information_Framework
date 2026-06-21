@@ -1,0 +1,19 @@
+{
+  "version": "v2.9",
+  "base_version": "v2.8",
+  "module_added": "27_debt9_tau_v2_clean_information_eigenvalue_v2_9",
+  "validation_status": "PASS",
+  "missing_files_from_v2_8_count": 0,
+  "missing_files_from_v2_8": [],
+  "unexpected_changed_existing_files_count": 0,
+  "unexpected_changed_existing_files": [],
+  "nested_archives_count": 0,
+  "nested_archives": [],
+  "file_count": 578,
+  "dir_count": 159,
+  "new_module_gate": "PRE_MASS_RESCORING_STRUCTURAL_PASS",
+  "observed_masses_used_in_new_module": false,
+  "old_tau_used_in_new_module": false,
+  "formula_frozen_before_mass_rescore": true,
+  "created_utc": "2026-06-19T21:49:03Z"
+}

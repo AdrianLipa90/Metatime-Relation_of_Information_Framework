@@ -1,0 +1,16 @@
+{
+  "repo_name": "METATIME_STANDARD_MODEL_DERIVATION_MERGED_REPO_v2_6_NO_NESTED_ZIPS",
+  "created_utc": "2026-06-19T21:10:00Z",
+  "base_repo": "METATIME_STANDARD_MODEL_DERIVATION_MERGED_REPO_v2_5_NO_NESTED_ZIPS",
+  "update_mode": "append_only_copy_then_add_module",
+  "file_count": 540,
+  "directory_count": 147,
+  "size_bytes": 36384900,
+  "new_module": "24_debt9_one_anchor_mass_scaling_v2_6",
+  "nested_archives_allowed": false,
+  "nested_archive_scan": "99_validation/NESTED_ARCHIVE_SCAN_v2_6.txt",
+  "validation_report": "99_validation/VALIDATION_REPORT_v2_6.txt",
+  "sha256_inventory": "90_manifests/SHA256SUMS_v2_6.txt",
+  "debt9_status": "PARTIAL_ADVANCE_NOT_CLOSED",
+  "gate_class": "COMPUTATIONAL_STRESS_TEST_PASS"
+}

@@ -1,0 +1,13 @@
+{
+  "repo": "METATIME_STANDARD_MODEL_DERIVATION_MERGED_REPO_v3_5_NO_NESTED_ZIPS",
+  "created_utc": "2026-06-19T22:30:44Z",
+  "base_repo": "METATIME_STANDARD_MODEL_DERIVATION_MERGED_REPO_v3_4_NO_NESTED_ZIPS",
+  "append_only_from_base": true,
+  "new_module": "33_debt10_white_thread_open_holonomy_preckm_v3_5",
+  "file_count": 661,
+  "dir_count": 187,
+  "nested_archives": [],
+  "validation_report": "99_validation/VALIDATION_REPORT_v3_5.txt",
+  "gate": "PRE_CKM_OPEN_HOLONOMY_OPERATOR_PASS",
+  "validation_pass": true
+}

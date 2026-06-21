@@ -1,0 +1,12 @@
+{
+  "canon_allowed": false,
+  "current_promotion": "DENY_CURRENT",
+  "debt9_numeric_spectrum": "OPEN_NOT_CLOSED",
+  "entry_count": 956,
+  "formal": "PASS_WITH_EXPLICIT_COMPONENT_SOURCE_LEDGER",
+  "nested_archives": [],
+  "root": "METATIME_STANDARD_MODEL_DERIVATION_MERGED_REPO_v5_4_RAMANUJAN_COMPONENT_SPLIT_LEPTON_REFINEMENT_NO_NESTED_ZIPS",
+  "schema": "ROOT_VALIDATION_SUMMARY_V5_4",
+  "substantive": "STRONG_CHARGED_LEPTON_REFINEMENT_DIAGNOSTIC_NOT_CLOSURE",
+  "technical": "PASS"
+}

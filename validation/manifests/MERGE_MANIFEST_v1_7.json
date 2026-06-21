@@ -1,0 +1,12 @@
+{
+  "repo": "METATIME_STANDARD_MODEL_DERIVATION_MERGED_REPO_v1_7_NO_NESTED_ZIPS",
+  "version": "v1.7",
+  "file_count": 425,
+  "nested_archives_found": [],
+  "new_module": "15_debt1_killing_generator_polar_axis_v1_7",
+  "addresses": [
+    "Debt 1",
+    "Debt 3 constraint refinement"
+  ],
+  "status": "Debt 1 conditionally closed as geometric Killing generator; physical axis selection remains open"
+}

@@ -1,0 +1,23 @@
+{
+  "repo_name": "METATIME_STANDARD_MODEL_DERIVATION_MERGED_REPO_v2_3_NO_NESTED_ZIPS",
+  "version": "2.3",
+  "created_utc": "2026-06-19T20:34:24.812227Z",
+  "base_repo": "METATIME_STANDARD_MODEL_DERIVATION_MERGED_REPO_v2_2_NO_NESTED_ZIPS",
+  "update_mode": "append_only_copy_then_module_addition",
+  "new_module": "21_debt8_source_axis_candidate_grammar_v2_3",
+  "new_module_purpose": "Debt 8: derive axis candidate list from source geometry before SM naming",
+  "file_count": 505,
+  "dir_count": 133,
+  "nested_archives_found": [],
+  "preservation_missing_count": 0,
+  "preservation_unexpected_changed_count": 0,
+  "validation_classes": [
+    "FORMAL_SYMBOLIC_PASS",
+    "STRUCTURAL_ENUMERATION_PASS",
+    "COMPUTATIONAL_PASS",
+    "EMPIRICAL_TARGET_CHECK"
+  ],
+  "debt8_status": "CONDITIONALLY_CLOSED_STRUCTURAL_ENUMERATION",
+  "observed_masses_used_as_input": false,
+  "external_noema_sot_claimed": false
+}

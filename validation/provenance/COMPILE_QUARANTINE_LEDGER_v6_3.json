@@ -1,0 +1,11 @@
+{
+  "action": "PRESERVE_CONTENT_CHANGE_EXECUTABILITY",
+  "debt_id": "DEBT-004",
+  "external_archive_added": false,
+  "information_loss": false,
+  "new_path": "00_original_metatime/Metatime-main/simulations/Standard Model/plots.py.md",
+  "new_sha256": "bdb792ce037aa8bab58ebcaeb9d04fc8b0864dfa26ba0139c44e0abd9b520816",
+  "original_path": "00_original_metatime/Metatime-main/simulations/Standard Model/plots.py",
+  "original_sha256": "bdb792ce037aa8bab58ebcaeb9d04fc8b0864dfa26ba0139c44e0abd9b520816",
+  "reason": "File content is a Markdown document with fenced Python and LaTeX sections; keeping .py extension breaks full-root compileall. Content preserved byte-for-byte under non-executable .md extension."
+}

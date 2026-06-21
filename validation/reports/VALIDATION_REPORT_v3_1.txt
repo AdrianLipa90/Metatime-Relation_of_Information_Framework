@@ -1,0 +1,22 @@
+VALIDATION REPORT v3.1
+
+Root: METATIME_STANDARD_MODEL_DERIVATION_MERGED_REPO_v3_1_NO_NESTED_ZIPS
+Base: METATIME_STANDARD_MODEL_DERIVATION_MERGED_REPO_v3_0_NO_NESTED_ZIPS
+Gate: PRE_MASS_PROJECTION_OPERATOR_PASS
+
+File count: 608
+Directory count: 169
+Total bytes: 37010628
+
+Append-only preservation:
+- Missing files from v3.0: 0
+- Unexpected changed old files: 0
+- Allowed changed old files: README.md, CURRENT_STATUS.md
+
+Nested archives: 0
+New script compile return code: 0
+Observed masses used in new module: false
+Mass predictions made in new module: false
+Old tau used in new module: false
+
+Status: PASS

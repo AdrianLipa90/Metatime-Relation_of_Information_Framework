@@ -1,0 +1,12 @@
+{
+  "from_version": "v2.3",
+  "to_version": "v2.4",
+  "missing_files_from_v2_3": [],
+  "unexpected_changed_existing_files": [],
+  "allowed_changed_existing_files": [
+    "CURRENT_STATUS.md",
+    "README.md"
+  ],
+  "new_files_count": 9,
+  "pass": true
+}

@@ -1,0 +1,10 @@
+{
+  "active_module_validation": "PASS",
+  "debt9_numeric_spectrum": "OPEN_NOT_CLOSED",
+  "formal_status": "PASS_WITH_EXPLICIT_SCOPE_BOUNDARY",
+  "full_root_compileall": "NOT_CLAIMED_LEGACY_BLOCKER_RECORDED_PREVIOUSLY",
+  "nested_archives": 0,
+  "schema": "ROOT_VALIDATION_SUMMARY_V5_5",
+  "substantive_status": "LEPTON_FREEZE_STRONG_FULL_SECTOR_NAIVE_EXTENSION_FAIL",
+  "technical_status": "PASS"
+}

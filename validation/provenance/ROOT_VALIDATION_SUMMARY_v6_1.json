@@ -1,0 +1,9 @@
+{
+  "schema": "ROOT_VALIDATION_SUMMARY_V6_1",
+  "technical": "PASS",
+  "formal": "PASS_PLANCK_E0_LEDGER_INSTALLED",
+  "debt9": "OPEN_NOT_CLOSED",
+  "nested_archives": 0,
+  "active_module_validation": "PASS",
+  "full_root_compileall": "NOT_CLAIMED_LEGACY_SOURCE_MAY_CONTAIN_OLD_BLOCKERS"
+}

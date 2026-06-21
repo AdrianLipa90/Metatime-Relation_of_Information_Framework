@@ -1,0 +1,6 @@
+{
+  "result": "PASS",
+  "returncode": 0,
+  "stdout": "",
+  "stderr": "/mnt/data/work_v6_4/METATIME_STANDARD_MODEL_DERIVATION_MERGED_REPO_v6_4_EXACT_TABLE_PROVENANCE_MATRIX_NO_NESTED_ZIPS/00_original_metatime/Metatime-main/simulations/Metatime_Framework(1).py:89: SyntaxWarning: invalid escape sequence '\\h'\n  \\hat{T} = \u03c6\u00b7I + T_{\u03bc\u03bd}\u00b7\u03a3^{\u03bc\u03bd}\n/mnt/data/work_v6_4/METATIME_STANDARD_MODEL_DERIVATION_MERGED_REPO_v6_4_EXACT_TABLE_PROVENANCE_MATRIX_NO_NESTED_ZIPS/00_original_metatime/Metatime-main/simulations/Metatime_Framework(1).py:109: SyntaxWarning: invalid escape sequence '\\h'\n  H(\u03bb) = U\u00b7M\u00b2/(2E)\u00b7U\u2020 + \u03b5\u00b7\\hat{T}(\u03bb)\n/mnt/data/work_v6_4/METATIME_STANDARD_MODEL_DERIVATION_MERGED_REPO_v6_4_EXACT_TABLE_PROVENANCE_MATRIX_NO_NESTED_ZIPS/00_original_metatime/Metatime-main/simulations/Metatime_Framework(1).py:355: SyntaxWarning: invalid escape sequence '\\p'\n  plt.xlabel('$c_{\\phi}$ (skalarna amplituda)', fontsize=12)\n/mnt/data/work_v6_4/METATIME_STANDARD_MODEL_DERIVATION_MERGED_REPO_v6_4_EXACT_TABLE_PROVENANCE_MATRIX_NO_NESTED_ZIPS/00_original_metatime/Metatime-main/simulations/PBH/primordialblackhole.py:56: SyntaxWarning: invalid escape sequence '\\D'\n  plt.colorbar(im, label='$\\Delta T$ / Intensity (Background Subtracted)')\n"
+}

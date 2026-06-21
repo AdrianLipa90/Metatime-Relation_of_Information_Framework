@@ -1,0 +1,10 @@
+{
+  "repo_version": "v1.9",
+  "root": "/mnt/data/METATIME_STANDARD_MODEL_DERIVATION_MERGED_REPO_v1_9_NO_NESTED_ZIPS",
+  "file_count": 451,
+  "nested_archive_count": 0,
+  "new_module": "17_debt2_debt4_eb_coherence_seed_assignment_v1_9",
+  "debt_2": "operationally_paid",
+  "debt_4": "partially_paid_ordering_only",
+  "exact_mass_prediction_claimed": false
+}

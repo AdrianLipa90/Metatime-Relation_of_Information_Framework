@@ -1,0 +1,31 @@
+{
+  "artifact": "METATIME_STANDARD_MODEL_DERIVATION_MERGED_REPO_v6_6_DOCUMENT_OPERATOR_SOURCE_INDEX_NO_NESTED_ZIPS",
+  "version": "v6.6",
+  "created_utc": "2026-06-21T17:16:09+00:00",
+  "parent": {
+    "zip": "METATIME_STANDARD_MODEL_DERIVATION_MERGED_REPO_v6_5_UNIT_ANCHOR_LEDGER_NO_NESTED_ZIPS.zip",
+    "sha256": "d3c286bb72d3a3df59b177a7dc3261dfaf36acee9166cbb05b4ea19d7caddd86",
+    "status": "VERIFIED_PARENT"
+  },
+  "module_added": "66_document_operator_source_index_v6_6",
+  "checks": {
+    "no_nested_archives": {
+      "check": "no_nested_archives",
+      "passed": true,
+      "count": 0,
+      "paths": []
+    },
+    "module_validator": {
+      "validator": "v6_6_document_operator_source_index",
+      "passed": true,
+      "failures": [],
+      "operator_count": 10
+    },
+    "compileall": {
+      "check": "full_root_compileall",
+      "passed": true
+    }
+  },
+  "canon_allowed": false,
+  "uncertainty_operator": "DISABLED_BY_USER"
+}

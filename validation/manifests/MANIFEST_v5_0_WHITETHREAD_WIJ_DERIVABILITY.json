@@ -1,0 +1,14 @@
+{
+  "schema": "MANIFEST_v5_0_WHITETHREAD_WIJ_DERIVABILITY",
+  "root": "METATIME_STANDARD_MODEL_DERIVATION_MERGED_REPO_v5_0_WHITETHREAD_WIJ_DERIVABILITY_AUDIT_NO_NESTED_ZIPS",
+  "created_utc": "2026-06-21T07:58:16.580460+00:00",
+  "source_zip_sha256": "3b239bc7634c91323bea314ef235e2c77c1af6343bcdb42e85413d7be0992276",
+  "module_added": "50_whitethread_wij_lepton_gate_derivability_v5_0",
+  "technical_status": "PASS",
+  "formal_status": "PASS_WITH_STRICT_SOURCE_LEDGER",
+  "substantive_status": "NO_GO_FOR_STRONG_CHARGED_LEPTON_F_PROMOTION",
+  "debt9_numeric_spectrum": "OPEN_NOT_CLOSED",
+  "canon_allowed": false,
+  "current_promotion": "DENY_CURRENT",
+  "file_count": 904
+}

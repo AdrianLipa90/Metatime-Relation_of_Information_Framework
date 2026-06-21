@@ -1,0 +1,16 @@
+{
+  "version": "v2.8",
+  "created_utc": "2026-06-19T21:42:49Z",
+  "repo": "METATIME_STANDARD_MODEL_DERIVATION_MERGED_REPO_v2_8_NO_NESTED_ZIPS",
+  "source_repo": "METATIME_STANDARD_MODEL_DERIVATION_MERGED_REPO_v2_7_NO_NESTED_ZIPS",
+  "file_count": 569,
+  "dir_count": 155,
+  "new_module": "26_debt9_numeric_gap_no_hidden_fit_guard_v2_8",
+  "preservation": {
+    "missing_files_from_v2_7": 0,
+    "changed_unexpected_existing_files": 0
+  },
+  "nested_archives": 0,
+  "gate_type": "METHODOLOGICAL_GUARD_PASS",
+  "debt9_numeric_closure": "blocked_until_independent_dynamic_range_layer"
+}

@@ -1,0 +1,36 @@
+# VALIDATION REPORT v3.6
+
+Created UTC: 2026-06-20T08:46:18Z
+
+## Status
+
+technical: PASS
+formal: PASS
+substantive: NOT PASSED / Debt 9 OPEN
+numeric: NOT_TESTED
+red_alert: true
+
+## Counts before final manifest
+
+files: 670
+directories: 184
+
+## Nested archives
+
+none
+
+## New module checks
+
+- module exists: True
+- sanity script return code: 0
+- mass input used: false
+- CKM input used: false
+- PMNS input used: false
+- old tau/eigenvalue imported: false
+- old White-Thread fitted constants imported: false
+
+## Interpretation
+
+v3.6 is a correction of derivation level, not a mass result.
+
+It formally records that sector projection must not be used as a scalar additive correction to the mass action.

@@ -1,0 +1,10 @@
+{
+  "schema": "METATIME_REPO_MANIFEST_v5_9",
+  "root": "METATIME_STANDARD_MODEL_DERIVATION_MERGED_REPO_v5_9_PRIME_PRODUCT_HADRON_SCALE_CANDIDATE_NO_NESTED_ZIPS",
+  "created_utc": "2026-06-21T08:49:02Z",
+  "module_added": "59_debt9_prime_product_hadron_scale_candidate_v5_9",
+  "entry_count_pre_zip": 1036,
+  "nested_archives": 0,
+  "canon_allowed": false,
+  "current_promotion": "DENY_CURRENT"
+}

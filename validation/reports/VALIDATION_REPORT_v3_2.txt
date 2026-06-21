@@ -1,0 +1,28 @@
+VALIDATION REPORT v3.2
+======================
+
+Source: METATIME_STANDARD_MODEL_DERIVATION_MERGED_REPO_v3_1_NO_NESTED_ZIPS
+Target: METATIME_STANDARD_MODEL_DERIVATION_MERGED_REPO_v3_2_NO_NESTED_ZIPS
+
+File count: 625
+Directory count: 173
+
+Append-only check relative to v3.1:
+- Missing files: 0
+- Unexpected changed old files: 0
+- Allowed changed old files: README.md, CURRENT_STATUS.md
+
+Nested archives inside repo: 0
+
+Latest module: 30_debt9_one_anchor_rescore_frozen_projection_v3_2
+Gate: COMPUTATIONAL_STRESS_TEST_PASS_WITH_ANTI_FIT_AUDIT
+Debt 9: OPEN_AFTER_V3_2
+
+Missing files:
+none
+
+Unexpected changed files:
+none
+
+Nested archives:
+none

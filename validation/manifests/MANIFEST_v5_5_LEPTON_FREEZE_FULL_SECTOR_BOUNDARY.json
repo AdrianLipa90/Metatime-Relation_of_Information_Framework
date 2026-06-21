@@ -1,0 +1,10 @@
+{
+  "canon_allowed": false,
+  "created_utc": "2026-06-21T08:28:35Z",
+  "debt9_numeric_spectrum": "OPEN_NOT_CLOSED",
+  "file_count": 975,
+  "latest_module": "55_debt9_lepton_freeze_full_sector_boundary_v5_5",
+  "nested_archives": 0,
+  "root": "METATIME_STANDARD_MODEL_DERIVATION_MERGED_REPO_v5_5_LEPTON_FREEZE_FULL_SECTOR_BOUNDARY_NO_NESTED_ZIPS",
+  "schema": "MANIFEST_V5_5_LEPTON_FREEZE_FULL_SECTOR_BOUNDARY"
+}

@@ -1,0 +1,7 @@
+VALIDATION REPORT — v1.3
+Policy: single merged repository, no nested archives.
+File count: 383
+Nested archives found: 0
+Nested archives list: none
+Latest stage: Euler--Berry coherence gate v1.3
+Validation: ordinal hierarchy pass, numeric mass prediction not claimed.

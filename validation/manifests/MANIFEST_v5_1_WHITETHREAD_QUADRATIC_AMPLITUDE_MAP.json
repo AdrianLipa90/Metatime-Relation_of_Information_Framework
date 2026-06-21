@@ -1,0 +1,17 @@
+{
+  "benchmark_performed": false,
+  "canon_allowed": false,
+  "current_promotion": "DENY_CURRENT",
+  "debt9_numeric_spectrum": "OPEN_NOT_CLOSED",
+  "entry_count_before_zip": 918,
+  "formal_status": "PASS_WITH_CANDIDATE_STATUS",
+  "latest_module": "51_whitethread_quadratic_amplitude_map_v5_1",
+  "mass_prediction_claimed": false,
+  "nested_archives": [],
+  "operator_candidate_fingerprint_sha256": "ae3f5769b9ea3071839d9dc73d9d87d02c9baa75204580deef614798b5d0a96a",
+  "root_name": "METATIME_STANDARD_MODEL_DERIVATION_MERGED_REPO_v5_1_WHITETHREAD_QUADRATIC_AMPLITUDE_MAP_NO_NESTED_ZIPS",
+  "schema": "METATIME_MANIFEST_v5_1",
+  "source_zip": "METATIME_STANDARD_MODEL_DERIVATION_MERGED_REPO_v5_0_WHITETHREAD_WIJ_DERIVABILITY_AUDIT_NO_NESTED_ZIPS.zip",
+  "substantive_status": "PARTIAL_DERIVATION_CANDIDATE_ROOT_GATES_PASS_ALLPAIR_FAIL",
+  "technical_status": "PASS"
+}

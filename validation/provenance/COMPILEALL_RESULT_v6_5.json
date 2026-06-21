@@ -1,0 +1,6 @@
+{
+  "status": "PASS",
+  "returncode": 0,
+  "stdout": "",
+  "stderr": "/mnt/data/work_v6_5_build/METATIME_STANDARD_MODEL_DERIVATION_MERGED_REPO_v6_5_UNIT_ANCHOR_LEDGER_NO_NESTED_ZIPS/00_original_metatime/Metatime-main/simulations/Metatime_Framework(1).py:89: SyntaxWarning: invalid escape sequence '\\h'\n  \\hat{T} = φ·I + T_{μν}·Σ^{μν}\n/mnt/data/work_v6_5_build/METATIME_STANDARD_MODEL_DERIVATION_MERGED_REPO_v6_5_UNIT_ANCHOR_LEDGER_NO_NESTED_ZIPS/00_original_metatime/Metatime-main/simulations/Metatime_Framework(1).py:109: SyntaxWarning: invalid escape sequence '\\h'\n  H(λ) = U·M²/(2E)·U† + ε·\\hat{T}(λ)\n/mnt/data/work_v6_5_build/METATIME_STANDARD_MODEL_DERIVATION_MERGED_REPO_v6_5_UNIT_ANCHOR_LEDGER_NO_NESTED_ZIPS/00_original_metatime/Metatime-main/simulations/Metatime_Framework(1).py:355: SyntaxWarning: invalid escape sequence '\\p'\n  plt.xlabel('$c_{\\phi}$ (skalarna amplituda)', fontsize=12)\n/mnt/data/work_v6_5_build/METATIME_STANDARD_MODEL_DERIVATION_MERGED_REPO_v6_5_UNIT_ANCHOR_LEDGER_NO_NESTED_ZIPS/00_original_metatime/Metatime-main/simulations/PBH/primordialblackhole.py:56: SyntaxWarning: invalid escape sequence '\\D'\n  plt.colorbar(im, label='$\\Delta T$ / Intensity (Background Subtracted)')\n"
+}

@@ -1,0 +1,40 @@
+{
+  "schema": "ROOT_VALIDATION_SUMMARY_V4_2",
+  "created_utc": "2026-06-20T18:05:00Z",
+  "technical": "PASS",
+  "formal": "PASS",
+  "substantive": "BOUNDARY_RESOLUTION_NOT_NUMERIC_MASS_SPECTRUM_CLOSURE",
+  "debt9_sm_internal": "RESOLVED_AS_YUKAWA_BOUNDARY_NOT_NUMERIC_PREDICTION",
+  "debt9_numeric_mass_spectrum": "OPEN_NOT_CLOSED_IN_THIS_MODULE",
+  "module42_validation": {
+    "schema": "METATIME_SM_MODULE42_VALIDATION_V4_2",
+    "status": "FAIL",
+    "scope": "active v4.2 module scripts/results plus repo archive hygiene",
+    "checks": {
+      "active_script_executed": true,
+      "result_status_pass": true,
+      "sm_internal_boundary_resolved": true,
+      "numeric_spectrum_not_closed": true,
+      "observed_masses_not_used": true,
+      "reference_spectrum_not_used": true,
+      "old_tau_not_used": true,
+      "mass_prediction_not_made": true,
+      "yukawa_gauge_invariance_pass": true,
+      "anomaly_checks_pass": true,
+      "no_hidden_reference_code_patterns": false,
+      "no_forbidden_reference_mass_tokens": true,
+      "no_nested_archives_in_repo": true
+    },
+    "issues": [
+      {
+        "forbidden_code_hits": {
+          "noparam_import_or_exec": "NoParamSM|noparamSMsolver"
+        }
+      }
+    ],
+    "doctor_verdict": "STOP_CRITICAL"
+  },
+  "no_nested_archives": true,
+  "canon_allowed": false,
+  "current_promotion": "DENY_CURRENT"
+}

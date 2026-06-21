@@ -1,0 +1,27 @@
+{
+  "schema": "METATIME_CONTINUITY_RESTORE_VALIDATION_v6_2R",
+  "created_utc": "2026-06-21T09:43:36Z",
+  "testzip": "PASS",
+  "source_nested_archive_counts": {
+    "METATIME_STANDARD_MODEL_DERIVATION_MERGED_REPO_v5_1_WHITETHREAD_QUADRATIC_AMPLITUDE_MAP_NO_NESTED_ZIPS.zip": 0,
+    "METATIME_STANDARD_MODEL_DERIVATION_MERGED_REPO_v6_0A_HADRON_RATIO_BENCHMARK_NO_NESTED_ZIPS.zip": 0,
+    "METATIME_STANDARD_MODEL_DERIVATION_MERGED_REPO_v6_0B_INFORMATION_ENERGY_NORMALIZER_NO_NESTED_ZIPS.zip": 0,
+    "METATIME_STANDARD_MODEL_DERIVATION_MERGED_REPO_v6_1_PLANCK_INFORMATION_ACTION_LEDGER_NO_NESTED_ZIPS.zip": 0,
+    "METATIME_STANDARD_MODEL_DERIVATION_MERGED_REPO_v6_2_LEPTON_INFORMATION_ACTION_RELEASE_PROBE_NO_NESTED_ZIPS.zip": 0
+  },
+  "final_tree_nested_archives_count": 0,
+  "final_tree_nested_archives": [],
+  "base_preservation": "PASS",
+  "modules_present_required": {
+    "60_hadron_ratio_benchmark_v6_0A": true,
+    "60B_information_energy_normalizer_v6_0B": true,
+    "61_planck_information_action_ledger_v6_1": true,
+    "62_lepton_information_action_release_probe_v6_2": true
+  },
+  "verdict": "PASS",
+  "final_zip_nested_archives_count": 0,
+  "final_zip_top_level_entries": 1,
+  "final_zip_entry_count": 1096,
+  "final_zip_size_bytes": 34226681,
+  "final_zip_sha256_pre_validation_rewrite": "51677cbfb9e441a19f476a4cecc42b16ee7c339fbe9547b7581d9c90e1f971bb"
+}

@@ -1,0 +1,43 @@
+{
+  "current_status": {
+    "active_iteration": "v4.7_sector_split_holonomy_operator",
+    "boundary": "Unit anchors were used only post-freeze for diagnostic benchmark units; therefore v4.7 is not a no-parameter mass closure.",
+    "canon_allowed": false,
+    "created_utc": "2026-06-20T00:00:00Z",
+    "current_promotion": "DENY_CURRENT",
+    "debt9_numeric_spectrum": "OPEN_NOT_CLOSED",
+    "formal_status": "PASS_WITH_EXPLICIT_TAINT_LEDGER",
+    "improved_vs_v46": [
+      "mu",
+      "tau",
+      "d",
+      "s",
+      "b",
+      "t"
+    ],
+    "metrics_excluding_anchor_slots": {
+      "max_absolute_relative_error": 16.42228526326484,
+      "mean_absolute_relative_error": 3.43317855327346,
+      "median_absolute_relative_error": 0.8890568746932689
+    },
+    "module47_validation": "PASS",
+    "operator_fingerprint_sha256": "4266da1f6a67bed689473f4c4348bce039ae60192ce64babe4966145b8495143",
+    "schema": "METATIME_CURRENT_STATUS_V4_7",
+    "substantive_status": "PARTIAL_SECTOR_SPLIT_PROGRESS_FAIL_AS_NUMERIC_CLOSURE",
+    "technical_status": "PASS",
+    "worsened_vs_v46": []
+  },
+  "module47_validation": {
+    "checked_files": [
+      "47_debt9_sector_split_holonomy_operator_v4_7/scripts/sector_split_holonomy_operator_v4_7.py",
+      "47_debt9_sector_split_holonomy_operator_v4_7/results/sector_split_holonomy_operator_v4_7.json"
+    ],
+    "issues": [],
+    "module": "47_debt9_sector_split_holonomy_operator_v4_7",
+    "result": "PASS",
+    "schema": "VALIDATION_MODULE47_V4_7"
+  },
+  "nested_archive_count": 0,
+  "result": "PASS",
+  "schema": "ROOT_VALIDATION_SUMMARY_V4_7"
+}

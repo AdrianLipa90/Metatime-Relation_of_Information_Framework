@@ -1,0 +1,11 @@
+{
+  "repo_version": "v1.6",
+  "source_version": "v1.5",
+  "update": "Debt 3 and Debt 6 zeta-polar Euler-Berry action module",
+  "nested_archive_count": 0,
+  "file_count": 415,
+  "directory_count": 106,
+  "validation_report": "99_validation/VALIDATION_REPORT_v1_6.txt",
+  "new_module": "14_debt3_debt6_zeta_polar_eb_action_v1_6",
+  "claim_boundary": "ordinal charged-fermion hierarchy only; no numerical mass derivation claimed"
+}

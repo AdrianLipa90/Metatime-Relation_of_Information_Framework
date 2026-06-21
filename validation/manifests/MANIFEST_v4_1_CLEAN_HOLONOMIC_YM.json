@@ -1,0 +1,26 @@
+{
+  "schema": "MANIFEST_V4_1_CLEAN_HOLONOMIC_YM",
+  "created_utc": "2026-06-20T17:15:00Z",
+  "repo_name": "METATIME_STANDARD_MODEL_DERIVATION_MERGED_REPO_v4_1_CLEAN_HOLONOMIC_YM_NO_NESTED_ZIPS",
+  "lineage": [
+    "v3.7 Repair3 quarantine",
+    "v3.8 PDG-free gauge/chiral skeleton",
+    "v3.9 tetrahedral triplet SU3 lift",
+    "v4.0 holonomic gluon Wij",
+    "v4.1 holonomic Yang-Mills local connection"
+  ],
+  "latest_module": "41_holonomic_yang_mills_local_connection_v4_1",
+  "status": "PASS",
+  "hygiene": {
+    "single_final_zip_export_intended": true,
+    "loose_internal_repo_file_export_forbidden": true,
+    "nested_archives_forbidden": true,
+    "PDG_reference_input_forbidden": true,
+    "mass_prediction_claimed": false,
+    "full_QCD_claimed": false,
+    "Debt_9_status": "OPEN_NOT_CLOSED",
+    "canon_allowed": false,
+    "current_promotion": "DENY_CURRENT"
+  },
+  "root_validation_summary": "99_validation/ROOT_VALIDATION_SUMMARY_v4_1.json"
+}

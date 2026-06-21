@@ -1,0 +1,18 @@
+{
+  "canon_allowed": false,
+  "created_utc": "2026-06-20T16:38:04.116790+00:00",
+  "current_promotion": "DENY_CURRENT",
+  "debt9_numeric_spectrum": "OPEN_PENDING_SINGLE_SEALED_BENCHMARK",
+  "debt9_sm_internal": "RESOLVED_AS_YUKAWA_BOUNDARY_IN_V4_2",
+  "entry_count_pre_zip": 798,
+  "fitted_parameters_used": false,
+  "formal": "PASS",
+  "mass_prediction_claimed": false,
+  "nested_archives": [],
+  "observed_masses_used": false,
+  "operator_trace_sha256": "cf6791ae2010a7e383222fe8edc3d3b41d4a4ebe8b671bd96425b52b33128e37",
+  "pdg_reference_input_used": false,
+  "schema": "ROOT_VALIDATION_SUMMARY_V4_3",
+  "substantive": "FROZEN_OPERATOR_CANDIDATE_NOT_NUMERIC_CLOSURE",
+  "technical": "PASS"
+}

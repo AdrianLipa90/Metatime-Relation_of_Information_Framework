@@ -1,0 +1,10 @@
+{
+  "repo_name": "METATIME_STANDARD_MODEL_DERIVATION_MERGED_REPO_v1_3_NO_NESTED_ZIPS",
+  "version": "v1.3",
+  "created_utc": "2026-06-19T18:52:07Z",
+  "policy": "single_merged_repo_no_nested_archives",
+  "file_count": 383,
+  "nested_archives_found": [],
+  "latest_stage": "10_standard_model_derivation_stages/13_metatime_sm_eulerberry_coherence_gate_v1_3",
+  "latest_stage_status": "ordinal_structural_validation_pass_numeric_mass_prediction_not_claimed"
+}

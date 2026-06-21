@@ -1,0 +1,7 @@
+{
+  "repo_version": "v1.4",
+  "created_utc": "2026-06-19T19:40:58Z",
+  "latest_module": "12_collatz_transition_axis_zeta_imaginary_zero_v1_4",
+  "no_nested_archives_required": true,
+  "canonical_correction": "Collatz terminal axis is 4->2->1->1/2; zeta is imaginary-zero axis over Re=1/2."
+}

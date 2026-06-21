@@ -1,0 +1,16 @@
+{
+  "active_debts_count": 4,
+  "blocked_debts_count": 1,
+  "closed_debts_count": 6,
+  "compileall_exit_code": 0,
+  "compileall_output": "/mnt/data/v63_master_debt_register_build/METATIME_STANDARD_MODEL_DERIVATION_MERGED_REPO_v6_3_MASTER_DEBT_REGISTER_CLOSURE_QUEUE_NO_NESTED_ZIPS/00_original_metatime/Metatime-main/simulations/Metatime_Framework(1).py:89: SyntaxWarning: invalid escape sequence '\\h'\n  \\hat{T} = φ·I + T_{μν}·Σ^{μν}\n/mnt/data/v63_master_debt_register_build/METATIME_STANDARD_MODEL_DERIVATION_MERGED_REPO_v6_3_MASTER_DEBT_REGISTER_CLOSURE_QUEUE_NO_NESTED_ZIPS/00_original_metatime/Metatime-main/simulations/Metatime_Framework(1).py:109: SyntaxWarning: invalid escape sequence '\\h'\n  H(λ) = U·M²/(2E)·U† + ε·\\hat{T}(λ)\n/mnt/data/v63_master_debt_register_build/METATIME_STANDARD_MODEL_DERIVATION_MERGED_REPO_v6_3_MASTER_DEBT_REGISTER_CLOSURE_QUEUE_NO_NESTED_ZIPS/00_original_metatime/Metatime-main/simulations/Metatime_Framework(1).py:355: SyntaxWarning: invalid escape sequence '\\p'\n  plt.xlabel('$c_{\\phi}$ (skalarna amplituda)', fontsize=12)\n/mnt/data/v63_master_debt_register_build/METATIME_STANDARD_MODEL_DERIVATION_MERGED_REPO_v6_3_MASTER_DEBT_REGISTER_CLOSURE_QUEUE_NO_NESTED_ZIPS/00_original_metatime/Metatime-main/simulations/PBH/primordialblackhole.py:56: SyntaxWarning: invalid escape sequence '\\D'\n  plt.colorbar(im, label='$\\Delta T$ / Intensity (Background Subtracted)')\n",
+  "compileall_status": "PASS",
+  "created_utc": "2026-06-21T10:26:33Z",
+  "debts_count": 13,
+  "expected_module_dirs_missing": [],
+  "nested_archives_count_tree": 0,
+  "nested_archives_tree": [],
+  "schema": "METATIME_VALIDATION_v6_3",
+  "validator_exit_code": 0,
+  "validator_output": "PASS v6.3 debt register validation\ndebts: 13\nnested_archives: 0\n"
+}

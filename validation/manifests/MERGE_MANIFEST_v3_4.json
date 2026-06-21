@@ -1,0 +1,13 @@
+{
+  "repo": "METATIME_STANDARD_MODEL_DERIVATION_MERGED_REPO_v3_4_NO_NESTED_ZIPS",
+  "base": "METATIME_STANDARD_MODEL_DERIVATION_MERGED_REPO_v3_3_NO_NESTED_ZIPS",
+  "version": "v3.4",
+  "file_count": 652,
+  "directory_count": 182,
+  "missing_from_base_count": 0,
+  "unexpected_changed_count": 0,
+  "nested_archive_count": 0,
+  "new_module": "32_debt9_projection_orientation_sector_basis_v3_4",
+  "gate": "PRE_MASS_ORIENTATION_OPERATOR_PASS",
+  "overall_status": "PASS"
+}

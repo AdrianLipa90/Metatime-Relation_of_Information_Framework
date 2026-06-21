@@ -1,0 +1,29 @@
+VALIDATION REPORT v2.8
+
+status: PASS
+created_utc: 2026-06-19T21:42:49Z
+repo: METATIME_STANDARD_MODEL_DERIVATION_MERGED_REPO_v2_8_NO_NESTED_ZIPS
+source: METATIME_STANDARD_MODEL_DERIVATION_MERGED_REPO_v2_7_NO_NESTED_ZIPS
+file_count: 568
+dir_count: 155
+missing_files_from_v2_7: 0
+unexpected_changed_existing_files: 0
+nested_archives: 0
+new_module: 26_debt9_numeric_gap_no_hidden_fit_guard_v2_8
+new_module_gate_type: METHODOLOGICAL_GUARD_PASS
+one_anchor_policy_preserved: true
+old_tau_eigenvalue_promoted: false
+debt9_numeric_derivation_closed: false
+information_operator_status: quantum_of_informational_preference_fluctuation_not_free_coefficient
+best_v2_6_variant: EB_MINUS_RAMANUJAN_ZH_CENTER
+best_v2_6_median_abs_log_error_excluding_anchor: 2.62891218528
+best_v2_6_max_abs_log_error_excluding_anchor: 5.3704768887
+median_factor_error_approx: 13.8586860167
+max_factor_error_approx: 214.965357814
+
+PASS CONDITIONS:
+- v2.7 files preserved append-only.
+- no nested archives inside repo.
+- new guard script executes.
+- hidden fit closure is blocked.
+- non-anchor masses remain validation-only.

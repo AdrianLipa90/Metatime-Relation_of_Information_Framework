@@ -1,0 +1,21 @@
+{
+  "artifact": "METATIME_STANDARD_MODEL_DERIVATION_MERGED_REPO_v6_3_MASTER_DEBT_REGISTER_CLOSURE_QUEUE_NO_NESTED_ZIPS.zip",
+  "base_artifact": "METATIME_STANDARD_MODEL_DERIVATION_MERGED_REPO_v6_2R_CONTINUITY_RESTORED_FROM_v6_0A_NO_NESTED_ZIPS.zip",
+  "base_sha256": "05dff52126cedc41c9c188262d10e0e0c395f1c356a619e621094dae2e1ba3c1",
+  "compile_quarantine": {
+    "action": "PRESERVE_CONTENT_CHANGE_EXECUTABILITY",
+    "debt_id": "DEBT-004",
+    "external_archive_added": false,
+    "information_loss": false,
+    "new_path": "00_original_metatime/Metatime-main/simulations/Standard Model/plots.py.md",
+    "new_sha256": "bdb792ce037aa8bab58ebcaeb9d04fc8b0864dfa26ba0139c44e0abd9b520816",
+    "original_path": "00_original_metatime/Metatime-main/simulations/Standard Model/plots.py",
+    "original_sha256": "bdb792ce037aa8bab58ebcaeb9d04fc8b0864dfa26ba0139c44e0abd9b520816",
+    "reason": "File content is a Markdown document with fenced Python and LaTeX sections; keeping .py extension breaks full-root compileall. Content preserved byte-for-byte under non-executable .md extension."
+  },
+  "created_utc": "2026-06-21T10:26:33Z",
+  "module_added": "63_master_debt_register_closure_queue_v6_3",
+  "no_new_physics": true,
+  "schema": "METATIME_MANIFEST_v6_3",
+  "status": "DEBT_REGISTER_INSTALLED"
+}

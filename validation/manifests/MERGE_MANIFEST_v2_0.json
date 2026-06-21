@@ -1,0 +1,20 @@
+{
+  "repo_version": "v2_0",
+  "created_utc": "2026-06-19T20:19:16Z",
+  "source_repo": "METATIME_STANDARD_MODEL_DERIVATION_MERGED_REPO_v1_9_NO_NESTED_ZIPS",
+  "file_count": 463,
+  "nested_archives": [],
+  "missing_from_v1_9": [],
+  "changed_from_v1_9_excluding_intentional": [],
+  "intentional_changes": [
+    "CURRENT_STATUS.md",
+    "README.md"
+  ],
+  "new_module": "18_preference_zeta_heisenberg_fluctuation_v2_0",
+  "mass_input_used": false,
+  "claims": [
+    "preference_scale_fixed",
+    "zeta_heisenberg_fluctuation_channel_defined",
+    "no_mass_prediction_claim"
+  ]
+}

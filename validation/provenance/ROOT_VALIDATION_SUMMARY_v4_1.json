@@ -1,0 +1,31 @@
+{
+  "schema": "ROOT_VALIDATION_SUMMARY_V4_1_CLEAN_HOLONOMIC_YM",
+  "created_utc": "2026-06-20T17:15:00Z",
+  "status": "PASS",
+  "technical": "PASS",
+  "formal": "PASS",
+  "substantive": "PARTIAL_STRUCTURAL_PROGRESS",
+  "latest_module": "41_holonomic_yang_mills_local_connection_v4_1",
+  "nested_archives_count": 0,
+  "nested_archives": [],
+  "file_count": 768,
+  "dir_count": 205,
+  "byte_size": 39612363,
+  "guardrails": {
+    "single_final_zip_export_intended": true,
+    "loose_internal_repo_file_export_forbidden": true,
+    "nested_archives_forbidden": true,
+    "PDG_reference_input_forbidden": true,
+    "mass_prediction_claimed": false,
+    "full_QCD_claimed": false,
+    "Debt_9_status": "OPEN_NOT_CLOSED",
+    "canon_allowed": false,
+    "current_promotion": "DENY_CURRENT"
+  },
+  "validation_files": {
+    "module41": "41_holonomic_yang_mills_local_connection_v4_1/results/VALIDATION_MODULE41_v4_1.json",
+    "nested_scan": "99_validation/NESTED_ARCHIVE_SCAN_v4_1.txt",
+    "sha256sums": "90_manifests/SHA256SUMS_v4_1.txt",
+    "file_tree": "90_manifests/FILE_TREE_v4_1.txt"
+  }
+}

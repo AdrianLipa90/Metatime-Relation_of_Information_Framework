@@ -1,0 +1,8 @@
+PRESERVATION CHECK v2.3
+Base: METATIME_STANDARD_MODEL_DERIVATION_MERGED_REPO_v2_2_NO_NESTED_ZIPS
+Target: METATIME_STANDARD_MODEL_DERIVATION_MERGED_REPO_v2_3_NO_NESTED_ZIPS
+Base files checked: 491
+Missing files from v2.2: 0
+Unexpected changed old files: 0
+Allowed changed old files: ['CURRENT_STATUS.md', 'README.md']
+Status: PASS

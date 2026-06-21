@@ -1,0 +1,32 @@
+# VALIDATION REPORT — v3.6 REPAIR1
+
+Created UTC: 2026-06-20T09:22:58Z
+
+technical: PASS
+formal: PASS
+substantive: PARTIAL
+numeric: NOT_NEWLY_FIT
+red_alert: true
+
+## Counts
+
+files: 684
+directories: 188
+
+## Nested archives
+
+count: 0
+
+## Checks
+
+base zip: METATIME_STANDARD_MODEL_DERIVATION_MERGED_REPO_v3_6_NO_NESTED_ZIPS.zip
+base sha256: 077e8b51948a59786d7894c6f92ea70ab8a94ee61e72aa1f16c331e387bc3530
+new module exists: True
+validation script return code: 0
+dependency ledger rows: 29
+external source files copied: 4
+
+## Interpretation
+
+This is a repair layer, not final mass derivation. It restores correct formal handling:
+archive formulas are used as working formulas, and every result receives a dependency status.

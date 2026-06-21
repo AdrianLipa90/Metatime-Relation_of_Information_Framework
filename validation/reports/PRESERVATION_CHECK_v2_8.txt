@@ -1,0 +1,14 @@
+{
+  "version": "v2.8",
+  "created_utc": "2026-06-19T21:42:49Z",
+  "source": "/mnt/data/METATIME_STANDARD_MODEL_DERIVATION_MERGED_REPO_v2_7_NO_NESTED_ZIPS",
+  "destination": "/mnt/data/METATIME_STANDARD_MODEL_DERIVATION_MERGED_REPO_v2_8_NO_NESTED_ZIPS",
+  "source_file_count": 553,
+  "destination_file_count_before_manifest_final": 562,
+  "missing_files_from_v2_7": [],
+  "changed_existing_files_excluding_expected": [],
+  "expected_changed_existing_files": [
+    "README.md",
+    "CURRENT_STATUS.md"
+  ]
+}

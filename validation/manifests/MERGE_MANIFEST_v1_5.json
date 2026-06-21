@@ -1,0 +1,14 @@
+{
+  "repo": "METATIME_STANDARD_MODEL_DERIVATION_MERGED_REPO_v1_5_NO_NESTED_ZIPS",
+  "created_utc": "2026-06-19T19:56:37Z",
+  "source": "v1_4 merged repo plus module 13_formal_status_and_phase_axis_action_v1_5",
+  "file_count": 400,
+  "nested_archives_found": [],
+  "no_nested_archives_pass": true,
+  "new_module": "13_formal_status_and_phase_axis_action_v1_5",
+  "formal_status_discipline": true,
+  "reporting_rule": {
+    "repo": "technical full notation",
+    "chat": "descriptive audio-friendly no formulas by default"
+  }
+}

@@ -1,0 +1,34 @@
+VALIDATION REPORT v3.4
+
+Repo: METATIME_STANDARD_MODEL_DERIVATION_MERGED_REPO_v3_4_NO_NESTED_ZIPS
+Base: METATIME_STANDARD_MODEL_DERIVATION_MERGED_REPO_v3_3_NO_NESTED_ZIPS
+
+File count: 652
+Directory count: 182
+
+Append-only preservation:
+- missing files from v3.3: 0
+- changed files from v3.3: 2
+- allowed changed files: ['CURRENT_STATUS.md', 'README.md']
+- unexpected changed files: 0
+
+Nested archives inside repo: 0
+New module compile: PASS
+New module gate: PRE_MASS_ORIENTATION_OPERATOR_PASS
+New module validation_pass: True
+Uses observed masses: False
+Uses observed CKM/PMNS: False
+Uses old tau values: False
+Uses fitted White-Thread values: False
+Up/down basis identity distance: 1.9844393216063752
+
+Overall status: PASS
+
+Missing files:
+(none)
+
+Unexpected changed files:
+(none)
+
+Nested archives:
+(none)

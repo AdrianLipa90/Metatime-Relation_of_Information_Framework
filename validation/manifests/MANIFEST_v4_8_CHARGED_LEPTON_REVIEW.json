@@ -1,0 +1,11 @@
+{
+  "created_utc": "2026-06-21T07:30:52.899017+00:00",
+  "debt9_numeric_spectrum": "OPEN_NOT_CLOSED",
+  "file_count": 869,
+  "latest_module": "48_debt9_charged_lepton_generation_review_v4_8",
+  "nested_archives": [],
+  "root_name": "METATIME_STANDARD_MODEL_DERIVATION_MERGED_REPO_v4_8_CHARGED_LEPTON_GENERATION_REVIEW_NO_NESTED_ZIPS",
+  "schema": "METATIME_STANDARD_MODEL_REPO_MANIFEST_V4_8",
+  "source_zip": "/mnt/data/METATIME_STANDARD_MODEL_DERIVATION_MERGED_REPO_v4_7_SECTOR_SPLIT_HOLONOMY_OPERATOR_NO_NESTED_ZIPS.zip",
+  "technical_status": "PASS"
+}

@@ -5600,10 +5600,21 @@
       "document_class": "archive-record"
     },
     {
+      "old_path": "63_master_debt_register_closure_queue_v6_3/MASTER_DEBT_REGISTER_v6_3.json",
+      "status": "moved",
+      "new_path": "validation/debt_register/MASTER_DEBT_REGISTER_v6_3.json"
+    },
+    {
       "old_path": "63_master_debt_register_closure_queue_v6_3/MASTER_DEBT_REGISTER_v6_3.md",
       "status": "moved",
       "new_path": "archive/lineage/63_master_debt_register_closure_queue_v6_3/MASTER_DEBT_REGISTER_v6_3.md",
       "document_class": "archive-record"
+    },
+    {
+      "old_path": "63_master_debt_register_closure_queue_v6_3/MASTER_DEBT_REGISTER_v6_3.md",
+      "status": "moved",
+      "new_path": "validation/debt_register/MASTER_DEBT_REGISTER_v6_3.md",
+      "document_class": "validation-report"
     },
     {
       "old_path": "63_master_debt_register_closure_queue_v6_3/README.md",
@@ -5621,6 +5632,11 @@
       "status": "moved",
       "new_path": "archive/lineage/63_master_debt_register_closure_queue_v6_3/validate_v6_3_debt_register.py",
       "document_class": "archive-record"
+    },
+    {
+      "old_path": "63_master_debt_register_closure_queue_v6_3/validate_v6_3_debt_register.py",
+      "status": "moved",
+      "new_path": "validation/debt_register/validate_v6_3_debt_register.py"
     },
     {
       "old_path": "64_exact_table_replay_pdg_provenance_matrix_v6_4/EXACT_TABLE_REPLAY_PDG_PROVENANCE_MATRIX_v6_4.md",
@@ -5894,6 +5910,11 @@
       "document_class": "archive-record"
     },
     {
+      "old_path": "69_sealed_charged_lepton_reconstruction_benchmark_v6_9/data/MASTER_DEBT_REGISTER_DELTA_v6_9.json",
+      "status": "moved",
+      "new_path": "validation/debt_register/MASTER_DEBT_REGISTER_DELTA_v6_9.json"
+    },
+    {
       "old_path": "69_sealed_charged_lepton_reconstruction_benchmark_v6_9/results/SEALED_CHARGED_LEPTON_RECONSTRUCTION_BENCHMARK_v6_9.csv",
       "status": "moved",
       "new_path": "archive/lineage/69_sealed_charged_lepton_reconstruction_benchmark_v6_9/results/SEALED_CHARGED_LEPTON_RECONSTRUCTION_BENCHMARK_v6_9.csv",
@@ -5912,6 +5933,11 @@
       "document_class": "archive-record"
     },
     {
+      "old_path": "69_sealed_charged_lepton_reconstruction_benchmark_v6_9/schemas/SEALED_CHARGED_LEPTON_RECONSTRUCTION_BENCHMARK_SCHEMA_v6_9.json",
+      "status": "moved",
+      "new_path": "validation/provenance/SEALED_CHARGED_LEPTON_RECONSTRUCTION_BENCHMARK_SCHEMA_v6_9.json"
+    },
+    {
       "old_path": "69_sealed_charged_lepton_reconstruction_benchmark_v6_9/scripts/__pycache__/validate_v6_9_sealed_charged_lepton_reconstruction.cpython-313.pyc",
       "status": "dropped",
       "dropped_reason": "build-noise"
@@ -5921,6 +5947,1399 @@
       "status": "moved",
       "new_path": "archive/lineage/69_sealed_charged_lepton_reconstruction_benchmark_v6_9/scripts/validate_v6_9_sealed_charged_lepton_reconstruction.py",
       "document_class": "archive-record"
+    },
+    {
+      "old_path": "69_sealed_charged_lepton_reconstruction_benchmark_v6_9/scripts/validate_v6_9_sealed_charged_lepton_reconstruction.py",
+      "status": "moved",
+      "new_path": "tools/validators/validate_v6_9_sealed_charged_lepton_reconstruction.py"
+    },
+    {
+      "old_path": "90_manifests/CONTINUITY_RESTORE_MANIFEST_v6_2R.json",
+      "status": "moved",
+      "new_path": "validation/manifests/CONTINUITY_RESTORE_MANIFEST_v6_2R.json"
+    },
+    {
+      "old_path": "90_manifests/FILE_MANIFEST_v3_9.json",
+      "status": "moved",
+      "new_path": "validation/manifests/FILE_MANIFEST_v3_9.json"
+    },
+    {
+      "old_path": "90_manifests/FILE_TREE.txt",
+      "status": "moved",
+      "new_path": "validation/manifests/FILE_TREE.txt"
+    },
+    {
+      "old_path": "90_manifests/FILE_TREE_REPAIR1.txt",
+      "status": "moved",
+      "new_path": "validation/manifests/FILE_TREE_REPAIR1.txt"
+    },
+    {
+      "old_path": "90_manifests/FILE_TREE_REPAIR2.txt",
+      "status": "moved",
+      "new_path": "validation/manifests/FILE_TREE_REPAIR2.txt"
+    },
+    {
+      "old_path": "90_manifests/FILE_TREE_v1_6.txt",
+      "status": "moved",
+      "new_path": "validation/manifests/FILE_TREE_v1_6.txt"
+    },
+    {
+      "old_path": "90_manifests/FILE_TREE_v1_8.txt",
+      "status": "moved",
+      "new_path": "validation/manifests/FILE_TREE_v1_8.txt"
+    },
+    {
+      "old_path": "90_manifests/FILE_TREE_v1_9.txt",
+      "status": "moved",
+      "new_path": "validation/manifests/FILE_TREE_v1_9.txt"
+    },
+    {
+      "old_path": "90_manifests/FILE_TREE_v2_0.txt",
+      "status": "moved",
+      "new_path": "validation/manifests/FILE_TREE_v2_0.txt"
+    },
+    {
+      "old_path": "90_manifests/FILE_TREE_v2_2.txt",
+      "status": "moved",
+      "new_path": "validation/manifests/FILE_TREE_v2_2.txt"
+    },
+    {
+      "old_path": "90_manifests/FILE_TREE_v2_3.txt",
+      "status": "moved",
+      "new_path": "validation/manifests/FILE_TREE_v2_3.txt"
+    },
+    {
+      "old_path": "90_manifests/FILE_TREE_v2_4.txt",
+      "status": "moved",
+      "new_path": "validation/manifests/FILE_TREE_v2_4.txt"
+    },
+    {
+      "old_path": "90_manifests/FILE_TREE_v2_5.txt",
+      "status": "moved",
+      "new_path": "validation/manifests/FILE_TREE_v2_5.txt"
+    },
+    {
+      "old_path": "90_manifests/FILE_TREE_v2_6.txt",
+      "status": "moved",
+      "new_path": "validation/manifests/FILE_TREE_v2_6.txt"
+    },
+    {
+      "old_path": "90_manifests/FILE_TREE_v2_8.txt",
+      "status": "moved",
+      "new_path": "validation/manifests/FILE_TREE_v2_8.txt"
+    },
+    {
+      "old_path": "90_manifests/FILE_TREE_v3_0.txt",
+      "status": "moved",
+      "new_path": "validation/manifests/FILE_TREE_v3_0.txt"
+    },
+    {
+      "old_path": "90_manifests/FILE_TREE_v3_1.txt",
+      "status": "moved",
+      "new_path": "validation/manifests/FILE_TREE_v3_1.txt"
+    },
+    {
+      "old_path": "90_manifests/FILE_TREE_v3_6.txt",
+      "status": "moved",
+      "new_path": "validation/manifests/FILE_TREE_v3_6.txt"
+    },
+    {
+      "old_path": "90_manifests/FILE_TREE_v4_1.txt",
+      "status": "moved",
+      "new_path": "validation/manifests/FILE_TREE_v4_1.txt"
+    },
+    {
+      "old_path": "90_manifests/FILE_TREE_v4_2.txt",
+      "status": "moved",
+      "new_path": "validation/manifests/FILE_TREE_v4_2.txt"
+    },
+    {
+      "old_path": "90_manifests/FILE_TREE_v4_3.txt",
+      "status": "moved",
+      "new_path": "validation/manifests/FILE_TREE_v4_3.txt"
+    },
+    {
+      "old_path": "90_manifests/FILE_TREE_v4_4.txt",
+      "status": "moved",
+      "new_path": "validation/manifests/FILE_TREE_v4_4.txt"
+    },
+    {
+      "old_path": "90_manifests/FILE_TREE_v4_5.txt",
+      "status": "moved",
+      "new_path": "validation/manifests/FILE_TREE_v4_5.txt"
+    },
+    {
+      "old_path": "90_manifests/FILE_TREE_v4_6.txt",
+      "status": "moved",
+      "new_path": "validation/manifests/FILE_TREE_v4_6.txt"
+    },
+    {
+      "old_path": "90_manifests/FILE_TREE_v4_7.txt",
+      "status": "moved",
+      "new_path": "validation/manifests/FILE_TREE_v4_7.txt"
+    },
+    {
+      "old_path": "90_manifests/FILE_TREE_v4_8.txt",
+      "status": "moved",
+      "new_path": "validation/manifests/FILE_TREE_v4_8.txt"
+    },
+    {
+      "old_path": "90_manifests/FILE_TREE_v4_9.txt",
+      "status": "moved",
+      "new_path": "validation/manifests/FILE_TREE_v4_9.txt"
+    },
+    {
+      "old_path": "90_manifests/FILE_TREE_v5_0.txt",
+      "status": "moved",
+      "new_path": "validation/manifests/FILE_TREE_v5_0.txt"
+    },
+    {
+      "old_path": "90_manifests/FILE_TREE_v5_1.txt",
+      "status": "moved",
+      "new_path": "validation/manifests/FILE_TREE_v5_1.txt"
+    },
+    {
+      "old_path": "90_manifests/FILE_TREE_v5_2.txt",
+      "status": "moved",
+      "new_path": "validation/manifests/FILE_TREE_v5_2.txt"
+    },
+    {
+      "old_path": "90_manifests/FILE_TREE_v5_3.txt",
+      "status": "moved",
+      "new_path": "validation/manifests/FILE_TREE_v5_3.txt"
+    },
+    {
+      "old_path": "90_manifests/FILE_TREE_v5_4.txt",
+      "status": "moved",
+      "new_path": "validation/manifests/FILE_TREE_v5_4.txt"
+    },
+    {
+      "old_path": "90_manifests/FILE_TREE_v5_5.txt",
+      "status": "moved",
+      "new_path": "validation/manifests/FILE_TREE_v5_5.txt"
+    },
+    {
+      "old_path": "90_manifests/FILE_TREE_v5_6.txt",
+      "status": "moved",
+      "new_path": "validation/manifests/FILE_TREE_v5_6.txt"
+    },
+    {
+      "old_path": "90_manifests/FILE_TREE_v5_7.txt",
+      "status": "moved",
+      "new_path": "validation/manifests/FILE_TREE_v5_7.txt"
+    },
+    {
+      "old_path": "90_manifests/FILE_TREE_v5_8.txt",
+      "status": "moved",
+      "new_path": "validation/manifests/FILE_TREE_v5_8.txt"
+    },
+    {
+      "old_path": "90_manifests/FILE_TREE_v5_9.txt",
+      "status": "moved",
+      "new_path": "validation/manifests/FILE_TREE_v5_9.txt"
+    },
+    {
+      "old_path": "90_manifests/FILE_TREE_v6_0A.txt",
+      "status": "moved",
+      "new_path": "validation/manifests/FILE_TREE_v6_0A.txt"
+    },
+    {
+      "old_path": "90_manifests/FILE_TREE_v6_0B.txt",
+      "status": "moved",
+      "new_path": "validation/manifests/FILE_TREE_v6_0B.txt"
+    },
+    {
+      "old_path": "90_manifests/FILE_TREE_v6_1.txt",
+      "status": "moved",
+      "new_path": "validation/manifests/FILE_TREE_v6_1.txt"
+    },
+    {
+      "old_path": "90_manifests/FILE_TREE_v6_2.txt",
+      "status": "moved",
+      "new_path": "validation/manifests/FILE_TREE_v6_2.txt"
+    },
+    {
+      "old_path": "90_manifests/FILE_TREE_v6_2R_CONTINUITY_RESTORE.txt",
+      "status": "moved",
+      "new_path": "validation/manifests/FILE_TREE_v6_2R_CONTINUITY_RESTORE.txt"
+    },
+    {
+      "old_path": "90_manifests/FILE_TREE_v6_3_MASTER_DEBT_REGISTER.txt",
+      "status": "moved",
+      "new_path": "validation/manifests/FILE_TREE_v6_3_MASTER_DEBT_REGISTER.txt"
+    },
+    {
+      "old_path": "90_manifests/FILE_TREE_v6_4_EXACT_TABLE_PROVENANCE_MATRIX.txt",
+      "status": "moved",
+      "new_path": "validation/manifests/FILE_TREE_v6_4_EXACT_TABLE_PROVENANCE_MATRIX.txt"
+    },
+    {
+      "old_path": "90_manifests/FILE_TREE_v6_5_UNIT_ANCHOR_LEDGER.txt",
+      "status": "moved",
+      "new_path": "validation/manifests/FILE_TREE_v6_5_UNIT_ANCHOR_LEDGER.txt"
+    },
+    {
+      "old_path": "90_manifests/FILE_TREE_v6_6_DOCUMENT_OPERATOR_SOURCE_INDEX.txt",
+      "status": "moved",
+      "new_path": "validation/manifests/FILE_TREE_v6_6_DOCUMENT_OPERATOR_SOURCE_INDEX.txt"
+    },
+    {
+      "old_path": "90_manifests/FILE_TREE_v6_7_ABSOLUTE_ELECTRON_ACTION_DERIVATION_GATE.txt",
+      "status": "moved",
+      "new_path": "validation/manifests/FILE_TREE_v6_7_ABSOLUTE_ELECTRON_ACTION_DERIVATION_GATE.txt"
+    },
+    {
+      "old_path": "90_manifests/FILE_TREE_v6_8_MU_TAU_RELEASE_REFINEMENT_GATE.txt",
+      "status": "moved",
+      "new_path": "validation/manifests/FILE_TREE_v6_8_MU_TAU_RELEASE_REFINEMENT_GATE.txt"
+    },
+    {
+      "old_path": "90_manifests/FILE_TREE_v6_9_SEALED_CHARGED_LEPTON_RECONSTRUCTION.txt",
+      "status": "moved",
+      "new_path": "validation/manifests/FILE_TREE_v6_9_SEALED_CHARGED_LEPTON_RECONSTRUCTION.txt"
+    },
+    {
+      "old_path": "90_manifests/MANIFEST_v4_0_HOLONOMIC_GLUON_WIJ.json",
+      "status": "moved",
+      "new_path": "validation/manifests/MANIFEST_v4_0_HOLONOMIC_GLUON_WIJ.json"
+    },
+    {
+      "old_path": "90_manifests/MANIFEST_v4_1_CLEAN_HOLONOMIC_YM.json",
+      "status": "moved",
+      "new_path": "validation/manifests/MANIFEST_v4_1_CLEAN_HOLONOMIC_YM.json"
+    },
+    {
+      "old_path": "90_manifests/MANIFEST_v4_2_DEBT9_YUKAWA_BOUNDARY.json",
+      "status": "moved",
+      "new_path": "validation/manifests/MANIFEST_v4_2_DEBT9_YUKAWA_BOUNDARY.json"
+    },
+    {
+      "old_path": "90_manifests/MANIFEST_v4_3_FROZEN_MMT_OPERATOR.json",
+      "status": "moved",
+      "new_path": "validation/manifests/MANIFEST_v4_3_FROZEN_MMT_OPERATOR.json"
+    },
+    {
+      "old_path": "90_manifests/MANIFEST_v4_4_SEALED_MMT_BENCHMARK.json",
+      "status": "moved",
+      "new_path": "validation/manifests/MANIFEST_v4_4_SEALED_MMT_BENCHMARK.json"
+    },
+    {
+      "old_path": "90_manifests/MANIFEST_v4_5_DOCUMENT_COLLATZ_TWINPRIME_TAU.json",
+      "status": "moved",
+      "new_path": "validation/manifests/MANIFEST_v4_5_DOCUMENT_COLLATZ_TWINPRIME_TAU.json"
+    },
+    {
+      "old_path": "90_manifests/MANIFEST_v4_6_DOCUMENT_FORMULA_SELECTION_BENCHMARK.json",
+      "status": "moved",
+      "new_path": "validation/manifests/MANIFEST_v4_6_DOCUMENT_FORMULA_SELECTION_BENCHMARK.json"
+    },
+    {
+      "old_path": "90_manifests/MANIFEST_v4_7_SECTOR_SPLIT_HOLONOMY.json",
+      "status": "moved",
+      "new_path": "validation/manifests/MANIFEST_v4_7_SECTOR_SPLIT_HOLONOMY.json"
+    },
+    {
+      "old_path": "90_manifests/MANIFEST_v4_8_CHARGED_LEPTON_REVIEW.json",
+      "status": "moved",
+      "new_path": "validation/manifests/MANIFEST_v4_8_CHARGED_LEPTON_REVIEW.json"
+    },
+    {
+      "old_path": "90_manifests/MANIFEST_v4_9_SHORTDOC_LEPTON_KERNEL_FREEZE.json",
+      "status": "moved",
+      "new_path": "validation/manifests/MANIFEST_v4_9_SHORTDOC_LEPTON_KERNEL_FREEZE.json"
+    },
+    {
+      "old_path": "90_manifests/MANIFEST_v5_0_WHITETHREAD_WIJ_DERIVABILITY.json",
+      "status": "moved",
+      "new_path": "validation/manifests/MANIFEST_v5_0_WHITETHREAD_WIJ_DERIVABILITY.json"
+    },
+    {
+      "old_path": "90_manifests/MANIFEST_v5_1_WHITETHREAD_QUADRATIC_AMPLITUDE_MAP.json",
+      "status": "moved",
+      "new_path": "validation/manifests/MANIFEST_v5_1_WHITETHREAD_QUADRATIC_AMPLITUDE_MAP.json"
+    },
+    {
+      "old_path": "90_manifests/MANIFEST_v5_2_SEALED_CHARGED_LEPTON_KERNEL.json",
+      "status": "moved",
+      "new_path": "validation/manifests/MANIFEST_v5_2_SEALED_CHARGED_LEPTON_KERNEL.json"
+    },
+    {
+      "old_path": "90_manifests/MANIFEST_v5_3_RAMANUJAN_OI_LEPTON_NORMALIZER.json",
+      "status": "moved",
+      "new_path": "validation/manifests/MANIFEST_v5_3_RAMANUJAN_OI_LEPTON_NORMALIZER.json"
+    },
+    {
+      "old_path": "90_manifests/MANIFEST_v5_4_RAMANUJAN_COMPONENT_SPLIT_LEPTON_REFINEMENT.json",
+      "status": "moved",
+      "new_path": "validation/manifests/MANIFEST_v5_4_RAMANUJAN_COMPONENT_SPLIT_LEPTON_REFINEMENT.json"
+    },
+    {
+      "old_path": "90_manifests/MANIFEST_v5_5_LEPTON_FREEZE_FULL_SECTOR_BOUNDARY.json",
+      "status": "moved",
+      "new_path": "validation/manifests/MANIFEST_v5_5_LEPTON_FREEZE_FULL_SECTOR_BOUNDARY.json"
+    },
+    {
+      "old_path": "90_manifests/MANIFEST_v5_6_QUARK_CONFINEMENT_TRIPLET_BOUNDARY.json",
+      "status": "moved",
+      "new_path": "validation/manifests/MANIFEST_v5_6_QUARK_CONFINEMENT_TRIPLET_BOUNDARY.json"
+    },
+    {
+      "old_path": "90_manifests/MANIFEST_v5_7_TRIPLET_HADRONIZATION_AGGREGATOR.json",
+      "status": "moved",
+      "new_path": "validation/manifests/MANIFEST_v5_7_TRIPLET_HADRONIZATION_AGGREGATOR.json"
+    },
+    {
+      "old_path": "90_manifests/MANIFEST_v5_8_HADRON_SCALE_PROVENANCE_AUDIT.json",
+      "status": "moved",
+      "new_path": "validation/manifests/MANIFEST_v5_8_HADRON_SCALE_PROVENANCE_AUDIT.json"
+    },
+    {
+      "old_path": "90_manifests/MANIFEST_v5_9_PRIME_PRODUCT_HADRON_SCALE_CANDIDATE.json",
+      "status": "moved",
+      "new_path": "validation/manifests/MANIFEST_v5_9_PRIME_PRODUCT_HADRON_SCALE_CANDIDATE.json"
+    },
+    {
+      "old_path": "90_manifests/MANIFEST_v6_0A_HADRON_RATIO_BENCHMARK.json",
+      "status": "moved",
+      "new_path": "validation/manifests/MANIFEST_v6_0A_HADRON_RATIO_BENCHMARK.json"
+    },
+    {
+      "old_path": "90_manifests/MANIFEST_v6_0B_INFORMATION_ENERGY_NORMALIZER.json",
+      "status": "moved",
+      "new_path": "validation/manifests/MANIFEST_v6_0B_INFORMATION_ENERGY_NORMALIZER.json"
+    },
+    {
+      "old_path": "90_manifests/MANIFEST_v6_1_PLANCK_INFORMATION_ACTION_LEDGER.json",
+      "status": "moved",
+      "new_path": "validation/manifests/MANIFEST_v6_1_PLANCK_INFORMATION_ACTION_LEDGER.json"
+    },
+    {
+      "old_path": "90_manifests/MANIFEST_v6_2_LEPTON_INFORMATION_ACTION_RELEASE_PROBE.json",
+      "status": "moved",
+      "new_path": "validation/manifests/MANIFEST_v6_2_LEPTON_INFORMATION_ACTION_RELEASE_PROBE.json"
+    },
+    {
+      "old_path": "90_manifests/MANIFEST_v6_3_MASTER_DEBT_REGISTER_CLOSURE_QUEUE.json",
+      "status": "moved",
+      "new_path": "validation/manifests/MANIFEST_v6_3_MASTER_DEBT_REGISTER_CLOSURE_QUEUE.json"
+    },
+    {
+      "old_path": "90_manifests/MANIFEST_v6_4_EXACT_TABLE_PROVENANCE_MATRIX.json",
+      "status": "moved",
+      "new_path": "validation/manifests/MANIFEST_v6_4_EXACT_TABLE_PROVENANCE_MATRIX.json"
+    },
+    {
+      "old_path": "90_manifests/MANIFEST_v6_5_UNIT_ANCHOR_LEDGER.json",
+      "status": "moved",
+      "new_path": "validation/manifests/MANIFEST_v6_5_UNIT_ANCHOR_LEDGER.json"
+    },
+    {
+      "old_path": "90_manifests/MANIFEST_v6_6_DOCUMENT_OPERATOR_SOURCE_INDEX.json",
+      "status": "moved",
+      "new_path": "validation/manifests/MANIFEST_v6_6_DOCUMENT_OPERATOR_SOURCE_INDEX.json"
+    },
+    {
+      "old_path": "90_manifests/MANIFEST_v6_7_ABSOLUTE_ELECTRON_ACTION_DERIVATION_GATE.json",
+      "status": "moved",
+      "new_path": "validation/manifests/MANIFEST_v6_7_ABSOLUTE_ELECTRON_ACTION_DERIVATION_GATE.json"
+    },
+    {
+      "old_path": "90_manifests/MANIFEST_v6_8_MU_TAU_RELEASE_REFINEMENT_GATE.json",
+      "status": "moved",
+      "new_path": "validation/manifests/MANIFEST_v6_8_MU_TAU_RELEASE_REFINEMENT_GATE.json"
+    },
+    {
+      "old_path": "90_manifests/MANIFEST_v6_9_SEALED_CHARGED_LEPTON_RECONSTRUCTION.json",
+      "status": "moved",
+      "new_path": "validation/manifests/MANIFEST_v6_9_SEALED_CHARGED_LEPTON_RECONSTRUCTION.json"
+    },
+    {
+      "old_path": "90_manifests/MERGE_MANIFEST.json",
+      "status": "moved",
+      "new_path": "validation/manifests/MERGE_MANIFEST.json"
+    },
+    {
+      "old_path": "90_manifests/MERGE_MANIFEST_v1_3.json",
+      "status": "moved",
+      "new_path": "validation/manifests/MERGE_MANIFEST_v1_3.json"
+    },
+    {
+      "old_path": "90_manifests/MERGE_MANIFEST_v1_4.json",
+      "status": "moved",
+      "new_path": "validation/manifests/MERGE_MANIFEST_v1_4.json"
+    },
+    {
+      "old_path": "90_manifests/MERGE_MANIFEST_v1_5.json",
+      "status": "moved",
+      "new_path": "validation/manifests/MERGE_MANIFEST_v1_5.json"
+    },
+    {
+      "old_path": "90_manifests/MERGE_MANIFEST_v1_6.json",
+      "status": "moved",
+      "new_path": "validation/manifests/MERGE_MANIFEST_v1_6.json"
+    },
+    {
+      "old_path": "90_manifests/MERGE_MANIFEST_v1_7.json",
+      "status": "moved",
+      "new_path": "validation/manifests/MERGE_MANIFEST_v1_7.json"
+    },
+    {
+      "old_path": "90_manifests/MERGE_MANIFEST_v1_8.json",
+      "status": "moved",
+      "new_path": "validation/manifests/MERGE_MANIFEST_v1_8.json"
+    },
+    {
+      "old_path": "90_manifests/MERGE_MANIFEST_v1_9.json",
+      "status": "moved",
+      "new_path": "validation/manifests/MERGE_MANIFEST_v1_9.json"
+    },
+    {
+      "old_path": "90_manifests/MERGE_MANIFEST_v2_0.json",
+      "status": "moved",
+      "new_path": "validation/manifests/MERGE_MANIFEST_v2_0.json"
+    },
+    {
+      "old_path": "90_manifests/MERGE_MANIFEST_v2_1.json",
+      "status": "moved",
+      "new_path": "validation/manifests/MERGE_MANIFEST_v2_1.json"
+    },
+    {
+      "old_path": "90_manifests/MERGE_MANIFEST_v2_2.json",
+      "status": "moved",
+      "new_path": "validation/manifests/MERGE_MANIFEST_v2_2.json"
+    },
+    {
+      "old_path": "90_manifests/MERGE_MANIFEST_v2_3.json",
+      "status": "moved",
+      "new_path": "validation/manifests/MERGE_MANIFEST_v2_3.json"
+    },
+    {
+      "old_path": "90_manifests/MERGE_MANIFEST_v2_4.json",
+      "status": "moved",
+      "new_path": "validation/manifests/MERGE_MANIFEST_v2_4.json"
+    },
+    {
+      "old_path": "90_manifests/MERGE_MANIFEST_v2_6.json",
+      "status": "moved",
+      "new_path": "validation/manifests/MERGE_MANIFEST_v2_6.json"
+    },
+    {
+      "old_path": "90_manifests/MERGE_MANIFEST_v2_7.json",
+      "status": "moved",
+      "new_path": "validation/manifests/MERGE_MANIFEST_v2_7.json"
+    },
+    {
+      "old_path": "90_manifests/MERGE_MANIFEST_v2_8.json",
+      "status": "moved",
+      "new_path": "validation/manifests/MERGE_MANIFEST_v2_8.json"
+    },
+    {
+      "old_path": "90_manifests/MERGE_MANIFEST_v3_0.json",
+      "status": "moved",
+      "new_path": "validation/manifests/MERGE_MANIFEST_v3_0.json"
+    },
+    {
+      "old_path": "90_manifests/MERGE_MANIFEST_v3_1.json",
+      "status": "moved",
+      "new_path": "validation/manifests/MERGE_MANIFEST_v3_1.json"
+    },
+    {
+      "old_path": "90_manifests/MERGE_MANIFEST_v3_3.json",
+      "status": "moved",
+      "new_path": "validation/manifests/MERGE_MANIFEST_v3_3.json"
+    },
+    {
+      "old_path": "90_manifests/MERGE_MANIFEST_v3_4.json",
+      "status": "moved",
+      "new_path": "validation/manifests/MERGE_MANIFEST_v3_4.json"
+    },
+    {
+      "old_path": "90_manifests/MERGE_MANIFEST_v3_5.json",
+      "status": "moved",
+      "new_path": "validation/manifests/MERGE_MANIFEST_v3_5.json"
+    },
+    {
+      "old_path": "90_manifests/MERGE_MANIFEST_v3_8.json",
+      "status": "moved",
+      "new_path": "validation/manifests/MERGE_MANIFEST_v3_8.json"
+    },
+    {
+      "old_path": "90_manifests/SHA256SUMS.txt",
+      "status": "moved",
+      "new_path": "validation/manifests/SHA256SUMS.txt"
+    },
+    {
+      "old_path": "90_manifests/SHA256SUMS_REPAIR1.txt",
+      "status": "moved",
+      "new_path": "validation/manifests/SHA256SUMS_REPAIR1.txt"
+    },
+    {
+      "old_path": "90_manifests/SHA256SUMS_REPAIR2.txt",
+      "status": "moved",
+      "new_path": "validation/manifests/SHA256SUMS_REPAIR2.txt"
+    },
+    {
+      "old_path": "90_manifests/SHA256SUMS_v1_6.txt",
+      "status": "moved",
+      "new_path": "validation/manifests/SHA256SUMS_v1_6.txt"
+    },
+    {
+      "old_path": "90_manifests/SHA256SUMS_v1_8.txt",
+      "status": "moved",
+      "new_path": "validation/manifests/SHA256SUMS_v1_8.txt"
+    },
+    {
+      "old_path": "90_manifests/SHA256SUMS_v1_9.txt",
+      "status": "moved",
+      "new_path": "validation/manifests/SHA256SUMS_v1_9.txt"
+    },
+    {
+      "old_path": "90_manifests/SHA256SUMS_v2_0.txt",
+      "status": "moved",
+      "new_path": "validation/manifests/SHA256SUMS_v2_0.txt"
+    },
+    {
+      "old_path": "90_manifests/SHA256SUMS_v2_2.txt",
+      "status": "moved",
+      "new_path": "validation/manifests/SHA256SUMS_v2_2.txt"
+    },
+    {
+      "old_path": "90_manifests/SHA256SUMS_v2_3.txt",
+      "status": "moved",
+      "new_path": "validation/manifests/SHA256SUMS_v2_3.txt"
+    },
+    {
+      "old_path": "90_manifests/SHA256SUMS_v2_4.txt",
+      "status": "moved",
+      "new_path": "validation/manifests/SHA256SUMS_v2_4.txt"
+    },
+    {
+      "old_path": "90_manifests/SHA256SUMS_v2_5.txt",
+      "status": "moved",
+      "new_path": "validation/manifests/SHA256SUMS_v2_5.txt"
+    },
+    {
+      "old_path": "90_manifests/SHA256SUMS_v2_6.txt",
+      "status": "moved",
+      "new_path": "validation/manifests/SHA256SUMS_v2_6.txt"
+    },
+    {
+      "old_path": "90_manifests/SHA256SUMS_v2_8.txt",
+      "status": "moved",
+      "new_path": "validation/manifests/SHA256SUMS_v2_8.txt"
+    },
+    {
+      "old_path": "90_manifests/SHA256SUMS_v3_0.txt",
+      "status": "moved",
+      "new_path": "validation/manifests/SHA256SUMS_v3_0.txt"
+    },
+    {
+      "old_path": "90_manifests/SHA256SUMS_v3_1.txt",
+      "status": "moved",
+      "new_path": "validation/manifests/SHA256SUMS_v3_1.txt"
+    },
+    {
+      "old_path": "90_manifests/SHA256SUMS_v3_4.txt",
+      "status": "moved",
+      "new_path": "validation/manifests/SHA256SUMS_v3_4.txt"
+    },
+    {
+      "old_path": "90_manifests/SHA256SUMS_v3_5.txt",
+      "status": "moved",
+      "new_path": "validation/manifests/SHA256SUMS_v3_5.txt"
+    },
+    {
+      "old_path": "90_manifests/SHA256SUMS_v3_6.txt",
+      "status": "moved",
+      "new_path": "validation/manifests/SHA256SUMS_v3_6.txt"
+    },
+    {
+      "old_path": "90_manifests/SHA256SUMS_v3_8.txt",
+      "status": "moved",
+      "new_path": "validation/manifests/SHA256SUMS_v3_8.txt"
+    },
+    {
+      "old_path": "90_manifests/SHA256SUMS_v4_1.txt",
+      "status": "moved",
+      "new_path": "validation/manifests/SHA256SUMS_v4_1.txt"
+    },
+    {
+      "old_path": "90_manifests/SHA256SUMS_v4_2.txt",
+      "status": "moved",
+      "new_path": "validation/manifests/SHA256SUMS_v4_2.txt"
+    },
+    {
+      "old_path": "90_manifests/SHA256SUMS_v4_3.txt",
+      "status": "moved",
+      "new_path": "validation/manifests/SHA256SUMS_v4_3.txt"
+    },
+    {
+      "old_path": "90_manifests/SHA256SUMS_v4_4.txt",
+      "status": "moved",
+      "new_path": "validation/manifests/SHA256SUMS_v4_4.txt"
+    },
+    {
+      "old_path": "90_manifests/SHA256SUMS_v4_5.txt",
+      "status": "moved",
+      "new_path": "validation/manifests/SHA256SUMS_v4_5.txt"
+    },
+    {
+      "old_path": "90_manifests/SHA256SUMS_v4_6.txt",
+      "status": "moved",
+      "new_path": "validation/manifests/SHA256SUMS_v4_6.txt"
+    },
+    {
+      "old_path": "90_manifests/SHA256SUMS_v4_7.txt",
+      "status": "moved",
+      "new_path": "validation/manifests/SHA256SUMS_v4_7.txt"
+    },
+    {
+      "old_path": "90_manifests/SHA256SUMS_v4_8.txt",
+      "status": "moved",
+      "new_path": "validation/manifests/SHA256SUMS_v4_8.txt"
+    },
+    {
+      "old_path": "90_manifests/SHA256SUMS_v4_9.txt",
+      "status": "moved",
+      "new_path": "validation/manifests/SHA256SUMS_v4_9.txt"
+    },
+    {
+      "old_path": "90_manifests/SHA256SUMS_v5_0.txt",
+      "status": "moved",
+      "new_path": "validation/manifests/SHA256SUMS_v5_0.txt"
+    },
+    {
+      "old_path": "90_manifests/SHA256SUMS_v5_1.txt",
+      "status": "moved",
+      "new_path": "validation/manifests/SHA256SUMS_v5_1.txt"
+    },
+    {
+      "old_path": "90_manifests/SHA256SUMS_v5_2.txt",
+      "status": "moved",
+      "new_path": "validation/manifests/SHA256SUMS_v5_2.txt"
+    },
+    {
+      "old_path": "90_manifests/SHA256SUMS_v5_3.txt",
+      "status": "moved",
+      "new_path": "validation/manifests/SHA256SUMS_v5_3.txt"
+    },
+    {
+      "old_path": "90_manifests/SHA256SUMS_v5_4.txt",
+      "status": "moved",
+      "new_path": "validation/manifests/SHA256SUMS_v5_4.txt"
+    },
+    {
+      "old_path": "90_manifests/SHA256SUMS_v5_5.txt",
+      "status": "moved",
+      "new_path": "validation/manifests/SHA256SUMS_v5_5.txt"
+    },
+    {
+      "old_path": "90_manifests/SHA256SUMS_v5_6.txt",
+      "status": "moved",
+      "new_path": "validation/manifests/SHA256SUMS_v5_6.txt"
+    },
+    {
+      "old_path": "90_manifests/SHA256SUMS_v5_7.txt",
+      "status": "moved",
+      "new_path": "validation/manifests/SHA256SUMS_v5_7.txt"
+    },
+    {
+      "old_path": "90_manifests/SHA256SUMS_v5_8.txt",
+      "status": "moved",
+      "new_path": "validation/manifests/SHA256SUMS_v5_8.txt"
+    },
+    {
+      "old_path": "90_manifests/SHA256SUMS_v5_9.txt",
+      "status": "moved",
+      "new_path": "validation/manifests/SHA256SUMS_v5_9.txt"
+    },
+    {
+      "old_path": "90_manifests/SHA256SUMS_v6_0A.txt",
+      "status": "moved",
+      "new_path": "validation/manifests/SHA256SUMS_v6_0A.txt"
+    },
+    {
+      "old_path": "90_manifests/SHA256SUMS_v6_0B.txt",
+      "status": "moved",
+      "new_path": "validation/manifests/SHA256SUMS_v6_0B.txt"
+    },
+    {
+      "old_path": "90_manifests/SHA256SUMS_v6_1.txt",
+      "status": "moved",
+      "new_path": "validation/manifests/SHA256SUMS_v6_1.txt"
+    },
+    {
+      "old_path": "90_manifests/SHA256SUMS_v6_2.txt",
+      "status": "moved",
+      "new_path": "validation/manifests/SHA256SUMS_v6_2.txt"
+    },
+    {
+      "old_path": "90_manifests/SHA256SUMS_v6_2R_CONTINUITY_RESTORE.txt",
+      "status": "moved",
+      "new_path": "validation/manifests/SHA256SUMS_v6_2R_CONTINUITY_RESTORE.txt"
+    },
+    {
+      "old_path": "90_manifests/SHA256SUMS_v6_3_MASTER_DEBT_REGISTER.txt",
+      "status": "moved",
+      "new_path": "validation/manifests/SHA256SUMS_v6_3_MASTER_DEBT_REGISTER.txt"
+    },
+    {
+      "old_path": "90_manifests/SHA256SUMS_v6_4_EXACT_TABLE_PROVENANCE_MATRIX.txt",
+      "status": "moved",
+      "new_path": "validation/manifests/SHA256SUMS_v6_4_EXACT_TABLE_PROVENANCE_MATRIX.txt"
+    },
+    {
+      "old_path": "90_manifests/SHA256SUMS_v6_5_UNIT_ANCHOR_LEDGER.txt",
+      "status": "moved",
+      "new_path": "validation/manifests/SHA256SUMS_v6_5_UNIT_ANCHOR_LEDGER.txt"
+    },
+    {
+      "old_path": "90_manifests/SHA256SUMS_v6_6_DOCUMENT_OPERATOR_SOURCE_INDEX.txt",
+      "status": "moved",
+      "new_path": "validation/manifests/SHA256SUMS_v6_6_DOCUMENT_OPERATOR_SOURCE_INDEX.txt"
+    },
+    {
+      "old_path": "90_manifests/SHA256SUMS_v6_7_ABSOLUTE_ELECTRON_ACTION_DERIVATION_GATE.txt",
+      "status": "moved",
+      "new_path": "validation/manifests/SHA256SUMS_v6_7_ABSOLUTE_ELECTRON_ACTION_DERIVATION_GATE.txt"
+    },
+    {
+      "old_path": "90_manifests/SHA256SUMS_v6_8_MU_TAU_RELEASE_REFINEMENT_GATE.txt",
+      "status": "moved",
+      "new_path": "validation/manifests/SHA256SUMS_v6_8_MU_TAU_RELEASE_REFINEMENT_GATE.txt"
+    },
+    {
+      "old_path": "90_manifests/SHA256SUMS_v6_9_SEALED_CHARGED_LEPTON_RECONSTRUCTION.txt",
+      "status": "moved",
+      "new_path": "validation/manifests/SHA256SUMS_v6_9_SEALED_CHARGED_LEPTON_RECONSTRUCTION.txt"
+    },
+    {
+      "old_path": "99_validation/ABSOLUTE_ELECTRON_ACTION_DERIVATION_GATE_VALIDATION_v6_7.json",
+      "status": "moved",
+      "new_path": "validation/provenance/ABSOLUTE_ELECTRON_ACTION_DERIVATION_GATE_VALIDATION_v6_7.json"
+    },
+    {
+      "old_path": "99_validation/ABSOLUTE_ELECTRON_ACTION_DERIVATION_GATE_VALIDATION_v6_7.md",
+      "status": "moved",
+      "new_path": "validation/reports/ABSOLUTE_ELECTRON_ACTION_DERIVATION_GATE_VALIDATION_v6_7.md",
+      "document_class": "validation-report"
+    },
+    {
+      "old_path": "99_validation/COMPILEALL_RESULT_v6_4.json",
+      "status": "moved",
+      "new_path": "validation/provenance/COMPILEALL_RESULT_v6_4.json"
+    },
+    {
+      "old_path": "99_validation/COMPILEALL_RESULT_v6_5.json",
+      "status": "moved",
+      "new_path": "validation/provenance/COMPILEALL_RESULT_v6_5.json"
+    },
+    {
+      "old_path": "99_validation/COMPILEALL_RESULT_v6_6.json",
+      "status": "moved",
+      "new_path": "validation/provenance/COMPILEALL_RESULT_v6_6.json"
+    },
+    {
+      "old_path": "99_validation/COMPILEALL_RESULT_v6_9.json",
+      "status": "moved",
+      "new_path": "validation/provenance/COMPILEALL_RESULT_v6_9.json"
+    },
+    {
+      "old_path": "99_validation/COMPILE_QUARANTINE_LEDGER_v6_3.json",
+      "status": "moved",
+      "new_path": "validation/provenance/COMPILE_QUARANTINE_LEDGER_v6_3.json"
+    },
+    {
+      "old_path": "99_validation/CONTINUITY_RESTORE_LEDGER_v6_2R.md",
+      "status": "moved",
+      "new_path": "validation/reports/CONTINUITY_RESTORE_LEDGER_v6_2R.md",
+      "document_class": "validation-report"
+    },
+    {
+      "old_path": "99_validation/CONTINUITY_RESTORE_VALIDATION_v6_2R.json",
+      "status": "moved",
+      "new_path": "validation/provenance/CONTINUITY_RESTORE_VALIDATION_v6_2R.json"
+    },
+    {
+      "old_path": "99_validation/DOCUMENT_OPERATOR_SOURCE_INDEX_VALIDATION_v6_6.json",
+      "status": "moved",
+      "new_path": "validation/provenance/DOCUMENT_OPERATOR_SOURCE_INDEX_VALIDATION_v6_6.json"
+    },
+    {
+      "old_path": "99_validation/DOCUMENT_OPERATOR_SOURCE_INDEX_VALIDATION_v6_6.md",
+      "status": "moved",
+      "new_path": "validation/reports/DOCUMENT_OPERATOR_SOURCE_INDEX_VALIDATION_v6_6.md",
+      "document_class": "validation-report"
+    },
+    {
+      "old_path": "99_validation/EXACT_TABLE_PROVENANCE_MATRIX_VALIDATION_v6_4.json",
+      "status": "moved",
+      "new_path": "validation/provenance/EXACT_TABLE_PROVENANCE_MATRIX_VALIDATION_v6_4.json"
+    },
+    {
+      "old_path": "99_validation/EXACT_TABLE_PROVENANCE_MATRIX_VALIDATION_v6_4.md",
+      "status": "moved",
+      "new_path": "validation/reports/EXACT_TABLE_PROVENANCE_MATRIX_VALIDATION_v6_4.md",
+      "document_class": "validation-report"
+    },
+    {
+      "old_path": "99_validation/FINAL_ZIP_VALIDATION_v6_4.json",
+      "status": "moved",
+      "new_path": "validation/provenance/FINAL_ZIP_VALIDATION_v6_4.json"
+    },
+    {
+      "old_path": "99_validation/LEGACY_COMPILE_BLOCKER_v5_4.txt",
+      "status": "moved",
+      "new_path": "validation/reports/LEGACY_COMPILE_BLOCKER_v5_4.txt"
+    },
+    {
+      "old_path": "99_validation/MASTER_DEBT_REGISTER_VALIDATION_v6_3.json",
+      "status": "moved",
+      "new_path": "validation/debt_register/MASTER_DEBT_REGISTER_VALIDATION_v6_3.json"
+    },
+    {
+      "old_path": "99_validation/MASTER_DEBT_REGISTER_VALIDATION_v6_3.md",
+      "status": "moved",
+      "new_path": "validation/debt_register/MASTER_DEBT_REGISTER_VALIDATION_v6_3.md",
+      "document_class": "validation-report"
+    },
+    {
+      "old_path": "99_validation/MU_TAU_RELEASE_REFINEMENT_GATE_VALIDATION_v6_8.json",
+      "status": "moved",
+      "new_path": "validation/provenance/MU_TAU_RELEASE_REFINEMENT_GATE_VALIDATION_v6_8.json"
+    },
+    {
+      "old_path": "99_validation/MU_TAU_RELEASE_REFINEMENT_GATE_VALIDATION_v6_8.md",
+      "status": "moved",
+      "new_path": "validation/reports/MU_TAU_RELEASE_REFINEMENT_GATE_VALIDATION_v6_8.md",
+      "document_class": "validation-report"
+    },
+    {
+      "old_path": "99_validation/NESTED_ARCHIVE_SCAN.txt",
+      "status": "moved",
+      "new_path": "validation/reports/NESTED_ARCHIVE_SCAN.txt"
+    },
+    {
+      "old_path": "99_validation/NESTED_ARCHIVE_SCAN_v1_8.txt",
+      "status": "moved",
+      "new_path": "validation/reports/NESTED_ARCHIVE_SCAN_v1_8.txt"
+    },
+    {
+      "old_path": "99_validation/NESTED_ARCHIVE_SCAN_v1_9.txt",
+      "status": "moved",
+      "new_path": "validation/reports/NESTED_ARCHIVE_SCAN_v1_9.txt"
+    },
+    {
+      "old_path": "99_validation/NESTED_ARCHIVE_SCAN_v2_0.txt",
+      "status": "moved",
+      "new_path": "validation/reports/NESTED_ARCHIVE_SCAN_v2_0.txt"
+    },
+    {
+      "old_path": "99_validation/NESTED_ARCHIVE_SCAN_v2_2.txt",
+      "status": "moved",
+      "new_path": "validation/reports/NESTED_ARCHIVE_SCAN_v2_2.txt"
+    },
+    {
+      "old_path": "99_validation/NESTED_ARCHIVE_SCAN_v2_3.txt",
+      "status": "moved",
+      "new_path": "validation/reports/NESTED_ARCHIVE_SCAN_v2_3.txt"
+    },
+    {
+      "old_path": "99_validation/NESTED_ARCHIVE_SCAN_v2_4.txt",
+      "status": "moved",
+      "new_path": "validation/reports/NESTED_ARCHIVE_SCAN_v2_4.txt"
+    },
+    {
+      "old_path": "99_validation/NESTED_ARCHIVE_SCAN_v2_6.txt",
+      "status": "moved",
+      "new_path": "validation/reports/NESTED_ARCHIVE_SCAN_v2_6.txt"
+    },
+    {
+      "old_path": "99_validation/NESTED_ARCHIVE_SCAN_v2_8.txt",
+      "status": "moved",
+      "new_path": "validation/reports/NESTED_ARCHIVE_SCAN_v2_8.txt"
+    },
+    {
+      "old_path": "99_validation/NESTED_ARCHIVE_SCAN_v3_0.txt",
+      "status": "moved",
+      "new_path": "validation/reports/NESTED_ARCHIVE_SCAN_v3_0.txt"
+    },
+    {
+      "old_path": "99_validation/NESTED_ARCHIVE_SCAN_v3_1.txt",
+      "status": "moved",
+      "new_path": "validation/reports/NESTED_ARCHIVE_SCAN_v3_1.txt"
+    },
+    {
+      "old_path": "99_validation/NESTED_ARCHIVE_SCAN_v3_8.txt",
+      "status": "moved",
+      "new_path": "validation/reports/NESTED_ARCHIVE_SCAN_v3_8.txt"
+    },
+    {
+      "old_path": "99_validation/NESTED_ARCHIVE_SCAN_v4_1.txt",
+      "status": "moved",
+      "new_path": "validation/reports/NESTED_ARCHIVE_SCAN_v4_1.txt"
+    },
+    {
+      "old_path": "99_validation/NESTED_ARCHIVE_SCAN_v4_2.txt",
+      "status": "moved",
+      "new_path": "validation/reports/NESTED_ARCHIVE_SCAN_v4_2.txt"
+    },
+    {
+      "old_path": "99_validation/NESTED_ARCHIVE_SCAN_v4_3.txt",
+      "status": "moved",
+      "new_path": "validation/reports/NESTED_ARCHIVE_SCAN_v4_3.txt"
+    },
+    {
+      "old_path": "99_validation/NESTED_ARCHIVE_SCAN_v4_4.txt",
+      "status": "moved",
+      "new_path": "validation/reports/NESTED_ARCHIVE_SCAN_v4_4.txt"
+    },
+    {
+      "old_path": "99_validation/NESTED_ARCHIVE_SCAN_v4_5.txt",
+      "status": "moved",
+      "new_path": "validation/reports/NESTED_ARCHIVE_SCAN_v4_5.txt"
+    },
+    {
+      "old_path": "99_validation/NESTED_ARCHIVE_SCAN_v4_6.txt",
+      "status": "moved",
+      "new_path": "validation/reports/NESTED_ARCHIVE_SCAN_v4_6.txt"
+    },
+    {
+      "old_path": "99_validation/NESTED_ARCHIVE_SCAN_v4_7.txt",
+      "status": "moved",
+      "new_path": "validation/reports/NESTED_ARCHIVE_SCAN_v4_7.txt"
+    },
+    {
+      "old_path": "99_validation/NESTED_ARCHIVE_SCAN_v4_8.txt",
+      "status": "moved",
+      "new_path": "validation/reports/NESTED_ARCHIVE_SCAN_v4_8.txt"
+    },
+    {
+      "old_path": "99_validation/NESTED_ARCHIVE_SCAN_v4_9.txt",
+      "status": "moved",
+      "new_path": "validation/reports/NESTED_ARCHIVE_SCAN_v4_9.txt"
+    },
+    {
+      "old_path": "99_validation/NESTED_ARCHIVE_SCAN_v5_1.txt",
+      "status": "moved",
+      "new_path": "validation/reports/NESTED_ARCHIVE_SCAN_v5_1.txt"
+    },
+    {
+      "old_path": "99_validation/NESTED_ARCHIVE_SCAN_v5_2.txt",
+      "status": "moved",
+      "new_path": "validation/reports/NESTED_ARCHIVE_SCAN_v5_2.txt"
+    },
+    {
+      "old_path": "99_validation/NESTED_ARCHIVE_SCAN_v5_3.txt",
+      "status": "moved",
+      "new_path": "validation/reports/NESTED_ARCHIVE_SCAN_v5_3.txt"
+    },
+    {
+      "old_path": "99_validation/NESTED_ARCHIVE_SCAN_v5_4.txt",
+      "status": "moved",
+      "new_path": "validation/reports/NESTED_ARCHIVE_SCAN_v5_4.txt"
+    },
+    {
+      "old_path": "99_validation/NESTED_ARCHIVE_SCAN_v5_5.txt",
+      "status": "moved",
+      "new_path": "validation/reports/NESTED_ARCHIVE_SCAN_v5_5.txt"
+    },
+    {
+      "old_path": "99_validation/NESTED_ARCHIVE_SCAN_v5_6.txt",
+      "status": "moved",
+      "new_path": "validation/reports/NESTED_ARCHIVE_SCAN_v5_6.txt"
+    },
+    {
+      "old_path": "99_validation/NESTED_ARCHIVE_SCAN_v5_7.txt",
+      "status": "moved",
+      "new_path": "validation/reports/NESTED_ARCHIVE_SCAN_v5_7.txt"
+    },
+    {
+      "old_path": "99_validation/NESTED_ARCHIVE_SCAN_v5_8.txt",
+      "status": "moved",
+      "new_path": "validation/reports/NESTED_ARCHIVE_SCAN_v5_8.txt"
+    },
+    {
+      "old_path": "99_validation/NESTED_ARCHIVE_SCAN_v5_9.txt",
+      "status": "moved",
+      "new_path": "validation/reports/NESTED_ARCHIVE_SCAN_v5_9.txt"
+    },
+    {
+      "old_path": "99_validation/NESTED_ARCHIVE_SCAN_v6_0A.txt",
+      "status": "moved",
+      "new_path": "validation/reports/NESTED_ARCHIVE_SCAN_v6_0A.txt"
+    },
+    {
+      "old_path": "99_validation/NESTED_ARCHIVE_SCAN_v6_0B.txt",
+      "status": "moved",
+      "new_path": "validation/reports/NESTED_ARCHIVE_SCAN_v6_0B.txt"
+    },
+    {
+      "old_path": "99_validation/NESTED_ARCHIVE_SCAN_v6_1.txt",
+      "status": "moved",
+      "new_path": "validation/reports/NESTED_ARCHIVE_SCAN_v6_1.txt"
+    },
+    {
+      "old_path": "99_validation/NESTED_ARCHIVE_SCAN_v6_2.txt",
+      "status": "moved",
+      "new_path": "validation/reports/NESTED_ARCHIVE_SCAN_v6_2.txt"
+    },
+    {
+      "old_path": "99_validation/NO_NESTED_ARCHIVES_VALIDATION_v6_5.json",
+      "status": "moved",
+      "new_path": "validation/provenance/NO_NESTED_ARCHIVES_VALIDATION_v6_5.json"
+    },
+    {
+      "old_path": "99_validation/NO_NESTED_ARCHIVES_VALIDATION_v6_6.json",
+      "status": "moved",
+      "new_path": "validation/provenance/NO_NESTED_ARCHIVES_VALIDATION_v6_6.json"
+    },
+    {
+      "old_path": "99_validation/NO_NESTED_ARCHIVES_VALIDATION_v6_9.json",
+      "status": "moved",
+      "new_path": "validation/provenance/NO_NESTED_ARCHIVES_VALIDATION_v6_9.json"
+    },
+    {
+      "old_path": "99_validation/PRESERVATION_CHECK_v2_0.txt",
+      "status": "moved",
+      "new_path": "validation/reports/PRESERVATION_CHECK_v2_0.txt"
+    },
+    {
+      "old_path": "99_validation/PRESERVATION_CHECK_v2_2.txt",
+      "status": "moved",
+      "new_path": "validation/reports/PRESERVATION_CHECK_v2_2.txt"
+    },
+    {
+      "old_path": "99_validation/PRESERVATION_CHECK_v2_3.txt",
+      "status": "moved",
+      "new_path": "validation/reports/PRESERVATION_CHECK_v2_3.txt"
+    },
+    {
+      "old_path": "99_validation/PRESERVATION_CHECK_v2_4.txt",
+      "status": "moved",
+      "new_path": "validation/reports/PRESERVATION_CHECK_v2_4.txt"
+    },
+    {
+      "old_path": "99_validation/PRESERVATION_CHECK_v2_8.json",
+      "status": "moved",
+      "new_path": "validation/provenance/PRESERVATION_CHECK_v2_8.json"
+    },
+    {
+      "old_path": "99_validation/PRESERVATION_CHECK_v2_8.txt",
+      "status": "moved",
+      "new_path": "validation/reports/PRESERVATION_CHECK_v2_8.txt"
+    },
+    {
+      "old_path": "99_validation/PRESERVATION_CHECK_v3_0.json",
+      "status": "moved",
+      "new_path": "validation/provenance/PRESERVATION_CHECK_v3_0.json"
+    },
+    {
+      "old_path": "99_validation/PRESERVATION_CHECK_v3_1.json",
+      "status": "moved",
+      "new_path": "validation/provenance/PRESERVATION_CHECK_v3_1.json"
+    },
+    {
+      "old_path": "99_validation/ROOT_VALIDATION_SUMMARY_v4_0.json",
+      "status": "moved",
+      "new_path": "validation/provenance/ROOT_VALIDATION_SUMMARY_v4_0.json"
+    },
+    {
+      "old_path": "99_validation/ROOT_VALIDATION_SUMMARY_v4_1.json",
+      "status": "moved",
+      "new_path": "validation/provenance/ROOT_VALIDATION_SUMMARY_v4_1.json"
+    },
+    {
+      "old_path": "99_validation/ROOT_VALIDATION_SUMMARY_v4_2.json",
+      "status": "moved",
+      "new_path": "validation/provenance/ROOT_VALIDATION_SUMMARY_v4_2.json"
+    },
+    {
+      "old_path": "99_validation/ROOT_VALIDATION_SUMMARY_v4_3.json",
+      "status": "moved",
+      "new_path": "validation/provenance/ROOT_VALIDATION_SUMMARY_v4_3.json"
+    },
+    {
+      "old_path": "99_validation/ROOT_VALIDATION_SUMMARY_v4_4.json",
+      "status": "moved",
+      "new_path": "validation/provenance/ROOT_VALIDATION_SUMMARY_v4_4.json"
+    },
+    {
+      "old_path": "99_validation/ROOT_VALIDATION_SUMMARY_v4_5.json",
+      "status": "moved",
+      "new_path": "validation/provenance/ROOT_VALIDATION_SUMMARY_v4_5.json"
+    },
+    {
+      "old_path": "99_validation/ROOT_VALIDATION_SUMMARY_v4_6.json",
+      "status": "moved",
+      "new_path": "validation/provenance/ROOT_VALIDATION_SUMMARY_v4_6.json"
+    },
+    {
+      "old_path": "99_validation/ROOT_VALIDATION_SUMMARY_v4_7.json",
+      "status": "moved",
+      "new_path": "validation/provenance/ROOT_VALIDATION_SUMMARY_v4_7.json"
+    },
+    {
+      "old_path": "99_validation/ROOT_VALIDATION_SUMMARY_v4_8.json",
+      "status": "moved",
+      "new_path": "validation/provenance/ROOT_VALIDATION_SUMMARY_v4_8.json"
+    },
+    {
+      "old_path": "99_validation/ROOT_VALIDATION_SUMMARY_v4_9.json",
+      "status": "moved",
+      "new_path": "validation/provenance/ROOT_VALIDATION_SUMMARY_v4_9.json"
+    },
+    {
+      "old_path": "99_validation/ROOT_VALIDATION_SUMMARY_v5_0.json",
+      "status": "moved",
+      "new_path": "validation/provenance/ROOT_VALIDATION_SUMMARY_v5_0.json"
+    },
+    {
+      "old_path": "99_validation/ROOT_VALIDATION_SUMMARY_v5_1.json",
+      "status": "moved",
+      "new_path": "validation/provenance/ROOT_VALIDATION_SUMMARY_v5_1.json"
+    },
+    {
+      "old_path": "99_validation/ROOT_VALIDATION_SUMMARY_v5_2.json",
+      "status": "moved",
+      "new_path": "validation/provenance/ROOT_VALIDATION_SUMMARY_v5_2.json"
+    },
+    {
+      "old_path": "99_validation/ROOT_VALIDATION_SUMMARY_v5_3.json",
+      "status": "moved",
+      "new_path": "validation/provenance/ROOT_VALIDATION_SUMMARY_v5_3.json"
+    },
+    {
+      "old_path": "99_validation/ROOT_VALIDATION_SUMMARY_v5_4.json",
+      "status": "moved",
+      "new_path": "validation/provenance/ROOT_VALIDATION_SUMMARY_v5_4.json"
+    },
+    {
+      "old_path": "99_validation/ROOT_VALIDATION_SUMMARY_v5_5.json",
+      "status": "moved",
+      "new_path": "validation/provenance/ROOT_VALIDATION_SUMMARY_v5_5.json"
+    },
+    {
+      "old_path": "99_validation/ROOT_VALIDATION_SUMMARY_v5_6.json",
+      "status": "moved",
+      "new_path": "validation/provenance/ROOT_VALIDATION_SUMMARY_v5_6.json"
+    },
+    {
+      "old_path": "99_validation/ROOT_VALIDATION_SUMMARY_v5_7.json",
+      "status": "moved",
+      "new_path": "validation/provenance/ROOT_VALIDATION_SUMMARY_v5_7.json"
+    },
+    {
+      "old_path": "99_validation/ROOT_VALIDATION_SUMMARY_v5_8.json",
+      "status": "moved",
+      "new_path": "validation/provenance/ROOT_VALIDATION_SUMMARY_v5_8.json"
+    },
+    {
+      "old_path": "99_validation/ROOT_VALIDATION_SUMMARY_v5_9.json",
+      "status": "moved",
+      "new_path": "validation/provenance/ROOT_VALIDATION_SUMMARY_v5_9.json"
+    },
+    {
+      "old_path": "99_validation/ROOT_VALIDATION_SUMMARY_v6_0A.json",
+      "status": "moved",
+      "new_path": "validation/provenance/ROOT_VALIDATION_SUMMARY_v6_0A.json"
+    },
+    {
+      "old_path": "99_validation/ROOT_VALIDATION_SUMMARY_v6_0B.json",
+      "status": "moved",
+      "new_path": "validation/provenance/ROOT_VALIDATION_SUMMARY_v6_0B.json"
+    },
+    {
+      "old_path": "99_validation/ROOT_VALIDATION_SUMMARY_v6_1.json",
+      "status": "moved",
+      "new_path": "validation/provenance/ROOT_VALIDATION_SUMMARY_v6_1.json"
+    },
+    {
+      "old_path": "99_validation/ROOT_VALIDATION_SUMMARY_v6_2.json",
+      "status": "moved",
+      "new_path": "validation/provenance/ROOT_VALIDATION_SUMMARY_v6_2.json"
+    },
+    {
+      "old_path": "99_validation/SEALED_CHARGED_LEPTON_RECONSTRUCTION_VALIDATION_v6_9.json",
+      "status": "moved",
+      "new_path": "validation/provenance/SEALED_CHARGED_LEPTON_RECONSTRUCTION_VALIDATION_v6_9.json"
+    },
+    {
+      "old_path": "99_validation/SEALED_CHARGED_LEPTON_RECONSTRUCTION_VALIDATION_v6_9.md",
+      "status": "moved",
+      "new_path": "validation/reports/SEALED_CHARGED_LEPTON_RECONSTRUCTION_VALIDATION_v6_9.md",
+      "document_class": "validation-report"
+    },
+    {
+      "old_path": "99_validation/UNIT_ANCHOR_LEDGER_VALIDATION_v6_5.json",
+      "status": "moved",
+      "new_path": "validation/provenance/UNIT_ANCHOR_LEDGER_VALIDATION_v6_5.json"
+    },
+    {
+      "old_path": "99_validation/UNIT_ANCHOR_LEDGER_VALIDATION_v6_5.md",
+      "status": "moved",
+      "new_path": "validation/reports/UNIT_ANCHOR_LEDGER_VALIDATION_v6_5.md",
+      "document_class": "validation-report"
+    },
+    {
+      "old_path": "99_validation/VALIDATION_REPORT.txt",
+      "status": "moved",
+      "new_path": "validation/reports/VALIDATION_REPORT.txt"
+    },
+    {
+      "old_path": "99_validation/VALIDATION_REPORT_REPAIR1.txt",
+      "status": "moved",
+      "new_path": "validation/reports/VALIDATION_REPORT_REPAIR1.txt"
+    },
+    {
+      "old_path": "99_validation/VALIDATION_REPORT_REPAIR2.txt",
+      "status": "moved",
+      "new_path": "validation/reports/VALIDATION_REPORT_REPAIR2.txt"
+    },
+    {
+      "old_path": "99_validation/VALIDATION_REPORT_v1_3.txt",
+      "status": "moved",
+      "new_path": "validation/reports/VALIDATION_REPORT_v1_3.txt"
+    },
+    {
+      "old_path": "99_validation/VALIDATION_REPORT_v1_4.txt",
+      "status": "moved",
+      "new_path": "validation/reports/VALIDATION_REPORT_v1_4.txt"
+    },
+    {
+      "old_path": "99_validation/VALIDATION_REPORT_v1_5.txt",
+      "status": "moved",
+      "new_path": "validation/reports/VALIDATION_REPORT_v1_5.txt"
+    },
+    {
+      "old_path": "99_validation/VALIDATION_REPORT_v1_6.txt",
+      "status": "moved",
+      "new_path": "validation/reports/VALIDATION_REPORT_v1_6.txt"
+    },
+    {
+      "old_path": "99_validation/VALIDATION_REPORT_v1_7.txt",
+      "status": "moved",
+      "new_path": "validation/reports/VALIDATION_REPORT_v1_7.txt"
+    },
+    {
+      "old_path": "99_validation/VALIDATION_REPORT_v1_8.txt",
+      "status": "moved",
+      "new_path": "validation/reports/VALIDATION_REPORT_v1_8.txt"
+    },
+    {
+      "old_path": "99_validation/VALIDATION_REPORT_v1_9.txt",
+      "status": "moved",
+      "new_path": "validation/reports/VALIDATION_REPORT_v1_9.txt"
+    },
+    {
+      "old_path": "99_validation/VALIDATION_REPORT_v2_0.txt",
+      "status": "moved",
+      "new_path": "validation/reports/VALIDATION_REPORT_v2_0.txt"
+    },
+    {
+      "old_path": "99_validation/VALIDATION_REPORT_v2_1.txt",
+      "status": "moved",
+      "new_path": "validation/reports/VALIDATION_REPORT_v2_1.txt"
+    },
+    {
+      "old_path": "99_validation/VALIDATION_REPORT_v2_2.txt",
+      "status": "moved",
+      "new_path": "validation/reports/VALIDATION_REPORT_v2_2.txt"
+    },
+    {
+      "old_path": "99_validation/VALIDATION_REPORT_v2_3.txt",
+      "status": "moved",
+      "new_path": "validation/reports/VALIDATION_REPORT_v2_3.txt"
+    },
+    {
+      "old_path": "99_validation/VALIDATION_REPORT_v2_4.txt",
+      "status": "moved",
+      "new_path": "validation/reports/VALIDATION_REPORT_v2_4.txt"
+    },
+    {
+      "old_path": "99_validation/VALIDATION_REPORT_v2_5.txt",
+      "status": "moved",
+      "new_path": "validation/reports/VALIDATION_REPORT_v2_5.txt"
+    },
+    {
+      "old_path": "99_validation/VALIDATION_REPORT_v2_6.txt",
+      "status": "moved",
+      "new_path": "validation/reports/VALIDATION_REPORT_v2_6.txt"
+    },
+    {
+      "old_path": "99_validation/VALIDATION_REPORT_v2_7.txt",
+      "status": "moved",
+      "new_path": "validation/reports/VALIDATION_REPORT_v2_7.txt"
+    },
+    {
+      "old_path": "99_validation/VALIDATION_REPORT_v2_8.txt",
+      "status": "moved",
+      "new_path": "validation/reports/VALIDATION_REPORT_v2_8.txt"
+    },
+    {
+      "old_path": "99_validation/VALIDATION_REPORT_v2_9.json",
+      "status": "moved",
+      "new_path": "validation/provenance/VALIDATION_REPORT_v2_9.json"
+    },
+    {
+      "old_path": "99_validation/VALIDATION_REPORT_v2_9.txt",
+      "status": "moved",
+      "new_path": "validation/reports/VALIDATION_REPORT_v2_9.txt"
+    },
+    {
+      "old_path": "99_validation/VALIDATION_REPORT_v3_0.json",
+      "status": "moved",
+      "new_path": "validation/provenance/VALIDATION_REPORT_v3_0.json"
+    },
+    {
+      "old_path": "99_validation/VALIDATION_REPORT_v3_0.txt",
+      "status": "moved",
+      "new_path": "validation/reports/VALIDATION_REPORT_v3_0.txt"
+    },
+    {
+      "old_path": "99_validation/VALIDATION_REPORT_v3_1.json",
+      "status": "moved",
+      "new_path": "validation/provenance/VALIDATION_REPORT_v3_1.json"
+    },
+    {
+      "old_path": "99_validation/VALIDATION_REPORT_v3_1.txt",
+      "status": "moved",
+      "new_path": "validation/reports/VALIDATION_REPORT_v3_1.txt"
+    },
+    {
+      "old_path": "99_validation/VALIDATION_REPORT_v3_2.txt",
+      "status": "moved",
+      "new_path": "validation/reports/VALIDATION_REPORT_v3_2.txt"
+    },
+    {
+      "old_path": "99_validation/VALIDATION_REPORT_v3_3.txt",
+      "status": "moved",
+      "new_path": "validation/reports/VALIDATION_REPORT_v3_3.txt"
+    },
+    {
+      "old_path": "99_validation/VALIDATION_REPORT_v3_4.txt",
+      "status": "moved",
+      "new_path": "validation/reports/VALIDATION_REPORT_v3_4.txt"
+    },
+    {
+      "old_path": "99_validation/VALIDATION_REPORT_v3_5.txt",
+      "status": "moved",
+      "new_path": "validation/reports/VALIDATION_REPORT_v3_5.txt"
+    },
+    {
+      "old_path": "99_validation/VALIDATION_REPORT_v3_6.txt",
+      "status": "moved",
+      "new_path": "validation/reports/VALIDATION_REPORT_v3_6.txt"
+    },
+    {
+      "old_path": "99_validation/VALIDATION_REPORT_v3_8.json",
+      "status": "moved",
+      "new_path": "validation/provenance/VALIDATION_REPORT_v3_8.json"
+    },
+    {
+      "old_path": "99_validation/VALIDATION_REPORT_v3_8.txt",
+      "status": "moved",
+      "new_path": "validation/reports/VALIDATION_REPORT_v3_8.txt"
     },
     {
       "old_path": "CURRENT_STATUS.md",

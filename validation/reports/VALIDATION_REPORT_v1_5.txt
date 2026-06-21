@@ -1,0 +1,19 @@
+# VALIDATION REPORT v1.5
+
+Created UTC: 2026-06-19T19:56:37Z
+
+Repo: METATIME_STANDARD_MODEL_DERIVATION_MERGED_REPO_v1_5_NO_NESTED_ZIPS
+
+File count: 400
+
+Nested archives found: 0
+
+No-nested-archives: PASS
+
+Formal status ledger: PASS
+
+New module: `13_formal_status_and_phase_axis_action_v1_5`
+
+Notes:
+- No separate stage package was created inside the repo.
+- Final user-facing artifact is a single merged repository ZIP outside the repository tree.

@@ -1,0 +1,14 @@
+{
+  "repo": "METATIME_STANDARD_MODEL_DERIVATION_MERGED_REPO_v3_3_NO_NESTED_ZIPS",
+  "created_utc": "2026-06-19T22:21:35Z",
+  "base": "v3.2",
+  "module_added": "31_debt9_sector_basis_white_thread_operator_v3_3",
+  "file_count": 638,
+  "dir_count": 177,
+  "nested_archives": [],
+  "missing_from_v3_2": [],
+  "unexpected_changed_old_files": [],
+  "validation_gate": "PRE_MASS_SECTOR_BASIS_OPERATOR_PASS",
+  "observed_masses_used": false,
+  "mass_predictions_made": false
+}

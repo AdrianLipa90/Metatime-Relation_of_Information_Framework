@@ -1,0 +1,4 @@
+{
+  "check": "full_root_compileall",
+  "passed": true
+}

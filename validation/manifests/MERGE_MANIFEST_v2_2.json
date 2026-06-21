@@ -1,0 +1,18 @@
+{
+  "repo": "METATIME_STANDARD_MODEL_DERIVATION_MERGED_REPO_v2_2_NO_NESTED_ZIPS",
+  "created_utc": "2026-06-19T20:30:36Z",
+  "parent": "METATIME_STANDARD_MODEL_DERIVATION_MERGED_REPO_v2_1_NO_NESTED_ZIPS",
+  "new_module": "20_debt7_weak_axis_first_principles_v2_2",
+  "file_count_pre_manifest": 485,
+  "missing_from_v2_1": [],
+  "changed_old_files_except_allowed": [],
+  "nested_archives": [],
+  "new_gate_taxonomy": [
+    "formal_symbolic_pass",
+    "computational_pass",
+    "structural_enumeration_pass"
+  ],
+  "status": "PASS",
+  "file_count_final": 491,
+  "dir_count_final": 129
+}
