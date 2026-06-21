@@ -1,0 +1,13 @@
+cff-version: 1.2.0
+title: Metatime-Relation_of_Information_Framework
+message: "If you use this repository, please cite it using the metadata below."
+type: software
+authors:
+  - family-names: Lipa
+    given-names: Adrian
+repository-code: "https://github.com/AdrianLipa90/Metatime-Relation_of_Information_Framework"
+license: "See LICENSE"
+abstract: >-
+  Public research repository for the Metatime / Relation of Information
+  framework, including theory materials, lineage modules, manifests, and
+  validation artifacts.
