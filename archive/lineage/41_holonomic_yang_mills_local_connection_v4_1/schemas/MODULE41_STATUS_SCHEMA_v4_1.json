@@ -1,0 +1,29 @@
+{
+  "schema": "MODULE41_STATUS_SCHEMA_V4_1",
+  "required_status": "PASS",
+  "required_guardrails": {
+    "PDG_or_mass_reference_input": false,
+    "observed_masses_input": false,
+    "flavour_mixing_matrix_input": false,
+    "NoParamSM_input": false,
+    "mass_prediction_claimed": false,
+    "full_QCD_claimed": false,
+    "confinement_claimed": false,
+    "running_coupling_claimed": false,
+    "Debt_9_status": "OPEN_NOT_CLOSED",
+    "canon_allowed": false,
+    "current_promotion": "DENY_CURRENT"
+  },
+  "required_checks": [
+    "all_local_links_are_su3",
+    "plaquette_is_su3",
+    "curvature_projects_to_su3_basis",
+    "nontrivial_curvature",
+    "gauge_covariance_residual_small",
+    "wilson_trace_invariant",
+    "curvature_norm_gauge_invariant",
+    "wilson_defect_positive",
+    "action_density_positive",
+    "small_loop_scaling_area_squared"
+  ]
+}

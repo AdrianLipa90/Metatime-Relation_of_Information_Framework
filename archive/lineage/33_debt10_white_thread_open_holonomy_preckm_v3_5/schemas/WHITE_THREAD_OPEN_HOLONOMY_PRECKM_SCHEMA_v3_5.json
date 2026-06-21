@@ -1,0 +1,42 @@
+{
+  "schema": "METATIME_SM_WHITE_THREAD_OPEN_HOLONOMY_PRECKM_SCHEMA_v3_5",
+  "version": "3.5",
+  "module_index": 33,
+  "status": "pre_ckm_operator_shape_only",
+  "epistemic_labels": [
+    "definition",
+    "ansatz",
+    "lemma",
+    "validation_gate",
+    "quarantine",
+    "do_not_claim"
+  ],
+  "inputs": [
+    "32_debt9_projection_orientation_sector_basis_v3_4/results/sector_basis_orientation_channels_v3_4.csv"
+  ],
+  "forbidden_inputs": [
+    "observed_masses",
+    "observed_CKM",
+    "observed_PMNS",
+    "old_tau_values",
+    "fitted_white_thread_values"
+  ],
+  "outputs": [
+    "white_thread_open_holonomy_pairs_v3_5.csv",
+    "white_thread_pre_ckm_matrix_not_ckm_v3_5.csv",
+    "row_normalized_pre_ckm_diagnostic_not_ckm_v3_5.csv",
+    "white_thread_open_holonomy_status_v3_5.json"
+  ],
+  "operator_roles": {
+    "WhiteThread": "open_holonomy_operator_shape_between_sector_bases",
+    "information_operator": "quantum_of_informational_preference_fluctuation",
+    "Ramanujan": "unfitted_asymptotic_envelope",
+    "zeta_heisenberg": "structural_width_around_imaginary_zeta_axis"
+  },
+  "claims_allowed": {
+    "nontrivial_up_down_basis_bridge": true,
+    "numeric_CKM_derivation": false,
+    "numeric_PMNS_derivation": false,
+    "mass_prediction": false
+  }
+}

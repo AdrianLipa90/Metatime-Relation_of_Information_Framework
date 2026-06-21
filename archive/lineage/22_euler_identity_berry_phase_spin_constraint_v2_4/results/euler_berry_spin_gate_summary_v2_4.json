@@ -1,0 +1,8 @@
+{
+  "gate_type": "COMPUTATIONAL_SANITY_CHECK",
+  "central_proof_type": "FORMAL_SYMBOLIC_PASS",
+  "selected_minimal_spin": "1/2",
+  "expected_selected_minimal_spin": "1/2",
+  "pass": true,
+  "mass_inputs_used": false
+}

@@ -1,0 +1,11 @@
+{
+  "debt_id": "DEBT-011",
+  "new_status": "CLOSED_AS_INDEX_LEDGER",
+  "closure_artifact": "66_document_operator_source_index_v6_6/results/DOCUMENT_OPERATOR_SOURCE_INDEX_v6_6.json",
+  "downstream_debts_preserved": [
+    "DEBT-007 absolute electron action offset S_e",
+    "DEBT-009 hadron/meson split"
+  ],
+  "operator_level_blockers": [],
+  "no_floating_operator_sources": true
+}

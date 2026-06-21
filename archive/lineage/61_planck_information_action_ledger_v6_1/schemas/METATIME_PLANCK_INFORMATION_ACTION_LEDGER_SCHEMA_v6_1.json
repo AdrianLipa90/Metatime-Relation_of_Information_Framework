@@ -1,0 +1,20 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "METATIME_PLANCK_INFORMATION_ACTION_LEDGER_V6_1",
+  "required": [
+    "schema",
+    "module",
+    "technical_status",
+    "formal_status",
+    "substantive_status",
+    "planck_scale",
+    "target_action_rows",
+    "action_release_pairs",
+    "decision"
+  ],
+  "must_not_claim": [
+    "Debt9 closure",
+    "mass prediction",
+    "derived absolute Metatime E0"
+  ]
+}

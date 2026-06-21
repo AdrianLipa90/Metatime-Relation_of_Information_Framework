@@ -1,0 +1,30 @@
+{
+  "schema": "METATIME_SM_MODULE39_STATUS_SCHEMA_V3_9",
+  "required_status_fields": [
+    "technical",
+    "formal",
+    "substantive",
+    "numeric_mass_prediction",
+    "full_QCD_claimed",
+    "Debt_9",
+    "canon_allowed",
+    "current_promotion",
+    "doctor_verdict"
+  ],
+  "forbidden_claims": [
+    "Debt 9 closed",
+    "full fermion mass spectrum derived",
+    "tetrahedron alone proves full QCD",
+    "gluon dynamics derived",
+    "confinement derived",
+    "PDG/reference table is mass execution"
+  ],
+  "allowed_claims": [
+    "tetrahedral frame yields triplet carrier",
+    "CP2 triplet carrier established",
+    "SU3-candidate algebraic lift passes generator checks",
+    "mass prediction not attempted",
+    "full QCD not claimed",
+    "continue research"
+  ]
+}

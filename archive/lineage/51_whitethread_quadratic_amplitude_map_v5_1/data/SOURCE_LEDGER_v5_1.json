@@ -1,0 +1,26 @@
+{
+  "not_used_as_solver_input": [
+    "observed masses",
+    "PDG/reference spectra",
+    "old solvers",
+    "large F table as direct input"
+  ],
+  "priority_sources": [
+    {
+      "source": "v2.9 tau_v2 clean information eigenvalue layer",
+      "status": "USED_STRUCTURAL",
+      "used_for": "relative tau_v2 preference quanta"
+    },
+    {
+      "source": "v4.9 short-doc charged lepton kernel",
+      "status": "USED_STRUCTURAL",
+      "used_for": "OIB, L3, short-doc boundary"
+    },
+    {
+      "source": "v5.0 derivability audit",
+      "status": "USED_AS_DIAGNOSTIC_TARGET_ONLY",
+      "used_for": "large F diagnostic targets and no-go boundary"
+    }
+  ],
+  "schema": "SOURCE_LEDGER_v5_1"
+}

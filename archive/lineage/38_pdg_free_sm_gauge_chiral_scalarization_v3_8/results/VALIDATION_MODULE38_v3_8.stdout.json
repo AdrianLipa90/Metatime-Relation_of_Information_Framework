@@ -1,0 +1,14 @@
+{
+  "schema": "METATIME_SM_MODULE38_VALIDATION_V3_8",
+  "status": "PASS",
+  "scope": "active module v3.8 scripts/results plus no nested archives in repo",
+  "checks": {
+    "active_code_forbidden_PDG_table_patterns": true,
+    "active_outputs_forbidden_mass_tokens_absent": true,
+    "structural_signature_claims_no_masses": true,
+    "hypercharge_anomaly_and_yukawa_checks_zero": true,
+    "no_nested_archives": true
+  },
+  "issues": [],
+  "doctor_verdict": "CONTINUE_RESEARCH__MODULE38_GUARD_PASS"
+}

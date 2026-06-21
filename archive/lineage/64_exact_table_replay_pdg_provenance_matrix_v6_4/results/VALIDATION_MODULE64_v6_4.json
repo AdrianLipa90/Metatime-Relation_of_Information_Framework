@@ -1,0 +1,12 @@
+{
+  "result": "PASS",
+  "errors": [],
+  "row_count": 22,
+  "classifications": {
+    "TAINTED_REPLAY": 5,
+    "STRUCTURAL_HINT": 4,
+    "UNKNOWN_PROVENANCE": 1,
+    "SCORING_ONLY": 10,
+    "SOURCE_DERIVED": 2
+  }
+}

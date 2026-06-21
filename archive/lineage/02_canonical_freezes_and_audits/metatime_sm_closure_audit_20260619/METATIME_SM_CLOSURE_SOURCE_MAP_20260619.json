@@ -1,0 +1,26 @@
+{
+  "artifact": "METATIME_SM_CLOSURE_SOURCE_MAP_20260619",
+  "source_archive": "Metatime-main.zip",
+  "status": "source_map_not_external_sot",
+  "executive_decision": "Complete theory in parts; incomplete canonical Standard Model derivation spine.",
+  "primary_proto_canon": "MetaTheory_260218_073120.txt",
+  "frozen_core": [
+    "Hilbert/Kahler/projective-state geometry",
+    "A_EBI = A_AB + A_Berry + A_Euler + A_I",
+    "Euler-Berry admissibility condition",
+    "D_Lambda = Lambda R_H^2 / 2 = 3 Omega_Lambda / 2",
+    "epsilon_nu = Delta m^2 L / (4 pi E)",
+    "kappa = ln 2 / (24 pi)",
+    "phase-first Hamiltonian split",
+    "Yukawa couplings as effective holonomic mass projections, not primitive parameters"
+  ],
+  "open_standard_model_targets": [
+    "holonomy-group reduction to SU(3)c x SU(2)L x U(1)Y",
+    "left-handed weak chirality projector",
+    "exact hypercharge spectrum",
+    "anomaly cancellation as selection constraint rather than preservation only",
+    "Higgs as phase-orientation selector",
+    "Euler-Berry action S_f^EB generating mass hierarchy"
+  ],
+  "next_artifact": "SM Gauge Skeleton from Euler-Berry Phase Closure v0.1"
+}

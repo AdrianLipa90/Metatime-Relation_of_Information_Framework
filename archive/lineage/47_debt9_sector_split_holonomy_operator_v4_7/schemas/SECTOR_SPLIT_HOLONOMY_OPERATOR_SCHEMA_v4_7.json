@@ -1,0 +1,24 @@
+{
+  "schema": "METATIME_SM_SECTOR_SPLIT_HOLONOMY_OPERATOR_SCHEMA_V4_7",
+  "required_status": {
+    "debt9_numeric_spectrum": "OPEN_NOT_CLOSED",
+    "canon_allowed": false,
+    "current_promotion": "DENY_CURRENT"
+  },
+  "operator_boundary": {
+    "allowed_inputs": [
+      "v4.6 selected clean Collatz/twin-prime p+1/L3 carrier",
+      "v3.4 H/Htilde orientation vectors",
+      "v3.5 White-Thread open-holonomy down-quark gates",
+      "information quantum ln2/(24pi)",
+      "document exponents as diagnostic only"
+    ],
+    "forbidden_as_operator_inputs": [
+      "observed masses",
+      "benchmark residuals",
+      "archived mass solvers",
+      "reference replay tables",
+      "post-result parameter tuning"
+    ]
+  }
+}

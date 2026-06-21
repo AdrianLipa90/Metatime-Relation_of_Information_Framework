@@ -1,0 +1,21 @@
+{
+  "schema": "METATIME_SM_SECTOR_PROJECTION_OPERATOR_SCHEMA_v3_1",
+  "module": "29_debt9_debt11_frozen_sector_projection_operator_v3_1",
+  "observed_masses_used": false,
+  "mass_predictions_allowed": false,
+  "information_operator": {
+    "symbol": "ln(2)/(24*pi)",
+    "role": "quantum_of_informational_preference_fluctuation",
+    "free_parameter": false
+  },
+  "projection_components": [
+    "CP1 pole transition",
+    "chirality",
+    "hypercharge path norm",
+    "color/tetrahedral multiplicity",
+    "Higgs gate orientation",
+    "zeta-axis constraint",
+    "Ramanujan asymptotic role"
+  ],
+  "validation_gate": "PRE_MASS_PROJECTION_OPERATOR_PASS"
+}

@@ -1,0 +1,18 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "METATIME_INFORMATION_ENERGY_NORMALIZER_V6_0B",
+  "required": [
+    "schema",
+    "technical_status",
+    "core_statement",
+    "formulae",
+    "constants",
+    "candidate_scales",
+    "decision"
+  ],
+  "must_not_claim": [
+    "Debt9 closure",
+    "absolute E0 derived",
+    "mass prediction from pure dimensionless information"
+  ]
+}

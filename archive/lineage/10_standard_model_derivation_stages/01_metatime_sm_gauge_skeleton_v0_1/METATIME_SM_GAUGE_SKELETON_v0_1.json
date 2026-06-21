@@ -1,0 +1,22 @@
+{
+  "name": "METATIME_SM_GAUGE_SKELETON_v0_1",
+  "created_utc": "2026-06-19T17:05:00Z",
+  "status": "canonical_derivation_patch",
+  "claims_closed": [
+    "internal bundle decomposition E = E_c tensor E_w tensor L_Y",
+    "gauge skeleton SU(3)_c x SU(2)_L x U(1)_Y",
+    "one-generation Standard Model representation table",
+    "hypercharge derivation from Higgs orientation, holonomic mass-transition invariance, and anomaly cancellation",
+    "electric charge Q = T_3 + Y",
+    "gauge and gravitational anomaly cancellation"
+  ],
+  "claims_not_closed": [
+    "mass hierarchy from S_f^EB",
+    "gauge coupling values",
+    "Weinberg angle",
+    "CKM/PMNS from relative holonomies",
+    "proof of N_c=3 from zeta-pole/tetrahedral construction",
+    "proof of SU(2)_L chirality selection from Euler-Berry orientation"
+  ],
+  "terminology_policy": "Use clean terminology: Collatz; Yukawa couplings / sprzężenia Yukawy; canonical lock / zamrożenie kanoniczne; Euler-Berry phase closure / warunek domknięcia Euler-Berry. Avoid malformed terms."
+}

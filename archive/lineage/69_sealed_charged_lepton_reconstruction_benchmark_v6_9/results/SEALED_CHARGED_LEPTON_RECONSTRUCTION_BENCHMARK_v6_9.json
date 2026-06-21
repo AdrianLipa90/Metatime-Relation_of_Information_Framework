@@ -1,0 +1,126 @@
+{
+  "schema": "METATIME_SEALED_CHARGED_LEPTON_RECONSTRUCTION_BENCHMARK_V6_9",
+  "module": "69_sealed_charged_lepton_reconstruction_benchmark_v6_9",
+  "created_utc": "2026-06-21T20:22:28Z",
+  "technical_status": "PASS",
+  "formal_status": "PASS_SEALED_CHARGED_LEPTON_RECONSTRUCTION_BENCHMARK_INSTALLED",
+  "substantive_status": "SEALED_CHARGED_LEPTON_RECONSTRUCTION_PARTIAL_PASS_E_TO_MU_RELEASE_REFINEMENT_REQUIRED",
+  "debt9_numeric_spectrum": "OPEN_NOT_CLOSED",
+  "canon_allowed": false,
+  "current_promotion": "DENY_CURRENT",
+  "mass_spectrum_closure_claimed": false,
+  "benchmark_sealed_after_operator_freeze": true,
+  "input_policy": {
+    "uses_electron_mass_as_input": false,
+    "uses_muon_mass_as_input": false,
+    "uses_tau_mass_as_input": false,
+    "uses_pdg_tables_as_input": false,
+    "uses_exact_replay_tables_as_input": false,
+    "uses_v6_1_target_actions_as_input": false,
+    "allowed_inputs": [
+      "v6_7_derived_absolute_electron_action_S_e",
+      "v6_2_frozen_e_to_mu_release_R_e_mu",
+      "v6_8_refined_mu_to_tau_release_R_mu_tau",
+      "Planck_E0_allowed_dimensional_normalizer",
+      "OI_information_preference_quantum"
+    ],
+    "scoring_inputs_separated": [
+      "electron_reference_MeV",
+      "muon_reference_MeV",
+      "tau_reference_MeV"
+    ]
+  },
+  "frozen_pipeline": {
+    "S_e_source": "v6.7 derived gate: S_e = 1/2 - 3*OI + OI/L3 - OI^2/2",
+    "R_e_mu_source": "v6.2 frozen release gate: R_e_mu = eb_action_kappa_v16(e)",
+    "R_mu_tau_source": "v6.8 refined gate: R_mu_tau = 3*OI - OI/L3 - (L3/2)*OI^2",
+    "equations": [
+      "S_mu = S_e - R_e_mu",
+      "S_tau = S_mu - R_mu_tau",
+      "E_i = E_P * exp(-S_i/OI)"
+    ]
+  },
+  "constants": {
+    "OI": 0.009193150006360484,
+    "L3": 7.0,
+    "E_Planck_MeV": 1.2208901285838957e+22
+  },
+  "derived_actions": {
+    "electron": 0.47369160012116457,
+    "muon": 0.42424359280416457,
+    "tau": 0.398273248953487
+  },
+  "derived_releases": {
+    "R_e_mu": 0.049448007317,
+    "R_mu_tau": 0.025970343850677605,
+    "R_e_tau": 0.0754183511676776
+  },
+  "prediction_rows": [
+    {
+      "particle": "electron",
+      "derived_action_S_i": 0.47369160012116457,
+      "predicted_energy_MeV": 0.5116420509844719,
+      "reference_energy_MeV_scoring_only": 0.51099895,
+      "absolute_error_MeV": 0.000643100984471956,
+      "relative_error": 0.0012585172327104705,
+      "relative_error_abs_percent": 0.12585172327104704,
+      "reference_used_as_input": false
+    },
+    {
+      "particle": "muon",
+      "derived_action_S_i": 0.42424359280416457,
+      "predicted_energy_MeV": 110.90325462836319,
+      "reference_energy_MeV_scoring_only": 105.65838,
+      "absolute_error_MeV": 5.244874628363192,
+      "relative_error": 0.0496399303904072,
+      "relative_error_abs_percent": 4.963993039040719,
+      "reference_used_as_input": false
+    },
+    {
+      "particle": "tau",
+      "derived_action_S_i": 0.398273248953487,
+      "predicted_energy_MeV": 1869.871654360978,
+      "reference_energy_MeV_scoring_only": 1776.86,
+      "absolute_error_MeV": 93.01165436097813,
+      "relative_error": 0.0523460792414586,
+      "relative_error_abs_percent": 5.23460792414586,
+      "reference_used_as_input": false
+    }
+  ],
+  "metrics": {
+    "particle_count": 3,
+    "mean_abs_relative_error_percent": 3.4414842288192085,
+    "max_abs_relative_error_percent": 5.23460792414586,
+    "electron_abs_relative_error_percent": 0.12585172327104704,
+    "muon_abs_relative_error_percent": 4.963993039040719,
+    "tau_abs_relative_error_percent": 5.23460792414586,
+    "predicted_mu_over_e": 216.75945988991637,
+    "scoring_mu_over_e": 206.76829179394596,
+    "mu_over_e_relative_error_percent": 4.8320600848833495,
+    "predicted_tau_over_mu": 16.8603857535734,
+    "scoring_tau_over_mu": 16.817028616187375,
+    "tau_over_mu_relative_error_percent": 0.2578168734534314,
+    "predicted_tau_over_e": 3654.648109480211,
+    "scoring_tau_over_e": 3477.228280018971,
+    "tau_over_e_relative_error_percent": 5.102334824571031
+  },
+  "decision": {
+    "electron": "STRONG_NEAR_MATCH_FROM_DERIVED_S_E_GATE",
+    "muon": "PARTIAL_ERROR_DOMINATED_BY_OLD_E_TO_MU_RELEASE_GATE",
+    "tau": "PARTIAL_ERROR_INHERITS_E_TO_MU_ERROR_WITH_REFINED_MU_TAU_GATE",
+    "mu_tau_release": "REFINED_GATE_CONFIRMED_AS_STABLE_IN_FULL_RECONSTRUCTION",
+    "e_mu_release": "NEXT_REQUIRED_REFINEMENT_GATE",
+    "mass_spectrum_closure": "DENIED",
+    "next_step": "v7.0 e->mu release refinement gate using predeclared operators, then rerun sealed charged-lepton benchmark."
+  },
+  "lineage": {
+    "parent_artifact": "METATIME_STANDARD_MODEL_DERIVATION_MERGED_REPO_v6_8_MU_TAU_RELEASE_REFINEMENT_GATE_NO_NESTED_ZIPS.zip",
+    "parent_sha256": "611d91f6461e7d36db4618ff55d76472765042e39001483a6255e2be30eec259",
+    "module_dependencies": [
+      "62_lepton_information_action_release_probe_v6_2",
+      "67_absolute_electron_action_derivation_gate_v6_7",
+      "68_mu_tau_release_refinement_gate_v6_8"
+    ]
+  },
+  "sealed_pipeline_fingerprint_sha256": "48e90268ba4449b13bc0cd412b49282565d0cf421cb9a7999f300b28f652b35c"
+}

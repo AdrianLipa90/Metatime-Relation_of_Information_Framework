@@ -1,0 +1,12 @@
+{
+  "module": "METATIME_SM_AXIS_SELECTION_DEBT_v1_8",
+  "status": "PASS",
+  "checks": {
+    "primitive_axis_is_weak_isospin": true,
+    "generator_is_killing_flow": true,
+    "berry_is_transport": true,
+    "twin_prime_is_sector_not_axis": true,
+    "zeta_constrained_by_polar_pair": true
+  },
+  "claim_boundary": "axis-selection canonical working ansatz; not numerical mass proof"
+}

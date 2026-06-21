@@ -1,0 +1,48 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "METATIME_MMT_FREEZE_SCHEMA_v4_3",
+  "type": "object",
+  "required": [
+    "schema",
+    "status",
+    "operator_name",
+    "operator_trace_sha256",
+    "traces",
+    "mass_prediction_claimed",
+    "pdg_reference_input_used",
+    "observed_masses_used",
+    "fitted_parameters_used"
+  ],
+  "properties": {
+    "schema": {
+      "const": "METATIME_MMT_FREEZE_V4_3"
+    },
+    "status": {
+      "const": "FROZEN_OPERATOR_CANDIDATE_NOT_BENCHMARKED"
+    },
+    "operator_name": {
+      "type": "string"
+    },
+    "operator_trace_sha256": {
+      "type": "string",
+      "pattern": "^[0-9a-f]{64}$"
+    },
+    "mass_prediction_claimed": {
+      "const": false
+    },
+    "pdg_reference_input_used": {
+      "const": false
+    },
+    "observed_masses_used": {
+      "const": false
+    },
+    "fitted_parameters_used": {
+      "const": false
+    },
+    "traces": {
+      "type": "array",
+      "minItems": 9,
+      "maxItems": 9
+    }
+  }
+}

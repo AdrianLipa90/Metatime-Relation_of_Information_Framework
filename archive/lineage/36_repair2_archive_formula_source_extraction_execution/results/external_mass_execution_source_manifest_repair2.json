@@ -1,0 +1,22 @@
+[
+  {
+    "file": "METATIME_ARCHIVE_FORMULA_MASS_EXECUTION_v3_9.csv",
+    "sha256": "a4e920eb91adc5fd9845a0a06a1cf18fca6499c055268aaf79e24293c1743e98",
+    "role": "external prior execution table/report from current working session"
+  },
+  {
+    "file": "METATIME_ARCHIVE_FORMULA_MASS_EXECUTION_SUMMARY_v3_9.csv",
+    "sha256": "3b8c0eb76b3d72d6a21d0f237e108b5e697acedc804fb6968e2f0f089d47e240",
+    "role": "external prior execution table/report from current working session"
+  },
+  {
+    "file": "METATIME_MASS_CALCULATION_TABLE_v3_8.csv",
+    "sha256": "0a1684e0f36c7b1c751c791ab0300ad6e37eee03773c0035adac34a020f7a046",
+    "role": "external prior execution table/report from current working session"
+  },
+  {
+    "file": "METATIME_MASS_CALCULATION_RESULTS_v3_8_CHAT_REPORT.md",
+    "sha256": "39b0e11b68da877ca45cefcfbac04d06477fe225e9a636d6994324a3d9a24686",
+    "role": "external prior execution table/report from current working session"
+  }
+]

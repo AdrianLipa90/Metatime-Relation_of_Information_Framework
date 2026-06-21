@@ -1,0 +1,268 @@
+Step 8: Zeta-Axis Tetrahedral Embedding and the Emergence of
+                              C3
+                            From Bloch Edges to a CP2 Terminal Cell
+
+                                                Adrian Lipa
+
+                                             May 26, 2026
+
+
+                                                 Abstract
+           This note extends the previous Bloch–Fubini–Study and block-action construction by
+       passing from local Bloch lines CP1 to a projective terminal-cell geometry in CP2 . Once the
+       Euler-consistent spinor lift is imposed, the system has a spin axis and hence distinguished
+       poles. A conjugate pair associated with a zeta zero is used as an axis marker on the critical
+       line Re(s) = 1/2. Around this axis one may inscribe a regular tetrahedron in the Bloch
+       sphere. The rotation by 2π/3 around the axis acts cyclically on the three vertices of the
+       opposite face, giving a natural C3 action. This C3 action is then identified with the terminal
+       Collatz cell 4 → 2 → 1 → 4.
+           The construction is geometric and conditional. It does not prove the Riemann Hypothesis
+       or the Collatz conjecture. It gives a precise geometric mechanism by which a zeta-axis
+       marker, spin-1/2 identity closure, tetrahedral symmetry, and the Collatz terminal C3 cell
+       can be represented in one projective framework.
+
+
+1     Epistemic Status
+This document is a structural continuation of Steps 1–7 and the spinor–CP2 erratum. It should
+be read as a geometric formalization, not as a proof of any open problem.
+   The following language is used carefully:
+
+    • A “zeta zero” is a zero of the Riemann zeta function.
+
+    • A “zeta-axis pole” or “spectral pole” in this document is not an analytic pole of ζ(s).
+
+    • The zeta function has its classical analytic pole at s = 1; this is not the object used here.
+
+    • The phrase “pole” below means a distinguished endpoint or axis marker in the Bloch/projective
+      geometry.
+
+    Thus, a conjugate pair associated with a zeta zero may define a geometric axis marker, but
+this must not be confused with the analytic singularity structure of ζ(s).
+
+
+2     From Spin to Axis and Poles
+The previous erratum established the relevant spinor constraint:
+
+                                                 eiπ = −1,
+
+and, under identity of the lifted spinor rather than only the projective ray,
+                                           2π                4π
+                                        ψ −→ −ψ,         ψ −→ ψ.
+
+
+                                                     1
+This is the minimal spin-1/2 identity closure.
+   A spinor state in CP1 determines a Bloch vector on S 2 . Therefore, once the spinor lift is
+imposed, the geometry naturally contains:
+
+                     axis,    north pole,        south pole,          phase rotation.
+
+The critical-axis convention is
+                                                      1
+                                            Re(s) = .
+                                                      2
+If a zeta-zero conjugate pair is written in critical-axis form,
+                                         1                      1
+                                  ρk =     + iγk ,       ρk =     − iγk ,
+                                         2                      2
+then we associate the pair with an oriented spectral axis
+
+                                            Ak = (Nk , Sk ).
+
+Definition 1 (Zeta-axis marker). A zeta-axis marker is an oriented axis on the Bloch sphere
+associated with a conjugate pair
+                                         1                      1
+                                  ρk =     + iγk ,       ρk =     − iγk .
+                                         2                      2
+The endpoints Nk and Sk are geometric poles. They are not analytic poles of ζ(s).
+
+Remark 1 (Conditional and projected modes). There are two admissible readings.
+
+    (i) RH-conditional mode: assume the zero is on the critical line, so ρk = 1/2 + iγk .
+
+ (ii) Critical-projection mode: for a zero βk + iγk , use the projection
+                                                                1
+                                         Πcrit (βk + iγk ) =      + iγk .
+                                                                2
+
+The first mode is conditional on critical-line placement. The second mode defines an axis without
+claiming that RH has been proven.
+
+
+3      Regular Tetrahedron Inscribed in the Bloch Sphere
+Let the Bloch sphere be the unit sphere in R3 . Choose coordinates so that the zeta-axis marker
+is the z-axis:
+                               N = (0, 0, 1),     S = (0, 0, −1).
+A regular tetrahedron may be inscribed with one vertex at N and the opposite face perpendicular
+to the axis. Its vertices are:
+                                         vN = (0, 0, 1),
+                                             √              !
+                                            2 2           1
+                                     v4 =          , 0, −      ,
+                                              3           3
+                                            √ √               !
+                                               2 6 1
+                                   v2 = −        ,      ,−       ,
+                                             3 3            3
+                                           √         √         !
+                                             2          6 1
+                                  v1 = −        ,−       ,−        .
+                                            3         3      3
+
+
+                                                     2
+The three vertices v4 , v2 , v1 lie in the plane
+                                                       1
+                                                    z=− ,
+                                                       3
+and form an equilateral triangle. Their barycenter is
+                                       v4 + v2 + v1
+                                                    = (0, 0, − 13 ),
+                                            3
+which lies on the zeta/spin axis.
+Proposition 1 (Tetrahedral C3 action). Rotation by 2π/3 around the N –S axis cyclically
+permutes the three base vertices:
+                                  v4 7→ v2 7→ v1 7→ v4 .
+Thus the axis-preserving symmetry of this tetrahedral embedding contains a canonical cyclic
+group
+                                                   3
+                              C3 = ⟨R2π/3 ⟩,     R2π/3 = I.
+Proof. The vertices v4 , v2 , v1 have identical height z = −1/3 and azimuthal angles 0, 2π/3, and
+4π/3. A rotation about the z-axis by 2π/3 sends these azimuths into one another cyclically and
+leaves the z-coordinate fixed. Applying the rotation three times gives the identity. Therefore
+the induced base-face action is C3 .
+
+                                             Nk ↔ 12 + iγk
+
+                                                        vN
+
+                                                v1
+
+
+
+
+                                                                        v4
+                                       v2
+                                                                      C3
+
+
+
+                                             Sk ↔ 12 − iγk
+
+
+4    Identification with the Collatz Terminal Cell
+The terminal Collatz cycle is
+                                            4 → 2 → 1 → 4.
+We identify the three base vertices of the tetrahedron with these three terminal states:
+
+                                  v4 ↔ 4,           v2 ↔ 2,           v1 ↔ 1.
+
+Then the tetrahedral rotation R2π/3 realizes the Collatz terminal transport:
+
+                                            4 → 2 → 1 → 4.
+
+    Equivalently, in a three-dimensional Hilbert space with basis
+
+                                            |4⟩ ,    |2⟩ ,    |1⟩ ,
+
+                                                      3
+define the terminal transport operator
+                         UC |4⟩ = |2⟩ ,        UC |2⟩ = |1⟩ ,        UC |1⟩ = |4⟩ .
+In matrix form, in the ordered basis (|4⟩ , |2⟩ , |1⟩),
+                                                   
+                                        0 0 1
+                               UC = 1 0 0 ,                    UC3 = I.
+                                        0 1 0
+Thus the terminal Collatz cell is represented by a C3 action.
+
+
+5    From CP1 Edges to a CP2 Cell
+The previous Bloch representation used CP1 to describe parity and spinor edges. The full
+terminal cell, however, has three distinguished states. Therefore the natural projective cell is
+                                     [Ψ] = [α4 : α2 : α1 ] ∈ CP2 ,
+where
+                   |Ψ⟩ = α4 |4⟩ + α2 |2⟩ + α1 |1⟩ ,           |α4 |2 + |α2 |2 + |α1 |2 = 1.
+The balanced terminal state is
+                                             1
+                                     |Ψ∗ ⟩ = √ (|4⟩ + |2⟩ + |1⟩),
+                                              3
+so that
+                                                             1
+                                   |α4 |2 = |α2 |2 = |α1 |2 = .
+                                                             3
+                                          1
+    This does not replace the earlier CP charts. Rather,
+                                    CP14,2 ,       CP12,1 ,      CP11,4
+are local projective lines inside CP2 . They describe the spinor/parity edges of the triangular
+terminal cell.
+    Thus:
+                                 CP1 = local spinor/parity edge,
+                              CP2 = global terminal 4 → 2 → 1 cell.
+
+
+6    Updated Meaning of 24π
+The previous normalizer used
+                                              ln 2
+                                                OIb =
+                                                   .
+                                              24π
+The present tetrahedral–CP2 construction sharpens the denominator:
+                                            24π = 3 · 2 · 4π.
+Now the factors are interpreted as
+                        3 = |C3 | = order of tetrahedral terminal transport,
+                                    2 = |Z2 | = parity/sign sheet,
+                           4π = Euler-consistent spinor identity closure.
+Therefore
+                                          24π = |C3 | |Z2 | (4π).
+This is stronger than treating the factor 3 as a mere count of terminal states. It is now the order
+of a geometric cyclic action induced by a tetrahedral embedding around the zeta/spin axis.
+
+                                                     4
+7    Relation to the Threshold Problem
+The arithmetic threshold problem from the previous step remains unchanged. For a valuation
+word w = (b0 , . . . , bk−1 ),
+                                           3 k m 0 + Cw
+                                     mk =               ,
+                                                2Bw
+and descent is certified by
+                                    (2Bw − 3k )m0 > Cw .
+Equivalently,
+                                            Cw
+                                     Mw =          < m0 .
+                                         2Bw − 3k
+The tetrahedral geometry does not prove this inequality. It clarifies the terminal-cell geometry
+toward which descent is measured. Therefore the proof-bearing target remains:
+
+                                 ∀m0 > 1 odd,     ∃k : Mwk < m0 .
+
+The new geometric reading is that once descent reaches the terminal basin, the attracting cell
+is not merely a numerical loop. It is a C3 terminal transport in CP2 whose local edges are CP1
+spinor charts.
+
+
+8    Conclusion
+The spinor erratum supplies an axis and poles. A zeta-zero conjugate pair, either in RH-
+conditional mode or under critical projection, supplies a natural axis marker at
+                                                   1
+                                            Re(s) = .
+                                                   2
+A regular tetrahedron inscribed around that axis in the Bloch sphere has an axis-preserving C3
+symmetry. Identifying the three base vertices with
+
+                                            4,   2,   1
+
+realizes the terminal Collatz cell as a tetrahedral cyclic action.
+    Thus the refined structural chain is
+                                                           2
+    zeta-axis pair ⇒ spin axis ⇒ tetrahedral embedding in SBloch ⇒ C3 ⇒ 4 → 2 → 1 → 4.
+
+The projective geometry is therefore upgraded from local CP1 spinor edges to a global CP2
+terminal cell.
+   The proof problem remains the threshold descent lemma. The geometric result is a structural
+embedding of the terminal attractor, not a proof of universal descent.
+
+
+
+
+                                                 5
+

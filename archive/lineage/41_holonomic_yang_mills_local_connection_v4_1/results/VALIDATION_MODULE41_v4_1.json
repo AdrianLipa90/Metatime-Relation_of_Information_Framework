@@ -1,0 +1,368 @@
+{
+  "schema": "VALIDATION_MODULE41_HOLONOMIC_YANG_MILLS_LOCAL_CONNECTION_V4_1",
+  "status": "PASS",
+  "checks": [
+    {
+      "name": "script_exit_zero",
+      "ok": true,
+      "detail": 0
+    },
+    {
+      "name": "result_json_exists",
+      "ok": true,
+      "detail": "/mnt/data/build_v41_clean/METATIME_STANDARD_MODEL_DERIVATION_MERGED_REPO_v4_1_CLEAN_HOLONOMIC_YM_NO_NESTED_ZIPS/41_holonomic_yang_mills_local_connection_v4_1/results/holonomic_yang_mills_local_connection_v4_1.json"
+    },
+    {
+      "name": "schema_ok",
+      "ok": true,
+      "detail": "METATIME_SM_HOLONOMIC_YANG_MILLS_LOCAL_CONNECTION_V4_1"
+    },
+    {
+      "name": "status_pass",
+      "ok": true,
+      "detail": "PASS"
+    },
+    {
+      "name": "no_pdg_or_mass_reference_input",
+      "ok": true,
+      "detail": {
+        "PDG_or_mass_reference_input": false,
+        "observed_masses_input": false,
+        "flavour_mixing_matrix_input": false,
+        "NoParamSM_input": false,
+        "mass_prediction_claimed": false,
+        "full_QCD_claimed": false,
+        "confinement_claimed": false,
+        "running_coupling_claimed": false,
+        "hadron_spectrum_claimed": false,
+        "Debt_9_status": "OPEN_NOT_CLOSED",
+        "canon_allowed": false,
+        "current_promotion": "DENY_CURRENT"
+      }
+    },
+    {
+      "name": "no_observed_masses_input",
+      "ok": true,
+      "detail": {
+        "PDG_or_mass_reference_input": false,
+        "observed_masses_input": false,
+        "flavour_mixing_matrix_input": false,
+        "NoParamSM_input": false,
+        "mass_prediction_claimed": false,
+        "full_QCD_claimed": false,
+        "confinement_claimed": false,
+        "running_coupling_claimed": false,
+        "hadron_spectrum_claimed": false,
+        "Debt_9_status": "OPEN_NOT_CLOSED",
+        "canon_allowed": false,
+        "current_promotion": "DENY_CURRENT"
+      }
+    },
+    {
+      "name": "no_ckm_pmns_input",
+      "ok": true,
+      "detail": {
+        "PDG_or_mass_reference_input": false,
+        "observed_masses_input": false,
+        "flavour_mixing_matrix_input": false,
+        "NoParamSM_input": false,
+        "mass_prediction_claimed": false,
+        "full_QCD_claimed": false,
+        "confinement_claimed": false,
+        "running_coupling_claimed": false,
+        "hadron_spectrum_claimed": false,
+        "Debt_9_status": "OPEN_NOT_CLOSED",
+        "canon_allowed": false,
+        "current_promotion": "DENY_CURRENT"
+      }
+    },
+    {
+      "name": "no_noparamsm_input",
+      "ok": true,
+      "detail": {
+        "PDG_or_mass_reference_input": false,
+        "observed_masses_input": false,
+        "flavour_mixing_matrix_input": false,
+        "NoParamSM_input": false,
+        "mass_prediction_claimed": false,
+        "full_QCD_claimed": false,
+        "confinement_claimed": false,
+        "running_coupling_claimed": false,
+        "hadron_spectrum_claimed": false,
+        "Debt_9_status": "OPEN_NOT_CLOSED",
+        "canon_allowed": false,
+        "current_promotion": "DENY_CURRENT"
+      }
+    },
+    {
+      "name": "mass_prediction_not_claimed",
+      "ok": true,
+      "detail": {
+        "PDG_or_mass_reference_input": false,
+        "observed_masses_input": false,
+        "flavour_mixing_matrix_input": false,
+        "NoParamSM_input": false,
+        "mass_prediction_claimed": false,
+        "full_QCD_claimed": false,
+        "confinement_claimed": false,
+        "running_coupling_claimed": false,
+        "hadron_spectrum_claimed": false,
+        "Debt_9_status": "OPEN_NOT_CLOSED",
+        "canon_allowed": false,
+        "current_promotion": "DENY_CURRENT"
+      }
+    },
+    {
+      "name": "full_qcd_not_claimed",
+      "ok": true,
+      "detail": {
+        "PDG_or_mass_reference_input": false,
+        "observed_masses_input": false,
+        "flavour_mixing_matrix_input": false,
+        "NoParamSM_input": false,
+        "mass_prediction_claimed": false,
+        "full_QCD_claimed": false,
+        "confinement_claimed": false,
+        "running_coupling_claimed": false,
+        "hadron_spectrum_claimed": false,
+        "Debt_9_status": "OPEN_NOT_CLOSED",
+        "canon_allowed": false,
+        "current_promotion": "DENY_CURRENT"
+      }
+    },
+    {
+      "name": "debt9_open",
+      "ok": true,
+      "detail": "OPEN_NOT_CLOSED"
+    },
+    {
+      "name": "all_local_links_su3",
+      "ok": true,
+      "detail": {
+        "interpretation": "W_mu(x) is local SU(3) parallel transport inherited from W_ij holonomic quark couplings.",
+        "alpha_structure_angle_scale": 0.20203050891044216,
+        "beta_structure_angle_scale": 0.15745916432444337,
+        "a_lattice_test_scale": 0.001,
+        "local_links_su3_status": {
+          "W_(0, 0)_x": true,
+          "W_(0, 0)_y": true,
+          "W_(0, 1)_x": true,
+          "W_(0, 1)_y": true,
+          "W_(1, 0)_x": true,
+          "W_(1, 0)_y": true,
+          "W_(1, 1)_x": true,
+          "W_(1, 1)_y": true
+        },
+        "all_local_links_are_su3": true
+      }
+    },
+    {
+      "name": "plaquette_is_su3",
+      "ok": true,
+      "detail": {
+        "plaquette_is_su3": true,
+        "wilson_trace": {
+          "re": 2.9999999999999956,
+          "im": 0.0
+        },
+        "wilson_defect_3_minus_ReTrU": 4.440892098500626e-15,
+        "curvature_frobenius_norm": 0.08997666434436277,
+        "su3_projection_residual": 0.0,
+        "active_gell_mann_modes_1_indexed": [
+          1,
+          2,
+          3
+        ],
+        "gell_mann_coefficients": [
+          1.0018041408760655e-05,
+          -1.2853808918937212e-05,
+          -0.06362310741929778,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "F_matrix": [
+          [
+            {
+              "re": -0.06362310741929778,
+              "im": -0.0
+            },
+            {
+              "re": 1.0018041408760655e-05,
+              "im": 1.2853808918937212e-05
+            },
+            {
+              "re": 0.0,
+              "im": 0.0
+            }
+          ],
+          [
+            {
+              "re": 1.0018041408760655e-05,
+              "im": -1.2853808918937212e-05
+            },
+            {
+              "re": 0.06362310741929778,
+              "im": 0.0
+            },
+            {
+              "re": 0.0,
+              "im": 0.0
+            }
+          ],
+          [
+            {
+              "re": 0.0,
+              "im": 0.0
+            },
+            {
+              "re": 0.0,
+              "im": 0.0
+            },
+            {
+              "re": 0.0,
+              "im": 0.0
+            }
+          ]
+        ]
+      }
+    },
+    {
+      "name": "su3_projection_residual_small",
+      "ok": true,
+      "detail": 0.0
+    },
+    {
+      "name": "nontrivial_active_modes",
+      "ok": true,
+      "detail": [
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "name": "positive_wilson_defect",
+      "ok": true,
+      "detail": 4.440892098500626e-15
+    },
+    {
+      "name": "gauge_covariance_pass",
+      "ok": true,
+      "detail": {
+        "gauge_covariance_residual": 5.138506338542794e-16,
+        "trace_invariance_residual": 8.885919141600059e-16,
+        "curvature_norm_invariance_residual": 5.0722079314446944e-11,
+        "gauge_covariance_pass": true,
+        "trace_invariance_pass": true,
+        "curvature_norm_invariance_pass": true
+      }
+    },
+    {
+      "name": "trace_invariance_pass",
+      "ok": true,
+      "detail": {
+        "gauge_covariance_residual": 5.138506338542794e-16,
+        "trace_invariance_residual": 8.885919141600059e-16,
+        "curvature_norm_invariance_residual": 5.0722079314446944e-11,
+        "gauge_covariance_pass": true,
+        "trace_invariance_pass": true,
+        "curvature_norm_invariance_pass": true
+      }
+    },
+    {
+      "name": "curvature_norm_invariance_pass",
+      "ok": true,
+      "detail": {
+        "gauge_covariance_residual": 5.138506338542794e-16,
+        "trace_invariance_residual": 8.885919141600059e-16,
+        "curvature_norm_invariance_residual": 5.0722079314446944e-11,
+        "gauge_covariance_pass": true,
+        "trace_invariance_pass": true,
+        "curvature_norm_invariance_pass": true
+      }
+    },
+    {
+      "name": "ym_action_density_positive",
+      "ok": true,
+      "detail": {
+        "action_density_proxy_half_Tr_F2": 0.004047900063269061,
+        "information_operator_g_info_ln2_over_24pi": 0.009193150006360484,
+        "info_scaled_action_density_proxy": 47.89620330485287,
+        "ramanujan_scaling_status": "LOCKED_FOR_FUTURE_COUPLING_NORMALIZATION_NOT_USED_AS_FIT_FACTOR_HERE",
+        "status": "CANDIDATE_LOCAL_ACTION_DENSITY_NOT_FULL_QCD"
+      }
+    },
+    {
+      "name": "information_operator_present",
+      "ok": true,
+      "detail": {
+        "action_density_proxy_half_Tr_F2": 0.004047900063269061,
+        "information_operator_g_info_ln2_over_24pi": 0.009193150006360484,
+        "info_scaled_action_density_proxy": 47.89620330485287,
+        "ramanujan_scaling_status": "LOCKED_FOR_FUTURE_COUPLING_NORMALIZATION_NOT_USED_AS_FIT_FACTOR_HERE",
+        "status": "CANDIDATE_LOCAL_ACTION_DENSITY_NOT_FULL_QCD"
+      }
+    },
+    {
+      "name": "ramanujan_not_fit",
+      "ok": true,
+      "detail": "LOCKED_FOR_FUTURE_COUPLING_NORMALIZATION_NOT_USED_AS_FIT_FACTOR_HERE"
+    },
+    {
+      "name": "small_loop_scaling_ratios_present",
+      "ok": true,
+      "detail": [
+        {
+          "a_ratio": 2.0,
+          "wilson_defect_ratio": 15.999956116291827,
+          "expected_for_area_squared": 16.0,
+          "curvature_norm_ratio": 0.9999967194418352
+        },
+        {
+          "a_ratio": 2.0,
+          "wilson_defect_ratio": 15.99959133184677,
+          "expected_for_area_squared": 16.0,
+          "curvature_norm_ratio": 0.9999868768983817
+        },
+        {
+          "a_ratio": 2.0,
+          "wilson_defect_ratio": 15.998319857853906,
+          "expected_for_area_squared": 16.0,
+          "curvature_norm_ratio": 0.9999474936929167
+        }
+      ]
+    },
+    {
+      "name": "small_loop_scaling_area_squared",
+      "ok": true,
+      "detail": [
+        {
+          "a_ratio": 2.0,
+          "wilson_defect_ratio": 15.999956116291827,
+          "expected_for_area_squared": 16.0,
+          "curvature_norm_ratio": 0.9999967194418352
+        },
+        {
+          "a_ratio": 2.0,
+          "wilson_defect_ratio": 15.99959133184677,
+          "expected_for_area_squared": 16.0,
+          "curvature_norm_ratio": 0.9999868768983817
+        },
+        {
+          "a_ratio": 2.0,
+          "wilson_defect_ratio": 15.998319857853906,
+          "expected_for_area_squared": 16.0,
+          "curvature_norm_ratio": 0.9999474936929167
+        }
+      ]
+    },
+    {
+      "name": "no_known_reimport_or_mixing_engine_in_main_execution_script",
+      "ok": true,
+      "detail": []
+    }
+  ]
+}

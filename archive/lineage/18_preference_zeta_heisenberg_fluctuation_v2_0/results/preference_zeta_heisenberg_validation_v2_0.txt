@@ -1,0 +1,7 @@
+Preference / zeta-Heisenberg kernel v2.0
+kappa=0.009193150006360484
+rows=6
+heisenberg_gate_all_pass=True
+mass_input_used=False
+zeta_role=coherence_fluctuation_not_raw_cost
+collatz_terminal_axis=4->2->1->1/2

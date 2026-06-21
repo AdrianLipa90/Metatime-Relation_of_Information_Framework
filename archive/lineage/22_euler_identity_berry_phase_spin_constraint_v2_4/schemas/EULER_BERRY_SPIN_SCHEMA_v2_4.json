@@ -1,0 +1,18 @@
+{
+  "schema": "METATIME_SM_EULER_BERRY_SPIN_SCHEMA_v2_4",
+  "gate_type": "FORMAL_SYMBOLIC_PASS",
+  "auxiliary_gate": "COMPUTATIONAL_SANITY_CHECK",
+  "source_surface": "CP1_BLOCH_SPHERE",
+  "loop": "EQUATORIAL_HEMISPHERE_LOOP",
+  "hemisphere_solid_angle": "2*pi",
+  "closure_condition": "non_trivial_projective_sign_on_half_sphere_loop_and_identity_after_doubling",
+  "selected_minimal_spin": "1/2",
+  "mass_inputs_used": false,
+  "external_noema_sot_claimed": false,
+  "do_not_claim": [
+    "exact_mass_ratios",
+    "ckm_pmns_closure",
+    "zeta_spin_identity_proof",
+    "computational_mass_pass"
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "module": "debt9_information_quantum_dynamic_range_bridge_v2_7",
+  "gate_class": "AUDIT_BRIDGE_PASS",
+  "debt9_closure_status": "NOT_CLOSED_DYNAMIC_RANGE_BRIDGE_ONLY",
+  "information_operator_status": "kappa_ln2_over_24pi_is_preference_fluctuation_quantum",
+  "kappa_ln2_over_24pi": 0.009193150006360484,
+  "old_solver_O_I_literal": 0.009,
+  "old_O_I_over_kappa": 0.9789897906346737,
+  "relative_difference_old_O_I_vs_kappa": 0.021010209365326306,
+  "zeta_heisenberg_phase_uncertainty_min": 0.004596575003180242,
+  "zeta_heisenberg_phase_uncertainty_median": 0.004808688984155729,
+  "zeta_heisenberg_phase_uncertainty_max": 0.00629747352410008,
+  "zeta_heisenberg_phase_uncertainty_in_kappa_units_median": 0.5230730468695421,
+  "preference_width_median": 0.5928541353450001,
+  "ramanujan_action_range": 0.3241817037468657,
+  "old_tau_dynamic_range": 2000.0,
+  "old_tau_log_dynamic_range": 7.600902459542082,
+  "target_mass_log_dynamic_range_validation_only": 12.730641102153779,
+  "v26_pred_mass_log_dynamic_range": 7.361056701248152,
+  "non_anchor_required_release_quanta_median_abs": 2.6289121852805852,
+  "old_tau_bridge_residual_quanta_median_abs_validation_only": 2.6473295852582353,
+  "old_tau_required_release_pearson_non_anchor": 0.8789824771972223,
+  "observed_masses_used_as_inputs": [
+    "e"
+  ],
+  "old_tau_used_as_model_input": false,
+  "conclusion": "Old tau/eigenvalue has useful dynamic range but cannot be canonically imported until derived from v2.x CP1/Collatz/zeta/Ramanujan primitives without observed masses."
+}

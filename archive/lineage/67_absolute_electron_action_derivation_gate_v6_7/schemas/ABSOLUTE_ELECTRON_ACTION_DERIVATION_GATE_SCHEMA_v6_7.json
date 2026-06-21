@@ -1,0 +1,21 @@
+{
+  "schema": "METATIME_ABSOLUTE_ELECTRON_ACTION_DERIVATION_GATE_v6_7",
+  "forbidden_inputs": [
+    "electron_mass_as_derivation_input",
+    "pdg_table_as_derivation_input",
+    "exact_replay_table_as_derivation_input",
+    "v6_1_required_target_action_as_derivation_input"
+  ],
+  "allowed_inputs": [
+    "spin_half_euler_berry_base",
+    "OI",
+    "L3",
+    "white_thread_quadratic_second_order"
+  ],
+  "required_validation": [
+    "no_forbidden_derivation_inputs",
+    "scoring_separated",
+    "formula_fingerprinted",
+    "mass_spectrum_closure_not_claimed"
+  ]
+}

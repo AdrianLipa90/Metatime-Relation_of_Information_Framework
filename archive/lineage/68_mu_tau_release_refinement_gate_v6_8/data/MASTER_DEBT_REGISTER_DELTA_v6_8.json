@@ -1,0 +1,10 @@
+{
+  "created_utc": "2026-06-21T17:51:00+00:00",
+  "debt_id": "DEBT-008",
+  "debt_name": "mu_tau_release_refinement",
+  "previous_status": "ACTIVE_NOW_OR_IMPLICIT_AFTER_DEBT_007",
+  "new_status": "CLOSED_AS_RELEASE_REFINEMENT_GATE_NOT_CANON",
+  "closure_type": "mu_tau_release_candidate_derived_without_mu_tau_mass_input",
+  "remaining_dependency": "sealed charged-lepton benchmark remains separate debt",
+  "canon_allowed": false
+}

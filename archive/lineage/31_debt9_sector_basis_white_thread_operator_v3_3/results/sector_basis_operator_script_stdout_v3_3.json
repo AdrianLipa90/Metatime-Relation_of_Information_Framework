@@ -1,0 +1,27 @@
+{
+  "module": "31_debt9_sector_basis_white_thread_operator_v3_3",
+  "gate_class": "PRE_MASS_SECTOR_BASIS_OPERATOR_PASS",
+  "debt9_status": "not_rescored_in_this_module",
+  "debt10_status": "ckm_pmns_operator_shapes_only_no_numeric_claim",
+  "debt11_status": "sector_basis_operator_added_partial_advance",
+  "observed_masses_used": false,
+  "mass_predictions_made": false,
+  "old_fit_values_imported": false,
+  "old_document_structure_recovered": true,
+  "sector_count": 4,
+  "fermion_assignment_count": 12,
+  "ckm_pair_skeleton_count": 9,
+  "white_thread_pair_skeleton_count": 66,
+  "information_operator_role": "quantum_of_informational_preference_fluctuation",
+  "information_quantum_ln2_over_24pi": 0.009193150006360484,
+  "ramanujan_role": "sector_asymptotic_scaling_and_suppression_guard_not_fit_knob",
+  "must_not_do_next": "do_not_rescore_masses_by_tuning_sector_constants",
+  "allowed_next_step": "derive orientation/projection law for sector-basis operator OR run a strictly marked structural diagnostic with no masses",
+  "do_not_claim": [
+    "Debt 9 closed",
+    "charged fermion masses derived",
+    "CKM numeric matrix derived",
+    "PMNS derived",
+    "White-Thread numerical couplings derived"
+  ]
+}

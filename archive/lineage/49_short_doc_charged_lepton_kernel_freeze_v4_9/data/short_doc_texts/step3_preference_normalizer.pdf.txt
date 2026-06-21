@@ -1,0 +1,247 @@
+    Step 3: Preference Normalization for the Bloch–Fubini–Study
+                          Collatz Action
+           Standard Operator and Zeta-Fluctuation Sector
+                                           Adrian Lipa
+
+                                           May 26, 2026
+
+
+                                               Abstract
+        This note introduces a preference normalizer for the block-action formulation of acceler-
+     ated Collatz dynamics in the Bloch–Fubini–Study model. The dimensionless coupling
+                                                         ln 2
+                                               OIb :=
+                                                         24π
+     is used as a small preference-scale normalizer, not as a proof-generating constant. We
+     distinguish two sectors: a standard deterministic operator, used for proof-bearing Collatz
+     action, and a zeta-fluctuation operator, used only as a bounded perturbative diagnostic
+     unless a separate spectral theorem is supplied. This separation prevents zeta-modulated
+     heuristics from being confused with the standard Collatz contraction problem.
+
+
+1    Purpose
+Steps 1 and 2 established the following objects. For odd m, the accelerated Collatz return map
+is
+                                                 3m + 1
+                                      T (m) = ν (3m+1) .
+                                                22
+The one-step block action is
+                                                               
+                                                              1
+                            A(m) = ν2 (3m + 1) ln 2 − ln 3 +      ,
+                                                              m
+
+and for an odd orbit mj+1 = T (mj ), the length-k action telescopes:
+                                               k−1
+                                               X                   m0
+                                  Ak (m0 ) =         A(mj ) = ln      .
+                                                                   mk
+                                               j=0
+
+Thus Ak > 0 is exactly equivalent to mk < m0 . The present step introduces a small prefer-
+ence normalizer that converts this action into a bounded orientation/preference score without
+changing the underlying contraction criterion.
+
+
+2    The Intention / Preference Normalizer
+Definition 1 (Universal preference scale). Define the dimensionless scalar
+
+                                                         ln 2
+                                             OIb :=
+                                                         24π
+
+
+                                                     1
+so that numerically
+                                  OIb ≈ 0.009193150006360484.
+This value is not used as an arbitrary fitting parameter. In this programme it is a fixed small
+coupling scale used to normalize action into preference orientation.
+
+Definition 2 (Preference normalizer). The preference normalizer Ib0 is an operator that maps
+a real action value into a normalized preference coordinate. The canonical bounded score is
+
+                                       P (X) := tanh(Ib0 [X]).
+
+For small |X|, this has linear approximation
+
+                                           P (X) ≈ Ib0 [X].
+
+The sign of P (X) is the sign of Ib0 [X]. Therefore, in the standard sector, preference orientation
+must preserve the sign of the Collatz action.
+
+    The normalizer is not the proof. The proof-bearing object remains the sign and positivity
+of Ak . The normalizer only converts action into a small bounded preference coordinate.
+
+
+3    Standard Operator Sector
+Definition 3 (Standard preference operator). The standard operator is
+
+                                          Ib0,std [X] = OIbX.
+
+For a finite accelerated Collatz block,
+                                                                
+                                Pstd (m0 , k) = tanh OIbAk (m0 ) .
+
+    Since OIb > 0, the standard operator preserves the sign of action:
+
+                                  sgn Pstd (m0 , k) = sgn Ak (m0 ).
+
+Therefore
+                   Pstd (m0 , k) > 0      ⇐⇒   Ak (m0 ) > 0      ⇐⇒   mk < m0 .
+
+Lemma 1 (Standard-sector sign preservation). For every finite odd Collatz block, the standard
+normalizer does not change the descent criterion.
+
+Proof. The scalar OIb = ln 2/(24π) is strictly positive and tanh is strictly increasing. Hence the
+sign of tanh(OIbAk ) equals the sign of Ak . The telescoping identity gives Ak = ln(m0 /mk ), so
+the sign is positive exactly when mk < m0 .
+
+    This is the proof-safe sector. Any future Collatz proof must be formulated here first, before
+zeta perturbations are allowed.
+
+
+
+
+                                                  2
+4      Zeta-Fluctuation Sector
+The zeta-fluctuation sector is a diagnostic perturbation. It must not be used to claim a Collatz
+proof unless an independent theorem proves that the perturbation is admissible and does not
+reverse the sign of descent certificates.
+    Let ρ = β + iγ denote a nontrivial zeta zero. In a critical-line test mode one uses β = 1/2
+and writes the fluctuation through the ordinates γ. For a finite cutoff Γ, define a bounded real
+fluctuation functional
+                                        1 X
+                             ZΓ (x) =           wγ cos(γ log x + θγ ),
+                                       WΓ
+                                            0<γ≤Γ
+
+where                                              X
+                                         WΓ =                 |wγ |,
+                                                 0<γ≤Γ
+
+so that
+                                             |ZΓ (x)| ≤ 1.
+The phases θγ and weights wγ must be fixed by an explicit rule before computation. They
+cannot be fitted post hoc.
+
+Definition 4 (Zeta-fluctuation preference operator). For a block (m0 , . . . , mk ), define the zeta-
+fluctuation correction
+                                               k−1
+                                             1X
+                                  Zk (m0 ) =       ZΓ (mj ),
+                                             k
+                                                        j=0
+
+with |Zk (m0 )| ≤ 1. For a perturbation strength ϵζ ≥ 0, define
+
+                                   Ib0,ζ,Γ [Ak ] = OIb (Ak + ϵζ Zk ) .
+
+The corresponding preference score is
+                                                                          
+                         Pζ,Γ (m0 , k) = tanh OIb (Ak (m0 ) + ϵζ Zk (m0 )) .
+
+    This construction explicitly separates the deterministic action from the zeta fluctuation:
+
+                                     Ib0,ζ,Γ = Ib0,std + OIbϵζ ZΓ .
+
+
+5      Admissibility Condition
+Definition 5 (Admissible zeta perturbation). A zeta perturbation is admissible on a certified
+positive-action block if
+                                  ϵζ |Zk (m0 )| < Ak (m0 ).
+Since |Zk | ≤ 1, a sufficient uniform condition is
+
+                                            ϵζ < Ak (m0 ).
+
+Lemma 2 (No sign reversal under admissible fluctuation). If Ak (m0 ) > 0 and
+
+                                       ϵζ |Zk (m0 )| < Ak (m0 ),
+
+then
+                                          Pζ,Γ (m0 , k) > 0.
+
+
+
+                                                    3
+Proof. The argument of tanh is
+                                             OIb(Ak + ϵζ Zk ).
+Because OIb > 0, its sign is the sign of Ak + ϵζ Zk . The worst case is Zk < 0, giving
+                                      Ak + ϵζ Zk ≥ Ak − ϵζ |Zk | > 0.
+Therefore the zeta-perturbed preference remains positive.
+
+    The admissibility condition is the firewall between proof and heuristic. Without it, the zeta
+sector is not allowed to certify descent.
+
+
+6      Standard vs Zeta-Fluctuation Operator
+The two sectors must be kept separate.
+
+          Sector             Operator                       Status
+          Standard           Ib0,std [X] = OIbX             proof-safe sign normalizer
+          Zeta-fluctuation   Ib0,ζ,Γ [X] = O b(X + ϵζ Z)
+                                              I
+                                                            bounded perturbative diagnostic
+
+    The standard operator is the one to use for any theorem about Collatz descent. The zeta-
+fluctuation operator is allowed only for spectral experiments, phase-correlation diagnostics, and
+future RH-linked conjectural structure.
+
+
+7      Integration with the Block-Action Programme
+The corrected block-action problem becomes:
+
+                    For every odd m0 > 1, find k < ∞ such that Ak (m0 ) > 0.
+
+The standard preference-normalized version is equivalent:
+
+                   For every odd m0 > 1, find k < ∞ such that Pstd (m0 , k) > 0.
+
+The zeta-fluctuation version is not equivalent unless admissibility is proven:
+                                     Pζ,Γ (m0 , k) > 0 ̸⇐⇒ Ak (m0 ) > 0
+in general.
+
+
+8      Minimal Computational Protocol
+For each odd seed m0 , compute:
+    (i) the accelerated orbit mj ;
+ (ii) the action increments A(mj );
+                            P
+(iii) the block action Ak = j A(mj ) = ln(m0 /mk );
+ (iv) the standard preference Pstd = tanh(OIbAk );
+ (v) optionally, the bounded zeta fluctuation Zk ;
+ (vi) the admissibility margin Ak − ϵζ |Zk |.
+   Only the standard score may be used as a descent certificate. Zeta-modulated scores must
+be marked diagnostic unless the admissibility margin is positive.
+
+                                                     4
+9    Conclusion
+The preference normalizer is introduced as
+
+                                                    ln 2
+                                           OIb =
+                                                    24π
+
+and the standard operator as
+                                       Ib0,std [X] = OIbX.
+
+This preserves the sign of the Collatz block action and therefore does not alter the descent
+criterion. The zeta-fluctuation operator is a separate perturbative object:
+
+                                   Ib0,ζ,Γ [X] = OIb(X + ϵζ Z).
+
+It is useful for spectral experiments, but it cannot be allowed to certify descent unless a no-
+sign-reversal condition is satisfied.
+    The corrected programme now has three layers:
+
+                                        block action Ak ,
+
+                           standard preference normalization Ib0,std ,
+                                optional zeta fluctuation Ib0,ζ,Γ .
+This keeps the proof-bearing Collatz structure clean while preserving a controlled opening to-
+ward zeta-spectrum fluctuations.
+
+
+
+
+                                                5
+

@@ -1,0 +1,45 @@
+{
+  "SM_and_M_Theory_generalisation_hadron_geometric_mean": {
+    "source_file": "00_original_metatime/Metatime-main/documents/SM_and_M_Theory_generalisation.pdf",
+    "extracted_from_pdf_text_lines": "Section 6, Hadron Masses and Binding Energy",
+    "excerpt_summary": "Baryons and mesons are constructed from quark F_ij values via a geometric-mean prescription F_hadron = product(F_qi,qj)^(1/Npairs).",
+    "evidence_role": "STRUCTURAL_HINT",
+    "risk": "No independent MeV scale is shown in the same table."
+  },
+  "SM_and_M_Theory_generalisation_exact_baryon_table": {
+    "source_file": "00_original_metatime/Metatime-main/documents/SM_and_M_Theory_generalisation.pdf",
+    "excerpt_summary": "Table lists Proton 938.3 vs 938.3, Neutron 939.6 vs 939.6, Lambda 1115.7 vs 1115.7, Sigma+ 1189.4 vs 1189.4 with 0.0% errors.",
+    "evidence_role": "RESULT_TABLE_REQUIRES_PROVENANCE",
+    "risk": "Exact equality to displayed benchmark precision requires executable provenance before promotion."
+  },
+  "Formal_SM_baryon_binding_formula": {
+    "source_file": "00_original_metatime/Metatime-main/documents/Formal_SM.pdf",
+    "excerpt_summary": "Formula m_B = sum_i m_i^(phys) + E_bind, where E_bind is emergent binding energy from topological interactions.",
+    "evidence_role": "STRUCTURAL_FORMULA",
+    "risk": "E_bind values appear tabular and need independent derivation."
+  },
+  "Formal_SM_baryon_table_mixed_quality": {
+    "source_file": "00_original_metatime/Metatime-main/documents/Formal_SM.pdf",
+    "excerpt_summary": "Proton/neutron/Sigma/Xi close; Lambda deviates strongly, suggesting additional dynamics or SU(3)-breaking corrections.",
+    "evidence_role": "MIXED_DIAGNOSTIC_TABLE",
+    "risk": "Not an exact universal closure; shows real residuals and missing dynamics."
+  },
+  "Calabi_Yau2_binding_calibration_warning": {
+    "source_file": "00_original_metatime/Metatime-main/documents/Calabi_Yau2.pdf",
+    "excerpt_summary": "Binding energy scale 5-50 MeV for light quarks; meson beta calibrated to PDG masses; compare to PDG and iterate small adjustment of F_ij if needed.",
+    "evidence_role": "TAINT_WARNING",
+    "risk": "Explicit calibration/iteration language blocks no-parameter promotion."
+  },
+  "Perfect_numbers_prime_product_path": {
+    "source_file": "00_original_metatime/Metatime-main/documents/Perfect_numbers_and_rhe_strings.pdf",
+    "excerpt_summary": "Hadron mapped to product of quark primes; for proton u↔3,d↔5, n_p=45, sigma(45)=78, R(45)=1.73; mismatch acknowledged and harmonic corrections required.",
+    "evidence_role": "CLEAN_STRUCTURAL_PATH_CANDIDATE",
+    "risk": "No final MeV-scale map from R(n)/L(n) to hadron masses is completed there."
+  },
+  "Sigma_standing_wave_binding": {
+    "source_file": "00_original_metatime/Metatime-main/documents/Sigma.pdf / Sigma_(1).pdf",
+    "excerpt_summary": "Hadron binding described via standing waves/knot topology and emergent Collatz/Lambda0 energy; tables contain physical baryon rows.",
+    "evidence_role": "STRUCTURAL_BINDING_PICTURE_WITH_NUMERIC_TABLES",
+    "risk": "Binding energy scale still needs provenance separate from table values."
+  }
+}

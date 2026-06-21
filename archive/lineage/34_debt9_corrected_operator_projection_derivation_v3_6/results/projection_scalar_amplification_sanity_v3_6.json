@@ -1,0 +1,48 @@
+{
+  "mass_input_used": false,
+  "ckm_input_used": false,
+  "pmns_input_used": false,
+  "old_tau_imported": false,
+  "old_white_thread_constants_imported": false,
+  "information_quantum": 0.009193150006360484,
+  "gate": "CORRECTED_DERIVATION_SANITY_PASS",
+  "examples": [
+    {
+      "projection_scalar": 0.01,
+      "log_shift_if_injected": 1.0877664340385265,
+      "orders_of_magnitude_if_injected": 0.4724109599025096,
+      "interpretation": "dangerous if treated as additive action scalar"
+    },
+    {
+      "projection_scalar": 0.05,
+      "log_shift_if_injected": 5.438832170192632,
+      "orders_of_magnitude_if_injected": 2.362054799512548,
+      "interpretation": "dangerous if treated as additive action scalar"
+    },
+    {
+      "projection_scalar": 0.1,
+      "log_shift_if_injected": 10.877664340385264,
+      "orders_of_magnitude_if_injected": 4.724109599025096,
+      "interpretation": "dangerous if treated as additive action scalar"
+    },
+    {
+      "projection_scalar": 0.25,
+      "log_shift_if_injected": 27.19416085096316,
+      "orders_of_magnitude_if_injected": 11.810273997562739,
+      "interpretation": "dangerous if treated as additive action scalar"
+    },
+    {
+      "projection_scalar": 0.5,
+      "log_shift_if_injected": 54.38832170192632,
+      "orders_of_magnitude_if_injected": 23.620547995125477,
+      "interpretation": "dangerous if treated as additive action scalar"
+    },
+    {
+      "projection_scalar": 1.0,
+      "log_shift_if_injected": 108.77664340385265,
+      "orders_of_magnitude_if_injected": 47.241095990250955,
+      "interpretation": "dangerous if treated as additive action scalar"
+    }
+  ],
+  "conclusion": "Order-one projection scalars are too large to inject directly into the mass action."
+}

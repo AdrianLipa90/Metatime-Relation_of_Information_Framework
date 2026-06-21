@@ -1,0 +1,12 @@
+{
+  "checks": {
+    "active_executable_forbidden_tokens_absent": true,
+    "blind_full_sector_extension_denied": true,
+    "debt9_open": true,
+    "no_mass_closure_claim": true,
+    "result_exists": true
+  },
+  "module": "55_debt9_lepton_freeze_full_sector_boundary_v5_5",
+  "schema": "VALIDATION_MODULE55_V5_5",
+  "status": "PASS"
+}

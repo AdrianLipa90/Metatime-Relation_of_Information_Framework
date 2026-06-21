@@ -1,0 +1,6 @@
+{
+  "schema": "VALIDATION_MODULE62_V6_2",
+  "status": "PASS",
+  "issues": [],
+  "checked_script": "62_lepton_information_action_release_probe_v6_2/scripts/lepton_information_action_release_probe_v6_2.py"
+}

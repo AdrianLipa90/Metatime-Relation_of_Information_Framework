@@ -1,0 +1,5 @@
+gate_class,meaning,caution
+FORMAL_SYMBOLIC_PASS,symbolic_topological_accounting,No numerical scan implied.
+STRUCTURAL_ENUMERATION_PASS,finite_candidate_exclusion,Candidate roles checked against source criteria.
+COMPUTATIONAL_PASS,generated_data_or_numeric_computation,Real computation over sequences/tables.
+EMPIRICAL_TARGET_CHECK,comparison_only,Observed values may be compared but not used as inputs.

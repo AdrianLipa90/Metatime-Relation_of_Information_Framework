@@ -1,0 +1,27 @@
+{
+  "readme_hadron_geometric_mean_prescription": {
+    "status": "USE_AS_STRUCTURAL_HINT_ONLY",
+    "reason": "The README gives F_hadron geometric mean for hadron binding, which is structurally aligned with triplet aggregation but the numeric table exactly matches benchmarks; therefore it cannot close Debt 9."
+  },
+  "readme_hadron_exact_table": {
+    "status": "TAINTED_EXACT_REFERENCE_REPLAY_OR_ANCHORED_TABLE",
+    "examples": [
+      "Proton predicted 938.3 vs benchmark 938.3",
+      "Neutron predicted 939.6 vs benchmark 939.6",
+      "Lambda predicted 1115.7 vs benchmark 1115.7"
+    ],
+    "promotion_allowed": false
+  },
+  "metatheory_nucleon_mu0_scale": {
+    "status": "TAINTED_UNIT_ANCHOR",
+    "reason": "The source explicitly calibrates mu0_N to proton mass; it can document a hadron scale boundary but not a no-parameter prediction."
+  },
+  "v40_Wij_holonomy": {
+    "status": "ACTIVE_STRUCTURAL_INPUT",
+    "reason": "W_ij loop defect/curvature is structural and PDG-free in module 40; used only as dimensionless action diagnostic."
+  },
+  "v56_quark_single_proxy": {
+    "status": "DIAGNOSTIC_INPUT_NOT_CLOSURE",
+    "reason": "Single-quark proxies are non-asymptotic and cannot be exact mass closure criteria."
+  }
+}

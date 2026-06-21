@@ -1,0 +1,18 @@
+{
+  "module": "debt9_information_quantum_dynamic_range_bridge_v2_7",
+  "version": "2.7",
+  "status": "AUDIT_BRIDGE_PASS",
+  "canonical_claim": false,
+  "numeric_mass_derivation_claim": false,
+  "information_operator": {
+    "kappa": "ln(2)/(24*pi)",
+    "role": "preference fluctuation quantum",
+    "not_role": "arbitrary fitted coefficient"
+  },
+  "old_tau_policy": {
+    "used_as_model_input": false,
+    "status": "quarantined bridge candidate",
+    "reason": "old source colocates tau/eigenvalue with observed masses and fits"
+  },
+  "allowed_next_step": "derive tau_v2 from v2.x primitives before using it in mass prediction"
+}

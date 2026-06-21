@@ -1,0 +1,48 @@
+{
+  "version": "v1.6",
+  "kappa_ln2_over_24pi": 0.009193150006360484,
+  "debt3": {
+    "status": "closed_as_explicit_zeta_polar_anchor_definition_plus_nonfitted_ansatz",
+    "anchor_count": 16,
+    "north_south_pairing": "critical_line_zero_pairs_plus_minus_gamma_n",
+    "tetra_assignment": "zero_index_modulo_four",
+    "mass_input_used": false
+  },
+  "debt6": {
+    "status": "partially_closed_for_ordinal_charged_fermion_hierarchy; numeric_mass_spectrum_still_open",
+    "validation_pass": true,
+    "classes_validated": [
+      {
+        "class": "charged_lepton",
+        "generations": "1->2->3",
+        "actions": "5.378788->5.139406->4.680268",
+        "expected_mass_order": "gen1_lightest_gen3_heaviest",
+        "action_order_pass": true,
+        "uses_observed_mass_as_input": false
+      },
+      {
+        "class": "down_quark",
+        "generations": "1->2->3",
+        "actions": "3.966405->3.727023->3.267884",
+        "expected_mass_order": "gen1_lightest_gen3_heaviest",
+        "action_order_pass": true,
+        "uses_observed_mass_as_input": false
+      },
+      {
+        "class": "up_quark",
+        "generations": "1->2->3",
+        "actions": "3.799738->3.560356->3.101218",
+        "expected_mass_order": "gen1_lightest_gen3_heaviest",
+        "action_order_pass": true,
+        "uses_observed_mass_as_input": false
+      }
+    ],
+    "mass_input_used": false
+  },
+  "formal_remaining_debts": [
+    "derive numerical mass ratios without fitting",
+    "derive CKM and PMNS mixing",
+    "close neutrino mass mechanism",
+    "prove zero-index modulo-four tetrahedral assignment or replace it with a stronger derivation"
+  ]
+}

@@ -1,0 +1,7 @@
+scale_name,energy_j,energy_ev,energy_mev,mass_equivalent_kg,role,source_formula,status
+oscillator_quantum_h_f0,5.18821292745e-33,3.2382278066913817e-14,3.238227806691382e-20,5.77266540454535e-50,candidate microscopic clock quantum,E0 = h * 7.83 Hz,dimensionally valid but far below SM scales
+oscillator_quantum_hbar_omega0,5.188212927450001e-33,3.2382278066913817e-14,3.238227806691382e-20,5.772665404545351e-50,same as h*f0,E0 = hbar * 2*pi*7.83 Hz,dimensionally valid but far below SM scales
+landauer_bit_300K,2.870978885078724e-21,0.0179192407638041,1.79192407638041e-08,3.1943948174115975e-38,thermal information bit floor at 300 K,E_bit = kB*T*ln2,dimensionally valid environment-dependent scale
+landauer_bit_2p725K,2.6078058206131743e-23,0.00016276643693788725,1.6276643693788724e-10,2.901575292482201e-40,thermal information bit floor at CMB-like temperature,E_bit = kB*T*ln2,dimensionally valid environment-dependent scale
+OI_weighted_landauer_300K,2.6393339555622287e-23,0.0001647342683417407,1.6473426834174072e-10,2.9366550736005323e-40,project OI-weighted thermal bit,E0 = kB*T*ln2*OI,dimensionally valid but T-dependent
+OI_weighted_oscillator_h_f0,4.769601970698651e-35,2.9769513981681567e-16,2.976951398168157e-22,5.306897900051303e-52,project OI-weighted oscillator quantum,E0 = h*f0*OI,dimensionally valid but tiny

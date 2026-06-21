@@ -1,0 +1,55 @@
+{
+  "module": "29_debt9_debt11_frozen_sector_projection_operator_v3_1",
+  "gate_class": "PRE_MASS_PROJECTION_OPERATOR_PASS",
+  "debt11_status": "one_generation_chiral_table_extended_to_frozen_sector_projection_operator",
+  "debt9_status": "not_rescored_in_this_module",
+  "observed_masses_used": false,
+  "target_mass_csv_read": false,
+  "old_tau_used": false,
+  "mass_predictions_made": false,
+  "anchor_for_relative_projection": "e",
+  "kappa_information_quantum_ln2_over_24pi": 0.009193150006360484,
+  "information_operator_role": "quantum_of_informational_preference_fluctuation",
+  "sector_count": 3,
+  "fermion_row_count": 9,
+  "projected_tau_relative_min_quanta": -176.9119056971931,
+  "projected_tau_relative_median_quanta": -1.3899736349698628,
+  "projected_tau_relative_max_quanta": 119.77800408746134,
+  "projected_tau_relative_dynamic_range_quanta": 296.68990978465445,
+  "generation_order_diagnostics_mass_blind": {
+    "charged_lepton": {
+      "projected_tau_relative_values": [
+        0.0,
+        -54.463282428505806,
+        59.35421399867016
+      ],
+      "non_decreasing": false,
+      "non_increasing": false
+    },
+    "down_quark": {
+      "projected_tau_relative_values": [
+        -145.46751492611713,
+        -176.9119056971931,
+        -111.1993434964738
+      ],
+      "non_decreasing": false,
+      "non_increasing": false
+    },
+    "up_quark": {
+      "projected_tau_relative_values": [
+        56.590618094264414,
+        -1.3899736349698628,
+        119.77800408746134
+      ],
+      "non_decreasing": false,
+      "non_increasing": false
+    }
+  },
+  "allowed_next_step": "one_anchor_mass_rescore_using_frozen_v3_1_projection_without_editing_operator",
+  "do_not_claim": [
+    "Debt 9 closed",
+    "masses derived",
+    "CKM/PMNS derived",
+    "sector projection validated by masses"
+  ]
+}

@@ -1,0 +1,8 @@
+field,component,color_dim,weak_dim,chirality,Y,T3,Q,multiplicity,vector_note
+Q_L,u_L,3,2,L,1/6,1/2,2/3,3,representation_vector_component; not a fitted mass input
+Q_L,d_L,3,2,L,1/6,-1/2,-1/3,3,representation_vector_component; not a fitted mass input
+u_R^c,u_R^c,3,1,L_conjugate,-2/3,0,-2/3,3,representation_vector_component; not a fitted mass input
+d_R^c,d_R^c,3,1,L_conjugate,1/3,0,1/3,3,representation_vector_component; not a fitted mass input
+L_L,nu_L,1,2,L,-1/2,1/2,0,1,representation_vector_component; not a fitted mass input
+L_L,e_L,1,2,L,-1/2,-1/2,-1,1,representation_vector_component; not a fitted mass input
+e_R^c,e_R^c,1,1,L_conjugate,1,0,1,1,representation_vector_component; not a fitted mass input

@@ -1,0 +1,12 @@
+{
+  "schema": "VALIDATION_MODULE49_v4_9",
+  "status": "PASS",
+  "errors": [],
+  "checks": [
+    "result JSON exists",
+    "no benchmark performed",
+    "no mass prediction claimed",
+    "active executable PDG/NoParamSM scan",
+    "nested archive scan"
+  ]
+}

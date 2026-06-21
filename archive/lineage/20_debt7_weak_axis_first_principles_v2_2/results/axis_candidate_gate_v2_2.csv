@@ -1,0 +1,7 @@
+candidate,two_pole,killing_flow,chirality,charge_splitting,mass_gate,non_arithmetic_selector,non_connection_only,score,selected,reason
+Berry phase axis,1,0,0,0,0,1,0,2,0,"connection/transport layer, not primitive selector"
+weak isospin / Bloch quantization axis,1,1,1,1,1,1,1,7,1,two-component chiral doublet axis; supplies T3 polar pair
+twin-prime / Collatz generation axis,0,0,0,0,1,0,1,2,0,"discrete arithmetic sector label/projection, not smooth CP1 selector"
+zeta imaginary-zero axis,1,0,0,0,1,1,1,4,0,spectral coherence/anchor axis constrained by polar pair
+color SU(3) axis,0,0,0,0,1,1,1,3,0,"triplet internal multiplicity, not CP1 two-pole chiral selector"
+hypercharge U(1) axis,0,1,0,0,0,1,1,3,0,single U(1) label cannot split a weak doublet by itself

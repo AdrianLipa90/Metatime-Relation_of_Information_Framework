@@ -1,0 +1,30 @@
+{
+  "version": "v0.9",
+  "name": "spin_fibonacci_kepler_collatz_action_kernel",
+  "inputs": {
+    "twin_prime_seed": "pair (p,p+2)",
+    "tetrahedral_frame": "regular tetrahedron embedded in Bloch ball",
+    "information_scale": "kappa = ln(2)/(24*pi)",
+    "spin_sector": "spin 1/2 with 4*pi closure",
+    "collatz_dynamics": "two-branch Collatz trajectories",
+    "fibonacci_rhythm": "independent Fibonacci arithmetic clock",
+    "kepler_dynamics": "disk-induced Kepler clock"
+  },
+  "outputs": {
+    "poincare_depth": "distance from origin in derived Poincare disk",
+    "fib_mismatch": "Collatz/Fibonacci mismatch cost",
+    "kepler_action": "orbital phase-clock action",
+    "spin_closure_defect": "spin-half four-pi closure defect",
+    "action_kappa_scaled": "structural action scaled by kappa"
+  },
+  "forbidden_inputs": [
+    "observed fermion masses",
+    "fitted Yukawa couplings"
+  ],
+  "next_layers": [
+    "zeta_tetrahedral_spectral_term",
+    "constructive_euler_berry_coherence",
+    "representation_cost",
+    "chiral_cost"
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "artifact": "METATIME_SM_TETRAHEDRAL_POINCARE_DEPTH_v0_8",
+  "status": "technical_derivation_layer_not_final_mass_prediction",
+  "core_correction": "tetrahedral depth precedes and induces the Poincare disk; Collatz dynamics is evaluated after tetrahedral projection",
+  "non_fitting_rule": "observed fermion masses are not used as inputs or fitting targets in this layer",
+  "canonical_dependency_order": [
+    "Hilbert/projective state geometry",
+    "Bloch sphere",
+    "Bloch ball internal depth",
+    "regular tetrahedral frame",
+    "tetrahedral base-face projection",
+    "Klein-to-Poincare conversion",
+    "Poincare disk trajectory",
+    "Collatz route evaluated on derived disk"
+  ],
+  "frozen": [
+    "regular tetrahedron as minimal internal-depth frame",
+    "disk derived from tetrahedral frame via Bloch/Klein/Poincare map",
+    "Collatz enters after tetrahedral projection"
+  ],
+  "not_frozen": [
+    "final tetrahedral weight map",
+    "final zeta-polar tetrahedral operator",
+    "mass predictions",
+    "final generation seed assignment"
+  ],
+  "outputs": [
+    "METATIME_SM_TETRAHEDRAL_POINCARE_DEPTH_v0_8.md",
+    "TETRAHEDRAL_POINCARE_SCHEMA_v0_8.json",
+    "VALIDATION_STATUS_v0_8.md",
+    "results/tetra_poincare_depth_table_v0_8.csv",
+    "results/tetra_poincare_depth_summary_v0_8.json",
+    "results/tetra_poincare_minimal_triplet_paths_v0_8.svg",
+    "scripts/tetrahedral_poincare_depth_v0_8.py"
+  ]
+}

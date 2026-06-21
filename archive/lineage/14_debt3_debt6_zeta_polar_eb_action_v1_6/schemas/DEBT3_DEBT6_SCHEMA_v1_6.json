@@ -1,0 +1,28 @@
+{
+  "module": "METATIME_SM_DEBT3_DEBT6_ZETA_POLAR_EB_ACTION_v1_6",
+  "version": "v1.6",
+  "scope": [
+    "Debt 3 — zeta-polar anchors",
+    "Debt 6 — Euler-Berry action and mass hierarchy"
+  ],
+  "formal_status_vocab": [
+    "definition",
+    "ansatz",
+    "lemma",
+    "proof",
+    "interpretation",
+    "hypothesis",
+    "validation_gate",
+    "formal_debt"
+  ],
+  "debt3_status": "definition_plus_ansatz_with_validation_gate",
+  "debt6_status": "partial_closure_for_ordinal_hierarchy_only",
+  "mass_input_policy": "observed masses must not be used as model inputs; they may only appear in downstream validation documents",
+  "outputs": {
+    "zeta_polar_anchor_table": "results/zeta_polar_anchor_table_v1_6.csv",
+    "generation_seed_zeta_anchor_map": "results/generation_seed_zeta_anchor_map_v1_6.csv",
+    "charged_fermion_eb_action": "results/charged_fermion_eb_action_debt6_v1_6.csv",
+    "ordinal_validation": "results/debt6_ordinal_validation_v1_6.csv",
+    "summary": "results/debt3_debt6_summary_v1_6.json"
+  }
+}

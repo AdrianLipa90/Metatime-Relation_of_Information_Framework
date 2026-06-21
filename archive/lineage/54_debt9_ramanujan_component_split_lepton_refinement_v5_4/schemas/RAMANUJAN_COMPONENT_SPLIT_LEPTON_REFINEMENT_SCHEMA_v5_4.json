@@ -1,0 +1,36 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "METATIME_RAMANUJAN_COMPONENT_SPLIT_LEPTON_REFINEMENT_V5_4",
+  "type": "object",
+  "required": [
+    "schema",
+    "module",
+    "technical_status",
+    "formal_status",
+    "substantive_status",
+    "formula_pre_benchmark_fingerprint_sha256",
+    "rows",
+    "metrics",
+    "decision"
+  ],
+  "properties": {
+    "schema": {
+      "const": "METATIME_RAMANUJAN_COMPONENT_SPLIT_LEPTON_REFINEMENT_V5_4"
+    },
+    "mass_closure_claimed": {
+      "const": false
+    },
+    "observed_targets_used_in_operator": {
+      "const": false
+    },
+    "new_free_parameter_added": {
+      "const": false
+    },
+    "old_solver_used": {
+      "const": false
+    },
+    "table_replay_used": {
+      "const": false
+    }
+  }
+}

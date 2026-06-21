@@ -1,0 +1,32 @@
+{
+  "ARCHIVE_CANONICAL_SPECTRUM": {
+    "n": 12,
+    "equal_count": 12,
+    "all_mass_calc_equal_reference": true,
+    "max_abs_relative_error": 0.0
+  },
+  "ARCHIVE_NOPARAMSM_ENSEMBLE": {
+    "n": 9,
+    "equal_count": 3,
+    "all_mass_calc_equal_reference": false,
+    "max_abs_relative_error": 0.0002401613560400757
+  },
+  "ARCHIVE_EXTENDED_MONOLITH_BOSON_ENSEMBLE": {
+    "n": 3,
+    "equal_count": 0,
+    "all_mass_calc_equal_reference": false,
+    "max_abs_relative_error": 0.0032745065696686945
+  },
+  "ARCHIVE_EXTENDED_MONOLITH_NUCLEON_ENSEMBLE": {
+    "n": 2,
+    "equal_count": 0,
+    "all_mass_calc_equal_reference": false,
+    "max_abs_relative_error": 0.0015186857090238469
+  },
+  "ARCHIVE_EXTENDED_MONOLITH_BINDING_ENSEMBLE": {
+    "n": 3,
+    "equal_count": 0,
+    "all_mass_calc_equal_reference": false,
+    "max_abs_relative_error": 0.03476422702672224
+  }
+}

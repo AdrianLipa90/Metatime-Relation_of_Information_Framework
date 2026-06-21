@@ -1,0 +1,133 @@
+{
+  "created_utc": "2026-06-21T00:00:00Z",
+  "decision": {
+    "allowed_next_step": "Use v5.4 as a strong component-split clue; next step must freeze the formula before testing quark/lepton combined sectors or remove the inherited electron unit anchor.",
+    "canon_allowed": false,
+    "current_promotion": "DENY_CURRENT",
+    "debt9_numeric_spectrum": "OPEN_NOT_CLOSED",
+    "denied_next_step": "Declaring charged leptons derived, closing Debt 9, or using v5.4 as canon because it was selected after v5.3 residual analysis."
+  },
+  "formal_status": "PASS_WITH_EXPLICIT_COMPONENT_SOURCE_LEDGER",
+  "formula_pre_benchmark_fingerprint_sha256": "bbbf68bc7f481e5a0560edd6feeccd7c1570425d853fd10a2cb9c22e60f8e5cc",
+  "frozen_formula": {
+    "boundaries": {
+      "benchmark_targets_used_only_after_fingerprint": true,
+      "canon_allowed": false,
+      "mass_closure_claimed": false,
+      "new_free_parameter_added": false,
+      "observed_masses_used_in_operator": false,
+      "post_v5_3_refinement": true
+    },
+    "formula": {
+      "E_i": "ramanujan_entropy_component_i",
+      "R_i": "ramanujan_resonance_release_component_i",
+      "component_split_gate": "C_i = exp(-R_i) * exp(OIB * L3 * E_i), for i in {mu,tau}",
+      "electron_root": "C_e = 1, electron unit anchor preserved only as inherited unit; not closure",
+      "starting_point": "m_i(v5.4) = m_i(v5.3) * C_i"
+    },
+    "name": "RamanujanComponentSplitLeptonRefinement_v5_4",
+    "role": "component-level refinement of the v5.3 charged-lepton diagnostic using already-frozen tau_v2 Ramanujan components",
+    "source_components": {
+      "L3": "base Collatz clock length for seed 3",
+      "OIB": "ln2/(24*pi), information preference quantum from short-docs",
+      "ramanujan_entropy_component": "from tau_v2 v2.9 table; interpreted as terminal-clock entropy release measured in OIB units over L3=7",
+      "ramanujan_resonance_release_component": "from tau_v2 v2.9 table; interpreted as adjacent-generation resonance damping when nonzero after the electron root"
+    }
+  },
+  "interpretation": {
+    "muon": "Large residual is mainly reduced by the existing Ramanujan resonance-release component, which is nonzero for mu and zero for tau.",
+    "scope": "charged-lepton diagnostic only; no quark-sector or full Debt 9 closure.",
+    "tau": "Tau is corrected by the OIB*L3 Ramanujan entropy release and remains near benchmark."
+  },
+  "mass_closure_claimed": false,
+  "metrics": {
+    "closure_threshold_policy": "Denied: formula introduced after v5.3 residual analysis; electron unit anchor remains inherited; full fermion spectrum/quarks not included; must be re-frozen and cross-sector tested before any closure claim.",
+    "improvement_vs_v5_3_mean_error": 0.21842711952803878,
+    "max_absolute_relative_error_excluding_e_anchor": 0.07542104207483025,
+    "mean_absolute_relative_error_excluding_e_anchor": 0.04247568533503765,
+    "median_absolute_relative_error_excluding_e_anchor": 0.04247568533503765,
+    "passes_numeric_debt9_closure_threshold": false,
+    "v5_3_mean_absolute_relative_error_excluding_e_anchor": 0.26090280486307643
+  },
+  "module": "54_debt9_ramanujan_component_split_lepton_refinement_v5_4",
+  "new_free_parameter_added": false,
+  "observed_targets_used_in_operator": false,
+  "old_solver_used": false,
+  "operator_adjusted_after_scoring": false,
+  "rows": [
+    {
+      "L3_base_clock": 7.0,
+      "OIB_ln2_over_24pi": 0.009193150006360484,
+      "absolute_relative_error": 0.0,
+      "benchmark_mev_post_freeze_scoring_only": 0.51099895,
+      "canon_allowed": false,
+      "component_split_gate": 1.0,
+      "entropy_release_gate": 1.0,
+      "formula_fingerprint_sha256": "bbbf68bc7f481e5a0560edd6feeccd7c1570425d853fd10a2cb9c22e60f8e5cc",
+      "generation": 1,
+      "mass_closure_claimed": false,
+      "predicted_mev_v5_4_diagnostic": 0.51099895,
+      "ramanujan_entropy_component": 0.0,
+      "ramanujan_resonance_release_component": 1.0,
+      "ratio_pred_over_benchmark": 1.0,
+      "resonance_damping_gate": 1.0,
+      "slot": "e",
+      "tau_v2_action": 3.0,
+      "tau_v2_preference_quanta": 326.32993021155795,
+      "v5_3_prediction_input_mev": 0.51099895
+    },
+    {
+      "L3_base_clock": 7.0,
+      "OIB_ln2_over_24pi": 0.009193150006360484,
+      "absolute_relative_error": 0.07542104207483025,
+      "benchmark_mev_post_freeze_scoring_only": 105.6583755,
+      "canon_allowed": false,
+      "component_split_gate": 0.6296434111855002,
+      "entropy_release_gate": 1.016394275105356,
+      "formula_fingerprint_sha256": "bbbf68bc7f481e5a0560edd6feeccd7c1570425d853fd10a2cb9c22e60f8e5cc",
+      "generation": 2,
+      "mass_closure_claimed": false,
+      "predicted_mev_v5_4_diagnostic": 97.68951071585629,
+      "ramanujan_entropy_component": 0.2526934249252932,
+      "ramanujan_resonance_release_component": 0.4788629737609327,
+      "ratio_pred_over_benchmark": 0.9245789579251698,
+      "resonance_damping_gate": 0.6194873649010207,
+      "slot": "mu",
+      "tau_v2_action": 2.4993108747959694,
+      "tau_v2_preference_quanta": 271.86664778305214,
+      "v5_3_prediction_input_mev": 155.15053279430862
+    },
+    {
+      "L3_base_clock": 7.0,
+      "OIB_ln2_over_24pi": 0.009193150006360484,
+      "absolute_relative_error": 0.009530328595245052,
+      "benchmark_mev_post_freeze_scoring_only": 1776.86,
+      "canon_allowed": false,
+      "component_split_gate": 1.0664677827110463,
+      "entropy_release_gate": 1.0664677827110463,
+      "formula_fingerprint_sha256": "bbbf68bc7f481e5a0560edd6feeccd7c1570425d853fd10a2cb9c22e60f8e5cc",
+      "generation": 3,
+      "mass_closure_claimed": false,
+      "predicted_mev_v5_4_diagnostic": 1793.7940596677472,
+      "ramanujan_entropy_component": 1.0,
+      "ramanujan_resonance_release_component": 0.0,
+      "ratio_pred_over_benchmark": 1.009530328595245,
+      "resonance_damping_gate": 1.0,
+      "slot": "tau",
+      "tau_v2_action": 3.5456521927993965,
+      "tau_v2_preference_quanta": 385.6841442102281,
+      "v5_3_prediction_input_mev": 1681.9955452454265
+    }
+  ],
+  "schema": "METATIME_RAMANUJAN_COMPONENT_SPLIT_LEPTON_REFINEMENT_V5_4",
+  "substantive_status": "STRONG_CHARGED_LEPTON_REFINEMENT_DIAGNOSTIC_NOT_CLOSURE",
+  "table_replay_used": false,
+  "taint_ledger": {
+    "PDG_reference_masses_as_inputs": "Not used in operator; benchmark values are post-freeze scoring only.",
+    "benchmark_targets": "Used only after formula fingerprint for scoring.",
+    "electron_unit_anchor": "Still inherited; blocks no-parameter mass closure.",
+    "observed_masses_as_inputs": "Not used.",
+    "post_v5_3_residual_refinement": "This component split was created after inspecting the muon/tau residual pattern; diagnostic only until independently re-frozen and cross-tested."
+  },
+  "technical_status": "PASS"
+}

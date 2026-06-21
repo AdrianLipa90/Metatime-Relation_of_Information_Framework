@@ -1,0 +1,13 @@
+{
+  "gate": "REPAIR1_FORMALIZATION_PASS",
+  "rows_in_dependency_ledger": 29,
+  "dependency_class_counts": {
+    "copied_reference_or_canonical_table": 12,
+    "archive_formula_execution_with_dependency_audit_required": 17
+  },
+  "archive_formulas_rejected_for_being_old": false,
+  "table_lookup_called_emergent": false,
+  "technical_pass_claimed_as_substantive_pass": false,
+  "base_repo": "METATIME_STANDARD_MODEL_DERIVATION_MERGED_REPO_v3_6_NO_NESTED_ZIPS.zip",
+  "principle": "archive formulas are user-owned working formulas; do not reject because old. Use them, but preserve dependency provenance."
+}

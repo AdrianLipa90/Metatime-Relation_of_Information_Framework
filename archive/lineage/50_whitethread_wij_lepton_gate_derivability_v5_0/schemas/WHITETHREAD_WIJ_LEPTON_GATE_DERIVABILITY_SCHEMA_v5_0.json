@@ -1,0 +1,18 @@
+{
+  "schema": "METATIME_WHITETHREAD_WIJ_LEPTON_GATE_DERIVABILITY_V5_0_SCHEMA",
+  "required_fields": [
+    "technical_status",
+    "formal_status",
+    "substantive_status",
+    "mass_prediction_claimed",
+    "benchmark_performed",
+    "rows",
+    "decision",
+    "debt9_numeric_spectrum"
+  ],
+  "promotion_rules": {
+    "large_document_F_table_promoted": false,
+    "canon_allowed": false,
+    "current_promotion": "DENY_CURRENT"
+  }
+}

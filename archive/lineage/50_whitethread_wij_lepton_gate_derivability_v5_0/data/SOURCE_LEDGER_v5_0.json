@@ -1,0 +1,31 @@
+{
+  "schema": "SOURCE_LEDGER_MODULE50_v5_0",
+  "priority": "short docs + White_threads formalism + v4.8 diagnostic table as target only",
+  "sources": [
+    {
+      "source": "step10_identity_holonomy.pdf text extracted in v4.9",
+      "role": "phase torus, Aharonov-Bohm holonomy, spinor identity closure, holonomic residue",
+      "class": "usable_formal_kernel"
+    },
+    {
+      "source": "White_threads.pdf",
+      "role": "W_ij open-path holonomy and H_WT correlation Hamiltonian",
+      "class": "usable_formal_kernel_with_unspecified_amplitude_map"
+    },
+    {
+      "source": "data/2026/01/Standard Model/interpretation.md and Fij toy CSVs",
+      "role": "toy S2 F_ij matrix, promille scale, explicit limitation that effects are too small",
+      "class": "diagnostic_kernel"
+    },
+    {
+      "source": "v4.8 document charged-lepton F table",
+      "role": "target-to-derive only; not promoted as first-principles",
+      "class": "diagnostic_target_tainted"
+    },
+    {
+      "source": "SM_and_M_Theory_generalisation.pdf",
+      "role": "states beta/global calibration and path-integral goal; beta fitted to data so denied as closure",
+      "class": "taint_warning_and_future_goal"
+    }
+  ]
+}

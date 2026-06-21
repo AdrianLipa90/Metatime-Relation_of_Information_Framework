@@ -1,0 +1,6 @@
+pair,E_ratio_b_over_a,action_release_Sa_minus_Sb,OI_log_energy_ratio,interpretation,mass_prediction_claimed
+electron->muon,206.76828298766566,0.04901418717813788,0.04901418717813786,required release in information action under E=E_P exp(-S/OI),False
+electron->tau,3477.228280018971,0.07496086042924405,0.07496086042924409,required release in information action under E=E_P exp(-S/OI),False
+muon->tau,16.81702933242618,0.025946673251106167,0.025946673251106223,required release in information action under E=E_P exp(-S/OI),False
+electron->proton,1836.1526600005734,0.06909045435397299,0.06909045435397301,required release in information action under E=E_P exp(-S/OI),False
+proton->neutron,1.0013784189317538,1.2663286358072234e-05,1.26632863580736e-05,required release in information action under E=E_P exp(-S/OI),False

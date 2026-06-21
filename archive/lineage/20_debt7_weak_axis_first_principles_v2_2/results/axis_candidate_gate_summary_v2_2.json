@@ -1,0 +1,20 @@
+{
+  "gate_id": "DEBT7_WEAK_AXIS_STRUCTURAL_ENUMERATION_v2_2",
+  "gate_type": "structural_enumeration_pass",
+  "premises_used": [
+    "two_pole",
+    "killing_flow",
+    "chirality",
+    "charge_splitting",
+    "mass_gate",
+    "non_arithmetic_selector",
+    "non_connection_only"
+  ],
+  "independent_computation": false,
+  "uses_observed_masses_as_input": false,
+  "status": "PASS",
+  "selected_candidates": [
+    "weak isospin / Bloch quantization axis"
+  ],
+  "note": "Finite structural candidate enumeration; not empirical mass prediction."
+}

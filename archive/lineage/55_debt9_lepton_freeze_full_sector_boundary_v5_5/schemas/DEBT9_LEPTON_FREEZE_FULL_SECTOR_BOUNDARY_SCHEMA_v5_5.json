@@ -1,0 +1,10 @@
+{
+  "allowed_claim": "v5.4 lepton component formula has been frozen as a strong diagnostic; blind universal quark/fermion extension fails.",
+  "must_not_claim": [
+    "Debt 9 closure",
+    "full charged-fermion derivation",
+    "electron unit anchor removal"
+  ],
+  "required_status": "LEPTON_FREEZE_STRONG_FULL_SECTOR_NAIVE_EXTENSION_FAIL",
+  "schema": "METATIME_DEBT9_LEPTON_FREEZE_FULL_SECTOR_BOUNDARY_V5_5"
+}

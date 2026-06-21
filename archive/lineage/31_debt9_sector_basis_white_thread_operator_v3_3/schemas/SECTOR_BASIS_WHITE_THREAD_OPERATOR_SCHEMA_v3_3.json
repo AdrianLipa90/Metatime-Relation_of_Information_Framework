@@ -1,0 +1,29 @@
+{
+  "schema": "METATIME_SM_SECTOR_BASIS_WHITE_THREAD_OPERATOR_SCHEMA_v3_3",
+  "module": "31_debt9_sector_basis_white_thread_operator_v3_3",
+  "observed_masses_used": false,
+  "mass_predictions_allowed": false,
+  "old_fit_values_allowed": false,
+  "information_operator": {
+    "symbol": "ln(2)/(24*pi)",
+    "role": "quantum_of_informational_preference_fluctuation",
+    "free_parameter": false
+  },
+  "sector_primitives": [
+    "charged_lepton",
+    "neutrino",
+    "light_quark",
+    "heavy_quark"
+  ],
+  "basis_primitives": [
+    "lepton_basis",
+    "neutrino_pair_basis",
+    "up_light_basis",
+    "down_light_basis",
+    "up_heavy_basis",
+    "down_heavy_basis"
+  ],
+  "white_thread": "open_path_holonomy_correlation_kernel_shape_only_no_numeric_couplings",
+  "ckm": "relative_Berry_phase_rotation_between_up_and_down_basis_skeleton_no_numeric_matrix",
+  "validation_gate": "PRE_MASS_SECTOR_BASIS_OPERATOR_PASS"
+}

@@ -1,0 +1,10 @@
+family,fermion,generation,assigned_seed,model_generation_action_unit,validation_target_minus_ln_y,validation_target_S_required,order_validation_only
+charged_leptons,e,1,"(3,5)",0.44017743117972435,12.738793456002714,0.11710963914107624,not_used_for_assignment
+charged_leptons,mu,2,"(11,13)",0.4129797750528312,7.407194695596726,0.06809545196293838,not_used_for_assignment
+charged_leptons,tau,3,"(5,7)",0.34380299602647096,4.584802671844862,0.04214877871183216,not_used_for_assignment
+up_type_quarks,u,1,"(3,5)",0.44017743117972435,11.297297490731575,0.10385775049877526,not_used_for_assignment
+up_type_quarks,c,2,"(11,13)",0.4129797750528312,4.920633532975012,0.045236122194966845,not_used_for_assignment
+up_type_quarks,t,3,"(5,7)",0.34380299602647096,0.008152353848933458,7.494581183817554e-05,not_used_for_assignment
+down_type_quarks,d,1,"(3,5)",0.44017743117972435,10.526246640746843,0.09676936437233385,not_used_for_assignment
+down_type_quarks,s,2,"(11,13)",0.4129797750528312,7.530514367192852,0.06922914820265669,not_used_for_assignment
+down_type_quarks,b,3,"(5,7)",0.34380299602647096,3.7293391869088475,0.03428437456985147,not_used_for_assignment

@@ -1,0 +1,33 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "METATIME_RAMANUJAN_OI_LEPTON_NORMALIZER_V5_3",
+  "type": "object",
+  "required": [
+    "schema",
+    "module",
+    "technical_status",
+    "formal_status",
+    "substantive_status",
+    "formula_pre_benchmark_fingerprint_sha256",
+    "rows",
+    "metrics",
+    "decision"
+  ],
+  "properties": {
+    "schema": {
+      "const": "METATIME_RAMANUJAN_OI_LEPTON_NORMALIZER_V5_3"
+    },
+    "mass_closure_claimed": {
+      "const": false
+    },
+    "observed_targets_used_in_operator": {
+      "const": false
+    },
+    "old_solver_used": {
+      "const": false
+    },
+    "table_replay_used": {
+      "const": false
+    }
+  }
+}

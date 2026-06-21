@@ -1,0 +1,4 @@
+slot,generation,predicted_mev_v5_5_frozen_lepton,benchmark_mev_post_freeze_scoring_only,absolute_relative_error,ratio_pred_over_benchmark,component_split_gate,formula_fingerprint_sha256,operator_modified_after_v5_4,mass_closure_claimed,canon_allowed
+e,1,0.51099895,0.51099895,0.0,1.0,1.0,bb5f1bce7ef4bef49ee8162d550e1c1a82d415c6d3c02a706163e6d2fb117b42,False,False,False
+mu,2,97.68951071585629,105.6583755,0.07542104207483025,0.9245789579251698,0.6296434111855002,bb5f1bce7ef4bef49ee8162d550e1c1a82d415c6d3c02a706163e6d2fb117b42,False,False,False
+tau,3,1793.7940596677472,1776.86,0.009530328595245052,1.009530328595245,1.0664677827110463,bb5f1bce7ef4bef49ee8162d550e1c1a82d415c6d3c02a706163e6d2fb117b42,False,False,False

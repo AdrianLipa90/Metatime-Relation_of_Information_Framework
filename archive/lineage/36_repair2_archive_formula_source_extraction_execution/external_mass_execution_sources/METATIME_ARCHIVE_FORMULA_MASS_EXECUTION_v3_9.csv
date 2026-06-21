@@ -1,0 +1,30 @@
+mode,particle,sector,mass_calc,unit,reference,reference_unit,relative_error,factor_error,source,std
+ARCHIVE_CANONICAL_SPECTRUM,e,charged_lepton,0.511,MeV,0.511,MeV,0.0,1.0,MetaTheory archive canonical spectrum table / v3.8 extraction,
+ARCHIVE_CANONICAL_SPECTRUM,mu,charged_lepton,105.7,MeV,105.7,MeV,0.0,1.0,MetaTheory archive canonical spectrum table / v3.8 extraction,
+ARCHIVE_CANONICAL_SPECTRUM,tau,charged_lepton,1776.9,MeV,1776.9,MeV,0.0,1.0,MetaTheory archive canonical spectrum table / v3.8 extraction,
+ARCHIVE_CANONICAL_SPECTRUM,nu1,neutrino,0.001,MeV,0.001,MeV,0.0,1.0,MetaTheory archive canonical spectrum table / v3.8 extraction,
+ARCHIVE_CANONICAL_SPECTRUM,nu2,neutrino,0.008,MeV,0.008,MeV,0.0,1.0,MetaTheory archive canonical spectrum table / v3.8 extraction,
+ARCHIVE_CANONICAL_SPECTRUM,nu3,neutrino,0.05,MeV,0.05,MeV,0.0,1.0,MetaTheory archive canonical spectrum table / v3.8 extraction,
+ARCHIVE_CANONICAL_SPECTRUM,u,light_quark,2.2,MeV,2.2,MeV,0.0,1.0,MetaTheory archive canonical spectrum table / v3.8 extraction,
+ARCHIVE_CANONICAL_SPECTRUM,d,light_quark,4.4,MeV,4.4,MeV,0.0,1.0,MetaTheory archive canonical spectrum table / v3.8 extraction,
+ARCHIVE_CANONICAL_SPECTRUM,s,light_quark,96.0,MeV,96.0,MeV,0.0,1.0,MetaTheory archive canonical spectrum table / v3.8 extraction,
+ARCHIVE_CANONICAL_SPECTRUM,c,heavy_quark,1270.0,MeV,1270.0,MeV,0.0,1.0,MetaTheory archive canonical spectrum table / v3.8 extraction,
+ARCHIVE_CANONICAL_SPECTRUM,b,heavy_quark,4180.0,MeV,4180.0,MeV,0.0,1.0,MetaTheory archive canonical spectrum table / v3.8 extraction,
+ARCHIVE_CANONICAL_SPECTRUM,t,heavy_quark,172760.0,MeV,172760.0,MeV,0.0,1.0,MetaTheory archive canonical spectrum table / v3.8 extraction,
+ARCHIVE_NOPARAMSM_ENSEMBLE,e,fermion,0.511000473017599,MeV,0.5109989461,MeV,2.988103225417267e-06,1.0000029881032255,"NoParamSM/noparamSMsolver.py archived formula, fixed seed execution",6.821109178180643e-05
+ARCHIVE_NOPARAMSM_ENSEMBLE,mu,fermion,105.65853212361435,MeV,105.6583745,MeV,1.4918232000279279e-06,1.0000014918232,"NoParamSM/noparamSMsolver.py archived formula, fixed seed execution",0.007051934618109742
+ARCHIVE_NOPARAMSM_ENSEMBLE,tau,fermion,1776.8613243905934,MeV,1776.86,MeV,7.453544980929501e-07,1.0000007453544981,"NoParamSM/noparamSMsolver.py archived formula, fixed seed execution",0.05929625208316172
+ARCHIVE_NOPARAMSM_ENSEMBLE,u,fermion,2.160006454302967,MeV,2.16,MeV,2.988103225348087e-06,1.0000029881032253,"NoParamSM/noparamSMsolver.py archived formula, fixed seed execution",0.0002883292800761849
+ARCHIVE_NOPARAMSM_ENSEMBLE,d,fermion,4.668878446467293,MeV,4.67,MeV,-0.0002401613560400757,1.0002402190473723,"NoParamSM/noparamSMsolver.py archived formula, fixed seed execution",0.08454725121905561
+ARCHIVE_NOPARAMSM_ENSEMBLE,s,fermion,93.49355699622123,MeV,93.5,MeV,-6.890913132374505e-05,1.0000689138801193,"NoParamSM/noparamSMsolver.py archived formula, fixed seed execution",0.31200146181837396
+ARCHIVE_NOPARAMSM_ENSEMBLE,c,fermion,1270.0,MeV,1270.0,MeV,0.0,1.0,"NoParamSM/noparamSMsolver.py archived formula, fixed seed execution",0.0
+ARCHIVE_NOPARAMSM_ENSEMBLE,b,fermion,4180.0,MeV,4180.0,MeV,0.0,1.0,"NoParamSM/noparamSMsolver.py archived formula, fixed seed execution",0.0
+ARCHIVE_NOPARAMSM_ENSEMBLE,t,fermion,173000.0,MeV,173000.0,MeV,0.0,1.0,"NoParamSM/noparamSMsolver.py archived formula, fixed seed execution",0.0
+ARCHIVE_EXTENDED_MONOLITH_BOSON_ENSEMBLE,W,boson,80121.60005017034,MeV,80377.0,MeV,-0.0031775252849653712,1.003187654136584,"NoParamSM/noparamSMextended.py archived formula, fixed seed execution",5914.990149698626
+ARCHIVE_EXTENDED_MONOLITH_BOSON_ENSEMBLE,Z,boson,90895.43608990703,MeV,91187.0,MeV,-0.0031974284721831983,1.0032076848149403,"NoParamSM/noparamSMextended.py archived formula, fixed seed execution",6710.370346918926
+ARCHIVE_EXTENDED_MONOLITH_BOSON_ENSEMBLE,Higgs,boson,124690.35922813445,MeV,125100.0,MeV,-0.0032745065696686945,1.0032852641888381,"NoParamSM/noparamSMextended.py archived formula, fixed seed execution",9205.286041903382
+ARCHIVE_EXTENDED_MONOLITH_NUCLEON_ENSEMBLE,p,nucleon,939.6970285714644,MeV,938.27208816,MeV,0.0015186857090237781,1.0015186857090237,"NoParamSM/noparamSMextended.py archived formula, fixed seed execution",67.52290560502323
+ARCHIVE_EXTENDED_MONOLITH_NUCLEON_ENSEMBLE,n,nucleon,940.9923250968367,MeV,939.56542052,MeV,0.0015186857090238469,1.001518685709024,"NoParamSM/noparamSMextended.py archived formula, fixed seed execution",67.61598048166316
+ARCHIVE_EXTENDED_MONOLITH_BINDING_ENSEMBLE,16O,binding_per_nucleon,7.698720525234863,MeV_per_nucleon,7.976,MeV_per_nucleon,-0.03476422702672224,1.0360163060675174,"NoParamSM/noparamSMextended.py archived formula, fixed seed execution",0.23261350428135988
+ARCHIVE_EXTENDED_MONOLITH_BINDING_ENSEMBLE,56Fe,binding_per_nucleon,8.81970779512507,MeV_per_nucleon,8.79,MeV_per_nucleon,0.003379726407857988,1.0033797264078579,"NoParamSM/noparamSMextended.py archived formula, fixed seed execution",0.2664836488396988
+ARCHIVE_EXTENDED_MONOLITH_BINDING_ENSEMBLE,208Pb,binding_per_nucleon,7.853529951786771,MeV_per_nucleon,7.867,MeV_per_nucleon,-0.001712221712626012,1.0017151584441546,"NoParamSM/noparamSMextended.py archived formula, fixed seed execution",0.23729100401498326

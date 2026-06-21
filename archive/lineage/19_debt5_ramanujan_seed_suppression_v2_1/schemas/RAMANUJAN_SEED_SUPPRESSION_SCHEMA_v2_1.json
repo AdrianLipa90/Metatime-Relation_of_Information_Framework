@@ -1,0 +1,36 @@
+{
+  "module": "19_debt5_ramanujan_seed_suppression_v2_1",
+  "version": "v2.1",
+  "purpose": "Introduce Ramanujan scaling as a non-fitted gate for suppressing extended twin-prime seed candidates.",
+  "formal_status_terms": [
+    "DEFINITION",
+    "ANSATZ",
+    "LEMMA",
+    "PROOF",
+    "INTERPRETATION",
+    "HYPOTHESIS",
+    "VALIDATION_GATE",
+    "FORMAL_DEBT"
+  ],
+  "inputs_excluded": [
+    "observed charged fermion masses",
+    "observed Yukawa couplings",
+    "CKM fit parameters",
+    "PMNS fit parameters"
+  ],
+  "scaling_layer": {
+    "name": "Ramanujan scaling",
+    "components": [
+      "Hardy-Ramanujan partition entropy",
+      "Ramanujan sum resonance",
+      "information preference kappa"
+    ],
+    "kappa": "ln(2)/(24*pi)",
+    "status": "ANSATZ_WITH_VALIDATION_GATE"
+  },
+  "validation_outputs": [
+    "results/ramanujan_seed_suppression_table_v2_1.csv",
+    "results/ramanujan_seed_suppression_summary_v2_1.json",
+    "results/ramanujan_seed_suppression_validation_v2_1.txt"
+  ]
+}

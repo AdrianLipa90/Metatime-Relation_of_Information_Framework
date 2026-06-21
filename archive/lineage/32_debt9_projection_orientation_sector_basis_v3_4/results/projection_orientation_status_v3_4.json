@@ -1,0 +1,34 @@
+{
+  "module": "METATIME_SM_SECTOR_BASIS_PROJECTION_ORIENTATION_v3_4",
+  "gate": "PRE_MASS_ORIENTATION_OPERATOR_PASS",
+  "uses_observed_masses": false,
+  "uses_observed_CKM_PMNS": false,
+  "uses_old_tau_values": false,
+  "uses_fitted_white_thread_values": false,
+  "information_operator_role": "quantum_of_informational_preference_fluctuation",
+  "old_document_bridge_status": "ansatz_and_quarantine_for_heavy_quark_resonance",
+  "up_down_basis_identity_distance": 1.9844393216063752,
+  "up_down_basis_nontrivial_rotation": true,
+  "mass_rescore_allowed_in_this_module": false,
+  "claims": {
+    "mass_prediction": false,
+    "CKM_numerical_derivation": false,
+    "PMNS_numerical_derivation": false,
+    "sector_basis_orientation_defined": true
+  },
+  "validation_checks": {
+    "all_channel_norms_unit": true,
+    "all_records_no_mass": true,
+    "all_records_no_mixing": true,
+    "up_down_bases_non_identical": true,
+    "has_heavy_quark_resonance_channel": true,
+    "has_light_quark_seed_channel": true,
+    "has_charged_lepton_channel": true,
+    "has_neutrino_quarantine_channel": true
+  },
+  "outputs": [
+    "results/sector_basis_orientation_channels_v3_4.csv",
+    "results/up_down_basis_overlap_matrix_v3_4.csv"
+  ],
+  "validation_pass": true
+}

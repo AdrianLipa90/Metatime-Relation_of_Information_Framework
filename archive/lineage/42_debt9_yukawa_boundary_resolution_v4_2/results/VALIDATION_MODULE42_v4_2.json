@@ -1,0 +1,28 @@
+{
+  "schema": "METATIME_SM_MODULE42_VALIDATION_V4_2",
+  "status": "FAIL",
+  "scope": "active v4.2 module scripts/results plus repo archive hygiene",
+  "checks": {
+    "active_script_executed": true,
+    "result_status_pass": true,
+    "sm_internal_boundary_resolved": true,
+    "numeric_spectrum_not_closed": true,
+    "observed_masses_not_used": true,
+    "reference_spectrum_not_used": true,
+    "old_tau_not_used": true,
+    "mass_prediction_not_made": true,
+    "yukawa_gauge_invariance_pass": true,
+    "anomaly_checks_pass": true,
+    "no_hidden_reference_code_patterns": false,
+    "no_forbidden_reference_mass_tokens": true,
+    "no_nested_archives_in_repo": true
+  },
+  "issues": [
+    {
+      "forbidden_code_hits": {
+        "noparam_import_or_exec": "NoParamSM|noparamSMsolver"
+      }
+    }
+  ],
+  "doctor_verdict": "STOP_CRITICAL"
+}

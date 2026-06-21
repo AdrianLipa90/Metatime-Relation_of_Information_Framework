@@ -1,0 +1,28 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "METATIME_SEALED_CHARGED_LEPTON_RECONSTRUCTION_BENCHMARK_V6_9",
+  "type": "object",
+  "required": [
+    "schema",
+    "technical_status",
+    "formal_status",
+    "substantive_status",
+    "input_policy",
+    "frozen_pipeline",
+    "prediction_rows",
+    "metrics",
+    "decision",
+    "canon_allowed"
+  ],
+  "properties": {
+    "schema": {
+      "type": "string"
+    },
+    "prediction_rows": {
+      "type": "array"
+    },
+    "canon_allowed": {
+      "const": false
+    }
+  }
+}

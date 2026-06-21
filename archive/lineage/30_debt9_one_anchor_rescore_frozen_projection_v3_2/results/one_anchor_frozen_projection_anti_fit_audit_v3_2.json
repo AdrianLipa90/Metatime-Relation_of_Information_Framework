@@ -1,0 +1,32 @@
+{
+  "module": "30_debt9_one_anchor_rescore_frozen_projection_v3_2",
+  "gate_class": "COMPUTATIONAL_STRESS_TEST_PASS_WITH_ANTI_FIT_AUDIT",
+  "base_variant": "EB_MINUS_RAMANUJAN_ZH_CENTER",
+  "electron_anchor_only": true,
+  "observed_masses_used_as_inputs": [
+    "e"
+  ],
+  "v3_1_projection_operator_frozen_before_rescore": true,
+  "old_tau_used": false,
+  "orientations_predeclared_not_fit_selected": [
+    "V26_REFERENCE_NO_V31_PROJECTION",
+    "V31_SUPPRESSION_SIGN",
+    "V31_RELEASE_SIGN",
+    "V31_ABS_SUPPRESSION"
+  ],
+  "reference_median_abs_log_error": 2.6289121852805852,
+  "reference_max_abs_log_error": 5.370476888698751,
+  "best_orientation_by_median_error_diagnostic_only": "V26_REFERENCE_NO_V31_PROJECTION",
+  "best_median_abs_log_error_diagnostic_only": 2.6289121852805852,
+  "best_max_abs_log_error_diagnostic_only": 5.370476888698751,
+  "best_can_be_claimed_as_derivation": false,
+  "reason": "orientation choice is not yet derived from first principles; lower residual alone would be a fit-selection signal",
+  "debt9_status": "OPEN_AFTER_V3_2",
+  "v31_projection_dynamic_range_quanta": 296.68990978465445,
+  "do_not_claim": [
+    "Debt 9 closed",
+    "masses derived",
+    "best orientation canonized by residuals",
+    "CKM/PMNS derived"
+  ]
+}

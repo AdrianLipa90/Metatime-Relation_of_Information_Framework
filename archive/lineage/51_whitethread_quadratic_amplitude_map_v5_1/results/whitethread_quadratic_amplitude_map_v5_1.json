@@ -1,0 +1,103 @@
+{
+  "benchmark_performed": false,
+  "canon_allowed": false,
+  "constants": {
+    "L3_base_collatz_clock": 7.0,
+    "OIB_ln2_over_24pi": 0.009193150006360484,
+    "tau_v2_relative_preference_quanta": {
+      "e": 0.0,
+      "mu": -54.463282428505806,
+      "tau": 59.35421399867016
+    }
+  },
+  "created_utc": "2026-06-21T00:00:00Z",
+  "current_promotion": "DENY_CURRENT",
+  "debt9_numeric_spectrum": "OPEN_NOT_CLOSED",
+  "decision": {
+    "allowed_next_step": "Freeze this root-relative quadratic amplitude map and test it in a single sealed charged-lepton kernel pass, with explicit non-canon status because the map was selected after the v5.0 target audit.",
+    "denied_next_step": "Declaring full all-pair F_ij derived or using the large F table as solver input.",
+    "full_charged_lepton_mass_closure": false,
+    "large_F_table_promoted_as_first_principles": false,
+    "strong_root_F_candidate_promoted_to_next_freeze": true
+  },
+  "diagnostics": {
+    "all_pair_gate_derivation_passes": false,
+    "all_pair_relative_difference_mean_to_document_F_targets": 0.3523790331577287,
+    "interpretation": "The quadratic open-holonomy action explains the two e-root screen/release gates at few-percent level, but it does not derive the full all-pair F table. This suggests a root-relative open path gate rather than a compositional all-pair metric.",
+    "mu_to_tau_allpair_failure": true,
+    "open_path_noncompositionality_ratio_Fem_Fmt_over_Fet": 9.16351160919398e-05,
+    "root_gates_close_to_large_document_F": true,
+    "root_relative_difference_mean_to_document_F_targets": 0.02906642266253331
+  },
+  "formal_status": "PASS_WITH_CANDIDATE_STATUS",
+  "formula": {
+    "L3": "base Collatz clock from orbit length of 3",
+    "OIB": "ln2/(24*pi)",
+    "action": "S_ij = (Delta tau_v2_preference_quanta)^2 / (2 * L3 * DeltaGeneration)",
+    "gate": "F_ij = exp(-OIB * S_ij)",
+    "name": "WhiteThreadQuadraticAmplitudeMap_v5_1",
+    "status": "candidate derived after v5.0 derivability audit; not canon and not a mass-spectrum closure"
+  },
+  "mass_prediction_claimed": false,
+  "module": "51_whitethread_quadratic_amplitude_map_v5_1",
+  "observed_mass_input_used": false,
+  "old_solver_used": false,
+  "operator_candidate_fingerprint_sha256": "ae3f5769b9ea3071839d9dc73d9d87d02c9baa75204580deef614798b5d0a96a",
+  "reference_spectrum_input_used": false,
+  "rows": [
+    {
+      "L3_base_collatz_clock": 7.0,
+      "OIB_ln2_over_24pi": 0.009193150006360484,
+      "delta_generation": 1,
+      "delta_tau_v2_preference_quanta": -54.463282428505806,
+      "derived_quadratic_amplitude_gate": 0.14258769169807442,
+      "document_F_used_as_solver_input": false,
+      "document_diagnostic_F_target_to_explain": 0.145,
+      "from": "e",
+      "mass_prediction_claimed": false,
+      "pair": "e_to_mu",
+      "quadratic_open_holonomy_action_quanta": 211.87493806337065,
+      "relative_difference_to_document_F_target": 0.016636608978797034,
+      "to": "mu"
+    },
+    {
+      "L3_base_collatz_clock": 7.0,
+      "OIB_ln2_over_24pi": 0.009193150006360484,
+      "delta_generation": 2,
+      "delta_tau_v2_preference_quanta": 59.35421399867016,
+      "derived_quadratic_amplitude_gate": 0.3145318633765734,
+      "document_F_used_as_solver_input": false,
+      "document_diagnostic_F_target_to_explain": 0.302,
+      "from": "e",
+      "mass_prediction_claimed": false,
+      "pair": "e_to_tau",
+      "quadratic_open_holonomy_action_quanta": 125.81866854999761,
+      "relative_difference_to_document_F_target": 0.04149623634626959,
+      "to": "tau"
+    },
+    {
+      "L3_base_collatz_clock": 7.0,
+      "OIB_ln2_over_24pi": 0.009193150006360484,
+      "delta_generation": 1,
+      "delta_tau_v2_preference_quanta": 113.81749642717597,
+      "derived_quadratic_amplitude_gate": 0.0002021364079317351,
+      "document_F_used_as_solver_input": false,
+      "document_diagnostic_F_target_to_explain": 0.203,
+      "from": "mu",
+      "mass_prediction_claimed": false,
+      "pair": "mu_to_tau",
+      "quadratic_open_holonomy_action_quanta": 925.3158923535867,
+      "relative_difference_to_document_F_target": 0.9990042541481196,
+      "to": "tau"
+    }
+  ],
+  "schema": "METATIME_WHITETHREAD_QUADRATIC_AMPLITUDE_MAP_V5_1",
+  "substantive_status": "PARTIAL_DERIVATION_CANDIDATE_ROOT_GATES_PASS_ALLPAIR_FAIL",
+  "taint_ledger": {
+    "document_F_targets": "DIAGNOSTIC_TARGETS_ONLY_NOT_SOLVER_INPUTS",
+    "observed_mass_tables": "NOT_USED",
+    "old_solvers": "NOT_USED",
+    "quadratic_action_rule": "CANDIDATE_BUILT_FROM_EXISTING_L3_AND_TAU_V2_AFTER_V5_0_AUDIT"
+  },
+  "technical_status": "PASS"
+}

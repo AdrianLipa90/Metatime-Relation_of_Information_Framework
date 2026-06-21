@@ -1,0 +1,17 @@
+{
+  "schema_id": "METATIME_GATE_TAXONOMY_v2_2",
+  "version": "2.2",
+  "gate_types": {
+    "formal_symbolic_pass": "Checks a theorem/identity/structural ledger; not an independent numerical experiment.",
+    "computational_pass": "Checks generated data, sequences, candidate tables, or calculations.",
+    "structural_enumeration_pass": "Enumerates finite candidates and verifies unique satisfaction of declared constraints."
+  },
+  "required_fields": [
+    "gate_id",
+    "gate_type",
+    "premises_used",
+    "independent_computation",
+    "uses_observed_masses_as_input",
+    "status"
+  ]
+}

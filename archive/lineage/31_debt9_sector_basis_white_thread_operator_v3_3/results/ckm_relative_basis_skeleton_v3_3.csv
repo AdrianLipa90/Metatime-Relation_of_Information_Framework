@@ -1,0 +1,10 @@
+up_fermion,down_fermion,up_basis_axis,down_basis_axis,same_generation,same_sector_family,heavy_bridge,basis_relation_type,white_thread_required,ckm_numeric_value_allowed_here,pdg_input_used
+u,d,up_light_basis,down_light_basis,True,True,False,relative_Berry_phase_rotation_skeleton,False,False,False
+u,s,up_light_basis,down_light_basis,False,True,False,relative_Berry_phase_rotation_skeleton,False,False,False
+u,b,up_light_basis,down_heavy_basis,False,False,True,relative_Berry_phase_rotation_skeleton,True,False,False
+c,d,up_heavy_basis,down_light_basis,False,False,True,relative_Berry_phase_rotation_skeleton,True,False,False
+c,s,up_heavy_basis,down_light_basis,True,False,True,relative_Berry_phase_rotation_skeleton,True,False,False
+c,b,up_heavy_basis,down_heavy_basis,False,True,True,relative_Berry_phase_rotation_skeleton,True,False,False
+t,d,up_heavy_basis,down_light_basis,False,False,True,relative_Berry_phase_rotation_skeleton,True,False,False
+t,s,up_heavy_basis,down_light_basis,False,False,True,relative_Berry_phase_rotation_skeleton,True,False,False
+t,b,up_heavy_basis,down_heavy_basis,True,True,True,relative_Berry_phase_rotation_skeleton,True,False,False

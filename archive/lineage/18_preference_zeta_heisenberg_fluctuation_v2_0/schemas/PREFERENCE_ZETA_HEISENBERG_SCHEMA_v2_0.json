@@ -1,0 +1,54 @@
+{
+  "module": "METATIME_SM_PREFERENCE_ZETA_HEISENBERG_FLUCTUATION_v2_0",
+  "created_utc": "2026-06-19T20:19:16Z",
+  "status": "append_only_update_to_merged_repo",
+  "formal_objects": [
+    {
+      "label": "DEFINITION",
+      "name": "kappa",
+      "value": "ln(2)/(24*pi)",
+      "fit_parameter": false
+    },
+    {
+      "label": "DEFINITION",
+      "name": "preference_functional",
+      "depends_on": [
+        "S_EB",
+        "kappa"
+      ]
+    },
+    {
+      "label": "DEFINITION",
+      "name": "zeta_imaginary_zero_axis",
+      "axis": "critical_line_real_part_1_over_2"
+    },
+    {
+      "label": "DEFINITION",
+      "name": "collatz_terminal_transition_axis",
+      "sequence": [
+        4,
+        2,
+        1,
+        0.5
+      ]
+    },
+    {
+      "label": "ANSATZ",
+      "name": "zeta_heisenberg_fluctuation",
+      "bound": "Delta_theta_zeta * Delta_n_zeta >= kappa/2"
+    },
+    {
+      "label": "HYPOTHESIS",
+      "name": "preference_fluctuation_coupling",
+      "mass_input_used": false
+    }
+  ],
+  "validation_gates": {
+    "no_mass_inputs": true,
+    "kappa_fixed": true,
+    "zeta_as_coherence_not_raw_cost": true,
+    "killing_polar_pair_preserved": true,
+    "collatz_terminal_half_axis_preserved": true,
+    "no_extra_generation_poles_introduced": true
+  }
+}

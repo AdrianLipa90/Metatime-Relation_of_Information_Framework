@@ -1,0 +1,59 @@
+{
+  "version": "v1.1",
+  "kappa": 0.009193150006360484,
+  "zeta_zero_count": 64,
+  "steps_per_seed": 64,
+  "mass_values_used_as_input": false,
+  "minimal_triplet_order_by_zeta_action": [
+    {
+      "seed_p": 3,
+      "seed_q": 5,
+      "zeta_tetrahedral_action_raw_v11": 1.5643039768955407
+    },
+    {
+      "seed_p": 11,
+      "seed_q": 13,
+      "zeta_tetrahedral_action_raw_v11": 1.5806389649006416
+    },
+    {
+      "seed_p": 5,
+      "seed_q": 7,
+      "zeta_tetrahedral_action_raw_v11": 1.6792849776542116
+    }
+  ],
+  "charged_fermion_ordinal_checks": [
+    {
+      "class": "charged_lepton",
+      "generation_action_descending": false,
+      "actions_by_generation": [
+        5.784452425123117,
+        6.024597670221657,
+        5.244521652446212
+      ]
+    },
+    {
+      "class": "down_quark",
+      "generation_action_descending": false,
+      "actions_by_generation": [
+        4.372068894274732,
+        4.612214139373272,
+        3.8321381215978274
+      ]
+    },
+    {
+      "class": "up_quark",
+      "generation_action_descending": false,
+      "actions_by_generation": [
+        4.205402227608065,
+        4.445547472706606,
+        3.6654714549311613
+      ]
+    }
+  ],
+  "open_debts": [
+    "derive final zeta-polar anchor rule from operator spectrum rather than candidate phase assignment",
+    "derive constructive Euler-Berry coherence term",
+    "derive numeric masses, not only ordinal hierarchy",
+    "extend to neutrino sector and mixing"
+  ]
+}

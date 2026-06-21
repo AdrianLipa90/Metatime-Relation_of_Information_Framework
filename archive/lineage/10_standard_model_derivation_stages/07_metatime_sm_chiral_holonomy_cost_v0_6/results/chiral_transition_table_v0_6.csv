@@ -1,0 +1,5 @@
+class,left,right,selector,Y_L,Y_selector,Y_R,T3_L,Q_L,Q_R,hypercharge_residual,electric_charge_residual,color_preserved,status,chiral_cost_v0_6
+charged_lepton,e_L,e_R,H,-1/2,1/2,-1,-1/2,-1,-1,0,0,True,allowed,2
+down_quark,d_L,d_R,H,1/6,1/2,-1/3,-1/2,-1/3,-1/3,0,0,True,allowed,2
+up_quark,u_L,u_R,H_conj,1/6,-1/2,2/3,1/2,2/3,2/3,0,0,True,allowed,2
+neutrino_dirac_optional,nu_L,nu_R,H_conj,-1/2,-1/2,0,1/2,0,0,0,0,True,optional_extension,2

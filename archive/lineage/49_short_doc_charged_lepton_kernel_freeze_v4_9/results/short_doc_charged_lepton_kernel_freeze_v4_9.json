@@ -1,0 +1,100 @@
+{
+  "schema": "METATIME_SHORTDOC_CHARGED_LEPTON_KERNEL_FREEZE_v4_9",
+  "module": "49_short_doc_charged_lepton_kernel_freeze_v4_9",
+  "technical_status": "PASS",
+  "formal_status": "PASS_WITH_STRICT_SHORT_DOC_SOURCE_LEDGER",
+  "substantive_status": "FROZEN_SHORT_DOC_KERNEL_NOT_NUMERIC_CLOSURE",
+  "created_utc": "2026-06-21T00:00:00Z",
+  "constants": {
+    "L3_base": 7,
+    "OIB_ln2_over_24pi": 0.009193150006360484,
+    "legacy_I0_not_used": 0.009,
+    "theta_assignments_rad": {
+      "e": 0.5235987755982988,
+      "mu": 0.7853981633974483,
+      "tau": 1.0471975511965976
+    }
+  },
+  "formula_frozen_before_benchmark": {
+    "strict_F_short": "F_ij = exp((ln2/(24*pi))*(theta_j-theta_i))",
+    "spinor_half_action_gate": "G_i = exp(0.5*(tau_v2_action_i - tau_v2_action_e))",
+    "kernel": "K_i = composite_document_tau_trace_v45_i * F_short(e,i) * G_i",
+    "mass_conversion_to_MeV": "not defined in v4.9",
+    "benchmark": "not performed in v4.9"
+  },
+  "rows": [
+    {
+      "slot": "e",
+      "generation": 1,
+      "theta_rad": 0.5235987755982988,
+      "theta_source": "short F_ij S2 interpretation table",
+      "tau_doc": 4.0,
+      "composite_document_tau_trace_v45": 0.3255828220942553,
+      "origin_class_v45": "clean_document_seed",
+      "F_short_e_to_slot_from_OIB": 1.0,
+      "tau_v2_action_v48": 3.0,
+      "spinor_half_action_gate": 1.0,
+      "short_doc_kernel_value_dimensionless": 0.3255828220942553,
+      "mass_prediction_claimed": false,
+      "benchmark_performed": false,
+      "pdg_reference_input_used": false,
+      "observed_mass_input_used": false,
+      "short_doc_kernel_ratio_to_e": 1.0
+    },
+    {
+      "slot": "mu",
+      "generation": 2,
+      "theta_rad": 0.7853981633974483,
+      "theta_source": "short F_ij S2 interpretation table",
+      "tau_doc": 1.0,
+      "composite_document_tau_trace_v45": 0.15095029799418846,
+      "origin_class_v45": "clean_document_fixed_point",
+      "F_short_e_to_slot_from_OIB": 1.0024096596178969,
+      "tau_v2_action_v48": 2.4993108747959694,
+      "spinor_half_action_gate": 0.7785324836727622,
+      "short_doc_kernel_value_dimensionless": 0.11780289290903755,
+      "mass_prediction_claimed": false,
+      "benchmark_performed": false,
+      "pdg_reference_input_used": false,
+      "observed_mass_input_used": false,
+      "short_doc_kernel_ratio_to_e": 0.3618215855225124
+    },
+    {
+      "slot": "tau",
+      "generation": 3,
+      "theta_rad": 1.0471975511965976,
+      "theta_source": "short F_ij S2 interpretation table",
+      "tau_doc": 10.0,
+      "composite_document_tau_trace_v45": 0.5599641173996479,
+      "origin_class_v45": "document_inconsistency_review",
+      "F_short_e_to_slot_from_OIB": 1.0048251256952678,
+      "tau_v2_action_v48": 3.5456521927993965,
+      "spinor_half_action_gate": 1.3136717727083644,
+      "short_doc_kernel_value_dimensionless": 0.7391584609092521,
+      "mass_prediction_claimed": false,
+      "benchmark_performed": false,
+      "pdg_reference_input_used": false,
+      "observed_mass_input_used": false,
+      "short_doc_kernel_ratio_to_e": 2.270262467026801
+    }
+  ],
+  "short_doc_diagnostic": {
+    "strict_short_doc_Fij_dynamic_range": {
+      "e_to_mu": 1.0024096596178969,
+      "e_to_tau": 1.0048251256952678,
+      "comment": "Promille-scale Fij from short S2/OIB kernel cannot by itself supply large charged-lepton hierarchy."
+    },
+    "large_F_table_status": "diagnostic clue only; not promoted because v4.9 does not rederive large charged-lepton F_ij from first principles",
+    "debt9_numeric_spectrum": "OPEN_NOT_CLOSED"
+  },
+  "taint_ledger": {
+    "Vandermonde_charged_lepton_fit": "DENIED_AS_INPUT",
+    "Formal_SM_mass_replay_or_exact_fit": "DENIED_AS_INPUT",
+    "large_document_F_table_from_MetaTheory_appendix": "DIAGNOSTIC_ONLY_NOT_PROMOTED",
+    "electron_unit_anchor": "NOT_USED_FOR_MASS_CLOSURE_IN_V4_9",
+    "PDG_reference_masses": "NOT_USED"
+  },
+  "canon_allowed": false,
+  "current_promotion": "DENY_CURRENT",
+  "operator_fingerprint_sha256": "7112c8f533e004de3f527e5e41c73654eec28a76f28795f841762aff5576a95a"
+}

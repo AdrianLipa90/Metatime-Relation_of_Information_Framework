@@ -1,0 +1,27 @@
+{
+  "schema_name": "METATIME_SM_FULL_ACTION_SEED_ARBITRATION_v1_0",
+  "status": "technical_derivation_layer_not_numeric_mass_prediction",
+  "reporting_rule": "repo is full technical; chat summaries are descriptive and audio-friendly",
+  "no_observed_mass_input": true,
+  "structural_components": [
+    "tetrahedral_depth",
+    "derived_poincare_disk",
+    "collatz_dynamics",
+    "fibonacci_clock",
+    "kepler_orbital_cost",
+    "spin_half_closure",
+    "information_operator_kappa",
+    "chiral_bridge",
+    "representation_holonomy"
+  ],
+  "generation_assignment_rule": "equal non-fitted average of min-max normalized v0.4, v0.8, and v0.9 structural seed actions over minimal triplet; larger action = stronger damping = lighter generation",
+  "mass_status": "ordinal only; no numerical mass claim",
+  "open_debts": [
+    "zeta_polar_to_tetrahedral_vertex_map",
+    "Euler-Berry constructive coherence term",
+    "absolute mass scale",
+    "CKM/PMNS mixing",
+    "neutrino mass mechanism",
+    "generation-count selection law for excluding extended twin-prime candidates"
+  ]
+}

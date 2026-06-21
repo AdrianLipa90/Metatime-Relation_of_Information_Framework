@@ -1,0 +1,401 @@
+{
+  "created_utc": "2026-06-20T12:36:05Z",
+  "module": "37_repair3_forensic_pdg_reimport_quarantine_v3_7",
+  "scope": "forensic audit of v3.6 Repair2 module 36 against v2.5 quarantine and v2.8/v3.2 anti-fit discipline",
+  "sot_available": false,
+  "canon_allowed": false,
+  "findings": {
+    "archive_canonical_spectrum": "REFERENCE_REPLAY_CONFIRMED",
+    "noparamSMsolver": "PDG_REFERENCE_INPUT_CONFIRMED",
+    "module36_dependency_handling": "DEPENDENCY_STATUS_REPORTED_BUT_NOT_USED_AS_BLOCKER_CONFIRMED",
+    "module36_status": "REGRESSION_FROM_V2_5_AND_V3_2_GUARDS",
+    "debt9": "OPEN_NOT_CLOSED"
+  },
+  "doctor_verdict": "QUARANTINE_MODULE36_DENY_CANON_DENY_CURRENT",
+  "actions": [
+    "Treat ARCHIVE_CANONICAL_SPECTRUM as REFERENCE_TABLE only, never mass execution.",
+    "Treat ARCHIVE_NOPARAMSM_ENSEMBLE and extended monolith outputs as tainted until PDG-free execution is proven.",
+    "Restore dependency class as blocker whenever class indicates PDG/reference/input leakage.",
+    "Keep v3.2 anti-fit discipline: good residuals do not canonize a path selected by or anchored to references."
+  ],
+  "stats": {
+    "ARCHIVE_CANONICAL_SPECTRUM": {
+      "n": 12,
+      "all_mass_calc_equal_reference": true,
+      "equal_count": 12,
+      "max_abs_relative_error": 0.0,
+      "examples": [
+        {
+          "particle": "e",
+          "mass_calc": "0.511",
+          "reference": "0.511",
+          "relative_error": "0.0",
+          "source": "MetaTheory archive canonical spectrum table / v3.8 extraction"
+        },
+        {
+          "particle": "mu",
+          "mass_calc": "105.7",
+          "reference": "105.7",
+          "relative_error": "0.0",
+          "source": "MetaTheory archive canonical spectrum table / v3.8 extraction"
+        },
+        {
+          "particle": "tau",
+          "mass_calc": "1776.9",
+          "reference": "1776.9",
+          "relative_error": "0.0",
+          "source": "MetaTheory archive canonical spectrum table / v3.8 extraction"
+        },
+        {
+          "particle": "nu1",
+          "mass_calc": "0.001",
+          "reference": "0.001",
+          "relative_error": "0.0",
+          "source": "MetaTheory archive canonical spectrum table / v3.8 extraction"
+        },
+        {
+          "particle": "nu2",
+          "mass_calc": "0.008",
+          "reference": "0.008",
+          "relative_error": "0.0",
+          "source": "MetaTheory archive canonical spectrum table / v3.8 extraction"
+        }
+      ]
+    },
+    "ARCHIVE_NOPARAMSM_ENSEMBLE": {
+      "n": 9,
+      "all_mass_calc_equal_reference": false,
+      "equal_count": 3,
+      "max_abs_relative_error": 0.0002401613560400757,
+      "examples": [
+        {
+          "particle": "e",
+          "mass_calc": "0.511000473017599",
+          "reference": "0.5109989461",
+          "relative_error": "2.988103225417267e-06",
+          "source": "NoParamSM/noparamSMsolver.py archived formula, fixed seed execution"
+        },
+        {
+          "particle": "mu",
+          "mass_calc": "105.65853212361435",
+          "reference": "105.6583745",
+          "relative_error": "1.4918232000279279e-06",
+          "source": "NoParamSM/noparamSMsolver.py archived formula, fixed seed execution"
+        },
+        {
+          "particle": "tau",
+          "mass_calc": "1776.8613243905934",
+          "reference": "1776.86",
+          "relative_error": "7.453544980929501e-07",
+          "source": "NoParamSM/noparamSMsolver.py archived formula, fixed seed execution"
+        },
+        {
+          "particle": "u",
+          "mass_calc": "2.160006454302967",
+          "reference": "2.16",
+          "relative_error": "2.988103225348087e-06",
+          "source": "NoParamSM/noparamSMsolver.py archived formula, fixed seed execution"
+        },
+        {
+          "particle": "d",
+          "mass_calc": "4.668878446467293",
+          "reference": "4.67",
+          "relative_error": "-0.0002401613560400757",
+          "source": "NoParamSM/noparamSMsolver.py archived formula, fixed seed execution"
+        }
+      ]
+    },
+    "ARCHIVE_EXTENDED_MONOLITH_BOSON_ENSEMBLE": {
+      "n": 3,
+      "all_mass_calc_equal_reference": false,
+      "equal_count": 0,
+      "max_abs_relative_error": 0.0032745065696686945,
+      "examples": [
+        {
+          "particle": "W",
+          "mass_calc": "80121.60005017034",
+          "reference": "80377.0",
+          "relative_error": "-0.0031775252849653712",
+          "source": "NoParamSM/noparamSMextended.py archived formula, fixed seed execution"
+        },
+        {
+          "particle": "Z",
+          "mass_calc": "90895.43608990703",
+          "reference": "91187.0",
+          "relative_error": "-0.0031974284721831983",
+          "source": "NoParamSM/noparamSMextended.py archived formula, fixed seed execution"
+        },
+        {
+          "particle": "Higgs",
+          "mass_calc": "124690.35922813445",
+          "reference": "125100.0",
+          "relative_error": "-0.0032745065696686945",
+          "source": "NoParamSM/noparamSMextended.py archived formula, fixed seed execution"
+        }
+      ]
+    },
+    "ARCHIVE_EXTENDED_MONOLITH_NUCLEON_ENSEMBLE": {
+      "n": 2,
+      "all_mass_calc_equal_reference": false,
+      "equal_count": 0,
+      "max_abs_relative_error": 0.0015186857090238469,
+      "examples": [
+        {
+          "particle": "p",
+          "mass_calc": "939.6970285714644",
+          "reference": "938.27208816",
+          "relative_error": "0.0015186857090237781",
+          "source": "NoParamSM/noparamSMextended.py archived formula, fixed seed execution"
+        },
+        {
+          "particle": "n",
+          "mass_calc": "940.9923250968367",
+          "reference": "939.56542052",
+          "relative_error": "0.0015186857090238469",
+          "source": "NoParamSM/noparamSMextended.py archived formula, fixed seed execution"
+        }
+      ]
+    },
+    "ARCHIVE_EXTENDED_MONOLITH_BINDING_ENSEMBLE": {
+      "n": 3,
+      "all_mass_calc_equal_reference": false,
+      "equal_count": 0,
+      "max_abs_relative_error": 0.03476422702672224,
+      "examples": [
+        {
+          "particle": "16O",
+          "mass_calc": "7.698720525234863",
+          "reference": "7.976",
+          "relative_error": "-0.03476422702672224",
+          "source": "NoParamSM/noparamSMextended.py archived formula, fixed seed execution"
+        },
+        {
+          "particle": "56Fe",
+          "mass_calc": "8.81970779512507",
+          "reference": "8.79",
+          "relative_error": "0.003379726407857988",
+          "source": "NoParamSM/noparamSMextended.py archived formula, fixed seed execution"
+        },
+        {
+          "particle": "208Pb",
+          "mass_calc": "7.853529951786771",
+          "reference": "7.867",
+          "relative_error": "-0.001712221712626012",
+          "source": "NoParamSM/noparamSMextended.py archived formula, fixed seed execution"
+        }
+      ]
+    }
+  },
+  "uploaded_archive_summary": [
+    {
+      "archive": "/mnt/data/METATIME_STANDARD_MODEL_DERIVATION_MERGED_REPO_v3_6_REPAIR2_NO_NESTED_ZIPS.zip",
+      "label": "v3_6_repair2",
+      "sha256": "fbbe69756008d80c9858bf8e126d903cc0a836a2f97b6c1df31d836d546cb6b9",
+      "file_count": 704,
+      "extracted_files": 704,
+      "nested_archives": [],
+      "nested_count": 0
+    },
+    {
+      "archive": "/mnt/data/Informational-Dynamics-of-Metatime-main.zip",
+      "label": "informational_dynamics",
+      "sha256": "e27e079e3bbfd4174ebb1ccad3f5d1d99563e1f542e7e27f3a93b1556a586a4d",
+      "file_count": 1178,
+      "extracted_files": 956,
+      "nested_archives": [],
+      "nested_count": 0
+    },
+    {
+      "archive": "/mnt/data/Metatime-main.zip",
+      "label": "metatime_main",
+      "sha256": "8affcf938d92ec2ffd507633f6e8fb70353b1eb35cf3489ae48f4d4c05d2e45c",
+      "file_count": 129,
+      "extracted_files": 111,
+      "nested_archives": [],
+      "nested_count": 0
+    },
+    {
+      "archive": "/mnt/data/Download.zip",
+      "label": "download",
+      "sha256": "9379804a8d551214fa289d94dad7290875929a864920083bb85b140349fb478f",
+      "file_count": 44,
+      "extracted_files": 44,
+      "nested_archives": [
+        "step3_preference_normalizer_bundle.zip",
+        "step4_berry_euler_24pi_bundle.zip",
+        "collatz_bloch_fs_corrected_v2_bundle.zip",
+        "step2_block_action_collatz_bundle.zip",
+        "step5_finite_compensation_lemma_bundle.zip",
+        "step6_valuation_word_algebra_bundle.zip",
+        "step7_ramanujan_theta_residue_bundle.zip",
+        "step8_zeta_axis_tetrahedral_c3_bundle.zip",
+        "master_and_step9_threshold_bundle.zip",
+        "step10_identity_holonomy_bundle.zip",
+        "step11_euler_j_functional_bundle.zip",
+        "step12_threshold_lemma_attack_bundle.zip",
+        "step13_first_d_crossing_bundle.zip",
+        "step14_final_closure_bundle.zip",
+        "step15_euler_forced_collatz_ansatz_bundle.zip",
+        "step16_local_closure_dcrossing_bundle.zip",
+        "step17_phase_holonomy_dcrossing_bundle.zip",
+        "step19_holonomic_leakage_stella_bundle.zip",
+        "step21_winding_defect_forcing_bundle.zip"
+      ],
+      "nested_count": 19
+    }
+  ],
+  "download_nested_archive_summary": [
+    {
+      "zip": "/mnt/data/metatime_audit_work/extracted/download/step3_preference_normalizer_bundle.zip",
+      "sha256": "e4428f0773dea7b19f7ec0e5f6eb6e28880c2a58637462698bf7df081d9c43d7",
+      "file_count": 11,
+      "extracted": 11,
+      "nested_count": 0,
+      "nested": []
+    },
+    {
+      "zip": "/mnt/data/metatime_audit_work/extracted/download/step4_berry_euler_24pi_bundle.zip",
+      "sha256": "2bc2070638a8e5676d0b2ff8b9c512f2a7c2293161ed6bebc52a249011a77a4c",
+      "file_count": 8,
+      "extracted": 7,
+      "nested_count": 0,
+      "nested": []
+    },
+    {
+      "zip": "/mnt/data/metatime_audit_work/extracted/download/collatz_bloch_fs_corrected_v2_bundle.zip",
+      "sha256": "d4054d619b89075f5405d4ed4f71b4c141b84fbe13c4d017c3615bb4741b6cf4",
+      "file_count": 25,
+      "extracted": 22,
+      "nested_count": 0,
+      "nested": []
+    },
+    {
+      "zip": "/mnt/data/metatime_audit_work/extracted/download/step2_block_action_collatz_bundle.zip",
+      "sha256": "c6a45cfa2bd0b49e0fc5fc5cc37d1f14cc992bfe72df533aed440a4e3b234097",
+      "file_count": 14,
+      "extracted": 13,
+      "nested_count": 0,
+      "nested": []
+    },
+    {
+      "zip": "/mnt/data/metatime_audit_work/extracted/download/step5_finite_compensation_lemma_bundle.zip",
+      "sha256": "eb6045116e396ba2dd2687c9e7a89b4b68ced9a6627aea0336bd2d18ad70a71e",
+      "file_count": 22,
+      "extracted": 20,
+      "nested_count": 0,
+      "nested": []
+    },
+    {
+      "zip": "/mnt/data/metatime_audit_work/extracted/download/step6_valuation_word_algebra_bundle.zip",
+      "sha256": "db8cda971fa1d5d1959f376a30f118d5df9dd6e3092de7ca1fa9df33bb377c70",
+      "file_count": 18,
+      "extracted": 16,
+      "nested_count": 0,
+      "nested": []
+    },
+    {
+      "zip": "/mnt/data/metatime_audit_work/extracted/download/step7_ramanujan_theta_residue_bundle.zip",
+      "sha256": "4564e58b08ae45a8b6bae5dae09a9c943a24e6adb508b811d0cef12fa87beacb",
+      "file_count": 23,
+      "extracted": 22,
+      "nested_count": 0,
+      "nested": []
+    },
+    {
+      "zip": "/mnt/data/metatime_audit_work/extracted/download/step8_zeta_axis_tetrahedral_c3_bundle.zip",
+      "sha256": "397f2f1f91c4e9caaea2492355fa830df1d1e42c73dd5dce3fb12f1f59ccb49a",
+      "file_count": 15,
+      "extracted": 13,
+      "nested_count": 0,
+      "nested": []
+    },
+    {
+      "zip": "/mnt/data/metatime_audit_work/extracted/download/master_and_step9_threshold_bundle.zip",
+      "sha256": "c108b7e9931ccfc02d91bc2b97f04f6b4dc0a3b81ddd91c60a9623b56ac647c9",
+      "file_count": 23,
+      "extracted": 23,
+      "nested_count": 0,
+      "nested": []
+    },
+    {
+      "zip": "/mnt/data/metatime_audit_work/extracted/download/step10_identity_holonomy_bundle.zip",
+      "sha256": "4a68ab0d27b5acdfde0619bde7e815908becf8ac4a90ebf6ca8dfd4faee3311b",
+      "file_count": 5,
+      "extracted": 5,
+      "nested_count": 0,
+      "nested": []
+    },
+    {
+      "zip": "/mnt/data/metatime_audit_work/extracted/download/step11_euler_j_functional_bundle.zip",
+      "sha256": "e9534303d83ec1a3aa7b6b9c6272892ec9b93a071321408330773fae434c2626",
+      "file_count": 6,
+      "extracted": 5,
+      "nested_count": 0,
+      "nested": []
+    },
+    {
+      "zip": "/mnt/data/metatime_audit_work/extracted/download/step12_threshold_lemma_attack_bundle.zip",
+      "sha256": "118fc02eb85f69da37112d4d6a95ba91988cd533d4ef61f23e6c2c890ca4f2e8",
+      "file_count": 17,
+      "extracted": 15,
+      "nested_count": 0,
+      "nested": []
+    },
+    {
+      "zip": "/mnt/data/metatime_audit_work/extracted/download/step13_first_d_crossing_bundle.zip",
+      "sha256": "5420507f71518d7bcce8a52b9523c177c192de3bdcabb1da57048556fb1717a3",
+      "file_count": 29,
+      "extracted": 27,
+      "nested_count": 0,
+      "nested": []
+    },
+    {
+      "zip": "/mnt/data/metatime_audit_work/extracted/download/step14_final_closure_bundle.zip",
+      "sha256": "6f6c03c34c91255f8e01ed79814977cb110a5e7f32d5c2942aa1dd1b104182ed",
+      "file_count": 8,
+      "extracted": 8,
+      "nested_count": 0,
+      "nested": []
+    },
+    {
+      "zip": "/mnt/data/metatime_audit_work/extracted/download/step15_euler_forced_collatz_ansatz_bundle.zip",
+      "sha256": "664d3e425cf1de7bf1e777bbe12cbdd443ea2cc0c886d8c18841e38080c2225a",
+      "file_count": 14,
+      "extracted": 12,
+      "nested_count": 0,
+      "nested": []
+    },
+    {
+      "zip": "/mnt/data/metatime_audit_work/extracted/download/step16_local_closure_dcrossing_bundle.zip",
+      "sha256": "6a9e6394855f36bbaf2e99f961fba752bd1449a87d02050d849fa5ed84dad137",
+      "file_count": 7,
+      "extracted": 6,
+      "nested_count": 0,
+      "nested": []
+    },
+    {
+      "zip": "/mnt/data/metatime_audit_work/extracted/download/step17_phase_holonomy_dcrossing_bundle.zip",
+      "sha256": "2c2800bffb0b8b04b11360515569ff5f42ccb76abb07f1b2d0f6120711152ed4",
+      "file_count": 4,
+      "extracted": 3,
+      "nested_count": 0,
+      "nested": []
+    },
+    {
+      "zip": "/mnt/data/metatime_audit_work/extracted/download/step19_holonomic_leakage_stella_bundle.zip",
+      "sha256": "7c542784b4af238f2ff332324119836cdb84fdcd8282456e0ff3171f8604f468",
+      "file_count": 11,
+      "extracted": 9,
+      "nested_count": 0,
+      "nested": []
+    },
+    {
+      "zip": "/mnt/data/metatime_audit_work/extracted/download/step21_winding_defect_forcing_bundle.zip",
+      "sha256": "ddf294f665a6793540aff29bbf35cb30b516168718d796e3f5d3a6b555860c04",
+      "file_count": 5,
+      "extracted": 5,
+      "nested_count": 0,
+      "nested": []
+    }
+  ]
+}

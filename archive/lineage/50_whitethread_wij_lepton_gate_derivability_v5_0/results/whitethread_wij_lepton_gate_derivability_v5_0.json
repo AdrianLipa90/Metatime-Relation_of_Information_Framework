@@ -1,0 +1,95 @@
+{
+  "schema": "METATIME_WHITETHREAD_WIJ_LEPTON_GATE_DERIVABILITY_V5_0",
+  "module": "50_whitethread_wij_lepton_gate_derivability_v5_0",
+  "created_utc": "2026-06-21T00:00:00Z",
+  "technical_status": "PASS",
+  "formal_status": "PASS_WITH_STRICT_SOURCE_LEDGER",
+  "substantive_status": "NO_GO_FOR_STRONG_CHARGED_LEPTON_F_PROMOTION",
+  "mass_prediction_claimed": false,
+  "benchmark_performed": false,
+  "observed_mass_input_used": false,
+  "reference_spectrum_input_used": false,
+  "constants": {
+    "OIB_ln2_over_24pi": 0.009193150006360484,
+    "theta_assignments_rad": {
+      "e": 0.5235987755982988,
+      "mu": 0.7853981633974483,
+      "tau": 1.0471975511965976
+    }
+  },
+  "white_thread_source_summary": {
+    "W_ij_form": "W_ij = exp(i integral_gamma_ij A)",
+    "modulus_of_pure_phase_Wij": 1.0,
+    "H_WT_form": "Hermitian correlation-space Hamiltonian with Omega_ij |i><j| + h.c.",
+    "Omega_ij_status": "Omega_ij = Omega0 * f(|W_ij|, delta_arg_W_ij, ...); f is bounded but not explicitly derived in the available short docs",
+    "consequence": "unitary/open-path holonomy gives phase memory; a strong amplitude gate requires an additional explicit map f or path-integral evaluation"
+  },
+  "strict_short_doc_range": {
+    "F_for_delta_theta_pi": {
+      "min": 0.9715319411536059,
+      "max": 1.029302236643492
+    },
+    "F_for_delta_theta_2pi": {
+      "min": 0.9438743126816935,
+      "max": 1.0594630943592953
+    },
+    "interpretation": "Short-doc OIB phase layer can produce only few-percent amplitude variation even across a full torus turn if used directly."
+  },
+  "rows": [
+    {
+      "pair": "e_to_mu",
+      "theta_i_rad": 0.5235987755982988,
+      "theta_j_rad": 0.7853981633974483,
+      "delta_theta_rad": 0.26179938779914946,
+      "strict_short_doc_F": 1.0024096596178969,
+      "document_diagnostic_F_to_derive": 0.145,
+      "ratio_document_to_strict": 0.14465143926812493,
+      "required_OIB_action_quanta_for_document_F": -210.0500410877167,
+      "required_beta_in_exp_beta_OIB_delta_theta": -802.3320560583797,
+      "short_doc_derives_document_F": false,
+      "reason": "strict W_ij/OIB short-doc layer is phase/promille-scale; strong diagnostic F requires extra path-integral/topological amplitude not specified by available short docs"
+    },
+    {
+      "pair": "e_to_tau",
+      "theta_i_rad": 0.5235987755982988,
+      "theta_j_rad": 1.0471975511965976,
+      "delta_theta_rad": 0.5235987755982988,
+      "strict_short_doc_F": 1.0048251256952678,
+      "document_diagnostic_F_to_derive": 0.302,
+      "ratio_document_to_strict": 0.3005498093919948,
+      "required_OIB_action_quanta_for_document_F": -130.2413493502085,
+      "required_beta_in_exp_beta_OIB_delta_theta": -248.74265452852916,
+      "short_doc_derives_document_F": false,
+      "reason": "strict W_ij/OIB short-doc layer is phase/promille-scale; strong diagnostic F requires extra path-integral/topological amplitude not specified by available short docs"
+    },
+    {
+      "pair": "mu_to_tau",
+      "theta_i_rad": 0.7853981633974483,
+      "theta_j_rad": 1.0471975511965976,
+      "delta_theta_rad": 0.26179938779914935,
+      "strict_short_doc_F": 1.0024096596178969,
+      "document_diagnostic_F_to_derive": 0.203,
+      "ratio_document_to_strict": 0.20251201497537494,
+      "required_OIB_action_quanta_for_document_F": -173.44972058947428,
+      "required_beta_in_exp_beta_OIB_delta_theta": -662.5291298333505,
+      "short_doc_derives_document_F": false,
+      "reason": "strict W_ij/OIB short-doc layer is phase/promille-scale; strong diagnostic F requires extra path-integral/topological amplitude not specified by available short docs"
+    }
+  ],
+  "decision": {
+    "large_document_F_table_promoted": false,
+    "strong_F_derivable_from_available_short_docs": false,
+    "allowed_next_step": "derive explicit White-Thread path-integral/amplitude map f before any charged-lepton benchmark or closure claim",
+    "denied_next_step": "using the large F table as a mass solver input or declaring it first-principles without reproducing the integration"
+  },
+  "taint_ledger": {
+    "large_document_F_table": "DIAGNOSTIC_TARGET_ONLY_NOT_PROMOTED",
+    "global_beta_calibration": "DENIED_AS_CLOSURE_IF_FITTED_TO_REFERENCE_DATA",
+    "charged_lepton_polynomial": "DENIED_AS_INPUT",
+    "mass_tables": "NOT_USED"
+  },
+  "debt9_numeric_spectrum": "OPEN_NOT_CLOSED",
+  "canon_allowed": false,
+  "current_promotion": "DENY_CURRENT",
+  "operator_audit_fingerprint_sha256": "9e0dfdd7dc826cf0c8a9be9f8697ea7237c0c592becc725d992974fd84a44538"
+}

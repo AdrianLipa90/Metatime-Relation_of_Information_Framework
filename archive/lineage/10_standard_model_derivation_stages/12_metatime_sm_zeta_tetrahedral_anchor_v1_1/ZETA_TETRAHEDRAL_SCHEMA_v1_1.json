@@ -1,0 +1,29 @@
+{
+  "name": "Zeta-Polar to Tetrahedral Anchor Kernel",
+  "version": "v1.1",
+  "purpose": "Route Riemann zeta zero spectral data into the tetrahedral internal-depth frame before Poincare disk dynamics and mass-action assembly.",
+  "inputs": [
+    "zeta zero imaginary parts gamma_n",
+    "regular tetrahedral frame",
+    "twin-prime seed",
+    "Collatz orbit",
+    "previous v1.0 charged-fermion structural action"
+  ],
+  "outputs": [
+    "zeta_zero_tetrahedral_weights_v1_1.csv",
+    "seed_zeta_tetrahedral_table_v1_1.csv",
+    "charged_fermion_action_with_zeta_v1_1.csv",
+    "zeta_tetrahedral_summary_v1_1.json"
+  ],
+  "constraints": {
+    "observed_masses_used_as_input": false,
+    "tetrahedra_precede_poincare_disk": true,
+    "zeta_layer_precedes_final_mass_prediction": true
+  },
+  "validation_gates": [
+    "ZETA_TABLE_CREATED",
+    "SEED_SPECTRAL_FEATURES_CREATED",
+    "NO_MASS_INPUT",
+    "CHARGED_FERMION_ORDINAL_CHECK"
+  ]
+}

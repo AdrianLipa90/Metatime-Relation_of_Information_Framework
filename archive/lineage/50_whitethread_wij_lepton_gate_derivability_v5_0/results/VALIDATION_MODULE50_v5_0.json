@@ -1,0 +1,13 @@
+{
+  "schema": "VALIDATION_MODULE50_v5_0",
+  "status": "PASS",
+  "errors": [],
+  "checks": [
+    "result exists",
+    "no benchmark",
+    "no mass claim",
+    "large F not promoted",
+    "active executable scan",
+    "nested archive scan"
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "kappa_ln2_over_24pi": 0.009193150006360484,
+  "charged_fermions_checked": 9,
+  "no_input_candidate_status": "stress test only; not a successful mass prediction",
+  "representation_only_rank": 3,
+  "representation_only_columns": [
+    "intercept",
+    "colorless",
+    "colored",
+    "weak_dim_minus_1",
+    "abs_Y",
+    "abs_Q",
+    "T3",
+    "up_type",
+    "down_type",
+    "charged_lepton"
+  ],
+  "representation_only_rmse_on_validation_actions": 3.6754431116831245,
+  "representation_only_max_abs_residual": 5.888603031546407,
+  "full_diagnostic_basis_rank": 7,
+  "full_diagnostic_basis_columns": [
+    "intercept",
+    "log_tau",
+    "abs_log_tau",
+    "log_tau_sq",
+    "colorless",
+    "colored",
+    "weak_dim_minus_1",
+    "abs_Y",
+    "abs_Q",
+    "T3",
+    "generation_index",
+    "up_type",
+    "down_type",
+    "charged_lepton"
+  ],
+  "full_diagnostic_rmse_on_validation_actions": 0.6095917937372675,
+  "full_diagnostic_max_abs_residual": 1.127122618982563,
+  "rank_warning": "Fits using validation targets are diagnostic only. They do not define S_EB.",
+  "mathematical_conclusion": [
+    "Representation data alone are rank-deficient for generation-dependent masses.",
+    "A generation/orbit vector is necessary.",
+    "A pure unit-coefficient action is not sufficient.",
+    "The next required object is an explicit orbit-to-geometry map z_s(k) and a derived Euler-Berry action integral."
+  ]
+}

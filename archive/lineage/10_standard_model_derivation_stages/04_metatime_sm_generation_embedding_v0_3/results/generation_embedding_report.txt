@@ -1,0 +1,10 @@
+Metatime SM Generation Embedding v0.3
+Status: diagnostic, not final canon.
+Observed masses used as input: no.
+
+Top three candidate seeds by low-to-high generation-depth score:
+rank 1: (3,5), score=1.566338
+rank 2: (11,13), score=1.975693
+rank 3: (5,7), score=2.023932
+
+Core result: representation vectors alone cannot distinguish generations; Collatz/Poincare/zeta-depth features provide an independent generation vector.

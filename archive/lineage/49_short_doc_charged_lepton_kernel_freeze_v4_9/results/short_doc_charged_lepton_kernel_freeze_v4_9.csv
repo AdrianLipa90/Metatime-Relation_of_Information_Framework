@@ -1,0 +1,4 @@
+slot,generation,theta_rad,theta_source,tau_doc,composite_document_tau_trace_v45,origin_class_v45,F_short_e_to_slot_from_OIB,tau_v2_action_v48,spinor_half_action_gate,short_doc_kernel_value_dimensionless,mass_prediction_claimed,benchmark_performed,pdg_reference_input_used,observed_mass_input_used,short_doc_kernel_ratio_to_e
+e,1,0.5235987755982988,short F_ij S2 interpretation table,4.0,0.3255828220942553,clean_document_seed,1.0,3.0,1.0,0.3255828220942553,False,False,False,False,1.0
+mu,2,0.7853981633974483,short F_ij S2 interpretation table,1.0,0.15095029799418846,clean_document_fixed_point,1.0024096596178969,2.4993108747959694,0.7785324836727622,0.11780289290903755,False,False,False,False,0.3618215855225124
+tau,3,1.0471975511965976,short F_ij S2 interpretation table,10.0,0.5599641173996479,document_inconsistency_review,1.0048251256952678,3.5456521927993965,1.3136717727083644,0.7391584609092521,False,False,False,False,2.270262467026801

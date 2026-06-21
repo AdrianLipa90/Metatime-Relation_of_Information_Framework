@@ -1,0 +1,4 @@
+generation,seed_p,seed_q,eb_action_kernel_unit_v04,eb_action_kernel_kappa_v04,observed_hierarchy_role,assignment_rule,status
+1,3,5,0.44017743117972435,0.004046617154249624,lightest,rank EB action descending; larger action means stronger exponential suppression,structural_assignment_no_mass_fit
+2,11,13,0.4129797750528312,0.003796585021653686,middle,rank EB action descending; larger action means stronger exponential suppression,structural_assignment_no_mass_fit
+3,5,7,0.34380299602647096,0.003160632515107505,heaviest,rank EB action descending; larger action means stronger exponential suppression,structural_assignment_no_mass_fit

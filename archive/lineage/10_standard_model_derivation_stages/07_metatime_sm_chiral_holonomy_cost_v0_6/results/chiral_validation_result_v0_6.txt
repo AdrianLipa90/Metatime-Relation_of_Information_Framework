@@ -1,0 +1,12 @@
+METATIME SM CHIRAL HOLONOMY COST v0.6
+Observed masses used: NO
+Primitive Yukawa couplings introduced: NO
+Transition balance: -Y_L + Y_selector + Y_R = 0
+
+charged_lepton: residual_Y=0; residual_Q=0; cost=2; status=allowed
+down_quark: residual_Y=0; residual_Q=0; cost=2; status=allowed
+up_quark: residual_Y=0; residual_Q=0; cost=2; status=allowed
+neutrino_dirac_optional: residual_Y=0; residual_Q=0; cost=2; status=optional_extension
+
+PASS: all allowed charged transitions are gauge-balanced and have universal chiral cost 2.
+NOTE: optional Dirac neutrino row is retained as extension hook, not as a promoted mass mechanism.

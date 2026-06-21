@@ -1,0 +1,487 @@
+{
+  "version": "v6.5",
+  "created_at_utc": "2026-06-21T16:56:14.364990+00:00",
+  "module": "65_unit_anchor_ledger_v6_5",
+  "parent_artifact": "METATIME_STANDARD_MODEL_DERIVATION_MERGED_REPO_v6_4_EXACT_TABLE_PROVENANCE_MATRIX_NO_NESTED_ZIPS.zip",
+  "purpose": "Close DEBT-006 by assigning every known mass/unit/scoring anchor a hard status and enforcement rule.",
+  "status_enum": [
+    "ALLOWED_DIMENSIONAL_NORMALIZER",
+    "DERIVED_OPERATOR",
+    "SCORING_ONLY_AFTER_FREEZE",
+    "FORBIDDEN_INPUT_FOR_DERIVATION",
+    "QUARANTINED",
+    "BLOCKED_PENDING_SOURCE_INDEX"
+  ],
+  "role_enum": [
+    "unit_anchor",
+    "mass_anchor",
+    "dimensional_normalizer",
+    "operator_constant",
+    "benchmark_table",
+    "ratio_denominator",
+    "calibration_scale",
+    "target_ledger"
+  ],
+  "anchors": [
+    {
+      "id": "ANCHOR-001",
+      "name": "electron mass as normalization anchor",
+      "symbols": [
+        "m_e",
+        "electron",
+        "0.51099895 MeV"
+      ],
+      "role": "mass_anchor",
+      "status": "FORBIDDEN_INPUT_FOR_DERIVATION",
+      "allowed_as_input_before_freeze": false,
+      "allowed_as_scoring_after_freeze": true,
+      "affected_modules": [
+        "24",
+        "25",
+        "27",
+        "30",
+        "44",
+        "49",
+        "52",
+        "53",
+        "54",
+        "55",
+        "61",
+        "62"
+      ],
+      "reason": "Electron mass may score a frozen prediction but cannot define the lepton scale or absolute S_e in a claimed derivation.",
+      "closure_rule": "v6.7 must derive S_e without reading m_e as an input; only then electron mass may be used for post-freeze scoring.",
+      "debt_links": [
+        "DEBT-006",
+        "DEBT-007"
+      ]
+    },
+    {
+      "id": "ANCHOR-002",
+      "name": "muon and tau measured masses",
+      "symbols": [
+        "m_mu",
+        "m_tau"
+      ],
+      "role": "benchmark_table",
+      "status": "SCORING_ONLY_AFTER_FREEZE",
+      "allowed_as_input_before_freeze": false,
+      "allowed_as_scoring_after_freeze": true,
+      "affected_modules": [
+        "52",
+        "53",
+        "54",
+        "55",
+        "62"
+      ],
+      "reason": "Muon/tau values are legitimate benchmark targets only after the release/action rule is frozen.",
+      "closure_rule": "Any formula using measured muon/tau values before fingerprint freeze is invalidated and quarantined.",
+      "debt_links": [
+        "DEBT-006",
+        "DEBT-007"
+      ]
+    },
+    {
+      "id": "ANCHOR-003",
+      "name": "proton mass as hadron scale denominator",
+      "symbols": [
+        "m_p",
+        "proton",
+        "938.272 MeV"
+      ],
+      "role": "ratio_denominator",
+      "status": "SCORING_ONLY_AFTER_FREEZE",
+      "allowed_as_input_before_freeze": false,
+      "allowed_as_scoring_after_freeze": true,
+      "affected_modules": [
+        "57",
+        "58",
+        "59",
+        "60_hadron_ratio_benchmark_v6_0A"
+      ],
+      "reason": "A proton denominator is allowed for ratio scoring but cannot be the hidden absolute MeV scale for a derivation.",
+      "closure_rule": "Hadron sector must either derive an absolute scale or mark all proton-normalized results as ratio-only.",
+      "debt_links": [
+        "DEBT-006",
+        "DEBT-009"
+      ]
+    },
+    {
+      "id": "ANCHOR-004",
+      "name": "u-quark and c-quark inherited anchors",
+      "symbols": [
+        "m_u",
+        "m_c",
+        "u",
+        "c"
+      ],
+      "role": "mass_anchor",
+      "status": "FORBIDDEN_INPUT_FOR_DERIVATION",
+      "allowed_as_input_before_freeze": false,
+      "allowed_as_scoring_after_freeze": true,
+      "affected_modules": [
+        "24",
+        "30",
+        "56",
+        "57",
+        "60_hadron_ratio_benchmark_v6_0A"
+      ],
+      "reason": "Single-quark masses are not stable observables in isolation and cannot silently anchor hadron predictions.",
+      "closure_rule": "Quark sector must route through explicit confinement / triplet / meson operators before benchmark scoring.",
+      "debt_links": [
+        "DEBT-006",
+        "DEBT-009"
+      ]
+    },
+    {
+      "id": "ANCHOR-005",
+      "name": "Planck energy E0 from accepted dimensional constants",
+      "symbols": [
+        "E_P",
+        "E0",
+        "c",
+        "hbar",
+        "G"
+      ],
+      "role": "dimensional_normalizer",
+      "status": "ALLOWED_DIMENSIONAL_NORMALIZER",
+      "allowed_as_input_before_freeze": true,
+      "allowed_as_scoring_after_freeze": true,
+      "affected_modules": [
+        "61_planck_information_action_ledger_v6_1",
+        "62_lepton_information_action_release_probe_v6_2"
+      ],
+      "reason": "Planck energy supplies dimensional units from non-particle-mass constants; it does not by itself fit the spectrum.",
+      "closure_rule": "Any mass claim still requires independently derived dimensionless information action S_I.",
+      "debt_links": [
+        "DEBT-006",
+        "DEBT-007"
+      ]
+    },
+    {
+      "id": "ANCHOR-006",
+      "name": "Landauer scale kBT ln2 and Schumann quantum h f0",
+      "symbols": [
+        "k_B T ln2",
+        "h f0",
+        "7.83 Hz"
+      ],
+      "role": "dimensional_normalizer",
+      "status": "ALLOWED_DIMENSIONAL_NORMALIZER",
+      "allowed_as_input_before_freeze": true,
+      "allowed_as_scoring_after_freeze": true,
+      "affected_modules": [
+        "60B_information_energy_normalizer_v6_0B"
+      ],
+      "reason": "These are allowed dimensional audit scales, but v6.0B showed they require huge N_eff for MeV masses.",
+      "closure_rule": "May be used only with explicit N_eff ledger and cannot masquerade as a derived particle mass scale.",
+      "debt_links": [
+        "DEBT-006"
+      ]
+    },
+    {
+      "id": "ANCHOR-007",
+      "name": "F_hadron / exact hadron scale candidates",
+      "symbols": [
+        "F_hadron",
+        "hadron scale",
+        "exact baryon table"
+      ],
+      "role": "calibration_scale",
+      "status": "QUARANTINED",
+      "allowed_as_input_before_freeze": false,
+      "allowed_as_scoring_after_freeze": false,
+      "affected_modules": [
+        "58_debt9_hadron_scale_provenance_audit_v5_8",
+        "64_exact_table_replay_pdg_provenance_matrix_v6_4"
+      ],
+      "reason": "Potentially valuable structural evidence, but not usable as an input scale until executable non-mass provenance exists.",
+      "closure_rule": "Promote only after source-derived operator path is demonstrated without benchmark masses.",
+      "debt_links": [
+        "DEBT-005",
+        "DEBT-006",
+        "DEBT-009"
+      ]
+    },
+    {
+      "id": "ANCHOR-008",
+      "name": "PDG / measured particle tables",
+      "symbols": [
+        "PDG",
+        "measured masses",
+        "canonical spectrum"
+      ],
+      "role": "benchmark_table",
+      "status": "SCORING_ONLY_AFTER_FREEZE",
+      "allowed_as_input_before_freeze": false,
+      "allowed_as_scoring_after_freeze": true,
+      "affected_modules": [
+        "37",
+        "44",
+        "52",
+        "55",
+        "60_hadron_ratio_benchmark_v6_0A",
+        "64_exact_table_replay_pdg_provenance_matrix_v6_4"
+      ],
+      "reason": "Measured tables are scoring surfaces, never derivation inputs.",
+      "closure_rule": "All benchmarks must reference a formula fingerprint generated before table read/scoring.",
+      "debt_links": [
+        "DEBT-005",
+        "DEBT-006"
+      ]
+    },
+    {
+      "id": "ANCHOR-009",
+      "name": "v6.1 information-action target ledger generated from measured masses",
+      "symbols": [
+        "S_I target",
+        "target ledger",
+        "Planck action targets"
+      ],
+      "role": "target_ledger",
+      "status": "SCORING_ONLY_AFTER_FREEZE",
+      "allowed_as_input_before_freeze": false,
+      "allowed_as_scoring_after_freeze": true,
+      "affected_modules": [
+        "61_planck_information_action_ledger_v6_1",
+        "62_lepton_information_action_release_probe_v6_2"
+      ],
+      "reason": "The target ledger is a diagnostic inverse map, not an allowed source for deriving S_I.",
+      "closure_rule": "v6.7 must calculate S_I from geometry first, then compare to the target ledger.",
+      "debt_links": [
+        "DEBT-006",
+        "DEBT-007"
+      ]
+    },
+    {
+      "id": "ANCHOR-010",
+      "name": "Information Operator OI = ln2/(24*pi)",
+      "symbols": [
+        "OI",
+        "ln2/(24*pi)"
+      ],
+      "role": "operator_constant",
+      "status": "BLOCKED_PENDING_SOURCE_INDEX",
+      "allowed_as_input_before_freeze": true,
+      "allowed_as_scoring_after_freeze": true,
+      "affected_modules": [
+        "18",
+        "25",
+        "53",
+        "54",
+        "60B",
+        "61",
+        "62"
+      ],
+      "reason": "OI is a project operator, not a mass anchor; v6.5 allows it operationally but leaves document-source indexing to DEBT-011.",
+      "closure_rule": "v6.6/v6.5-next source index must bind OI to source documents and operator provenance.",
+      "debt_links": [
+        "DEBT-006",
+        "DEBT-011"
+      ]
+    },
+    {
+      "id": "ANCHOR-011",
+      "name": "Ramanujan scaling component",
+      "symbols": [
+        "Ramanujan",
+        "R_i",
+        "component split"
+      ],
+      "role": "operator_constant",
+      "status": "BLOCKED_PENDING_SOURCE_INDEX",
+      "allowed_as_input_before_freeze": true,
+      "allowed_as_scoring_after_freeze": true,
+      "affected_modules": [
+        "19",
+        "53",
+        "54"
+      ],
+      "reason": "Ramanujan component is a structural operator, not a unit anchor, but source binding is still owed.",
+      "closure_rule": "Source index must bind the Ramanujan operator to exact documents/fragments before further promotion.",
+      "debt_links": [
+        "DEBT-006",
+        "DEBT-011"
+      ]
+    },
+    {
+      "id": "ANCHOR-012",
+      "name": "sigma(n)/R(n) prime-product hadron carrier",
+      "symbols": [
+        "sigma(n)/n",
+        "prime product",
+        "sigma/R(n)"
+      ],
+      "role": "operator_constant",
+      "status": "BLOCKED_PENDING_SOURCE_INDEX",
+      "allowed_as_input_before_freeze": true,
+      "allowed_as_scoring_after_freeze": true,
+      "affected_modules": [
+        "58",
+        "59",
+        "60_hadron_ratio_benchmark_v6_0A"
+      ],
+      "reason": "This is a structural carrier, not a mass anchor, but hadron scale promotion is blocked until source binding and sector split.",
+      "closure_rule": "Use for frozen ratio hypotheses only until source index and sector split are complete.",
+      "debt_links": [
+        "DEBT-006",
+        "DEBT-009",
+        "DEBT-011"
+      ]
+    }
+  ],
+  "decision_matrix": [
+    {
+      "anchor_id": "ANCHOR-001",
+      "name": "electron mass as normalization anchor",
+      "status": "FORBIDDEN_INPUT_FOR_DERIVATION",
+      "input_policy": "DENY",
+      "scoring_policy": "ALLOW",
+      "blocks_current_promotion": true,
+      "required_next_action": "v6.7 must derive S_e without reading m_e as an input; only then electron mass may be used for post-freeze scoring."
+    },
+    {
+      "anchor_id": "ANCHOR-002",
+      "name": "muon and tau measured masses",
+      "status": "SCORING_ONLY_AFTER_FREEZE",
+      "input_policy": "DENY",
+      "scoring_policy": "ALLOW",
+      "blocks_current_promotion": false,
+      "required_next_action": "Any formula using measured muon/tau values before fingerprint freeze is invalidated and quarantined."
+    },
+    {
+      "anchor_id": "ANCHOR-003",
+      "name": "proton mass as hadron scale denominator",
+      "status": "SCORING_ONLY_AFTER_FREEZE",
+      "input_policy": "DENY",
+      "scoring_policy": "ALLOW",
+      "blocks_current_promotion": false,
+      "required_next_action": "Hadron sector must either derive an absolute scale or mark all proton-normalized results as ratio-only."
+    },
+    {
+      "anchor_id": "ANCHOR-004",
+      "name": "u-quark and c-quark inherited anchors",
+      "status": "FORBIDDEN_INPUT_FOR_DERIVATION",
+      "input_policy": "DENY",
+      "scoring_policy": "ALLOW",
+      "blocks_current_promotion": true,
+      "required_next_action": "Quark sector must route through explicit confinement / triplet / meson operators before benchmark scoring."
+    },
+    {
+      "anchor_id": "ANCHOR-005",
+      "name": "Planck energy E0 from accepted dimensional constants",
+      "status": "ALLOWED_DIMENSIONAL_NORMALIZER",
+      "input_policy": "ALLOW",
+      "scoring_policy": "ALLOW",
+      "blocks_current_promotion": false,
+      "required_next_action": "Any mass claim still requires independently derived dimensionless information action S_I."
+    },
+    {
+      "anchor_id": "ANCHOR-006",
+      "name": "Landauer scale kBT ln2 and Schumann quantum h f0",
+      "status": "ALLOWED_DIMENSIONAL_NORMALIZER",
+      "input_policy": "ALLOW",
+      "scoring_policy": "ALLOW",
+      "blocks_current_promotion": false,
+      "required_next_action": "May be used only with explicit N_eff ledger and cannot masquerade as a derived particle mass scale."
+    },
+    {
+      "anchor_id": "ANCHOR-007",
+      "name": "F_hadron / exact hadron scale candidates",
+      "status": "QUARANTINED",
+      "input_policy": "DENY",
+      "scoring_policy": "DENY",
+      "blocks_current_promotion": true,
+      "required_next_action": "Promote only after source-derived operator path is demonstrated without benchmark masses."
+    },
+    {
+      "anchor_id": "ANCHOR-008",
+      "name": "PDG / measured particle tables",
+      "status": "SCORING_ONLY_AFTER_FREEZE",
+      "input_policy": "DENY",
+      "scoring_policy": "ALLOW",
+      "blocks_current_promotion": false,
+      "required_next_action": "All benchmarks must reference a formula fingerprint generated before table read/scoring."
+    },
+    {
+      "anchor_id": "ANCHOR-009",
+      "name": "v6.1 information-action target ledger generated from measured masses",
+      "status": "SCORING_ONLY_AFTER_FREEZE",
+      "input_policy": "DENY",
+      "scoring_policy": "ALLOW",
+      "blocks_current_promotion": false,
+      "required_next_action": "v6.7 must calculate S_I from geometry first, then compare to the target ledger."
+    },
+    {
+      "anchor_id": "ANCHOR-010",
+      "name": "Information Operator OI = ln2/(24*pi)",
+      "status": "BLOCKED_PENDING_SOURCE_INDEX",
+      "input_policy": "ALLOW",
+      "scoring_policy": "ALLOW",
+      "blocks_current_promotion": true,
+      "required_next_action": "v6.6/v6.5-next source index must bind OI to source documents and operator provenance."
+    },
+    {
+      "anchor_id": "ANCHOR-011",
+      "name": "Ramanujan scaling component",
+      "status": "BLOCKED_PENDING_SOURCE_INDEX",
+      "input_policy": "ALLOW",
+      "scoring_policy": "ALLOW",
+      "blocks_current_promotion": true,
+      "required_next_action": "Source index must bind the Ramanujan operator to exact documents/fragments before further promotion."
+    },
+    {
+      "anchor_id": "ANCHOR-012",
+      "name": "sigma(n)/R(n) prime-product hadron carrier",
+      "status": "BLOCKED_PENDING_SOURCE_INDEX",
+      "input_policy": "ALLOW",
+      "scoring_policy": "ALLOW",
+      "blocks_current_promotion": true,
+      "required_next_action": "Use for frozen ratio hypotheses only until source index and sector split are complete."
+    }
+  ],
+  "debt_delta": {
+    "version": "v6.5",
+    "created_at_utc": "2026-06-21T16:56:14.364990+00:00",
+    "debt_id": "DEBT-006",
+    "name": "unit anchors removal ledger",
+    "previous_status": "ACTIVE_NOW",
+    "new_status": "CLOSED_AS_LEDGER / ENFORCEMENT_ACTIVE",
+    "closure_type": "policy-ledger-installed",
+    "closed_by_module": "65_unit_anchor_ledger_v6_5",
+    "scope": "This closes the process debt that anchors lacked explicit status. It does not derive electron S_e, hadron scale, or spectrum closure.",
+    "remaining_dependent_debts": [
+      "DEBT-007 absolute electron action offset S_e",
+      "DEBT-009 hadron and meson sector split",
+      "DEBT-011 document operator index"
+    ],
+    "rules_installed": [
+      "Mass anchors cannot be used as derivation inputs before formula fingerprint freeze.",
+      "Measured particle tables are scoring-only after freeze.",
+      "Planck E0 is allowed only as dimensional normalizer, not as spectrum proof.",
+      "Quark single-particle anchors are denied for hadron derivation without confinement/triplet/meson operators.",
+      "Unknown provenance scale candidates stay quarantined.",
+      "OI/Ramanujan/sigma-R are operator constants pending source index, not unit anchors."
+    ],
+    "next_queue": [
+      "DEBT-011 document operator index",
+      "DEBT-007 absolute S_e derivation",
+      "DEBT-009 hadron/meson sector split"
+    ]
+  },
+  "global_rules": {
+    "no_measured_mass_as_pre_freeze_input": true,
+    "pdg_tables_scoring_only_after_freeze": true,
+    "planck_e0_allowed_as_dimensional_normalizer_only": true,
+    "single_quark_mass_anchors_for_hadron_derivation_denied": true,
+    "unknown_provenance_scales_quarantined": true,
+    "operator_constants_require_source_index_before_promotion": true
+  },
+  "final_verdict": {
+    "technical": "PASS",
+    "process_debt": "DEBT-006_CLOSED_AS_LEDGER",
+    "substantive": "ANCHOR_POLICY_INSTALLED_NOT_SPECTRUM_CLOSURE",
+    "current_promotion": "DENY_CURRENT",
+    "canon_allowed": false
+  }
+}

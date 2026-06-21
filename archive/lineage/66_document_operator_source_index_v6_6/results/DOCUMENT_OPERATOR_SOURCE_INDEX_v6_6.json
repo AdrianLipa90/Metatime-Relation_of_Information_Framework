@@ -1,0 +1,1200 @@
+{
+  "module": "66_document_operator_source_index_v6_6",
+  "created_utc": "2026-06-21T17:16:09+00:00",
+  "parent_zip": "METATIME_STANDARD_MODEL_DERIVATION_MERGED_REPO_v6_5_UNIT_ANCHOR_LEDGER_NO_NESTED_ZIPS.zip",
+  "parent_sha256": "d3c286bb72d3a3df59b177a7dc3261dfaf36acee9166cbb05b4ea19d7caddd86",
+  "debt_closed_as_index": "DEBT-011",
+  "operator_count": 10,
+  "index": [
+    {
+      "operator_id": "OP-RAMANUJAN",
+      "operator_name": "Ramanujan scaling / suppression",
+      "status": "SOURCE_INDEXED_CONTENT",
+      "policy": "SOURCE_INDEX_REQUIRED_BEFORE_OPERATOR_PROMOTION",
+      "required_for": [
+        "DEBT-011",
+        "DEBT-007",
+        "charged-lepton scaling"
+      ],
+      "content_match_count_sampled": 40,
+      "content_files_count": 85,
+      "filename_files_count": 18,
+      "zone_counts": {
+        "derivation_module": 317,
+        "repo_root_or_other": 15
+      },
+      "priority_evidence": [
+        {
+          "path": "19_debt5_ramanujan_seed_suppression_v2_1/DEBT_LEDGER_UPDATE_v2_1.md",
+          "line": 9,
+          "zone": "derivation_module",
+          "evidence_type": "content",
+          "snippet": "| Debt 5 | extended seed suppression | newly controlled | Ramanujan scaling gate installed; no exact three-generation theorem yet. |"
+        },
+        {
+          "path": "19_debt5_ramanujan_seed_suppression_v2_1/DEBT_LEDGER_UPDATE_v2_1.md",
+          "line": 12,
+          "zone": "derivation_module",
+          "evidence_type": "content",
+          "snippet": "| Debt 8 | mass ratios | open | Requires full action and Ramanujan/zeta-Heisenberg coherence. |"
+        },
+        {
+          "path": "19_debt5_ramanujan_seed_suppression_v2_1/DEBT_LEDGER_UPDATE_v2_1.md",
+          "line": 18,
+          "zone": "derivation_module",
+          "evidence_type": "content",
+          "snippet": "Debt 5 is not erased. It is converted from an unconstrained question into a quantitative validation gate. Extended twin-prime seeds now enter a Ramanujan-scaled quarantine ledger. They are not allowed to become extra generations unless a future theorem shows s"
+        },
+        {
+          "path": "19_debt5_ramanujan_seed_suppression_v2_1/METATIME_SM_DEBT5_RAMANUJAN_SEED_SUPPRESSION_v2_1.md",
+          "line": 1,
+          "zone": "derivation_module",
+          "evidence_type": "content",
+          "snippet": "# METATIME / Standard Model Derivation — Debt 5 Ramanujan Seed Suppression v2.1"
+        },
+        {
+          "path": "19_debt5_ramanujan_seed_suppression_v2_1/METATIME_SM_DEBT5_RAMANUJAN_SEED_SUPPRESSION_v2_1.md",
+          "line": 9,
+          "zone": "derivation_module",
+          "evidence_type": "content",
+          "snippet": "> scaling requires Ramanujan."
+        },
+        {
+          "path": "19_debt5_ramanujan_seed_suppression_v2_1/METATIME_SM_DEBT5_RAMANUJAN_SEED_SUPPRESSION_v2_1.md",
+          "line": 11,
+          "zone": "derivation_module",
+          "evidence_type": "content",
+          "snippet": "Therefore scaling is not allowed to be an arbitrary fitted coefficient. It must be represented by a Ramanujan-type arithmetic/asymptotic layer."
+        },
+        {
+          "path": "19_debt5_ramanujan_seed_suppression_v2_1/METATIME_SM_DEBT5_RAMANUJAN_SEED_SUPPRESSION_v2_1.md",
+          "line": 43,
+          "zone": "derivation_module",
+          "evidence_type": "content",
+          "snippet": "### [ANSATZ] Ramanujan scaling layer"
+        },
+        {
+          "path": "19_debt5_ramanujan_seed_suppression_v2_1/METATIME_SM_DEBT5_RAMANUJAN_SEED_SUPPRESSION_v2_1.md",
+          "line": 45,
+          "zone": "derivation_module",
+          "evidence_type": "content",
+          "snippet": "The suppression of extended seed candidates is controlled by a Ramanujan scaling layer, not by observed masses."
+        },
+        {
+          "path": "19_debt5_ramanujan_seed_suppression_v2_1/METATIME_SM_DEBT5_RAMANUJAN_SEED_SUPPRESSION_v2_1.md",
+          "line": 49,
+          "zone": "derivation_module",
+          "evidence_type": "content",
+          "snippet": "1. a Hardy--Ramanujan asymptotic scale"
+        },
+        {
+          "path": "19_debt5_ramanujan_seed_suppression_v2_1/METATIME_SM_DEBT5_RAMANUJAN_SEED_SUPPRESSION_v2_1.md",
+          "line": 55,
+          "zone": "derivation_module",
+          "evidence_type": "content",
+          "snippet": "2. a Ramanujan-sum resonance diagnostic"
+        },
+        {
+          "path": "19_debt5_ramanujan_seed_suppression_v2_1/METATIME_SM_DEBT5_RAMANUJAN_SEED_SUPPRESSION_v2_1.md",
+          "line": 75,
+          "zone": "derivation_module",
+          "evidence_type": "content",
+          "snippet": "The script `scripts/ramanujan_seed_suppression_v2_1.py` uses only:"
+        },
+        {
+          "path": "19_debt5_ramanujan_seed_suppression_v2_1/METATIME_SM_DEBT5_RAMANUJAN_SEED_SUPPRESSION_v2_1.md",
+          "line": 80,
+          "zone": "derivation_module",
+          "evidence_type": "content",
+          "snippet": "- Hardy--Ramanujan asymptotic scaling,"
+        },
+        {
+          "path": "19_debt5_ramanujan_seed_suppression_v2_1/README.md",
+          "zone": "derivation_module",
+          "evidence_type": "filename"
+        },
+        {
+          "path": "19_debt5_ramanujan_seed_suppression_v2_1/scripts/__pycache__/ramanujan_seed_suppression_v2_1.cpython-313.pyc",
+          "zone": "derivation_module",
+          "evidence_type": "filename"
+        },
+        {
+          "path": "19_debt5_ramanujan_seed_suppression_v2_1/scripts/ramanujan_seed_suppression_v2_1.py",
+          "zone": "derivation_module",
+          "evidence_type": "filename"
+        },
+        {
+          "path": "49_short_doc_charged_lepton_kernel_freeze_v4_9/data/short_doc_texts/step7_ramanujan_theta_residue.pdf.txt",
+          "zone": "derivation_module",
+          "evidence_type": "filename"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "operator_id": "OP-OI",
+      "operator_name": "Information Operator OI = ln2/(24*pi)",
+      "status": "SOURCE_INDEXED_CONTENT",
+      "policy": "SOURCE_INDEX_REQUIRED_BEFORE_OPERATOR_PROMOTION",
+      "required_for": [
+        "DEBT-011",
+        "DEBT-007",
+        "DEBT-006"
+      ],
+      "content_match_count_sampled": 40,
+      "content_files_count": 105,
+      "filename_files_count": 0,
+      "zone_counts": {
+        "derivation_module": 259,
+        "foundational_or_canonical_note": 41,
+        "original_upload_surface": 47,
+        "repo_root_or_other": 3
+      },
+      "priority_evidence": [
+        {
+          "path": "01_foundational_formal_notes/Hamiltonian_fazowo_intencjonalny_podkladka.tex",
+          "line": 57,
+          "zone": "foundational_or_canonical_note",
+          "evidence_type": "content",
+          "snippet": "Ta nota zbiera w jedna, czytelna podkladke robocza model, w ktorym czesc swobodna Hamiltonianu nie jest klasycznym $H_0$ czastki swobodnej, lecz fazowym generatorem intencji/informacji. Geometria fazy jest modelowana jako polaczenie $U(1)$ z wkladami Aharonova"
+        },
+        {
+          "path": "01_foundational_formal_notes/Hamiltonian_fazowo_intencjonalny_podkladka.tex",
+          "line": 84,
+          "zone": "foundational_or_canonical_note",
+          "evidence_type": "content",
+          "snippet": "\\item $H_{\\Phi,\\mathcal I,C,s}$ - fazowy free part: Intention/Information Operator, rytm Collatza, seed twin-prime;"
+        },
+        {
+          "path": "01_foundational_formal_notes/Hamiltonian_fazowo_intencjonalny_podkladka.tex",
+          "line": 95,
+          "zone": "foundational_or_canonical_note",
+          "evidence_type": "content",
+          "snippet": "\\left[\\frac{\\ln2}{24\\pi}\\Wop_s+\\delta\\Iop_{0}(\\tau)\\right]"
+        },
+        {
+          "path": "01_foundational_formal_notes/Hamiltonian_fazowo_intencjonalny_podkladka.tex",
+          "line": 156,
+          "zone": "foundational_or_canonical_note",
+          "evidence_type": "content",
+          "snippet": "\\section{Operator Informacji i Operator Intencji}"
+        },
+        {
+          "path": "01_foundational_formal_notes/Hamiltonian_fazowo_intencjonalny_podkladka.tex",
+          "line": 160,
+          "zone": "foundational_or_canonical_note",
+          "evidence_type": "content",
+          "snippet": "\\boxed{\\kappaI = \\frac{\\ln2}{24\\pi}.}"
+        },
+        {
+          "path": "01_foundational_formal_notes/Hamiltonian_fazowo_intencjonalny_podkladka.tex",
+          "line": 179,
+          "zone": "foundational_or_canonical_note",
+          "evidence_type": "content",
+          "snippet": "Dziedzina operatora to nie wartosc stalej $\\ln2/(24\\pi)$, lecz zbior stanow, na ktorych operator jest legalnie okreslony:"
+        },
+        {
+          "path": "01_foundational_formal_notes/Hamiltonian_fazowo_intencjonalny_podkladka.tex",
+          "line": 371,
+          "zone": "foundational_or_canonical_note",
+          "evidence_type": "content",
+          "snippet": "\\item $\\kappaI=\\ln2/(24\\pi)\\approx 0.009193150006360484$;"
+        },
+        {
+          "path": "01_foundational_formal_notes/Hilbert_Kahler_Phase_Intention_Hamiltonian.tex",
+          "line": 60,
+          "zone": "foundational_or_canonical_note",
+          "evidence_type": "content",
+          "snippet": "\\kappa&:=\\frac{\\ln 2}{24\\pi}, &&\\text{information coupling constant},\\\\"
+        },
+        {
+          "path": "01_foundational_formal_notes/Hilbert_Kahler_Phase_Intention_Hamiltonian.tex",
+          "line": 170,
+          "zone": "foundational_or_canonical_note",
+          "evidence_type": "content",
+          "snippet": "\\boxed{\\hat{\\mathcal I}_s(\\tau,k)=\\kappa\\hat W_s+\\delta\\hat{\\mathcal I}_0(\\tau,k),\\qquad \\kappa=\\frac{\\ln 2}{24\\pi}.}"
+        },
+        {
+          "path": "01_foundational_formal_notes/Hilbert_Kahler_Phase_Intention_Hamiltonian.tex",
+          "line": 421,
+          "zone": "foundational_or_canonical_note",
+          "evidence_type": "content",
+          "snippet": "\\frac{\\hbar}{\\Delta\\tau_k}\\rho_s(k)\\left[\\frac{\\ln2}{24\\pi}\\hat W_s+\\delta\\hat{\\mathcal I}_0(\\tau,k)\\right]"
+        },
+        {
+          "path": "01_foundational_formal_notes/METATIME_COMPLETENESS_AND_PHASE_HAMILTONIAN_AUDIT_20260619.md",
+          "line": 92,
+          "zone": "foundational_or_canonical_note",
+          "evidence_type": "content",
+          "snippet": "\\kappa = \\frac{\\ln 2}{24\\pi},"
+        },
+        {
+          "path": "01_foundational_formal_notes/METATIME_COMPLETENESS_AND_PHASE_HAMILTONIAN_AUDIT_20260619.md",
+          "line": 129,
+          "zone": "foundational_or_canonical_note",
+          "evidence_type": "content",
+          "snippet": "\\frac{\\ln 2}{24\\pi}\\hat W_s"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "operator_id": "OP-COLLATZ",
+      "operator_name": "Collatz dynamics / orbital transition routes",
+      "status": "SOURCE_INDEXED_CONTENT",
+      "policy": "SOURCE_INDEX_REQUIRED_BEFORE_OPERATOR_PROMOTION",
+      "required_for": [
+        "DEBT-011",
+        "DEBT-009",
+        "DEBT-007"
+      ],
+      "content_match_count_sampled": 40,
+      "content_files_count": 191,
+      "filename_files_count": 55,
+      "zone_counts": {
+        "derivation_module": 667,
+        "foundational_or_canonical_note": 181,
+        "original_upload_surface": 144,
+        "repo_root_or_other": 55
+      },
+      "priority_evidence": [
+        {
+          "path": "MANIFEST_REPAIR3_AUDIT_QUARANTINE_v3_7.json",
+          "line": 331,
+          "zone": "repo_root_or_other",
+          "evidence_type": "content",
+          "snippet": "\"path\": \"00_original_metatime/Metatime-main/data/collatzprimetwins.ipynb\","
+        },
+        {
+          "path": "MANIFEST_REPAIR3_AUDIT_QUARANTINE_v3_7.json",
+          "line": 366,
+          "zone": "repo_root_or_other",
+          "evidence_type": "content",
+          "snippet": "\"path\": \"00_original_metatime/Metatime-main/documents/Collatz_emergence (6).pdf\","
+        },
+        {
+          "path": "MANIFEST_REPAIR3_AUDIT_QUARANTINE_v3_7.json",
+          "line": 371,
+          "zone": "repo_root_or_other",
+          "evidence_type": "content",
+          "snippet": "\"path\": \"00_original_metatime/Metatime-main/documents/Collatz_emergence1.pdf\","
+        },
+        {
+          "path": "MANIFEST_REPAIR3_AUDIT_QUARANTINE_v3_7.json",
+          "line": 476,
+          "zone": "repo_root_or_other",
+          "evidence_type": "content",
+          "snippet": "\"path\": \"00_original_metatime/Metatime-main/documents/collatz emergence.pdf\","
+        },
+        {
+          "path": "MANIFEST_REPAIR3_AUDIT_QUARANTINE_v3_7.json",
+          "line": 621,
+          "zone": "repo_root_or_other",
+          "evidence_type": "content",
+          "snippet": "\"path\": \"01_foundational_formal_notes/hilbert_kahler_phase_hamiltonian/figures/collatz_rhythm.pdf\","
+        },
+        {
+          "path": "MANIFEST_REPAIR3_AUDIT_QUARANTINE_v3_7.json",
+          "line": 626,
+          "zone": "repo_root_or_other",
+          "evidence_type": "content",
+          "snippet": "\"path\": \"01_foundational_formal_notes/hilbert_kahler_phase_hamiltonian/figures/poincare_collatz_trajectory.pdf\","
+        },
+        {
+          "path": "MANIFEST_REPAIR3_AUDIT_QUARANTINE_v3_7.json",
+          "line": 761,
+          "zone": "repo_root_or_other",
+          "evidence_type": "content",
+          "snippet": "\"path\": \"01_foundational_formal_notes/hilbert_kahler_phase_hamiltonian/results/collatz_poincare_phase.json\","
+        },
+        {
+          "path": "MANIFEST_REPAIR3_AUDIT_QUARANTINE_v3_7.json",
+          "line": 781,
+          "zone": "repo_root_or_other",
+          "evidence_type": "content",
+          "snippet": "\"path\": \"01_foundational_formal_notes/hilbert_kahler_phase_hamiltonian/scripts/simulate_collatz_poincare.py\","
+        },
+        {
+          "path": "MANIFEST_REPAIR3_AUDIT_QUARANTINE_v3_7.json",
+          "line": 846,
+          "zone": "repo_root_or_other",
+          "evidence_type": "content",
+          "snippet": "\"path\": \"01_foundational_formal_notes/phase_hamiltonian_english_derivations/figures/collatz_orbit.png\","
+        },
+        {
+          "path": "MANIFEST_REPAIR3_AUDIT_QUARANTINE_v3_7.json",
+          "line": 851,
+          "zone": "repo_root_or_other",
+          "evidence_type": "content",
+          "snippet": "\"path\": \"01_foundational_formal_notes/phase_hamiltonian_english_derivations/figures/collatz_rhythm.png\","
+        },
+        {
+          "path": "MANIFEST_REPAIR3_AUDIT_QUARANTINE_v3_7.json",
+          "line": 906,
+          "zone": "repo_root_or_other",
+          "evidence_type": "content",
+          "snippet": "\"path\": \"01_foundational_formal_notes/phase_hamiltonian_english_derivations/results/collatz_phase_result.json\","
+        },
+        {
+          "path": "MANIFEST_REPAIR3_AUDIT_QUARANTINE_v3_7.json",
+          "line": 921,
+          "zone": "repo_root_or_other",
+          "evidence_type": "content",
+          "snippet": "\"path\": \"01_foundational_formal_notes/phase_hamiltonian_english_derivations/scripts/collatz_phase_sim.py\","
+        },
+        {
+          "path": "01_foundational_formal_notes/hilbert_kahler_phase_hamiltonian/figures/collatz_rhythm.pdf",
+          "zone": "foundational_or_canonical_note",
+          "evidence_type": "filename"
+        },
+        {
+          "path": "01_foundational_formal_notes/hilbert_kahler_phase_hamiltonian/figures/poincare_collatz_trajectory.pdf",
+          "zone": "foundational_or_canonical_note",
+          "evidence_type": "filename"
+        },
+        {
+          "path": "01_foundational_formal_notes/hilbert_kahler_phase_hamiltonian/scripts/__pycache__/simulate_collatz_poincare.cpython-313.pyc",
+          "zone": "foundational_or_canonical_note",
+          "evidence_type": "filename"
+        },
+        {
+          "path": "01_foundational_formal_notes/hilbert_kahler_phase_hamiltonian/scripts/simulate_collatz_poincare.py",
+          "zone": "foundational_or_canonical_note",
+          "evidence_type": "filename"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "operator_id": "OP-WHITE-THREAD",
+      "operator_name": "White Thread operator / sector basis",
+      "status": "SOURCE_INDEXED_CONTENT",
+      "policy": "SOURCE_INDEX_REQUIRED_BEFORE_OPERATOR_PROMOTION",
+      "required_for": [
+        "DEBT-011",
+        "DEBT-009",
+        "lepton gate derivability"
+      ],
+      "content_match_count_sampled": 40,
+      "content_files_count": 72,
+      "filename_files_count": 33,
+      "zone_counts": {
+        "derivation_module": 196,
+        "foundational_or_canonical_note": 10,
+        "original_upload_surface": 62,
+        "repo_root_or_other": 34
+      },
+      "priority_evidence": [
+        {
+          "path": "01_foundational_formal_notes/METATIME_COMPLETENESS_AND_PHASE_HAMILTONIAN_AUDIT_20260619.md",
+          "line": 16,
+          "zone": "foundational_or_canonical_note",
+          "evidence_type": "content",
+          "snippet": "4. Berry / White-Thread holonomy,"
+        },
+        {
+          "path": "01_foundational_formal_notes/METATIME_COMPLETENESS_AND_PHASE_HAMILTONIAN_AUDIT_20260619.md",
+          "line": 62,
+          "zone": "foundational_or_canonical_note",
+          "evidence_type": "content",
+          "snippet": "### 3.3 Berry / White-Thread layer"
+        },
+        {
+          "path": "01_foundational_formal_notes/METATIME_COMPLETENESS_AND_PHASE_HAMILTONIAN_AUDIT_20260619.md",
+          "line": 67,
+          "zone": "foundational_or_canonical_note",
+          "evidence_type": "content",
+          "snippet": "- `documents/White_threads.pdf`"
+        },
+        {
+          "path": "01_foundational_formal_notes/METATIME_COMPLETENESS_AND_PHASE_HAMILTONIAN_AUDIT_20260619.md",
+          "line": 71,
+          "zone": "foundational_or_canonical_note",
+          "evidence_type": "content",
+          "snippet": "- `simulations/Toy-Model White-Thread Matrix F_ij #U2014 Next Steps/README.md`"
+        },
+        {
+          "path": "01_foundational_formal_notes/METATIME_COMPLETENESS_AND_PHASE_HAMILTONIAN_AUDIT_20260619.md",
+          "line": 73,
+          "zone": "foundational_or_canonical_note",
+          "evidence_type": "content",
+          "snippet": "Repository claim: Berry holonomies and pairwise White-Thread transport produce correction factors `F_ij` and inter-generational couplings."
+        },
+        {
+          "path": "01_foundational_formal_notes/METATIME_COMPLETENESS_AND_PHASE_HAMILTONIAN_AUDIT_20260619.md",
+          "line": 194,
+          "zone": "foundational_or_canonical_note",
+          "evidence_type": "content",
+          "snippet": "- toy White-Thread modules: OK"
+        },
+        {
+          "path": "MANIFEST_REPAIR3_AUDIT_QUARANTINE_v3_7.json",
+          "line": 466,
+          "zone": "repo_root_or_other",
+          "evidence_type": "content",
+          "snippet": "\"path\": \"00_original_metatime/Metatime-main/documents/White_threads (1).pdf\","
+        },
+        {
+          "path": "MANIFEST_REPAIR3_AUDIT_QUARANTINE_v3_7.json",
+          "line": 471,
+          "zone": "repo_root_or_other",
+          "evidence_type": "content",
+          "snippet": "\"path\": \"00_original_metatime/Metatime-main/documents/White_threads.pdf\","
+        },
+        {
+          "path": "MANIFEST_REPAIR3_AUDIT_QUARANTINE_v3_7.json",
+          "line": 546,
+          "zone": "repo_root_or_other",
+          "evidence_type": "content",
+          "snippet": "\"path\": \"00_original_metatime/Metatime-main/simulations/Toy-Model White-Thread Matrix F_ij #U2014 Next Steps/Module: #U03b2#U2011Calibration.py\","
+        },
+        {
+          "path": "MANIFEST_REPAIR3_AUDIT_QUARANTINE_v3_7.json",
+          "line": 551,
+          "zone": "repo_root_or_other",
+          "evidence_type": "content",
+          "snippet": "\"path\": \"00_original_metatime/Metatime-main/simulations/Toy-Model White-Thread Matrix F_ij #U2014 Next Steps/Module: Berry Monopole A on S#U00b2.py\","
+        },
+        {
+          "path": "MANIFEST_REPAIR3_AUDIT_QUARANTINE_v3_7.json",
+          "line": 556,
+          "zone": "repo_root_or_other",
+          "evidence_type": "content",
+          "snippet": "\"path\": \"00_original_metatime/Metatime-main/simulations/Toy-Model White-Thread Matrix F_ij #U2014 Next Steps/Module: Extend to Full SM Baryons and Mesons.py\","
+        },
+        {
+          "path": "MANIFEST_REPAIR3_AUDIT_QUARANTINE_v3_7.json",
+          "line": 561,
+          "zone": "repo_root_or_other",
+          "evidence_type": "content",
+          "snippet": "\"path\": \"00_original_metatime/Metatime-main/simulations/Toy-Model White-Thread Matrix F_ij #U2014 Next Steps/README.md\","
+        },
+        {
+          "path": "00_original_metatime/Metatime-main/documents/White_threads (1).pdf",
+          "zone": "original_upload_surface",
+          "evidence_type": "filename"
+        },
+        {
+          "path": "00_original_metatime/Metatime-main/documents/White_threads.pdf",
+          "zone": "original_upload_surface",
+          "evidence_type": "filename"
+        },
+        {
+          "path": "00_original_metatime/Metatime-main/simulations/Toy-Model White-Thread Matrix F_ij #U2014 Next Steps/Module: #U03b2#U2011Calibration.py",
+          "zone": "original_upload_surface",
+          "evidence_type": "filename"
+        },
+        {
+          "path": "00_original_metatime/Metatime-main/simulations/Toy-Model White-Thread Matrix F_ij #U2014 Next Steps/Module: Berry Monopole A on S#U00b2.py",
+          "zone": "original_upload_surface",
+          "evidence_type": "filename"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "operator_id": "OP-SIGMA-R",
+      "operator_name": "sigma/R(n), sigma(n)/n prime-product route",
+      "status": "SOURCE_INDEXED_CONTENT",
+      "policy": "SOURCE_INDEX_REQUIRED_BEFORE_HADRON_PROMOTION",
+      "required_for": [
+        "DEBT-011",
+        "DEBT-009",
+        "hadron-scale carrier"
+      ],
+      "content_match_count_sampled": 40,
+      "content_files_count": 19,
+      "filename_files_count": 0,
+      "zone_counts": {
+        "derivation_module": 33,
+        "original_upload_surface": 13,
+        "repo_root_or_other": 1
+      },
+      "priority_evidence": [
+        {
+          "path": "00_original_metatime/Metatime-main/MetaTheory_260218_073120.txt",
+          "line": 2,
+          "zone": "original_upload_surface",
+          "evidence_type": "content",
+          "snippet": "The Standard Model of particle physics and the $\\Lambda$CDM cosmological model contain approximately 30 free parameters, whose values are determined experimentally but lack a fundamental explanation. This work presents a unified theory—Metatime—derived from th"
+        },
+        {
+          "path": "00_original_metatime/Metatime-main/MetaTheory_260218_073120.txt",
+          "line": 21,
+          "zone": "original_upload_surface",
+          "evidence_type": "content",
+          "snippet": "From these axioms, we derive a set of geometric constants: the spectral peaks $\\alpha=1.37$, $\\beta=1.214377$, $\\gamma=1.05$ emerging from the divisor function $R(n)=\\sigma(n)/n$ for odd $n$, the critical radius $R_{\\text{crit}}=1.5403$, and the fundamental in"
+        },
+        {
+          "path": "00_original_metatime/Metatime-main/MetaTheory_260218_073120.txt",
+          "line": 74,
+          "zone": "original_upload_surface",
+          "evidence_type": "content",
+          "snippet": "The number $2$ is not accidental; it corresponds to the divisor function value $R(n)=\\sigma(n)/n$ for a perfect number (e.g., $n=6$ gives $\\sigma(6)/6 = 12/6=2$). It represents a state of complete information closure."
+        },
+        {
+          "path": "00_original_metatime/Metatime-main/MetaTheory_260218_073120.txt",
+          "line": 102,
+          "zone": "original_upload_surface",
+          "evidence_type": "content",
+          "snippet": "The choice is further justified by the divisor function $R(n)=\\sigma(n)/n$. For twin primes, $R(p)$ and $R(p+2)$ are very close to $1$ (since for a prime, $\\sigma(p)=p+1$, so $R(p)=1+1/p$), placing them near the lowest spectral peak $\\gamma=1.05$. This proximi"
+        },
+        {
+          "path": "00_original_metatime/Metatime-main/MetaTheory_260218_073120.txt",
+          "line": 165,
+          "zone": "original_upload_surface",
+          "evidence_type": "content",
+          "snippet": "The three axioms presented in Sec.~\\ref{sec:axioms} determine the fundamental constants of the theory. In this section, we derive the spectral peaks $\\alpha,\\beta,\\gamma$, the critical radius $R_{\\text{crit}}$, and the instability parameter $\\delta$. All of th"
+        },
+        {
+          "path": "00_original_metatime/Metatime-main/MetaTheory_260218_073120.txt",
+          "line": 170,
+          "zone": "original_upload_surface",
+          "evidence_type": "content",
+          "snippet": "The divisor function $\\sigma(n)=\\sum_{d|n} d$ and its normalized version $R(n)=\\sigma(n)/n$ play a central role in number theory. For prime numbers, $R(p)=1+1/p$, approaching $1$ from above. For highly composite numbers, $R(n)$ can become large (e.g., $R(6)=2$"
+        },
+        {
+          "path": "32_debt9_projection_orientation_sector_basis_v3_4/scripts/projection_orientation_operator_v3_4.py",
+          "line": 111,
+          "zone": "derivation_module",
+          "evidence_type": "content",
+          "snippet": "rama = math.tanh(ramanujan_sigma(N) / 20.0)"
+        },
+        {
+          "path": "36_repair2_archive_formula_source_extraction_execution/source_excerpts/SELECTED_ARCHIVE_FORMULA_EXCERPTS_REPAIR2.md",
+          "line": 2400,
+          "zone": "derivation_module",
+          "evidence_type": "content",
+          "snippet": "2: The Standard Model of particle physics and the $\\Lambda$CDM cosmological model contain approximately 30 free parameters, whose values are determined experimentally but lack a fundamental explanation. This work presents a unified theory—Metatime—derived from"
+        },
+        {
+          "path": "36_repair2_archive_formula_source_extraction_execution/source_excerpts/SELECTED_ARCHIVE_FORMULA_EXCERPTS_REPAIR2.md",
+          "line": 2429,
+          "zone": "derivation_module",
+          "evidence_type": "content",
+          "snippet": "21: From these axioms, we derive a set of geometric constants: the spectral peaks $\\alpha=1.37$, $\\beta=1.214377$, $\\gamma=1.05$ emerging from the divisor function $R(n)=\\sigma(n)/n$ for odd $n$, the critical radius $R_{\\text{crit}}=1.5403$, and the fundamenta"
+        },
+        {
+          "path": "58_debt9_hadron_scale_provenance_audit_v5_8/METATIME_SM_DEBT9_HADRON_SCALE_PROVENANCE_AUDIT_v5_8.md",
+          "line": 29,
+          "zone": "derivation_module",
+          "evidence_type": "content",
+          "snippet": "- Prime-product sigma/R(n) route for baryons, including proton `u↔3`, `d↔5`, `n_p=45`, `sigma(45)=78`, `R(45)=1.73`."
+        },
+        {
+          "path": "58_debt9_hadron_scale_provenance_audit_v5_8/METATIME_SM_DEBT9_HADRON_SCALE_PROVENANCE_AUDIT_v5_8.md",
+          "line": 42,
+          "zone": "derivation_module",
+          "evidence_type": "content",
+          "snippet": "`Perfect_numbers_and_rhe_strings.pdf` gives the cleanest next route: baryons as prime products and sigma/R(n) objects, but it explicitly acknowledges mismatch and says harmonic corrections are required."
+        },
+        {
+          "path": "58_debt9_hadron_scale_provenance_audit_v5_8/METATIME_SM_DEBT9_HADRON_SCALE_PROVENANCE_AUDIT_v5_8.md",
+          "line": 50,
+          "zone": "derivation_module",
+          "evidence_type": "content",
+          "snippet": "prime-product sigma/R(n): PRESERVE_AS_CLEAN_NEXT_DERIVATION_ROUTE"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "operator_id": "OP-F-HADRON",
+      "operator_name": "F_hadron / hadron-scale structural candidate",
+      "status": "SOURCE_INDEXED_CONTENT",
+      "policy": "STRUCTURAL_HINT_ONLY_UNTIL_NON_MASS_SCALE_DERIVED",
+      "required_for": [
+        "DEBT-011",
+        "DEBT-009",
+        "DEBT-005"
+      ],
+      "content_match_count_sampled": 40,
+      "content_files_count": 28,
+      "filename_files_count": 14,
+      "zone_counts": {
+        "derivation_module": 74,
+        "original_upload_surface": 3,
+        "repo_root_or_other": 4
+      },
+      "priority_evidence": [
+        {
+          "path": "57_debt9_triplet_hadronization_aggregator_v5_7/METATIME_SM_DEBT9_TRIPLET_HADRONIZATION_AGGREGATOR_v5_7.md",
+          "line": 21,
+          "zone": "derivation_module",
+          "evidence_type": "content",
+          "snippet": "loop defect/curvature from v4.0. It does not assign a MeV hadron scale, because"
+        },
+        {
+          "path": "58_debt9_hadron_scale_provenance_audit_v5_8/METATIME_SM_DEBT9_HADRON_SCALE_PROVENANCE_AUDIT_v5_8.md",
+          "line": 1,
+          "zone": "derivation_module",
+          "evidence_type": "content",
+          "snippet": "# METATIME SM v5.8 — Hadron Scale Provenance Audit"
+        },
+        {
+          "path": "58_debt9_hadron_scale_provenance_audit_v5_8/METATIME_SM_DEBT9_HADRON_SCALE_PROVENANCE_AUDIT_v5_8.md",
+          "line": 26,
+          "zone": "derivation_module",
+          "evidence_type": "content",
+          "snippet": "- `F_hadron` as a geometric mean over quark-pair `F_ij` values."
+        },
+        {
+          "path": "58_debt9_hadron_scale_provenance_audit_v5_8/METATIME_SM_DEBT9_HADRON_SCALE_PROVENANCE_AUDIT_v5_8.md",
+          "line": 36,
+          "zone": "derivation_module",
+          "evidence_type": "content",
+          "snippet": "`SM_and_M_Theory_generalisation.pdf` contains the clean structural `F_hadron` prescription, but its baryon table exactly matches the displayed benchmark values. That is not impossible; it is simply not promotable without executable provenance."
+        },
+        {
+          "path": "58_debt9_hadron_scale_provenance_audit_v5_8/METATIME_SM_DEBT9_HADRON_SCALE_PROVENANCE_AUDIT_v5_8.md",
+          "line": 49,
+          "zone": "derivation_module",
+          "evidence_type": "content",
+          "snippet": "F_hadron geometric mean: PRESERVE_AS_STRUCTURAL_OPERATOR_CANDIDATE"
+        },
+        {
+          "path": "58_debt9_hadron_scale_provenance_audit_v5_8/METATIME_SM_DEBT9_HADRON_SCALE_PROVENANCE_AUDIT_v5_8.md",
+          "line": 57,
+          "zone": "derivation_module",
+          "evidence_type": "content",
+          "snippet": "v5.9 should try to derive a hadron-scale candidate from:"
+        },
+        {
+          "path": "58_debt9_hadron_scale_provenance_audit_v5_8/README.md",
+          "line": 1,
+          "zone": "derivation_module",
+          "evidence_type": "content",
+          "snippet": "# METATIME SM v5.8 — Hadron Scale Provenance Audit"
+        },
+        {
+          "path": "58_debt9_hadron_scale_provenance_audit_v5_8/README.md",
+          "line": 26,
+          "zone": "derivation_module",
+          "evidence_type": "content",
+          "snippet": "- `F_hadron` as a geometric mean over quark-pair `F_ij` values."
+        },
+        {
+          "path": "58_debt9_hadron_scale_provenance_audit_v5_8/README.md",
+          "line": 36,
+          "zone": "derivation_module",
+          "evidence_type": "content",
+          "snippet": "`SM_and_M_Theory_generalisation.pdf` contains the clean structural `F_hadron` prescription, but its baryon table exactly matches the displayed benchmark values. That is not impossible; it is simply not promotable without executable provenance."
+        },
+        {
+          "path": "58_debt9_hadron_scale_provenance_audit_v5_8/README.md",
+          "line": 49,
+          "zone": "derivation_module",
+          "evidence_type": "content",
+          "snippet": "F_hadron geometric mean: PRESERVE_AS_STRUCTURAL_OPERATOR_CANDIDATE"
+        },
+        {
+          "path": "58_debt9_hadron_scale_provenance_audit_v5_8/README.md",
+          "line": 57,
+          "zone": "derivation_module",
+          "evidence_type": "content",
+          "snippet": "v5.9 should try to derive a hadron-scale candidate from:"
+        },
+        {
+          "path": "59_debt9_prime_product_hadron_scale_candidate_v5_9/METATIME_SM_PRIME_PRODUCT_HADRON_SCALE_CANDIDATE_v5_9.md",
+          "line": 3,
+          "zone": "derivation_module",
+          "evidence_type": "content",
+          "snippet": "## Module 59: Prime-product sigma/R(n) hadron-scale candidate freeze"
+        },
+        {
+          "path": "58_debt9_hadron_scale_provenance_audit_v5_8/data/HADRON_SCALE_SOURCE_EXCERPTS_v5_8.json",
+          "zone": "derivation_module",
+          "evidence_type": "filename"
+        },
+        {
+          "path": "58_debt9_hadron_scale_provenance_audit_v5_8/provenance/LINEAGE_FROM_V5_7.md",
+          "zone": "derivation_module",
+          "evidence_type": "filename"
+        },
+        {
+          "path": "58_debt9_hadron_scale_provenance_audit_v5_8/scripts/__pycache__/hadron_scale_provenance_audit_v5_8.cpython-313.pyc",
+          "zone": "derivation_module",
+          "evidence_type": "filename"
+        },
+        {
+          "path": "58_debt9_hadron_scale_provenance_audit_v5_8/scripts/__pycache__/validate_module58_v5_8.cpython-313.pyc",
+          "zone": "derivation_module",
+          "evidence_type": "filename"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "operator_id": "OP-KAPPA-EB",
+      "operator_name": "Euler-Berry / kappa action",
+      "status": "SOURCE_INDEXED_CONTENT",
+      "policy": "SOURCE_INDEX_REQUIRED_BEFORE_ABSOLUTE_ACTION_PROMOTION",
+      "required_for": [
+        "DEBT-011",
+        "DEBT-007",
+        "lepton release"
+      ],
+      "content_match_count_sampled": 40,
+      "content_files_count": 169,
+      "filename_files_count": 19,
+      "zone_counts": {
+        "derivation_module": 584,
+        "foundational_or_canonical_note": 157,
+        "original_upload_surface": 14,
+        "repo_root_or_other": 23
+      },
+      "priority_evidence": [
+        {
+          "path": "01_foundational_formal_notes/Hamiltonian_fazowo_intencjonalny_podkladka.tex",
+          "line": 57,
+          "zone": "foundational_or_canonical_note",
+          "evidence_type": "content",
+          "snippet": "Ta nota zbiera w jedna, czytelna podkladke robocza model, w ktorym czesc swobodna Hamiltonianu nie jest klasycznym $H_0$ czastki swobodnej, lecz fazowym generatorem intencji/informacji. Geometria fazy jest modelowana jako polaczenie $U(1)$ z wkladami Aharonova"
+        },
+        {
+          "path": "01_foundational_formal_notes/Hamiltonian_fazowo_intencjonalny_podkladka.tex",
+          "line": 275,
+          "zone": "foundational_or_canonical_note",
+          "evidence_type": "content",
+          "snippet": "\\section{Euler--Berry constraint: zwiazanie $\\epsilon$, $D$ i fazy}"
+        },
+        {
+          "path": "01_foundational_formal_notes/Hamiltonian_fazowo_intencjonalny_podkladka.tex",
+          "line": 288,
+          "zone": "foundational_or_canonical_note",
+          "evidence_type": "content",
+          "snippet": "Gdy $D_\\Sigma$ jest topologicznie skwantowany, dziala jak indeks defektu/stopien/domkniecie. Faza Euler--Berry jest wtedy:"
+        },
+        {
+          "path": "01_foundational_formal_notes/Hamiltonian_fazowo_intencjonalny_podkladka.tex",
+          "line": 324,
+          "zone": "foundational_or_canonical_note",
+          "evidence_type": "content",
+          "snippet": "Euler--Berry constraint:"
+        },
+        {
+          "path": "01_foundational_formal_notes/Hamiltonian_fazowo_intencjonalny_podkladka.tex",
+          "line": 332,
+          "zone": "foundational_or_canonical_note",
+          "evidence_type": "content",
+          "snippet": "To jest formalny zapis zdania: \\textbf{Euler--Berry constraint wiaze epsilon, $D$ i ogolna faze}. Jesli $D$ zmienia sie o jeden sektor, faza przesuwa sie o kwant $2\\pi$ albo $\\pi$ w sektorze spinowym $1/2$, a dopuszczalnosc stanu zalezy od tego, czy calosc dom"
+        },
+        {
+          "path": "01_foundational_formal_notes/Hamiltonian_fazowo_intencjonalny_podkladka.tex",
+          "line": 360,
+          "zone": "foundational_or_canonical_note",
+          "evidence_type": "content",
+          "snippet": "\\item przeskanowac Euler--Berry closure error $\\epsilon(D)$;"
+        },
+        {
+          "path": "01_foundational_formal_notes/Hamiltonian_fazowo_intencjonalny_podkladka.tex",
+          "line": 406,
+          "zone": "foundational_or_canonical_note",
+          "evidence_type": "content",
+          "snippet": "\\caption{Skan defektu domkniecia $|\\epsilon|$ wzgledem sektora Euler--Berry $D$.}"
+        },
+        {
+          "path": "01_foundational_formal_notes/Hamiltonian_fazowo_intencjonalny_podkladka.tex",
+          "line": 428,
+          "zone": "foundational_or_canonical_note",
+          "evidence_type": "content",
+          "snippet": "\\item Przepisac Euler--Berry constraint jako test Doctor/Guard: $|\\epsilon|\\le\\epsilon_\\star$."
+        },
+        {
+          "path": "01_foundational_formal_notes/Hamiltonian_fazowo_intencjonalny_podkladka.tex",
+          "line": 435,
+          "zone": "foundational_or_canonical_note",
+          "evidence_type": "content",
+          "snippet": "\\section{Kod: Collatz phase i Euler--Berry epsilon scan}"
+        },
+        {
+          "path": "01_foundational_formal_notes/Hilbert_Kahler_Phase_Intention_Hamiltonian.tex",
+          "line": 60,
+          "zone": "foundational_or_canonical_note",
+          "evidence_type": "content",
+          "snippet": "\\kappa&:=\\frac{\\ln 2}{24\\pi}, &&\\text{information coupling constant},\\\\"
+        },
+        {
+          "path": "01_foundational_formal_notes/Hilbert_Kahler_Phase_Intention_Hamiltonian.tex",
+          "line": 170,
+          "zone": "foundational_or_canonical_note",
+          "evidence_type": "content",
+          "snippet": "\\boxed{\\hat{\\mathcal I}_s(\\tau,k)=\\kappa\\hat W_s+\\delta\\hat{\\mathcal I}_0(\\tau,k),\\qquad \\kappa=\\frac{\\ln 2}{24\\pi}.}"
+        },
+        {
+          "path": "01_foundational_formal_notes/Hilbert_Kahler_Phase_Intention_Hamiltonian.tex",
+          "line": 181,
+          "zone": "foundational_or_canonical_note",
+          "evidence_type": "content",
+          "snippet": "The Euler--Berry closure is not left as an abstract degree plus arbitrary defect.  In this formulation it is fixed by two physical-symbolic sectors:"
+        },
+        {
+          "path": "02_canonical_freezes_and_audits/metatime_eulerberry_freeze_v0_1/METATIME_EULERBERRY_FREEZE_v0_1.json",
+          "zone": "foundational_or_canonical_note",
+          "evidence_type": "filename"
+        },
+        {
+          "path": "02_canonical_freezes_and_audits/metatime_eulerberry_freeze_v0_1/METATIME_EULERBERRY_FREEZE_v0_1.md",
+          "zone": "foundational_or_canonical_note",
+          "evidence_type": "filename"
+        },
+        {
+          "path": "02_canonical_freezes_and_audits/metatime_eulerberry_freeze_v0_1/OPEN_DERIVATION_DEBTS.md",
+          "zone": "foundational_or_canonical_note",
+          "evidence_type": "filename"
+        },
+        {
+          "path": "02_canonical_freezes_and_audits/metatime_eulerberry_freeze_v0_1/README.md",
+          "zone": "foundational_or_canonical_note",
+          "evidence_type": "filename"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "operator_id": "OP-TWIN-PRIME",
+      "operator_name": "twin-prime / p+1 seed axis",
+      "status": "SOURCE_INDEXED_CONTENT",
+      "policy": "SOURCE_INDEX_REQUIRED_BEFORE_OPERATOR_PROMOTION",
+      "required_for": [
+        "DEBT-011",
+        "source-axis grammar"
+      ],
+      "content_match_count_sampled": 40,
+      "content_files_count": 122,
+      "filename_files_count": 13,
+      "zone_counts": {
+        "derivation_module": 230,
+        "foundational_or_canonical_note": 83,
+        "original_upload_surface": 76,
+        "repo_root_or_other": 9
+      },
+      "priority_evidence": [
+        {
+          "path": "01_foundational_formal_notes/Hamiltonian_fazowo_intencjonalny_podkladka.tex",
+          "line": 48,
+          "zone": "foundational_or_canonical_note",
+          "evidence_type": "content",
+          "snippet": "\\large Aharonov--Bohm, Berry, Euler, Intention Operator, rytm Collatza i seed free twin primes}"
+        },
+        {
+          "path": "01_foundational_formal_notes/Hamiltonian_fazowo_intencjonalny_podkladka.tex",
+          "line": 57,
+          "zone": "foundational_or_canonical_note",
+          "evidence_type": "content",
+          "snippet": "Ta nota zbiera w jedna, czytelna podkladke robocza model, w ktorym czesc swobodna Hamiltonianu nie jest klasycznym $H_0$ czastki swobodnej, lecz fazowym generatorem intencji/informacji. Geometria fazy jest modelowana jako polaczenie $U(1)$ z wkladami Aharonova"
+        },
+        {
+          "path": "01_foundational_formal_notes/Hamiltonian_fazowo_intencjonalny_podkladka.tex",
+          "line": 84,
+          "zone": "foundational_or_canonical_note",
+          "evidence_type": "content",
+          "snippet": "\\item $H_{\\Phi,\\mathcal I,C,s}$ - fazowy free part: Intention/Information Operator, rytm Collatza, seed twin-prime;"
+        },
+        {
+          "path": "01_foundational_formal_notes/Hamiltonian_fazowo_intencjonalny_podkladka.tex",
+          "line": 86,
+          "zone": "foundational_or_canonical_note",
+          "evidence_type": "content",
+          "snippet": "\\item $s=(p,p+2)$ - seed free twin primes."
+        },
+        {
+          "path": "01_foundational_formal_notes/Hamiltonian_fazowo_intencjonalny_podkladka.tex",
+          "line": 112,
+          "zone": "foundational_or_canonical_note",
+          "evidence_type": "content",
+          "snippet": "gdzie $L_s$ jest wiazka liniowa zależna od seeda twin-prime $s$."
+        },
+        {
+          "path": "01_foundational_formal_notes/Hamiltonian_fazowo_intencjonalny_podkladka.tex",
+          "line": 196,
+          "zone": "foundational_or_canonical_note",
+          "evidence_type": "content",
+          "snippet": "\\section{Twin-prime seed i rytm Collatza/Kolaca}"
+        },
+        {
+          "path": "01_foundational_formal_notes/Hamiltonian_fazowo_intencjonalny_podkladka.tex",
+          "line": 359,
+          "zone": "foundational_or_canonical_note",
+          "evidence_type": "content",
+          "snippet": "\\item sprawdzic, czy rytm Collatza z twin-prime seeda daje dobrze policzalna faze;"
+        },
+        {
+          "path": "01_foundational_formal_notes/Hamiltonian_fazowo_intencjonalny_podkladka.tex",
+          "line": 400,
+          "zone": "foundational_or_canonical_note",
+          "evidence_type": "content",
+          "snippet": "\\caption{Skumulowana faza intencyjna z twin-prime seeda $(11,13)$ i rytmu Collatza.}"
+        },
+        {
+          "path": "01_foundational_formal_notes/Hilbert_Kahler_Phase_Intention_Hamiltonian.tex",
+          "line": 37,
+          "zone": "foundational_or_canonical_note",
+          "evidence_type": "content",
+          "snippet": "\\title{A Phase-First Hamiltonian from Hilbert-Kahler Geometry,\\ Bloch-Sphere Holonomy, Zeta-Polar Tetrahedral Depth,\\ and Twin-Prime Collatz Dynamics}"
+        },
+        {
+          "path": "01_foundational_formal_notes/Hilbert_Kahler_Phase_Intention_Hamiltonian.tex",
+          "line": 45,
+          "zone": "foundational_or_canonical_note",
+          "evidence_type": "content",
+          "snippet": "This note rebuilds the phase-first Hamiltonian from the ground up.  The starting point is a two-level Hilbert space whose projective space is the Kahler manifold $\\mathbb{CP}^{1}$, equivalently the Bloch sphere with the Fubini--Study metric and Berry curvature"
+        },
+        {
+          "path": "01_foundational_formal_notes/Hilbert_Kahler_Phase_Intention_Hamiltonian.tex",
+          "line": 49,
+          "zone": "foundational_or_canonical_note",
+          "evidence_type": "content",
+          "snippet": "This is a formal model-building document.  The statements about $\\mathbb{CP}^{1}$, the Bloch sphere, the Fubini--Study metric, Berry curvature, and spinorial $4\\pi$ closure are standard mathematical structures.  The assignments of zeta zeros to the spin poles,"
+        },
+        {
+          "path": "01_foundational_formal_notes/Hilbert_Kahler_Phase_Intention_Hamiltonian.tex",
+          "line": 61,
+          "zone": "foundational_or_canonical_note",
+          "evidence_type": "content",
+          "snippet": "s&=(p,p+2), &&\\text{twin-prime seed},\\\\"
+        },
+        {
+          "path": "16_debt_axis_selection_berry_weak_twinprime_v1_8/AXIS_SELECTION_SCHEMA_v1_8.json",
+          "zone": "derivation_module",
+          "evidence_type": "filename"
+        },
+        {
+          "path": "16_debt_axis_selection_berry_weak_twinprime_v1_8/METATIME_SM_AXIS_SELECTION_DEBT_v1_8.md",
+          "zone": "derivation_module",
+          "evidence_type": "filename"
+        },
+        {
+          "path": "16_debt_axis_selection_berry_weak_twinprime_v1_8/README.md",
+          "zone": "derivation_module",
+          "evidence_type": "filename"
+        },
+        {
+          "path": "16_debt_axis_selection_berry_weak_twinprime_v1_8/VALIDATION_STATUS_v1_8.md",
+          "zone": "derivation_module",
+          "evidence_type": "filename"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "operator_id": "OP-WIJ",
+      "operator_name": "W_ij holonomic gluon / white-thread coupling",
+      "status": "SOURCE_INDEXED_CONTENT",
+      "policy": "SOURCE_INDEX_REQUIRED_BEFORE_HADRON_PROMOTION",
+      "required_for": [
+        "DEBT-011",
+        "DEBT-009",
+        "triplet/meson aggregation"
+      ],
+      "content_match_count_sampled": 40,
+      "content_files_count": 40,
+      "filename_files_count": 0,
+      "zone_counts": {
+        "derivation_module": 91,
+        "original_upload_surface": 12,
+        "repo_root_or_other": 6
+      },
+      "priority_evidence": [
+        {
+          "path": "40_holonomic_gluon_wij_couplings_v4_0/METATIME_SM_HOLONOMIC_GLUON_WIJ_v4_0.md",
+          "line": 1,
+          "zone": "derivation_module",
+          "evidence_type": "content",
+          "snippet": "# METATIME / Standard Model Derivation — Holonomic Gluon Dynamics as W_ij Couplings v4.0"
+        },
+        {
+          "path": "40_holonomic_gluon_wij_couplings_v4_0/METATIME_SM_HOLONOMIC_GLUON_WIJ_v4_0.md",
+          "line": 26,
+          "zone": "derivation_module",
+          "evidence_type": "content",
+          "snippet": "Dynamika gluonow jest holonomiczna. To sprzezenia W_ij miedzy kwarkami."
+        },
+        {
+          "path": "40_holonomic_gluon_wij_couplings_v4_0/METATIME_SM_HOLONOMIC_GLUON_WIJ_v4_0.md",
+          "line": 32,
+          "zone": "derivation_module",
+          "evidence_type": "content",
+          "snippet": "W_ij is an SU(3)-valued holonomic parallel-transport/coupling map between triplet quark nodes."
+        },
+        {
+          "path": "40_holonomic_gluon_wij_couplings_v4_0/METATIME_SM_HOLONOMIC_GLUON_WIJ_v4_0.md",
+          "line": 33,
+          "zone": "derivation_module",
+          "evidence_type": "content",
+          "snippet": "Gluon modes are the local su(3) generator/curvature components of W_ij holonomy."
+        },
+        {
+          "path": "40_holonomic_gluon_wij_couplings_v4_0/METATIME_SM_HOLONOMIC_GLUON_WIJ_v4_0.md",
+          "line": 34,
+          "zone": "derivation_module",
+          "evidence_type": "content",
+          "snippet": "W_ij itself is not a scalar mass input and not a PDG reference table."
+        },
+        {
+          "path": "40_holonomic_gluon_wij_couplings_v4_0/METATIME_SM_HOLONOMIC_GLUON_WIJ_v4_0.md",
+          "line": 49,
+          "zone": "derivation_module",
+          "evidence_type": "content",
+          "snippet": "This module does **not** produce a mass table, does **not** close Debt 9, and does **not** claim full QCD. It only establishes the holonomic W_ij layer needed after the v3.9 triplet/SU(3)-candidate lift."
+        },
+        {
+          "path": "40_holonomic_gluon_wij_couplings_v4_0/METATIME_SM_HOLONOMIC_GLUON_WIJ_v4_0.md",
+          "line": 118,
+          "zone": "derivation_module",
+          "evidence_type": "content",
+          "snippet": "These coefficients are the active gluon-mode content of the W_ij loop."
+        },
+        {
+          "path": "40_holonomic_gluon_wij_couplings_v4_0/METATIME_SM_HOLONOMIC_GLUON_WIJ_v4_0.md",
+          "line": 129,
+          "zone": "derivation_module",
+          "evidence_type": "content",
+          "snippet": "all W_ij links are SU(3): PASS"
+        },
+        {
+          "path": "40_holonomic_gluon_wij_couplings_v4_0/METATIME_SM_HOLONOMIC_GLUON_WIJ_v4_0.md",
+          "line": 163,
+          "zone": "derivation_module",
+          "evidence_type": "content",
+          "snippet": "This means the test loop carries nontrivial holonomic gluon-mode content in the su(3) algebra."
+        },
+        {
+          "path": "40_holonomic_gluon_wij_couplings_v4_0/METATIME_SM_HOLONOMIC_GLUON_WIJ_v4_0.md",
+          "line": 178,
+          "zone": "derivation_module",
+          "evidence_type": "content",
+          "snippet": "W_ij couplings -> loop holonomy -> curvature defect -> Yang-Mills-like action candidate"
+        },
+        {
+          "path": "40_holonomic_gluon_wij_couplings_v4_0/METATIME_SM_HOLONOMIC_GLUON_WIJ_v4_0.md",
+          "line": 195,
+          "zone": "derivation_module",
+          "evidence_type": "content",
+          "snippet": "1. The v3.9 triplet carrier can be equipped with SU(3)-valued W_ij links."
+        },
+        {
+          "path": "40_holonomic_gluon_wij_couplings_v4_0/METATIME_SM_HOLONOMIC_GLUON_WIJ_v4_0.md",
+          "line": 196,
+          "zone": "derivation_module",
+          "evidence_type": "content",
+          "snippet": "2. The W_ij links transform by the correct local gauge-covariant rule."
+        }
+      ],
+      "notes": []
+    },
+    {
+      "operator_id": "OP-PLANCK-E0",
+      "operator_name": "Planck E0 dimensional normalizer",
+      "status": "SOURCE_INDEXED_CONTENT",
+      "policy": "ALLOWED_DIMENSIONAL_NORMALIZER_NOT_SPECTRUM_CLOSURE",
+      "required_for": [
+        "DEBT-006",
+        "DEBT-007"
+      ],
+      "content_match_count_sampled": 31,
+      "content_files_count": 13,
+      "filename_files_count": 0,
+      "zone_counts": {
+        "derivation_module": 28,
+        "original_upload_surface": 1,
+        "repo_root_or_other": 2
+      },
+      "priority_evidence": [
+        {
+          "path": "00_original_metatime/Metatime-main/MetaTheory_260218_073120.txt",
+          "line": 1403,
+          "zone": "original_upload_surface",
+          "evidence_type": "content",
+          "snippet": "All cosmological parameters are then determined by the geometry of the parent black hole, which itself is governed by the same constants $\\alpha,\\beta,\\gamma,R_{\\text{crit}},\\delta$. This provides a unified description of physics from the Planck scale to the h"
+        },
+        {
+          "path": "61_planck_information_action_ledger_v6_1/METATIME_SM_PLANCK_INFORMATION_ACTION_LEDGER_v6_1.md",
+          "line": 1,
+          "zone": "derivation_module",
+          "evidence_type": "content",
+          "snippet": "# METATIME SM — v6.1 Planck Information-Action Ledger"
+        },
+        {
+          "path": "61_planck_information_action_ledger_v6_1/METATIME_SM_PLANCK_INFORMATION_ACTION_LEDGER_v6_1.md",
+          "line": 10,
+          "zone": "derivation_module",
+          "evidence_type": "content",
+          "snippet": "E_i = E_P * exp(-S_I(i) / OI)"
+        },
+        {
+          "path": "61_planck_information_action_ledger_v6_1/METATIME_SM_PLANCK_INFORMATION_ACTION_LEDGER_v6_1.md",
+          "line": 17,
+          "zone": "derivation_module",
+          "evidence_type": "content",
+          "snippet": "## Why Planck E0"
+        },
+        {
+          "path": "61_planck_information_action_ledger_v6_1/README.md",
+          "line": 1,
+          "zone": "derivation_module",
+          "evidence_type": "content",
+          "snippet": "# Module 61 — Planck Information-Action Ledger v6.1"
+        },
+        {
+          "path": "61_planck_information_action_ledger_v6_1/scripts/planck_information_action_ledger_v6_1.py",
+          "line": 2,
+          "zone": "derivation_module",
+          "evidence_type": "content",
+          "snippet": "\"\"\"v6.1 Planck information-action ledger."
+        },
+        {
+          "path": "61_planck_information_action_ledger_v6_1/scripts/planck_information_action_ledger_v6_1.py",
+          "line": 7,
+          "zone": "derivation_module",
+          "evidence_type": "content",
+          "snippet": "E_i = E_P * exp(-S_i / OI)"
+        },
+        {
+          "path": "61_planck_information_action_ledger_v6_1/scripts/planck_information_action_ledger_v6_1.py",
+          "line": 35,
+          "zone": "derivation_module",
+          "evidence_type": "content",
+          "snippet": "E_PLANCK_J = math.sqrt(hbar*c**5/G)"
+        },
+        {
+          "path": "61_planck_information_action_ledger_v6_1/scripts/planck_information_action_ledger_v6_1.py",
+          "line": 36,
+          "zone": "derivation_module",
+          "evidence_type": "content",
+          "snippet": "E_PLANCK_EV = E_PLANCK_J/eV_J"
+        },
+        {
+          "path": "61_planck_information_action_ledger_v6_1/scripts/planck_information_action_ledger_v6_1.py",
+          "line": 37,
+          "zone": "derivation_module",
+          "evidence_type": "content",
+          "snippet": "E_PLANCK_MEV = E_PLANCK_EV/1e6"
+        },
+        {
+          "path": "61_planck_information_action_ledger_v6_1/scripts/planck_information_action_ledger_v6_1.py",
+          "line": 68,
+          "zone": "derivation_module",
+          "evidence_type": "content",
+          "snippet": "ratio_to_planck = E/E_PLANCK_MEV"
+        },
+        {
+          "path": "61_planck_information_action_ledger_v6_1/scripts/planck_information_action_ledger_v6_1.py",
+          "line": 70,
+          "zone": "derivation_module",
+          "evidence_type": "content",
+          "snippet": "N_linear_planck_oi = E/(E_PLANCK_MEV*OI)"
+        }
+      ],
+      "notes": []
+    }
+  ],
+  "classification_boundary": {
+    "SOURCE_INDEXED_CONTENT": "operator has content-level support in non-generated repository files",
+    "SOURCE_INDEXED_MINIMAL_CONTENT": "operator has content support but weak breadth; promotion requires review",
+    "SOURCE_PATH_ONLY_BLOCKED_FOR_CONTENT_EXTRACTION": "operator exists as file path/title only; content extraction required before promotion",
+    "BLOCKED_NO_SOURCE_FOUND": "no usable source evidence found in this tree"
+  },
+  "promotion_guard": "No operator in this index is promoted to physical proof by indexing alone. Indexing authorizes later derivation work only under freeze-before-scoring rules.",
+  "debt_result": "DEBT-011_CLOSED_AS_SOURCE_INDEX_LEDGER_WITH_OPERATOR_LEVEL_BLOCKERS_PRESERVED"
+}

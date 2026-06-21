@@ -1,0 +1,11 @@
+{
+  "gate_type": "METHODOLOGICAL_GUARD_PASS",
+  "best_variant": "EB_MINUS_RAMANUJAN_ZH_CENTER",
+  "median_abs_log_error_excluding_anchor": 2.6289121852805852,
+  "max_abs_log_error_excluding_anchor": 5.370476888698751,
+  "median_factor_error_approx": 13.85868601674032,
+  "max_factor_error_approx": 214.96535781396997,
+  "ramanujan_median_log_improvement_vs_EB_ONLY": 1.1327878466053996,
+  "debt9_numeric_derivation_pass_allowed_now": false,
+  "required_next_step": "derive tau_v2/information eigenvalue before any mass-error improvement claim"
+}

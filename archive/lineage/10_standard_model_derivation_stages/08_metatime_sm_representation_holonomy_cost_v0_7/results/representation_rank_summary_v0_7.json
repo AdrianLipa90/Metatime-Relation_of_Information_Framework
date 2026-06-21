@@ -1,0 +1,19 @@
+{
+  "generated_at_utc": "2026-06-19T17:35:25.710531+00:00",
+  "kappa_ln2_over_24pi": 0.009193150006360484,
+  "classes": [
+    "charged_lepton",
+    "down_quark",
+    "up_quark"
+  ],
+  "features_used_for_distinguishability_check": [
+    "color_depth_log",
+    "charge_sq",
+    "higgs_conjugation_bit"
+  ],
+  "feature_matrix_determinant": -1.09861228867,
+  "distinguishes_three_mass_classes": true,
+  "all_chiral_transitions_allowed": false,
+  "mass_prediction_claimed": false,
+  "interpretation": "The representation layer distinguishes charged_lepton/down_quark/up_quark classes without observed mass input; numerical masses remain open until generation, spectral, geometric, and coherence terms are frozen."
+}

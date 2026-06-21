@@ -1,0 +1,25 @@
+{
+  "schema_name": "METATIME_SM_REPRESENTATION_HOLONOMY_COST_v0_7",
+  "purpose": "Freeze a non-fitted representation holonomy feature layer separating charged leptons, down-type quarks, and up-type quarks after chiral transition validation.",
+  "inputs_not_allowed": [
+    "observed fermion masses",
+    "fitted Yukawa couplings",
+    "PDG mass values as predictors"
+  ],
+  "canonical_classes": [
+    "charged_lepton",
+    "down_quark",
+    "up_quark"
+  ],
+  "features": {
+    "hypercharge_jump": "absolute change in hypercharge across the allowed left-right transition",
+    "selector_abs": "absolute hypercharge magnitude of the Higgs orientation selector",
+    "weak_flip": "absolute weak isospin component involved in the chiral bridge",
+    "charge_sq": "square of electric charge, used as a phase-sector invariant, not as mass input",
+    "color_depth_log": "logarithmic color multiplicity depth; zero for leptons, log(3) for quarks",
+    "color_coherence": "constructive color-channel coherence term",
+    "higgs_conjugation_bit": "separates up-type conjugate Higgs bridge from ordinary Higgs bridge"
+  },
+  "candidate_action_form": "rep_action_unit_candidate = positive_part(hypercharge_jump + selector_abs + weak_flip + charge_sq - color_coherence - 0.5*higgs_conjugation_bit)",
+  "status": "frozen_as_diagnostic_layer_not_final_mass_law"
+}

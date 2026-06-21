@@ -1,0 +1,93 @@
+{
+  "artifact": "METATIME_SM_COLLATZ_POINCARE_ACTION_KERNEL_v0_4",
+  "status": "technical_derivation_candidate_not_mass_prediction",
+  "observed_masses_used_as_input": false,
+  "kappa": 0.009193150006360484,
+  "seed_count": 14,
+  "minimal_arithmetic_triplet": [
+    [
+      3,
+      5
+    ],
+    [
+      5,
+      7
+    ],
+    [
+      11,
+      13
+    ]
+  ],
+  "minimal_triplet_action_order_low_to_high": [
+    {
+      "seed_pair": [
+        5,
+        7
+      ],
+      "action_rank": 1,
+      "action_unit": 0.34380299602647096,
+      "action_kappa": 0.003160632515107505
+    },
+    {
+      "seed_pair": [
+        11,
+        13
+      ],
+      "action_rank": 3,
+      "action_unit": 0.4129797750528312,
+      "action_kappa": 0.003796585021653686
+    },
+    {
+      "seed_pair": [
+        3,
+        5
+      ],
+      "action_rank": 5,
+      "action_unit": 0.44017743117972435,
+      "action_kappa": 0.004046617154249624
+    }
+  ],
+  "top_five_low_action_seeds": [
+    {
+      "seed_pair": [
+        5,
+        7
+      ],
+      "rank": 1,
+      "action_unit": 0.34380299602647096
+    },
+    {
+      "seed_pair": [
+        179,
+        181
+      ],
+      "rank": 2,
+      "action_unit": 0.40958021437337205
+    },
+    {
+      "seed_pair": [
+        11,
+        13
+      ],
+      "rank": 3,
+      "action_unit": 0.4129797750528312
+    },
+    {
+      "seed_pair": [
+        17,
+        19
+      ],
+      "rank": 4,
+      "action_unit": 0.41317010020275774
+    },
+    {
+      "seed_pair": [
+        3,
+        5
+      ],
+      "rank": 5,
+      "action_unit": 0.44017743117972435
+    }
+  ],
+  "interpretation": "The v0.4 kernel converts Collatz twin-prime orbits into Poincare-disk path features and an Euler-Berry action-kernel candidate. It is mass-blind. It is not yet a final mass predictor."
+}

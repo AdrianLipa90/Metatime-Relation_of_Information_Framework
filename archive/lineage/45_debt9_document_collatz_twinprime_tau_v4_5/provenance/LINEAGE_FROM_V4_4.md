@@ -1,0 +1,1 @@
+v4.5 starts from v4.4 sealed benchmark FAIL and replaces the generic amplitude route with a document-derived Collatz/twin-prime tau trace. It does not use observed masses as operator input and does not benchmark in this module.

@@ -1,0 +1,6 @@
+kappa = 0.009193150006360484
+SU3^2_U1 0
+SU2^2_U1 0
+grav^2_U1 0
+U1^3 0
+PASS: exact anomaly cancellation on rational hypercharge assignments.

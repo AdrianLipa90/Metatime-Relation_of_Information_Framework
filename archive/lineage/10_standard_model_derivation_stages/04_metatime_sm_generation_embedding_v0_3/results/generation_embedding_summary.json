@@ -1,0 +1,44 @@
+{
+  "status": "diagnostic_not_final_canon",
+  "uses_observed_masses_as_input": false,
+  "kappa": 0.009193150006360484,
+  "zeta_gammas_used_for_diagnostic_only": [
+    14.134725141734695,
+    21.022039638771552,
+    25.01085758014569
+  ],
+  "candidate_count": 8,
+  "top_three_low_to_high_depth": [
+    {
+      "depth_rank_low_to_high": 1,
+      "seed_p": 3,
+      "seed_q": 5,
+      "generation_depth_score": 1.5663384061021843,
+      "normalized_pair_action": 1.7307842270345393,
+      "pair_divergence": 0.61129898096834,
+      "poincare_mean_hyperbolic_radius": 1.0737106117369568,
+      "zeta_alignment_diagnostic": 0.19158845849123193
+    },
+    {
+      "depth_rank_low_to_high": 2,
+      "seed_p": 11,
+      "seed_q": 13,
+      "generation_depth_score": 1.9756929005493091,
+      "normalized_pair_action": 2.4093455602791214,
+      "pair_divergence": 0.9368254736367359,
+      "poincare_mean_hyperbolic_radius": 1.0161201826282196,
+      "zeta_alignment_diagnostic": 0.19842760746434981
+    },
+    {
+      "depth_rank_low_to_high": 3,
+      "seed_p": 5,
+      "seed_q": 7,
+      "generation_depth_score": 2.0239315136683604,
+      "normalized_pair_action": 2.332762072075899,
+      "pair_divergence": 1.504830536883587,
+      "poincare_mean_hyperbolic_radius": 0.8624975424721794,
+      "zeta_alignment_diagnostic": 0.16912479105653397
+    }
+  ],
+  "interpretation": "This stage builds a non-mass-input generation vector. It does not yet predict fermion masses. It establishes the required generational differentiator for the Euler-Berry action functional."
+}

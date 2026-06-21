@@ -1,0 +1,245 @@
+{
+  "schema": "METATIME_DEBT9_HADRON_RATIO_BENCHMARK_V6_0A",
+  "module": "60_hadron_ratio_benchmark_v6_0A",
+  "created_utc": "2026-06-21T09:00:00Z",
+  "source_module": "59_debt9_prime_product_hadron_scale_candidate_v5_9",
+  "source_formula_fingerprint_sha256": "4b7e39882f06ce105c5e12b7c068165973baca4624815fce505ed445ca06fbe9",
+  "technical_status": "PASS",
+  "formal_status": "PASS_SEALED_RATIO_BENCHMARK_WITH_BOUNDARIES",
+  "substantive_status": "DIRECT_CARRIER_FAILS_INVERSE_BARYON_ORIENTATION_PARTIAL_SIGNAL_ABSOLUTE_SCALE_OPEN",
+  "debt9_numeric_spectrum": "OPEN_NOT_CLOSED",
+  "canon_allowed": false,
+  "current_promotion": "DENY_CURRENT",
+  "mass_prediction_claimed": false,
+  "absolute_mev_scale_derived": false,
+  "benchmark_performed": true,
+  "benchmark_scope": "ratio_to_proton_after_v5_9_formula_freeze",
+  "confinement_residual_budget": 0.21,
+  "rows": [
+    {
+      "hadron": "proton",
+      "composition": "u u d",
+      "state_class": "baryon_triplet",
+      "v59_carrier_ratio": 1.0,
+      "benchmark_mass_mev": 938.2720813,
+      "benchmark_mass_ratio_to_proton": 1.0,
+      "direct_ratio_prediction": 1.0,
+      "direct_absolute_relative_error": 0.0,
+      "inverse_ratio_prediction": 1.0,
+      "inverse_absolute_relative_error": 0.0,
+      "benchmark_used_only_after_freeze": true,
+      "mev_prediction_claimed": false,
+      "absolute_mev_scale_derived": false
+    },
+    {
+      "hadron": "neutron",
+      "composition": "u d d",
+      "state_class": "baryon_triplet",
+      "v59_carrier_ratio": 0.8065506042347503,
+      "benchmark_mass_mev": 939.5654133,
+      "benchmark_mass_ratio_to_proton": 1.0013784189317538,
+      "direct_ratio_prediction": 0.8065506042347503,
+      "direct_absolute_relative_error": 0.19455963001962942,
+      "inverse_ratio_prediction": 1.2398478096099044,
+      "inverse_absolute_relative_error": 0.2381411324327759,
+      "benchmark_used_only_after_freeze": true,
+      "mev_prediction_claimed": false,
+      "absolute_mev_scale_derived": false
+    },
+    {
+      "hadron": "lambda",
+      "composition": "u d s",
+      "state_class": "baryon_triplet",
+      "v59_carrier_ratio": 0.810377572915698,
+      "benchmark_mass_mev": 1115.683,
+      "benchmark_mass_ratio_to_proton": 1.1890825936696237,
+      "direct_ratio_prediction": 0.810377572915698,
+      "direct_absolute_relative_error": 0.3184850428137253,
+      "inverse_ratio_prediction": 1.233992688620503,
+      "inverse_absolute_relative_error": 0.037768692595425604,
+      "benchmark_used_only_after_freeze": true,
+      "mev_prediction_claimed": false,
+      "absolute_mev_scale_derived": false
+    },
+    {
+      "hadron": "sigma_plus",
+      "composition": "u u s",
+      "state_class": "baryon_triplet",
+      "v59_carrier_ratio": 0.8719178369488955,
+      "benchmark_mass_mev": 1189.37,
+      "benchmark_mass_ratio_to_proton": 1.2676173827447763,
+      "direct_ratio_prediction": 0.8719178369488955,
+      "direct_absolute_relative_error": 0.3121600817267678,
+      "inverse_ratio_prediction": 1.146897055689677,
+      "inverse_absolute_relative_error": 0.0952340419896288,
+      "benchmark_used_only_after_freeze": true,
+      "mev_prediction_claimed": false,
+      "absolute_mev_scale_derived": false
+    },
+    {
+      "hadron": "sigma_zero",
+      "composition": "u d s",
+      "state_class": "baryon_triplet",
+      "v59_carrier_ratio": 0.810377572915698,
+      "benchmark_mass_mev": 1192.642,
+      "benchmark_mass_ratio_to_proton": 1.271104644132184,
+      "direct_ratio_prediction": 0.810377572915698,
+      "direct_absolute_relative_error": 0.3624619525570503,
+      "inverse_ratio_prediction": 1.233992688620503,
+      "inverse_absolute_relative_error": 0.0291966170393613,
+      "benchmark_used_only_after_freeze": true,
+      "mev_prediction_claimed": false,
+      "absolute_mev_scale_derived": false
+    },
+    {
+      "hadron": "xi_zero",
+      "composition": "u s s",
+      "state_class": "baryon_triplet",
+      "v59_carrier_ratio": 0.6258756351119473,
+      "benchmark_mass_mev": 1314.86,
+      "benchmark_mass_ratio_to_proton": 1.4013632358944623,
+      "direct_ratio_prediction": 0.6258756351119473,
+      "direct_absolute_relative_error": 0.5533808658021035,
+      "inverse_ratio_prediction": 1.5977615102737381,
+      "inverse_absolute_relative_error": 0.14014801398291193,
+      "benchmark_used_only_after_freeze": true,
+      "mev_prediction_claimed": false,
+      "absolute_mev_scale_derived": false
+    },
+    {
+      "hadron": "omega_minus",
+      "composition": "s s s",
+      "state_class": "baryon_triplet",
+      "v59_carrier_ratio": 0.3363071218873508,
+      "benchmark_mass_mev": 1672.45,
+      "benchmark_mass_ratio_to_proton": 1.7824787002963765,
+      "direct_ratio_prediction": 0.3363071218873508,
+      "direct_absolute_relative_error": 0.8113261483397067,
+      "inverse_ratio_prediction": 2.9734725639707364,
+      "inverse_absolute_relative_error": 0.6681672344675597,
+      "benchmark_used_only_after_freeze": true,
+      "mev_prediction_claimed": false,
+      "absolute_mev_scale_derived": false
+    },
+    {
+      "hadron": "pion_plus",
+      "composition": "u dbar",
+      "state_class": "meson_open_path",
+      "v59_carrier_ratio": 0.8961425605377863,
+      "benchmark_mass_mev": 139.57039,
+      "benchmark_mass_ratio_to_proton": 0.14875257697812094,
+      "direct_ratio_prediction": 0.8961425605377863,
+      "direct_absolute_relative_error": 5.024383434174684,
+      "inverse_ratio_prediction": 1.1158938812144885,
+      "inverse_absolute_relative_error": 6.501677644069441,
+      "benchmark_used_only_after_freeze": true,
+      "mev_prediction_claimed": false,
+      "absolute_mev_scale_derived": false
+    },
+    {
+      "hadron": "kaon_plus",
+      "composition": "u sbar",
+      "state_class": "meson_open_path",
+      "v59_carrier_ratio": 0.739546798408807,
+      "benchmark_mass_mev": 493.677,
+      "benchmark_mass_ratio_to_proton": 0.5261554828701691,
+      "direct_ratio_prediction": 0.739546798408807,
+      "direct_absolute_relative_error": 0.4055670281616984,
+      "inverse_ratio_prediction": 1.3521794728225158,
+      "inverse_absolute_relative_error": 1.5699237522840208,
+      "benchmark_used_only_after_freeze": true,
+      "mev_prediction_claimed": false,
+      "absolute_mev_scale_derived": false
+    }
+  ],
+  "metrics": {
+    "direct_all_nonproton": {
+      "count": 8,
+      "mean_absolute_relative_error": 0.9977905229494207,
+      "median_absolute_relative_error": 0.38401449035937435,
+      "max_absolute_relative_error": 5.024383434174684,
+      "within_21pct_count": 1,
+      "within_21pct_fraction": 0.125
+    },
+    "inverse_all_nonproton": {
+      "count": 8,
+      "mean_absolute_relative_error": 1.1600321411076406,
+      "median_absolute_relative_error": 0.18914457320784392,
+      "max_absolute_relative_error": 6.501677644069441,
+      "within_21pct_count": 4,
+      "within_21pct_fraction": 0.5
+    },
+    "direct_baryon_nonproton": {
+      "count": 6,
+      "mean_absolute_relative_error": 0.4253956202098305,
+      "median_absolute_relative_error": 0.3404734976853878,
+      "max_absolute_relative_error": 0.8113261483397067,
+      "within_21pct_count": 1,
+      "within_21pct_fraction": 0.16666666666666666
+    },
+    "inverse_baryon_nonproton": {
+      "count": 6,
+      "mean_absolute_relative_error": 0.20144262208461053,
+      "median_absolute_relative_error": 0.11769102798627037,
+      "max_absolute_relative_error": 0.6681672344675597,
+      "within_21pct_count": 4,
+      "within_21pct_fraction": 0.6666666666666666
+    },
+    "direct_meson_nonproton": {
+      "count": 0,
+      "mean_absolute_relative_error": null,
+      "median_absolute_relative_error": null,
+      "max_absolute_relative_error": null,
+      "within_21pct_count": 0,
+      "within_21pct_fraction": null
+    },
+    "inverse_meson_nonproton": {
+      "count": 0,
+      "mean_absolute_relative_error": null,
+      "median_absolute_relative_error": null,
+      "max_absolute_relative_error": null,
+      "within_21pct_count": 0,
+      "within_21pct_fraction": null
+    }
+  },
+  "correlations": {
+    "direct_baryons": {
+      "pearson_ratio": -0.9188897816104333,
+      "spearman_ratio": -0.7207499701564472,
+      "pearson_log_ratio": -0.8875772043263164,
+      "spearman_log_ratio": -0.7207499701564472
+    },
+    "inverse_baryons": {
+      "pearson_ratio": 0.9113587787656289,
+      "spearman_ratio": 0.7207499701564472,
+      "pearson_log_ratio": 0.8875772043263164,
+      "spearman_log_ratio": 0.7207499701564472
+    },
+    "direct_all": {
+      "pearson_ratio": -0.597585324756193,
+      "spearman_ratio": -0.5857791861290061,
+      "pearson_log_ratio": -0.41508193061892584,
+      "spearman_log_ratio": -0.5857791861290061
+    },
+    "inverse_all": {
+      "pearson_ratio": 0.607669302543701,
+      "spearman_ratio": 0.5857791861290061,
+      "pearson_log_ratio": 0.41508193061892573,
+      "spearman_log_ratio": 0.5857791861290061
+    }
+  },
+  "decision": {
+    "direct_v59_carrier_as_mass_ratio": "FAIL",
+    "inverse_baryon_orientation": "PARTIAL_STRUCTURAL_SIGNAL_NOT_PROMOTED",
+    "meson_pair_sector": "SEPARATE_BOUNDARY_REQUIRED",
+    "absolute_mev_scale": "NOT_DERIVED",
+    "debt9_closure": "DENIED"
+  },
+  "interpretation": [
+    "The v5.9 carrier is clean and frozen, but its direct orientation does not reproduce hadron mass ratios.",
+    "The inverse orientation gives a partial baryon-ordering signal, especially for Lambda/Sigma/Xi; it still fails neutron and Omega and is not a closure.",
+    "Mesons cannot be mixed into the same scoring rule as baryon triplets without a separate pair-state binding operator.",
+    "Small errors are not rejected by principle; promotion is denied only where provenance or scale derivation is missing."
+  ],
+  "benchmark_fingerprint_sha256": "f7c18e6098cafebf053334ace11eae1f50251aa24cdfa4a3c90f8280ab99a0a8"
+}

@@ -1,0 +1,20 @@
+{
+  "module": "METATIME_SM_DEBT2_DEBT4_EB_COHERENCE_SEED_ASSIGNMENT_v1_9",
+  "kappa": 0.009193150006360484,
+  "alpha_fixed_probe": 1.0,
+  "uses_observed_masses_as_inputs": false,
+  "seed_order_light_to_heavy": [
+    "G1",
+    "G2",
+    "G3"
+  ],
+  "expected_light_to_heavy": [
+    "G1",
+    "G2",
+    "G3"
+  ],
+  "ordering_status": "PASS",
+  "debt_2_status": "operationally_paid",
+  "debt_4_status": "partially_paid_ordering_only",
+  "exact_mass_prediction_claimed": false
+}

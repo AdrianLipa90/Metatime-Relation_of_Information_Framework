@@ -1,0 +1,60 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "UNIT_ANCHOR_LEDGER_v6_5",
+  "type": "object",
+  "required": [
+    "version",
+    "anchors",
+    "decision_matrix",
+    "debt_delta",
+    "global_rules",
+    "final_verdict"
+  ],
+  "properties": {
+    "version": {
+      "const": "v6.5"
+    },
+    "anchors": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "required": [
+          "id",
+          "name",
+          "role",
+          "status",
+          "allowed_as_input_before_freeze",
+          "allowed_as_scoring_after_freeze",
+          "reason",
+          "closure_rule",
+          "debt_links"
+        ],
+        "properties": {
+          "status": {
+            "enum": [
+              "ALLOWED_DIMENSIONAL_NORMALIZER",
+              "DERIVED_OPERATOR",
+              "SCORING_ONLY_AFTER_FREEZE",
+              "FORBIDDEN_INPUT_FOR_DERIVATION",
+              "QUARANTINED",
+              "BLOCKED_PENDING_SOURCE_INDEX"
+            ]
+          },
+          "role": {
+            "enum": [
+              "unit_anchor",
+              "mass_anchor",
+              "dimensional_normalizer",
+              "operator_constant",
+              "benchmark_table",
+              "ratio_denominator",
+              "calibration_scale",
+              "target_ledger"
+            ]
+          }
+        }
+      }
+    }
+  }
+}

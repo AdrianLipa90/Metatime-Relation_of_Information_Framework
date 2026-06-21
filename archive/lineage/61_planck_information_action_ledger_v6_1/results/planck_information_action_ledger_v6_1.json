@@ -1,0 +1,271 @@
+{
+  "schema": "METATIME_PLANCK_INFORMATION_ACTION_LEDGER_V6_1",
+  "module": "61_planck_information_action_ledger_v6_1",
+  "created_utc": "2026-06-21T09:17:51Z",
+  "technical_status": "PASS",
+  "formal_status": "PASS_PLANCK_E0_LEDGER_INSTALLED",
+  "substantive_status": "PLANCK_E0_IS_DIMENSIONALLY_STRONG_ACTION_TARGETS_NOT_DERIVED",
+  "debt9_numeric_spectrum": "OPEN_NOT_CLOSED",
+  "canon_allowed": false,
+  "current_promotion": "DENY_CURRENT",
+  "mass_prediction_claimed": false,
+  "absolute_E0_derived": "CANDIDATE_PLANCK_E0_DEFINED_NOT_PROVEN_AS_METATIME_E0",
+  "formula_fingerprint_sha256": "11a892648f8d86b92f4439b7143c5585f9531337998f90697fdda98356ceef8e",
+  "core_equation": "E_i = E_P * exp(-S_I(i)/OI); m_i = E_i/c^2",
+  "constants": {
+    "c": 299792458.0,
+    "h": 6.62607015e-34,
+    "hbar": 1.0545718176461565e-34,
+    "G": 6.6743e-11,
+    "eV_J": 1.602176634e-19,
+    "OI": 0.009193150006360484,
+    "L3": 7.0,
+    "f0": 7.83
+  },
+  "planck_scale": {
+    "E_planck_j": 1956081636.698373,
+    "E_planck_ev": 1.2208901285838957e+28,
+    "E_planck_mev": 1.2208901285838957e+22,
+    "m_planck_kg": 2.1764343427178984e-08
+  },
+  "target_action_rows": [
+    {
+      "target": "electron",
+      "sector": "charged_lepton",
+      "reference_energy_mev_scoring_only": 0.51099895,
+      "planck_energy_mev": 1.2208901285838957e+22,
+      "ratio_E_over_Eplanck": 4.1854622134811184e-23,
+      "required_information_action_S_for_Ep_exp_gate": 0.47370316258461587,
+      "linear_N_eff_if_E_equals_Ep_OI_N": 4.552805306761354e-21,
+      "linear_planck_mode_status": "fractional_micro_occupancy_not_preferred_as_count",
+      "action_gate_status": "dimensionally_valid_target_action_not_derived",
+      "tau_v2_context": {
+        "generation": 1,
+        "eb_action_kappa_v16": 0.049448007317,
+        "ramanujan_scaled_action": 0.004370830988727592,
+        "tau_v2_action": 3.0,
+        "tau_v2_preference_quanta": 326.32993021155795
+      },
+      "mass_prediction_claimed": false,
+      "debt9_closure_claimed": false
+    },
+    {
+      "target": "muon",
+      "sector": "charged_lepton",
+      "reference_energy_mev_scoring_only": 105.6583755,
+      "planck_energy_mev": 1.2208901285838957e+22,
+      "ratio_E_over_Eplanck": 8.654208353912455e-21,
+      "required_information_action_S_for_Ep_exp_gate": 0.424688975406478,
+      "linear_N_eff_if_E_equals_Ep_OI_N": 9.413757360561776e-19,
+      "linear_planck_mode_status": "fractional_micro_occupancy_not_preferred_as_count",
+      "action_gate_status": "dimensionally_valid_target_action_not_derived",
+      "tau_v2_context": {
+        "generation": 2,
+        "eb_action_kappa_v16": 0.047247334088,
+        "ramanujan_scaled_action": 0.009434835198791994,
+        "tau_v2_action": 2.4993108747959694,
+        "tau_v2_preference_quanta": 271.86664778305214
+      },
+      "mass_prediction_claimed": false,
+      "debt9_closure_claimed": false
+    },
+    {
+      "target": "tau",
+      "sector": "charged_lepton",
+      "reference_energy_mev_scoring_only": 1776.86,
+      "planck_energy_mev": 1.2208901285838957e+22,
+      "ratio_E_over_Eplanck": 1.4553807573667345e-19,
+      "required_information_action_S_for_Ep_exp_gate": 0.3987423021553718,
+      "linear_N_eff_if_E_equals_Ep_OI_N": 1.5831143366091026e-17,
+      "linear_planck_mode_status": "fractional_micro_occupancy_not_preferred_as_count",
+      "action_gate_status": "dimensionally_valid_target_action_not_derived",
+      "tau_v2_context": {
+        "generation": 3,
+        "eb_action_kappa_v16": 0.043026404996,
+        "ramanujan_scaled_action": 0.022453736748409954,
+        "tau_v2_action": 3.5456521927993965,
+        "tau_v2_preference_quanta": 385.6841442102281
+      },
+      "mass_prediction_claimed": false,
+      "debt9_closure_claimed": false
+    },
+    {
+      "target": "proton",
+      "sector": "hadron_baryon",
+      "reference_energy_mev_scoring_only": 938.2720813,
+      "planck_energy_mev": 1.2208901285838957e+22,
+      "ratio_E_over_Eplanck": 7.685147576615244e-20,
+      "required_information_action_S_for_Ep_exp_gate": 0.4046127082306429,
+      "linear_N_eff_if_E_equals_Ep_OI_N": 8.359645574474588e-18,
+      "linear_planck_mode_status": "fractional_micro_occupancy_not_preferred_as_count",
+      "action_gate_status": "dimensionally_valid_target_action_not_derived",
+      "tau_v2_context": null,
+      "mass_prediction_claimed": false,
+      "debt9_closure_claimed": false
+    },
+    {
+      "target": "neutron",
+      "sector": "hadron_baryon",
+      "reference_energy_mev_scoring_only": 939.5654133,
+      "planck_energy_mev": 1.2208901285838957e+22,
+      "ratio_E_over_Eplanck": 7.695740929528173e-20,
+      "required_information_action_S_for_Ep_exp_gate": 0.4046000449442848,
+      "linear_N_eff_if_E_equals_Ep_OI_N": 8.371168668197196e-18,
+      "linear_planck_mode_status": "fractional_micro_occupancy_not_preferred_as_count",
+      "action_gate_status": "dimensionally_valid_target_action_not_derived",
+      "tau_v2_context": null,
+      "mass_prediction_claimed": false,
+      "debt9_closure_claimed": false
+    }
+  ],
+  "action_release_pairs": [
+    {
+      "pair": "electron->muon",
+      "E_ratio_b_over_a": 206.76828298766566,
+      "action_release_Sa_minus_Sb": 0.04901418717813788,
+      "OI_log_energy_ratio": 0.04901418717813786,
+      "interpretation": "required release in information action under E=E_P exp(-S/OI)",
+      "mass_prediction_claimed": false
+    },
+    {
+      "pair": "electron->tau",
+      "E_ratio_b_over_a": 3477.228280018971,
+      "action_release_Sa_minus_Sb": 0.07496086042924405,
+      "OI_log_energy_ratio": 0.07496086042924409,
+      "interpretation": "required release in information action under E=E_P exp(-S/OI)",
+      "mass_prediction_claimed": false
+    },
+    {
+      "pair": "muon->tau",
+      "E_ratio_b_over_a": 16.81702933242618,
+      "action_release_Sa_minus_Sb": 0.025946673251106167,
+      "OI_log_energy_ratio": 0.025946673251106223,
+      "interpretation": "required release in information action under E=E_P exp(-S/OI)",
+      "mass_prediction_claimed": false
+    },
+    {
+      "pair": "electron->proton",
+      "E_ratio_b_over_a": 1836.1526600005734,
+      "action_release_Sa_minus_Sb": 0.06909045435397299,
+      "OI_log_energy_ratio": 0.06909045435397301,
+      "interpretation": "required release in information action under E=E_P exp(-S/OI)",
+      "mass_prediction_claimed": false
+    },
+    {
+      "pair": "proton->neutron",
+      "E_ratio_b_over_a": 1.0013784189317538,
+      "action_release_Sa_minus_Sb": 1.2663286358072234e-05,
+      "OI_log_energy_ratio": 1.26632863580736e-05,
+      "interpretation": "required release in information action under E=E_P exp(-S/OI)",
+      "mass_prediction_claimed": false
+    }
+  ],
+  "existing_context_comparisons": [
+    {
+      "release_label": "electron_to_muon_release",
+      "release_value": 0.04901418717813788,
+      "nearest_existing_contexts": [
+        {
+          "tau_context_fermion": "e",
+          "context_quantity": "eb_action_kappa_v16",
+          "context_value": 0.049448007317,
+          "absolute_difference": 0.0004338201388621177,
+          "relative_difference_vs_release": 0.008850909580228994
+        },
+        {
+          "tau_context_fermion": "mu",
+          "context_quantity": "eb_action_kappa_v16",
+          "context_value": 0.047247334088,
+          "absolute_difference": 0.001766853090137882,
+          "relative_difference_vs_release": 0.03604778925979952
+        },
+        {
+          "tau_context_fermion": "tau",
+          "context_quantity": "eb_action_kappa_v16",
+          "context_value": 0.043026404996,
+          "absolute_difference": 0.005987782182137878,
+          "relative_difference_vs_release": 0.12216426563141392
+        }
+      ]
+    },
+    {
+      "release_label": "electron_to_tau_release",
+      "release_value": 0.07496086042924405,
+      "nearest_existing_contexts": [
+        {
+          "tau_context_fermion": "e",
+          "context_quantity": "eb_action_kappa_v16",
+          "context_value": 0.049448007317,
+          "absolute_difference": 0.02551285311224405,
+          "relative_difference_vs_release": 0.3403489896747619
+        },
+        {
+          "tau_context_fermion": "mu",
+          "context_quantity": "eb_action_kappa_v16",
+          "context_value": 0.047247334088,
+          "absolute_difference": 0.02771352634124405,
+          "relative_difference_vs_release": 0.3697066199954174
+        },
+        {
+          "tau_context_fermion": "tau",
+          "context_quantity": "eb_action_kappa_v16",
+          "context_value": 0.043026404996,
+          "absolute_difference": 0.031934455433244045,
+          "relative_difference_vs_release": 0.4260150597308998
+        }
+      ]
+    }
+  ],
+  "scale_ladder": [
+    {
+      "scale_name": "schumann_clock_quantum_h_f0",
+      "energy_mev": 3.238227806691382e-20,
+      "type": "clock_quantum",
+      "electron_Neff_linear_for_E_equals_scale_times_OI_N": 1.7165176103124793e+21,
+      "electron_action_S_for_E_equals_scale_exp_minus_S_over_OI": -0.4063858428253706
+    },
+    {
+      "scale_name": "landauer_300K_bit",
+      "energy_mev": 1.79192407638041e-08,
+      "type": "environment_dependent",
+      "electron_Neff_linear_for_E_equals_scale_times_OI_N": 3101959022.514577,
+      "electron_action_S_for_E_equals_scale_exp_minus_S_over_OI": -0.15780964109254195
+    },
+    {
+      "scale_name": "OI_weighted_landauer_300K",
+      "energy_mev": 1.6473426834174072e-10,
+      "type": "environment_dependent_OI_weighted",
+      "electron_Neff_linear_for_E_equals_scale_times_OI_N": 337420690445.4314,
+      "electron_action_S_for_E_equals_scale_exp_minus_S_over_OI": -0.2009190484987731
+    },
+    {
+      "scale_name": "planck_energy",
+      "energy_mev": 1.2208901285838957e+22,
+      "type": "non_mass_dimensional_normalizer",
+      "electron_Neff_linear_for_E_equals_scale_times_OI_N": 4.552805306761354e-21,
+      "electron_action_S_for_E_equals_scale_exp_minus_S_over_OI": 0.47370316258461587
+    },
+    {
+      "scale_name": "OI_weighted_planck_energy",
+      "energy_mev": 1.1223826093356492e+20,
+      "type": "non_mass_dimensional_normalizer_OI_weighted",
+      "electron_Neff_linear_for_E_equals_scale_times_OI_N": 4.952388793407477e-19,
+      "electron_action_S_for_E_equals_scale_exp_minus_S_over_OI": 0.43059375517838466
+    }
+  ],
+  "decision": {
+    "planck_E0_candidate": "PROMOTE_TO_PRIMARY_DIMENSIONAL_CANDIDATE",
+    "schumann_and_landauer_scales": "VALID_BUT_TOO_SMALL_OR_ENVIRONMENT_DEPENDENT_FOR_SM_E0",
+    "linear_Neff_model_from_planck": "NOT_PREFERRED_AS_COUNT_BECAUSE_TARGETS_REQUIRE_FRACTIONAL_MICRO_OCCUPANCY",
+    "exponential_action_gate_model": "PREFERRED_FOR_NEXT_DERIVATION_ATTEMPT",
+    "debt9_closure": "DENIED",
+    "next_step": "Derive S_I(i) from Collatz/Ramanujan/OI geometry and compare to this target ledger without using masses as input."
+  },
+  "guardrails": {
+    "reference_masses_used_only_as_target_ledger": true,
+    "NoParamSM_used": false,
+    "mass_prediction_claimed": false,
+    "absolute_mass_scale_fit_to_targets": false,
+    "canon_allowed": false
+  }
+}

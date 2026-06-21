@@ -1,0 +1,11 @@
+{
+  "schema": "METATIME_DEBT9_QUARK_CONFINEMENT_TRIPLET_BOUNDARY_V5_6",
+  "required_status": "QUARK_SINGLE_STATE_EXACT_CLOSURE_DENIED_TRIPLET_BOUNDARY_INSTALLED",
+  "allowed_claim": "Quark single-particle exact mass scoring is not an appropriate Debt 9 closure criterion; a 21% confinement/hadronization residual budget is accepted only as a diagnostic boundary before triplet aggregation.",
+  "must_not_claim": [
+    "Debt 9 numeric spectrum closure",
+    "full quark mass derivation",
+    "isolated quark exact prediction closure",
+    "21% tolerance as automatic success"
+  ]
+}

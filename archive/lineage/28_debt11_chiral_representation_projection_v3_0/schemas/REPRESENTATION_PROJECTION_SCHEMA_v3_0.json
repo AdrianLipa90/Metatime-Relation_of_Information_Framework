@@ -1,0 +1,31 @@
+{
+  "schema": "METATIME_SM_REPRESENTATION_PROJECTION_SCHEMA_v3_0",
+  "required_columns": [
+    "particle_id",
+    "generation",
+    "sector",
+    "chirality",
+    "weak_object",
+    "cp1_pole",
+    "t3",
+    "color_multiplicity",
+    "color_role",
+    "hypercharge",
+    "electric_charge",
+    "higgs_gate",
+    "seed_mode_status",
+    "seed_mode_candidate",
+    "info_quantum_channel",
+    "zeta_axis_relation",
+    "ramanujan_role",
+    "projection_status",
+    "epistemic_status"
+  ],
+  "epistemic_guards": {
+    "observed_masses_used": false,
+    "mass_prediction_allowed": false,
+    "optional_sterile_neutrino_status": "quarantine",
+    "information_operator_role": "quantum_of_informational_preference_fluctuation_not_free_weight",
+    "ramanujan_role": "scaling_layer_not_fit_knob"
+  }
+}

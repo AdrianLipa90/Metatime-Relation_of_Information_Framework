@@ -1,0 +1,10 @@
+spin_s,hemisphere_phase_over_pi,hemisphere_holonomy_real,hemisphere_holonomy_imag,nontrivial_projective_sign,doubled_loop_identity,passes_gate
+0,0.0,1.0,0.0,False,True,False
+1/2,1.0,-1.0,0.0,True,True,True
+1,2.0,1.0,-0.0,False,True,False
+3/2,3.0,-1.0,0.0,True,True,True
+2,4.0,1.0,-0.0,False,True,False
+5/2,5.0,-1.0,0.0,True,True,True
+3,6.0,1.0,-0.0,False,True,False
+7/2,7.0,-1.0,0.0,True,True,True
+4,8.0,1.0,-0.0,False,True,False

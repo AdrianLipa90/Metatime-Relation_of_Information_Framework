@@ -1,0 +1,29 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "METATIME_LEPTON_INFORMATION_ACTION_RELEASE_PROBE_V6_2",
+  "type": "object",
+  "required": [
+    "schema",
+    "module",
+    "technical_status",
+    "substantive_status",
+    "transition_rows",
+    "metrics",
+    "decision",
+    "guardrails"
+  ],
+  "properties": {
+    "debt9_numeric_spectrum": {
+      "const": "OPEN_NOT_CLOSED"
+    },
+    "mass_prediction_claimed": {
+      "const": false
+    },
+    "absolute_action_derived": {
+      "const": false
+    },
+    "canon_allowed": {
+      "const": false
+    }
+  }
+}

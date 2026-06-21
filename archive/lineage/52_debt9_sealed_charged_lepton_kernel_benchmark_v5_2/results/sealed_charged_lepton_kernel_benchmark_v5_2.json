@@ -1,0 +1,104 @@
+{
+  "comparison": {
+    "interpretation": "Derived v5.1 root gates slightly improve the prior document-F diagnostic, but order-one mu/tau errors remain; this is not a mass-spectrum closure.",
+    "v4_8_best_diagnostic_mean_error_excluding_e_anchor": 0.7894292410380577,
+    "v5_2_sealed_mean_error_excluding_e_anchor": 0.740953709426497
+  },
+  "created_utc": "2026-06-21T00:00:00Z",
+  "decision": {
+    "allowed_next_step": "Analyze residual structure; do not tune the same operator after seeing errors. Next work should derive the missing generational exponent/normalization or reject this branch as insufficient.",
+    "canon_allowed": false,
+    "current_promotion": "DENY_CURRENT",
+    "debt9_numeric_spectrum": "OPEN_NOT_CLOSED",
+    "denied_next_step": "Calling the charged-lepton spectrum derived or promoting v5.2 to canon/current."
+  },
+  "formal_status": "PASS_SEALED_FORMULA_WITH_EXPLICIT_BOUNDARIES",
+  "frozen_formula": {
+    "formula": {
+      "e": "m_e = baseline_e",
+      "mu": "m_mu = baseline_mu * F(e,mu)_v5.1 * exp(0.5*DeltaTauAction_mu)",
+      "tau": "m_tau = baseline_tau / F(e,tau)_v5.1 * exp(0.5*DeltaTauAction_tau)"
+    },
+    "inputs": {
+      "base_mass_units": "v4.7/v4.8 charged-lepton baseline rows; electron unit anchor inherited, not a no-parameter claim",
+      "root_gate": "v5.1 White-Thread quadratic root-relative F(e,i)",
+      "short_doc_kernel": "v4.9 short-doc kernel retained as provenance; not used as a tunable multiplier in v5.2 benchmark formula",
+      "tau_action": "v4.8 tau_v2 relative action, amplitude-level half action"
+    },
+    "name": "SealedChargedLeptonKernel_v5_2",
+    "status": "sealed test formula; no post-result adjustment allowed"
+  },
+  "mass_closure_claimed": false,
+  "metrics": {
+    "closure_threshold_policy": "Denied: errors remain order-one and electron unit is inherited from previous unit anchor.",
+    "max_absolute_relative_error_excluding_e_anchor": 0.9340330739314846,
+    "mean_absolute_relative_error_excluding_e_anchor": 0.740953709426497,
+    "median_absolute_relative_error_excluding_e_anchor": 0.740953709426497,
+    "passes_numeric_debt9_closure_threshold": false
+  },
+  "module": "52_debt9_sealed_charged_lepton_kernel_benchmark_v5_2",
+  "observed_targets_used_in_operator": false,
+  "old_solver_used": false,
+  "operator_adjusted_after_scoring": false,
+  "root_gate_candidate_fingerprint_v5_1": "ae3f5769b9ea3071839d9dc73d9d87d02c9baa75204580deef614798b5d0a96a",
+  "rows": [
+    {
+      "absolute_relative_error": 0.0,
+      "baseline_predicted_mev_from_v47_v48": 0.51099895,
+      "benchmark_mev_post_freeze_scoring_only": 0.51099895,
+      "canon_allowed": false,
+      "derived_root_gate_used": 1.0,
+      "mass_closure_claimed": false,
+      "predicted_mev_sealed_formula": 0.51099895,
+      "ratio_pred_over_benchmark": 1.0,
+      "root_gate_role": "unit",
+      "sealed_formula_fingerprint": "cc635e803222fddac5a121398e055d91740f2e6c118aa9c5e6887f6e66ced1e9",
+      "slot": "e",
+      "tau_v2_relative_action": 0.0,
+      "tau_v2_relative_quanta": 0.0
+    },
+    {
+      "absolute_relative_error": 0.9340330739314846,
+      "baseline_predicted_mev_from_v47_v48": 1840.810358414153,
+      "benchmark_mev_post_freeze_scoring_only": 105.6583755,
+      "canon_allowed": false,
+      "derived_root_gate_used": 0.14258769169807442,
+      "mass_closure_claimed": false,
+      "predicted_mev_sealed_formula": 204.34679275487207,
+      "ratio_pred_over_benchmark": 1.9340330739314846,
+      "root_gate_role": "screening_multiply",
+      "sealed_formula_fingerprint": "cc635e803222fddac5a121398e055d91740f2e6c118aa9c5e6887f6e66ced1e9",
+      "slot": "mu",
+      "tau_v2_relative_action": -0.500689125204031,
+      "tau_v2_relative_quanta": -54.463282428505806
+    },
+    {
+      "absolute_relative_error": 0.5478743449215093,
+      "baseline_predicted_mev_from_v47_v48": 658.5165474967749,
+      "benchmark_mev_post_freeze_scoring_only": 1776.86,
+      "canon_allowed": false,
+      "derived_root_gate_used": 0.3145318633765734,
+      "mass_closure_claimed": false,
+      "predicted_mev_sealed_formula": 2750.356008517233,
+      "ratio_pred_over_benchmark": 1.5478743449215093,
+      "root_gate_role": "release_inverse",
+      "sealed_formula_fingerprint": "cc635e803222fddac5a121398e055d91740f2e6c118aa9c5e6887f6e66ced1e9",
+      "slot": "tau",
+      "tau_v2_relative_action": 0.5456521927993961,
+      "tau_v2_relative_quanta": 59.35421399867016
+    }
+  ],
+  "schema": "METATIME_SEALED_CHARGED_LEPTON_KERNEL_BENCHMARK_V5_2",
+  "sealed_benchmark_performed": true,
+  "sealed_formula_pre_benchmark_fingerprint_sha256": "cc635e803222fddac5a121398e055d91740f2e6c118aa9c5e6887f6e66ced1e9",
+  "short_doc_kernel_fingerprint_v4_9": "7112c8f533e004de3f527e5e41c73654eec28a76f28795f841762aff5576a95a",
+  "substantive_status": "PARTIAL_IMPROVEMENT_FAIL_AS_DEBT9_NUMERIC_CLOSURE",
+  "table_replay_used": false,
+  "taint_ledger": {
+    "benchmark_targets": "Used only after formula fingerprint; not solver inputs.",
+    "electron_unit_anchor": "Inherited from v4.7/v4.8 unit convention; acceptable for diagnostic, not no-parameter closure.",
+    "full_all_pair_Fij": "Not used; v5.1 failed all-pair derivation.",
+    "root_gate_selection": "Candidate selected after v5.0 derivability audit; sealed for v5.2 scoring but not independent blind prediction."
+  },
+  "technical_status": "PASS"
+}

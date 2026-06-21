@@ -1,0 +1,19 @@
+{
+  "schema": "METATIME_SM_DEBT9_YUKAWA_BOUNDARY_RESOLUTION_SCHEMA_V4_2",
+  "required_fields": [
+    "status",
+    "debt9_split",
+    "yukawa_operators",
+    "observed_masses_used",
+    "reference_spectrum_used",
+    "mass_prediction_made"
+  ],
+  "forbidden_inputs": [
+    "reference mass table",
+    "observed non-anchor masses",
+    "old fitted tau",
+    "NoParamSM",
+    "CKM/PMNS as input"
+  ],
+  "allowed_result": "SM-internal Debt9 boundary resolved; numeric mass spectrum remains open unless a separate Metatime operator is supplied"
+}

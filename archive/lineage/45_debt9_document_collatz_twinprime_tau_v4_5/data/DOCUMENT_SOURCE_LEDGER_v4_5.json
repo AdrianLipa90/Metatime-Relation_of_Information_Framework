@@ -1,0 +1,96 @@
+{
+  "created_utc": "2026-06-20T00:00:00Z",
+  "document_constants": {
+    "document_exponents_or_scales": {
+      "heavy_quark_kappa_alpha": "PDG_LOG_OLS_FIT_TAINTED",
+      "lepton_polynomial": "PDG_VANDERMONDE_FIT_TAINTED",
+      "light_quark_kappa_alpha": "PROJECT_FILE_BASE_WITH_PDG_CORRECTION_TAINT",
+      "neutrino_kappa_alpha_scale": "GLOBAL_FIT_ANCHOR_TAINT"
+    },
+    "family_eta": {
+      "heavy_quarks": 1.0,
+      "leptons": 1.1,
+      "light_quarks": 1.0,
+      "neutrinos": 1.1
+    },
+    "preferred_information_quantum": "ln(2)/(24*pi)",
+    "tau_table": {
+      "b": 10.0,
+      "c": 5.0,
+      "d": 0.1,
+      "e": 4.0,
+      "mu": 1.0,
+      "nu1": 0.02,
+      "nu2": 0.05,
+      "nu3": 0.1,
+      "s": 0.4,
+      "t": 100.0,
+      "tau": 10.0,
+      "u": 0.05
+    },
+    "twin_prime_centers": {
+      "heavy_quarks": [
+        101,
+        103,
+        102
+      ],
+      "leptons": [
+        3,
+        5,
+        4
+      ],
+      "light_quarks": [
+        11,
+        13,
+        12
+      ],
+      "neutrinos": [
+        5,
+        7,
+        6
+      ]
+    }
+  },
+  "module": "45_debt9_document_collatz_twinprime_tau_v4_5",
+  "primary_document_sources": [
+    {
+      "content": "twin-prime pairs, p+1 centers, family Collatz maps, tau/eigenvalue table",
+      "lines_from_pdftotext": "31-82",
+      "path": "00_original_metatime/Metatime-main/documents/Formal_SM.pdf"
+    },
+    {
+      "content": "topological eigenvalues from twin-prime Collatz and power-law mass ansatz",
+      "lines_from_pdftotext": "65-124",
+      "path": "00_original_metatime/Metatime-main/Metatime framework summary.pdf"
+    },
+    {
+      "content": "4->2->1 radial return and twin-prime first-descent complementarity",
+      "lines_from_pdftotext": "21-28, 76-80, 123-131",
+      "path": "Download/step1_bloch_fs_collatz_normal_form_v2.pdf"
+    },
+    {
+      "content": "ln2/(24pi), 24pi Berry-Euler normalizer, Ramanujan-theta residue, CP2 terminal cell",
+      "lines_from_pdftotext": "78-87, 100-117, 169-187, 199-235",
+      "path": "Download/master_note_projective_collatz_synthesis.pdf"
+    }
+  ],
+  "schema": "METATIME_DOCUMENT_DERIVED_SOURCE_LEDGER_V4_5",
+  "scope": "Extract document calculations into a source-classified operator trace; do not close numeric Debt 9.",
+  "use_policy": {
+    "allowed_as_operator_input": [
+      "twin_prime_centers",
+      "family_eta",
+      "tau_table_as_document_eigenvalue_trace",
+      "L3_collatz_length_of_3",
+      "information_quantum_ln2_over_24pi",
+      "Ramanujan_theta_residue_diagnostic"
+    ],
+    "benchmark_status": "not performed in v4.5; v4.5 freezes trace and classifies provenance",
+    "not_allowed_as_numeric_closure": [
+      "charged_lepton_polynomial_fit",
+      "heavy_quark_log_OLS_fit",
+      "light_quark_required_Fi_corrections_from_PDG",
+      "neutrino_global_fit_scale_s"
+    ]
+  }
+}

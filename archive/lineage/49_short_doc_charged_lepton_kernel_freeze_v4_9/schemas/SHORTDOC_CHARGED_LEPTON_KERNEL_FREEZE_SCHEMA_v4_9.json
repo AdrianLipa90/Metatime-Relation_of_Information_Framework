@@ -1,0 +1,20 @@
+{
+  "schema": "METATIME_SHORTDOC_CHARGED_LEPTON_KERNEL_FREEZE_SCHEMA_v4_9",
+  "required_fields": [
+    "schema",
+    "module",
+    "technical_status",
+    "formal_status",
+    "substantive_status",
+    "constants",
+    "formula_frozen_before_benchmark",
+    "rows",
+    "operator_fingerprint_sha256",
+    "taint_ledger",
+    "canon_allowed",
+    "current_promotion"
+  ],
+  "mass_prediction_claimed": "must be false for every row",
+  "benchmark_performed": "must be false for every row",
+  "purpose": "freeze short-doc charged-lepton kernel, not numeric Debt 9 closure"
+}

@@ -1,0 +1,20 @@
+{
+  "schema": "METATIME_DOCUMENT_OPERATOR_SOURCE_INDEX_v6_6",
+  "required_operator_statuses": [
+    "SOURCE_INDEXED_CONTENT",
+    "SOURCE_INDEXED_MINIMAL_CONTENT",
+    "SOURCE_PATH_ONLY_BLOCKED_FOR_CONTENT_EXTRACTION",
+    "BLOCKED_NO_SOURCE_FOUND"
+  ],
+  "forbidden_statuses": [
+    "unknown",
+    "floating",
+    "later",
+    "implicit"
+  ],
+  "evidence_exclusion": [
+    "90_manifests",
+    "99_validation",
+    "module results and schemas excluded from source content evidence"
+  ]
+}

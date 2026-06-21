@@ -1,0 +1,16 @@
+{
+  "required_formula": [
+    "OIB",
+    "L3",
+    "tau_v2_relative_preference_quanta",
+    "quadratic_open_holonomy_action"
+  ],
+  "required_status": {
+    "benchmark_performed": false,
+    "canon_allowed": false,
+    "current_promotion": "DENY_CURRENT",
+    "debt9_numeric_spectrum": "OPEN_NOT_CLOSED",
+    "mass_prediction_claimed": false
+  },
+  "schema": "METATIME_WHITETHREAD_QUADRATIC_AMPLITUDE_MAP_SCHEMA_v5_1"
+}

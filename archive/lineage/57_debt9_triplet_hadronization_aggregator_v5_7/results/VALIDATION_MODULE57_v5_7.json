@@ -1,0 +1,20 @@
+{
+  "schema": "VALIDATION_MODULE57_V5_7",
+  "module": "57_debt9_triplet_hadronization_aggregator_v5_7",
+  "status": "PASS",
+  "checks": {
+    "result_exists": true,
+    "debt9_open": true,
+    "no_mass_prediction_claim": true,
+    "canon_denied": true,
+    "triplet_rows_present": true,
+    "single_quark_exact_denied": true,
+    "readme_exact_hadron_table_denied": true,
+    "mu0_anchor_denied": true,
+    "all_rows_no_mass_claim": true,
+    "all_rows_triplet_required": true,
+    "all_rows_binding_dominated_under_21percent": true,
+    "no_old_solver_import_or_reference_replay_in_active_script": true,
+    "active_script_compiles": true
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "checks": [
+    "result JSON exists",
+    "no mass prediction",
+    "no benchmark",
+    "no observed/reference spectrum input",
+    "active executable forbidden-token scan",
+    "nested archive scan",
+    "root gates pass only as candidate",
+    "all-pair gate failure remains explicit"
+  ],
+  "errors": [],
+  "schema": "VALIDATION_MODULE51_v5_1",
+  "status": "PASS"
+}

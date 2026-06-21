@@ -1,0 +1,74 @@
+{
+  "artifact": "METATIME_SM_MASS_ACTION_ASSEMBLY_v0_5",
+  "purpose": "Assemble generation embedding and representation vectorization into the first no-mass-input Euler-Berry action hierarchy kernel.",
+  "canonical_inputs_not_mass_fitted": [
+    "SM representation vectors from v0_1/v0_1 mass vectorization",
+    "Euler-Berry closure v0_1",
+    "generation seed candidates from twin-prime Collatz/Poincare kernel v0_4",
+    "kappa = ln(2)/(24*pi)"
+  ],
+  "validation_targets_only": [
+    "observed fermion masses/Yukawa-derived actions are used only after assembly to check ordering"
+  ],
+  "generation_assignment_rule": "sort minimal twin-prime seed triplet by geometric EB action descending: largest action -> strongest suppression -> generation 1; smallest action -> weakest suppression -> generation 3",
+  "minimal_seed_triplet": [
+    {
+      "generation": 1,
+      "seed_p": 3,
+      "seed_q": 5,
+      "eb_action_kernel_unit_v04": 0.44017743117972435,
+      "eb_action_kernel_kappa_v04": 0.004046617154249624,
+      "observed_hierarchy_role": "lightest",
+      "assignment_rule": "rank EB action descending; larger action means stronger exponential suppression",
+      "status": "structural_assignment_no_mass_fit"
+    },
+    {
+      "generation": 2,
+      "seed_p": 11,
+      "seed_q": 13,
+      "eb_action_kernel_unit_v04": 0.4129797750528312,
+      "eb_action_kernel_kappa_v04": 0.003796585021653686,
+      "observed_hierarchy_role": "middle",
+      "assignment_rule": "rank EB action descending; larger action means stronger exponential suppression",
+      "status": "structural_assignment_no_mass_fit"
+    },
+    {
+      "generation": 3,
+      "seed_p": 5,
+      "seed_q": 7,
+      "eb_action_kernel_unit_v04": 0.34380299602647096,
+      "eb_action_kernel_kappa_v04": 0.003160632515107505,
+      "observed_hierarchy_role": "heaviest",
+      "assignment_rule": "rank EB action descending; larger action means stronger exponential suppression",
+      "status": "structural_assignment_no_mass_fit"
+    }
+  ],
+  "mass_action_structure": {
+    "total_action": "S_EB(f,g) = kappa * [ G_seed(g) + R_rep(f) + C_chiral(f) + Z_spectral(g,f) - Omega_EB(f,g) ]_+",
+    "current_v0_5_status": "only G_seed ordering is assembled and validated qualitatively; R,C,Z,Omega are defined slots, not numerically frozen",
+    "no_free_yukawa_rule": true
+  },
+  "validation_status": [
+    {
+      "family": "charged_leptons",
+      "spearman_rank_match": 1.0,
+      "model_rank_desc": "{\"e\": 1, \"mu\": 2, \"tau\": 3}",
+      "target_rank_desc": "{\"e\": 1, \"mu\": 2, \"tau\": 3}",
+      "status": "PASS_order_only"
+    },
+    {
+      "family": "up_type_quarks",
+      "spearman_rank_match": 1.0,
+      "model_rank_desc": "{\"u\": 1, \"c\": 2, \"t\": 3}",
+      "target_rank_desc": "{\"u\": 1, \"c\": 2, \"t\": 3}",
+      "status": "PASS_order_only"
+    },
+    {
+      "family": "down_type_quarks",
+      "spearman_rank_match": 1.0,
+      "model_rank_desc": "{\"d\": 1, \"s\": 2, \"b\": 3}",
+      "target_rank_desc": "{\"d\": 1, \"s\": 2, \"b\": 3}",
+      "status": "PASS_order_only"
+    }
+  ]
+}

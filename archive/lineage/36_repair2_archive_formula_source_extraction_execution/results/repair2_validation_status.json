@@ -1,0 +1,9 @@
+{
+  "gate": "REPAIR2_SOURCE_EXTRACTION_EXECUTION_LEDGER_PASS",
+  "source_excerpt_rows": 600,
+  "mass_execution_rows": 29,
+  "summary_rows": 0,
+  "archive_formulas_used": true,
+  "old_vs_new_blocker_used": false,
+  "dependency_status_attached": true
+}

@@ -1,0 +1,168 @@
+{
+  "ARCHIVE_CANONICAL_SPECTRUM": {
+    "n": 12,
+    "all_mass_calc_equal_reference": true,
+    "equal_count": 12,
+    "max_abs_relative_error": 0.0,
+    "examples": [
+      {
+        "particle": "e",
+        "mass_calc": "0.511",
+        "reference": "0.511",
+        "relative_error": "0.0",
+        "source": "MetaTheory archive canonical spectrum table / v3.8 extraction"
+      },
+      {
+        "particle": "mu",
+        "mass_calc": "105.7",
+        "reference": "105.7",
+        "relative_error": "0.0",
+        "source": "MetaTheory archive canonical spectrum table / v3.8 extraction"
+      },
+      {
+        "particle": "tau",
+        "mass_calc": "1776.9",
+        "reference": "1776.9",
+        "relative_error": "0.0",
+        "source": "MetaTheory archive canonical spectrum table / v3.8 extraction"
+      },
+      {
+        "particle": "nu1",
+        "mass_calc": "0.001",
+        "reference": "0.001",
+        "relative_error": "0.0",
+        "source": "MetaTheory archive canonical spectrum table / v3.8 extraction"
+      },
+      {
+        "particle": "nu2",
+        "mass_calc": "0.008",
+        "reference": "0.008",
+        "relative_error": "0.0",
+        "source": "MetaTheory archive canonical spectrum table / v3.8 extraction"
+      }
+    ]
+  },
+  "ARCHIVE_NOPARAMSM_ENSEMBLE": {
+    "n": 9,
+    "all_mass_calc_equal_reference": false,
+    "equal_count": 3,
+    "max_abs_relative_error": 0.0002401613560400757,
+    "examples": [
+      {
+        "particle": "e",
+        "mass_calc": "0.511000473017599",
+        "reference": "0.5109989461",
+        "relative_error": "2.988103225417267e-06",
+        "source": "NoParamSM/noparamSMsolver.py archived formula, fixed seed execution"
+      },
+      {
+        "particle": "mu",
+        "mass_calc": "105.65853212361435",
+        "reference": "105.6583745",
+        "relative_error": "1.4918232000279279e-06",
+        "source": "NoParamSM/noparamSMsolver.py archived formula, fixed seed execution"
+      },
+      {
+        "particle": "tau",
+        "mass_calc": "1776.8613243905934",
+        "reference": "1776.86",
+        "relative_error": "7.453544980929501e-07",
+        "source": "NoParamSM/noparamSMsolver.py archived formula, fixed seed execution"
+      },
+      {
+        "particle": "u",
+        "mass_calc": "2.160006454302967",
+        "reference": "2.16",
+        "relative_error": "2.988103225348087e-06",
+        "source": "NoParamSM/noparamSMsolver.py archived formula, fixed seed execution"
+      },
+      {
+        "particle": "d",
+        "mass_calc": "4.668878446467293",
+        "reference": "4.67",
+        "relative_error": "-0.0002401613560400757",
+        "source": "NoParamSM/noparamSMsolver.py archived formula, fixed seed execution"
+      }
+    ]
+  },
+  "ARCHIVE_EXTENDED_MONOLITH_BOSON_ENSEMBLE": {
+    "n": 3,
+    "all_mass_calc_equal_reference": false,
+    "equal_count": 0,
+    "max_abs_relative_error": 0.0032745065696686945,
+    "examples": [
+      {
+        "particle": "W",
+        "mass_calc": "80121.60005017034",
+        "reference": "80377.0",
+        "relative_error": "-0.0031775252849653712",
+        "source": "NoParamSM/noparamSMextended.py archived formula, fixed seed execution"
+      },
+      {
+        "particle": "Z",
+        "mass_calc": "90895.43608990703",
+        "reference": "91187.0",
+        "relative_error": "-0.0031974284721831983",
+        "source": "NoParamSM/noparamSMextended.py archived formula, fixed seed execution"
+      },
+      {
+        "particle": "Higgs",
+        "mass_calc": "124690.35922813445",
+        "reference": "125100.0",
+        "relative_error": "-0.0032745065696686945",
+        "source": "NoParamSM/noparamSMextended.py archived formula, fixed seed execution"
+      }
+    ]
+  },
+  "ARCHIVE_EXTENDED_MONOLITH_NUCLEON_ENSEMBLE": {
+    "n": 2,
+    "all_mass_calc_equal_reference": false,
+    "equal_count": 0,
+    "max_abs_relative_error": 0.0015186857090238469,
+    "examples": [
+      {
+        "particle": "p",
+        "mass_calc": "939.6970285714644",
+        "reference": "938.27208816",
+        "relative_error": "0.0015186857090237781",
+        "source": "NoParamSM/noparamSMextended.py archived formula, fixed seed execution"
+      },
+      {
+        "particle": "n",
+        "mass_calc": "940.9923250968367",
+        "reference": "939.56542052",
+        "relative_error": "0.0015186857090238469",
+        "source": "NoParamSM/noparamSMextended.py archived formula, fixed seed execution"
+      }
+    ]
+  },
+  "ARCHIVE_EXTENDED_MONOLITH_BINDING_ENSEMBLE": {
+    "n": 3,
+    "all_mass_calc_equal_reference": false,
+    "equal_count": 0,
+    "max_abs_relative_error": 0.03476422702672224,
+    "examples": [
+      {
+        "particle": "16O",
+        "mass_calc": "7.698720525234863",
+        "reference": "7.976",
+        "relative_error": "-0.03476422702672224",
+        "source": "NoParamSM/noparamSMextended.py archived formula, fixed seed execution"
+      },
+      {
+        "particle": "56Fe",
+        "mass_calc": "8.81970779512507",
+        "reference": "8.79",
+        "relative_error": "0.003379726407857988",
+        "source": "NoParamSM/noparamSMextended.py archived formula, fixed seed execution"
+      },
+      {
+        "particle": "208Pb",
+        "mass_calc": "7.853529951786771",
+        "reference": "7.867",
+        "relative_error": "-0.001712221712626012",
+        "source": "NoParamSM/noparamSMextended.py archived formula, fixed seed execution"
+      }
+    ]
+  }
+}

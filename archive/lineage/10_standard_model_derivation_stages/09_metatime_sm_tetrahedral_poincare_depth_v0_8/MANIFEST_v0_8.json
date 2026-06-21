@@ -1,0 +1,60 @@
+{
+  "artifact": "METATIME_SM_TETRAHEDRAL_POINCARE_DEPTH_v0_8",
+  "files": [
+    {
+      "path": "METATIME_SM_TETRAHEDRAL_POINCARE_DEPTH_v0_8.md",
+      "sha256": "114b9552fd34c9129f1b5d2c3483667f77dab2aa9beae13951c4c67af8199178",
+      "size": 5633
+    },
+    {
+      "path": "PREVIOUS_COLLATZ_POINCARE_KERNEL_REFERENCE.md",
+      "sha256": "6c824a9c6575239af382f6a0632ed9c8d65db22a2b098fec75217dc4b9264c21",
+      "size": 3520
+    },
+    {
+      "path": "PREVIOUS_MASS_ACTION_ASSEMBLY_REFERENCE.md",
+      "sha256": "bbd8ad496ed86d71600bbd6a84a3280c7a86aad792b3dc093c24ac844882e76e",
+      "size": 4095
+    },
+    {
+      "path": "PREVIOUS_REPRESENTATION_HOLONOMY_REFERENCE.md",
+      "sha256": "bc1cafb5327b003e58250889151c2464ec730c3b399818479e8a573440c64165",
+      "size": 4184
+    },
+    {
+      "path": "README.md",
+      "sha256": "4fb34487ae2c1c6eab0ecfc18da9c3db677cd63e932a740fbc719617849c0b57",
+      "size": 739
+    },
+    {
+      "path": "TETRAHEDRAL_POINCARE_SCHEMA_v0_8.json",
+      "sha256": "37a3cc3f48765bf6c739cf020408abbad6b7fb7bf835cf4c97823aa70a777784",
+      "size": 1431
+    },
+    {
+      "path": "VALIDATION_STATUS_v0_8.md",
+      "sha256": "c93ea4794587ca98b946c5ab9ba9f7dc7a104f0ebdd10424de0fa0de3ccdd2d9",
+      "size": 1040
+    },
+    {
+      "path": "results/tetra_poincare_depth_summary_v0_8.json",
+      "sha256": "b2e65b9c01c454844f5fec7e786511160ca7c0dd41814e2bce10dfeea272261e",
+      "size": 1482
+    },
+    {
+      "path": "results/tetra_poincare_depth_table_v0_8.csv",
+      "sha256": "d013da4d81e0c59796615c68293270f062cd748497956027276d21116af1c7b9",
+      "size": 1631
+    },
+    {
+      "path": "results/tetra_poincare_minimal_triplet_paths_v0_8.svg",
+      "sha256": "a3dc686cfe42df47bb0be9abfaa8b3b7b9e494035c494450d547649b0c5db2de",
+      "size": 3701
+    },
+    {
+      "path": "scripts/tetrahedral_poincare_depth_v0_8.py",
+      "sha256": "7c7bcb535dddef5477b0cd818f1476d923f043cb53298b50eceffaa12cc2fe4a",
+      "size": 8315
+    }
+  ]
+}

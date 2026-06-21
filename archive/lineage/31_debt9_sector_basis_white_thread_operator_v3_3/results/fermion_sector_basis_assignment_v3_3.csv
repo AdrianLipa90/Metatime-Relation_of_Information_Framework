@@ -1,0 +1,13 @@
+fermion,generation,sm_class,sector_id,basis_axis,basis_mode,seed_channel,mass_anchor_eligible,mass_value_used_here
+e,1,charged_lepton,charged_lepton,lepton_basis,charged_lepton_first_harmonic_candidate,"(3,5)",True,False
+mu,2,charged_lepton,charged_lepton,lepton_basis,charged_lepton_base_mode_candidate,"(3,5)",False,False
+tau,3,charged_lepton,charged_lepton,lepton_basis,charged_lepton_high_mode_candidate,"(3,5)",False,False
+nu1,1,neutrino,neutrino,neutrino_pair_basis,pairwise_coherence_mode_candidate,"(5,7)",False,False
+nu2,2,neutrino,neutrino,neutrino_pair_basis,pairwise_coherence_mode_candidate,"(5,7)",False,False
+nu3,3,neutrino,neutrino,neutrino_pair_basis,pairwise_coherence_mode_candidate,"(5,7)",False,False
+u,1,up_quark,light_quark,up_light_basis,light_up_cycle_candidate,"(11,13)",False,False
+d,1,down_quark,light_quark,down_light_basis,light_down_cycle_candidate,"(11,13)",False,False
+s,2,down_quark,light_quark,down_light_basis,light_strange_beta_resonance_candidate_quarantined,"(11,13)",False,False
+c,2,up_quark,heavy_quark,up_heavy_basis,heavy_charm_cycle_candidate,"(101,103)",False,False
+b,3,down_quark,heavy_quark,down_heavy_basis,heavy_bottom_cycle_candidate,"(101,103)",False,False
+t,3,up_quark,heavy_quark,up_heavy_basis,heavy_top_resonant_cycle_candidate,"(101,103)",False,False

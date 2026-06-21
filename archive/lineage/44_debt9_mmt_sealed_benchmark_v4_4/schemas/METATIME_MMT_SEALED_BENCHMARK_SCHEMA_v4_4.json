@@ -1,0 +1,13 @@
+{
+  "required_guards": [
+    "frozen_operator_sha_matches_expected",
+    "operator_mutated_after_freeze=false",
+    "fitted_parameters_used=false",
+    "mass_prediction_claimed=false",
+    "observed_masses_used_by_operator=false",
+    "canon_allowed=false",
+    "current_promotion=DENY_CURRENT"
+  ],
+  "required_status": "SEALED_BENCHMARK_FAIL_NUMERIC_DEBT9_REMAINS_OPEN or PASS_REVIEW_REQUIRED_NOT_CANON",
+  "schema": "METATIME_MMT_SEALED_BENCHMARK_SCHEMA_V4_4"
+}

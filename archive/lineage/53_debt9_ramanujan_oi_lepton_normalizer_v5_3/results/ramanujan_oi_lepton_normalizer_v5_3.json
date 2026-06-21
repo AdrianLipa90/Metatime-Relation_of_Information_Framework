@@ -1,0 +1,115 @@
+{
+  "created_utc": "2026-06-21T00:00:00Z",
+  "decision": {
+    "allowed_next_step": "Use Ramanujan-OI path normalizer as a strong clue; next freeze must derive a true no-anchor scale or a muon-specific generation channel from existing non-mass sources.",
+    "canon_allowed": false,
+    "current_promotion": "DENY_CURRENT",
+    "debt9_numeric_spectrum": "OPEN_NOT_CLOSED",
+    "denied_next_step": "Claiming charged-lepton masses derived or declaring Debt 9 closed."
+  },
+  "formal_status": "PASS_WITH_EXPLICIT_RAMANUJAN_OI_SOURCE_LEDGER",
+  "formula_pre_benchmark_fingerprint_sha256": "e16ae959d39b1aeb5aec98b478ceaed2455f69c867f089729f71150df61e02fb",
+  "frozen_formula": {
+    "boundaries": {
+      "benchmark_targets_used_only_after_fingerprint": true,
+      "closure_claimed": false,
+      "new_free_parameter_added": false,
+      "observed_masses_used_in_operator": false,
+      "post_v5_2_correction": true
+    },
+    "formula": {
+      "mass_diagnostic": "m_i(v5.3) = m_i(v5.2 sealed) * R_ei; m_e unchanged",
+      "path_normalizer": "R_ei = exp(-(A_R_i - A_R_e)/(2*OIB*DeltaGeneration)) = (V_i/V_e)^(1/(2*DeltaGeneration))",
+      "ramanujan_visibility": "V_i = exp(-A_R_i/OIB)"
+    },
+    "name": "RamanujanOIPathNormalizer_v5_3",
+    "role": "root-relative charged-lepton generation normalizer applied to the already sealed v5.2 kernel",
+    "source": {
+      "information_operator": "OIB = ln2/(24*pi), used as the quantum of informational preference fluctuation",
+      "path_rule": "spinor half-action divided by generation-path duration from e to target",
+      "ramanujan_layer": "v2.1/v2.9 seed suppression and tau_v2 table"
+    }
+  },
+  "mass_closure_claimed": false,
+  "metrics": {
+    "closure_threshold_policy": "Denied: electron is still unit anchor; formula was introduced after v5.2 diagnosis; muon error remains large enough to block canon closure.",
+    "improvement_vs_v5_2_mean_error": 0.48005090456342053,
+    "max_absolute_relative_error_excluding_e_anchor": 0.4684167919495281,
+    "mean_absolute_relative_error_excluding_e_anchor": 0.26090280486307643,
+    "median_absolute_relative_error_excluding_e_anchor": 0.26090280486307643,
+    "passes_numeric_debt9_closure_threshold": false,
+    "v5_2_mean_absolute_relative_error_excluding_e_anchor": 0.740953709426497
+  },
+  "module": "53_debt9_ramanujan_oi_lepton_normalizer_v5_3",
+  "observed_targets_used_in_operator": false,
+  "old_solver_used": false,
+  "operator_adjusted_after_scoring": false,
+  "rows": [
+    {
+      "OIB_ln2_over_24pi": 0.009193150006360484,
+      "absolute_relative_error": 0.0,
+      "benchmark_mev_post_freeze_scoring_only": 0.51099895,
+      "canon_allowed": false,
+      "delta_generation_from_e": 0,
+      "formula_fingerprint_sha256": "e16ae959d39b1aeb5aec98b478ceaed2455f69c867f089729f71150df61e02fb",
+      "generation": 1,
+      "mass_closure_claimed": false,
+      "predicted_mev_v5_3_diagnostic": 0.51099895,
+      "ramanujan_oi_path_normalizer": 1.0,
+      "ramanujan_scaled_action": 0.004370830988727592,
+      "ramanujan_visibility": 0.6216087994874351,
+      "ratio_pred_over_benchmark": 1.0,
+      "slot": "e",
+      "v5_2_sealed_prediction_input_mev": 0.51099895
+    },
+    {
+      "OIB_ln2_over_24pi": 0.009193150006360484,
+      "absolute_relative_error": 0.4684167919495281,
+      "benchmark_mev_post_freeze_scoring_only": 105.6583755,
+      "canon_allowed": false,
+      "delta_generation_from_e": 1,
+      "formula_fingerprint_sha256": "e16ae959d39b1aeb5aec98b478ceaed2455f69c867f089729f71150df61e02fb",
+      "generation": 2,
+      "mass_closure_claimed": false,
+      "predicted_mev_v5_3_diagnostic": 155.15053279430862,
+      "ramanujan_oi_path_normalizer": 0.7592511274714366,
+      "ramanujan_scaled_action": 0.009434835198791994,
+      "ramanujan_visibility": 0.3583340224431701,
+      "ratio_pred_over_benchmark": 1.4684167919495281,
+      "slot": "mu",
+      "v5_2_sealed_prediction_input_mev": 204.34679275487207
+    },
+    {
+      "OIB_ln2_over_24pi": 0.009193150006360484,
+      "absolute_relative_error": 0.05338881777662474,
+      "benchmark_mev_post_freeze_scoring_only": 1776.86,
+      "canon_allowed": false,
+      "delta_generation_from_e": 2,
+      "formula_fingerprint_sha256": "e16ae959d39b1aeb5aec98b478ceaed2455f69c867f089729f71150df61e02fb",
+      "generation": 3,
+      "mass_closure_claimed": false,
+      "predicted_mev_v5_3_diagnostic": 1681.9955452454265,
+      "ramanujan_oi_path_normalizer": 0.611555573182768,
+      "ramanujan_scaled_action": 0.022453736748409954,
+      "ramanujan_visibility": 0.08694825430638196,
+      "ratio_pred_over_benchmark": 0.9466111822233753,
+      "slot": "tau",
+      "v5_2_sealed_prediction_input_mev": 2750.356008517233
+    }
+  ],
+  "schema": "METATIME_RAMANUJAN_OI_LEPTON_NORMALIZER_V5_3",
+  "source_assertions": {
+    "information_operator_role": "OIB=ln2/(24*pi) as quantum of informational preference fluctuation from v2.9 and step-docs.",
+    "ramanujan_visibility_definition": "visibility = exp(-ramanujan_scaled_action / OIB) from v2.1 script/results.",
+    "spinor_half_path_rule": "half-action amplitude over root-relative generation path, consistent with short-doc half-phase/lifted closure convention."
+  },
+  "substantive_status": "PARTIAL_IMPROVEMENT_FAIL_AS_DEBT9_NUMERIC_CLOSURE",
+  "table_replay_used": false,
+  "taint_ledger": {
+    "benchmark_targets": "Used only after formula fingerprint for scoring.",
+    "electron_unit_anchor": "Still inherited from prior unit convention; blocks no-parameter closure.",
+    "observed_masses_as_inputs": "Not used.",
+    "post_v5_2_formula_selection": "This normalizer was installed after noticing the missing Ramanujan/OI layer; useful diagnostic, not independent blind prediction."
+  },
+  "technical_status": "PASS"
+}

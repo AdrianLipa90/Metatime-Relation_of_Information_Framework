@@ -1,0 +1,307 @@
+{
+  "schema": "METATIME_DEBT9_HADRON_SCALE_PROVENANCE_AUDIT_V5_8",
+  "module": "58_debt9_hadron_scale_provenance_audit_v5_8",
+  "created_utc": "2026-06-21T08:44:28Z",
+  "technical_status": "PASS",
+  "formal_status": "PASS_WITH_STRONGER_PROVENANCE_DISTINCTION",
+  "substantive_status": "HADRON_TABLE_NOT_REJECTED_FOR_SMALL_ERROR_BUT_NOT_PROMOTED_WITHOUT_SCALE_PROVENANCE",
+  "debt9_numeric_spectrum": "OPEN_NOT_CLOSED",
+  "canon_allowed": false,
+  "current_promotion": "DENY_CURRENT",
+  "mass_prediction_claimed": false,
+  "user_correction_integrated": {
+    "correction": "Do not reject marginal hadron errors merely because they are marginal; check whether the table is independently derived.",
+    "implemented_as": "hadron scale provenance audit distinguishing small-error evidence from replay/anchor risk",
+    "result": "small errors are allowed in principle; exact table remains unpromoted because the checked sources do not expose executable non-mass scale derivation."
+  },
+  "constants": {
+    "OIB_ln2_over_24pi": 0.009193150006360484,
+    "L3": 7,
+    "beta_crystallization": 1.214377,
+    "Rcrit": 1.5403,
+    "delta_instability": 0.2118,
+    "confinement_residual_budget": 0.21
+  },
+  "source_excerpts_ledger": {
+    "SM_and_M_Theory_generalisation_hadron_geometric_mean": {
+      "source_file": "00_original_metatime/Metatime-main/documents/SM_and_M_Theory_generalisation.pdf",
+      "extracted_from_pdf_text_lines": "Section 6, Hadron Masses and Binding Energy",
+      "excerpt_summary": "Baryons and mesons are constructed from quark F_ij values via a geometric-mean prescription F_hadron = product(F_qi,qj)^(1/Npairs).",
+      "evidence_role": "STRUCTURAL_HINT",
+      "risk": "No independent MeV scale is shown in the same table."
+    },
+    "SM_and_M_Theory_generalisation_exact_baryon_table": {
+      "source_file": "00_original_metatime/Metatime-main/documents/SM_and_M_Theory_generalisation.pdf",
+      "excerpt_summary": "Table lists Proton 938.3 vs 938.3, Neutron 939.6 vs 939.6, Lambda 1115.7 vs 1115.7, Sigma+ 1189.4 vs 1189.4 with 0.0% errors.",
+      "evidence_role": "RESULT_TABLE_REQUIRES_PROVENANCE",
+      "risk": "Exact equality to displayed benchmark precision requires executable provenance before promotion."
+    },
+    "Formal_SM_baryon_binding_formula": {
+      "source_file": "00_original_metatime/Metatime-main/documents/Formal_SM.pdf",
+      "excerpt_summary": "Formula m_B = sum_i m_i^(phys) + E_bind, where E_bind is emergent binding energy from topological interactions.",
+      "evidence_role": "STRUCTURAL_FORMULA",
+      "risk": "E_bind values appear tabular and need independent derivation."
+    },
+    "Formal_SM_baryon_table_mixed_quality": {
+      "source_file": "00_original_metatime/Metatime-main/documents/Formal_SM.pdf",
+      "excerpt_summary": "Proton/neutron/Sigma/Xi close; Lambda deviates strongly, suggesting additional dynamics or SU(3)-breaking corrections.",
+      "evidence_role": "MIXED_DIAGNOSTIC_TABLE",
+      "risk": "Not an exact universal closure; shows real residuals and missing dynamics."
+    },
+    "Calabi_Yau2_binding_calibration_warning": {
+      "source_file": "00_original_metatime/Metatime-main/documents/Calabi_Yau2.pdf",
+      "excerpt_summary": "Binding energy scale 5-50 MeV for light quarks; meson beta calibrated to PDG masses; compare to PDG and iterate small adjustment of F_ij if needed.",
+      "evidence_role": "TAINT_WARNING",
+      "risk": "Explicit calibration/iteration language blocks no-parameter promotion."
+    },
+    "Perfect_numbers_prime_product_path": {
+      "source_file": "00_original_metatime/Metatime-main/documents/Perfect_numbers_and_rhe_strings.pdf",
+      "excerpt_summary": "Hadron mapped to product of quark primes; for proton u↔3,d↔5, n_p=45, sigma(45)=78, R(45)=1.73; mismatch acknowledged and harmonic corrections required.",
+      "evidence_role": "CLEAN_STRUCTURAL_PATH_CANDIDATE",
+      "risk": "No final MeV-scale map from R(n)/L(n) to hadron masses is completed there."
+    },
+    "Sigma_standing_wave_binding": {
+      "source_file": "00_original_metatime/Metatime-main/documents/Sigma.pdf / Sigma_(1).pdf",
+      "excerpt_summary": "Hadron binding described via standing waves/knot topology and emergent Collatz/Lambda0 energy; tables contain physical baryon rows.",
+      "evidence_role": "STRUCTURAL_BINDING_PICTURE_WITH_NUMERIC_TABLES",
+      "risk": "Binding energy scale still needs provenance separate from table values."
+    }
+  },
+  "source_rows": [
+    {
+      "hadron": "proton",
+      "composition": "uud",
+      "predicted_mev": 938.3,
+      "benchmark_mev": 938.3,
+      "source": "SM_and_M_Theory_generalisation",
+      "table_role": "exact_displayed_table",
+      "absolute_relative_error": 0.0,
+      "display_exact_to_source_precision": true,
+      "provenance_status": "EXACT_TABLE_REQUIRES_EXECUTABLE_SCALE_PROVENANCE",
+      "promotion_to_debt9_closure": false,
+      "reason": "The table is exactly equal to benchmarks to displayed precision; this may be real, but requires executable non-mass scale derivation before promotion."
+    },
+    {
+      "hadron": "neutron",
+      "composition": "udd",
+      "predicted_mev": 939.6,
+      "benchmark_mev": 939.6,
+      "source": "SM_and_M_Theory_generalisation",
+      "table_role": "exact_displayed_table",
+      "absolute_relative_error": 0.0,
+      "display_exact_to_source_precision": true,
+      "provenance_status": "EXACT_TABLE_REQUIRES_EXECUTABLE_SCALE_PROVENANCE",
+      "promotion_to_debt9_closure": false,
+      "reason": "The table is exactly equal to benchmarks to displayed precision; this may be real, but requires executable non-mass scale derivation before promotion."
+    },
+    {
+      "hadron": "Lambda",
+      "composition": "uds",
+      "predicted_mev": 1115.7,
+      "benchmark_mev": 1115.7,
+      "source": "SM_and_M_Theory_generalisation",
+      "table_role": "exact_displayed_table",
+      "absolute_relative_error": 0.0,
+      "display_exact_to_source_precision": true,
+      "provenance_status": "EXACT_TABLE_REQUIRES_EXECUTABLE_SCALE_PROVENANCE",
+      "promotion_to_debt9_closure": false,
+      "reason": "The table is exactly equal to benchmarks to displayed precision; this may be real, but requires executable non-mass scale derivation before promotion."
+    },
+    {
+      "hadron": "Sigma_plus",
+      "composition": "uus",
+      "predicted_mev": 1189.4,
+      "benchmark_mev": 1189.4,
+      "source": "SM_and_M_Theory_generalisation",
+      "table_role": "exact_displayed_table",
+      "absolute_relative_error": 0.0,
+      "display_exact_to_source_precision": true,
+      "provenance_status": "EXACT_TABLE_REQUIRES_EXECUTABLE_SCALE_PROVENANCE",
+      "promotion_to_debt9_closure": false,
+      "reason": "The table is exactly equal to benchmarks to displayed precision; this may be real, but requires executable non-mass scale derivation before promotion."
+    },
+    {
+      "hadron": "proton",
+      "composition": "uud",
+      "quark_sum_mev": 9.1,
+      "Ebind_mev": 928.9,
+      "predicted_mev": 938.0,
+      "benchmark_mev": 938.3,
+      "source": "Formal_SM",
+      "table_role": "binding_table",
+      "absolute_relative_error": 0.00031972716615150223,
+      "display_exact_to_source_precision": false,
+      "provenance_status": "MIXED_BINDING_TABLE_STRUCTURAL_HINT_NOT_CLOSURE",
+      "promotion_to_debt9_closure": false,
+      "reason": "Contains binding-energy decomposition, but Ebind is tabular and Lambda residual shows missing dynamics."
+    },
+    {
+      "hadron": "neutron",
+      "composition": "udd",
+      "quark_sum_mev": 11.6,
+      "Ebind_mev": 927.4,
+      "predicted_mev": 939.0,
+      "benchmark_mev": 939.6,
+      "source": "Formal_SM",
+      "table_role": "binding_table",
+      "absolute_relative_error": 0.0006385696040868697,
+      "display_exact_to_source_precision": false,
+      "provenance_status": "MIXED_BINDING_TABLE_STRUCTURAL_HINT_NOT_CLOSURE",
+      "promotion_to_debt9_closure": false,
+      "reason": "Contains binding-energy decomposition, but Ebind is tabular and Lambda residual shows missing dynamics."
+    },
+    {
+      "hadron": "Lambda",
+      "composition": "uds",
+      "quark_sum_mev": 102.9,
+      "Ebind_mev": 832.1,
+      "predicted_mev": 935.0,
+      "benchmark_mev": 1115.7,
+      "source": "Formal_SM",
+      "table_role": "binding_table",
+      "absolute_relative_error": 0.16196110065429778,
+      "display_exact_to_source_precision": false,
+      "provenance_status": "MIXED_BINDING_TABLE_STRUCTURAL_HINT_NOT_CLOSURE",
+      "promotion_to_debt9_closure": false,
+      "reason": "Contains binding-energy decomposition, but Ebind is tabular and Lambda residual shows missing dynamics."
+    },
+    {
+      "hadron": "Sigma_plus",
+      "composition": "uus",
+      "quark_sum_mev": 100.4,
+      "Ebind_mev": 1089.6,
+      "predicted_mev": 1190.0,
+      "benchmark_mev": 1189.4,
+      "source": "Formal_SM",
+      "table_role": "binding_table",
+      "absolute_relative_error": 0.0005044560282494611,
+      "display_exact_to_source_precision": false,
+      "provenance_status": "MIXED_BINDING_TABLE_STRUCTURAL_HINT_NOT_CLOSURE",
+      "promotion_to_debt9_closure": false,
+      "reason": "Contains binding-energy decomposition, but Ebind is tabular and Lambda residual shows missing dynamics."
+    },
+    {
+      "hadron": "Sigma_zero",
+      "composition": "uds",
+      "quark_sum_mev": 102.9,
+      "Ebind_mev": 1087.1,
+      "predicted_mev": 1190.0,
+      "benchmark_mev": 1192.6,
+      "source": "Formal_SM",
+      "table_role": "binding_table",
+      "absolute_relative_error": 0.0021801106825422682,
+      "display_exact_to_source_precision": false,
+      "provenance_status": "MIXED_BINDING_TABLE_STRUCTURAL_HINT_NOT_CLOSURE",
+      "promotion_to_debt9_closure": false,
+      "reason": "Contains binding-energy decomposition, but Ebind is tabular and Lambda residual shows missing dynamics."
+    },
+    {
+      "hadron": "Xi_zero",
+      "composition": "uss",
+      "quark_sum_mev": 194.2,
+      "Ebind_mev": 1221.8,
+      "predicted_mev": 1316.0,
+      "benchmark_mev": 1314.9,
+      "source": "Formal_SM",
+      "table_role": "binding_table",
+      "absolute_relative_error": 0.0008365655182902951,
+      "display_exact_to_source_precision": false,
+      "provenance_status": "MIXED_BINDING_TABLE_STRUCTURAL_HINT_NOT_CLOSURE",
+      "promotion_to_debt9_closure": false,
+      "reason": "Contains binding-energy decomposition, but Ebind is tabular and Lambda residual shows missing dynamics."
+    },
+    {
+      "hadron": "proton",
+      "composition": "uud",
+      "quark_sum_mev": 100.8,
+      "Ebind_mev": 8.0,
+      "predicted_mev": 108.8,
+      "source": "Calabi_Yau2",
+      "table_role": "underbound_binding_table",
+      "absolute_relative_error": null,
+      "display_exact_to_source_precision": false,
+      "provenance_status": "UNDERBOUND_OR_CALIBRATION_WARNING_STRUCTURAL_HINT",
+      "promotion_to_debt9_closure": false,
+      "reason": "Shows that small 5-50 MeV binding alone misses nucleon scale; source also mentions calibration/iteration."
+    },
+    {
+      "hadron": "neutron",
+      "composition": "udd",
+      "quark_sum_mev": 101.8,
+      "Ebind_mev": 8.2,
+      "predicted_mev": 110.0,
+      "source": "Calabi_Yau2",
+      "table_role": "underbound_binding_table",
+      "absolute_relative_error": null,
+      "display_exact_to_source_precision": false,
+      "provenance_status": "UNDERBOUND_OR_CALIBRATION_WARNING_STRUCTURAL_HINT",
+      "promotion_to_debt9_closure": false,
+      "reason": "Shows that small 5-50 MeV binding alone misses nucleon scale; source also mentions calibration/iteration."
+    },
+    {
+      "hadron": "Lambda",
+      "composition": "uds",
+      "quark_sum_mev": 102.8,
+      "Ebind_mev": 8.5,
+      "predicted_mev": 111.3,
+      "source": "Calabi_Yau2",
+      "table_role": "underbound_binding_table",
+      "absolute_relative_error": null,
+      "display_exact_to_source_precision": false,
+      "provenance_status": "UNDERBOUND_OR_CALIBRATION_WARNING_STRUCTURAL_HINT",
+      "promotion_to_debt9_closure": false,
+      "reason": "Shows that small 5-50 MeV binding alone misses nucleon scale; source also mentions calibration/iteration."
+    }
+  ],
+  "prime_product_candidate": {
+    "route": "prime_product_sigma_R_harmonic_correction",
+    "proton_assignment": {
+      "u": 3,
+      "d": 5,
+      "n_proton": 45,
+      "sigma_45": 78,
+      "R_45": 1.7333333333333334
+    },
+    "status": "STRUCTURAL_CANDIDATE_NOT_SCALE_CLOSURE",
+    "reason": "The source acknowledges mismatch and says harmonic corrections L(n) are required; no final MeV map is present in the checked source layer."
+  },
+  "scale_provenance_tests": {
+    "non_mass_hadron_MeV_scale_found": false,
+    "executable_formula_from_constants_to_baryon_MeV_found": false,
+    "exact_table_rejected_because_small_error": false,
+    "exact_table_blocked_reason": "not small error; missing executable provenance and likely anchor/replay risk",
+    "structural_paths_preserved": [
+      "F_hadron geometric mean over quark-pair F_ij",
+      "triplet W_ij holonomic aggregation",
+      "prime product sigma/R(n) baryon path",
+      "standing-wave/knot binding picture",
+      "confinement residual budget around delta ~= 0.2118"
+    ]
+  },
+  "v57_context": {
+    "triplet_aggregation_required": true,
+    "mean_quark_proxy_fraction_of_hadron": 0.018566565856339846,
+    "all_checked_rows_under_21_percent_single_proxy_budget": true
+  },
+  "metrics": {
+    "sm_m_theory_exact_rows": 4,
+    "sm_m_theory_all_display_exact": true,
+    "formal_sm_rows": 6,
+    "formal_sm_median_abs_rel_error": 0.0008365655182902951,
+    "formal_sm_lambda_abs_rel_error": 0.16196110065429778,
+    "v57_all_rows_binding_dominated_under_21_percent_proxy_fraction": true,
+    "v57_mean_quark_proxy_fraction_of_hadron": 0.018566565856339846
+  },
+  "decision": {
+    "small_errors_as_such": "NOT_A_REASON_FOR_REJECTION",
+    "SM_and_M_Theory_exact_table": "HOLD_AS_PROVENANCE_REQUIRED_NOT_DEBT9_CLOSURE",
+    "Formal_SM_binding_table": "USE_AS_MIXED_DIAGNOSTIC_SOURCE_NOT_CLOSURE",
+    "Calabi_Yau2_binding_table": "USE_AS_UNDERBOUND_WARNING_AND_CALIBRATION_TAINT_SOURCE",
+    "F_hadron_geometric_mean": "PRESERVE_AS_STRUCTURAL_OPERATOR_CANDIDATE",
+    "prime_product_sigma_route": "PRESERVE_AS_CLEAN_NEXT_DERIVATION_ROUTE",
+    "hadron_MeV_scale": "NOT_YET_DERIVED_FROM_NON_MASS_CONSTANTS",
+    "debt9_total": "OPEN_NOT_CLOSED"
+  },
+  "next_step": "v5.9 should derive a hadron scale candidate from prime-product sigma/R(n), harmonic L(n), triplet W_ij, and OIB/Ramanujan constants before any baryon benchmark. Exact source tables must remain scoring-only until that derivation exists.",
+  "formula_fingerprint_sha256": "58e6f31b8988eff0ea51e7fcdb31952f409cf632df52db4a9d8b0cbc5dbea47f"
+}

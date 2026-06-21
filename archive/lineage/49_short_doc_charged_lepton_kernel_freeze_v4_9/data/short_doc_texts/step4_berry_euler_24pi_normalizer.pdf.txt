@@ -1,0 +1,255 @@
+    Step 4: Berry–Euler Phase Closure and the Origin of the 24π
+                       Preference Normalizer
+                                              Adrian Lipa
+
+                                             May 26, 2026
+
+
+                                                Abstract
+         This note adds the missing geometric normalization layer to the Bloch–Fubini–Study
+      Collatz programme. The previous steps introduced an arithmetic embedding of Collatz
+      dynamics into CP1 and a block-action functional
+                                 k−1
+                                 X                                       
+                                                                    1                    m0
+                    Ak (m0 ) =         ν2 (3mj + 1) log 2 − log 3 +              = log      .
+                                 j=0
+                                                                    mj                   mk
+
+      Here we derive the phase normalization scale 24π from three factors: (i) the three-node
+      terminal Collatz cell 4 → 2 → 1, (ii) the Z2 parity sheet selecting the Collatz branch, and
+      (iii) the spin-1/2 Berry–Euler closure quantum 4π. The result is
+
+                                                                       log 2
+                                  Γ0 = 3 · 2 · 4π = 24π,       OIb =         .
+                                                                        24π
+      The note also separates the standard proof-safe operator from the zeta-fluctuation diagnostic
+      sector.
+
+
+1    Epistemic Status
+This document derives a normalization scale used by the preference operator. It does not prove
+the Collatz conjecture, the Riemann Hypothesis, or the twin-prime conjecture. The proof-safe
+Collatz object remains the block action
+                                                              m0
+                                           Ak (m0 ) = log        .
+                                                              mk
+A descent certificate is still exactly
+
+                                   Ak (m0 ) > 0     ⇐⇒        mk < m0 .
+
+The present step only explains why the dimensionless scaling log 2/(24π) is geometrically natural
+rather than arbitrary.
+
+
+2    Bloch State and Berry Phase
+A pure state on the Bloch sphere is written as
+                                                 θ             θ
+                                  |ψ(θ, φ)⟩ = cos |0⟩ + eiφ sin |1⟩.
+                                                 2             2
+The projective state is the ray
+                                                [ψ] ∈ CP1 .
+
+                                                     1
+     For a closed loop C on the Bloch sphere, the spin-1/2 Berry phase is
+                                                  1
+                                          I
+                             γB (C) =       AB = − Ω(C)        mod 2π,
+                                          C       2
+where Ω(C) is the oriented solid angle enclosed by C.
+Lemma 1 (Berry–Euler closure). The Euler phase constraint
+
+                                                eiγB (C) = 1
+
+requires
+                                              γB (C) ∈ 2πZ.
+For a spin-1/2 Berry phase this implies
+                                               1
+                                              − Ω(C) ∈ 2πZ,
+                                               2
+so
+                                               Ω(C) ∈ 4πZ.
+Hence the smallest positive solid-angle closure quantum is
+
+                                                 Ω0 = 4π.
+
+Proof. The Euler constraint eiγB = 1 is equivalent to γB = 2πq with q ∈ Z. Since γB = −Ω/2,
+this gives −Ω/2 = 2πq, hence Ω = −4πq. The smallest positive nonzero closure is 4π.
+
+Remark 1. This is the clean way to obtain the 4π factor. It is not a free numerological
+insertion. It follows from combining the spin-1/2 Berry phase relation γB = −Ω/2 with the
+Euler identity constraint eiγB = 1.
+
+
+3     Projective Closure vs Lifted Spinor Closure
+There are two different closure levels.
+
+Projective-ray closure. In CP1 , the rays [ψ] and [−ψ] are identified. Therefore a sign flip
+of the spinor is invisible at the projective level.
+
+Lifted spinor identity closure. If identity is imposed not merely on the ray [ψ], but on the
+lifted spinor phase, then the sign is not discarded. In spin-1/2 geometry, a 2π physical rotation
+gives a sign flip, while a 4π closure returns the lifted spinor to itself.
+Postulate 1 (Lifted identity constraint). For the preference normalizer, identity is imposed on
+the lifted spinor/Berry phase, not merely on the projective ray. Equivalently, the fundamental
+Berry–Euler closure unit is taken to be
+
+                                                 Ω0 = 4π.
+
+Remark 2. If only projective-ray closure were imposed, one could obtain a smaller normaliza-
+tion. The 24π denominator requires the lifted identity constraint. This must remain explicit;
+otherwise the 24π factor would appear under-justified.
+
+
+4     The Three Factors of the Fundamental Cell
+The normalizer combines three independent structural factors.
+
+                                                     2
+4.1   The terminal Collatz cell
+The terminal Collatz cell is
+                                              4 → 2 → 1.
+In the Bloch–Fubini–Study embedding from Step 1,
+                                       1               1
+                                |z4 | = ,       |z2 | = ,     |z1 | = 1.
+                                       4               2
+It is therefore a three-node radial return to the equator. We set
+
+                                                NC = 3.
+
+4.2   The parity sheet
+The Collatz branch selector is a Z2 structure:
+
+                               n≡0     (mod 2)    or n ≡ 1        (mod 2).
+
+The two parity sheets are therefore counted by
+
+                                            N2 = |Z2 | = 2.
+
+4.3   The Berry–Euler closure quantum
+From the spin-1/2 Berry phase and Euler closure constraint,
+
+                                                Ω0 = 4π.
+
+
+5     Derivation of 24π
+The fundamental phase-normalization cell is the product
+
+                                            Γ0 = NC N2 Ω0 .
+
+Substituting the three factors gives
+
+                                        Γ0 = 3 · 2 · 4π = 24π.
+
+Proposition 1 (Origin of the 24π normalizer). Under the terminal-cell, parity-sheet, and lifted
+Berry–Euler identity constraints, the natural phase-normalization volume is
+
+                                              Γ0 = 24π.
+
+
+6     Preference Normalizer
+The 2-adic Collatz action contains the natural logarithmic unit log 2:
+                                                              1
+                                                                          
+                           A(m) = ν2 (3m + 1) log 2 − log 3 +   .
+                                                              m
+Dividing this unit by the fundamental phase-normalization cell gives
+
+                                                log 2   log 2
+                                        OIb =         =       .
+                                                 Γ0      24π
+
+Numerically,
+                                   OIb ≈ 0.009193150006360484.
+
+                                                   3
+7    Standard Operator
+The standard preference operator is
+
+                                              Ib0,std [X] = OIbX.
+
+For the Collatz block action,
+                                                              log 2
+                                          Ib0,std [Ak ] =           Ak .
+                                                               24π
+Since
+                                          log 2
+                                                > 0,
+                                           24π
+the standard operator preserves the sign of the action:
+                                                         
+                                    sgn Ib0,std [Ak ] = sgn(Ak ).
+
+Therefore
+                      Ib0,std [Ak ] > 0     ⇐⇒       Ak > 0          ⇐⇒    mk < m0 .
+   This means that the standard preference operator is proof-safe: it normalizes the action but
+does not alter the descent criterion.
+
+
+8    Zeta-Fluctuation Diagnostic Sector
+The zeta-fluctuation sector is kept separate from the standard operator. Let Zk be a bounded
+diagnostic fluctuation, normalized so that
+
+                                                  |Zk | ≤ 1.
+
+For example, one may take a finite spectral diagnostic of the form
+
+                                      1 k−1
+                                        XX   L
+                            Zk (τ ) =           wℓ cos(tℓ log mj + χℓ ),
+                                      N j=0 ℓ=1
+
+where tℓ are spectral ordinates and N is chosen so that |Zk | ≤ 1. This is a diagnostic term, not
+a proof certificate.
+   Define
+                                 Ib0,ζ [Ak ; Zk ] = OIb(Ak + ϵζ Zk ).
+
+Definition 1 (Admissibility). For a positive descent certificate Ak > 0, a zeta fluctuation is
+admissible only if
+                                       ϵζ |Zk | < Ak .
+
+    Under this condition,
+                                               Ak + ϵζ Zk > 0,
+and therefore the zeta fluctuation cannot reverse a standard descent certificate.
+
+Remark 3. The zeta sector may be used to study phase correlations, spectral patterns, or
+possible links to critical-line phenomena. It must not be used as a standalone proof of Collatz
+descent unless the admissibility condition is satisfied.
+
+
+
+
+                                                      4
+9      Standard vs Zeta-Fluctuation Operators
+The two operators have distinct logical roles:
+
+                                        Ib0,std [Ak ] = OIbAk ,
+
+                                Ib0,ζ [Ak ; Zk ] = OIb(Ak + ϵζ Zk ).
+   The standard operator is the proof-safe operator. The zeta-fluctuation operator is a pertur-
+bative diagnostic operator. The separation is mandatory.
+
+
+10      Conclusion
+The denominator 24π is derived as
+                                         24π = 3 · 2 · 4π,
+where
+                            3 = terminal Collatz cell (4 → 2 → 1),
+                                2 = the Z2 parity branch sheet,
+                                       1
+                          4π = spin-     Berry–Euler closure quantum.
+                                       2
+Thus
+                                                      log 2
+                                            OIb =
+                                                       24π
+is not an arbitrary constant inside this framework. It is the 2-adic logarithmic unit normalized
+by the Collatz–parity–Berry closure cell.
+    The result does not prove Collatz. It strengthens the internal normalization of the block-
+action programme and cleanly separates the standard proof-safe operator from the zeta-fluctuation
+diagnostic sector.
+
+
+
+
+                                                  5
+

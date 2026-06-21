@@ -1,0 +1,611 @@
+{
+  "schema": "METATIME_SM_PDG_FREE_STRUCTURAL_SIGNATURE_V3_8",
+  "created_utc": "2026-06-20T13:30:00Z",
+  "status": "PASS",
+  "scope": "pre-mass structural seed signature; no PDG, no observed masses, no CKM/PMNS",
+  "forbidden_inputs": [
+    "PDG mass table",
+    "observed fermion masses",
+    "CKM matrix",
+    "PMNS matrix",
+    "old tau/eigenvalue mass table"
+  ],
+  "canonical_seeds": [
+    [
+      3,
+      5
+    ],
+    [
+      5,
+      7
+    ],
+    [
+      11,
+      13
+    ]
+  ],
+  "all_twin_prime_seed_signatures": [
+    {
+      "seed_pair": [
+        3,
+        5
+      ],
+      "seed_integer_N": 15,
+      "canonical_three_seed_visibility": true,
+      "status": "CANONICAL_VISIBLE_SEED",
+      "p_valuation_signature": {
+        "start": 3,
+        "steps_to_first_descent_or_cap": 2,
+        "first_descent_reached": true,
+        "valuation_word": [
+          1,
+          4
+        ],
+        "B_sum_v2": 5,
+        "log_compensation_defect": 1.268511325463507,
+        "abs_log_compensation_defect": 1.268511325463507,
+        "orbit_prefix": [
+          3,
+          5,
+          1
+        ]
+      },
+      "q_valuation_signature": {
+        "start": 5,
+        "steps_to_first_descent_or_cap": 1,
+        "first_descent_reached": true,
+        "valuation_word": [
+          4
+        ],
+        "B_sum_v2": 4,
+        "log_compensation_defect": 1.6739764335716714,
+        "abs_log_compensation_defect": 1.6739764335716714,
+        "orbit_prefix": [
+          5,
+          1
+        ]
+      },
+      "ramanujan": {
+        "hardy_ramanujan_sigma_R": 9.934588265796101,
+        "ramanujan_sum_vector": {
+          "3": 2,
+          "4": 0,
+          "8": 0,
+          "12": 0,
+          "24": 0
+        },
+        "ramanujan_sum_c_24_N": 0,
+        "theta_residue_weight_mean": 0.13036999972950458
+      },
+      "information_operator": {
+        "kappa_ln2_over_24pi": 0.009193150006360484,
+        "role": "fluctuation quantum / preference unit; not a fit parameter"
+      },
+      "frozen_pre_mass_scalar_diagnostic": 160.00626463434534,
+      "mass_prediction_claimed": false
+    },
+    {
+      "seed_pair": [
+        5,
+        7
+      ],
+      "seed_integer_N": 35,
+      "canonical_three_seed_visibility": true,
+      "status": "CANONICAL_VISIBLE_SEED",
+      "p_valuation_signature": {
+        "start": 5,
+        "steps_to_first_descent_or_cap": 1,
+        "first_descent_reached": true,
+        "valuation_word": [
+          4
+        ],
+        "B_sum_v2": 4,
+        "log_compensation_defect": 1.6739764335716714,
+        "abs_log_compensation_defect": 1.6739764335716714,
+        "orbit_prefix": [
+          5,
+          1
+        ]
+      },
+      "q_valuation_signature": {
+        "start": 7,
+        "steps_to_first_descent_or_cap": 4,
+        "first_descent_reached": true,
+        "valuation_word": [
+          1,
+          1,
+          2,
+          3
+        ],
+        "B_sum_v2": 7,
+        "log_compensation_defect": 0.45758110924717776,
+        "abs_log_compensation_defect": 0.45758110924717776,
+        "orbit_prefix": [
+          7,
+          11,
+          17,
+          13,
+          5
+        ]
+      },
+      "ramanujan": {
+        "hardy_ramanujan_sigma_R": 15.1753342420769,
+        "ramanujan_sum_vector": {
+          "3": -1,
+          "4": 0,
+          "8": 0,
+          "12": 0,
+          "24": 0
+        },
+        "ramanujan_sum_c_24_N": 0,
+        "theta_residue_weight_mean": 0.43588159253097636
+      },
+      "information_operator": {
+        "kappa_ln2_over_24pi": 0.009193150006360484,
+        "role": "fluctuation quantum / preference unit; not a fit parameter"
+      },
+      "frozen_pre_mass_scalar_diagnostic": 115.61193441848026,
+      "mass_prediction_claimed": false
+    },
+    {
+      "seed_pair": [
+        11,
+        13
+      ],
+      "seed_integer_N": 143,
+      "canonical_three_seed_visibility": true,
+      "status": "CANONICAL_VISIBLE_SEED",
+      "p_valuation_signature": {
+        "start": 11,
+        "steps_to_first_descent_or_cap": 3,
+        "first_descent_reached": true,
+        "valuation_word": [
+          1,
+          2,
+          3
+        ],
+        "B_sum_v2": 6,
+        "log_compensation_defect": 0.8630462173553424,
+        "abs_log_compensation_defect": 0.8630462173553424,
+        "orbit_prefix": [
+          11,
+          17,
+          13,
+          5
+        ]
+      },
+      "q_valuation_signature": {
+        "start": 13,
+        "steps_to_first_descent_or_cap": 1,
+        "first_descent_reached": true,
+        "valuation_word": [
+          3
+        ],
+        "B_sum_v2": 3,
+        "log_compensation_defect": 0.980829253011726,
+        "abs_log_compensation_defect": 0.980829253011726,
+        "orbit_prefix": [
+          13,
+          5
+        ]
+      },
+      "ramanujan": {
+        "hardy_ramanujan_sigma_R": 30.674130570191966,
+        "ramanujan_sum_vector": {
+          "3": -1,
+          "4": 0,
+          "8": 0,
+          "12": 0,
+          "24": 0
+        },
+        "ramanujan_sum_c_24_N": 0,
+        "theta_residue_weight_mean": 0.4284620095767919
+      },
+      "information_operator": {
+        "kappa_ln2_over_24pi": 0.009193150006360484,
+        "role": "fluctuation quantum / preference unit; not a fit parameter"
+      },
+      "frozen_pre_mass_scalar_diagnostic": 100.00080942926202,
+      "mass_prediction_claimed": false
+    },
+    {
+      "seed_pair": [
+        17,
+        19
+      ],
+      "seed_integer_N": 323,
+      "canonical_three_seed_visibility": false,
+      "status": "EXTENDED_SEED_QUARANTINE_CANDIDATE",
+      "p_valuation_signature": {
+        "start": 17,
+        "steps_to_first_descent_or_cap": 1,
+        "first_descent_reached": true,
+        "valuation_word": [
+          2
+        ],
+        "B_sum_v2": 2,
+        "log_compensation_defect": 0.2876820724517808,
+        "abs_log_compensation_defect": 0.2876820724517808,
+        "orbit_prefix": [
+          17,
+          13
+        ]
+      },
+      "q_valuation_signature": {
+        "start": 19,
+        "steps_to_first_descent_or_cap": 2,
+        "first_descent_reached": true,
+        "valuation_word": [
+          1,
+          3
+        ],
+        "B_sum_v2": 4,
+        "log_compensation_defect": 0.5753641449035616,
+        "abs_log_compensation_defect": 0.5753641449035616,
+        "orbit_prefix": [
+          19,
+          29,
+          11
+        ]
+      },
+      "ramanujan": {
+        "hardy_ramanujan_sigma_R": 46.10048605348872,
+        "ramanujan_sum_vector": {
+          "3": -1,
+          "4": 0,
+          "8": 0,
+          "12": 0,
+          "24": 0
+        },
+        "ramanujan_sum_c_24_N": 0,
+        "theta_residue_weight_mean": 0.8193724008461114
+      },
+      "information_operator": {
+        "kappa_ln2_over_24pi": 0.009193150006360484,
+        "role": "fluctuation quantum / preference unit; not a fit parameter"
+      },
+      "frozen_pre_mass_scalar_diagnostic": 46.28077471733088,
+      "mass_prediction_claimed": false
+    },
+    {
+      "seed_pair": [
+        29,
+        31
+      ],
+      "seed_integer_N": 899,
+      "canonical_three_seed_visibility": false,
+      "status": "EXTENDED_SEED_QUARANTINE_CANDIDATE",
+      "p_valuation_signature": {
+        "start": 29,
+        "steps_to_first_descent_or_cap": 1,
+        "first_descent_reached": true,
+        "valuation_word": [
+          3
+        ],
+        "B_sum_v2": 3,
+        "log_compensation_defect": 0.980829253011726,
+        "abs_log_compensation_defect": 0.980829253011726,
+        "orbit_prefix": [
+          29,
+          11
+        ]
+      },
+      "q_valuation_signature": {
+        "start": 31,
+        "steps_to_first_descent_or_cap": 35,
+        "first_descent_reached": true,
+        "valuation_word": [
+          1,
+          1,
+          1,
+          1,
+          2,
+          2,
+          1,
+          2,
+          1,
+          1,
+          2,
+          1,
+          1,
+          1,
+          2,
+          3,
+          1,
+          1,
+          2,
+          1,
+          2,
+          1,
+          1,
+          1,
+          1,
+          1,
+          3,
+          1,
+          1,
+          1,
+          4,
+          2,
+          2,
+          4,
+          3
+        ],
+        "B_sum_v2": 56,
+        "log_compensation_defect": 0.364812007973093,
+        "abs_log_compensation_defect": 0.364812007973093,
+        "orbit_prefix": [
+          31,
+          47,
+          71,
+          107,
+          161,
+          121,
+          91,
+          137,
+          103,
+          155,
+          233,
+          175,
+          263,
+          395,
+          593,
+          445,
+          167,
+          251,
+          377,
+          283
+        ]
+      },
+      "ramanujan": {
+        "hardy_ramanujan_sigma_R": 76.910226266643,
+        "ramanujan_sum_vector": {
+          "3": -1,
+          "4": 0,
+          "8": 0,
+          "12": 0,
+          "24": 0
+        },
+        "ramanujan_sum_c_24_N": 0,
+        "theta_residue_weight_mean": 0.628753074955312
+      },
+      "information_operator": {
+        "kappa_ln2_over_24pi": 0.009193150006360484,
+        "role": "fluctuation quantum / preference unit; not a fit parameter"
+      },
+      "frozen_pre_mass_scalar_diagnostic": 72.73989827364548,
+      "mass_prediction_claimed": false
+    },
+    {
+      "seed_pair": [
+        41,
+        43
+      ],
+      "seed_integer_N": 1763,
+      "canonical_three_seed_visibility": false,
+      "status": "EXTENDED_SEED_QUARANTINE_CANDIDATE",
+      "p_valuation_signature": {
+        "start": 41,
+        "steps_to_first_descent_or_cap": 1,
+        "first_descent_reached": true,
+        "valuation_word": [
+          2
+        ],
+        "B_sum_v2": 2,
+        "log_compensation_defect": 0.2876820724517808,
+        "abs_log_compensation_defect": 0.2876820724517808,
+        "orbit_prefix": [
+          41,
+          31
+        ]
+      },
+      "q_valuation_signature": {
+        "start": 43,
+        "steps_to_first_descent_or_cap": 3,
+        "first_descent_reached": true,
+        "valuation_word": [
+          1,
+          2,
+          2
+        ],
+        "B_sum_v2": 5,
+        "log_compensation_defect": 0.16989903679539742,
+        "abs_log_compensation_defect": 0.16989903679539742,
+        "orbit_prefix": [
+          43,
+          65,
+          49,
+          37
+        ]
+      },
+      "ramanujan": {
+        "hardy_ramanujan_sigma_R": 107.70364450385925,
+        "ramanujan_sum_vector": {
+          "3": -1,
+          "4": 0,
+          "8": 0,
+          "12": 0,
+          "24": 0
+        },
+        "ramanujan_sum_c_24_N": 0,
+        "theta_residue_weight_mean": 0.9460590559418299
+      },
+      "information_operator": {
+        "kappa_ln2_over_24pi": 0.009193150006360484,
+        "role": "fluctuation quantum / preference unit; not a fit parameter"
+      },
+      "frozen_pre_mass_scalar_diagnostic": 24.13636890692047,
+      "mass_prediction_claimed": false
+    },
+    {
+      "seed_pair": [
+        59,
+        61
+      ],
+      "seed_integer_N": 3599,
+      "canonical_three_seed_visibility": false,
+      "status": "EXTENDED_SEED_QUARANTINE_CANDIDATE",
+      "p_valuation_signature": {
+        "start": 59,
+        "steps_to_first_descent_or_cap": 4,
+        "first_descent_reached": true,
+        "valuation_word": [
+          1,
+          2,
+          1,
+          4
+        ],
+        "B_sum_v2": 8,
+        "log_compensation_defect": 1.1507282898071232,
+        "abs_log_compensation_defect": 1.1507282898071232,
+        "orbit_prefix": [
+          59,
+          89,
+          67,
+          101,
+          19
+        ]
+      },
+      "q_valuation_signature": {
+        "start": 61,
+        "steps_to_first_descent_or_cap": 1,
+        "first_descent_reached": true,
+        "valuation_word": [
+          3
+        ],
+        "B_sum_v2": 3,
+        "log_compensation_defect": 0.980829253011726,
+        "abs_log_compensation_defect": 0.980829253011726,
+        "orbit_prefix": [
+          61,
+          23
+        ]
+      },
+      "ramanujan": {
+        "hardy_ramanujan_sigma_R": 153.8846023042821,
+        "ramanujan_sum_vector": {
+          "3": -1,
+          "4": 0,
+          "8": 0,
+          "12": 0,
+          "24": 0
+        },
+        "ramanujan_sum_c_24_N": 0,
+        "theta_residue_weight_mean": 0.32407004974255105
+      },
+      "information_operator": {
+        "kappa_ln2_over_24pi": 0.009193150006360484,
+        "role": "fluctuation quantum / preference unit; not a fit parameter"
+      },
+      "frozen_pre_mass_scalar_diagnostic": 115.81787899602237,
+      "mass_prediction_claimed": false
+    },
+    {
+      "seed_pair": [
+        71,
+        73
+      ],
+      "seed_integer_N": 5183,
+      "canonical_three_seed_visibility": false,
+      "status": "EXTENDED_SEED_QUARANTINE_CANDIDATE",
+      "p_valuation_signature": {
+        "start": 71,
+        "steps_to_first_descent_or_cap": 32,
+        "first_descent_reached": true,
+        "valuation_word": [
+          1,
+          1,
+          2,
+          2,
+          1,
+          2,
+          1,
+          1,
+          2,
+          1,
+          1,
+          1,
+          2,
+          3,
+          1,
+          1,
+          2,
+          1,
+          2,
+          1,
+          1,
+          1,
+          1,
+          1,
+          3,
+          1,
+          1,
+          1,
+          4,
+          2,
+          2,
+          4
+        ],
+        "B_sum_v2": 51,
+        "log_compensation_defect": 0.19491297117769335,
+        "abs_log_compensation_defect": 0.19491297117769335,
+        "orbit_prefix": [
+          71,
+          107,
+          161,
+          121,
+          91,
+          137,
+          103,
+          155,
+          233,
+          175,
+          263,
+          395,
+          593,
+          445,
+          167,
+          251,
+          377,
+          283,
+          425,
+          319
+        ]
+      },
+      "q_valuation_signature": {
+        "start": 73,
+        "steps_to_first_descent_or_cap": 1,
+        "first_descent_reached": true,
+        "valuation_word": [
+          2
+        ],
+        "B_sum_v2": 2,
+        "log_compensation_defect": 0.2876820724517808,
+        "abs_log_compensation_defect": 0.2876820724517808,
+        "orbit_prefix": [
+          73,
+          55
+        ]
+      },
+      "ramanujan": {
+        "hardy_ramanujan_sigma_R": 184.6693614920933,
+        "ramanujan_sum_vector": {
+          "3": -1,
+          "4": 0,
+          "8": 0,
+          "12": 0,
+          "24": 0
+        },
+        "ramanujan_sum_c_24_N": 0,
+        "theta_residue_weight_mean": 0.9416463510536419
+      },
+      "information_operator": {
+        "kappa_ln2_over_24pi": 0.009193150006360484,
+        "role": "fluctuation quantum / preference unit; not a fit parameter"
+      },
+      "frozen_pre_mass_scalar_diagnostic": 25.52355344468278,
+      "mass_prediction_claimed": false
+    }
+  ],
+  "doctor_verdict": "CONTINUE_RESEARCH__PDG_FREE_PRE_MASS_SIGNATURE_PASS"
+}

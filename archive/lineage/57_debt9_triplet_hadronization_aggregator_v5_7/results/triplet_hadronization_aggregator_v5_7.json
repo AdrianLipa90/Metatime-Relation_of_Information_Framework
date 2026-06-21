@@ -1,0 +1,225 @@
+{
+  "schema": "METATIME_DEBT9_TRIPLET_HADRONIZATION_AGGREGATOR_V5_7",
+  "module": "57_debt9_triplet_hadronization_aggregator_v5_7",
+  "created_utc": "2026-06-21T08:38:20Z",
+  "technical_status": "PASS",
+  "formal_status": "PASS_WITH_HADRON_SOURCE_TAINT_LEDGER",
+  "substantive_status": "TRIPLET_HADRONIZATION_AGGREGATOR_INSTALLED_NUMERIC_CLOSURE_DENIED",
+  "debt9_numeric_spectrum": "OPEN_NOT_CLOSED",
+  "canon_allowed": false,
+  "current_promotion": "DENY_CURRENT",
+  "mass_prediction_claimed": false,
+  "user_correction_integrated": {
+    "claim": "Quarks are not lepton-like isolated states; they require triplet/hadron aggregation, with an approximately 21 percent confinement diagnostic budget before exact hadron-level tests.",
+    "implemented_as": "triplet W_ij hadronization structural aggregator plus source-taint ledger",
+    "not_implemented_as": "automatic acceptance of quark errors or replay of exact hadron tables"
+  },
+  "operator_definition": {
+    "structural_path": "tetrahedral triplet -> W_ij holonomic gluon links -> triplet binding kernel -> hadron aggregation boundary",
+    "triplet_binding_kernel_dimensionless": "beta * exp(Rcrit) * (1 - delta/2)",
+    "triplet_color_action_dimensionless": "triplet_binding_kernel * (1 + W_loop_defect) * exp(-OIB * L3 * delta)",
+    "MeV_scale_assigned": false,
+    "reason_no_MeV_scale": "Available source calibrates hadron scale to proton mass; that is an anchor and cannot close Debt 9."
+  },
+  "constants": {
+    "OIB_ln2_over_24pi": 0.009193150006360484,
+    "L3": 7,
+    "beta_crystallization": 1.214377,
+    "Rcrit": 1.5403,
+    "delta_instability": 0.2118,
+    "confinement_residual_budget": 0.21
+  },
+  "tetrahedral_triplet_source": {
+    "module": "39_tetrahedral_triplet_su3_lift_v3_9",
+    "edge_modes_independent": true,
+    "triplet_reading": "choosing one vertex as closure/reference leaves three face/edge modes; these are the structural triplet carrier labels"
+  },
+  "W_ij_source": {
+    "module": "40_holonomic_gluon_wij_couplings_v4_0",
+    "loop_is_SU3": true,
+    "wilson_loop_defect": 0.18321162441519734,
+    "curvature_proxy_frobenius_norm": 0.5913036437989937,
+    "active_gell_mann_modes_1_indexed": [
+      1,
+      4,
+      7
+    ]
+  },
+  "hadron_rows": [
+    {
+      "hadron": "proton",
+      "family": "baryon",
+      "composition": "uud",
+      "composition_list": [
+        "u",
+        "u",
+        "d"
+      ],
+      "quark_proxy_sum_mev_from_v56": 17.22702861703673,
+      "benchmark_mev_scoring_only": 938.272,
+      "quark_proxy_fraction_of_hadron": 0.01836037803220892,
+      "binding_dominance_fraction": 0.9816396219677911,
+      "pair_count": 3,
+      "tetrahedral_triplet_required": true,
+      "W_ij_loop_required": true,
+      "single_quark_mass_closure_allowed": false,
+      "triplet_binding_kernel_dimensionless": 5.066212691688186,
+      "holonomy_defect_from_v40": 0.18321162441519734,
+      "curvature_norm_from_v40": 0.5913036437989937,
+      "active_gluon_modes_from_v40": [
+        1,
+        4,
+        7
+      ],
+      "triplet_color_action_dimensionless": 5.913253736588075,
+      "flavor_instability_signature_from_v56": 0.5879392303380965,
+      "within_21_percent_single_proxy_budget": true,
+      "diagnostic_status": "BINDING_DOMINATED_TRIPLET_REQUIRED",
+      "mass_prediction_mev_claimed": false,
+      "numeric_debt9_closure_allowed": false
+    },
+    {
+      "hadron": "neutron",
+      "family": "baryon",
+      "composition": "udd",
+      "composition_list": [
+        "u",
+        "d",
+        "d"
+      ],
+      "quark_proxy_sum_mev_from_v56": 27.974057234073463,
+      "benchmark_mev_scoring_only": 939.565,
+      "quark_proxy_fraction_of_hadron": 0.029773413477591718,
+      "binding_dominance_fraction": 0.9702265865224082,
+      "pair_count": 3,
+      "tetrahedral_triplet_required": true,
+      "W_ij_loop_required": true,
+      "single_quark_mass_closure_allowed": false,
+      "triplet_binding_kernel_dimensionless": 5.066212691688186,
+      "holonomy_defect_from_v40": 0.18321162441519734,
+      "curvature_norm_from_v40": 0.5913036437989937,
+      "active_gluon_modes_from_v40": [
+        1,
+        4,
+        7
+      ],
+      "triplet_color_action_dimensionless": 5.913253736588075,
+      "flavor_instability_signature_from_v56": 1.175878460676193,
+      "within_21_percent_single_proxy_budget": true,
+      "diagnostic_status": "BINDING_DOMINATED_TRIPLET_REQUIRED",
+      "mass_prediction_mev_claimed": false,
+      "numeric_debt9_closure_allowed": false
+    },
+    {
+      "hadron": "Lambda_uds",
+      "family": "baryon",
+      "composition": "uds",
+      "composition_list": [
+        "u",
+        "d",
+        "s"
+      ],
+      "quark_proxy_sum_mev_from_v56": 20.245804927744118,
+      "benchmark_mev_scoring_only": 1115.7,
+      "quark_proxy_fraction_of_hadron": 0.018146280297341683,
+      "binding_dominance_fraction": 0.9818537197026583,
+      "pair_count": 3,
+      "tetrahedral_triplet_required": true,
+      "W_ij_loop_required": true,
+      "single_quark_mass_closure_allowed": false,
+      "triplet_binding_kernel_dimensionless": 5.066212691688186,
+      "holonomy_defect_from_v40": 0.18321162441519734,
+      "curvature_norm_from_v40": 0.5913036437989937,
+      "active_gluon_modes_from_v40": [
+        1,
+        4,
+        7
+      ],
+      "triplet_color_action_dimensionless": 5.913253736588075,
+      "flavor_instability_signature_from_v56": 0.9027901357245797,
+      "within_21_percent_single_proxy_budget": true,
+      "diagnostic_status": "BINDING_DOMINATED_TRIPLET_REQUIRED",
+      "mass_prediction_mev_claimed": false,
+      "numeric_debt9_closure_allowed": false
+    },
+    {
+      "hadron": "Sigma_uus",
+      "family": "baryon",
+      "composition": "uus",
+      "composition_list": [
+        "u",
+        "u",
+        "s"
+      ],
+      "quark_proxy_sum_mev_from_v56": 9.498776310707385,
+      "benchmark_mev_scoring_only": 1189.4,
+      "quark_proxy_fraction_of_hadron": 0.007986191618217071,
+      "binding_dominance_fraction": 0.9920138083817829,
+      "pair_count": 3,
+      "tetrahedral_triplet_required": true,
+      "W_ij_loop_required": true,
+      "single_quark_mass_closure_allowed": false,
+      "triplet_binding_kernel_dimensionless": 5.066212691688186,
+      "holonomy_defect_from_v40": 0.18321162441519734,
+      "curvature_norm_from_v40": 0.5913036437989937,
+      "active_gluon_modes_from_v40": [
+        1,
+        4,
+        7
+      ],
+      "triplet_color_action_dimensionless": 5.913253736588075,
+      "flavor_instability_signature_from_v56": 0.31485090538648325,
+      "within_21_percent_single_proxy_budget": true,
+      "diagnostic_status": "BINDING_DOMINATED_TRIPLET_REQUIRED",
+      "mass_prediction_mev_claimed": false,
+      "numeric_debt9_closure_allowed": false
+    }
+  ],
+  "metrics": {
+    "rows_count": 4,
+    "mean_quark_proxy_fraction_of_hadron": 0.018566565856339846,
+    "max_quark_proxy_fraction_of_hadron": 0.029773413477591718,
+    "all_rows_binding_dominated_under_21_percent_proxy_fraction": true,
+    "triplet_binding_kernel_dimensionless": 5.066212691688186,
+    "triplet_color_action_dimensionless": 5.913253736588075,
+    "holonomic_loop_defect_v40": 0.18321162441519734,
+    "curvature_norm_v40": 0.5913036437989937
+  },
+  "source_taint_ledger": {
+    "readme_hadron_geometric_mean_prescription": {
+      "status": "USE_AS_STRUCTURAL_HINT_ONLY",
+      "reason": "The README gives F_hadron geometric mean for hadron binding, which is structurally aligned with triplet aggregation but the numeric table exactly matches benchmarks; therefore it cannot close Debt 9."
+    },
+    "readme_hadron_exact_table": {
+      "status": "TAINTED_EXACT_REFERENCE_REPLAY_OR_ANCHORED_TABLE",
+      "examples": [
+        "Proton predicted 938.3 vs benchmark 938.3",
+        "Neutron predicted 939.6 vs benchmark 939.6",
+        "Lambda predicted 1115.7 vs benchmark 1115.7"
+      ],
+      "promotion_allowed": false
+    },
+    "metatheory_nucleon_mu0_scale": {
+      "status": "TAINTED_UNIT_ANCHOR",
+      "reason": "The source explicitly calibrates mu0_N to proton mass; it can document a hadron scale boundary but not a no-parameter prediction."
+    },
+    "v40_Wij_holonomy": {
+      "status": "ACTIVE_STRUCTURAL_INPUT",
+      "reason": "W_ij loop defect/curvature is structural and PDG-free in module 40; used only as dimensionless action diagnostic."
+    },
+    "v56_quark_single_proxy": {
+      "status": "DIAGNOSTIC_INPUT_NOT_CLOSURE",
+      "reason": "Single-quark proxies are non-asymptotic and cannot be exact mass closure criteria."
+    }
+  },
+  "decision": {
+    "quark_single_state_exact_scoring": "DENIED",
+    "triplet_aggregation_required": true,
+    "readme_exact_hadron_table_promotion": "DENIED_AS_TAINTED",
+    "hadron_scale_mu0_promotion": "DENIED_AS_PROTON_ANCHOR",
+    "debt9_quark_sector": "OPEN_PENDING_DERIVED_HADRON_SCALE_AND_PAIRWISE_FLAVOR_WIJ",
+    "debt9_total": "OPEN_NOT_CLOSED"
+  },
+  "next_step": "v5.8 should derive pairwise flavor W_ij/F_ij for quark pairs without exact hadron-table replay, or derive a hadronic MeV scale from non-mass constants before any baryon benchmark.",
+  "formula_fingerprint_sha256": "d490748ecf5b7a130404f012fcda54207407ae4dbeea7368ce32a3c29cde3c50"
+}

@@ -1,0 +1,23 @@
+{
+  "module": "old_metatime_debt9_ckm_table_mining_v2_5",
+  "gate_type": "structural_source_pass",
+  "row_count": 13,
+  "required_categories_present": true,
+  "missing_categories": [],
+  "status_counts": {
+    "historical_ansatz": 2,
+    "historical_fit": 1,
+    "failed_path": 1,
+    "prototype_with_input_leakage": 1,
+    "historical_derivation_candidate": 2,
+    "computational_prototype": 1,
+    "debt_candidate": 1,
+    "historical_table": 1,
+    "usable_interpretation": 1,
+    "guardrail": 1,
+    "toy_mapping": 1
+  },
+  "no_canon_promotion": true,
+  "masses_used_as_new_input": false,
+  "recommended_next_debt": "Debt 9 one-anchor mass-scale derivation with Ramanujan scaling and zeta-Heisenberg fluctuation"
+}

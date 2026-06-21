@@ -1,0 +1,183 @@
+                       Step 1, Corrected v2:
+     A Bloch–Fubini–Study Normal Form for Accelerated Collatz
+                            Dynamics
+                                              Adrian Lipa
+
+                                             May 26, 2026
+
+                                                 Abstract
+           This note isolates a narrow proof-candidate component of the proposed Bloch–Fubini–
+       Study arithmetic programme. The aim is not to prove the Collatz conjecture, the Riemann
+       Hypothesis, or the twin-prime conjecture. The aim is to put accelerated Collatz dynamics
+       into a projective normal form: odd integers become equatorial states, even Collatz divisions
+       become radial returns toward the equator, and twin primes satisfy an exact first-descent
+       radial complementarity law. This corrected version also qualifies the “naive potential ob-
+       struction”: the obstruction excludes a size-plus-bounded- projective-correction strategy, not
+       every conceivable phase-dependent functional.
+
+
+1     Scope and Status
+This document is a formal reduction step. It establishes:
+    (i) a radial coordinate for Collatz parity dynamics;
+ (ii) the interpretation of odd integers as equatorial states;
+(iii) the interpretation of the fragment 4 → 2 → 1 as radial return;
+(iv) an exact twin-prime complementarity law for first Collatz descent depths;
+ (v) a qualified obstruction to a naive one-step potential.
+The result is a normal form, not a solution of any open problem.
+
+
+2     Projective Arithmetic Embedding
+For n ∈ N, write
+                                           n = 2ν2 (n) odd(n),
+where ν2 (n) is the 2-adic valuation and odd(n) is odd. Let H = C2 and P(H) ∼
+                                                                            = CP1 . For a
+phase function
+                                ϕ : {m ∈ N : m odd} → R/2πZ,
+define
+                                         zn = 2−ν2 (n) eiϕ(odd(n)) .
+The associated projective state is
+                                              1
+                                   |ψn ⟩ = p           (|0⟩ + zn |1⟩).
+                                            1 + |zn |2
+Remark 1. At this step the phase function is deliberately left unspecified. All radial statements
+below are independent of ϕ. A proof-bearing later version must derive ϕ from arithmetic or
+spectral data; choosing it post hoc would make the construction non-rigorous.
+
+                                                     1
+3    Bloch–Fubini–Study Geometry
+In stereographic coordinate z = reiφ , the Bloch polar angle is
+                                         θ = 2 arctan r.
+The equator is |z| = 1. On the equator the normalized state satisfies
+                                                        1
+                                         |α|2 = |β|2 = .
+                                                        2
+Thus 1/2 has two distinct meanings: the rational number 1/2 ∈ Q, and the projective balance
+condition |α|2 = |β|2 = 1/2. In this normal form, the equator uses the second meaning.
+   The meridional Fubini–Study distance from z = reiφ to the equator is
+                                             1 π
+                                  deq (r) =       − 2 arctan r .
+                                             2 2
+
+4    Even Collatz Steps as Radial Return
+The classical Collatz map is
+                                      (
+                                       n/2,    n ≡ 0 (mod 2),
+                               C(n) =
+                                       3n + 1, n ≡ 1 (mod 2).
+Lemma 1 (Even steps are radial returns). Let n = 2a m, where m is odd and a > 0. Then
+                                        |zC(n) | = 2|zn |.
+Proof. Since ν2 (n) = a, |zn | = 2−a . The even step gives C(n) = 2a−1 m, hence
+                                   |zC(n) | = 2−(a−1) = 2|zn |.
+
+
+Proposition 1 (The fragment 4 → 2 → 1 is radial return). Under the embedding above,
+                                           4→2→1
+corresponds to
+                                   1             1
+                            |z4 | = ,     |z2 | = ,    |z1 | = 1.
+                                   4             2
+Thus the terminal fragment is radial motion toward the Bloch equator.
+
+
+5    Accelerated Odd Collatz as an Equatorial Return Map
+For odd m, define
+                                               3m + 1
+                                      T (m) =            .
+                                              2ν2 (3m+1)
+Since every odd m has ν2 (m) = 0, every odd integer satisfies
+                                            |zm | = 1.
+Therefore the accelerated odd map is an equator-to-equator return map:
+                                              1     1
+                                         T : Seq → Seq .
+    Let b(m) = ν2 (3m + 1). The logarithmic drift of one accelerated step is
+                                                       
+                                   T (m)              1
+                       ∆(m) = log        = log 3 +        − b(m) log 2.
+                                     m                m
+For odd m > 1, b(m) = 1 is an up-step, while b(m) ≥ 2 is a down-step:
+                      b(m) = 1 ⇒ ∆(m) > 0,          b(m) ≥ 2 ⇒ ∆(m) < 0.
+
+                                                2
+6    Qualified Naive-Potential Obstruction
+A tempting candidate has the form
+
+                               V (n) = A log n + B dFS ([ψn ], [ψ∗ ])2 .
+
+The Fubini–Study term is bounded on CP1 . Therefore a bounded projective correction cannot by
+itself neutralize arbitrarily long finite blocks of positive logarithmic drift generated by repeated
+b = 1 returns.
+
+Obstruction 1 (Qualified bounded-correction obstruction). A proof strategy based only on loga-
+rithmic size plus a bounded projective correction cannot supply a universal one-step or uniformly
+local descent certificate for accelerated Collatz dynamics.
+
+Remark 2. This is a qualified obstruction. It does not exclude every conceivable phase-
+dependent functional of projective states. It excludes the naive strategy in which a bounded
+Fubini–Study correction is expected to compensate for unbounded finite logarithmic excursions.
+
+
+7    Twin-Prime Radial Complementarity
+Let (p, p + 2) be a twin-prime pair with p > 3. Define
+
+                    ap = ν2 (3p + 1),       bp = ν2 (3(p + 2) + 1) = ν2 (3p + 7).
+
+Lemma 2 (Twin-prime radial complementarity). For every twin-prime pair (p, p + 2) with
+p > 3,
+                       min(ap , bp ) = 1, max(ap , bp ) ≥ 2.
+Equivalently, one member of the pair has minimal first Collatz descent depth, while the other
+has a deeper first descent.
+
+Proof. Since p and p + 2 are odd, one is congruent to 1 (mod 4) and the other to 3 (mod 4). If
+p ≡ 3 (mod 4), then
+                               3p + 1 ≡ 3 · 3 + 1 ≡ 2 (mod 4),
+so ap = 1. Meanwhile p + 2 ≡ 1 (mod 4), hence
+
+                             3(p + 2) + 1 ≡ 3 · 1 + 1 ≡ 0      (mod 4),
+
+so bp ≥ 2. The case p ≡ 1 (mod 4) is symmetric.
+
+
+8    Computational Check up to 106
+For odd m ≤ 106 , the empirical mean of b(m) = ν2 (3m + 1) is
+
+                                           E[b] ≈ 1.999994,
+
+and the empirical mean logarithmic drift is
+
+                                        E[∆] ≈ −0.2876730010,
+
+consistent with log(3/4) = −0.2876820724 . . ..
+   For twin-prime pairs (p, p + 2) with p ≤ 106 , excluding (3, 5), there are 8168 pairs. The
+empirical averages are
+
+                        E[ap ] ≈ 1.9903281097,        E[bp ] ≈ 2.0168952008,
+
+                                                  3
+so
+                                   E[ap + bp ] ≈ 4.0072233105.
+The empirical mean pair drift is
+
+                                   E[∆pair ] ≈ −0.5803234788,
+
+near 2 log(3/4) = −0.5753641449 . . ..
+
+
+9    Step 1 Conclusion
+The output is the following normal form:
+
+                               Odd integers are equatorial states.
+
+                   Even Collatz steps are radial returns toward the equator.
+
+                The accelerated odd Collatz map is an equatorial return map.
+
+                Twin primes satisfy exact first-descent radial complementarity.
+
+            A size-plus-bounded-FS correction is too weak as a local proof object.
+Therefore the next object must be a block-action functional over return words.
+
+
+
+
+                                               4
+

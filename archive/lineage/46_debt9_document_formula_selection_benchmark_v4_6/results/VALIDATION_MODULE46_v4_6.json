@@ -1,0 +1,10 @@
+{
+  "checked_files": [
+    "46_debt9_document_formula_selection_benchmark_v4_6/scripts/document_formula_selection_benchmark_v4_6.py",
+    "46_debt9_document_formula_selection_benchmark_v4_6/results/document_formula_selection_benchmark_v4_6.json"
+  ],
+  "issues": [],
+  "module": "46_debt9_document_formula_selection_benchmark_v4_6",
+  "result": "PASS",
+  "schema": "VALIDATION_MODULE46_V4_6"
+}

@@ -1,0 +1,55 @@
+{
+  "caveat": "Quark masses are convention/scheme dependent; values are approximate PDG-style central references used only to test hierarchy/ratios after M_MT was frozen.",
+  "created_utc": "2026-06-20T00:00:00Z",
+  "masses_mev": {
+    "b": {
+      "class": "down_quark",
+      "scheme": "MSbar_mb_approx",
+      "value": 4180.0
+    },
+    "c": {
+      "class": "up_quark",
+      "scheme": "MSbar_mc_approx",
+      "value": 1270.0
+    },
+    "d": {
+      "class": "down_quark",
+      "scheme": "MSbar_2GeV_approx",
+      "value": 4.67
+    },
+    "e": {
+      "class": "charged_lepton",
+      "scheme": "physical mass",
+      "value": 0.51099895
+    },
+    "mu": {
+      "class": "charged_lepton",
+      "scheme": "physical mass",
+      "value": 105.6583755
+    },
+    "s": {
+      "class": "down_quark",
+      "scheme": "MSbar_2GeV_approx",
+      "value": 93.4
+    },
+    "t": {
+      "class": "up_quark",
+      "scheme": "pole/on-shell_approx",
+      "value": 172760.0
+    },
+    "tau": {
+      "class": "charged_lepton",
+      "scheme": "physical mass",
+      "value": 1776.86
+    },
+    "u": {
+      "class": "up_quark",
+      "scheme": "MSbar_2GeV_approx",
+      "value": 2.16
+    }
+  },
+  "schema": "METATIME_MMT_BENCHMARK_REFERENCE_SNAPSHOT_V4_4",
+  "sources_note": "Charged lepton and quark benchmark values are a reference snapshot for post-freeze comparison only; they must never be imported by the frozen operator module.",
+  "units": "MeV",
+  "use_scope": "POST_FREEZE_BENCHMARK_ONLY_NOT_OPERATOR_INPUT"
+}

@@ -1,0 +1,13 @@
+{
+  "schema": "TAU_V2_STRUCTURAL_INFORMATION_EIGENVALUE_SCHEMA_v2_9",
+  "module": "27_debt9_tau_v2_clean_information_eigenvalue_v2_9",
+  "status": "pre_mass_rescoring_structural_layer",
+  "observed_masses_used": false,
+  "old_tau_used": false,
+  "information_operator": {
+    "symbol": "ln(2)/(24*pi)",
+    "role": "quantum_of_informational_preference_fluctuation",
+    "free_parameter": false
+  },
+  "validation_gate": "PRE_MASS_RESCORING_STRUCTURAL_PASS"
+}

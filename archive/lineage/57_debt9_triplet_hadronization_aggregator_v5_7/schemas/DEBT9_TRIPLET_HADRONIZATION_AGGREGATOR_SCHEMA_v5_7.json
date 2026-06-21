@@ -1,0 +1,27 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "METATIME_DEBT9_TRIPLET_HADRONIZATION_AGGREGATOR_V5_7",
+  "type": "object",
+  "required": [
+    "schema",
+    "module",
+    "technical_status",
+    "formal_status",
+    "substantive_status",
+    "debt9_numeric_spectrum",
+    "hadron_rows",
+    "source_taint_ledger",
+    "decision"
+  ],
+  "properties": {
+    "debt9_numeric_spectrum": {
+      "const": "OPEN_NOT_CLOSED"
+    },
+    "canon_allowed": {
+      "const": false
+    },
+    "mass_prediction_claimed": {
+      "const": false
+    }
+  }
+}

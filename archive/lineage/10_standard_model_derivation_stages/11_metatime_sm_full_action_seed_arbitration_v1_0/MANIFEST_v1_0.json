@@ -1,0 +1,9 @@
+{
+  "package": "METATIME_SM_FULL_ACTION_SEED_ARBITRATION_v1_0",
+  "created_at_utc": "2026-06-19T17:49:33.592102+00:00",
+  "no_nested_archives": true,
+  "main_report": "METATIME_SM_FULL_ACTION_SEED_ARBITRATION_v1_0.md",
+  "schema": "FULL_ACTION_SEED_ARBITRATION_SCHEMA_v1_0.json",
+  "validation": "VALIDATION_STATUS_v1_0.md",
+  "sha256": "6666c1a5ebdd257af9c129cb48b6a05675684d778230f45343e730cf7370425c"
+}

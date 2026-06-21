@@ -1,0 +1,25 @@
+{
+  "schema": "METATIME_SM_MODULE38_STATUS_SCHEMA_V3_8",
+  "required_status_fields": [
+    "technical",
+    "formal",
+    "substantive",
+    "numeric_mass_prediction",
+    "Debt_9",
+    "canon_allowed",
+    "current_promotion",
+    "doctor_verdict"
+  ],
+  "forbidden_claims": [
+    "Debt 9 closed",
+    "full fermion mass spectrum derived",
+    "CP2 proves QCD color by itself",
+    "PDG/reference table is mass execution"
+  ],
+  "allowed_claims": [
+    "PDG-free hypercharge/anomaly skeleton pass",
+    "pre-mass structural signature frozen",
+    "mass prediction not attempted",
+    "continue research"
+  ]
+}

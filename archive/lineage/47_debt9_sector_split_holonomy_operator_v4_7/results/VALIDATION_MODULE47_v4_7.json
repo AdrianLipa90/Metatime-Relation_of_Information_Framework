@@ -1,0 +1,10 @@
+{
+  "checked_files": [
+    "47_debt9_sector_split_holonomy_operator_v4_7/scripts/sector_split_holonomy_operator_v4_7.py",
+    "47_debt9_sector_split_holonomy_operator_v4_7/results/sector_split_holonomy_operator_v4_7.json"
+  ],
+  "issues": [],
+  "module": "47_debt9_sector_split_holonomy_operator_v4_7",
+  "result": "PASS",
+  "schema": "VALIDATION_MODULE47_V4_7"
+}

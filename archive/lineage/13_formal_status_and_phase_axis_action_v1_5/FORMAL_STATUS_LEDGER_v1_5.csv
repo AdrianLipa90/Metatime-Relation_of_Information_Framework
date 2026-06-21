@@ -1,0 +1,15 @@
+id,status,statement,dependencies,promotion_rule
+D1.1,definition,Collatz terminal projection axis includes projective half point,v1.4 correction,use in axis modules
+D1.2,definition,Zeta imaginary zero axis is placed at critical half coordinate,v1.4 correction,use as coherence axis
+D1.3,definition,Tetrahedral depth precedes Poincare disk,v0.8/v1.4,disk derived from tetrahedral depth
+A2.1,ansatz,"Full action decomposes into generational, depth, chiral, representation, zeta coherence, Euler-Berry coherence terms",v1.0-v1.4,requires future coherence proof
+A2.2,ansatz,Terminal Collatz node projects to half spin axis,D1.1,requires exact projection map
+A2.3,ansatz,Zeta enters as coherence rather than raw damping,v1.1/v1.3 warning,must preserve ordering
+L3.1,lemma,Representation data alone cannot distinguish generations,SM representation table,proved in main report
+L3.2,lemma,Zeta as raw damping is not validated,v1.1/v1.3 behavior,proved in main report
+L3.3,lemma,Half point is not ordinary Collatz iterate,Collatz definition,proved in main report
+L3.4,lemma,Zeta and spin axes share critical half coordinate,"D1.1,D1.2",proved in main report
+I4.1,interpretation,Half-axis connects integer terminal cycle with spin phase transition,L3.3,interpretation only
+H5.1,hypothesis,Full action can predict charged fermion mass ratios,all prior modules,not proven
+G6.1,validation_gate,No nested archives inside merged repo,repo hygiene invariant,must pass each release
+FD7.1,formal_debt,Exact zeta-zero to tetrahedral vertex map,"D1.2,D1.3",open

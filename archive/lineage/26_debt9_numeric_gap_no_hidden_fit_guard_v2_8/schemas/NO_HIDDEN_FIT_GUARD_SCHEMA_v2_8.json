@@ -1,0 +1,42 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "METATIME SM Debt 9 No Hidden Fit Guard v2.8",
+  "type": "object",
+  "required": [
+    "version",
+    "gate_type",
+    "anchor_policy",
+    "v2_6_numeric_gap",
+    "anti_fit_rules",
+    "closure_block"
+  ],
+  "properties": {
+    "version": {
+      "const": "v2.8"
+    },
+    "gate_type": {
+      "const": "METHODOLOGICAL_GUARD_PASS"
+    },
+    "canonical_status": {
+      "type": "string"
+    },
+    "anchor_policy": {
+      "type": "object"
+    },
+    "v2_6_numeric_gap": {
+      "type": "object"
+    },
+    "anti_fit_rules": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "closure_block": {
+      "type": "object"
+    },
+    "old_source_bridge_status": {
+      "type": "object"
+    }
+  }
+}

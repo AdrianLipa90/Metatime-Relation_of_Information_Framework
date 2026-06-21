@@ -1,0 +1,14 @@
+{
+  "schema": "METATIME_SM_GENERATION_VECTOR_SCHEMA_v0_3",
+  "status": "diagnostic_not_final_canon",
+  "mass_inputs_allowed": false,
+  "purpose": "Define a non-mass-input generational vector from twin-prime seeds, Collatz orbit diagnostics, Poincare-disk embedding diagnostics, and zeta-alignment diagnostics.",
+  "generation_vector": {
+    "seed_pair": ["twin_prime_p", "twin_prime_q"],
+    "collatz_orbit_features": ["stopping_time_p", "stopping_time_q", "normalized_pair_action", "parity_entropy_p", "parity_entropy_q", "pair_divergence"],
+    "poincare_features": ["poincare_mean_radius", "poincare_max_radius", "poincare_mean_hyperbolic_radius"],
+    "zeta_spectral_features": ["zeta_alignment_diagnostic"],
+    "diagnostic_depth_score": "non-canonical score used only to rank candidate generation seeds"
+  },
+  "next_required_step": "Choose or derive the canonical twin-prime seed triplet and replace diagnostic score by a derivation of the Euler-Berry action contribution."
+}

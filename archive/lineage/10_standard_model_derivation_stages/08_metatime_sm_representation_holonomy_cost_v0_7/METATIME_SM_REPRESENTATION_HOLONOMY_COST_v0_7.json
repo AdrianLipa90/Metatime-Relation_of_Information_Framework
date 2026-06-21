@@ -1,0 +1,44 @@
+{
+  "artifact": "METATIME_SM_REPRESENTATION_HOLONOMY_COST_v0_7",
+  "created_at_utc": "2026-06-19T17:35:25.711535+00:00",
+  "no_nested_archives": true,
+  "files": [
+    {
+      "path": "METATIME_SM_REPRESENTATION_HOLONOMY_COST_v0_7.md",
+      "sha256": "bc1cafb5327b003e58250889151c2464ec730c3b399818479e8a573440c64165",
+      "bytes": 4184
+    },
+    {
+      "path": "README.md",
+      "sha256": "270521b51db7a27c009614d7a50089026c11baa3e65cc97cdecdebc729137521",
+      "bytes": 617
+    },
+    {
+      "path": "REPRESENTATION_COST_SCHEMA_v0_7.json",
+      "sha256": "d8e7a9c54a0e5135eb32946d05b57351395713fd8f1696207204fa81c5290ffd",
+      "bytes": 1349
+    },
+    {
+      "path": "VALIDATION_STATUS_v0_7.md",
+      "sha256": "db74e8c766e1d07181fcd9a7e5c6d1d293b90796e8bbb3f471b7659a73029e59",
+      "bytes": 727
+    },
+    {
+      "path": "results/representation_rank_summary_v0_7.json",
+      "sha256": "9b9af7dbaff2cc6a98d0e855f61c15e21271358b9c02728a700d3a10d4dd56bd",
+      "bytes": 710
+    },
+    {
+      "path": "results/representation_transition_features_v0_7.csv",
+      "sha256": "82241574c4498fb4391707b83b84afc8312f1d8eed693f2dfd961a621238796d",
+      "bytes": 887
+    },
+    {
+      "path": "scripts/representation_holonomy_cost_v0_7.py",
+      "sha256": "375adfd7f57e616e064845e0a13a94b62fc82cb1d0df2a691081f802d45761d3",
+      "bytes": 13789
+    }
+  ],
+  "input_policy": "No observed fermion masses used as model predictors.",
+  "status": "structural_feature_layer_frozen_not_mass_prediction"
+}

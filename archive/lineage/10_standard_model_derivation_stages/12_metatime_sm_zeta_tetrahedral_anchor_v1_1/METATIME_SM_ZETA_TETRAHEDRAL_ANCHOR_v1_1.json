@@ -1,0 +1,27 @@
+{
+  "package": "METATIME_SM_ZETA_TETRAHEDRAL_ANCHOR_v1_1",
+  "created": "2026-06-19",
+  "canonical_order": [
+    "Bloch polar axis",
+    "zeta zeros",
+    "tetrahedral internal depth",
+    "Poincare disk",
+    "Collatz/Kepler action",
+    "Euler-Berry mass action"
+  ],
+  "observed_masses_used_as_input": false,
+  "files": [
+    "METATIME_SM_ZETA_TETRAHEDRAL_ANCHOR_v1_1.md",
+    "README.md",
+    "VALIDATION_STATUS_v1_1.md",
+    "ZETA_TETRAHEDRAL_SCHEMA_v1_1.json",
+    "references/PREVIOUS_FULL_ACTION_SEED_ARBITRATION_REFERENCE.md",
+    "references/PREVIOUS_SPIN_FIBONACCI_KEPLER_COLLATZ_REFERENCE.md",
+    "references/PREVIOUS_TETRAHEDRAL_POINCARE_REFERENCE.md",
+    "results/charged_fermion_action_with_zeta_v1_1.csv",
+    "results/seed_zeta_tetrahedral_table_v1_1.csv",
+    "results/zeta_tetrahedral_summary_v1_1.json",
+    "results/zeta_zero_tetrahedral_weights_v1_1.csv",
+    "scripts/zeta_tetrahedral_anchor_v1_1.py"
+  ]
+}

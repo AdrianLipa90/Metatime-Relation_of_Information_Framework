@@ -1,0 +1,38 @@
+{
+  "module": "collatz_transition_axis_zeta_imaginary_zero_v1_4",
+  "version": "1.4",
+  "purpose": "Bind the Collatz terminal cycle 4->2->1 to the spin-half projection endpoint 1/2 and place the zeta layer as an imaginary zero axis over the same half-anchor.",
+  "canonical_order": [
+    "Bloch/Kahler surface",
+    "zeta-polar anchoring",
+    "tetrahedral depth",
+    "derived Poincare disk",
+    "Collatz orbit on derived disk",
+    "terminal transition axis 4->2->1->1/2",
+    "zeta imaginary-zero axis over Re=1/2",
+    "Euler-Berry coherence gate"
+  ],
+  "axis_definitions": {
+    "collatz_terminal_axis": {
+      "integer_tail": [
+        4,
+        2,
+        1
+      ],
+      "projective_endpoint": "1/2",
+      "note": "1/2 is not an integer Collatz iterate; it is the spin-half / projective endpoint tying terminal Collatz to Euler closure."
+    },
+    "zeta_imaginary_zero_axis": {
+      "coordinate_form": "1/2 + i gamma_n",
+      "zero_condition": "zeta(1/2 + i gamma_n)=0",
+      "role": "coherence axis, not raw mass damping cost"
+    },
+    "operator_scale": "ln(2)/(24*pi)"
+  },
+  "validation_gates": [
+    "No observed fermion masses used as inputs.",
+    "All minimal twin-prime branches are required to lock to the terminal half endpoint.",
+    "Zeta anchors must remain on the critical-line half anchor.",
+    "No nested archives are allowed in the merged repository."
+  ]
+}

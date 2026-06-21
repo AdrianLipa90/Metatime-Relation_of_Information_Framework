@@ -1,0 +1,306 @@
+{
+  "schema": "METATIME_INFORMATION_ENERGY_NORMALIZER_V6_0B",
+  "module": "60B_information_energy_normalizer_v6_0B",
+  "created_utc": "2026-06-21T09:09:50Z",
+  "technical_status": "PASS",
+  "formal_status": "PASS_DIMENSIONAL_BRIDGE_INSTALLED",
+  "substantive_status": "INFORMATION_ENERGY_FORMALISM_DEFINED_ABSOLUTE_E0_NOT_DERIVED",
+  "debt9_numeric_spectrum": "OPEN_NOT_CLOSED",
+  "canon_allowed": false,
+  "current_promotion": "DENY_CURRENT",
+  "mass_prediction_claimed": false,
+  "absolute_E0_derived": false,
+  "formula_fingerprint_sha256": "5560e9f766eff7a6fc21784ace9b65f44397272b3ebec4addc6edae6c4aec51e",
+  "core_statement": {
+    "einstein": "E = m c^2",
+    "metatime_extension": "m = M[I]",
+    "combined": "E[I] = c^2 M[I]",
+    "recommended_candidate": "E_i = E0 * exp(-S_I(i)/OI), with OI = ln2/(24*pi)"
+  },
+  "formulae": {
+    "minimal_bridge": "E[I] = c^2 * M[I]",
+    "linear_information_count": "E[I] = E0 * OI * N_eff(I)",
+    "action_gate": "E_i = E0 * exp(-S_I(i)/OI)",
+    "mass_from_information": "m_i = (E0/c^2) * Phi(I_i)",
+    "dimensional_obstruction": "Pure dimensionless information cannot produce joules without E0, h*f, kB*T, field vacuum scale, or another dimensional normalizer."
+  },
+  "constants": {
+    "c": 299792458.0,
+    "h": 6.62607015e-34,
+    "kB": 1.380649e-23,
+    "OI": 0.009193150006360484,
+    "f0": 7.83,
+    "omega0": 49.19734095521616,
+    "L3": 7.0
+  },
+  "candidate_scales": [
+    {
+      "scale_name": "oscillator_quantum_h_f0",
+      "energy_j": 5.18821292745e-33,
+      "energy_ev": 3.2382278066913817e-14,
+      "energy_mev": 3.238227806691382e-20,
+      "mass_equivalent_kg": 5.77266540454535e-50,
+      "role": "candidate microscopic clock quantum",
+      "source_formula": "E0 = h * 7.83 Hz",
+      "status": "dimensionally valid but far below SM scales"
+    },
+    {
+      "scale_name": "oscillator_quantum_hbar_omega0",
+      "energy_j": 5.188212927450001e-33,
+      "energy_ev": 3.2382278066913817e-14,
+      "energy_mev": 3.238227806691382e-20,
+      "mass_equivalent_kg": 5.772665404545351e-50,
+      "role": "same as h*f0",
+      "source_formula": "E0 = hbar * 2*pi*7.83 Hz",
+      "status": "dimensionally valid but far below SM scales"
+    },
+    {
+      "scale_name": "landauer_bit_300K",
+      "energy_j": 2.870978885078724e-21,
+      "energy_ev": 0.0179192407638041,
+      "energy_mev": 1.79192407638041e-08,
+      "mass_equivalent_kg": 3.1943948174115975e-38,
+      "role": "thermal information bit floor at 300 K",
+      "source_formula": "E_bit = kB*T*ln2",
+      "status": "dimensionally valid environment-dependent scale"
+    },
+    {
+      "scale_name": "landauer_bit_2p725K",
+      "energy_j": 2.6078058206131743e-23,
+      "energy_ev": 0.00016276643693788725,
+      "energy_mev": 1.6276643693788724e-10,
+      "mass_equivalent_kg": 2.901575292482201e-40,
+      "role": "thermal information bit floor at CMB-like temperature",
+      "source_formula": "E_bit = kB*T*ln2",
+      "status": "dimensionally valid environment-dependent scale"
+    },
+    {
+      "scale_name": "OI_weighted_landauer_300K",
+      "energy_j": 2.6393339555622287e-23,
+      "energy_ev": 0.0001647342683417407,
+      "energy_mev": 1.6473426834174072e-10,
+      "mass_equivalent_kg": 2.9366550736005323e-40,
+      "role": "project OI-weighted thermal bit",
+      "source_formula": "E0 = kB*T*ln2*OI",
+      "status": "dimensionally valid but T-dependent"
+    },
+    {
+      "scale_name": "OI_weighted_oscillator_h_f0",
+      "energy_j": 4.769601970698651e-35,
+      "energy_ev": 2.9769513981681567e-16,
+      "energy_mev": 2.976951398168157e-22,
+      "mass_equivalent_kg": 5.306897900051303e-52,
+      "role": "project OI-weighted oscillator quantum",
+      "source_formula": "E0 = h*f0*OI",
+      "status": "dimensionally valid but tiny"
+    }
+  ],
+  "diagnostic_required_information_counts": [
+    {
+      "scale_name": "oscillator_quantum_h_f0",
+      "reference_label_scoring_only": "electron_rest_energy",
+      "reference_energy_mev_scoring_only": 0.51099895,
+      "scale_energy_mev": 3.238227806691382e-20,
+      "required_N_if_E_equals_E0_times_N": 1.5780203880162052e+19,
+      "required_N_if_E_equals_E0_times_OI_times_N": 1.7165176103124795e+21
+    },
+    {
+      "scale_name": "oscillator_quantum_h_f0",
+      "reference_label_scoring_only": "muon_rest_energy",
+      "reference_energy_mev_scoring_only": 105.6583755,
+      "scale_energy_mev": 3.238227806691382e-20,
+      "required_N_if_E_equals_E0_times_N": 3.262845661496407e+21,
+      "required_N_if_E_equals_E0_times_OI_times_N": 3.5492139900240234e+23
+    },
+    {
+      "scale_name": "oscillator_quantum_h_f0",
+      "reference_label_scoring_only": "tau_rest_energy",
+      "reference_energy_mev_scoring_only": 1776.86,
+      "scale_energy_mev": 3.238227806691382e-20,
+      "required_N_if_E_equals_E0_times_N": 5.487137119656458e+22,
+      "required_N_if_E_equals_E0_times_OI_times_N": 5.968723577729137e+24
+    },
+    {
+      "scale_name": "oscillator_quantum_h_f0",
+      "reference_label_scoring_only": "proton_rest_energy",
+      "reference_energy_mev_scoring_only": 938.2720813,
+      "scale_energy_mev": 3.238227806691382e-20,
+      "required_N_if_E_equals_E0_times_N": 2.8974863329910927e+22,
+      "required_N_if_E_equals_E0_times_OI_times_N": 3.151788376113087e+24
+    },
+    {
+      "scale_name": "oscillator_quantum_hbar_omega0",
+      "reference_label_scoring_only": "electron_rest_energy",
+      "reference_energy_mev_scoring_only": 0.51099895,
+      "scale_energy_mev": 3.238227806691382e-20,
+      "required_N_if_E_equals_E0_times_N": 1.578020388016205e+19,
+      "required_N_if_E_equals_E0_times_OI_times_N": 1.716517610312479e+21
+    },
+    {
+      "scale_name": "oscillator_quantum_hbar_omega0",
+      "reference_label_scoring_only": "muon_rest_energy",
+      "reference_energy_mev_scoring_only": 105.6583755,
+      "scale_energy_mev": 3.238227806691382e-20,
+      "required_N_if_E_equals_E0_times_N": 3.2628456614964064e+21,
+      "required_N_if_E_equals_E0_times_OI_times_N": 3.549213990024023e+23
+    },
+    {
+      "scale_name": "oscillator_quantum_hbar_omega0",
+      "reference_label_scoring_only": "tau_rest_energy",
+      "reference_energy_mev_scoring_only": 1776.86,
+      "scale_energy_mev": 3.238227806691382e-20,
+      "required_N_if_E_equals_E0_times_N": 5.487137119656457e+22,
+      "required_N_if_E_equals_E0_times_OI_times_N": 5.968723577729135e+24
+    },
+    {
+      "scale_name": "oscillator_quantum_hbar_omega0",
+      "reference_label_scoring_only": "proton_rest_energy",
+      "reference_energy_mev_scoring_only": 938.2720813,
+      "scale_energy_mev": 3.238227806691382e-20,
+      "required_N_if_E_equals_E0_times_N": 2.8974863329910923e+22,
+      "required_N_if_E_equals_E0_times_OI_times_N": 3.1517883761130866e+24
+    },
+    {
+      "scale_name": "landauer_bit_300K",
+      "reference_label_scoring_only": "electron_rest_energy",
+      "reference_energy_mev_scoring_only": 0.51099895,
+      "scale_energy_mev": 1.79192407638041e-08,
+      "required_N_if_E_equals_E0_times_N": 28516774.60755984,
+      "required_N_if_E_equals_E0_times_OI_times_N": 3101959022.5145764
+    },
+    {
+      "scale_name": "landauer_bit_300K",
+      "reference_label_scoring_only": "muon_rest_energy",
+      "reference_energy_mev_scoring_only": 105.6583755,
+      "scale_energy_mev": 1.79192407638041e-08,
+      "required_N_if_E_equals_E0_times_N": 5896364521.951411,
+      "required_N_if_E_equals_E0_times_OI_times_N": 641386740983.4366
+    },
+    {
+      "scale_name": "landauer_bit_300K",
+      "reference_label_scoring_only": "tau_rest_energy",
+      "reference_energy_mev_scoring_only": 1776.86,
+      "scale_energy_mev": 1.79192407638041e-08,
+      "required_N_if_E_equals_E0_times_N": 99159335120.33395,
+      "required_N_if_E_equals_E0_times_OI_times_N": 10786219636547.688
+    },
+    {
+      "scale_name": "landauer_bit_300K",
+      "reference_label_scoring_only": "proton_rest_energy",
+      "reference_energy_mev_scoring_only": 938.2720813,
+      "scale_energy_mev": 1.79192407638041e-08,
+      "required_N_if_E_equals_E0_times_N": 52361151550.307816,
+      "required_N_if_E_equals_E0_times_OI_times_N": 5695670310402.919
+    },
+    {
+      "scale_name": "landauer_bit_2p725K",
+      "reference_label_scoring_only": "electron_rest_energy",
+      "reference_energy_mev_scoring_only": 0.51099895,
+      "scale_energy_mev": 1.6276643693788724e-10,
+      "required_N_if_E_equals_E0_times_N": 3139461424.685487,
+      "required_N_if_E_equals_E0_times_OI_times_N": 341500075873.16437
+    },
+    {
+      "scale_name": "landauer_bit_2p725K",
+      "reference_label_scoring_only": "muon_rest_energy",
+      "reference_energy_mev_scoring_only": 105.6583755,
+      "scale_energy_mev": 1.6276643693788724e-10,
+      "required_N_if_E_equals_E0_times_N": 649141048288.2286,
+      "required_N_if_E_equals_E0_times_OI_times_N": 70611384328451.73
+    },
+    {
+      "scale_name": "landauer_bit_2p725K",
+      "reference_label_scoring_only": "tau_rest_energy",
+      "reference_energy_mev_scoring_only": 1776.86,
+      "scale_energy_mev": 1.6276643693788724e-10,
+      "required_N_if_E_equals_E0_times_N": 10916624049945.021,
+      "required_N_if_E_equals_E0_times_OI_times_N": 1187473721454791.2
+    },
+    {
+      "scale_name": "landauer_bit_2p725K",
+      "reference_label_scoring_only": "proton_rest_energy",
+      "reference_energy_mev_scoring_only": 938.2720813,
+      "scale_energy_mev": 1.6276643693788724e-10,
+      "required_N_if_E_equals_E0_times_N": 5764530445905.447,
+      "required_N_if_E_equals_E0_times_OI_times_N": 627046272704908.5
+    },
+    {
+      "scale_name": "OI_weighted_landauer_300K",
+      "reference_label_scoring_only": "electron_rest_energy",
+      "reference_energy_mev_scoring_only": 0.51099895,
+      "scale_energy_mev": 1.6473426834174072e-10,
+      "required_N_if_E_equals_E0_times_N": 3101959022.5145764,
+      "required_N_if_E_equals_E0_times_OI_times_N": 337420690445.43134
+    },
+    {
+      "scale_name": "OI_weighted_landauer_300K",
+      "reference_label_scoring_only": "muon_rest_energy",
+      "reference_energy_mev_scoring_only": 105.6583755,
+      "scale_energy_mev": 1.6473426834174072e-10,
+      "required_N_if_E_equals_E0_times_N": 641386740983.4366,
+      "required_N_if_E_equals_E0_times_OI_times_N": 69767896807914.48
+    },
+    {
+      "scale_name": "OI_weighted_landauer_300K",
+      "reference_label_scoring_only": "tau_rest_energy",
+      "reference_energy_mev_scoring_only": 1776.86,
+      "scale_energy_mev": 1.6473426834174072e-10,
+      "required_N_if_E_equals_E0_times_N": 10786219636547.688,
+      "required_N_if_E_equals_E0_times_OI_times_N": 1173288767080380.8
+    },
+    {
+      "scale_name": "OI_weighted_landauer_300K",
+      "reference_label_scoring_only": "proton_rest_energy",
+      "reference_energy_mev_scoring_only": 938.2720813,
+      "scale_energy_mev": 1.6473426834174072e-10,
+      "required_N_if_E_equals_E0_times_N": 5695670310402.919,
+      "required_N_if_E_equals_E0_times_OI_times_N": 619555898300608.9
+    },
+    {
+      "scale_name": "OI_weighted_oscillator_h_f0",
+      "reference_label_scoring_only": "electron_rest_energy",
+      "reference_energy_mev_scoring_only": 0.51099895,
+      "scale_energy_mev": 2.976951398168157e-22,
+      "required_N_if_E_equals_E0_times_N": 1.7165176103124795e+21,
+      "required_N_if_E_equals_E0_times_OI_times_N": 1.8671702399339387e+23
+    },
+    {
+      "scale_name": "OI_weighted_oscillator_h_f0",
+      "reference_label_scoring_only": "muon_rest_energy",
+      "reference_energy_mev_scoring_only": 105.6583755,
+      "scale_energy_mev": 2.976951398168157e-22,
+      "required_N_if_E_equals_E0_times_N": 3.5492139900240234e+23,
+      "required_N_if_E_equals_E0_times_OI_times_N": 3.8607158455680817e+25
+    },
+    {
+      "scale_name": "OI_weighted_oscillator_h_f0",
+      "reference_label_scoring_only": "tau_rest_energy",
+      "reference_energy_mev_scoring_only": 1776.86,
+      "scale_energy_mev": 2.976951398168157e-22,
+      "required_N_if_E_equals_E0_times_N": 5.968723577729137e+24,
+      "required_N_if_E_equals_E0_times_OI_times_N": 6.492577161908098e+26
+    },
+    {
+      "scale_name": "OI_weighted_oscillator_h_f0",
+      "reference_label_scoring_only": "proton_rest_energy",
+      "reference_energy_mev_scoring_only": 938.2720813,
+      "scale_energy_mev": 2.976951398168157e-22,
+      "required_N_if_E_equals_E0_times_N": 3.151788376113087e+24,
+      "required_N_if_E_equals_E0_times_OI_times_N": 3.428409602728611e+26
+    }
+  ],
+  "decision": {
+    "information_to_energy_bridge": "FORMALIZED",
+    "pure_information_without_E0": "DENIED_BY_DIMENSIONAL_ANALYSIS",
+    "oscillator_7p83Hz_scale": "VALID_BUT_TOO_SMALL_FOR_SM_WITHOUT_HUGE_N_eff",
+    "landauer_scale": "VALID_BUT_ENVIRONMENT_DEPENDENT",
+    "absolute_SM_mass_scale": "NOT_DERIVED",
+    "next_step": "Derive E0 from a non-mass physical/informational normalizer or define a sector-specific E0 ledger before using the formula for Debt 9."
+  },
+  "guardrails": {
+    "no_particle_mass_fit": true,
+    "no_debt9_closure": true,
+    "reference_energies_scoring_only": true,
+    "no_claim_that_dimensionless_information_alone_has_units": true
+  }
+}

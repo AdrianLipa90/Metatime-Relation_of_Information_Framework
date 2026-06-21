@@ -1,0 +1,9 @@
+{
+  "module": "65_unit_anchor_ledger_v6_5",
+  "status": "PASS",
+  "anchor_count": 12,
+  "failures": [],
+  "denied_input_count": 7,
+  "allowed_dimensional_normalizer_count": 2,
+  "quarantined_count": 1
+}

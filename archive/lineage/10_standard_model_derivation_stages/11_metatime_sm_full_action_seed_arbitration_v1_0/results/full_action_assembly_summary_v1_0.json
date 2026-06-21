@@ -1,0 +1,69 @@
+{
+  "version": "v1.0",
+  "generated_at_utc": "2026-06-19T17:49:33.583165+00:00",
+  "kappa_ln2_over_24pi": 0.009193150006360484,
+  "uses_observed_masses_as_input": false,
+  "mass_prediction_claimed": false,
+  "components_integrated": [
+    "tetrahedral_depth_to_poincare_disk",
+    "collatz_orbit",
+    "fibonacci_clock",
+    "kepler_orbital_cost",
+    "spin_half_closure",
+    "information_operator_kappa",
+    "chiral_gate",
+    "representation_holonomy_cost"
+  ],
+  "minimal_triplet_assignment": [
+    {
+      "assigned_generation_v10": 1,
+      "seed_p": 3,
+      "seed_q": 5,
+      "integrated_damping_unit_v10": 0.8471633855025916,
+      "hierarchy_role": "lightest"
+    },
+    {
+      "assigned_generation_v10": 2,
+      "seed_p": 5,
+      "seed_q": 7,
+      "integrated_damping_unit_v10": 0.6088811663290957,
+      "hierarchy_role": "middle"
+    },
+    {
+      "assigned_generation_v10": 3,
+      "seed_p": 11,
+      "seed_q": 13,
+      "integrated_damping_unit_v10": 0.23926393244694075,
+      "hierarchy_role": "heaviest"
+    }
+  ],
+  "representation_sign_correction": "v0.7 residual sign corrected to mass-term convention -Y_L + Y_selector + Y_R = 0; v0.6 chiral table was already correct",
+  "ordinal_validation": [
+    {
+      "class": "charged_lepton",
+      "fermion_order_light_to_heavy": "e,mu,tau",
+      "damping_actions_light_to_heavy": "5.3471633855,5.10888116633,4.73926393245",
+      "ordinal_hierarchy_pass": true
+    },
+    {
+      "class": "down_quark",
+      "fermion_order_light_to_heavy": "d,s,b",
+      "damping_actions_light_to_heavy": "3.93477985465,3.69649763548,3.3268804016",
+      "ordinal_hierarchy_pass": true
+    },
+    {
+      "class": "up_quark",
+      "fermion_order_light_to_heavy": "u,c,t",
+      "damping_actions_light_to_heavy": "3.76811318799,3.52983096881,3.16021373493",
+      "ordinal_hierarchy_pass": true
+    }
+  ],
+  "open_debts": [
+    "zeta_polar_to_tetrahedral_vertex_map",
+    "Euler-Berry constructive coherence term",
+    "absolute mass scale",
+    "CKM/PMNS mixing",
+    "neutrino mass mechanism",
+    "generation-count selection law for excluding extended twin-prime candidates"
+  ]
+}

@@ -1,0 +1,4 @@
+class,generations,actions,expected_mass_order,action_order_pass,uses_observed_mass_as_input
+charged_lepton,1->2->3,5.378788->5.139406->4.680268,gen1_lightest_gen3_heaviest,True,False
+down_quark,1->2->3,3.966405->3.727023->3.267884,gen1_lightest_gen3_heaviest,True,False
+up_quark,1->2->3,3.799738->3.560356->3.101218,gen1_lightest_gen3_heaviest,True,False

@@ -1,0 +1,27 @@
+{
+  "schema": "METATIME_SM_DEBT9_ONE_ANCHOR_MASS_SCALING_v2_6",
+  "canonical_status": "pilot_stress_test_not_mass_derivation",
+  "anchor_policy": {
+    "allowed_observed_mass_inputs": 1,
+    "anchor": "electron_mass",
+    "anchor_role": "dimensional_scale_only",
+    "anchor_excluded_from_prediction_score": true,
+    "all_other_observed_masses": "validation_targets_only"
+  },
+  "required_layers": [
+    "Euler-Berry structural action",
+    "Ramanujan scaling/release layer",
+    "zeta-Heisenberg fluctuation width",
+    "preference constant ln2/(24*pi)"
+  ],
+  "gate_taxonomy": {
+    "module_gate": "COMPUTATIONAL_STRESS_TEST_PASS",
+    "debt9_closure": "NOT_CLOSED_NUMERIC_RATIOS_REMAIN_OPEN"
+  },
+  "do_not_claim": [
+    "exact numerical mass derivation",
+    "Yukawa couplings derived",
+    "CKM/PMNS derived",
+    "quark scheme dependence solved"
+  ]
+}

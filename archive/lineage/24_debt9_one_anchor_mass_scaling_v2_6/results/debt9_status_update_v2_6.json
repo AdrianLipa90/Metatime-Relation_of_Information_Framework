@@ -1,0 +1,86 @@
+{
+  "module": "debt9_one_anchor_mass_scaling_v2_6",
+  "anchor": "e",
+  "anchor_mass_GeV": 0.00051099895,
+  "kappa_ln2_over_24pi": 0.009193150006360484,
+  "vev_GeV_used_for_yukawa_conversion": 246.0,
+  "observed_masses_used_as_inputs": [
+    "e"
+  ],
+  "observed_masses_used_as_validation_targets": [
+    "d",
+    "u",
+    "mu",
+    "s",
+    "c",
+    "tau",
+    "b",
+    "t"
+  ],
+  "debt9_status": "PARTIAL_ADVANCE_NOT_CLOSED",
+  "gate_class": "COMPUTATIONAL_STRESS_TEST_PASS",
+  "debt_ledger": [
+    {
+      "debt": "Debt 9",
+      "status": "partially advanced / not closed",
+      "note": "One-anchor pipeline implemented; ratios are a stress test and do not yet match charged fermion spectrum."
+    },
+    {
+      "debt": "Debt 5",
+      "status": "dependency reused",
+      "note": "Ramanujan seed suppression enters scaling as mandatory non-fit layer."
+    },
+    {
+      "debt": "zeta-Heisenberg fluctuation",
+      "status": "dependency reused",
+      "note": "Used as uncertainty/coherence width, not as fitted correction."
+    }
+  ],
+  "summary": [
+    {
+      "variant": "EB_ONLY",
+      "gate_class": "COMPUTATIONAL_STRESS_TEST_PASS",
+      "debt9_closure_status": "NOT_CLOSED_NUMERIC_RATIOS_REMAIN_OPEN",
+      "anchor": "e",
+      "anchor_mass_GeV": 0.00051099895,
+      "non_anchor_count": 8,
+      "median_abs_log_error_excluding_anchor": 3.761700031885985,
+      "max_abs_log_error_excluding_anchor": 7.337474680225192,
+      "targets_inside_zeta_heisenberg_band_excluding_anchor": 0,
+      "charged_lepton_generation_order_pass": true,
+      "down_quark_generation_order_pass": true,
+      "up_quark_generation_order_pass": true,
+      "uses_observed_masses_as_inputs_other_than_anchor": false
+    },
+    {
+      "variant": "EB_MINUS_RAMANUJAN",
+      "gate_class": "COMPUTATIONAL_STRESS_TEST_PASS",
+      "debt9_closure_status": "NOT_CLOSED_NUMERIC_RATIOS_REMAIN_OPEN",
+      "anchor": "e",
+      "anchor_mass_GeV": 0.00051099895,
+      "non_anchor_count": 8,
+      "median_abs_log_error_excluding_anchor": 2.6294406190132653,
+      "max_abs_log_error_excluding_anchor": 5.370476888698751,
+      "targets_inside_zeta_heisenberg_band_excluding_anchor": 0,
+      "charged_lepton_generation_order_pass": true,
+      "down_quark_generation_order_pass": true,
+      "up_quark_generation_order_pass": true,
+      "uses_observed_masses_as_inputs_other_than_anchor": false
+    },
+    {
+      "variant": "EB_MINUS_RAMANUJAN_ZH_CENTER",
+      "gate_class": "COMPUTATIONAL_STRESS_TEST_PASS",
+      "debt9_closure_status": "NOT_CLOSED_NUMERIC_RATIOS_REMAIN_OPEN",
+      "anchor": "e",
+      "anchor_mass_GeV": 0.00051099895,
+      "non_anchor_count": 8,
+      "median_abs_log_error_excluding_anchor": 2.6289121852805852,
+      "max_abs_log_error_excluding_anchor": 5.370476888698751,
+      "targets_inside_zeta_heisenberg_band_excluding_anchor": 0,
+      "charged_lepton_generation_order_pass": true,
+      "down_quark_generation_order_pass": true,
+      "up_quark_generation_order_pass": true,
+      "uses_observed_masses_as_inputs_other_than_anchor": false
+    }
+  ]
+}

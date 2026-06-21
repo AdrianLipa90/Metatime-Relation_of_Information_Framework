@@ -1,0 +1,4 @@
+class,fermion_order_light_to_heavy,damping_actions_light_to_heavy,ordinal_hierarchy_pass
+charged_lepton,"e,mu,tau","5.3471633855,5.10888116633,4.73926393245",True
+down_quark,"d,s,b","3.93477985465,3.69649763548,3.3268804016",True
+up_quark,"u,c,t","3.76811318799,3.52983096881,3.16021373493",True

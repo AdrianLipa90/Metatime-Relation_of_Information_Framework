@@ -1,0 +1,62 @@
+{
+  "artifact": "METATIME_SM_COLLATZ_POINCARE_ACTION_KERNEL_v0_4",
+  "files": [
+    {
+      "path": "ACTION_KERNEL_SCHEMA_v0_4.json",
+      "size": 897,
+      "sha256": "0c49b770559d15ecba27fdb44f4585f5ac9f4a6d631ca2d9eb4a3512de090c3f"
+    },
+    {
+      "path": "METATIME_SM_COLLATZ_POINCARE_ACTION_KERNEL_v0_4.md",
+      "size": 3520,
+      "sha256": "6c824a9c6575239af382f6a0632ed9c8d65db22a2b098fec75217dc4b9264c21"
+    },
+    {
+      "path": "README.md",
+      "size": 701,
+      "sha256": "e64c9eb8ae73d5d3ba57281c2faa6071c0b5e2e03d89afd111cb8a84ddbf7adc"
+    },
+    {
+      "path": "VALIDATION_STATUS_v0_4.md",
+      "size": 959,
+      "sha256": "8011aa5ab8fcd57974502f04744efac82ae82083bc32dcb791321f499df76851"
+    },
+    {
+      "path": "references/EB_ACTION_CLOSURE_v0_2_REFERENCE.md",
+      "size": 6504,
+      "sha256": "57ddf60b819cba7f0daeaa78ae90b24ccb2587e27ca918a5f35467b2a71a2684"
+    },
+    {
+      "path": "references/GAUGE_SKELETON_v0_1_REFERENCE.md",
+      "size": 11631,
+      "sha256": "7456ea6dc310fa30c626f190e411b69a946bc10940047a7ba89ae2e65021c9e5"
+    },
+    {
+      "path": "references/GENERATION_EMBEDDING_v0_3_REFERENCE.md",
+      "size": 2738,
+      "sha256": "4125b0c4d277892d3821e148a32f94b12bfbcafa974878ee65080fe39f20e453"
+    },
+    {
+      "path": "references/MASS_VECTORIZATION_v0_1_REFERENCE.md",
+      "size": 4856,
+      "sha256": "e3123abbfa7861e4a29f835cd22ef4ee748dfd332722635e1634584c97bfb4c4"
+    },
+    {
+      "path": "results/collatz_poincare_action_summary_v0_4.json",
+      "size": 1791,
+      "sha256": "282d494c794e629d3fe6a89173cad2cac21203b9317adc416e0ceeee62e4896a"
+    },
+    {
+      "path": "results/collatz_poincare_action_table_v0_4.csv",
+      "size": 6190,
+      "sha256": "54c691024532fbe458cfd031089fdbb3d23d922eb9aacbafa399522b5a9dab04"
+    },
+    {
+      "path": "scripts/collatz_poincare_action_kernel_v0_4.py",
+      "size": 15718,
+      "sha256": "f227b69266578650733ace08a429a06d0c16c111647de6dc1fa1b53856a2f4c4"
+    }
+  ],
+  "no_nested_archives": true,
+  "mass_inputs_used": false
+}

@@ -1,0 +1,33 @@
+{
+  "schema": "METATIME_EXACT_TABLE_REPLAY_PDG_PROVENANCE_MATRIX_SCHEMA_V6_4",
+  "required_top_level": [
+    "schema",
+    "created_utc",
+    "base_artifact",
+    "base_sha256",
+    "mode",
+    "allowed_classes",
+    "rows",
+    "summary"
+  ],
+  "required_row_fields": [
+    "id",
+    "name",
+    "classification",
+    "source_path",
+    "evidence_path",
+    "module_origin",
+    "reason",
+    "risk",
+    "permitted_use",
+    "blocked_use",
+    "doctor_verdict"
+  ],
+  "allowed_classes": [
+    "SOURCE_DERIVED",
+    "STRUCTURAL_HINT",
+    "SCORING_ONLY",
+    "TAINTED_REPLAY",
+    "UNKNOWN_PROVENANCE"
+  ]
+}

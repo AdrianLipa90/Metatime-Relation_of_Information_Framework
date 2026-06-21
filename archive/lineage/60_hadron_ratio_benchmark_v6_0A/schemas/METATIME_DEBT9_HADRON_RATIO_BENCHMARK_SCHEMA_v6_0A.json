@@ -1,0 +1,10 @@
+{
+  "schema": "METATIME_DEBT9_HADRON_RATIO_BENCHMARK_SCHEMA_V6_0A",
+  "required_status": {
+    "mass_prediction_claimed": false,
+    "absolute_mev_scale_derived": false,
+    "debt9_numeric_spectrum": "OPEN_NOT_CLOSED"
+  },
+  "benchmark_phase": "after v5.9 formula freeze only",
+  "prohibited_interpretation": "direct or inverse carrier promoted as Debt9 closure without scale derivation and sector-specific meson/baryon operators"
+}

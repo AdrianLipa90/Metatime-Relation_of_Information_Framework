@@ -1,0 +1,4 @@
+seed_p,seed_q,entropy_score,vertex_symmetry_score,base_balance_score,phase_alignment_score,apex_alignment_score,zeta_coherence_score_v13,integrated_damping_unit_v10,assigned_generation_v10,status
+3,5,0.9634988981596261,0.7780618999916796,0.003384019556497919,1.0,0.0,0.5489889635415607,0.8471633855025916,1,coherence_gate_pass_mass_blind_not_additive_cost
+5,7,0.9682523712334772,0.7971771138890058,0.0,0.0,1.0,0.5530858970244966,0.6088811663290957,2,coherence_gate_pass_mass_blind_not_additive_cost
+11,13,0.9758164091002935,0.8195997528782177,1.0,0.47579837196943753,0.7489140097104123,0.8040257087316722,0.23926393244694075,3,coherence_gate_pass_mass_blind_not_additive_cost

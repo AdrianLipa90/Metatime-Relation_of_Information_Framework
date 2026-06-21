@@ -1,0 +1,104 @@
+{
+  "schema": "METATIME_SM_PDG_FREE_GAUGE_CHIRAL_SKELETON_V3_8",
+  "created_utc": "2026-06-20T13:30:00Z",
+  "status": "PASS",
+  "scope": "one-generation gauge-chiral hypercharge skeleton; no mass derivation claimed",
+  "input_policy": {
+    "PDG_masses": "FORBIDDEN",
+    "observed_fermion_masses": "FORBIDDEN",
+    "CKM_PMNS": "FORBIDDEN",
+    "normalization": "Y_H = 1/2 convention only; hypercharge ratios derived before mass comparison"
+  },
+  "derived_hypercharges": {
+    "Q": "1/6",
+    "u_c": "-2/3",
+    "d_c": "1/3",
+    "L": "-1/2",
+    "e_c": "1",
+    "H": "1/2"
+  },
+  "fermion_and_higgs_fields": [
+    {
+      "name": "Q",
+      "color_dim": 3,
+      "weak_dim": 2,
+      "su3_rep": "3",
+      "su2_rep": "2",
+      "hypercharge": "1/6",
+      "chirality_convention": "left-handed Weyl doublet",
+      "multiplicity": 6
+    },
+    {
+      "name": "u_c",
+      "color_dim": 3,
+      "weak_dim": 1,
+      "su3_rep": "anti-3",
+      "su2_rep": "1",
+      "hypercharge": "-2/3",
+      "chirality_convention": "left-handed conjugate of right up",
+      "multiplicity": 3
+    },
+    {
+      "name": "d_c",
+      "color_dim": 3,
+      "weak_dim": 1,
+      "su3_rep": "anti-3",
+      "su2_rep": "1",
+      "hypercharge": "1/3",
+      "chirality_convention": "left-handed conjugate of right down",
+      "multiplicity": 3
+    },
+    {
+      "name": "L",
+      "color_dim": 1,
+      "weak_dim": 2,
+      "su3_rep": "1",
+      "su2_rep": "2",
+      "hypercharge": "-1/2",
+      "chirality_convention": "left-handed lepton doublet",
+      "multiplicity": 2
+    },
+    {
+      "name": "e_c",
+      "color_dim": 1,
+      "weak_dim": 1,
+      "su3_rep": "1",
+      "su2_rep": "1",
+      "hypercharge": "1",
+      "chirality_convention": "left-handed conjugate of right charged lepton",
+      "multiplicity": 1
+    },
+    {
+      "name": "H",
+      "color_dim": 1,
+      "weak_dim": 2,
+      "su3_rep": "1",
+      "su2_rep": "2",
+      "hypercharge": "1/2",
+      "chirality_convention": "scalar Higgs doublet / normalization object",
+      "multiplicity": 2
+    }
+  ],
+  "anomaly_and_yukawa_checks": {
+    "SU3_SU3_U1__2YQ_plus_Yu_plus_Yd": "0",
+    "SU2_SU2_U1__3YQ_plus_YL": "0",
+    "grav_grav_U1__sum_multiplicity_Y": "0",
+    "U1_cubed__sum_multiplicity_Y3": "0",
+    "yukawa_up__YQ_plus_YH_plus_Yu": "0",
+    "yukawa_down__YQ_minus_YH_plus_Yd": "0",
+    "yukawa_charged__YL_minus_YH_plus_Ye": "0"
+  },
+  "all_checks_zero": true,
+  "electric_charge_checks": {
+    "u_L_in_Q": "2/3",
+    "d_L_in_Q": "-1/3",
+    "u_c_left_charge": "-2/3",
+    "d_c_left_charge": "1/3",
+    "nu_L_in_L": "0",
+    "e_L_in_L": "-1",
+    "e_c_left_charge": "1",
+    "H_plus_component": "1",
+    "H_neutral_component": "0"
+  },
+  "doctor_verdict": "CONTINUE_RESEARCH__PDG_FREE_GAUGE_CHIRAL_SKELETON_PASS"
+}

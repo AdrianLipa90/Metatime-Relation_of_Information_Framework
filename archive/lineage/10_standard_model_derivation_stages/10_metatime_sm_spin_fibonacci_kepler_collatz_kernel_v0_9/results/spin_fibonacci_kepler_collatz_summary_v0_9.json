@@ -1,0 +1,39 @@
+{
+  "version": "v0.9",
+  "kappa": 0.009193150006360484,
+  "golden_ratio": 1.618033988749895,
+  "seed_count": 6,
+  "canonical_ordering": "larger action means stronger damping and lower generation mass scale, before additional coherence corrections",
+  "top_three_by_damping": [
+    {
+      "seed": [
+        17,
+        19
+      ],
+      "action": 0.014132786052251843
+    },
+    {
+      "seed": [
+        5,
+        7
+      ],
+      "action": 0.014060808361565726
+    },
+    {
+      "seed": [
+        3,
+        5
+      ],
+      "action": 0.013591981467992804
+    }
+  ],
+  "validation": {
+    "uses_observed_masses_as_input": false,
+    "uses_spin_half": true,
+    "uses_fibonacci_clock": true,
+    "uses_information_operator_kappa": true,
+    "uses_kepler_dynamics": true,
+    "uses_collatz_dynamics": true,
+    "derives_poincare_disk_from_tetrahedral_projection": true
+  }
+}

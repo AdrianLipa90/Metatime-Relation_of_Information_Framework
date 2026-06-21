@@ -1,0 +1,6 @@
+Ramanujan seed suppression validation v2.1
+candidate_count=9
+min_canonical_visibility=0.0869482543064
+max_extended_visibility=0.010695774671
+extended_visibility_exceptions_count=0
+validation_status=PASS

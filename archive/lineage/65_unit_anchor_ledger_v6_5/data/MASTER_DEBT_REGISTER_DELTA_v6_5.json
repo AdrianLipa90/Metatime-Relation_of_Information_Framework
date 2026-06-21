@@ -1,0 +1,29 @@
+{
+  "version": "v6.5",
+  "created_at_utc": "2026-06-21T16:56:14.364990+00:00",
+  "debt_id": "DEBT-006",
+  "name": "unit anchors removal ledger",
+  "previous_status": "ACTIVE_NOW",
+  "new_status": "CLOSED_AS_LEDGER / ENFORCEMENT_ACTIVE",
+  "closure_type": "policy-ledger-installed",
+  "closed_by_module": "65_unit_anchor_ledger_v6_5",
+  "scope": "This closes the process debt that anchors lacked explicit status. It does not derive electron S_e, hadron scale, or spectrum closure.",
+  "remaining_dependent_debts": [
+    "DEBT-007 absolute electron action offset S_e",
+    "DEBT-009 hadron and meson sector split",
+    "DEBT-011 document operator index"
+  ],
+  "rules_installed": [
+    "Mass anchors cannot be used as derivation inputs before formula fingerprint freeze.",
+    "Measured particle tables are scoring-only after freeze.",
+    "Planck E0 is allowed only as dimensional normalizer, not as spectrum proof.",
+    "Quark single-particle anchors are denied for hadron derivation without confinement/triplet/meson operators.",
+    "Unknown provenance scale candidates stay quarantined.",
+    "OI/Ramanujan/sigma-R are operator constants pending source index, not unit anchors."
+  ],
+  "next_queue": [
+    "DEBT-011 document operator index",
+    "DEBT-007 absolute S_e derivation",
+    "DEBT-009 hadron/meson sector split"
+  ]
+}

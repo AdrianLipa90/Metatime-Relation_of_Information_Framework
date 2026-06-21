@@ -1,0 +1,54 @@
+{
+  "status": "PASS",
+  "gate_class": "COMPUTATIONAL_STRESS_TEST_PASS",
+  "debt9_status": "PARTIAL_ADVANCE_NOT_CLOSED",
+  "anchor": "e",
+  "row_count": 27,
+  "summary": [
+    {
+      "variant": "EB_ONLY",
+      "gate_class": "COMPUTATIONAL_STRESS_TEST_PASS",
+      "debt9_closure_status": "NOT_CLOSED_NUMERIC_RATIOS_REMAIN_OPEN",
+      "anchor": "e",
+      "anchor_mass_GeV": 0.00051099895,
+      "non_anchor_count": 8,
+      "median_abs_log_error_excluding_anchor": 3.761700031885985,
+      "max_abs_log_error_excluding_anchor": 7.337474680225192,
+      "targets_inside_zeta_heisenberg_band_excluding_anchor": 0,
+      "charged_lepton_generation_order_pass": true,
+      "down_quark_generation_order_pass": true,
+      "up_quark_generation_order_pass": true,
+      "uses_observed_masses_as_inputs_other_than_anchor": false
+    },
+    {
+      "variant": "EB_MINUS_RAMANUJAN",
+      "gate_class": "COMPUTATIONAL_STRESS_TEST_PASS",
+      "debt9_closure_status": "NOT_CLOSED_NUMERIC_RATIOS_REMAIN_OPEN",
+      "anchor": "e",
+      "anchor_mass_GeV": 0.00051099895,
+      "non_anchor_count": 8,
+      "median_abs_log_error_excluding_anchor": 2.6294406190132653,
+      "max_abs_log_error_excluding_anchor": 5.370476888698751,
+      "targets_inside_zeta_heisenberg_band_excluding_anchor": 0,
+      "charged_lepton_generation_order_pass": true,
+      "down_quark_generation_order_pass": true,
+      "up_quark_generation_order_pass": true,
+      "uses_observed_masses_as_inputs_other_than_anchor": false
+    },
+    {
+      "variant": "EB_MINUS_RAMANUJAN_ZH_CENTER",
+      "gate_class": "COMPUTATIONAL_STRESS_TEST_PASS",
+      "debt9_closure_status": "NOT_CLOSED_NUMERIC_RATIOS_REMAIN_OPEN",
+      "anchor": "e",
+      "anchor_mass_GeV": 0.00051099895,
+      "non_anchor_count": 8,
+      "median_abs_log_error_excluding_anchor": 2.6289121852805852,
+      "max_abs_log_error_excluding_anchor": 5.370476888698751,
+      "targets_inside_zeta_heisenberg_band_excluding_anchor": 0,
+      "charged_lepton_generation_order_pass": true,
+      "down_quark_generation_order_pass": true,
+      "up_quark_generation_order_pass": true,
+      "uses_observed_masses_as_inputs_other_than_anchor": false
+    }
+  ]
+}

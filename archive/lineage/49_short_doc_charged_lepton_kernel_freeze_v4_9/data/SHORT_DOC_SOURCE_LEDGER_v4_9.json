@@ -1,0 +1,340 @@
+[
+  {
+    "file": "step1_bloch_fs_collatz_normal_form_v2.pdf.txt",
+    "status": "READ",
+    "sha256_text": "48d1342edc50e82df1b502c77c7a38c29ab4555264b2204898804cd16b310442",
+    "roles": [
+      "twin-prime complementarity",
+      "first Collatz descent depth"
+    ],
+    "selected_hits": [
+      {
+        "line": 11,
+        "text": "       Hypothesis, or the twin-prime conjecture. The aim is to put accelerated Collatz dynamics"
+      },
+      {
+        "line": 13,
+        "text": "       become radial returns toward the equator, and twin primes satisfy an exact first-descent"
+      },
+      {
+        "line": 24,
+        "text": "(iv) an exact twin-prime complementarity law for first Collatz descent depths;"
+      },
+      {
+        "line": 121,
+        "text": "7    Twin-Prime Radial Complementarity"
+      },
+      {
+        "line": 122,
+        "text": "Let (p, p + 2) be a twin-prime pair with p > 3. Define"
+      },
+      {
+        "line": 126,
+        "text": "Lemma 2 (Twin-prime radial complementarity). For every twin-prime pair (p, p + 2) with"
+      },
+      {
+        "line": 152,
+        "text": "   For twin-prime pairs (p, p + 2) with p ≤ 106 , excluding (3, 5), there are 8168 pairs. The"
+      },
+      {
+        "line": 177,
+        "text": "                Twin primes satisfy exact first-descent radial complementarity."
+      }
+    ]
+  },
+  {
+    "file": "step3_preference_normalizer.pdf.txt",
+    "status": "READ",
+    "sha256_text": "fd327eacf512f2966fa1042208642101f19dae0fd04c1bce2c21bf5c0f68fa0f",
+    "roles": [
+      "OIb := ln 2 / 24pi",
+      "sign-preserving preference normalizer"
+    ],
+    "selected_hits": [
+      {
+        "line": 13,
+        "text": "                                               OIb :="
+      },
+      {
+        "line": 14,
+        "text": "                                                         24π"
+      },
+      {
+        "line": 50,
+        "text": "                                             OIb :="
+      },
+      {
+        "line": 51,
+        "text": "                                                         24π"
+      },
+      {
+        "line": 57,
+        "text": "                                  OIb ≈ 0.009193150006360484."
+      },
+      {
+        "line": 80,
+        "text": "                                          Ib0,std [X] = OIbX."
+      },
+      {
+        "line": 84,
+        "text": "                                Pstd (m0 , k) = tanh OIbAk (m0 ) ."
+      },
+      {
+        "line": 86,
+        "text": "    Since OIb > 0, the standard operator preserves the sign of action:"
+      },
+      {
+        "line": 96,
+        "text": "Proof. The scalar OIb = ln 2/(24π) is strictly positive and tanh is strictly increasing. Hence the"
+      },
+      {
+        "line": 97,
+        "text": "sign of tanh(OIbAk ) equals the sign of Ak . The telescoping identity gives Ak = ln(m0 /mk ), so"
+      },
+      {
+        "line": 139,
+        "text": "                                   Ib0,ζ,Γ [Ak ] = OIb (Ak + ϵζ Zk ) ."
+      },
+      {
+        "line": 143,
+        "text": "                         Pζ,Γ (m0 , k) = tanh OIb (Ak (m0 ) + ϵζ Zk (m0 )) ."
+      }
+    ]
+  },
+  {
+    "file": "step4_berry_euler_24pi_normalizer.pdf.txt",
+    "status": "READ",
+    "sha256_text": "1816953a0cfd706a58b032e9e041486c2210790bf986a075416a5da3e7a00f16",
+    "roles": [
+      "24pi from terminal cell, parity sheet, spinor closure",
+      "4pi lifted identity"
+    ],
+    "selected_hits": [
+      {
+        "line": 1,
+        "text": "    Step 4: Berry–Euler Phase Closure and the Origin of the 24π"
+      },
+      {
+        "line": 19,
+        "text": "      Here we derive the phase normalization scale 24π from three factors: (i) the three-node"
+      },
+      {
+        "line": 21,
+        "text": "      (iii) the spin-1/2 Berry–Euler closure quantum 4π. The result is"
+      },
+      {
+        "line": 24,
+        "text": "                                  Γ0 = 3 · 2 · 4π = 24π,       OIb =         ."
+      },
+      {
+        "line": 25,
+        "text": "                                                                        24π"
+      },
+      {
+        "line": 32,
+        "text": "the Collatz conjecture, the Riemann Hypothesis, or the twin-prime conjecture. The proof-safe"
+      },
+      {
+        "line": 41,
+        "text": "The present step only explains why the dimensionless scaling log 2/(24π) is geometrically natural"
+      },
+      {
+        "line": 72,
+        "text": "                                               Ω(C) ∈ 4πZ."
+      },
+      {
+        "line": 75,
+        "text": "                                                 Ω0 = 4π."
+      },
+      {
+        "line": 78,
+        "text": "this gives −Ω/2 = 2πq, hence Ω = −4πq. The smallest positive nonzero closure is 4π."
+      },
+      {
+        "line": 80,
+        "text": "Remark 1. This is the clean way to obtain the 4π factor. It is not a free numerological"
+      },
+      {
+        "line": 93,
+        "text": "gives a sign flip, while a 4π closure returns the lifted spinor to itself."
+      }
+    ]
+  },
+  {
+    "file": "step7_ramanujan_theta_residue.pdf.txt",
+    "status": "READ",
+    "sha256_text": "50144f36d444486a49e3a0e7f1d5cfceb6058aca2881810ba22cc1c2e9be1bcc",
+    "roles": [
+      "Ramanujan-theta residue",
+      "quadratic defect"
+    ],
+    "selected_hits": [
+      {
+        "line": 1,
+        "text": "                Step 7: Ramanujan–Theta Residue Encoding"
+      },
+      {
+        "line": 11,
+        "text": "       valuation words. Step 7 introduces a Ramanujan–theta residue encoding of those words. The"
+      },
+      {
+        "line": 12,
+        "text": "       central point is not that Ramanujan’s formulae prove Collatz, but that they provide the"
+      },
+      {
+        "line": 17,
+        "text": "       reading of the normalizer ln 2/(24π)."
+      },
+      {
+        "line": 21,
+        "text": "This document is not a proof of the Collatz conjecture. It introduces a Ramanujan–theta"
+      },
+      {
+        "line": 110,
+        "text": "4    Ramanujan’s Role: Geometry of π and Modular Closure"
+      },
+      {
+        "line": 111,
+        "text": "Ramanujan’s formulae do not merely approximate π efficiently. In the present interpretation,"
+      },
+      {
+        "line": 130,
+        "text": "                                        24π = 3 · 2 · 4π"
+      },
+      {
+        "line": 132,
+        "text": "closure. Ramanujan’s modular geometry gives a second reading:"
+      },
+      {
+        "line": 133,
+        "text": "                                            24π = (24) · π,"
+      },
+      {
+        "line": 137,
+        "text": "                                          OIb ="
+      },
+      {
+        "line": 138,
+        "text": "                                                24π"
+      }
+    ]
+  },
+  {
+    "file": "step8_zeta_axis_tetrahedral_c3.pdf.txt",
+    "status": "READ",
+    "sha256_text": "d9142e1d0c37a4d0aa6490de983832ec309b70c5d11daaac348675ecc41d81c0",
+    "roles": [
+      "tetrahedral C3 action",
+      "terminal Collatz cell as CP2"
+    ],
+    "selected_hits": [
+      {
+        "line": 2,
+        "text": "                              C3"
+      },
+      {
+        "line": 17,
+        "text": "       opposite face, giving a natural C3 action. This C3 action is then identified with the terminal"
+      },
+      {
+        "line": 21,
+        "text": "       marker, spin-1/2 identity closure, tetrahedral symmetry, and the Collatz terminal C3 cell"
+      },
+      {
+        "line": 49,
+        "text": "                                           2π                4π"
+      },
+      {
+        "line": 125,
+        "text": "Proposition 1 (Tetrahedral C3 action). Rotation by 2π/3 around the N –S axis cyclically"
+      },
+      {
+        "line": 131,
+        "text": "                              C3 = ⟨R2π/3 ⟩,     R2π/3 = I."
+      },
+      {
+        "line": 133,
+        "text": "4π/3. A rotation about the z-axis by 2π/3 sends these azimuths into one another cyclically and"
+      },
+      {
+        "line": 135,
+        "text": "the induced base-face action is C3 ."
+      },
+      {
+        "line": 148,
+        "text": "                                                                      C3"
+      },
+      {
+        "line": 177,
+        "text": "                               UC = 1 0 0 ,                    UC3 = I."
+      },
+      {
+        "line": 179,
+        "text": "Thus the terminal Collatz cell is represented by a C3 action."
+      },
+      {
+        "line": 206,
+        "text": "6    Updated Meaning of 24π"
+      }
+    ]
+  },
+  {
+    "file": "step10_identity_holonomy.pdf.txt",
+    "status": "READ",
+    "sha256_text": "ce86aeaa9867d2a3ae2b599e20172f6d2e61a98fc757708bc1b5be1eb159875f",
+    "roles": [
+      "half-phase spinor identity invariant",
+      "holonomic residue"
+    ],
+    "selected_hits": [
+      {
+        "line": 2,
+        "text": "         Aharonov–Bohm Holonomy, and the Identity Invariant"
+      },
+      {
+        "line": 15,
+        "text": "       phase-memory defect left by incomplete closure relative to the 4π spinor lattice. This note"
+      },
+      {
+        "line": 30,
+        "text": " (v) Berry–Euler spinor closure and the normalizer ln 2/(24π);"
+      },
+      {
+        "line": 32,
+        "text": "(vi) Ramanujan–theta residue encoding of critical valuation words."
+      },
+      {
+        "line": 39,
+        "text": "                                      T2ϕ = phase/holonomy layer."
+      },
+      {
+        "line": 77,
+        "text": "stores Aharonov–Bohm/Berry/spinor holonomy."
+      },
+      {
+        "line": 123,
+        "text": "                               γAB (Γ) = Aharonov–Bohm holonomy,"
+      },
+      {
+        "line": 130,
+        "text": "                                           OIb =       ."
+      },
+      {
+        "line": 131,
+        "text": "                                                  24π"
+      },
+      {
+        "line": 135,
+        "text": "                                                 Λ1/2 = 4πZ"
+      },
+      {
+        "line": 140,
+        "text": "                                              γtot (Γ) ∈ 4πZ."
+      },
+      {
+        "line": 144,
+        "text": "                                            2π                 4π"
+      }
+    ]
+  }
+]

@@ -1,0 +1,14 @@
+{
+  "field": "axial Killing generator on S2_Bloch",
+  "zeros": [
+    "north_pole",
+    "south_pole"
+  ],
+  "north_index": 1,
+  "south_index": 1,
+  "index_sum": 2,
+  "euler_characteristic_S2": 2,
+  "poincare_hopf_pass": true,
+  "debt1_status": "CONDITIONALLY_CLOSED_GEOMETRIC_GENERATOR",
+  "remaining_debt": "physical axis selection: Berry axis vs weak isospin axis vs twin-prime-selected axis"
+}

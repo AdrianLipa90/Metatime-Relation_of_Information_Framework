@@ -1,0 +1,50 @@
+{
+  "version": "v2.8",
+  "created_utc": "2026-06-19T21:42:49Z",
+  "module": "26_debt9_numeric_gap_no_hidden_fit_guard_v2_8",
+  "debt": "Debt 9 numeric mass-ratio derivation guard; Debt 11 representation-table dependency",
+  "gate_type": "METHODOLOGICAL_GUARD_PASS",
+  "canonical_status": "GUARD_INSTALLED_NOT_MASS_DERIVATION",
+  "anchor_policy": {
+    "allowed_observed_mass_inputs": 1,
+    "anchor": "e",
+    "anchor_mass_GeV": 0.00051099895,
+    "anchor_is_calibration_not_prediction": true,
+    "non_anchor_observed_masses_are_validation_only": true
+  },
+  "v2_6_numeric_gap": {
+    "best_variant": "EB_MINUS_RAMANUJAN_ZH_CENTER",
+    "median_abs_log_error_excluding_anchor": 2.6289121852805852,
+    "max_abs_log_error_excluding_anchor": 5.370476888698751,
+    "median_factor_error_approx": 13.85868601674032,
+    "max_factor_error_approx": 214.96535781396997,
+    "non_anchor_count": 8,
+    "ramanujan_improves_median_log_error_vs_EB_ONLY_by": 1.1327878466053996,
+    "relative_median_log_error_improvement_vs_EB_ONLY": 0.3011372084438799
+  },
+  "anti_fit_rules": [
+    "No additional observed mass may be used to tune a coefficient while claiming derivation.",
+    "Any new structural term must be frozen before comparison to non-anchor masses.",
+    "Any error reduction larger than a declared threshold must be accompanied by a provenance statement independent of mass targets.",
+    "Zeta-Heisenberg width may express uncertainty/coherence, not be widened to cover targets.",
+    "Information operator ln2/(24pi) is the quantum of informational-preference fluctuation, not a free scale knob.",
+    "Ramanujan scaling is mandatory and must remain formula-derived, not selected by minimizing mass error.",
+    "Old tau/eigenvalue source may be used only as quarantined bridge until re-derived from v2.x primitives."
+  ],
+  "closure_block": {
+    "debt9_numeric_derivation_pass_allowed_now": false,
+    "reason": "v2.6 has a measured numeric gap; v2.7 identifies old tau/eigenvalue bridge but does not derive it cleanly.",
+    "minimum_required_before_numeric_closure": [
+      "Debt 11 chiral representation table derived from CP1/Killing/Euler-Berry axis without importing SM table.",
+      "Information eigenvalue tau_v2 derived from v2.x primitives before mass comparison.",
+      "One-anchor policy preserved; no second mass calibration.",
+      "Independent pre-registration of any new dynamic-range mechanism.",
+      "Post-hoc mass-error reduction reported as audit result, not as automatic proof."
+    ]
+  },
+  "old_source_bridge_status": {
+    "old_tau_eigenvalue_promoted": false,
+    "quarantine_required": true,
+    "allowed_next_step": "derive tau_v2 from CP1/Killing/Berry-Euler/Collatz/zeta/Ramanujan/information quantum primitives"
+  }
+}

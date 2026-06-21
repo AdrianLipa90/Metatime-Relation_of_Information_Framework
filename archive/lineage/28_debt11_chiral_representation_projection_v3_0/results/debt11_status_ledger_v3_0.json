@@ -1,0 +1,15 @@
+{
+  "module": "28_debt11_chiral_representation_projection_v3_0",
+  "debt": "Debt 11 \u2014 chiral representation table and sector projection operator",
+  "status": "conditionally_closed_for_one_generation_chiral_table_not_for_mass_projection",
+  "gate": "STRUCTURAL_ENUMERATION_PASS",
+  "mass_predictions_made": false,
+  "observed_masses_used": false,
+  "next_required_step": "turn symbolic P_rep into frozen mass-projection operator before Debt 9 rescore",
+  "do_not_claim": [
+    "not a numerical mass derivation",
+    "not CKM/PMNS derivation",
+    "not full proof of generation replication",
+    "not proof that optional nu_R exists"
+  ]
+}

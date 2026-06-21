@@ -1,0 +1,13 @@
+target,best_source,status,next_action
+state_space,"MetaTheory_260218_073120.txt; README.md",strong,"Freeze as canonical equation"
+Euler_Berry_closure,"Metatime_with_Euler_extension (8).pdf; current freeze",strong,"Promote as primitive admissibility law"
+D_Lambda,"current hard-math audit; current freeze",strong_candidate,"Keep D_Lambda=3 Omega_Lambda / 2"
+epsilon_nu,"Neutrinotime14.pdf; current freeze",strong,"Keep as neutrino phase defect"
+kappa,"Kappa_from_geometry.pdf; current audit",strong,"Use exact ln2/(24pi)"
+gauge_group,"MetaTheory_260218_073120.txt",partial,"Prove holonomy-group reduction"
+SU2L_chirality,"MetaTheory; Euler/spin layer",partial,"Derive left-handed projector"
+SU3c,"MetaTheory; NoParamSM/gluons.py",partial,"Derive internal triplet and adjoint gluons"
+hypercharge,"MetaTheory; Kappa_from_geometry.pdf",weak_partial,"Derive exact Y spectrum"
+anomaly_cancellation,"Kappa_from_geometry.pdf",preservation_not_derivation,"Use as selection constraint"
+Higgs,"Kappa_from_geometry.pdf; MetaTheory",compatible_not_derived,"Derive as phase-orientation selector"
+mass_hierarchy,"Formal_SM.pdf; NoParamSM; Kappa_from_geometry.pdf",numerical_calibrated,"Derive S_f^EB"

@@ -1,0 +1,40 @@
+{
+  "version": "v1.3",
+  "kappa_ln2_over_24pi": 0.009193150006360484,
+  "source_policy": "mass_observations_are_validation_targets_only_not_inputs",
+  "zeta_policy": "zeta_tetrahedral_layer_is_phase_coherence_gate_not_naive_additive_mass_cost",
+  "min_generation_action_margin_v10": 0.2382822191734959,
+  "max_coherence_credit_unit_v13": 0.059570554793373975,
+  "seed_order_after_gate_by_action_desc": [
+    "3-5",
+    "5-7",
+    "11-13"
+  ],
+  "hierarchy_validation": {
+    "charged_lepton": {
+      "actions_by_generation_1_2_3": [
+        5.377672184366439,
+        5.137942922258622,
+        4.6796933776535665
+      ],
+      "strict_light_to_heavy_order_pass": true
+    },
+    "down_quark": {
+      "actions_by_generation_1_2_3": [
+        3.9652886535180545,
+        3.7255593914102376,
+        3.2673098468051824
+      ],
+      "strict_light_to_heavy_order_pass": true
+    },
+    "up_quark": {
+      "actions_by_generation_1_2_3": [
+        3.7986219868513875,
+        3.558892724743571,
+        3.1006431801385155
+      ],
+      "strict_light_to_heavy_order_pass": true
+    }
+  },
+  "overall_pass": true
+}

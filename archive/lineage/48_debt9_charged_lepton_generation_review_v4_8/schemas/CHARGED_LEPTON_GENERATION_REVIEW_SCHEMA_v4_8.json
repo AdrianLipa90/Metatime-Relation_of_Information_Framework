@@ -1,0 +1,11 @@
+{
+  "closure_policy": "diagnostic review only; no numeric Debt 9 closure or canon/current promotion",
+  "required_status": {
+    "canon_allowed": false,
+    "current_promotion": "DENY_CURRENT",
+    "debt9_numeric_spectrum": "OPEN_NOT_CLOSED",
+    "substantive_status": "PARTIAL_DIAGNOSTIC_PROGRESS_FAIL_AS_NUMERIC_CLOSURE",
+    "technical_status": "PASS"
+  },
+  "schema": "METATIME_SM_CHARGED_LEPTON_GENERATION_REVIEW_SCHEMA_V4_8"
+}

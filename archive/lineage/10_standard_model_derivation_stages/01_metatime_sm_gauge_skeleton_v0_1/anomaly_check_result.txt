@@ -1,0 +1,16 @@
+hypercharge
+Q_L 1/6
+u_c_L -2/3
+d_c_L 1/3
+L_L -1/2
+e_c_L 1
+anomaly_checks
+SU3^2_U1 0
+SU2^2_U1 0
+grav^2_U1 0
+U1^3 0
+electric_charges
+u_L 2/3
+d_L -1/3
+nu_L 0
+e_L -1

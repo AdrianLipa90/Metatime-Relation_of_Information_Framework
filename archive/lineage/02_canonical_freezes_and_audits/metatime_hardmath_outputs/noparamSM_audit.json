@@ -1,0 +1,7 @@
+{
+  "uses_PDG_dict": true,
+  "mass_ref_from_PDG": true,
+  "fermion_mass_ref_multiplied": true,
+  "C_constants_present": true,
+  "heavy_C_zero": true
+}

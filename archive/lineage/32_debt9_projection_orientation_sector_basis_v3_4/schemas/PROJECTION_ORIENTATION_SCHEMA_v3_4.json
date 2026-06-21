@@ -1,0 +1,40 @@
+{
+  "module": "METATIME_SM_SECTOR_BASIS_PROJECTION_ORIENTATION_v3_4",
+  "record_type": "pre_mass_sector_basis_orientation_channel",
+  "forbidden_inputs": [
+    "CKM_observed",
+    "Jarlskog",
+    "PMNS",
+    "Vcb",
+    "Vub",
+    "Vus",
+    "mass_GeV",
+    "pdg_mass",
+    "target_mass",
+    "theta12",
+    "theta13",
+    "theta23"
+  ],
+  "required_fields": [
+    "particle",
+    "family",
+    "generation",
+    "sector",
+    "seed_pair",
+    "mode",
+    "weak_pole",
+    "chirality_path",
+    "color_depth",
+    "hypercharge_numerator_sixths",
+    "electric_charge_thirds",
+    "uses_observed_mass",
+    "uses_observed_mixing"
+  ],
+  "epistemic_tags": [
+    "DEFINITION",
+    "ANSATZ",
+    "INTERPRETATION",
+    "VALIDATION_GATE",
+    "DO_NOT_CLAIM"
+  ]
+}

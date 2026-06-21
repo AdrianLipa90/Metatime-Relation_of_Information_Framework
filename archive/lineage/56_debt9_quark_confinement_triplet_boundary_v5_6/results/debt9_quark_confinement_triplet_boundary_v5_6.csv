@@ -1,0 +1,7 @@
+slot,family,single_quark_prediction_mev_from_prior_probe,reference_benchmark_mev_scoring_only,absolute_relative_residual,confinement_residual_budget,within_budget,unit_anchor_slot,quark_single_state_observable,triplet_hadron_test_required,status,numeric_closure_allowed
+u,light_quarks,2.16,2.16,0.0,0.21,False,True,False,True,ANCHOR_NOT_PROBATIVE,False
+d,light_quarks,12.907028617036731,4.67,1.7638176910142893,0.21,False,False,False,True,OUTSIDE_CONFINEMENT_RESIDUAL_BUDGET_NEEDS_TRIPLET_HADRONIZATION,False
+s,light_quarks,5.178776310707385,93.4,0.9445527161594498,0.21,False,False,False,True,OUTSIDE_CONFINEMENT_RESIDUAL_BUDGET_NEEDS_TRIPLET_HADRONIZATION,False
+c,heavy_quarks,799.6471322055852,1270.0,0.37035658881449984,0.21,False,True,False,True,ANCHOR_NOT_PROBATIVE,False
+b,heavy_quarks,8319.101541275166,4180.0,0.990215679730901,0.21,False,False,False,True,OUTSIDE_CONFINEMENT_RESIDUAL_BUDGET_NEEDS_TRIPLET_HADRONIZATION,False
+t,heavy_quarks,185249.2170975937,172760.0,0.07229229623520328,0.21,True,False,False,True,WITHIN_CONFINEMENT_RESIDUAL_BUDGET_DIAGNOSTIC_ONLY,False

@@ -1,0 +1,9 @@
+{
+  "required_status": "PARTIAL_IMPROVEMENT_FAIL_AS_DEBT9_NUMERIC_CLOSURE",
+  "rules": [
+    "formula must be fingerprinted before scoring",
+    "benchmark targets may not enter operator inputs",
+    "Debt 9 numeric spectrum remains open unless non-anchor closure passes"
+  ],
+  "schema": "SEALED_CHARGED_LEPTON_KERNEL_BENCHMARK_SCHEMA_v5_2"
+}

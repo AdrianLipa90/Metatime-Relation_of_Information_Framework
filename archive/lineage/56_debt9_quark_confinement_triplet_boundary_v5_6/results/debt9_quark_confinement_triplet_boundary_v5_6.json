@@ -1,0 +1,173 @@
+{
+  "schema": "METATIME_DEBT9_QUARK_CONFINEMENT_TRIPLET_BOUNDARY_V5_6",
+  "module": "56_debt9_quark_confinement_triplet_boundary_v5_6",
+  "created_utc": "2026-06-21T08:34:13Z",
+  "technical_status": "PASS",
+  "formal_status": "PASS_WITH_CONFINEMENT_BOUNDARY",
+  "substantive_status": "QUARK_SINGLE_STATE_EXACT_CLOSURE_DENIED_TRIPLET_BOUNDARY_INSTALLED",
+  "debt9_numeric_spectrum": "OPEN_NOT_CLOSED",
+  "canon_allowed": false,
+  "current_promotion": "DENY_CURRENT",
+  "mass_closure_claimed": false,
+  "user_correction_integrated": {
+    "claim": "Quarks are a different sector; isolated quarks are unstable/non-asymptotic, and the meaningful diagnostic should tolerate about 21% confinement/hadronization spread before triplet aggregation.",
+    "implemented_as": "confinement_residual_budget_for_single_quark_diagnostics_only",
+    "budget": 0.21,
+    "not_implemented_as": "automatic Debt 9 closure or arbitrary error forgiveness"
+  },
+  "charged_lepton_freeze_preserved": {
+    "source": "v5.5 charged_lepton_rows",
+    "rows": [
+      {
+        "absolute_relative_error": 0.0,
+        "benchmark_mev_post_freeze_scoring_only": 0.51099895,
+        "canon_allowed": false,
+        "component_split_gate": 1.0,
+        "formula_fingerprint_sha256": "bb5f1bce7ef4bef49ee8162d550e1c1a82d415c6d3c02a706163e6d2fb117b42",
+        "generation": 1,
+        "mass_closure_claimed": false,
+        "operator_modified_after_v5_4": false,
+        "predicted_mev_v5_5_frozen_lepton": 0.51099895,
+        "ratio_pred_over_benchmark": 1.0,
+        "slot": "e"
+      },
+      {
+        "absolute_relative_error": 0.07542104207483025,
+        "benchmark_mev_post_freeze_scoring_only": 105.6583755,
+        "canon_allowed": false,
+        "component_split_gate": 0.6296434111855002,
+        "formula_fingerprint_sha256": "bb5f1bce7ef4bef49ee8162d550e1c1a82d415c6d3c02a706163e6d2fb117b42",
+        "generation": 2,
+        "mass_closure_claimed": false,
+        "operator_modified_after_v5_4": false,
+        "predicted_mev_v5_5_frozen_lepton": 97.68951071585629,
+        "ratio_pred_over_benchmark": 0.9245789579251698,
+        "slot": "mu"
+      },
+      {
+        "absolute_relative_error": 0.009530328595245052,
+        "benchmark_mev_post_freeze_scoring_only": 1776.86,
+        "canon_allowed": false,
+        "component_split_gate": 1.0664677827110463,
+        "formula_fingerprint_sha256": "bb5f1bce7ef4bef49ee8162d550e1c1a82d415c6d3c02a706163e6d2fb117b42",
+        "generation": 3,
+        "mass_closure_claimed": false,
+        "operator_modified_after_v5_4": false,
+        "predicted_mev_v5_5_frozen_lepton": 1793.7940596677472,
+        "ratio_pred_over_benchmark": 1.009530328595245,
+        "slot": "tau"
+      }
+    ],
+    "status": "UNCHANGED_STRONG_DIAGNOSTIC_NOT_FULL_DEBT9_CLOSURE"
+  },
+  "quark_boundary_rows": [
+    {
+      "slot": "u",
+      "family": "light_quarks",
+      "single_quark_prediction_mev_from_prior_probe": 2.16,
+      "reference_benchmark_mev_scoring_only": 2.16,
+      "absolute_relative_residual": 0.0,
+      "confinement_residual_budget": 0.21,
+      "within_budget": false,
+      "unit_anchor_slot": true,
+      "quark_single_state_observable": false,
+      "triplet_hadron_test_required": true,
+      "status": "ANCHOR_NOT_PROBATIVE",
+      "numeric_closure_allowed": false
+    },
+    {
+      "slot": "d",
+      "family": "light_quarks",
+      "single_quark_prediction_mev_from_prior_probe": 12.907028617036731,
+      "reference_benchmark_mev_scoring_only": 4.67,
+      "absolute_relative_residual": 1.7638176910142893,
+      "confinement_residual_budget": 0.21,
+      "within_budget": false,
+      "unit_anchor_slot": false,
+      "quark_single_state_observable": false,
+      "triplet_hadron_test_required": true,
+      "status": "OUTSIDE_CONFINEMENT_RESIDUAL_BUDGET_NEEDS_TRIPLET_HADRONIZATION",
+      "numeric_closure_allowed": false
+    },
+    {
+      "slot": "s",
+      "family": "light_quarks",
+      "single_quark_prediction_mev_from_prior_probe": 5.178776310707385,
+      "reference_benchmark_mev_scoring_only": 93.4,
+      "absolute_relative_residual": 0.9445527161594498,
+      "confinement_residual_budget": 0.21,
+      "within_budget": false,
+      "unit_anchor_slot": false,
+      "quark_single_state_observable": false,
+      "triplet_hadron_test_required": true,
+      "status": "OUTSIDE_CONFINEMENT_RESIDUAL_BUDGET_NEEDS_TRIPLET_HADRONIZATION",
+      "numeric_closure_allowed": false
+    },
+    {
+      "slot": "c",
+      "family": "heavy_quarks",
+      "single_quark_prediction_mev_from_prior_probe": 799.6471322055852,
+      "reference_benchmark_mev_scoring_only": 1270.0,
+      "absolute_relative_residual": 0.37035658881449984,
+      "confinement_residual_budget": 0.21,
+      "within_budget": false,
+      "unit_anchor_slot": true,
+      "quark_single_state_observable": false,
+      "triplet_hadron_test_required": true,
+      "status": "ANCHOR_NOT_PROBATIVE",
+      "numeric_closure_allowed": false
+    },
+    {
+      "slot": "b",
+      "family": "heavy_quarks",
+      "single_quark_prediction_mev_from_prior_probe": 8319.101541275166,
+      "reference_benchmark_mev_scoring_only": 4180.0,
+      "absolute_relative_residual": 0.990215679730901,
+      "confinement_residual_budget": 0.21,
+      "within_budget": false,
+      "unit_anchor_slot": false,
+      "quark_single_state_observable": false,
+      "triplet_hadron_test_required": true,
+      "status": "OUTSIDE_CONFINEMENT_RESIDUAL_BUDGET_NEEDS_TRIPLET_HADRONIZATION",
+      "numeric_closure_allowed": false
+    },
+    {
+      "slot": "t",
+      "family": "heavy_quarks",
+      "single_quark_prediction_mev_from_prior_probe": 185249.2170975937,
+      "reference_benchmark_mev_scoring_only": 172760.0,
+      "absolute_relative_residual": 0.07229229623520328,
+      "confinement_residual_budget": 0.21,
+      "within_budget": true,
+      "unit_anchor_slot": false,
+      "quark_single_state_observable": false,
+      "triplet_hadron_test_required": true,
+      "status": "WITHIN_CONFINEMENT_RESIDUAL_BUDGET_DIAGNOSTIC_ONLY",
+      "numeric_closure_allowed": false
+    }
+  ],
+  "metrics": {
+    "quark_non_anchor_slots": 4,
+    "within_21_percent_budget_count": 1,
+    "outside_21_percent_budget_count": 3,
+    "within_budget_slots": [
+      "t"
+    ],
+    "outside_budget_slots": [
+      "d",
+      "s",
+      "b"
+    ],
+    "mean_single_quark_residual_non_anchor": 0.9427195957849608,
+    "max_single_quark_residual_non_anchor": 1.7638176910142893
+  },
+  "decision": {
+    "single_quark_exact_mass_scoring": "DENIED_AS_CLOSURE_CRITERION",
+    "confinement_budget_21_percent": "ACCEPTED_AS_DIAGNOSTIC_BOUNDARY_ONLY",
+    "triplet_hadron_aggregation": "REQUIRED_NEXT",
+    "debt9_quark_sector": "OPEN_PENDING_TRIPLET_WIJ_HADRONIZATION_OPERATOR",
+    "debt9_total": "OPEN_NOT_CLOSED"
+  },
+  "next_step": "v5.7 should build a triplet W_ij hadronization aggregator from tetrahedral triplet + holonomic gluon couplings, then score baryon/meson-level observables rather than isolated quark exact masses.",
+  "formula_fingerprint_sha256": "bff9534136947bdf4d1e425d1611176a4d47c40773ab1fa728ba6a4c33e022a7"
+}

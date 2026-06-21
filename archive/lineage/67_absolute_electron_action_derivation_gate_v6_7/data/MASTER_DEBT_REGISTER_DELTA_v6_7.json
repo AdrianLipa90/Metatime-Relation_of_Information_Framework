@@ -1,0 +1,9 @@
+{
+  "created_utc": "2026-06-21T17:37:00+00:00",
+  "debt_id": "DEBT-007",
+  "previous_status": "ACTIVE_NOW",
+  "new_status": "CLOSED_AS_DERIVATION_GATE_NOT_CANON",
+  "closure_type": "absolute_electron_action_candidate_derived_without_mass_input",
+  "remaining_dependency": "sealed charged-lepton benchmark and mu_to_tau release refinement remain separate debts",
+  "canon_allowed": false
+}

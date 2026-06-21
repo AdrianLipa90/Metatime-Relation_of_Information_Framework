@@ -1,0 +1,15 @@
+{
+  "schema": "METATIME_SM_DEBT9_ONE_ANCHOR_FROZEN_PROJECTION_RESC0RE_v3_2",
+  "epistemic_class": "computational stress test / anti-fit audit",
+  "inputs": [
+    "v2.6 one-anchor mass scaling predictions",
+    "v3.1 frozen sector projection operator outputs"
+  ],
+  "observed_masses_used_as_inputs": [
+    "electron only"
+  ],
+  "observed_non_anchor_masses_role": "validation_only",
+  "old_tau_used": false,
+  "projection_operator_edited_after_residuals": false,
+  "gate": "COMPUTATIONAL_STRESS_TEST_PASS_WITH_ANTI_FIT_AUDIT"
+}

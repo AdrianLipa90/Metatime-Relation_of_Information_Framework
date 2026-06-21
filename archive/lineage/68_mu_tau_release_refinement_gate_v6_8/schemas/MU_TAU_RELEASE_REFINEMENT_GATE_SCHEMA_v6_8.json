@@ -1,0 +1,23 @@
+{
+  "schema": "METATIME_MU_TAU_RELEASE_REFINEMENT_GATE_v6_8",
+  "forbidden_inputs": [
+    "muon_mass_as_derivation_input",
+    "tau_mass_as_derivation_input",
+    "pdg_table_as_derivation_input",
+    "exact_replay_table_as_derivation_input",
+    "v6_1_action_targets_as_derivation_input"
+  ],
+  "allowed_inputs": [
+    "OI_information_preference_quantum",
+    "L3_base_channel_7",
+    "White_Thread_quadratic_amplitude_correction",
+    "spin_half_factor_L3_over_2"
+  ],
+  "required_validation": [
+    "no_forbidden_derivation_inputs",
+    "scoring_separated",
+    "formula_fingerprinted",
+    "energy_ratio_scoring_gate",
+    "mass_spectrum_closure_not_claimed"
+  ]
+}

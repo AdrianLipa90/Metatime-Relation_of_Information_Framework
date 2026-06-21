@@ -1,0 +1,25 @@
+#!/usr/bin/env python3
+import json, math, sys
+from pathlib import Path
+root = Path(__file__).resolve().parents[1]
+result = json.loads((root/'results'/'ABSOLUTE_ELECTRON_ACTION_DERIVATION_GATE_v6_7.json').read_text())
+errors=[]
+policy=result['input_policy']
+for key in ['uses_particle_masses_as_input','uses_pdg_tables_as_input','uses_exact_replay_tables_as_input','uses_v6_1_target_action_as_input']:
+    if policy.get(key) is not False:
+        errors.append(f'forbidden input flag not false: {key}')
+if not result.get('formula_fingerprint_sha256'):
+    errors.append('missing formula fingerprint')
+if result.get('canon_allowed') is not False:
+    errors.append('canon_allowed must be false')
+if result.get('mass_spectrum_closure_claimed') is not False:
+    errors.append('mass_spectrum_closure_claimed must be false')
+# Gate tolerances are scoring tolerances only, not derivation inputs.
+if abs(result['scoring_only']['energy_rel_error']) > 0.002:
+    errors.append('electron scoring error exceeds 0.2 percent gate')
+if abs(result['scoring_only']['action_rel_error_vs_v6_1_target']) > 1e-4:
+    errors.append('action scoring error exceeds 1e-4 relative gate')
+if errors:
+    print(json.dumps({'status':'FAIL','errors':errors}, indent=2))
+    sys.exit(1)
+print(json.dumps({'status':'PASS','errors':[]}, indent=2))

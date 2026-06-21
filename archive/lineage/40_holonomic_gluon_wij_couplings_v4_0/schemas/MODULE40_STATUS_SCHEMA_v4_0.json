@@ -1,0 +1,24 @@
+{
+  "schema": "MODULE40_STATUS_SCHEMA_V4_0",
+  "required_status": "PASS",
+  "required_guards": {
+    "PDG_or_mass_reference_input": false,
+    "observed_masses_input": false,
+    "CKM_PMNS_input": false,
+    "mass_prediction_claimed": false,
+    "full_QCD_claimed": false,
+    "Debt_9_status": "OPEN_NOT_CLOSED",
+    "canon_allowed": false
+  },
+  "required_checks": [
+    "all_links_su3",
+    "reverse_links_are_daggers",
+    "loop_holonomy_is_su3",
+    "su3_projection_residual_small",
+    "nontrivial_active_gluon_modes",
+    "gauge_covariance_pass",
+    "trace_invariance_pass",
+    "curvature_norm_invariance_pass",
+    "no_known_reimport_engine_in_main_execution_script"
+  ]
+}

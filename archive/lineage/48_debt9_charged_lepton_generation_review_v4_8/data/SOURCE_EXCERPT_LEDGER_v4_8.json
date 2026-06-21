@@ -1,0 +1,22 @@
+{
+  "source": "00_original_metatime/Metatime-main/MetaTheory_260218_073120.txt",
+  "excerpts": [
+    {
+      "line_range": "3086-3107",
+      "content_summary": "corrected fermion operator described as Collatz orbit log-cost from p+1, with delta and alpha; electron/effective orbit caveat follows"
+    },
+    {
+      "line_range": "3111-3119",
+      "content_summary": "explicit weakness: muon effective orbit not directly obtained from a single Collatz starting number; derived from mode quantization"
+    },
+    {
+      "line_range": "3161-3193",
+      "content_summary": "charged-lepton Omega_ij and F_ij holonomic correction tables"
+    },
+    {
+      "line_range": "2998-2999",
+      "content_summary": "document notes heavy leptons/muon may require RG / higher zeta zero contributions"
+    }
+  ],
+  "policy": "excerpt ledger only; active operator does not import observed masses from source text"
+}

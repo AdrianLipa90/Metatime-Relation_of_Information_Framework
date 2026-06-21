@@ -1,0 +1,14 @@
+{
+  "schema": "METATIME_DOCUMENT_FORMULA_SELECTION_BENCHMARK_V4_6",
+  "required_fields": [
+    "module",
+    "selected_clean_formula_id",
+    "formal_status",
+    "substantive_status",
+    "debt9_numeric_spectrum",
+    "operator_input_policy",
+    "formula_candidates",
+    "benchmark_results",
+    "validation_summary"
+  ]
+}

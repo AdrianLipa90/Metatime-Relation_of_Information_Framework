@@ -1,0 +1,29 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "METATIME_DEBT9_PRIME_PRODUCT_HADRON_SCALE_CANDIDATE_V5_9",
+  "type": "object",
+  "required": [
+    "schema",
+    "module",
+    "technical_status",
+    "mass_prediction_claimed",
+    "benchmark_performed",
+    "formula_fingerprint_sha256",
+    "rows",
+    "decision",
+    "guardrails"
+  ],
+  "properties": {
+    "mass_prediction_claimed": {
+      "const": false
+    },
+    "benchmark_performed": {
+      "const": false
+    },
+    "formula_fingerprint_sha256": {
+      "type": "string",
+      "minLength": 64,
+      "maxLength": 64
+    }
+  }
+}

@@ -1,0 +1,95 @@
+{
+  "artifact": "METATIME_SM_MASS_ACTION_ASSEMBLY_v0_5",
+  "files": [
+    {
+      "path": "ACTION_ASSEMBLY_SCHEMA_v0_5.json",
+      "sha256": "8af6d4b34a6a9efa8b855c23192739f9d3aa14db8ae48b68ed0569d847d5bd02",
+      "size": 3089
+    },
+    {
+      "path": "METATIME_SM_MASS_ACTION_ASSEMBLY_v0_5.md",
+      "sha256": "bbd8ad496ed86d71600bbd6a84a3280c7a86aad792b3dc093c24ac844882e76e",
+      "size": 4095
+    },
+    {
+      "path": "README.md",
+      "sha256": "ec3ac4bc3b7c56dcbda30e745e398f108244e9f105cd3cc56f133bc10896ba85",
+      "size": 369
+    },
+    {
+      "path": "VALIDATION_STATUS_v0_5.md",
+      "sha256": "3552c6b017b47e00c4504308887e069d2d203f331eb474f0f1cbe374ff39225a",
+      "size": 1019
+    },
+    {
+      "path": "input/collatz_poincare_action_table_v0_4.csv",
+      "sha256": "54c691024532fbe458cfd031089fdbb3d23d922eb9aacbafa399522b5a9dab04",
+      "size": 6190
+    },
+    {
+      "path": "input/mass_action_validation_targets.csv",
+      "sha256": "5ca95108200135de3ba2fbf101653d892715e66825be6adef840c43b56019abf",
+      "size": 1597
+    },
+    {
+      "path": "input/sm_representation_vectors.csv",
+      "sha256": "2830cc3da912b1b4516a951fb637cb9fd5434e7e00ff8e898bd454846fb4841c",
+      "size": 717
+    },
+    {
+      "path": "references/COLLATZ_POINCARE_KERNEL_V0_4_REFERENCE.md",
+      "sha256": "6c824a9c6575239af382f6a0632ed9c8d65db22a2b098fec75217dc4b9264c21",
+      "size": 3520
+    },
+    {
+      "path": "references/EB_ACTION_CLOSURE_V0_2_REFERENCE.md",
+      "sha256": "57ddf60b819cba7f0daeaa78ae90b24ccb2587e27ca918a5f35467b2a71a2684",
+      "size": 6504
+    },
+    {
+      "path": "references/EULERBERRY_FREEZE_V0_1_REFERENCE.md",
+      "sha256": "1d830c32858fbe40148e45173a08c3abdb14f244d9ad579ef5e034003e304ecf",
+      "size": 9051
+    },
+    {
+      "path": "references/GAUGE_SKELETON_V0_1_REFERENCE.md",
+      "sha256": "7456ea6dc310fa30c626f190e411b69a946bc10940047a7ba89ae2e65021c9e5",
+      "size": 11631
+    },
+    {
+      "path": "references/GENERATION_EMBEDDING_V0_3_REFERENCE.md",
+      "sha256": "4125b0c4d277892d3821e148a32f94b12bfbcafa974878ee65080fe39f20e453",
+      "size": 2738
+    },
+    {
+      "path": "references/MASS_VECTORIZATION_V0_1_REFERENCE.md",
+      "sha256": "e3123abbfa7861e4a29f835cd22ef4ee748dfd332722635e1634584c97bfb4c4",
+      "size": 4856
+    },
+    {
+      "path": "results/generation_seed_assignment_v0_5.csv",
+      "sha256": "56c7b97f596465fb63a20afbe581fede239a7023e991bcb80ed4a7c0f20fc445",
+      "size": 638
+    },
+    {
+      "path": "results/mass_action_assembly_check_result.txt",
+      "sha256": "d0d2dd382aeb6eb2009e4aacf15d4c43fc803997c1fc44a28c8fe021692e49c6",
+      "size": 722
+    },
+    {
+      "path": "results/mass_hierarchy_order_validation_v0_5.csv",
+      "sha256": "3bb20feb949d9e05782f434ccd0aaaad615af5148544aab10ffaa100b9884857",
+      "size": 1165
+    },
+    {
+      "path": "results/order_validation_summary_v0_5.json",
+      "sha256": "8c4732edb7d6213e56eff3e1b662e775069f7731baed51cf2b4d55bc9ca0e038",
+      "size": 671
+    },
+    {
+      "path": "scripts/mass_action_assembly_v0_5.py",
+      "sha256": "cfca30dcfade387a8710bc43438c8a26017fda34c9db15e4b642a81e0a0d7fd3",
+      "size": 2188
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "module": "METATIME_SM_WHITE_THREAD_OPEN_HOLONOMY_PRECKM_v3_5",
+  "gate": "PRE_CKM_OPEN_HOLONOMY_OPERATOR_PASS",
+  "uses_observed_masses": false,
+  "uses_observed_CKM": false,
+  "uses_observed_PMNS": false,
+  "uses_old_tau_values": false,
+  "uses_fitted_white_thread_values": false,
+  "mass_rescore_allowed_in_this_module": false,
+  "CKM_numerical_claim": false,
+  "PMNS_numerical_claim": false,
+  "information_operator_role": "quantum_of_informational_preference_fluctuation",
+  "white_thread_role": "open_holonomy_operator_shape_only_no_fitted_values",
+  "up_down_pair_count": 9,
+  "mean_abs_open_holonomy_overlap": 0.3203717885396329,
+  "diagonal_abs_mean": 0.3405901447703938,
+  "offdiagonal_abs_mean": 0.31026261042425246,
+  "nontrivial_offdiagonal_present": true,
+  "not_identity_matrix": true,
+  "all_records_no_mass": true,
+  "all_records_no_CKM": true,
+  "all_records_no_PMNS": true,
+  "all_records_no_old_tau": true,
+  "all_records_no_fitted_white_thread_values": true,
+  "outputs": [
+    "results/white_thread_open_holonomy_pairs_v3_5.csv",
+    "results/white_thread_pre_ckm_matrix_not_ckm_v3_5.csv",
+    "results/row_normalized_pre_ckm_diagnostic_not_ckm_v3_5.csv"
+  ],
+  "validation_pass": true
+}

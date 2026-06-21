@@ -1,0 +1,59 @@
+{
+  "schema": "EB_FREEZE_CHECK_V0_1",
+  "kappa_ln2_over_24pi": 0.009193150006360484,
+  "Omega_Lambda_used": 0.685,
+  "D_lambda_disk_formula": "D_Lambda=(3/2)*Omega_Lambda",
+  "D_lambda_disk": 1.0275,
+  "SI_cross_check": {
+    "H0_km_s_Mpc": 67.4,
+    "H0_s_inv": 2.1842852410855023e-18,
+    "R_H_m": 1.3724968349418282e+26,
+    "Lambda_m_inv_2": 1.0909105028380932e-52,
+    "D_lambda_explicit": 1.0275000000000003,
+    "absolute_difference_disk_vs_explicit": 2.220446049250313e-16
+  },
+  "epsilon_nu_formula_experimental_units": "epsilon=(1.267/pi)*Delta_m2[eV^2]*L[km]/E[GeV]",
+  "first_oscillation_maximum_epsilon": 0.5,
+  "neutrino_cases": [
+    {
+      "name": "DUNE_like_atmospheric",
+      "dm2": 0.002513,
+      "L_km": 1300.0,
+      "E_GeV": 2.5,
+      "epsilon_nu": 0.5270145122436949,
+      "D_lambda_plus_epsilon": 1.554514512243695,
+      "nearest_integer": 2,
+      "residual_to_nearest_integer": -0.44548548775630503
+    },
+    {
+      "name": "T2K_like_atmospheric",
+      "dm2": 0.002513,
+      "L_km": 295.0,
+      "E_GeV": 0.6,
+      "epsilon_nu": 0.49829897792272426,
+      "D_lambda_plus_epsilon": 1.5257989779227243,
+      "nearest_integer": 2,
+      "residual_to_nearest_integer": -0.47420102207727566
+    },
+    {
+      "name": "NOvA_like_atmospheric",
+      "dm2": 0.002513,
+      "L_km": 810.0,
+      "E_GeV": 2.0,
+      "epsilon_nu": 0.4104632258821085,
+      "D_lambda_plus_epsilon": 1.4379632258821085,
+      "nearest_integer": 1,
+      "residual_to_nearest_integer": 0.43796322588210845
+    },
+    {
+      "name": "JUNO_like_solar",
+      "dm2": 7.49e-05,
+      "L_km": 53.0,
+      "E_GeV": 0.003,
+      "epsilon_nu": 0.533658184939289,
+      "D_lambda_plus_epsilon": 1.561158184939289,
+      "nearest_integer": 2,
+      "residual_to_nearest_integer": -0.43884181506071096
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+source,table_role,hadron,composition,predicted_mev,benchmark_mev,absolute_relative_error,display_exact_to_source_precision,provenance_status,promotion_to_debt9_closure
+SM_and_M_Theory_generalisation,exact_displayed_table,proton,uud,938.3,938.3,0.0,True,EXACT_TABLE_REQUIRES_EXECUTABLE_SCALE_PROVENANCE,False
+SM_and_M_Theory_generalisation,exact_displayed_table,neutron,udd,939.6,939.6,0.0,True,EXACT_TABLE_REQUIRES_EXECUTABLE_SCALE_PROVENANCE,False
+SM_and_M_Theory_generalisation,exact_displayed_table,Lambda,uds,1115.7,1115.7,0.0,True,EXACT_TABLE_REQUIRES_EXECUTABLE_SCALE_PROVENANCE,False
+SM_and_M_Theory_generalisation,exact_displayed_table,Sigma_plus,uus,1189.4,1189.4,0.0,True,EXACT_TABLE_REQUIRES_EXECUTABLE_SCALE_PROVENANCE,False
+Formal_SM,binding_table,proton,uud,938.0,938.3,0.00031972716615150223,False,MIXED_BINDING_TABLE_STRUCTURAL_HINT_NOT_CLOSURE,False
+Formal_SM,binding_table,neutron,udd,939.0,939.6,0.0006385696040868697,False,MIXED_BINDING_TABLE_STRUCTURAL_HINT_NOT_CLOSURE,False
+Formal_SM,binding_table,Lambda,uds,935.0,1115.7,0.16196110065429778,False,MIXED_BINDING_TABLE_STRUCTURAL_HINT_NOT_CLOSURE,False
+Formal_SM,binding_table,Sigma_plus,uus,1190.0,1189.4,0.0005044560282494611,False,MIXED_BINDING_TABLE_STRUCTURAL_HINT_NOT_CLOSURE,False
+Formal_SM,binding_table,Sigma_zero,uds,1190.0,1192.6,0.0021801106825422682,False,MIXED_BINDING_TABLE_STRUCTURAL_HINT_NOT_CLOSURE,False
+Formal_SM,binding_table,Xi_zero,uss,1316.0,1314.9,0.0008365655182902951,False,MIXED_BINDING_TABLE_STRUCTURAL_HINT_NOT_CLOSURE,False
+Calabi_Yau2,underbound_binding_table,proton,uud,108.8,,,False,UNDERBOUND_OR_CALIBRATION_WARNING_STRUCTURAL_HINT,False
+Calabi_Yau2,underbound_binding_table,neutron,udd,110.0,,,False,UNDERBOUND_OR_CALIBRATION_WARNING_STRUCTURAL_HINT,False
+Calabi_Yau2,underbound_binding_table,Lambda,uds,111.3,,,False,UNDERBOUND_OR_CALIBRATION_WARNING_STRUCTURAL_HINT,False

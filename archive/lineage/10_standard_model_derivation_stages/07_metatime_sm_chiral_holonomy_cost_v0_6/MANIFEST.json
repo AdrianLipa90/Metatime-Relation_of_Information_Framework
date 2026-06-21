@@ -1,0 +1,51 @@
+{
+  "artifact": "METATIME_SM_CHIRAL_HOLONOMY_COST_v0_6",
+  "files": [
+    {
+      "path": "CHIRAL_COST_SCHEMA_v0_6.json",
+      "sha256": "054f70d4175490ff1c424b568dcf6f78b0f86de247de95a2427f9c4aad92b4e7",
+      "bytes": 606
+    },
+    {
+      "path": "METATIME_SM_CHIRAL_HOLONOMY_COST_v0_6.md",
+      "sha256": "8bb4a73cfa2754651c46b8ee885ebe43b5c834f20dcbc2494d07c7e56a5baca8",
+      "bytes": 4010
+    },
+    {
+      "path": "PREVIOUS_GAUGE_SKELETON_REFERENCE.md",
+      "sha256": "7456ea6dc310fa30c626f190e411b69a946bc10940047a7ba89ae2e65021c9e5",
+      "bytes": 11631
+    },
+    {
+      "path": "PREVIOUS_MASS_ACTION_ASSEMBLY_REFERENCE.md",
+      "sha256": "bbd8ad496ed86d71600bbd6a84a3280c7a86aad792b3dc093c24ac844882e76e",
+      "bytes": 4095
+    },
+    {
+      "path": "README.md",
+      "sha256": "7136b595848390f51339fcadaa83f65460d3a5fc68ef9c4459ccfbe246b59879",
+      "bytes": 682
+    },
+    {
+      "path": "VALIDATION_STATUS_v0_6.md",
+      "sha256": "f9e8ffcfd3a91f9fedb115b32c64543885c2dcbbdb20cc8daf9a963261ead286",
+      "bytes": 828
+    },
+    {
+      "path": "results/chiral_transition_table_v0_6.csv",
+      "sha256": "403680b9655bcef849e273c574616acf3fa11c3cd90ac2c7a74b579390f3291c",
+      "bytes": 443
+    },
+    {
+      "path": "results/chiral_validation_result_v0_6.txt",
+      "sha256": "a2c2710f4a2f52976c752408560ddcb48c60e3eb12587f5d7fbcd57888dffbde",
+      "bytes": 623
+    },
+    {
+      "path": "scripts/chiral_holonomy_cost_v0_6.py",
+      "sha256": "01e4b6a1b9dc0f47d83359c35537df7b2dbdcc90c263f5d9002b5e3be75c9a59",
+      "bytes": 3963
+    }
+  ],
+  "nested_archives": []
+}

@@ -1,0 +1,11 @@
+{
+  "benchmark_allowed": false,
+  "mass_prediction_allowed": false,
+  "required": [
+    "L3_base_collatz_length_of_3",
+    "information_quantum_ln2_over_24pi",
+    "rows",
+    "operator_trace_sha256"
+  ],
+  "schema": "METATIME_DOCUMENT_COLLATZ_TWINPRIME_TAU_SCHEMA_V4_5"
+}

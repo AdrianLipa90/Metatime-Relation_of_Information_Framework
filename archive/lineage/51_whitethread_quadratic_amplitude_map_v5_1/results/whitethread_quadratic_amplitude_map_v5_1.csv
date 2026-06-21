@@ -1,0 +1,4 @@
+pair,from,to,delta_generation,delta_tau_v2_preference_quanta,L3_base_collatz_clock,OIB_ln2_over_24pi,quadratic_open_holonomy_action_quanta,derived_quadratic_amplitude_gate,document_diagnostic_F_target_to_explain,relative_difference_to_document_F_target,document_F_used_as_solver_input,mass_prediction_claimed
+e_to_mu,e,mu,1,-54.463282428505806,7.0,0.009193150006360484,211.87493806337065,0.14258769169807442,0.145,0.016636608978797034,False,False
+e_to_tau,e,tau,2,59.35421399867016,7.0,0.009193150006360484,125.81866854999761,0.3145318633765734,0.302,0.04149623634626959,False,False
+mu_to_tau,mu,tau,1,113.81749642717597,7.0,0.009193150006360484,925.3158923535867,0.0002021364079317351,0.203,0.9990042541481196,False,False

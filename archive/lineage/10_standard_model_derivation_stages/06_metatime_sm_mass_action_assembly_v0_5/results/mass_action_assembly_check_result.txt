@@ -1,0 +1,26 @@
+[
+  {
+    "generation": 1,
+    "seed_p": 3,
+    "seed_q": 5,
+    "eb_action_kernel_unit_v04": 0.44017743117972435,
+    "role": "lightest"
+  },
+  {
+    "generation": 2,
+    "seed_p": 11,
+    "seed_q": 13,
+    "eb_action_kernel_unit_v04": 0.4129797750528312,
+    "role": "middle"
+  },
+  {
+    "generation": 3,
+    "seed_p": 5,
+    "seed_q": 7,
+    "eb_action_kernel_unit_v04": 0.34380299602647096,
+    "role": "heaviest"
+  }
+]
+charged_leptons: model_rank=['e', 'mu', 'tau']; validation_target_rank=['e', 'mu', 'tau']; status=PASS
+up_type_quarks: model_rank=['u', 'c', 't']; validation_target_rank=['u', 'c', 't']; status=PASS
+down_type_quarks: model_rank=['d', 's', 'b']; validation_target_rank=['d', 's', 'b']; status=PASS

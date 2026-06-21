@@ -1,0 +1,10 @@
+fermion,class,generation,seed_p,seed_q,prior_action_unit_v13,zeta_anchor_index,tetra_vertex,zeta_polar_coherence,debt3_adjustment_unit,eb_action_unit_v16,eb_action_kappa_v16,uses_observed_mass_as_input,debt6_status
+e,charged_lepton,1,3,5,5.377672184366,4,4,0.977678509028,0.001116074549,5.378788258915,0.049448007317,False,ordinal_hierarchy_candidate_not_numeric_mass_prediction
+d,down_quark,1,3,5,3.965288653518,4,4,0.977678509028,0.001116074549,3.966404728067,0.036463753651,False,ordinal_hierarchy_candidate_not_numeric_mass_prediction
+u,up_quark,1,3,5,3.798621986851,4,4,0.977678509028,0.001116074549,3.799738061400,0.034931561983,False,ordinal_hierarchy_candidate_not_numeric_mass_prediction
+mu,charged_lepton,2,5,7,5.137942922259,6,2,0.970730206741,0.001463489663,5.139406411922,0.047247334088,False,ordinal_hierarchy_candidate_not_numeric_mass_prediction
+s,down_quark,2,5,7,3.725559391410,6,2,0.970730206741,0.001463489663,3.727022881073,0.034263080423,False,ordinal_hierarchy_candidate_not_numeric_mass_prediction
+c,up_quark,2,5,7,3.558892724744,6,2,0.970730206741,0.001463489663,3.560356214407,0.032730888755,False,ordinal_hierarchy_candidate_not_numeric_mass_prediction
+tau,charged_lepton,3,11,13,4.679693377654,12,4,0.988509288076,0.000574535596,4.680267913250,0.043026404996,False,ordinal_hierarchy_candidate_not_numeric_mass_prediction
+b,down_quark,3,11,13,3.267309846805,12,4,0.988509288076,0.000574535596,3.267884382401,0.030042151331,False,ordinal_hierarchy_candidate_not_numeric_mass_prediction
+t,up_quark,3,11,13,3.100643180139,12,4,0.988509288076,0.000574535596,3.101217715735,0.028509959663,False,ordinal_hierarchy_candidate_not_numeric_mass_prediction

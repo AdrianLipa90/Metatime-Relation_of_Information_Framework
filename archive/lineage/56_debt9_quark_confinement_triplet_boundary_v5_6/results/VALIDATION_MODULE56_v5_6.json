@@ -1,0 +1,16 @@
+{
+  "schema": "VALIDATION_MODULE56_V5_6",
+  "module": "56_debt9_quark_confinement_triplet_boundary_v5_6",
+  "status": "PASS",
+  "checks": {
+    "result_exists": true,
+    "debt9_open": true,
+    "no_mass_closure_claim": true,
+    "single_quark_closure_denied": true,
+    "confinement_budget_is_21_percent": true,
+    "triplet_required_next": true,
+    "top_only_nonanchor_inside_budget": true,
+    "no_old_solver_import_in_active_script": true,
+    "no_current_or_canon_promotion": true
+  }
+}

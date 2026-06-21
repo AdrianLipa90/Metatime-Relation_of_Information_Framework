@@ -1,0 +1,130 @@
+{
+  "module": "METATIME_SM_FORMAL_STATUS_PHASE_AXIS_ACTION_v1_5",
+  "created_utc": "2026-06-19T19:56:16Z",
+  "allowed_statuses": [
+    "definition",
+    "ansatz",
+    "lemma",
+    "proof",
+    "interpretation",
+    "hypothesis",
+    "validation_gate",
+    "formal_debt"
+  ],
+  "axis_order": [
+    "zeta_imaginary_zero_axis",
+    "tetrahedral_depth",
+    "poincare_disk",
+    "collatz_fibonacci_kepler_dynamics",
+    "collatz_terminal_cycle",
+    "projective_half_axis",
+    "spin_euler_berry_closure"
+  ],
+  "rules": {
+    "chat_reporting": "descriptive_audio_friendly_no_formulas_unless_requested",
+    "repo_reporting": "full_technical_equations_derivations_code_tables_validation_manifests",
+    "no_nested_archives": true,
+    "zeta_raw_damping": "blocked_until_proven_safe",
+    "mass_as_input": "blocked_for_derivation_claims"
+  },
+  "records": [
+    {
+      "id": "D1.1",
+      "status": "definition",
+      "statement": "Collatz terminal projection axis includes projective half point",
+      "dependencies": "v1.4 correction",
+      "promotion_rule": "use in axis modules"
+    },
+    {
+      "id": "D1.2",
+      "status": "definition",
+      "statement": "Zeta imaginary zero axis is placed at critical half coordinate",
+      "dependencies": "v1.4 correction",
+      "promotion_rule": "use as coherence axis"
+    },
+    {
+      "id": "D1.3",
+      "status": "definition",
+      "statement": "Tetrahedral depth precedes Poincare disk",
+      "dependencies": "v0.8/v1.4",
+      "promotion_rule": "disk derived from tetrahedral depth"
+    },
+    {
+      "id": "A2.1",
+      "status": "ansatz",
+      "statement": "Full action decomposes into generational, depth, chiral, representation, zeta coherence, Euler-Berry coherence terms",
+      "dependencies": "v1.0-v1.4",
+      "promotion_rule": "requires future coherence proof"
+    },
+    {
+      "id": "A2.2",
+      "status": "ansatz",
+      "statement": "Terminal Collatz node projects to half spin axis",
+      "dependencies": "D1.1",
+      "promotion_rule": "requires exact projection map"
+    },
+    {
+      "id": "A2.3",
+      "status": "ansatz",
+      "statement": "Zeta enters as coherence rather than raw damping",
+      "dependencies": "v1.1/v1.3 warning",
+      "promotion_rule": "must preserve ordering"
+    },
+    {
+      "id": "L3.1",
+      "status": "lemma",
+      "statement": "Representation data alone cannot distinguish generations",
+      "dependencies": "SM representation table",
+      "promotion_rule": "proved in main report"
+    },
+    {
+      "id": "L3.2",
+      "status": "lemma",
+      "statement": "Zeta as raw damping is not validated",
+      "dependencies": "v1.1/v1.3 behavior",
+      "promotion_rule": "proved in main report"
+    },
+    {
+      "id": "L3.3",
+      "status": "lemma",
+      "statement": "Half point is not ordinary Collatz iterate",
+      "dependencies": "Collatz definition",
+      "promotion_rule": "proved in main report"
+    },
+    {
+      "id": "L3.4",
+      "status": "lemma",
+      "statement": "Zeta and spin axes share critical half coordinate",
+      "dependencies": "D1.1,D1.2",
+      "promotion_rule": "proved in main report"
+    },
+    {
+      "id": "I4.1",
+      "status": "interpretation",
+      "statement": "Half-axis connects integer terminal cycle with spin phase transition",
+      "dependencies": "L3.3",
+      "promotion_rule": "interpretation only"
+    },
+    {
+      "id": "H5.1",
+      "status": "hypothesis",
+      "statement": "Full action can predict charged fermion mass ratios",
+      "dependencies": "all prior modules",
+      "promotion_rule": "not proven"
+    },
+    {
+      "id": "G6.1",
+      "status": "validation_gate",
+      "statement": "No nested archives inside merged repo",
+      "dependencies": "repo hygiene invariant",
+      "promotion_rule": "must pass each release"
+    },
+    {
+      "id": "FD7.1",
+      "status": "formal_debt",
+      "statement": "Exact zeta-zero to tetrahedral vertex map",
+      "dependencies": "D1.2,D1.3",
+      "promotion_rule": "open"
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "module": "21_debt8_source_axis_candidate_grammar_v2_3",
+  "survivors": [
+    "source_derived_chiral_cp1_axis"
+  ],
+  "expected_single_survivor": "source_derived_chiral_cp1_axis",
+  "pass": true,
+  "gate_class": "STRUCTURAL_ENUMERATION_PASS",
+  "observed_masses_used_as_input": false,
+  "note": "This is not a computational mass test. It is structural enumeration from source roles."
+}

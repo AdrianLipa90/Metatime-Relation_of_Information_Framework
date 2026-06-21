@@ -1,0 +1,41 @@
+{
+  "schema_name": "METATIME_SM_MASS_VECTORIZATION_v0_1",
+  "status": "canonical schema candidate; not a mass-spectrum proof",
+  "kappa_ln2_over_24pi": 0.009193150006360484,
+  "goal": "Define the vector state needed to derive fermion masses from Euler-Berry holonomy without treating effective Yukawa couplings as primitive inputs.",
+  "state_vector": {
+    "V_f": "direct_sum(r_f, h_f, c_s, g_f, z_s, validation_target_optional)",
+    "r_f": "representation vector: color dimension, weak dimension, chirality, hypercharge Y, T3, electric charge Q",
+    "h_f": "holonomy vector: Phi_AB, Phi_Berry, Phi_Euler, Theta_I, D_Lambda, epsilon_nu, integer closure N_f",
+    "c_s": "Collatz orbit vector: twin-prime seed, orbit length, parity word, sign-flip count, normalized Collatz cost",
+    "g_f": "geometry vector: Fubini-Study distance, Berry enclosed area, Euler spin closure, Poincare disk geodesic depth",
+    "z_s": "spectral vector: zeta-polar labels and tetrahedral-depth labels when explicitly mapped",
+    "validation_target_optional": "observed masses or required actions may be stored only as validation targets, never as derivation inputs"
+  },
+  "canonical_mass_form": {
+    "effective_yukawa_shadow": "y_eff(f)=exp(-S_EB(f)/kappa) times phase/unitary factors, after low-energy projection",
+    "mass": "m_f = v/sqrt(2) * |y_eff(f)| for charged fermions after electroweak orientation selection",
+    "operator": "M_hol(f)=M0 Pi_R P exp(i integral_gamma_f A_EBI) Pi_L exp(-S_EB(f)/kappa)",
+    "warning": "pure holonomy has unit modulus; hierarchy requires a real positive Euler-Berry action S_EB, not just a phase"
+  },
+  "open_noncanonical_blocks": [
+    "explicit W_s operator",
+    "explicit rho_s(k) Collatz rhythm",
+    "explicit map from zeta-polar labels to tetrahedral-depth coordinates",
+    "explicit Poincare disk embedding of Collatz orbits",
+    "derivation of S_EB(f) from V_f without using observed masses"
+  ],
+  "validation_gates": [
+    "no PDG or observed mass may enter S_EB derivation",
+    "observed masses may only appear in validation_target_optional",
+    "anomaly cancellation must remain exact on rational charges",
+    "effective Yukawa couplings are low-energy names, not primitive parameters",
+    "a successful mass-sector claim requires predicted S_EB(f), then comparison to validation targets"
+  ],
+  "anomaly_check": {
+    "SU3^2_U1": "0",
+    "SU2^2_U1": "0",
+    "grav^2_U1": "0",
+    "U1^3": "0"
+  }
+}

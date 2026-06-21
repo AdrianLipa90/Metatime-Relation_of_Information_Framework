@@ -1,0 +1,21 @@
+{
+  "artifact": "METATIME_SM_CHIRAL_HOLONOMY_COST_v0_6",
+  "status": "pre_predictive_constraint_layer",
+  "uses_observed_masses": false,
+  "primitive_yukawa_couplings": false,
+  "closed_slot": "C_chir",
+  "allowed_transition_condition": "-Y_L + Y_selector + Y_R = 0",
+  "selector_charges": {
+    "H": "1/2",
+    "H_conj": "-1/2"
+  },
+  "canonical_chiral_cost_v0_6": "1 + abs(T3_L) + abs(Y_selector)",
+  "charged_transition_cost": "2",
+  "neutrino_status": "optional Dirac extension only; not promoted",
+  "open_slots_after_v0_6": [
+    "R_rep",
+    "Z_spec",
+    "Omega_EB",
+    "absolute mass scale"
+  ]
+}

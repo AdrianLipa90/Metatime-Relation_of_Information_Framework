@@ -1,0 +1,6 @@
+METATIME SM EB ACTION BASIS AUDIT v0.2
+kappa = 0.009193150006360484
+representation-only rank = 3, RMSE on validation actions = 3.675443, max_abs = 5.888603
+full diagnostic basis rank = 7, RMSE on validation actions = 0.609592, max_abs = 1.127123
+
+Conclusion: representation-only vectors cannot derive the generation hierarchy. Collatz/orbit geometry is mathematically required.

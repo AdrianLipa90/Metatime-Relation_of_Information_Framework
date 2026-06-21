@@ -1,0 +1,51 @@
+{
+  "derivation_id": "S_ELECTRON_ABSOLUTE_ACTION_V6_7_CANDIDATE_A",
+  "formula": "S_e = 1/2 - 3*OI + OI/L3 - OI^2/2",
+  "formula_fingerprint_sha256": "ea069fa0748bdab2062d180816d178eb8d1536c7224b54f7e7ad7042e7366777",
+  "input_policy": {
+    "uses_particle_masses_as_input": false,
+    "uses_pdg_tables_as_input": false,
+    "uses_exact_replay_tables_as_input": false,
+    "uses_v6_1_target_action_as_input": false,
+    "allowed_inputs": [
+      "spin_half_euler_berry_base",
+      "OI",
+      "L3",
+      "white_thread_quadratic_second_order"
+    ],
+    "scoring_inputs_separated": [
+      "electron_reference_energy_mev_scoring_only",
+      "v6_1_required_S_e_target_scoring_only"
+    ]
+  },
+  "operator_sources_required": [
+    "OP-OI",
+    "OP-COLLATZ/L3",
+    "OP-WHITE-THREAD",
+    "OP-KAPPA-EB/Euler-Berry-spin-base"
+  ],
+  "component_values": {
+    "spin_half_base": 0.5,
+    "OI": 0.009193150006360484,
+    "L3": 7.0,
+    "three_preference_quanta_3OI": 0.02757945001908145,
+    "L3_return_OI_over_L3": 0.0013133071437657835,
+    "white_thread_quadratic_OI2_over_2": 4.225700351972288e-05
+  },
+  "derived_S_e": 0.47369160012116457,
+  "planck_energy_mev_recomputed_from_constants": 1.2208901285838957e+22,
+  "predicted_electron_energy_mev_from_planck_gate": 0.5116420509844719,
+  "scoring_only": {
+    "electron_reference_energy_mev_scoring_only": 0.51099895,
+    "planck_energy_mev_v6_1_scoring_context": 1.2208901285838957e+22,
+    "v6_1_required_S_e_target_scoring_only": 0.47370316258461587,
+    "action_abs_error_vs_v6_1_target": -1.1562463451297855e-05,
+    "action_rel_error_vs_v6_1_target": -2.4408668475445304e-05,
+    "energy_abs_error_mev": 0.000643100984471956,
+    "energy_rel_error": 0.0012585172327104705,
+    "energy_rel_error_percent": 0.12585172327104704
+  },
+  "status": "DERIVED_CANDIDATE_S_E_WITH_SCORING_GATE_PASS_NOT_CANON",
+  "canon_allowed": false,
+  "mass_spectrum_closure_claimed": false
+}

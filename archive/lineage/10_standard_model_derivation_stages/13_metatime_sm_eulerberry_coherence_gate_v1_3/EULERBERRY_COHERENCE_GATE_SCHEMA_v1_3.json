@@ -1,0 +1,35 @@
+{
+  "schema": "METATIME_SM_EULERBERRY_COHERENCE_GATE_v1_3",
+  "status": "ordinal_structural_validation_pass_numeric_mass_prediction_not_claimed",
+  "repository_policy": "merged_repo_only_no_nested_archives",
+  "inputs": [
+    "v1_0_seed_arbitration",
+    "v1_0_charged_fermion_action_assembly",
+    "v1_1_zeta_tetrahedral_seed_table"
+  ],
+  "mass_data_policy": "observed_masses_are_not_inputs",
+  "zeta_policy": "coherence_gate_not_naive_additive_cost",
+  "coherence_features": [
+    "zeta_entropy",
+    "vertex_symmetry",
+    "base_balance",
+    "phase_alignment",
+    "apex_alignment"
+  ],
+  "bounded_credit_rule": {
+    "cap": "one_quarter_of_minimum_adjacent_generation_action_margin",
+    "purpose": "prevent_zeta_layer_from_overturning_prior_structural_seed_order"
+  },
+  "validated_classes": [
+    "charged_lepton",
+    "down_quark",
+    "up_quark"
+  ],
+  "open_layers": [
+    "final_numeric_mass_law",
+    "full_constructive_eulerberry_interference",
+    "ckm_mixing",
+    "pmns_mixing",
+    "neutrino_mass_mechanism"
+  ]
+}

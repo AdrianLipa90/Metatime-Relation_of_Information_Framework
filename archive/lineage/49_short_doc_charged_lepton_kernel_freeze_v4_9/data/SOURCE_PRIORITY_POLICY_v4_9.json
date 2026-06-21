@@ -1,0 +1,15 @@
+{
+  "priority_order": [
+    "short projective Collatz step-docs from Download.zip text extractions",
+    "F_ij toy S2 interpretation and CSV matrices from Standard Model data folder",
+    "Formal_SM only as audited taint ledger / not as direct mass closure",
+    "MetaTheory only as background, not formula source for v4.9"
+  ],
+  "forbidden_as_active_input": [
+    "PDG/reference masses",
+    "NoParamSM execution or outputs",
+    "Vandermonde charged-lepton fit",
+    "heavy-quark power-law anchor",
+    "mass residuals from benchmark used for formula selection"
+  ]
+}

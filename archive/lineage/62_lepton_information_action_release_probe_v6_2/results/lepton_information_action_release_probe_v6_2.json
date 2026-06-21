@@ -1,0 +1,310 @@
+{
+  "schema": "METATIME_LEPTON_INFORMATION_ACTION_RELEASE_PROBE_V6_2",
+  "module": "62_lepton_information_action_release_probe_v6_2",
+  "created_utc": "2026-06-21T09:21:54Z",
+  "technical_status": "PASS",
+  "formal_status": "PASS_RELATIVE_RELEASE_PROBE_INSTALLED",
+  "substantive_status": "E_MU_STRONG_SIGNAL_MU_TAU_PARTIAL_SIGNAL_ABSOLUTE_ACTION_NOT_DERIVED",
+  "debt9_numeric_spectrum": "OPEN_NOT_CLOSED",
+  "canon_allowed": false,
+  "current_promotion": "DENY_CURRENT",
+  "mass_prediction_claimed": false,
+  "absolute_action_derived": false,
+  "source_formula_fingerprint_sha256": "11a892648f8d86b92f4439b7143c5585f9531337998f90697fdda98356ceef8e",
+  "release_probe_fingerprint_sha256": "024e8c7505d611293ed5749fe5103808fd26e0a048477339bd18a4bff01db83c",
+  "core_equation": "E_i/E_j = exp((S_j - S_i)/OI); transition releases are probed from existing geometry only.",
+  "constants": {
+    "OI": 0.009193150006360484
+  },
+  "v6_1_target_actions_scoring_only": {
+    "e": 0.47370316258461587,
+    "mu": 0.424688975406478,
+    "tau": 0.3987423021553718
+  },
+  "frozen_release_rules": {
+    "e_to_mu": {
+      "description": "first charged-lepton release from electron Euler-Berry kappa action",
+      "formula": "R_e_mu = eb_action_kappa_v16(e)",
+      "source_field": "e.eb_action_kappa_v16",
+      "candidate_release_action": 0.049448007317
+    },
+    "mu_to_tau": {
+      "description": "second charged-lepton release from muon terminal-axis phase measured in OI units",
+      "formula": "R_mu_tau = OI * terminal_axis_signature(mu)",
+      "source_field": "mu.terminal_axis_signature * OI",
+      "candidate_release_action": 0.027046966447594616
+    },
+    "e_to_tau": {
+      "description": "cumulative electron-to-tau release from e->mu plus mu->tau rules",
+      "formula": "R_e_tau = R_e_mu + R_mu_tau",
+      "source_field": "derived_sum_of_frozen_rules",
+      "candidate_release_action": 0.07649497376459462
+    }
+  },
+  "transition_rows": [
+    {
+      "transition": "e_to_mu",
+      "candidate_rule": "R_e_mu = eb_action_kappa_v16(e)",
+      "source_field": "e.eb_action_kappa_v16",
+      "candidate_release_action": 0.049448007317,
+      "target_release_action_from_v6_1_scoring_only": 0.04901418717813788,
+      "action_absolute_error": 0.0004338201388621177,
+      "action_relative_error_abs": 0.008850909580228938,
+      "predicted_energy_ratio_from_candidate_release": 216.7594598899164,
+      "target_energy_ratio_from_v6_1_scoring_only": 206.7682829876661,
+      "energy_ratio_relative_error_abs": 0.04832064549690274,
+      "mass_prediction_claimed": false,
+      "absolute_action_derived": false,
+      "target_used_in_candidate_rule": false
+    },
+    {
+      "transition": "mu_to_tau",
+      "candidate_rule": "R_mu_tau = OI * terminal_axis_signature(mu)",
+      "source_field": "mu.terminal_axis_signature * OI",
+      "candidate_release_action": 0.027046966447594616,
+      "target_release_action_from_v6_1_scoring_only": 0.025946673251106167,
+      "action_absolute_error": 0.0011002931964884492,
+      "action_relative_error_abs": 0.042405944910164584,
+      "predicted_energy_ratio_from_candidate_release": 18.955198563340126,
+      "target_energy_ratio_from_v6_1_scoring_only": 16.817029332426085,
+      "energy_ratio_relative_error_abs": 0.12714309933391665,
+      "mass_prediction_claimed": false,
+      "absolute_action_derived": false,
+      "target_used_in_candidate_rule": false
+    },
+    {
+      "transition": "e_to_tau",
+      "candidate_rule": "R_e_tau = R_e_mu + R_mu_tau",
+      "source_field": "derived_sum_of_frozen_rules",
+      "candidate_release_action": 0.07649497376459462,
+      "target_release_action_from_v6_1_scoring_only": 0.07496086042924405,
+      "action_absolute_error": 0.0015341133353505704,
+      "action_relative_error_abs": 0.02046552462933149,
+      "predicted_energy_ratio_from_candidate_release": 4108.718602695731,
+      "target_energy_ratio_from_v6_1_scoring_only": 3477.2282800189596,
+      "energy_ratio_relative_error_abs": 0.18160738146111233,
+      "mass_prediction_claimed": false,
+      "absolute_action_derived": false,
+      "target_used_in_candidate_rule": false
+    }
+  ],
+  "source_match_ledger_top8_each_transition": [
+    {
+      "transition": "e_to_mu",
+      "source_atom": "e.eb_action_kappa_v16",
+      "source_value": 0.049448007317,
+      "target_release_action_from_v6_1_scoring_only": 0.04901418717813788,
+      "relative_error_abs": 0.008850909580228938,
+      "absolute_error": 0.0004338201388621177
+    },
+    {
+      "transition": "e_to_mu",
+      "source_atom": "mu.eb_action_kappa_v16",
+      "source_value": 0.047247334088,
+      "target_release_action_from_v6_1_scoring_only": 0.04901418717813788,
+      "relative_error_abs": 0.03604778925979957,
+      "absolute_error": -0.001766853090137882
+    },
+    {
+      "transition": "e_to_mu",
+      "source_atom": "tau.eb_action_kappa_v16",
+      "source_value": 0.043026404996,
+      "target_release_action_from_v6_1_scoring_only": 0.04901418717813788,
+      "relative_error_abs": 0.12216426563141392,
+      "absolute_error": -0.005987782182137878
+    },
+    {
+      "transition": "e_to_mu",
+      "source_atom": "tau.OI_tau_v2_action",
+      "source_value": 0.032595712478785836,
+      "target_release_action_from_v6_1_scoring_only": 0.04901418717813788,
+      "relative_error_abs": 0.3349739258080624,
+      "absolute_error": -0.016418474699352044
+    },
+    {
+      "transition": "e_to_mu",
+      "source_atom": "e.OI_tau_v2_action",
+      "source_value": 0.02757945001908145,
+      "target_release_action_from_v6_1_scoring_only": 0.04901418717813788,
+      "relative_error_abs": 0.4373169972431391,
+      "absolute_error": -0.02143473715905643
+    },
+    {
+      "transition": "e_to_mu",
+      "source_atom": "tau.OI_terminal_axis_signature",
+      "source_value": 0.02751959975353426,
+      "target_release_action_from_v6_1_scoring_only": 0.04901418717813788,
+      "relative_error_abs": 0.43853807768928976,
+      "absolute_error": -0.02149458742460362
+    },
+    {
+      "transition": "e_to_mu",
+      "source_atom": "mu.OI_terminal_axis_signature",
+      "source_value": 0.027046966447594616,
+      "target_release_action_from_v6_1_scoring_only": 0.04901418717813788,
+      "relative_error_abs": 0.4481808634448078,
+      "absolute_error": -0.021967220730543264
+    },
+    {
+      "transition": "e_to_mu",
+      "source_atom": "e.OI_terminal_axis_signature",
+      "source_value": 0.02380221923133768,
+      "target_release_action_from_v6_1_scoring_only": 0.04901418717813788,
+      "relative_error_abs": 0.5143810271742231,
+      "absolute_error": -0.0252119679468002
+    },
+    {
+      "transition": "mu_to_tau",
+      "source_atom": "mu.OI_terminal_axis_signature",
+      "source_value": 0.027046966447594616,
+      "target_release_action_from_v6_1_scoring_only": 0.025946673251106167,
+      "relative_error_abs": 0.042405944910164584,
+      "absolute_error": 0.0011002931964884492
+    },
+    {
+      "transition": "mu_to_tau",
+      "source_atom": "tau.OI_terminal_axis_signature",
+      "source_value": 0.02751959975353426,
+      "target_release_action_from_v6_1_scoring_only": 0.025946673251106167,
+      "relative_error_abs": 0.06062150963268631,
+      "absolute_error": 0.0015729265024280945
+    },
+    {
+      "transition": "mu_to_tau",
+      "source_atom": "e.OI_tau_v2_action",
+      "source_value": 0.02757945001908145,
+      "target_release_action_from_v6_1_scoring_only": 0.025946673251106167,
+      "relative_error_abs": 0.06292817395793415,
+      "absolute_error": 0.001632776767975283
+    },
+    {
+      "transition": "mu_to_tau",
+      "source_atom": "e.OI_terminal_axis_signature",
+      "source_value": 0.02380221923133768,
+      "target_release_action_from_v6_1_scoring_only": 0.025946673251106167,
+      "relative_error_abs": 0.08264851524567074,
+      "absolute_error": -0.002144454019768486
+    },
+    {
+      "transition": "mu_to_tau",
+      "source_atom": "mu.OI_tau_v2_action",
+      "source_value": 0.02297653978452739,
+      "target_release_action_from_v6_1_scoring_only": 0.025946673251106167,
+      "relative_error_abs": 0.1144706852333045,
+      "absolute_error": -0.0029701334665787754
+    },
+    {
+      "transition": "mu_to_tau",
+      "source_atom": "tau.ramanujan_scaled_action",
+      "source_value": 0.022453736748409954,
+      "target_release_action_from_v6_1_scoring_only": 0.025946673251106167,
+      "relative_error_abs": 0.13461982077210233,
+      "absolute_error": -0.003492936502696213
+    },
+    {
+      "transition": "mu_to_tau",
+      "source_atom": "tau.OI_tau_v2_action",
+      "source_value": 0.032595712478785836,
+      "target_release_action_from_v6_1_scoring_only": 0.025946673251106167,
+      "relative_error_abs": 0.2562578702607359,
+      "absolute_error": 0.006649039227679669
+    },
+    {
+      "transition": "mu_to_tau",
+      "source_atom": "mu.ramanujan_scaled_action",
+      "source_value": 0.009434835198791994,
+      "target_release_action_from_v6_1_scoring_only": 0.025946673251106167,
+      "relative_error_abs": 0.6363759196609236,
+      "absolute_error": -0.016511838052314175
+    },
+    {
+      "transition": "e_to_tau",
+      "source_atom": "e.eb_action_kappa_v16",
+      "source_value": 0.049448007317,
+      "target_release_action_from_v6_1_scoring_only": 0.07496086042924405,
+      "relative_error_abs": 0.3403489896747619,
+      "absolute_error": -0.02551285311224405
+    },
+    {
+      "transition": "e_to_tau",
+      "source_atom": "mu.eb_action_kappa_v16",
+      "source_value": 0.047247334088,
+      "target_release_action_from_v6_1_scoring_only": 0.07496086042924405,
+      "relative_error_abs": 0.36970661999541743,
+      "absolute_error": -0.02771352634124405
+    },
+    {
+      "transition": "e_to_tau",
+      "source_atom": "tau.eb_action_kappa_v16",
+      "source_value": 0.043026404996,
+      "target_release_action_from_v6_1_scoring_only": 0.07496086042924405,
+      "relative_error_abs": 0.4260150597308998,
+      "absolute_error": -0.031934455433244045
+    },
+    {
+      "transition": "e_to_tau",
+      "source_atom": "tau.OI_tau_v2_action",
+      "source_value": 0.032595712478785836,
+      "target_release_action_from_v6_1_scoring_only": 0.07496086042924405,
+      "relative_error_abs": 0.565163576136468,
+      "absolute_error": -0.04236514795045821
+    },
+    {
+      "transition": "e_to_tau",
+      "source_atom": "e.OI_tau_v2_action",
+      "source_value": 0.02757945001908145,
+      "target_release_action_from_v6_1_scoring_only": 0.07496086042924405,
+      "relative_error_abs": 0.632081997709807,
+      "absolute_error": -0.0473814104101626
+    },
+    {
+      "transition": "e_to_tau",
+      "source_atom": "tau.OI_terminal_axis_signature",
+      "source_value": 0.02751959975353426,
+      "target_release_action_from_v6_1_scoring_only": 0.07496086042924405,
+      "relative_error_abs": 0.6328804179147576,
+      "absolute_error": -0.047441260675709786
+    },
+    {
+      "transition": "e_to_tau",
+      "source_atom": "mu.OI_terminal_axis_signature",
+      "source_value": 0.027046966447594616,
+      "target_release_action_from_v6_1_scoring_only": 0.07496086042924405,
+      "relative_error_abs": 0.6391854856959067,
+      "absolute_error": -0.04791389398164943
+    },
+    {
+      "transition": "e_to_tau",
+      "source_atom": "e.OI_terminal_axis_signature",
+      "source_value": 0.02380221923133768,
+      "target_release_action_from_v6_1_scoring_only": 0.07496086042924405,
+      "relative_error_abs": 0.6824713711256727,
+      "absolute_error": -0.05115864119790636
+    }
+  ],
+  "metrics": {
+    "transition_count": 3,
+    "mean_action_relative_error_abs": 0.023907459706575002,
+    "max_action_relative_error_abs": 0.042405944910164584,
+    "mean_energy_ratio_relative_error_abs": 0.11902370876397723,
+    "max_energy_ratio_relative_error_abs": 0.18160738146111233,
+    "e_to_mu_action_error_abs_percent": 0.8850909580228938,
+    "mu_to_tau_action_error_abs_percent": 4.240594491016458,
+    "cumulative_e_to_tau_action_error_abs_percent": 2.046552462933149
+  },
+  "decision": {
+    "e_to_mu_release": "STRONG_GEOMETRIC_SIGNAL_NOT_CLOSURE",
+    "mu_to_tau_release": "PARTIAL_SIGNAL_REQUIRES_REFINEMENT",
+    "absolute_S_i_actions": "NOT_DERIVED",
+    "electron_absolute_offset": "STILL_ANCHOR_IF_IMPORTED_FROM_TARGET_LEDGER",
+    "debt9_closure": "DENIED",
+    "next_step": "Derive the absolute electron action offset from non-mass geometry, or refine mu->tau with a predeclared Collatz/Ramanujan terminal rule before mass scoring."
+  },
+  "guardrails": {
+    "target_actions_used_in_candidate_rule": false,
+    "masses_used_as_operator_inputs": false,
+    "ratios_scored_after_rule_freeze": true,
+    "absolute_mass_prediction_claimed": false,
+    "canon_promotion_allowed": false
+  }
+}

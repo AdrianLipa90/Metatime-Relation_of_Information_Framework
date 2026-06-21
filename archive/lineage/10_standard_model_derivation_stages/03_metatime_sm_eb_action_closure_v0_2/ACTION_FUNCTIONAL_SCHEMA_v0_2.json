@@ -1,0 +1,30 @@
+{
+  "schema_name": "METATIME_SM_EB_ACTION_CLOSURE_v0_2",
+  "status": "canonical candidate; dependency closure, not mass-spectrum proof",
+  "kappa": "ln(2)/(24*pi)",
+  "core_mass_projection": {
+    "dimensionless_action": "A_f = S_EB(f)/kappa",
+    "effective_yukawa_shadow": "y_eff(f)=exp(-A_f)",
+    "charged_fermion_mass_projection": "m_f = v/sqrt(2) * |y_eff(f)|"
+  },
+  "vector_state": "V_f = r_f direct_sum h_f direct_sum c_s direct_sum g_f direct_sum z_s",
+  "required_action_form": "S_EB(f)=kappa*[C_s + G_f + Z_s + R_f - Omega_f]_+",
+  "components": {
+    "C_s": "normalized Collatz orbit cost, mass-independent",
+    "G_f": "Fubini-Study / Poincare geodesic contribution",
+    "Z_s": "zeta-polar / tetrahedral-depth spectral contribution",
+    "R_f": "representation and chiral-transition contribution",
+    "Omega_f": "constructive Euler-Berry / white-thread coherence contribution"
+  },
+  "hard_results": {
+    "representation_only_rank": 3,
+    "representation_only_insufficient": true,
+    "generation_orbit_vector_required": true
+  },
+  "forbidden": [
+    "using observed masses to define S_EB",
+    "using effective Yukawa couplings as primitive inputs",
+    "claiming full SM mass derivation before z_s(k), C_s, G_f, Z_s, Omega_f are fixed"
+  ],
+  "next_required_step": "explicit Collatz-to-Poincare embedding and Euler-Berry action integral"
+}

@@ -1,0 +1,7 @@
+seed_p,seed_q,kernel_unscaled,action_kappa_scaled,v1_0_status
+17,19,1.537317028708741,0.0141327860522518,extended_candidate_quarantine_until_generation_count_law
+5,7,1.5294875371159444,0.0140608083615657,minimal_triplet
+3,5,1.4784901212956267,0.0135919814679928,minimal_triplet
+11,13,1.4182632819682304,0.013038307099647,minimal_triplet
+41,43,1.4057156715397316,0.0129229550347565,extended_candidate_quarantine_until_generation_count_law
+29,31,1.3350687780224884,0.0122734875451691,extended_candidate_quarantine_until_generation_count_law

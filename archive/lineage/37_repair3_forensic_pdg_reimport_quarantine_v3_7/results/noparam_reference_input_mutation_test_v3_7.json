@@ -1,0 +1,50 @@
+{
+  "solver_file": "/mnt/data/metatime_audit_work/extracted/v3_6_repair2/METATIME_STANDARD_MODEL_DERIVATION_MERGED_REPO_v3_6_REPAIR2_NO_NESTED_ZIPS/00_original_metatime/Metatime-main/NoParamSM/noparamSMsolver.py",
+  "test": "at O_I_REF, yukawa_factor=1; outputs equal mass_ref from PDG dict",
+  "default_outputs_at_OI_ref": {
+    "e": 0.5109989461,
+    "mu": 105.6583745,
+    "tau": 1776.86,
+    "u": 2.16,
+    "d": 4.67,
+    "s": 93.5,
+    "c": 1270.0,
+    "b": 4180.0,
+    "t": 173000.0
+  },
+  "default_references": {
+    "e": 0.5109989461,
+    "mu": 105.6583745,
+    "tau": 1776.86,
+    "u": 2.16,
+    "d": 4.67,
+    "s": 93.5,
+    "c": 1270.0,
+    "b": 4180.0,
+    "t": 173000.0
+  },
+  "default_abs_diffs": {
+    "e": 0.0,
+    "mu": 0.0,
+    "tau": 0.0,
+    "u": 0.0,
+    "d": 0.0,
+    "s": 0.0,
+    "c": 0.0,
+    "b": 0.0,
+    "t": 0.0
+  },
+  "mutation_test": {
+    "modified_PDG": {
+      "e": 123.456,
+      "c": 9999.0,
+      "t": 42.0
+    },
+    "outputs_after_reinstantiation_at_OI_ref": {
+      "e": 123.456,
+      "c": 9999.0,
+      "t": 42.0
+    }
+  },
+  "verdict": "PDG_REFERENCE_INPUT_CONFIRMED"
+}

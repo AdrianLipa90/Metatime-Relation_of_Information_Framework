@@ -1,0 +1,4 @@
+class,left,right,selector,color_dim,Y_L,Y_selector,Y_R,T3_L,Q,hypercharge_residual,electric_charge_residual,status,hypercharge_jump,selector_abs,weak_flip,charge_abs,charge_sq,color_depth_log,color_coherence,higgs_conjugation_bit,rep_action_unit_candidate,rep_action_kappa_candidate,note
+charged_lepton,e_L,e_R,H,1,-1/2,1/2,-1,-1/2,-1,1,0,blocked,0.5,0.5,0.5,1,1,0,0,0,2.5,0.0229828750159,diagnostic representation action; no observed mass used
+down_quark,d_L,d_R,H,3,1/6,1/2,-1/3,-1/2,-1/3,1,0,blocked,0.5,0.5,0.5,0.333333333333,0.111111111111,1.09861228867,0.523494641959,0,1.08761646915,0.0099986213503,diagnostic representation action; no observed mass used
+up_quark,u_L,u_R,H_conj,3,1/6,-1/2,2/3,1/2,2/3,-1,0,blocked,0.5,0.5,0.5,0.666666666667,0.444444444444,1.09861228867,0.523494641959,1,0.920949802485,0.00846642968257,diagnostic representation action; no observed mass used

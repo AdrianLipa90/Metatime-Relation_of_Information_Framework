@@ -1,0 +1,26 @@
+{
+  "schema_id": "METATIME_SM_AXIS_SELECTION_DEBT_v1_8",
+  "version": "1.8",
+  "status": "canonical_working_ansatz",
+  "debt_addressed": "physical_axis_selection_after_debt1",
+  "roles": {
+    "primitive_axis": "weak_isospin_bloch_quantization_axis",
+    "primitive_generator": "killing_flow_generator",
+    "berry": "phase_transport_connection",
+    "twin_prime_seed": "generation_sector_index",
+    "zeta_axis": "imaginary_zero_spectral_anchor_constrained_by_polar_pair"
+  },
+  "classification": {
+    "weak_axis_role": "ansatz_with_gauge_skeleton_support",
+    "berry_role": "definition_and_interpretation",
+    "twin_prime_role": "hypothesis_for_generation_action",
+    "zeta_role": "interpretation_constrained_by_debt1"
+  },
+  "validation_gates": [
+    "single_universal_weak_doublet_axis",
+    "berry_not_independent_pole_selector",
+    "twin_prime_not_primitive_axis_selector",
+    "zeta_labels_fixed_polar_pair",
+    "no_observed_mass_axis_selection"
+  ]
+}

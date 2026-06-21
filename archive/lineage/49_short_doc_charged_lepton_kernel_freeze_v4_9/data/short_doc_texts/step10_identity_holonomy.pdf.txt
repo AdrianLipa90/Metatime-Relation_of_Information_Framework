@@ -1,0 +1,296 @@
+            Step 10: Energetic Poincare Disk, Phase Torus,
+         Aharonov–Bohm Holonomy, and the Identity Invariant
+                                               Adrian Lipa
+
+                                              May 26, 2026
+
+
+                                                 Abstract
+           This note formalizes the separation between the energetic and phase layers of the projec-
+       tive Collatz framework. The energetic layer is represented by a Poincare disk DE , while the
+       phase-memory layer is represented by a torus T2ϕ . The Aharonov–Bohm phase is introduced
+       as the holonomic bridge between closed energetic loops and phase displacement on the torus.
+       The central object is a topological identity invariant measuring whether a loop closes not
+       only energetically, but also as a spinor-lifted identity. The resulting holonomic residue is the
+       phase-memory defect left by incomplete closure relative to the 4π spinor lattice. This note
+       is structural and formal; it does not constitute a proof of the Collatz conjecture.
+
+
+1     Epistemic Status
+The present document is a formal continuation of the preceding notes on:
+
+    (i) accelerated Collatz dynamics as an equatorial return map;
+
+ (ii) valuation-word action Ak = log(m0 /mk );
+
+(iii) Bloch/Fubini–Study geometry and the CP1 edge charts;
+
+(iv) the CP2 terminal cell 4 → 2 → 1;
+
+ (v) Berry–Euler spinor closure and the normalizer ln 2/(24π);
+
+(vi) Ramanujan–theta residue encoding of critical valuation words.
+
+     The new point is the separation of two layers:
+
+                                 DE = energetic/action-accretion layer
+
+and
+                                      T2ϕ = phase/holonomy layer.
+
+The Aharonov–Bohm mechanism couples closed energetic loops to nontrivial phase displace-
+ment. The resulting residue is not a local energetic failure; it is a holonomic memory of incom-
+plete phase closure.
+
+
+2     Energetic Disk and Phase Torus
+Definition 1 (Energetic Poincare disk). The energetic layer is the open unit disk
+
+                                         DE = {z ∈ C : |z| < 1},
+
+
+                                                      1
+equipped with the Poincare metric
+                                                   4|dz|2
+                                        ds2E =                .
+                                                 (1 − |z|2 )2
+This layer stores action, accretion, threshold descent, and energetic contraction data.
+    In the Collatz block-action formalism, the principal energetic observable is
+                            k−1                                 
+                            X                                  1           m0
+                 Ak (m0 ) =       ν2 (3mj + 1) log 2 − log 3 +       = log     .
+                                                               mj          mk
+                            j=0
+
+Thus
+                                  Ak (m0 ) > 0    ⇐⇒        mk < m0 .
+The energetic disk is not the phase torus. It is the contraction/accretion base on which descent
+is measured.
+Definition 2 (Phase torus). The phase layer is
+                                         T2ϕ = SC1 × SAB
+                                                      1
+                                                         .
+The first circle SC1 stores the terminal Collatz/tetrahedral phase, while the second circle SAB
+                                                                                             1
+
+stores Aharonov–Bohm/Berry/spinor holonomy.
+    A convenient coordinate system is
+                                      (θC , θH ) ∈ R2 /(2πZ)2 .
+For the terminal tetrahedral cycle,
+                                                          2π
+                                          θC 7→ θC +         ,
+                                                           3
+corresponding to
+                                         4 → 2 → 1 → 4.
+
+
+3      Bundle Picture
+The total inference space is represented as a torus bundle over the energetic disk:
+                                  π : E → DE ,        π −1 (z) ∼
+                                                               = T2ϕ .
+In the simplest trivial model,
+                                           E = DE × T2ϕ .
+In the nontrivial holonomic model, the phase torus is transported by a connection. A closed
+loop in DE need not return to the same phase point in T2ϕ .
+
+
+4      Aharonov–Bohm Coupling
+The Aharonov–Bohm phase associated with a loop Γ is
+                                         I
+                                       q            q
+                             γAB (Γ) =      A · dl = Φ.
+                                       ℏ Γ          ℏ
+In naturalized notation we write                      I
+                                        γAB (Γ) =         AAB .
+                                                      Γ
+This phase may be nonzero even when the local field vanishes on the path, as long as the
+loop encloses a flux/defect/axis. In the present framework the axis may be interpreted as the
+zeta-spin axis or another holonomic core of the projective system.
+
+                                                  2
+Remark 1 (Role of Aharonov–Bohm). The Aharonov–Bohm term is the precise mechanism
+that separates energetic closure from phase closure. A loop may close in DE while leaving a
+nonzero displacement in T2ϕ .
+
+
+5    Total Phase and Closure Lattices
+Let Γ be a closed energetic loop in DE . The total phase assigned to the loop is
+                               γtot (Γ) = γB (Γ) + γAB (Γ) + γdyn (Γ).
+Here:
+                                 γB (Γ) = Berry phase,
+                               γAB (Γ) = Aharonov–Bohm holonomy,
+                              γdyn (Γ) = dynamical/action phase.
+A possible dynamical normalization is
+                                            γdyn (Γk ) = λA Ak ,
+where λA is a chosen action-to-phase coupling. In the previous normalization one natural small
+scale is
+                                                 log 2
+                                           OIb =       .
+                                                  24π
+    There are two distinct closure lattices:
+                                                 Λproj = 2πZ
+for projective-ray closure and
+                                                 Λ1/2 = 4πZ
+for spinor-lift identity closure.
+Definition 3 (Projective closure). A loop is projectively closed if
+                                              γtot (Γ) ∈ 2πZ.
+Definition 4 (Spinor identity closure). A loop is identity-closed at the spinor lift if
+                                              γtot (Γ) ∈ 4πZ.
+Equivalently, a 2π return may close the projective ray but still return with sign inversion at the
+lifted spinor level.
+    This distinction is essential:
+                                            2π                 4π
+                                          ψ −→ −ψ,       ψ −→ ψ.
+
+
+6    Holonomic Residue
+Definition 5 (Spinor holonomic residue). The spinor holonomic residue of a loop Γ is the class
+                                    1/2
+                               Rhol (Γ) = γtot (Γ) mod 4π ∈ R/(4πZ).
+For a real representative in the principal interval one may write
+                                                                    
+                               1/2                          γtot (Γ)
+                            Rhol (Γ) = γtot (Γ) − 4π nint              ,
+                                                              4π
+where nint(x) denotes the nearest integer, with a fixed tie convention.
+
+                                                     3
+     The residue vanishes if and only if the lifted spinor identity closes:
+                                  1/2
+                                 Rhol (Γ) = 0      ⇐⇒       γtot (Γ) ∈ 4πZ.
+
+Definition 6 (Projective holonomic residue). The projective residue is
+
+                                        Rproj
+                                         hol (Γ) = γtot (Γ) mod 2π.
+
+It detects projective closure but cannot distinguish a spinor sign inversion.
+
+
+7     Topological Identity Invariant
+Because ordinary U (1) phases have period 2π, the invariant that distinguishes spinor identity
+closure must be written with half-phase:
+                                                           
+                                   1/2            i
+                                  Iid (Γ) = exp     γtot (Γ) .
+                                                  2
+
+Then
+                                  1/2
+                                 Iid (Γ) = 1       ⇐⇒       γtot (Γ) ∈ 4πZ,
+whereas
+                           1/2
+                          Iid (Γ) = −1       ⇐⇒      γtot (Γ) ≡ 2π    (mod 4π).
+     For comparison, the projective invariant is
+
+                                         Iproj
+                                          id (Γ) = exp(iγtot (Γ)),
+
+which is blind to the difference between 0 and 2π at the spinor level.
+
+Proposition 1 (Identity closure criterion). The lifted spinor identity closes along Γ if and only
+if
+                                          1/2
+                                         Iid (Γ) = 1.
+It is projectively closed but spinor-inverted if
+                                                               1/2
+                                  Iproj
+                                   id (Γ) = 1      and      Iid (Γ) = −1.
+
+
+8     Irrational Mismatch and Quasi-Closure
+The source of nonclosure is not the bare fact that π is irrational. The source is incommensura-
+bility relative to the relevant closure lattice.
+    Let the phase increment per loop be ∆γ. Relative to the spinor closure quantum 4π, define
+                                                        ∆γ
+                                                   α=      .
+                                                        4π
+If
+                                                   α ∈ Z,
+the loop closes after one cycle. If
+                                                     p
+                                                α=     ∈ Q,
+                                                     q
+it closes after q cycles at the lifted level. If
+
+                                                   α∈
+                                                    / Q,
+
+
+                                                     4
+then the iterates
+                                           n∆γ mod 4π
+do not close periodically. They generate a quasi-periodic phase trace.
+   On the phase torus,
+                                    n(∆θC , ∆θH ) mod 2π
+may become dense when the two normalized increments are rationally independent. This is the
+toroidal expression of holonomic residue.
+
+
+9     Relation to Energetic Descent
+Energetic descent and identity closure are different certificates. Energetic descent is measured
+by
+                                         Ak (m0 ) > 0.
+Identity closure is measured by
+                                            1/2
+                                          Iid (Γk ) = 1.
+Thus there are four regimes:
+
+                                                                       1/2
+                                                             Ak > 0 Iid = 1
+                                F ullclosure                   yes      yes
+                     Energeticdescentwithphaseresidue          yes      no
+                       P haseclosurewithoutdescent             no       yes
+                       Openenergeticandphaseloop               no       no
+
+     The Collatz proof target remains energetic first descent:
+
+                                 ∀m0 > 1 odd,     ∃k : Ak (m0 ) > 0.
+
+The identity invariant does not replace this target. It refines the geometry by recording whether
+the phase system closes or leaves a holonomic trace.
+
+
+10      Interpretation
+The corrected architecture is:
+
+                           Poincare disk DE = energy/action/accretion
+
+                               phase torus T2ϕ = holonomy/memory
+
+          Aharonov–Bohm phase = bridge from energetic loops to phase displacement
+
+                         1/2
+                       Rhol = residue of incomplete spinor identity closure
+
+                                 1/2
+                               Iid = topological identity invariant.
+
+    This formalizes the statement: incomplete closure caused by phase incommensurability does
+not necessarily imply energetic failure. It leaves a holonomic residue, which functions as memory
+of the loop.
+
+
+
+
+                                                  5
+11    Next Target
+The next technical task is to couple the threshold descent variables
+
+                             Bk ,     Ck ,   Mk ,    δk = Bk − k log2 3
+
+to the holonomic residue variables
+                                                                  1/2
+                                     γB ,    γAB ,   γdyn ,     Rhol .
+
+The desired result would be a two-certificate theorem:
+                                                          1/2
+                                      Ak > 0     and Iid = 1,
+
+separating energetic descent from spinor-identity closure.
+
+
+
+
+                                                     6
+

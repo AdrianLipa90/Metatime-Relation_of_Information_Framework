@@ -1,0 +1,31 @@
+{
+  "schema": "METATIME_EULERBERRY_FREEZE_V0_1",
+  "status": "artifact_grounded_working_freeze_not_external_current",
+  "frozen": {
+    "kappa": "ln(2)/(24*pi)",
+    "spin_sector": "s=1/2 with 4*pi spinorial closure",
+    "total_connection": "A_EBI = A_AB + A_Berry + A_Euler + A_Information",
+    "D_symbol": "D_Lambda",
+    "lambda_surface": "A_Sigma = pi * R_H^2",
+    "D_Lambda": "Lambda * A_Sigma/(2*pi) = Lambda * R_H^2/2 = (3/2)*Omega_Lambda for flat LCDM",
+    "epsilon_symbol": "epsilon_nu",
+    "epsilon_nu": "Delta m_ij^2 * L/(4*pi*E) in natural units",
+    "closure": "(1/(2*pi))*oint_gamma A_EBI = D_Lambda + epsilon_nu + N_f",
+    "hamiltonian_split": "H = H_phase + H_rel",
+    "yukawa_status": "effective IR projection of holonomic chiral transition, not primitive parameter"
+  },
+  "open_derivation_debts": [
+    "exact W_s operator",
+    "exact Collatz/twin-prime rhythm rho_s(k)",
+    "exact zeta-polar anchor map",
+    "exact tetrahedral depth to SU(3)c map",
+    "exact hypercharge derivation",
+    "exact Euler-Berry action S_f^EB for mass hierarchy",
+    "anomaly cancellation derived from closure rather than imposed charges"
+  ],
+  "noema_boundary": {
+    "external_sot_claimed": false,
+    "external_current_ack_claimed": false,
+    "canon_allowed_without_noema_receipt": false
+  }
+}

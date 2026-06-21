@@ -1,0 +1,23 @@
+{
+  "schema": "METATIME_SM_EB_COHERENCE_SCHEMA_v1_9",
+  "status_taxonomy": ["definition", "ansatz", "lemma", "proof", "interpretation", "hypothesis", "validation_gate", "formal_debt"],
+  "debts_addressed": {
+    "debt_2": "Define Euler--Berry constructive coherence functional.",
+    "debt_4": "Derive seed-to-generation assignment after zeta coherence is promoted."
+  },
+  "inputs": [
+    "Killing generator polar axis from Debt 1",
+    "zeta imaginary zero axis from Debt 3",
+    "tetrahedral depth before Poincare disk",
+    "Collatz terminal axis 4-2-1-1/2",
+    "spin one-half closure",
+    "Fibonacci/Kepler/Collatz structural kernel"
+  ],
+  "no_mass_as_input": true,
+  "outputs": [
+    "coherence_score",
+    "coherence_action_modifier",
+    "seed_assignment_after_coherence",
+    "validation_order_status"
+  ]
+}

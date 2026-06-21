@@ -1,0 +1,328 @@
+                Step 7: Ramanujan–Theta Residue Encoding
+                         of Collatz Valuation Words
+                                                Adrian Lipa
+
+                                                May 26, 2026
+
+
+                                                   Abstract
+           This note continues the Bloch–Fubini–Study and block-action normal form developed
+       in Steps 1–6. Step 6 reduced accelerated Collatz dynamics to a threshold problem over
+       valuation words. Step 7 introduces a Ramanujan–theta residue encoding of those words. The
+       central point is not that Ramanujan’s formulae prove Collatz, but that they provide the
+       correct geometric language for combining three structures already present in the problem:
+       residue classes, quadratic deviations from the critical balance 2B ≈ 3k , and the modular
+       phase q = e2πiτ . In this language, the number 24 appears through the eta/discriminant
+       closure, while π appears through modular phase geometry. This supplies a second, modular
+       reading of the normalizer ln 2/(24π).
+
+
+1      Status of the Programme
+This document is not a proof of the Collatz conjecture. It introduces a Ramanujan–theta
+encoding that may be useful for the next stage of the finite compensation problem.
+   The proof-safe core remains the accelerated odd Collatz map
+                                                 3m + 1
+                                    T (m) =                ,       m odd,
+                                                2ν2 (3m+1)
+and the exact block action identity
+                                 k−1                                 
+                                 X                                  1          m0
+                    Ak (m0 ) =           ν2 (3mj + 1) ln 2 − ln 3 +       = ln    .
+                                                                    mj         mk
+                                 j=0
+
+Thus
+                                    Ak (m0 ) > 0          ⇐⇒     mk < m0 .
+    The remaining problem is therefore the finite compensation problem:
+
+                            ∀m0 > 1, m0 odd,              ∃k < ∞ : Ak (m0 ) > 0.
+
+
+2      Valuation Words and Thresholds
+For an accelerated Collatz orbit
+
+                                 m0 , m1 , m2 , . . . ,       mj+1 = T (mj ),
+
+define the valuation word
+
+                           wk = (b0 , b1 , . . . , bk−1 ),      bj = ν2 (3mj + 1),
+
+
+                                                          1
+and
+                                                           k−1
+                                                           X
+                                                  Bk =           bj .
+                                                           j=0
+     Step 6 established the exact affine word formula
+                                                        3k m0 + Ck
+                                               mk =                ,
+                                                            2Bk
+where
+                                  k−1
+                                  X                                  i−1
+                                                                     X
+                         Ck =           3k−1−i 2Bi ,       Bi =            bj ,   B0 = 0.
+                                  i=0                                j=0
+     Therefore
+                                                       mk < m0
+if and only if
+                                              (2Bk − 3k )m0 > Ck .
+     Whenever
+                                             Dk := 2Bk − 3k > 0,
+define the threshold
+                                                              Ck
+                                                   Mk :=         .
+                                                              Dk
+Then
+                                        mk < m0         ⇐⇒         m0 > Mk .
+
+
+3     The Critical Defect
+The correct critical balance is not Bk /k = 2. It is
+                                                  Bk
+                                                     = log2 3.
+                                                  k
+     Define the critical defect
+                                              δk := Bk − k log2 3.
+Then
+                                          2Bk = 2k log2 3+δk = 3k 2δk ,
+so
+                                        Dk = 2Bk − 3k = 3k (2δk − 1).
+Proposition 1 (Near-critical obstruction). If δk ≤ 0, then Dk ≤ 0, and the prefix wk cannot
+certify descent. If δk > 0 is small, then Dk is positive but small relative to 3k , hence the threshold
+                                                              Ck
+                                               Mk =
+                                                         3k (2δk − 1)
+can be large. Therefore hard prefixes are expected to cluster near
+                                                       δk = 0+ .
+Proof. The identity
+                                               Dk = 3k (2δk − 1)
+is immediate from the definition of δk . If δk ≤ 0, then 2δk − 1 ≤ 0, so Dk ≤ 0. Since Ck > 0 and
+m0 > 0, the inequality Dk m0 > Ck is impossible. If δk > 0 is small, then 2δk − 1 is small, so the
+threshold Mk = Ck /Dk can be large.
+   This explains the empirical observation from Step 5: the hardest first descents occur close to
+the critical line Bk /k = log2 3.
+
+                                                          2
+4    Ramanujan’s Role: Geometry of π and Modular Closure
+Ramanujan’s formulae do not merely approximate π efficiently. In the present interpretation,
+they show how π becomes geometric through modular phase.
+   Let
+                                       q = e2πiτ .
+The Dedekind eta function is
+                                                         ∞
+                                                         Y
+                                                  1/24
+                                      η(τ ) = q                (1 − q n ).
+                                                         n=1
+The modular discriminant is
+                                                           ∞
+                                                           Y
+                                  ∆(τ ) = η(τ )24 = q            (1 − q n )24 .
+                                                           n=1
+
+   Thus the number 24 is not an arbitrary scale in the modular setting. It is the closure
+exponent that removes the fractional q 1/24 eta phase and produces the discriminant.
+   Step 4 obtained
+                                        24π = 3 · 2 · 4π
+from the product of the terminal Collatz cell, the parity double sheet, and the spin- 12 Berry–Euler
+closure. Ramanujan’s modular geometry gives a second reading:
+                                            24π = (24) · π,
+where 24 is the eta/discriminant closure and π is the modular phase geometry of q = e2πiτ .
+   Consequently, the normalizer
+                                                 ln 2
+                                          OIb =
+                                                24π
+can be read as
+                                 2-adic contraction quantum
+                                                                .
+                             modular-geometric closure quantum
+
+5    Theta Encoding of Critical Defects
+Theta functions encode quadratic geometry. The classical model is
+                                                   2
+                                             X
+                                     θ(τ ) =   eπin τ .
+                                                     n∈Z
+
+For τ = it, t > 0, this becomes
+                                                                   2
+                                                     X
+                                           θ(it) =         e−πtn .
+                                                     n∈Z
+    The Collatz valuation-word problem has a natural quadratic defect
+                                       δk2 = (Bk − k log2 3)2 .
+We therefore define a diagnostic theta weight for a prefix wk :
+                                Kt (wk ) := exp(−2πtδk2 ),               t > 0.
+    This gives the orbit theta diagnostic
+                                                     τ (m0 )
+                                                         X
+                               ΘCollatz (t; m0 ) =              exp(−2πtδk2 ),
+                                                         k=1
+
+where τ (m0 ) is the first descent time:
+                                    τ (m0 ) = min{k : mk < m0 }.
+
+                                                     3
+Remark 1. The theta diagnostic is not a proof certificate. It identifies how much of the
+pre-descent word lies near the critical balance 2Bk ≈ 3k . Hard orbits are expected to have large
+near-critical contributions.
+
+
+6    Bad-Prefix Theta Series
+A prefix is called non-compensating if it has not yet certified descent:
+
+                                               mk ≥ m0 .
+
+Equivalently,
+                                             Ak (m0 ) ≤ 0.
+    For a fixed search region S, define the finite bad-prefix theta series
+                                       X       X
+                         Θbad (t; S) =                exp(−2πtδk (m0 )2 ).
+                                         m0 ∈S 1≤k<τ (m0 )
+
+    The proposed infinite obstruction problem is:
+
+Conjecture 1 (No infinite non-compensating theta stream). There is no positive odd integer
+m0 > 1 whose accelerated Collatz valuation word produces an infinite non-compensating stream
+with every prefix failing the descent inequality
+
+                                         (2Bk − 3k )m0 > Ck .
+
+Equivalently, every positive odd integer has finite first descent.
+
+   This conjecture is exactly Collatz in first-descent form. The point of Step 7 is not to solve it
+immediately, but to encode its hard prefixes in a Ramanujan–theta language.
+
+
+7    Residue Classes and Modular Encoding
+For each finite valuation word wk , Step 6 gives the residue class of starting values realizing that
+word:
+                              m0 ≡ (2Bk − Ck )3−k (mod 2Bk +1 ).
+    Therefore, finite words are local residue objects. Since every finite positive valuation word
+can be realized by infinitely many odd starts, local exclusion is impossible. The obstruction, if it
+exists, must be global: an infinite non-compensating word may exist as a 2-adic object but fail
+to correspond to a positive ordinary integer.
+    The Ramanujan–theta strategy is to encode these residue classes by a q-series whose exponents
+measure their distance from the critical balance and whose coefficients count or weight admissible
+residue classes.
+    A schematic generating function is
+                                X
+                                    ρ(w) exp −2πt(Bw − k log2 3)2 uBw +1 ,
+                                                                    
+                      R(t, u) =
+                                 w
+
+where ρ(w) is a residue admissibility weight. In the simplest finite model,
+
+                                                ρ(w) = 1
+
+for realized prefixes and 0 otherwise.
+
+
+                                                    4
+8      Empirical Diagnostics
+A scan over odd starts 3 ≤ m0 ≤ 106 gave no failures of first descent. The hardest first descent
+in this range was
+                        m0 = 626331,     τ (m0 ) = 111,       Bτ = 176.
+Thus
+                                     Bτ   176
+                                        =     = 1.585585585 . . . ,
+                                     τ    111
+which is close to
+                                       log2 3 = 1.584962500 . . . .
+The critical defect at descent is
+
+                                 δτ = 176 − 111 log2 3 ≈ 0.06916241995.
+
+    This confirms the near-critical picture: difficult first descents occur close to the balance
+surface
+                                             δ = 0.
+
+                       seed m0      first descent k       Bk       Bk /k         δk
+                        626331                 111        176   1.585586   0.069162
+                        667375                 110        176   1.600000   1.654125
+                        704623                 109        173   1.587156   0.239087
+                        381727                 109        174   1.596330   1.239087
+                        401151                 105        169   1.609524   2.578937
+
+
+9      Interpretation
+The mathematical picture after Step 7 is the following.
+
+    (i) Collatz valuation words are residue-class objects.
+
+ (ii) Descent is governed by the threshold inequality
+
+                                             (2Bk − 3k )m0 > Ck .
+
+ (iii) The critical balance is
+                                              Bk − k log2 3 = 0.
+
+ (iv) Hard prefixes cluster near this balance.
+
+ (v) Ramanujan–theta geometry supplies a natural way to encode squared distance from this
+     balance.
+
+ (vi) Eta/discriminant modular closure supplies a second structural reading of the 24 in 24π.
+
+  Thus Ramanujan enters not as decoration, but because the obstruction has become a
+modular-residue problem with a quadratic critical defect.
+
+
+
+
+                                                      5
+10      Next Step
+The next step should not be a further heuristic layer. It should be a precise search for a modular
+obstruction:
+
+      Can an infinite non-compensating valuation word define a positive
+      integer, or only a nonstandard/2-adic object?
+
+     Equivalently, one must test whether the nested residue classes
+
+                                       rwk   (mod 2Bk +1 )
+
+associated with an indefinitely non-compensating theta stream can have a positive integer
+representative.
+   If this can be ruled out, the finite compensation theorem follows. If it cannot, the Ramanujan–
+theta encoding remains a useful diagnostic, but not a proof mechanism.
+
+
+11      Conclusion
+Step 7 reframes the finite compensation problem in Ramanujan–theta language. The key bridge
+is
+                                      δk = Bk − k log2 3,
+whose square is the natural theta exponent measuring distance from the critical balance 2Bk ≈ 3k .
+   The normalizer
+                                             ln 2
+                                             24π
+now has two compatible readings:
+                                  2-adic contraction quantum
+                                 Berry–Euler spinor closure cell
+and
+                                2-adic contraction quantum
+                                                                    .
+                         Ramanujan eta/discriminant modular closure
+     The proof target remains unchanged and precise:
+
+                            ∀m0 > 1 odd,     ∃k : (2Bk − 3k )m0 > Ck .
+
+
+References
+[1] B. C. Berndt, Ramanujan’s Notebooks, Parts I–V, Springer.
+
+[2] T. M. Apostol, Modular Functions and Dirichlet Series in Number Theory, Springer.
+
+[3] G. H. Hardy, Ramanujan: Twelve Lectures on Subjects Suggested by His Life and Work,
+    Cambridge University Press.
+
+[4] N. Koblitz, Introduction to Elliptic Curves and Modular Forms, Springer.
+
+
+
+
+                                                6
+

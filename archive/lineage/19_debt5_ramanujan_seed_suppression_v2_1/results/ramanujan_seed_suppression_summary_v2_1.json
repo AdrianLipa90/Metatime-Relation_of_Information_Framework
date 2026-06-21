@@ -1,0 +1,25 @@
+{
+  "version": "v2.1",
+  "kappa_ln2_over_24pi": 0.009193150006360484,
+  "candidate_count": 9,
+  "canonical_seeds": [
+    [
+      3,
+      5
+    ],
+    [
+      5,
+      7
+    ],
+    [
+      11,
+      13
+    ]
+  ],
+  "min_canonical_visibility": 0.08694825430638196,
+  "max_extended_visibility": 0.010695774671029383,
+  "extended_visibility_exceptions_count": 0,
+  "extended_visibility_exceptions": [],
+  "validation_status": "PASS",
+  "interpretation": "Ramanujan scaling is installed as an asymptotic/resonance gate. It does not yet prove exactly three generations; it creates a quantitative ledger for suppressing or quarantining extended twin-prime candidates without using masses."
+}

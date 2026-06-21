@@ -1,0 +1,58 @@
+{
+  "derivation_id": "MU_TAU_RELEASE_V6_8_CANDIDATE_A",
+  "formula": "R_mu_tau = 3*OI - OI/L3 - (L3/2)*OI^2",
+  "formula_fingerprint_sha256": "74a34dbd56ad69f94f4fa7ae75d90e2a132f2996a3b9a6e3f382d39c6c057aa9",
+  "input_policy": {
+    "uses_muon_mass_as_input": false,
+    "uses_tau_mass_as_input": false,
+    "uses_pdg_tables_as_input": false,
+    "uses_exact_replay_tables_as_input": false,
+    "uses_v6_1_action_targets_as_input": false,
+    "allowed_inputs": [
+      "OI_information_preference_quantum",
+      "L3_base_channel_7",
+      "White_Thread_quadratic_amplitude_correction",
+      "spin_half_factor_L3_over_2"
+    ],
+    "scoring_inputs_separated": [
+      "muon_reference_energy_mev_scoring_only",
+      "tau_reference_energy_mev_scoring_only",
+      "v6_1_target_S_mu_scoring_only",
+      "v6_1_target_S_tau_scoring_only"
+    ]
+  },
+  "operator_sources_required": [
+    "OP-OI",
+    "OP-COLLATZ/L3",
+    "OP-WHITE-THREAD",
+    "OP-KAPPA-EB/spin-half-factor"
+  ],
+  "component_values": {
+    "OI": 0.009193150006360484,
+    "L3": 7.0,
+    "three_preference_quanta_3OI": 0.02757945001908145,
+    "l3_return_subtraction_OI_over_L3": 0.0013133071437657835,
+    "white_thread_spin_l3_quadratic_L3_over_2_OI2": 0.00029579902463806017
+  },
+  "derived_mu_tau_release_action": 0.025970343850677605,
+  "predicted_tau_over_mu_energy_ratio": 16.860385753573407,
+  "scoring_only": {
+    "muon_reference_energy_mev_scoring_only": 105.65838,
+    "tau_reference_energy_mev_scoring_only": 1776.86,
+    "v6_1_target_S_mu_scoring_only": 0.424689,
+    "v6_1_target_S_tau_scoring_only": 0.398742,
+    "target_tau_over_mu_energy_ratio": 16.817028616187375,
+    "target_mu_tau_release_from_measured_ratio_scoring_only": 0.02594667285956912,
+    "target_mu_tau_release_from_v6_1_actions_scoring_only": 0.025946999999999998,
+    "action_abs_error_vs_measured_ratio_target": 2.367099110848342e-05,
+    "action_rel_error_vs_measured_ratio_target": 0.0009122938897251934,
+    "action_rel_error_percent_vs_measured_ratio_target": 0.09122938897251934,
+    "energy_ratio_abs_error": 0.04335713738603175,
+    "energy_ratio_rel_error": 0.0025781687345348254,
+    "energy_ratio_rel_error_percent": 0.25781687345348253,
+    "action_abs_error_vs_v6_1_target": 2.3343850677606803e-05
+  },
+  "status": "MU_TAU_RELEASE_REFINED_DERIVATION_GATE_PASS_NOT_CANON",
+  "canon_allowed": false,
+  "mass_spectrum_closure_claimed": false
+}

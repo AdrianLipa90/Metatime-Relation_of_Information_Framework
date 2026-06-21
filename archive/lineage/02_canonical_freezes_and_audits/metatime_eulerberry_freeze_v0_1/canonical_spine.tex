@@ -1,0 +1,72 @@
+\documentclass[11pt]{article}
+\usepackage[a4paper,margin=1in]{geometry}
+\usepackage{amsmath,amssymb,bm}
+\title{METATIME Euler--Berry Canonical Freeze v0.1}
+\author{Artifact-grounded working note}
+\date{2026-06-19}
+\begin{document}
+\maketitle
+
+\section{Frozen scale}
+\[
+\kappa=\frac{\ln2}{24\pi}.
+\]
+
+\section{Total connection}
+\[
+\mathcal A_{\rm EBI}=\mathcal A_{\rm AB}+\mathcal A_{\rm B}+\mathcal A_{\rm E}+\mathcal A_{\mathcal I}.
+\]
+
+\section{Lambda and neutrino sectors}
+\[
+D_\Lambda=\frac{1}{2\pi}\int_\Sigma\Lambda\,dA,
+\qquad A_\Sigma=\pi R_H^2,
+\qquad R_H=\frac{c}{H_0}.
+\]
+\[
+D_\Lambda=\frac{\Lambda R_H^2}{2}=\frac32\Omega_\Lambda.
+\]
+\[
+\epsilon_\nu^{ij}=\frac{\Delta m_{ij}^2L}{4\pi E}.
+\]
+
+\section{Closure}
+\[
+\mathfrak C_f[\gamma]=\frac{1}{2\pi}\oint_{\gamma_f}\mathcal A_{\rm EBI}.
+\]
+\[
+\mathfrak C_f[\gamma]=D_\Lambda+\epsilon_\nu^{ij}+N_f,
+\qquad N_f\in\mathbb Z.
+\]
+
+\section{Hamiltonian}
+\[
+\hat H_s(\tau,k)=\hat H_{{\rm phase},s}(\tau,k)+\hat H_{{\rm rel},s}(\tau,k).
+\]
+\[
+\hat H_{{\rm phase},s}(\tau,k)
+=
+\frac{\hbar}{\Delta\tau_k}\rho_s(k)
+\left[\kappa\hat W_s+\delta\hat{\mathcal I}_0(\tau)\right].
+\]
+\[
+\hat H_{{\rm rel},s}=\frac12g_{\rm FS}^{ab}\hat\Pi_a\hat\Pi_b+V_s.
+\]
+\[
+\hat\Pi_a=-i\hbar\nabla_a-
+\hbar(\mathcal A_{{\rm AB},a}+\mathcal A_{{\rm B},a}+\mathcal A_{{\rm E},a})-
+\lambda_s(k)\mathcal I_a.
+\]
+
+\section{Holonomic mass operator}
+\[
+\hat{\mathcal M}^{(f)}_{\rm hol}
+=
+M_0\Pi_{R,f}\mathcal P\exp\left[i\oint_{\gamma_f}\mathcal A_{\rm EBI}\right]\Pi_{L,f}
+\exp\left[-\frac{\mathcal S_f^{\rm EB}}{\kappa}\right].
+\]
+\[
+y_f^{\rm eff}=\frac{\sqrt2}{v}\left|\lambda_f(\hat{\mathcal M}^{(f)}_{\rm hol})\right|.
+\]
+
+\end{document}

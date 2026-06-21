@@ -1,0 +1,23 @@
+{
+  "schema": "METATIME_ARCHIVE_FORMULA_FORMALIZATION_REPAIR1",
+  "created_utc": "2026-06-20T09:22:58Z",
+  "base_repo": "METATIME_STANDARD_MODEL_DERIVATION_MERGED_REPO_v3_6_NO_NESTED_ZIPS.zip",
+  "base_repo_sha256": "077e8b51948a59786d7894c6f92ea70ab8a94ee61e72aa1f16c331e387bc3530",
+  "repo_modified_from_base": "append-only repair from v3.6",
+  "principle": "archive formulas are user-owned working formulas; do not reject because old. Use them, but preserve dependency provenance.",
+  "not_allowed": [
+    "claim table lookup as emergent derivation",
+    "hide fitted/calibrated dependencies",
+    "turn provenance audit into refusal to calculate",
+    "call technical PASS a substantive PASS",
+    "continue from v3.9 as if v3.6 repair was not requested"
+  ],
+  "allowed": [
+    "execute archive formulas as working formulas",
+    "report numerical results",
+    "separate formula execution from proof of clean emergence",
+    "write dependency ledger",
+    "use old documents as source sketch"
+  ],
+  "next_step": "Implement formula-by-formula derivation from archive source files, preserving dependency ledger; then compute masses with formula provenance attached."
+}

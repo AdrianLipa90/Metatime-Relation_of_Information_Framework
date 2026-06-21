@@ -1,0 +1,150 @@
+{
+  "schema": "METATIME_SM_HOLONOMIC_GLUON_WIJ_V4_0",
+  "created_utc": "2026-06-20T16:25:00Z",
+  "status": "PASS",
+  "module": "40_holonomic_gluon_wij_couplings_v4_0",
+  "base_module": "39_tetrahedral_triplet_su3_lift_v3_9",
+  "user_operator_statement": "Dynamika gluonow jest holonomiczna. To sprzezenia W_ij miedzy kwarkami.",
+  "formal_correction": "W_ij is the SU(3)-valued holonomic parallel transport/coupling between triplet quark nodes; gluon modes are the local su(3) generator/curvature components of W_ij holonomy, not scalar W_ij weights by themselves.",
+  "quark_nodes": [
+    "q_color_0",
+    "q_color_1",
+    "q_color_2"
+  ],
+  "W_ij_definition": {
+    "carrier": "C^3 triplet inherited from tetrahedral residual modes; CP2 ray carrier after projectivization",
+    "link_type": "SU(3)-valued parallel transport/coupling W_ij: q_j -> q_i",
+    "reverse_link_rule": "W_ji = W_ij^dagger",
+    "gauge_transformation_rule": "W_ij -> G_i W_ij G_j^dagger",
+    "loop_holonomy": "U_012 = W_01 W_12 W_20",
+    "curvature_proxy": "F_loop ~ traceless Hermitian part of (U_loop - U_loop^dagger)/(2i)"
+  },
+  "angles_used_for_structure_test_not_fits": {
+    "theta_01": 0.28559933214452665,
+    "theta_12": 0.241660973353061,
+    "theta_20": 0.18479956785822313
+  },
+  "guardrails": {
+    "PDG_or_mass_reference_input": false,
+    "observed_masses_input": false,
+    "CKM_PMNS_input": false,
+    "mass_prediction_claimed": false,
+    "full_QCD_claimed": false,
+    "confinement_claimed": false,
+    "running_coupling_claimed": false,
+    "hadron_spectrum_claimed": false,
+    "Debt_9_status": "OPEN_NOT_CLOSED",
+    "canon_allowed": false
+  },
+  "link_validation": {
+    "all_links_su3": true,
+    "link_su3_status": {
+      "W_01": true,
+      "W_02": true,
+      "W_10": true,
+      "W_12": true,
+      "W_20": true,
+      "W_21": true
+    },
+    "reverse_unitarity_status": {
+      "W_01_equals_W_10_dagger": true,
+      "W_12_equals_W_21_dagger": true,
+      "W_20_equals_W_02_dagger": true
+    },
+    "all_reverse_links_are_daggers": true
+  },
+  "loop_holonomy_validation": {
+    "loop": [
+      0,
+      1,
+      2
+    ],
+    "U_loop_is_SU3": true,
+    "det_U_loop": {
+      "re": 0.9999999999999998,
+      "im": 0.0
+    },
+    "trace_U_loop": {
+      "re": 2.8167883755848027,
+      "im": 0.0
+    },
+    "wilson_loop_defect_3_minus_ReTrU": 0.18321162441519734,
+    "curvature_proxy_frobenius_norm": 0.5913036437989937,
+    "su3_projection_residual": 0.0,
+    "active_gell_mann_modes_1_indexed": [
+      1,
+      4,
+      7
+    ],
+    "gell_mann_mode_coefficients": {
+      "lambda_1": 0.2963371609009161,
+      "lambda_2": 0.0,
+      "lambda_3": 0.0,
+      "lambda_4": 0.21049573554185996,
+      "lambda_5": 0.0,
+      "lambda_6": 0.0,
+      "lambda_7": 0.2066296977030638,
+      "lambda_8": 0.0
+    },
+    "U_loop_matrix": [
+      [
+        {
+          "re": 0.930766836088008,
+          "im": 0.0
+        },
+        {
+          "re": 0.0,
+          "im": 0.27354592076770623
+        },
+        {
+          "re": 0.0,
+          "im": 0.24258138030373838
+        }
+      ],
+      [
+        {
+          "re": 0.0,
+          "im": 0.319128401034126
+        },
+        {
+          "re": 0.931611851608787,
+          "im": 0.0
+        },
+        {
+          "re": 0.17394373111856987,
+          "im": 0.0
+        }
+      ],
+      [
+        {
+          "re": 0.0,
+          "im": 0.17841009077998152
+        },
+        {
+          "re": -0.23931566428755774,
+          "im": 0.0
+        },
+        {
+          "re": 0.9544096878880074,
+          "im": 0.0
+        }
+      ]
+    ]
+  },
+  "gauge_covariance_validation": {
+    "gauge_covariance_residual": 1.7840135748804925e-16,
+    "trace_invariant_residual": 4.440908838201464e-16,
+    "curvature_norm_invariant_residual": 0.0,
+    "gauge_covariance_pass": true,
+    "trace_invariance_pass": true,
+    "curvature_norm_invariance_pass": true
+  },
+  "action_layer_candidate": {
+    "unscaled_wilson_action_density_proxy": 0.18321162441519734,
+    "information_operator_g_info_ln2_over_24pi": 0.009193150006360484,
+    "info_scaled_action_density_proxy": 2167.8255573621755,
+    "ramanujan_scaling_status": "LOCKED_FOR_FUTURE_COUPLING_NORMALIZATION_NOT_USED_AS_FIT_FACTOR_HERE",
+    "interpretation": "The loop defect is a holonomic Yang-Mills-like action candidate on the W_ij graph. It is structural, not an empirical coupling fit."
+  },
+  "doctor_verdict": "CONTINUE_RESEARCH__HOLONOMIC_GLUON_WIJ_PASS__FULL_QCD_NOT_CLOSED"
+}

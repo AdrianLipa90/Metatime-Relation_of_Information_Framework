@@ -1,0 +1,13 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "METATIME_DEBT9_HADRON_SCALE_PROVENANCE_AUDIT_V5_8",
+  "type": "object",
+  "required": [
+    "schema",
+    "technical_status",
+    "formal_status",
+    "substantive_status",
+    "decision",
+    "scale_provenance_tests"
+  ]
+}

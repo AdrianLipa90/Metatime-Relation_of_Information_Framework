@@ -1,0 +1,7 @@
+{
+  "archive_canonical_spectrum_reference_replay": true,
+  "noparam_outputs_equal_PDG_at_OI_ref": true,
+  "noparam_mutation_follows_PDG_input": true,
+  "debt9_status": "OPEN_NOT_CLOSED",
+  "doctor_verdict": "QUARANTINE_MODULE36_DENY_CANON_DENY_CURRENT"
+}

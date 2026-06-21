@@ -1,0 +1,32 @@
+{
+  "module": "METATIME_SM_DEBT1_KILLING_GENERATOR_POLAR_AXIS_v1_7",
+  "version": "1.7",
+  "addresses_debts": [
+    "Debt 1",
+    "Debt 3 constraint update"
+  ],
+  "formal_status_tags": [
+    "DEFINITION",
+    "LEMMA",
+    "PROOF",
+    "ANSATZ",
+    "INTERPRETATION",
+    "RESULT",
+    "VALIDATION_GATE",
+    "DEBT_STATUS"
+  ],
+  "core_definition": {
+    "W_s": "-i Lie derivative along seed-selected Killing field V_s on CP1 ~= S2_Bloch",
+    "poles": "zeros/fixed points of V_s",
+    "pole_count": 2,
+    "pole_index_each": 1,
+    "index_sum": 2
+  },
+  "effect_on_zeta_polar_map": "N,S are fixed points of one Killing field; zeta index assignment must respect this geometry and cannot select arbitrary unrelated labels.",
+  "non_claims": [
+    "No numerical mass prediction",
+    "No final CKM/PMNS mixing",
+    "No proof yet of physical axis selection",
+    "No proof yet that a specific twin-prime sector uniquely fixes weak isospin axis"
+  ]
+}

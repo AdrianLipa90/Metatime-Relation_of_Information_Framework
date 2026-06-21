@@ -1,0 +1,10 @@
+fermion,class,assigned_generation_v10,seed_p,seed_q,generation_damping_unit,representation_action_unit,chiral_gate_unit,total_structural_action_unit_v10,total_structural_action_kappa_v10,uses_observed_mass_as_input,prediction_status
+e,charged_lepton,1,3,5,0.8471633855025916,2.5,2.0,5.347163385502592,0.049157275111443695,False,ordinal_structure_only_not_numeric_mass_prediction
+d,down_quark,1,3,5,0.8471633855025916,1.0876164691516155,2.0,3.934779854654207,0.036173021445841426,False,ordinal_structure_only_not_numeric_mass_prediction
+u,up_quark,1,3,5,0.8471633855025916,0.9209498024849487,2.0,3.7681131879875402,0.03464082977811468,False,ordinal_structure_only_not_numeric_mass_prediction
+mu,charged_lepton,2,5,7,0.6088811663290957,2.5,2.0,5.108881166329096,0.04696671092673328,False,ordinal_structure_only_not_numeric_mass_prediction
+s,down_quark,2,5,7,0.6088811663290957,1.0876164691516155,2.0,3.696497635480711,0.03398245726113101,False,ordinal_structure_only_not_numeric_mass_prediction
+c,up_quark,2,5,7,0.6088811663290957,0.9209498024849487,2.0,3.5298309688140446,0.03245026559340427,False,ordinal_structure_only_not_numeric_mass_prediction
+tau,charged_lepton,3,11,13,0.23926393244694075,2.5,2.0,4.73926393244694,0.0435687642507186,False,ordinal_structure_only_not_numeric_mass_prediction
+b,down_quark,3,11,13,0.23926393244694075,1.0876164691516155,2.0,3.3268804015985562,0.030584510585116336,False,ordinal_structure_only_not_numeric_mass_prediction
+t,up_quark,3,11,13,0.23926393244694075,0.9209498024849487,2.0,3.1602137349318893,0.029052318917389585,False,ordinal_structure_only_not_numeric_mass_prediction

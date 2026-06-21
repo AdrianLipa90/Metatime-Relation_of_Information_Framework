@@ -1,0 +1,237 @@
+{
+  "allowed_statuses": [
+    "ACTIVE_NOW",
+    "BLOCKED_WITH_REASON",
+    "CLOSED",
+    "MERGED_INTO_DEPENDENCY",
+    "QUARANTINED_WITH_TRACE"
+  ],
+  "base_artifact": "METATIME_STANDARD_MODEL_DERIVATION_MERGED_REPO_v6_2R_CONTINUITY_RESTORED_FROM_v6_0A_NO_NESTED_ZIPS.zip",
+  "base_sha256": "05dff52126cedc41c9c188262d10e0e0c395f1c356a619e621094dae2e1ba3c1",
+  "closure_queue": [
+    {
+      "action": "Build v6.4 exact-table / replay / PDG provenance matrix.",
+      "blocks": [
+        "DEBT-006",
+        "DEBT-007",
+        "DEBT-009"
+      ],
+      "debt_id": "DEBT-005",
+      "order": 1
+    },
+    {
+      "action": "Build operator source index across repo docs and modules.",
+      "blocks": [
+        "DEBT-006",
+        "DEBT-007"
+      ],
+      "debt_id": "DEBT-011",
+      "order": 2
+    },
+    {
+      "action": "Build unit-anchor ledger and remove/quarantine anchor claims.",
+      "blocks": [
+        "DEBT-007",
+        "DEBT-009"
+      ],
+      "debt_id": "DEBT-006",
+      "order": 3
+    },
+    {
+      "action": "Derive absolute electron action S_e from predeclared geometry.",
+      "blocks": [
+        "DEBT-008",
+        "DEBT-010"
+      ],
+      "debt_id": "DEBT-007",
+      "order": 4
+    },
+    {
+      "action": "Return to baryon/meson split after provenance and anchor gates.",
+      "blocks": [],
+      "debt_id": "DEBT-009",
+      "order": 5
+    }
+  ],
+  "compile_quarantine": {
+    "action": "PRESERVE_CONTENT_CHANGE_EXECUTABILITY",
+    "debt_id": "DEBT-004",
+    "external_archive_added": false,
+    "information_loss": false,
+    "new_path": "00_original_metatime/Metatime-main/simulations/Standard Model/plots.py.md",
+    "new_sha256": "bdb792ce037aa8bab58ebcaeb9d04fc8b0864dfa26ba0139c44e0abd9b520816",
+    "original_path": "00_original_metatime/Metatime-main/simulations/Standard Model/plots.py",
+    "original_sha256": "bdb792ce037aa8bab58ebcaeb9d04fc8b0864dfa26ba0139c44e0abd9b520816",
+    "reason": "File content is a Markdown document with fenced Python and LaTeX sections; keeping .py extension breaks full-root compileall. Content preserved byte-for-byte under non-executable .md extension."
+  },
+  "created_utc": "2026-06-21T10:26:33Z",
+  "debts": [
+    {
+      "closure_action": "Use v6.0A as byte parent; quarantine previous gap-branch as non-current; preserve 60B/61/62 only as add-on modules on restored parent.",
+      "evidence": [
+        "v6.0A uploaded and verified as parent",
+        "v6.2R restored full tree from v6.0A",
+        "v6.3 inherits v6.2R"
+      ],
+      "id": "DEBT-000",
+      "next_allowed_action": "Proceed only from v6.3 artifact or later.",
+      "severity": "CRITICAL",
+      "status": "CLOSED",
+      "title": "Artifact lineage gap / false-continuity risk",
+      "validation": "Required dirs 37-59 and 60A present in v6.3 tree."
+    },
+    {
+      "closure_action": "Final package includes unpacked repo tree only; source archives remain outside artifact.",
+      "evidence": [
+        "Final ZIP scan reports nested_archives_count = 0",
+        "Source ZIPs are not embedded into repo"
+      ],
+      "id": "DEBT-001",
+      "next_allowed_action": "Keep invariant in every future export.",
+      "severity": "CRITICAL",
+      "status": "CLOSED",
+      "title": "No nested archives invariant",
+      "validation": "Archive extension scan over final ZIP entries."
+    },
+    {
+      "closure_action": "Mark old standalone gap artifacts non-current; restored add-ons are retained only through v6.2R/v6.3 lineage.",
+      "evidence": [
+        "Previous v6.0B/v6.1/v6.2 gap-line no longer current",
+        "v6.2R and v6.3 built on v6.0A parent"
+      ],
+      "id": "DEBT-002",
+      "next_allowed_action": "Do not cite standalone gap artifacts as parent.",
+      "severity": "CRITICAL",
+      "status": "CLOSED",
+      "title": "Gap-branch quarantine",
+      "validation": "Continuity restore ledger and v6.3 register."
+    },
+    {
+      "closure_action": "Freeze v6.3 as first debt-managed restored lineage artifact.",
+      "evidence": [
+        "All expected top-level modules 00/01/02/10/12-59/60A/60B/61/62 present"
+      ],
+      "id": "DEBT-003",
+      "next_allowed_action": "Use v6.3 as working base.",
+      "severity": "CRITICAL",
+      "status": "CLOSED",
+      "title": "Full module continuity 00-62",
+      "validation": "Expected directory check generated in validation JSON."
+    },
+    {
+      "closure_action": "Preserve exact content and change executability from .py to .py.md; record original SHA and new SHA.",
+      "evidence": [
+        "File content is a Markdown document with fenced Python and LaTeX sections; keeping .py extension breaks full-root compileall. Content preserved byte-for-byte under non-executable .md extension."
+      ],
+      "id": "DEBT-004",
+      "next_allowed_action": "Do not restore markdown document as executable .py.",
+      "severity": "HIGH",
+      "status": "CLOSED",
+      "title": "Legacy full-root compile blocker",
+      "validation": "Full-root python compileall returns PASS after quarantine."
+    },
+    {
+      "closure_action": "Classify every exact/replay/benchmark table as SOURCE_DERIVED, STRUCTURAL_HINT, SCORING_ONLY, TAINTED_REPLAY, or UNKNOWN_PROVENANCE before further physics claims.",
+      "evidence": [
+        "Modules 37, 44, 46, 58 contain provenance and benchmark-related gates"
+      ],
+      "id": "DEBT-005",
+      "next_allowed_action": "Build v6.4 provenance matrix before new benchmark usage.",
+      "severity": "HIGH",
+      "status": "ACTIVE_NOW",
+      "title": "Exact table / PDG replay provenance classification",
+      "validation": "v6.4 table provenance matrix required."
+    },
+    {
+      "closure_action": "Create anchor ledger: input anchors, scoring anchors, derived anchors, forbidden anchors; remove or explicitly quarantine each.",
+      "evidence": [
+        "electron, proton/hadron scale, u/c quark anchors remain logically distinct from pure derivation"
+      ],
+      "id": "DEBT-006",
+      "next_allowed_action": "No pure-mass claim until anchor ledger is closed.",
+      "severity": "HIGH",
+      "status": "ACTIVE_NOW",
+      "title": "Unit anchors removal ledger",
+      "validation": "v6.5 anchor audit must tag every mass or scale source."
+    },
+    {
+      "closure_action": "Derive S_e from predeclared geometry without using electron mass as input.",
+      "evidence": [
+        "v6.1 target ledger and v6.2 release probe define relative action but not absolute S_e derivation"
+      ],
+      "id": "DEBT-007",
+      "next_allowed_action": "Only after DEBT-005 and DEBT-006 gates.",
+      "severity": "HIGH",
+      "status": "ACTIVE_NOW",
+      "title": "Absolute charged-lepton electron action offset S_e",
+      "validation": "v6.6 must freeze formula before scoring against masses."
+    },
+    {
+      "closure_action": "Refine only after S_e and anchor ledger are controlled.",
+      "evidence": [
+        "v6.2 shows partial signal, weaker than e-to-mu"
+      ],
+      "id": "DEBT-008",
+      "merged_into": "DEBT-007",
+      "next_allowed_action": "No isolated tuning.",
+      "severity": "MEDIUM",
+      "status": "MERGED_INTO_DEPENDENCY",
+      "title": "mu-to-tau release refinement",
+      "validation": "Separate v6.x release freeze required."
+    },
+    {
+      "blocker": "DEBT-005 provenance classification and DEBT-006 anchor ledger must complete first.",
+      "closure_action": "After table and anchor gates, freeze baryon triplet and meson pair-state operators separately.",
+      "evidence": [
+        "v5.6-v6.0A establish quark confinement, triplet aggregation, hadron benchmark; meson sector remains separate"
+      ],
+      "id": "DEBT-009",
+      "next_allowed_action": "No mixed hadron/meson benchmark.",
+      "severity": "HIGH",
+      "status": "BLOCKED_WITH_REASON",
+      "title": "Hadron and meson sector split",
+      "validation": "Separate baryon/meson validation files."
+    },
+    {
+      "closure_action": "Treat E0 as dimensional carrier; close through S_I derivation and anchor ledger.",
+      "evidence": [
+        "v6.1 installs Planck E0 ledger; energy scale is dimensionally strong but mass spectrum requires derived S_I"
+      ],
+      "id": "DEBT-010",
+      "merged_into": "DEBT-007",
+      "next_allowed_action": "Continue via action derivation.",
+      "severity": "HIGH",
+      "status": "MERGED_INTO_DEPENDENCY",
+      "title": "Absolute E0 normalizer status",
+      "validation": "No E0-alone mass claim."
+    },
+    {
+      "closure_action": "Create operator-to-document-to-module index; bind each operator to provenance path and module usage.",
+      "evidence": [
+        "Prior modules and user constraints require systematic source mapping from documents"
+      ],
+      "id": "DEBT-011",
+      "next_allowed_action": "Use index before formula expansion.",
+      "severity": "HIGH",
+      "status": "ACTIVE_NOW",
+      "title": "Document operator index: Ramanujan, OI, Collatz, White Thread, sigma/R",
+      "validation": "v6.4/v6.5 must cite operator source files in repo artifacts."
+    },
+    {
+      "closure_action": "Every future debt must be CLOSED, ACTIVE_NOW, BLOCKED_WITH_REASON, MERGED_INTO_DEPENDENCY, or QUARANTINED_WITH_TRACE.",
+      "evidence": [
+        "This register introduces closed debt statuses and closure queue"
+      ],
+      "id": "DEBT-012",
+      "next_allowed_action": "Append-only debt updates only.",
+      "severity": "CRITICAL",
+      "status": "CLOSED",
+      "title": "Debt process invariant",
+      "validation": "v6.3 validation rejects unknown debt statuses."
+    }
+  ],
+  "expected_module_dirs_missing": [],
+  "mode": "DEBT_REGISTER_AND_CLOSURE_QUEUE_ONLY_NO_NEW_PHYSICS",
+  "schema": "METATIME_MASTER_DEBT_REGISTER_v6_3",
+  "user_constraint_no_chyba": true
+}

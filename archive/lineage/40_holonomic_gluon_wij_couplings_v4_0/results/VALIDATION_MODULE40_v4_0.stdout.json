@@ -1,0 +1,311 @@
+{
+  "schema": "VALIDATION_MODULE40_HOLONOMIC_GLUON_WIJ_V4_0",
+  "status": "PASS",
+  "checks": [
+    {
+      "name": "script_exit_zero",
+      "ok": true,
+      "detail": 0
+    },
+    {
+      "name": "result_json_exists",
+      "ok": true,
+      "detail": "/mnt/data/work_v40/METATIME_STANDARD_MODEL_DERIVATION_MERGED_REPO_v4_0_HOLONOMIC_GLUON_WIJ_NO_NESTED_ZIPS/40_holonomic_gluon_wij_couplings_v4_0/results/holonomic_gluon_wij_v4_0.json"
+    },
+    {
+      "name": "schema_ok",
+      "ok": true,
+      "detail": "METATIME_SM_HOLONOMIC_GLUON_WIJ_V4_0"
+    },
+    {
+      "name": "status_pass",
+      "ok": true,
+      "detail": "PASS"
+    },
+    {
+      "name": "no_pdg_or_mass_reference_input",
+      "ok": true,
+      "detail": {
+        "PDG_or_mass_reference_input": false,
+        "observed_masses_input": false,
+        "CKM_PMNS_input": false,
+        "mass_prediction_claimed": false,
+        "full_QCD_claimed": false,
+        "confinement_claimed": false,
+        "running_coupling_claimed": false,
+        "hadron_spectrum_claimed": false,
+        "Debt_9_status": "OPEN_NOT_CLOSED",
+        "canon_allowed": false
+      }
+    },
+    {
+      "name": "no_observed_masses_input",
+      "ok": true,
+      "detail": {
+        "PDG_or_mass_reference_input": false,
+        "observed_masses_input": false,
+        "CKM_PMNS_input": false,
+        "mass_prediction_claimed": false,
+        "full_QCD_claimed": false,
+        "confinement_claimed": false,
+        "running_coupling_claimed": false,
+        "hadron_spectrum_claimed": false,
+        "Debt_9_status": "OPEN_NOT_CLOSED",
+        "canon_allowed": false
+      }
+    },
+    {
+      "name": "no_ckm_pmns_input",
+      "ok": true,
+      "detail": {
+        "PDG_or_mass_reference_input": false,
+        "observed_masses_input": false,
+        "CKM_PMNS_input": false,
+        "mass_prediction_claimed": false,
+        "full_QCD_claimed": false,
+        "confinement_claimed": false,
+        "running_coupling_claimed": false,
+        "hadron_spectrum_claimed": false,
+        "Debt_9_status": "OPEN_NOT_CLOSED",
+        "canon_allowed": false
+      }
+    },
+    {
+      "name": "mass_prediction_not_claimed",
+      "ok": true,
+      "detail": {
+        "PDG_or_mass_reference_input": false,
+        "observed_masses_input": false,
+        "CKM_PMNS_input": false,
+        "mass_prediction_claimed": false,
+        "full_QCD_claimed": false,
+        "confinement_claimed": false,
+        "running_coupling_claimed": false,
+        "hadron_spectrum_claimed": false,
+        "Debt_9_status": "OPEN_NOT_CLOSED",
+        "canon_allowed": false
+      }
+    },
+    {
+      "name": "full_qcd_not_claimed",
+      "ok": true,
+      "detail": {
+        "PDG_or_mass_reference_input": false,
+        "observed_masses_input": false,
+        "CKM_PMNS_input": false,
+        "mass_prediction_claimed": false,
+        "full_QCD_claimed": false,
+        "confinement_claimed": false,
+        "running_coupling_claimed": false,
+        "hadron_spectrum_claimed": false,
+        "Debt_9_status": "OPEN_NOT_CLOSED",
+        "canon_allowed": false
+      }
+    },
+    {
+      "name": "debt9_open",
+      "ok": true,
+      "detail": "OPEN_NOT_CLOSED"
+    },
+    {
+      "name": "all_links_su3",
+      "ok": true,
+      "detail": {
+        "all_links_su3": true,
+        "link_su3_status": {
+          "W_01": true,
+          "W_02": true,
+          "W_10": true,
+          "W_12": true,
+          "W_20": true,
+          "W_21": true
+        },
+        "reverse_unitarity_status": {
+          "W_01_equals_W_10_dagger": true,
+          "W_12_equals_W_21_dagger": true,
+          "W_20_equals_W_02_dagger": true
+        },
+        "all_reverse_links_are_daggers": true
+      }
+    },
+    {
+      "name": "reverse_links_are_daggers",
+      "ok": true,
+      "detail": {
+        "all_links_su3": true,
+        "link_su3_status": {
+          "W_01": true,
+          "W_02": true,
+          "W_10": true,
+          "W_12": true,
+          "W_20": true,
+          "W_21": true
+        },
+        "reverse_unitarity_status": {
+          "W_01_equals_W_10_dagger": true,
+          "W_12_equals_W_21_dagger": true,
+          "W_20_equals_W_02_dagger": true
+        },
+        "all_reverse_links_are_daggers": true
+      }
+    },
+    {
+      "name": "loop_holonomy_is_su3",
+      "ok": true,
+      "detail": {
+        "loop": [
+          0,
+          1,
+          2
+        ],
+        "U_loop_is_SU3": true,
+        "det_U_loop": {
+          "re": 0.9999999999999998,
+          "im": 0.0
+        },
+        "trace_U_loop": {
+          "re": 2.8167883755848027,
+          "im": 0.0
+        },
+        "wilson_loop_defect_3_minus_ReTrU": 0.18321162441519734,
+        "curvature_proxy_frobenius_norm": 0.5913036437989937,
+        "su3_projection_residual": 0.0,
+        "active_gell_mann_modes_1_indexed": [
+          1,
+          4,
+          7
+        ],
+        "gell_mann_mode_coefficients": {
+          "lambda_1": 0.2963371609009161,
+          "lambda_2": 0.0,
+          "lambda_3": 0.0,
+          "lambda_4": 0.21049573554185996,
+          "lambda_5": 0.0,
+          "lambda_6": 0.0,
+          "lambda_7": 0.2066296977030638,
+          "lambda_8": 0.0
+        },
+        "U_loop_matrix": [
+          [
+            {
+              "re": 0.930766836088008,
+              "im": 0.0
+            },
+            {
+              "re": 0.0,
+              "im": 0.27354592076770623
+            },
+            {
+              "re": 0.0,
+              "im": 0.24258138030373838
+            }
+          ],
+          [
+            {
+              "re": 0.0,
+              "im": 0.319128401034126
+            },
+            {
+              "re": 0.931611851608787,
+              "im": 0.0
+            },
+            {
+              "re": 0.17394373111856987,
+              "im": 0.0
+            }
+          ],
+          [
+            {
+              "re": 0.0,
+              "im": 0.17841009077998152
+            },
+            {
+              "re": -0.23931566428755774,
+              "im": 0.0
+            },
+            {
+              "re": 0.9544096878880074,
+              "im": 0.0
+            }
+          ]
+        ]
+      }
+    },
+    {
+      "name": "su3_projection_residual_small",
+      "ok": true,
+      "detail": 0.0
+    },
+    {
+      "name": "nontrivial_active_gluon_modes",
+      "ok": true,
+      "detail": [
+        1,
+        4,
+        7
+      ]
+    },
+    {
+      "name": "nonzero_wilson_defect",
+      "ok": true,
+      "detail": 0.18321162441519734
+    },
+    {
+      "name": "gauge_covariance_pass",
+      "ok": true,
+      "detail": {
+        "gauge_covariance_residual": 1.7840135748804925e-16,
+        "trace_invariant_residual": 4.440908838201464e-16,
+        "curvature_norm_invariant_residual": 0.0,
+        "gauge_covariance_pass": true,
+        "trace_invariance_pass": true,
+        "curvature_norm_invariance_pass": true
+      }
+    },
+    {
+      "name": "trace_invariance_pass",
+      "ok": true,
+      "detail": {
+        "gauge_covariance_residual": 1.7840135748804925e-16,
+        "trace_invariant_residual": 4.440908838201464e-16,
+        "curvature_norm_invariant_residual": 0.0,
+        "gauge_covariance_pass": true,
+        "trace_invariance_pass": true,
+        "curvature_norm_invariance_pass": true
+      }
+    },
+    {
+      "name": "curvature_norm_invariance_pass",
+      "ok": true,
+      "detail": {
+        "gauge_covariance_residual": 1.7840135748804925e-16,
+        "trace_invariant_residual": 4.440908838201464e-16,
+        "curvature_norm_invariant_residual": 0.0,
+        "gauge_covariance_pass": true,
+        "trace_invariance_pass": true,
+        "curvature_norm_invariance_pass": true
+      }
+    },
+    {
+      "name": "information_operator_present",
+      "ok": true,
+      "detail": {
+        "unscaled_wilson_action_density_proxy": 0.18321162441519734,
+        "information_operator_g_info_ln2_over_24pi": 0.009193150006360484,
+        "info_scaled_action_density_proxy": 2167.8255573621755,
+        "ramanujan_scaling_status": "LOCKED_FOR_FUTURE_COUPLING_NORMALIZATION_NOT_USED_AS_FIT_FACTOR_HERE",
+        "interpretation": "The loop defect is a holonomic Yang-Mills-like action candidate on the W_ij graph. It is structural, not an empirical coupling fit."
+      }
+    },
+    {
+      "name": "ramanujan_not_used_as_fit",
+      "ok": true,
+      "detail": "LOCKED_FOR_FUTURE_COUPLING_NORMALIZATION_NOT_USED_AS_FIT_FACTOR_HERE"
+    },
+    {
+      "name": "no_known_reimport_engine_in_main_execution_script",
+      "ok": true,
+      "detail": []
+    }
+  ]
+}

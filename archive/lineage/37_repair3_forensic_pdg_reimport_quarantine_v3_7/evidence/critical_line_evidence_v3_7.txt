@@ -1,0 +1,175 @@
+=== 23_old_metatime_debt9_ckm_table_mining_v2_5/METATIME_SM_OLD_DOCS_DEBT9_CKM_TABLE_AUDIT_v2_5.md L115-L123 ===
+0115: The following patterns are useful historically but must not be counted as final derivations:
+0116: 
+0117: 1. Exact charged-lepton Vandermonde polynomial through three observed masses.
+0118: 2. Heavy-quark log fit through c, b, t.
+0119: 3. Light-quark exact correction factors extracted from observed masses.
+0120: 4. NoParamSM engines that use PDG masses as internal reference and only modulate them.
+0121: 5. PMNS simulator with observed angles inserted.
+0122: 
+0123: These can supply test harnesses and sanity checks, not proof.
+
+=== 23_old_metatime_debt9_ckm_table_mining_v2_5/results/old_metatime_reference_findings_v2_5.csv L1-L7 ===
+0001: category,file,line_range,status,summary,canonical_action
+0002: scaling,MetaTheory_260218_073120.txt,L23-L24,historical_ansatz,"Mass scaling by Collatz orbit length with sector-dependent exponent and scale calibrated to a single point such as electron or charm.","Use as Debt 9 lead, but replace sector-dependent free scales with one global anchor plus Ramanujan/zeta-Heisenberg scaling."
+0003: scaling,README.md,L77-L80,historical_ansatz,"Global calibration constant S anchored to a well-measured observable, typically neutrino splitting.","Supports one-anchor strategy, but should be converted from splitting-anchor to one-mass-anchor if Debt 9 asks for one SM mass."
+0004: scaling,Formal_SM.pdf,L334-L345,historical_fit,"Neutrino scale anchored to atmospheric splitting; matches one splitting by construction.","Keep as caution: anchor discipline must be explicit; not a prediction for anchored observable."
+0005: scaling,Kappa_from_geometry.pdf,L328-L430,failed_path,"Electron anchor with simple power law fails charged leptons; quark sectors use separate anchors.","Do not import as canon; use as negative evidence that simple single power law is insufficient."
+0006: scaling,NoParamSM/noparamSMsolver.py,L154-L175,prototype_with_input_leakage,"MassEngine uses PDG masses as reference and modulates them by O_I fluctuations.","Do not count as derivation; can reuse zeta-Heisenberg fluctuation rule, not PDG-reference mass engine."
+0007: ckm,MetaTheory_260218_073120.txt,L773-L875,historical_derivation_candidate,"CKM mixing comes from Berry phase differences and cycle overlap; provides Cabibbo, Vus, Vub, Vcb matrix entries.","Mine mechanism; rewrite using v2.x axis grammar and gate type labels."
+
+=== 26_debt9_numeric_gap_no_hidden_fit_guard_v2_8/METATIME_SM_DEBT9_NUMERIC_GAP_NO_HIDDEN_FIT_GUARD_v2_8.md L24-L34 ===
+0024: 
+0025: v2.7 found that the old Metatime `tau/eigenvalue` layer has the kind of dynamic range that v2.6 lacks. However, the old source sits too close to mass tables, fits, and historical prototypes. Therefore it cannot be promoted directly.
+0026: 
+0027: The correct next move is not to tune a new term until the gap disappears. The correct next move is to derive a clean `tau_v2` or information-eigenvalue layer from v2.x primitives before re-scoring the masses.
+0028: 
+0029: ## [DEFINITION] Hidden-fit risk
+0030: 
+0031: A hidden fit is any new term that appears structurally named but is selected, scaled, widened, or normalized by looking at non-anchor masses while still claiming a derivation.
+0032: 
+0033: This includes:
+0034: 
+
+=== 30_debt9_one_anchor_rescore_frozen_projection_v3_2/METATIME_SM_DEBT9_ONE_ANCHOR_FROZEN_PROJECTION_RESC0RE_v3_2.md L43-L66 ===
+0043: 
+0044: Anti-fit diagnostic best-by-median orientation: `V26_REFERENCE_NO_V31_PROJECTION`.  
+0045: Can this be claimed as derivation? **No.**  
+0046: Reason: orientation choice is not yet derived from first principles; lower residual alone would be a fit-selection signal.
+0047: 
+0048: ## 5. [INTERPRETATION]
+0049: 
+0050: The frozen projection operator changes the numeric surface, but v3.2 does not close Debt 9. If a projection orientation improves residuals, it is still not canonical until the sign/orientation is derived from the underlying phase geometry rather than chosen from the validation table.
+0051: 
+0052: The important methodological point is that v3.2 protects the project from fitting-by-variant-selection.
+0053: 
+0054: ## 6. [HIPOTEZA]
+0055: 
+0056: The remaining defect is likely not in the existence of sector projection itself. It is in the missing derivation of projection orientation: whether the sector eigenvalue acts as suppression, release, oriented phase difference, or a two-basis up/down rotation. This connects directly to the archive diagnosis that CKM needs relative phase bases, not a single scalar channel.
+0057: 
+0058: ## 7. [VALIDATION GATE]
+0059: 
+0060: `COMPUTATIONAL_STRESS_TEST_PASS_WITH_ANTI_FIT_AUDIT`
+0061: 
+0062: ## 8. [DO NOT CLAIM]
+0063: 
+0064: Do not claim that Debt 9 is closed.  
+0065: Do not claim charged fermion masses are derived.  
+0066: Do not canonize the best residual orientation.  
+
+=== 36_repair2_archive_formula_source_extraction_execution/METATIME_SM_REPAIR2_FORMULA_SOURCE_EXTRACTION_EXECUTION_LEDGER.md L10-L19 ===
+0010: ## 0. Status
+0011: 
+0012: ```text
+0013: technical: PASS
+0014: formal: PASS
+0015: substantive: MASSES EXECUTED FROM ARCHIVE SOURCES / DEPENDENCY LEDGER ATTACHED
+0016: numeric: CALCULATED FROM AVAILABLE ARCHIVE EXECUTION TABLES
+0017: provenance: REPO_INTERNAL repair + USER ARCHIVE FORMULAS + prior execution tables from session
+0018: red_alert: true — source/dependency status is reported, not used as a refusal
+0019: ```
+
+=== 36_repair2_archive_formula_source_extraction_execution/METATIME_SM_REPAIR2_FORMULA_SOURCE_EXTRACTION_EXECUTION_LEDGER.md L47-L54 ===
+0047: ## 3. Treatment of old formulas
+0048: 
+0049: Old/new is not used as validity criterion.
+0050: 
+0051: Archive formulas are treated as user-owned working formulas.
+0052: 
+0053: Dependency class is attached so later cleanup can be done formula-by-formula.
+0054: 
+
+=== 36_repair2_archive_formula_source_extraction_execution/scripts/validate_repair2_source_execution.py L14-L22 ===
+0014: status = {
+0015:     "gate": "REPAIR2_SOURCE_EXTRACTION_EXECUTION_LEDGER_PASS",
+0016:     "source_excerpt_rows": len(src_rows),
+0017:     "mass_execution_rows": len(mass_rows),
+0018:     "summary_rows": len(sum_rows),
+0019:     "archive_formulas_used": True,
+0020:     "old_vs_new_blocker_used": False,
+0021:     "dependency_status_attached": all("dependency_class" in r and r["dependency_class"] for r in mass_rows) if mass_rows else False,
+0022: }
+
+=== 36_repair2_archive_formula_source_extraction_execution/results/repair2_validation_status.json L1-L8 ===
+0001: {
+0002:   "gate": "REPAIR2_SOURCE_EXTRACTION_EXECUTION_LEDGER_PASS",
+0003:   "source_excerpt_rows": 600,
+0004:   "mass_execution_rows": 29,
+0005:   "summary_rows": 0,
+0006:   "archive_formulas_used": true,
+0007:   "old_vs_new_blocker_used": false,
+0008:   "dependency_status_attached": true
+
+=== 36_repair2_archive_formula_source_extraction_execution/external_mass_execution_sources/METATIME_ARCHIVE_FORMULA_MASS_EXECUTION_v3_9.csv L1-L22 ===
+0001: mode,particle,sector,mass_calc,unit,reference,reference_unit,relative_error,factor_error,source,std
+0002: ARCHIVE_CANONICAL_SPECTRUM,e,charged_lepton,0.511,MeV,0.511,MeV,0.0,1.0,MetaTheory archive canonical spectrum table / v3.8 extraction,
+0003: ARCHIVE_CANONICAL_SPECTRUM,mu,charged_lepton,105.7,MeV,105.7,MeV,0.0,1.0,MetaTheory archive canonical spectrum table / v3.8 extraction,
+0004: ARCHIVE_CANONICAL_SPECTRUM,tau,charged_lepton,1776.9,MeV,1776.9,MeV,0.0,1.0,MetaTheory archive canonical spectrum table / v3.8 extraction,
+0005: ARCHIVE_CANONICAL_SPECTRUM,nu1,neutrino,0.001,MeV,0.001,MeV,0.0,1.0,MetaTheory archive canonical spectrum table / v3.8 extraction,
+0006: ARCHIVE_CANONICAL_SPECTRUM,nu2,neutrino,0.008,MeV,0.008,MeV,0.0,1.0,MetaTheory archive canonical spectrum table / v3.8 extraction,
+0007: ARCHIVE_CANONICAL_SPECTRUM,nu3,neutrino,0.05,MeV,0.05,MeV,0.0,1.0,MetaTheory archive canonical spectrum table / v3.8 extraction,
+0008: ARCHIVE_CANONICAL_SPECTRUM,u,light_quark,2.2,MeV,2.2,MeV,0.0,1.0,MetaTheory archive canonical spectrum table / v3.8 extraction,
+0009: ARCHIVE_CANONICAL_SPECTRUM,d,light_quark,4.4,MeV,4.4,MeV,0.0,1.0,MetaTheory archive canonical spectrum table / v3.8 extraction,
+0010: ARCHIVE_CANONICAL_SPECTRUM,s,light_quark,96.0,MeV,96.0,MeV,0.0,1.0,MetaTheory archive canonical spectrum table / v3.8 extraction,
+0011: ARCHIVE_CANONICAL_SPECTRUM,c,heavy_quark,1270.0,MeV,1270.0,MeV,0.0,1.0,MetaTheory archive canonical spectrum table / v3.8 extraction,
+0012: ARCHIVE_CANONICAL_SPECTRUM,b,heavy_quark,4180.0,MeV,4180.0,MeV,0.0,1.0,MetaTheory archive canonical spectrum table / v3.8 extraction,
+0013: ARCHIVE_CANONICAL_SPECTRUM,t,heavy_quark,172760.0,MeV,172760.0,MeV,0.0,1.0,MetaTheory archive canonical spectrum table / v3.8 extraction,
+0014: ARCHIVE_NOPARAMSM_ENSEMBLE,e,fermion,0.511000473017599,MeV,0.5109989461,MeV,2.988103225417267e-06,1.0000029881032255,"NoParamSM/noparamSMsolver.py archived formula, fixed seed execution",6.821109178180643e-05
+0015: ARCHIVE_NOPARAMSM_ENSEMBLE,mu,fermion,105.65853212361435,MeV,105.6583745,MeV,1.4918232000279279e-06,1.0000014918232,"NoParamSM/noparamSMsolver.py archived formula, fixed seed execution",0.007051934618109742
+0016: ARCHIVE_NOPARAMSM_ENSEMBLE,tau,fermion,1776.8613243905934,MeV,1776.86,MeV,7.453544980929501e-07,1.0000007453544981,"NoParamSM/noparamSMsolver.py archived formula, fixed seed execution",0.05929625208316172
+0017: ARCHIVE_NOPARAMSM_ENSEMBLE,u,fermion,2.160006454302967,MeV,2.16,MeV,2.988103225348087e-06,1.0000029881032253,"NoParamSM/noparamSMsolver.py archived formula, fixed seed execution",0.0002883292800761849
+0018: ARCHIVE_NOPARAMSM_ENSEMBLE,d,fermion,4.668878446467293,MeV,4.67,MeV,-0.0002401613560400757,1.0002402190473723,"NoParamSM/noparamSMsolver.py archived formula, fixed seed execution",0.08454725121905561
+0019: ARCHIVE_NOPARAMSM_ENSEMBLE,s,fermion,93.49355699622123,MeV,93.5,MeV,-6.890913132374505e-05,1.0000689138801193,"NoParamSM/noparamSMsolver.py archived formula, fixed seed execution",0.31200146181837396
+0020: ARCHIVE_NOPARAMSM_ENSEMBLE,c,fermion,1270.0,MeV,1270.0,MeV,0.0,1.0,"NoParamSM/noparamSMsolver.py archived formula, fixed seed execution",0.0
+0021: ARCHIVE_NOPARAMSM_ENSEMBLE,b,fermion,4180.0,MeV,4180.0,MeV,0.0,1.0,"NoParamSM/noparamSMsolver.py archived formula, fixed seed execution",0.0
+0022: ARCHIVE_NOPARAMSM_ENSEMBLE,t,fermion,173000.0,MeV,173000.0,MeV,0.0,1.0,"NoParamSM/noparamSMsolver.py archived formula, fixed seed execution",0.0
+
+=== 00_original_metatime/Metatime-main/NoParamSM/noparamSMsolver.py L42-L49 ===
+0042: # ----------------------------
+0043: # Reference PDG / baseline numbers
+0044: # ----------------------------
+0045: PDG = {
+0046:     'leptons': {'e': 0.5109989461, 'mu': 105.6583745, 'tau': 1776.86},
+0047:     'quarks': {'u': 2.16, 'd': 4.67, 's': 93.5, 'c': 1270.0, 'b': 4180.0, 't': 173000.0},
+0048:     'nucleons': {'p': 938.27208816, 'n': 939.56542052},
+0049:     'binding_ref_per_nucleon': {'16O': 7.976, '56Fe': 8.79, '208Pb': 7.867}
+
+=== 00_original_metatime/Metatime-main/NoParamSM/noparamSMsolver.py L154-L174 ===
+0154: class MassEngine:
+0155:     """
+0156:     Oblicza masy fermionów i nukleonów deterministycznie dla danej wartości O_I.
+0157:     Masy referencyjne pochodzą z PDG; modulujemy je przez topologiczne czynniki exp(C*ΔO_I).
+0158:     """
+0159:     def __init__(self, topo_map: TopoMapping):
+0160:         self.topo = topo_map
+0161:         # topologiczne C dla cząstek (przykład, zgodne z Twoim formalizmem)
+0162:         self.C = {
+0163:             'e': 0.2, 'mu': 0.1, 'tau': 0.05,
+0164:             'u': 0.2, 'd': -27.13, 's': -5.0,
+0165:             'c': 0.0, 'b': 0.0, 't': 0.0
+0166:         }
+0167:         self.mass_ref = {**PDG['leptons'], **PDG['quarks']}  # referencje
+0168: 
+0169:     def fermion_mass(self, particle: str, O_I: float) -> float:
+0170:         m_ref = self.mass_ref.get(particle)
+0171:         if m_ref is None:
+0172:             raise ValueError(f"Unknown particle: {particle}")
+0173:         C = self.C.get(particle, 0.0)
+0174:         return float(m_ref * self.topo.yukawa_factor(C, O_I))
+
+=== 00_original_metatime/Metatime-main/NoParamSM/noparamSMsolver.py L296-L310 ===
+0296: def quick_consistency_checks(results: Dict) -> Dict[str, bool]:
+0297:     """
+0298:     Proste testy:
+0299:       - średnie mas fermionów bliskie PDG (within modeled std)
+0300:       - binding per nucleon for 16O approx PDG within 10% of mean
+0301:     """
+0302:     ok = {}
+0303:     # leptons: mean within 0.1% of PDG
+0304:     for name, s in results['leptons'].items():
+0305:         mean = s['mean']; std = s['std']
+0306:         target = PDG['leptons'][name]
+0307:         ok[f'lepton_{name}'] = abs(mean - target) / target < 0.001 + (std / max(target,1e-9))
+0308:     # 16O binding
+0309:     b16 = results['bindings_per_nucleon']['16O']['mean']
+0310:     ok['16O_binding'] = abs(b16 - PDG['binding_ref_per_nucleon']['16O']) / PDG['binding_ref_per_nucleon']['16O'] < 0.10

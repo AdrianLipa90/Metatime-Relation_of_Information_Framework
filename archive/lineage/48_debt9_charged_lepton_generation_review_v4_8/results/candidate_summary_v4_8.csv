@@ -1,0 +1,6 @@
+candidate,formula,role,uses_lepton_F,uses_tau_v2,median_absolute_relative_error,mean_absolute_relative_error,max_absolute_relative_error
+doc_F_plus_tau_v2_amplitude_gate,m_mu=m47_mu*F_e_mu*sqrt(exp(delta_tau_v2_action_mu)); m_tau=m47_tau/F_e_tau*sqrt(exp(delta_tau_v2_action_tau)),document F screen/release plus amplitude-level tau_v2 action gate,True,True,0.7894292410380577,0.7894292410380577,0.9667531775034157
+doc_F_plus_tau_v2_full_action,m_mu=m47_mu*F_e_mu*exp(delta_tau_v2_action_mu); m_tau=m47_tau/F_e_tau*exp(delta_tau_v2_action_tau),document F screen/release combined with full tau_v2 action gate,True,True,0.8244792346518032,0.8244792346518032,1.1177772332505755
+doc_F_mass_screen_release,m_mu=m47_mu*F_e_mu; m_tau=m47_tau/F_e_tau; electron unchanged,direct document F_ij mass-level screen/release diagnostic,True,False,0.8767032374984269,0.8767032374984269,1.5262313631734017
+tau_v2_action_gate,m_i=m47_i*exp(kappa*(tau_v2_i-tau_v2_e)),frozen tau_v2 information-action gate only,False,True,4.960150934513752,4.960150934513752,9.559870593469178
+v47_baseline,m_48=m_47,baseline from v4.7; shows mu high / tau low inversion,False,False,8.525839189747078,8.525839189747078,16.42228526326484

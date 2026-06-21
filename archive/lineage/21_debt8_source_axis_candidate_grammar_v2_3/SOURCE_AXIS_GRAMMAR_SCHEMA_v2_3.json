@@ -1,0 +1,52 @@
+{
+  "schema_id": "METATIME_SM_SOURCE_AXIS_GRAMMAR_v2_3",
+  "version": "2.3",
+  "module": "21_debt8_source_axis_candidate_grammar_v2_3",
+  "epistemic_class": "structural_enumeration",
+  "gate_classes": [
+    "FORMAL_SYMBOLIC_PASS",
+    "STRUCTURAL_ENUMERATION_PASS",
+    "COMPUTATIONAL_PASS",
+    "EMPIRICAL_TARGET_CHECK"
+  ],
+  "source_primitives": [
+    "CP1_BLOCH_SURFACE",
+    "KILLING_FLOW",
+    "TWO_FIXED_POLES",
+    "BERRY_CONNECTION",
+    "ZETA_IMAGINARY_AXIS",
+    "TETRAHEDRAL_DEPTH",
+    "POINCARE_DISK",
+    "COLLATZ_TERMINAL_AXIS",
+    "TWIN_PRIME_SEED_INDEX",
+    "RAMANUJAN_SCALING",
+    "CHIRAL_MASS_GATE"
+  ],
+  "primary_axis_gate": {
+    "requires": [
+      "continuous_flow",
+      "two_fixed_poles",
+      "cp1_supported",
+      "chiral_bridge",
+      "doublet_split",
+      "mass_gate_compatible",
+      "source_derived"
+    ],
+    "excludes_if_only": [
+      "transport_connection",
+      "discrete_index",
+      "spectral_coherence",
+      "triplet_depth",
+      "abelian_label",
+      "asymptotic_scaling"
+    ]
+  },
+  "surviving_axis": "SOURCE_DERIVED_CHIRAL_CP1_AXIS",
+  "sm_interpretation": "weak_isospin_axis",
+  "do_not_claim": [
+    "exact_mass_prediction",
+    "empirical_confirmation",
+    "closed_CKM_PMNS",
+    "absolute_full_SU2_derivation"
+  ]
+}
