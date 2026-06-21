@@ -1,0 +1,9 @@
+{
+  "dim": 8,
+  "steps": 60,
+  "kappa_ln2_over_24pi": 0.009193150006360484,
+  "max_hermiticity_error": 0.0,
+  "max_norm_deviation": 2.886579864025407e-15,
+  "energy_expectation_first": 0.2424426695967404,
+  "energy_expectation_last": 0.2856195210436884
+}

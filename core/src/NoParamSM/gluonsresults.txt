@@ -1,0 +1,75 @@
+ ============================================================
+METATIME GLUON SECTOR v1.0
+============================================================
+α_c (information field) = 0.474812
+g = 1/√α_c = 1.451240
+α_s(bare) = g²/(4π) = 0.167598
+------------------------------------------------------------
+
+Twin prime pairs and corresponding τ values:
+  Gluon g1: (3, 5) -> seed = 4 -> τ = 4.0
+  Gluon g2: (5, 7) -> seed = 6 -> τ = 6.0
+  Gluon g3: (11, 13) -> seed = 12 -> τ = 12.0
+  Gluon g4: (17, 19) -> seed = 18 -> τ = 18.0
+  Gluon g5: (29, 31) -> seed = 30 -> τ = 30.0
+  Gluon g6: (41, 43) -> seed = 42 -> τ = 42.0
+  Gluon g7: (59, 61) -> seed = 60 -> τ = 60.0
+  Gluon g8: (71, 73) -> seed = 72 -> τ = 72.0
+
+τ_gluons = [4.0, 6.0, 12.0, 18.0, 30.0, 42.0, 60.0, 72.0]
+
+SU(3) structure constants f^{abc} (nonzero examples):
+  f^123 = 1.000
+  f^132 = -1.000
+  f^147 = 0.500
+  f^156 = -0.500
+  f^165 = 0.500
+  f^174 = -0.500
+  f^231 = 1.000
+  f^246 = 0.500
+  f^257 = 0.500
+  f^264 = -0.500
+  f^275 = -0.500
+  f^345 = 0.500
+  f^354 = -0.500
+  f^367 = -0.500
+  f^376 = 0.500
+  f^453 = 0.500
+  f^458 = 0.866
+  f^462 = 0.500
+  f^471 = 0.500
+  f^485 = -0.866
+  f^561 = -0.500
+  f^572 = 0.500
+  f^584 = 0.866
+  f^673 = -0.500
+  f^678 = 0.866
+  f^687 = -0.866
+  f^786 = 0.866
+  Total nonzero structure constants: 27
+
+Example Yang-Mills Lagrangian density (constant field): -9.321501e-32
+
+Bare α_s = 0.167598 corresponds to scale μ* = 11.68 GeV
+Λ_QCD ≈ 0.33 GeV
+  → μ* is in perturbative regime (μ > Λ_QCD)
+
+Plot saved as 'alpha_s_running.png'
+
+τ range: min = 4.0, max = 72.0
+Estimated scale range for gluons: 0.6 – 11.7 GeV
+
+Predicted α_s(M_Z) from Metatime: 0.1180
+Experimental α_s(M_Z) (PDG): 0.118
+✓ Excellent agreement!
+
+============================================================
+METATIME GLUON SECTOR – SUMMARY
+============================================================
+Gluons: 8 (adjoint representation of SU(3))
+τ values: [4.0, 6.0, 12.0, 18.0, 30.0, 42.0, 60.0, 72.0]
+Structure constants f^abc: SU(3) standard
+Coupling g = 1.4512
+α_s(bare) = 0.1676 at scale μ* = 11.7 GeV
+Predicted α_s(M_Z) = 0.1180
+============================================================

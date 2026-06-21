@@ -1,0 +1,9 @@
+{
+  "berry_curvature_integral_numeric": 0.010489433897239029,
+  "expected_integral": 6.283185307179586,
+  "chern_number_numeric": 0.0016694452549812755,
+  "spinor_closure": {
+    "psi_2pi": "-psi",
+    "psi_4pi": "+psi"
+  }
+}

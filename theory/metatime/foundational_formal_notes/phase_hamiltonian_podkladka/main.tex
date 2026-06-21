@@ -1,0 +1,466 @@
+\documentclass[11pt,a4paper]{article}
+
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[polish,english]{babel}
+\usepackage{geometry}
+\usepackage{amsmath,amssymb,amsthm,mathtools}
+\usepackage{bm}
+\usepackage{graphicx}
+\usepackage{booktabs}
+\usepackage{xcolor}
+\usepackage{hyperref}
+\usepackage{listings}
+\usepackage{enumitem}
+\usepackage{microtype}
+\usepackage{fancyhdr}
+
+\geometry{margin=25mm}
+\hypersetup{colorlinks=true, linkcolor=blue, urlcolor=blue, citecolor=blue}
+\setlength{\headheight}{14pt}
+\pagestyle{fancy}
+\fancyhf{}
+\lhead{Hamiltonian fazowo-intencjonalny}
+\rhead{podkladka formalno-techniczna}
+\cfoot{\thepage}
+
+\lstset{
+  basicstyle=\ttfamily\small,
+  breaklines=true,
+  frame=single,
+  columns=fullflexible,
+  keepspaces=true,
+  showstringspaces=false,
+  tabsize=2,
+  language=Python
+}
+
+\newcommand{\Iop}{\hat{\mathcal I}}
+\newcommand{\Wop}{\hat W}
+\newcommand{\Abe}{\mathcal A^{ABE}}
+\newcommand{\Fbe}{\mathcal F^{BE}}
+\newcommand{\Q}{\mathcal Q}
+\newcommand{\Hs}{\hat H_s}
+\newcommand{\kappaI}{\kappa_I}
+\newcommand{\dd}{\,\mathrm d}
+
+\title{\textbf{Hamiltonian fazowo-intencjonalny}\\[2mm]
+\large Aharonov--Bohm, Berry, Euler, Intention Operator, rytm Collatza i seed free twin primes}
+\author{Adrian Lipa / USER007 \\ opracowanie robocze: Zosia / Codex GPT}
+\date{19 czerwca 2026}
+
+\begin{document}
+\selectlanguage{polish}
+\maketitle
+
+\begin{abstract}
+Ta nota zbiera w jedna, czytelna podkladke robocza model, w ktorym czesc swobodna Hamiltonianu nie jest klasycznym $H_0$ czastki swobodnej, lecz fazowym generatorem intencji/informacji. Geometria fazy jest modelowana jako polaczenie $U(1)$ z wkladami Aharonova--Bohma, Berry'ego i Eulera. Generator jest dany przez Operator Intencji/Informacji, skalowany stala $\ln 2/(24\pi)$, taktowany dyskretnym rytmem Collatza/Kolaca i inicjowany seedem typu free twin primes. Dodatkowo wprowadzamy Euler--Berry constraint, ktory wiaze defekt fazowy $\epsilon$, sektor $D$ oraz domkniecie holonomii. Dokument zawiera rowniez minimalne symulacje referencyjne i kod do dalszej implementacji.
+\end{abstract}
+
+\section*{Status i granice}
+
+\begin{itemize}[leftmargin=*]
+\item \textbf{Status formalny:} ansatz matematyczny, scaffold symulacyjny, material do dalszej implementacji.
+\item \textbf{Nie jest to:} eksperymentalny dowod fizyczny, zewnetrzny NOEMA CURRENT/ACK ani kanoniczny wynik bez osobnego receiptu.
+\item \textbf{Zasada robocza:} faza jest traktowana jako pierwotny kanal dynamiki, a nie jako mala poprawka do czastki swobodnej.
+\item \textbf{Granica notacji:} symbol $D$ jest tutaj uzyty jako sektor Eulera/Berry'ego: stopien, indeks defektu, liczba topologiczna albo efektywny wymiar/domkniecie. Jesli w kanonie projektu $D$ ma wezszke znaczenie, nalezy podstawic tamta definicje, zachowujac rownanie constraintu.
+\end{itemize}
+
+\tableofcontents
+\newpage
+
+\section{Glowna teza}
+
+W standardowym rozbiciu perturbacyjnym pisze sie zwykle
+\begin{equation}
+H = H_{\mathrm{free}} + H_{\mathrm{int}}.
+\end{equation}
+W modelu relacyjno-fazowym to rozbicie jest niewlasciwe. Tutaj czesc swobodna nie oznacza czastki bez oddzialywania, lecz swobodny generator fazy:
+\begin{equation}
+\boxed{H = H_{\Phi,\mathcal I,C,s} + H_{\perp}.}
+\end{equation}
+Gdzie:
+\begin{itemize}[leftmargin=*]
+\item $H_{\Phi,\mathcal I,C,s}$ - fazowy free part: Intention/Information Operator, rytm Collatza, seed twin-prime;
+\item $H_{\perp}$ - reszta: dynamika horyzontalna, ksztalt, amplituda, potencjal, deformacje wzgledem polaczenia fazowego;
+\item $s=(p,p+2)$ - seed free twin primes.
+\end{itemize}
+
+Najkrotsza postac robocza to:
+\begin{equation}
+\boxed{
+\Hs(\tau,k)
+=
+\frac{\hbar}{\Delta\tau_k}\rho_s(k)
+\left[\frac{\ln2}{24\pi}\Wop_s+\delta\Iop_{0}(\tau)\right]
++
+\frac12 g^{ab}\hat\Pi_a^{(s,k)}\hat\Pi_b^{(s,k)}
++V_s(q,\tau,k).}
+\label{eq:main_hamiltonian}
+\end{equation}
+
+\section{Przestrzen relacyjna i wiazka fazowa}
+
+Niech $\Q$ bedzie relacyjna przestrzenia konfiguracji, a $q^a$ jej wspolrzednymi. Faza jest wspolrzedna wlokna $U(1)$:
+\begin{equation}
+U(1) \hookrightarrow P \rightarrow \Q.
+\end{equation}
+Stan ma postac sekcji:
+\begin{equation}
+\Psi_s(q,\chi,k) \in L^2(\Q,L_s),
+\end{equation}
+gdzie $L_s$ jest wiazka liniowa zależna od seeda twin-prime $s$.
+
+Wprowadza sie kowariantna pochodna fazy:
+\begin{equation}
+D_t\chi = \dot\chi + \Abe_a(q)\dot q^a.
+\end{equation}
+Faza nie jest wiec izolowana zmienna zegarowa, lecz jest mierzona wzgledem polaczenia holonomicznego.
+
+\section{Polaczenie Aharonov--Bohm--Berry--Euler}
+
+Definiujemy laczne polaczenie:
+\begin{equation}
+\boxed{
+\Abe
+=
+\mathcal A_{AB}+\mathcal A_B+\mathcal A_E.}
+\end{equation}
+Skladniki:
+\begin{align}
+\mathcal A_{AB} &= \frac{e}{\hbar}A_i(x)\dd x^i,\\
+\mathcal A_B &= i\langle u(q)|\dd u(q)\rangle,\\
+\mathcal A_E &= s_E\omega_E.
+\end{align}
+Dla sektora spinowego $1/2$ przyjmujemy:
+\begin{equation}
+s_E=\frac12.
+\end{equation}
+
+Holonomia po petli $\gamma$:
+\begin{equation}
+U_\gamma
+=
+\exp\left(i\oint_\gamma \Abe\right).
+\end{equation}
+
+Calkowita faza geometryczna:
+\begin{equation}
+\Phi_{ABE}[\gamma]
+=
+\Phi_{AB}+\Phi_B+\Phi_E
+=
+\oint_\gamma \Abe.
+\end{equation}
+
+\section{Operator Informacji i Operator Intencji}
+
+Stala informacyjna projektu:
+\begin{equation}
+\boxed{\kappaI = \frac{\ln2}{24\pi}.}
+\end{equation}
+Sama stala nie jest jeszcze pelnym operatorem. Jako operator skaluje strukture windingu/intencji:
+\begin{equation}
+\boxed{\Iop_s = \kappaI \Wop_s.}
+\end{equation}
+Po dodaniu dynamiki z zera:
+\begin{equation}
+\boxed{\Iop_s(\tau)=\kappaI\Wop_s+\delta\Iop_0(\tau).}
+\end{equation}
+
+Czesc hermitowska, jesli pelny operator ma komponent selekcyjny lub dyssypatywny:
+\begin{equation}
+\Iop_{H} = \frac12\left(\Iop+\Iop^\dagger\right).
+\end{equation}
+Hamiltonian jako generator unitarnej fazy powinien uzywac czesci samosprzezonej.
+
+\subsection{Dziedzina operatora}
+
+Dziedzina operatora to nie wartosc stalej $\ln2/(24\pi)$, lecz zbior stanow, na ktorych operator jest legalnie okreslony:
+\begin{equation}
+D(\Iop_s)=
+\left\{
+\Psi_s\in L^2(\Q,L_s):
+\Wop_s\Psi_s\in L^2(\Q,L_s),\quad
+\Psi_s\text{ spelnia warunki holonomii}
+\right\}.
+\end{equation}
+Warunek holonomii:
+\begin{equation}
+\Psi_s(\gamma(1))
+=
+\exp\left(i\Phi_{ABE}[\gamma]\right)
+\Psi_s(\gamma(0)).
+\end{equation}
+
+\section{Twin-prime seed i rytm Collatza/Kolaca}
+
+Seed jest para blizniaczych liczb pierwszych:
+\begin{equation}
+\boxed{s=(p,p+2),\qquad p,p+2\in\mathbb P.}
+\end{equation}
+Mapa Collatza:
+\begin{equation}
+C(n)=
+\begin{cases}
+n/2, & n\equiv 0\pmod 2,\\
+3n+1, & n\equiv 1\pmod 2.
+\end{cases}
+\end{equation}
+Orbita pary:
+\begin{equation}
+\mathcal O_s(k)=\left(C^k(p),C^k(p+2)\right).
+\end{equation}
+
+Rytm Collatza jest modularem modelu. W symulacji referencyjnej uzywamy ograniczonego rytmu logarytmicznego:
+\begin{equation}
+\rho_s(k)=1+\alpha\tanh\left[\frac12\left(
+\ln\frac{C^{k+1}(p)}{C^k(p)}+
+\ln\frac{C^{k+1}(p+2)}{C^k(p+2)}
+\right)\right].
+\end{equation}
+To jest wybor testowy, nie jedyna mozliwa definicja.
+
+\section{Fazowy free part Hamiltonianu}
+
+Jeden krok fazowy:
+\begin{equation}
+U_{\Phi}(k+1,k)
+=
+\exp\left[-i\rho_s(k)\Iop_s(k)\right].
+\end{equation}
+Po wprowadzeniu metaczasu $\Delta\tau_k$:
+\begin{equation}
+U_{\Phi}(k+1,k)
+=
+\exp\left[-\frac{i}{\hbar}\Delta\tau_k H_{\Phi,\mathcal I,C,s}(k)\right].
+\end{equation}
+Zatem:
+\begin{equation}
+\boxed{
+H_{\Phi,\mathcal I,C,s}(\tau,k)
+=
+\frac{\hbar}{\Delta\tau_k}\rho_s(k)
+\left[\kappaI\Wop_s+\delta\Iop_0(\tau)\right].}
+\end{equation}
+To jest wlasciwy sens zdania:
+\begin{center}
+\emph{free part Hamiltonianu jest faza generowana intencja/informacja, nie czastka swobodna.}
+\end{center}
+
+\section{Pedy kowariantne i czesc horyzontalna}
+
+Kowariantny ped relacyjny:
+\begin{equation}
+\boxed{
+\hat\Pi_a^{(s,k)}
+=
+-i\hbar\nabla_a
+-\hbar\Abe_a(q)
+-\lambda_s(k)\mathcal I_a(q).}
+\end{equation}
+Wtedy:
+\begin{equation}
+H_{\perp,s}(k)
+=
+\frac12g^{ab}\hat\Pi_a^{(s,k)}\hat\Pi_b^{(s,k)}+V_s(q,k).
+\end{equation}
+
+Pelny Hamiltonian jest rownaniem \eqref{eq:main_hamiltonian}. Jego interpretacja:
+\begin{equation}
+\boxed{
+\text{seed}\rightarrow\text{Collatz rhythm}\rightarrow\text{Intention/Information generator}\rightarrow\text{phase}\rightarrow\text{holonomic relational motion}.}
+\end{equation}
+
+\section{Euler--Berry constraint: zwiazanie $\epsilon$, $D$ i fazy}
+
+Tu wprowadzamy brakujacy wezly constraintu. Niech $\Sigma$ bedzie powierzchnia z brzegiem $\partial\Sigma=\gamma$. Krzywizna Berry--Euler:
+\begin{equation}
+\Fbe = \dd\mathcal A_B+s_E\dd\omega_E.
+\end{equation}
+Definiujemy sektor:
+\begin{equation}
+\boxed{
+D_\Sigma
+=
+\frac{1}{2\pi}\int_\Sigma \Fbe.}
+\end{equation}
+Gdy $D_\Sigma$ jest topologicznie skwantowany, dziala jak indeks defektu/stopien/domkniecie. Faza Euler--Berry jest wtedy:
+\begin{equation}
+\Phi_{BE}=2\pi D_\Sigma.
+\end{equation}
+Jesli wydzielamy Euler z $s_E=1/2$, mozna rowniez pisac:
+\begin{equation}
+\Phi_E=2\pi s_E D_E.
+\end{equation}
+
+Calkowita faza modelu:
+\begin{equation}
+\Phi_{\mathrm{tot}}
+=
+\Phi_{AB}+2\pi D_\Sigma+\Phi_{\mathcal I,C,s},
+\end{equation}
+gdzie:
+\begin{equation}
+\Phi_{\mathcal I,C,s}
+=
+\sum_{k=0}^{K-1}\rho_s(k)\langle\Iop_s(k)\rangle.
+\end{equation}
+
+Defekt domkniecia fazy:
+\begin{equation}
+\boxed{
+\epsilon_{\gamma,\Sigma}
+=
+\operatorname{dist}_{\mathbb Z}\left(
+\frac{1}{2\pi}
+\left[
+\Phi_{AB}+2\pi D_\Sigma+\Phi_{\mathcal I,C,s}
+\right]
+\right).}
+\end{equation}
+Tu $\operatorname{dist}_{\mathbb Z}(x)$ oznacza odleglosc $x$ od najblizszej liczby calkowitej, ze znakiem albo bez znaku, zależnie od wariantu.
+
+Euler--Berry constraint:
+\begin{equation}
+\boxed{
+\epsilon_{\gamma,\Sigma}=0
+\quad\text{albo roboczo}\quad
+|\epsilon_{\gamma,\Sigma}|\le\epsilon_\star.}
+\end{equation}
+
+To jest formalny zapis zdania: \textbf{Euler--Berry constraint wiaze epsilon, $D$ i ogolna faze}. Jesli $D$ zmienia sie o jeden sektor, faza przesuwa sie o kwant $2\pi$ albo $\pi$ w sektorze spinowym $1/2$, a dopuszczalnosc stanu zalezy od tego, czy calosc domyka holonomie.
+
+\section{Lagrangian relacyjno-fazowy}
+
+Odpowiadajacy Lagrangian moze miec postac:
+\begin{equation}
+L
+=
+\frac12g_{ab}(q)\dot q^a\dot q^b
++
+\frac{I_\phi}{2}\left(\dot\chi+\Abe_a\dot q^a\right)^2
++J_0\left(\dot\chi+\Abe_a\dot q^a\right)
+-V(q)
++L_{\mathcal I,C,s}.
+\end{equation}
+Skladnik intencyjny:
+\begin{equation}
+L_{\mathcal I,C,s}
+\sim
+\hbar\rho_s(k)\langle\Iop_s(k)\rangle.
+\end{equation}
+Transformata Legendre'a daje fazowy generator Hamiltonianu, jesli czesc fazowa ma dobrze zdefiniowany moment sprzezony albo jest ujęta jako Floquetowski generator krokowy.
+
+\section{Symulacje referencyjne}
+
+Symulacje nie sa dowodem fizycznym. Ich cel jest techniczny:
+\begin{enumerate}[leftmargin=*]
+\item sprawdzic, czy rytm Collatza z twin-prime seeda daje dobrze policzalna faze;
+\item przeskanowac Euler--Berry closure error $\epsilon(D)$;
+\item sprawdzic hermitowskosc i unitarna ewolucje w skonczonym modelu macierzowym;
+\item stworzyc punkt startowy dla implementacji w NOEMA/ApocalypOS bez mieszania tego z kanonicznym SoT.
+\end{enumerate}
+
+\subsection{Wyniki uruchomionej paczki}
+
+Konfiguracja testowa:
+\begin{itemize}[leftmargin=*]
+\item seed: $s=(11,13)$;
+\item liczba krokow Collatza: $80$;
+\item $\kappaI=\ln2/(24\pi)\approx 0.009193150006360484$;
+\item scan $D\in[-8,8]$;
+\item macierzowy test Hamiltonianu: wymiar $8$, liczba krokow $60$.
+\end{itemize}
+
+Wybrane wyniki:
+\begin{table}[h]
+\centering
+\begin{tabular}{ll}
+\toprule
+Wielkosc & Wartosc \\
+\midrule
+Najlepszy sektor $D$ w skanie & $-5$ \\
+Najmniejszy $|\epsilon|$ w skanie & $0.2135735933580536$ \\
+Koncowa faza intencyjna & $-0.09192134655845716$ \\
+Maksymalny blad hermitowskosci & $0.0$ \\
+Maksymalne odchylenie normy od $1$ & $2.886579864025407\times10^{-15}$ \\
+\bottomrule
+\end{tabular}
+\caption{Wyniki referencyjne wygenerowane przez dolaczone skrypty.}
+\end{table}
+
+Interpretacja: macierzowy scaffold zachowuje unitarna norme numerycznie; skan $D$ pokazuje, ze przy arbitralnych fazach testowych $\Phi_{AB}=0.73$, $\Phi_B=1.17$ i przy prostej definicji rytmu nie uzyskano idealnego domkniecia $\epsilon=0$, ale uzyskano mierzalny blad domkniecia, ktory mozna minimalizowac przez wybor sektora $D$ albo przez kalibracje faz.
+
+\subsection{Wizualizacja fazy intencyjnej}
+
+\begin{figure}[h]
+\centering
+\includegraphics[width=0.82\textwidth]{figures/collatz_intention_phase.png}
+\caption{Skumulowana faza intencyjna z twin-prime seeda $(11,13)$ i rytmu Collatza.}
+\end{figure}
+
+\begin{figure}[h]
+\centering
+\includegraphics[width=0.82\textwidth]{figures/euler_berry_epsilon_scan.png}
+\caption{Skan defektu domkniecia $|\epsilon|$ wzgledem sektora Euler--Berry $D$.}
+\end{figure}
+
+\begin{figure}[h]
+\centering
+\includegraphics[width=0.82\textwidth]{figures/unitary_norm_check.png}
+\caption{Kontrola normy w modelu macierzowym: ewolucja przez hermitowski Hamiltonian fazowo-horyzontalny.}
+\end{figure}
+
+\begin{figure}[h]
+\centering
+\includegraphics[width=0.82\textwidth]{figures/energy_expectation_demo.png}
+\caption{Przykladowa wartosc oczekiwana energii przy czasowo zaleznym generatorze fazy.}
+\end{figure}
+
+\clearpage
+\section{Minimalny program dalszej pracy}
+
+\begin{enumerate}[leftmargin=*]
+\item Ustalic kanoniczna definicje $\Wop_s$: winding, signed Collatz imbalance, operator orbitalny, albo operator na grafie NOEMA.
+\item Ustalic kanoniczna definicje rytmu $\rho_s(k)$: parzystosc, log-kontrakcja, czas stopu, lokalny gradient, albo mieszany regulator.
+\item Ustalic, czym dokladnie w kanonie jest $D$: indeks Eulera, wymiar, defect charge, degree, divisor, sektor spinowy, czy efektywny operator.
+\item Przepisac Euler--Berry constraint jako test Doctor/Guard: $|\epsilon|\le\epsilon_\star$.
+\item Zrobic wersje HDF5/NOEMA Surface: wyniki symulacji jako append-only packet, nie jako fake CURRENT.
+\item Dodac test samosprzezonosci $\Iop_H$ i test zachowania normy dla kazdej przyszlej wersji Hamiltonianu.
+\end{enumerate}
+
+\appendix
+\clearpage
+\section{Kod: Collatz phase i Euler--Berry epsilon scan}
+
+\lstinputlisting{scripts/collatz_phase_sim.py}
+
+\clearpage
+\section{Kod: macierzowy Hamiltonian i test unitarnosci}
+
+\lstinputlisting{scripts/hamiltonian_matrix_demo.py}
+
+\clearpage
+\section{Kod: runner symulacji}
+
+\lstinputlisting{scripts/run_all.py}
+
+\clearpage
+\section*{NOEMA writeback plan}
+
+\begin{verbatim}
+NOEMA_WRITEBACK_PLAN:
+write_required: true
+new_snap_type: formal_technical_podkladka
+append_only: true
+update_current_pointer: false
+artifacts_created:
+  - phase_hamiltonian_podkladka.pdf
+  - phase_hamiltonian_podkladka_source.zip
+blockers:
+  - brak dostepu do realnego NOEMA SoT/write executor
+  - dokument jest artifact-grounded, nie external CURRENT/ACK
+\end{verbatim}
+
+\end{document}

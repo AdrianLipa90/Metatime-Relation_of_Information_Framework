@@ -1,0 +1,18 @@
+{
+  "twin_prime_seed": [
+    17,
+    19
+  ],
+  "scalar_seed": 323,
+  "steps": 80,
+  "kappa_I": 0.009193150006360484,
+  "eta": 0.35,
+  "theta_intention": 0.3033889217620433,
+  "phase_ab": 0.31,
+  "phase_berry": 0.73,
+  "phase_euler": 3.141592653589793,
+  "total_phase": 4.484981575351837,
+  "closest_D": 1,
+  "epsilon": -0.2861930126066793,
+  "unitary_modulus_error": 0.0
+}

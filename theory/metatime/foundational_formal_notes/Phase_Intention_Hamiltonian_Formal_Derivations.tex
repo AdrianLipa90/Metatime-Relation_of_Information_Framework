@@ -1,0 +1,615 @@
+\documentclass[11pt,a4paper]{article}
+
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[english]{babel}
+\usepackage{geometry}
+\usepackage{amsmath,amssymb,amsthm,mathtools}
+\usepackage{bm}
+\usepackage{graphicx}
+\usepackage{booktabs}
+\usepackage{xcolor}
+\usepackage{hyperref}
+\usepackage{listings}
+\usepackage{enumitem}
+\usepackage{microtype}
+\usepackage{fancyhdr}
+\usepackage{caption}
+\usepackage{subcaption}
+\usepackage{float}
+
+\geometry{margin=24mm}
+\hypersetup{colorlinks=true, linkcolor=blue, urlcolor=blue, citecolor=blue}
+\setlength{\headheight}{14pt}
+\pagestyle{fancy}
+\fancyhf{}
+\lhead{Phase-Intention Hamiltonian}
+\rhead{formal derivation note}
+\cfoot{\thepage}
+
+\lstset{
+  basicstyle=\ttfamily\small,
+  breaklines=true,
+  frame=single,
+  columns=fullflexible,
+  keepspaces=true,
+  showstringspaces=false,
+  tabsize=2,
+  language=Python
+}
+
+\newcommand{\dd}{\,\mathrm d}
+\newcommand{\ii}{\mathrm i}
+\newcommand{\Q}{\mathcal Q}
+\newcommand{\Hh}{\mathcal H}
+\newcommand{\Abe}{\mathcal A^{ABE}}
+\newcommand{\Fbe}{\mathcal F^{BE}}
+\newcommand{\Iop}{\hat{\mathcal I}}
+\newcommand{\Wop}{\hat W}
+\newcommand{\Jop}{\hat J}
+\newcommand{\Hs}{\hat H_s}
+\newcommand{\kappaI}{\kappa_I}
+\newcommand{\epsEB}{\epsilon_{EB}}
+\newcommand{\ThI}{\Theta_I}
+\newcommand{\Lie}{\mathcal L}
+\newcommand{\tr}{\operatorname{tr}}
+\newcommand{\Dom}{\operatorname{Dom}}
+
+\newtheorem{definition}{Definition}
+\newtheorem{postulate}{Postulate}
+\newtheorem{proposition}{Proposition}
+\newtheorem{remark}{Remark}
+
+\title{\textbf{A Phase-Intention Hamiltonian for Relational Dynamics}\\[2mm]
+\large Aharonov--Bohm, Berry, Euler Closure, the Information/Intention Operator, Collatz Rhythm, and Free Twin-Prime Seeds}
+\author{Adrian Lipa / USER007\\Formal working note prepared by Zosia / Codex GPT}
+\date{June 19, 2026}
+
+\begin{document}
+\maketitle
+
+\begin{abstract}
+This document formulates a working Hamiltonian scaffold in which the free part of the Hamiltonian is not the usual free-particle kinetic term. Instead, the free part is taken to be a phase generator driven by an Information/Intention Operator, scaled by the constant $\ln 2/(24\pi)$, clocked by a Collatz-type discrete rhythm, and seeded by a free twin-prime pair. The horizontal or shape dynamics is then written covariantly with respect to a combined Aharonov--Bohm--Berry--Euler connection. A central Euler--Berry closure constraint is introduced, binding the phase defect $\epsilon$, the topological sector $D$, and the total holonomy. The document includes derivations, a canonical rotor embedding, a Floquet/discrete-time version, and reference simulations with source code.
+\end{abstract}
+
+\section*{Epistemic and technical status}
+\begin{itemize}[leftmargin=*]
+  \item \textbf{Status:} formal ansatz, derivation scaffold, and numerical consistency workbench.
+  \item \textbf{Not claimed:} no experimental proof, no external NOEMA CURRENT/ACK, and no canon promotion without a separate receipt.
+  \item \textbf{Main structural claim:} the phase sector is treated as the primitive free channel; the usual kinetic/shape term is horizontal dynamics relative to a phase connection.
+  \item \textbf{Notation caveat:} $D$ denotes a topological closure sector: degree, winding sector, Chern/Euler sector, or an effective discrete closure index. If the project later fixes a narrower canonical meaning of $D$, the equations below should be interpreted by substituting that meaning into the same closure role.
+\end{itemize}
+
+\tableofcontents
+\newpage
+
+\section{Core thesis}
+
+The standard perturbative decomposition
+\begin{equation}
+  H = H_0 + H_{\mathrm{int}}
+\end{equation}
+usually takes $H_0$ to be a free-particle or free-field Hamiltonian. The present relational-phase model uses a different split:
+\begin{equation}
+  \boxed{H = H_{\Phi,\mathcal I,C,s} + H_{\perp}.}
+  \label{eq:main_split}
+\end{equation}
+Here $H_{\Phi,\mathcal I,C,s}$ is the free phase/intention sector, while $H_{\perp}$ is the horizontal remainder: shape, amplitude, potential, and deformation dynamics.
+
+The seed is a free twin-prime pair
+\begin{equation}
+  \boxed{s=(p,p+2),\qquad p,p+2\in \mathbb P.}
+\end{equation}
+The Collatz/Kolac rhythm extracted from $s$ is denoted $\rho_s(k)$, where $k\in\mathbb N$ is the discrete orbital step. The Information/Intention Operator is denoted $\Iop_s(\tau,k)$.
+
+The compact working Hamiltonian is
+\begin{equation}
+\boxed{
+\Hs(\tau,k)
+=
+\frac{\hbar}{\Delta\tau_k}\rho_s(k)
+\left[\frac{\ln2}{24\pi}\Wop_s+\delta\Iop_0(\tau)\right]
++
+\frac12 g^{ab}\hat\Pi_a^{(s,k)}\hat\Pi_b^{(s,k)}
++V_s(q,\tau,k).}
+\label{eq:compact_hamiltonian}
+\end{equation}
+The first term is the phase-free part. The second and third terms form the covariant horizontal dynamics.
+
+\section{Relational configuration space and phase bundle}
+
+Let $\Q$ be the relational configuration manifold, with local coordinates $q^a$. The phase is modeled as a $U(1)$ fiber:
+\begin{equation}
+  U(1)\hookrightarrow P\rightarrow \Q.
+\end{equation}
+Equivalently, quantum states are sections of a complex line bundle $L_s\to \Q$:
+\begin{equation}
+  \Psi_s(q,\chi,k)\in \Hh_s:=L^2(\Q,L_s).
+\end{equation}
+The phase coordinate $\chi\in U(1)$ is not treated as an isolated coordinate. It is measured covariantly through a phase connection:
+\begin{equation}
+  D_\tau\chi=\dot\chi+\Abe_a(q)\dot q^a.
+  \label{eq:cov_phase_derivative}
+\end{equation}
+Thus phase evolution is not an additive decoration of the shape dynamics. Shape motion and phase motion are connected through the same bundle geometry.
+
+\section{Aharonov--Bohm--Berry--Euler connection}
+
+Define the total phase connection
+\begin{equation}
+\boxed{
+  \Abe=\mathcal A_{AB}+\mathcal A_B+\mathcal A_E.}
+  \label{eq:abe_connection}
+\end{equation}
+The components are
+\begin{align}
+  \mathcal A_{AB} &= \frac{q_e}{\hbar} A_i(x)\dd x^i,\\
+  \mathcal A_B &= \ii\langle u(q)|\dd u(q)\rangle,\\
+  \mathcal A_E &= s_E\omega_E.
+\end{align}
+Here $A_i\dd x^i$ is the electromagnetic vector potential, $\mathcal A_B$ is the Berry connection of the local internal/eigenstate frame $|u(q)\rangle$, and $\omega_E$ is the Euler/spin connection. In the spin-half sector,
+\begin{equation}
+  s_E=\frac12.
+\end{equation}
+The holonomy around a closed loop $\gamma$ is
+\begin{equation}
+  U_\gamma=\exp\left(\ii\oint_\gamma \Abe\right),
+\end{equation}
+and the accumulated geometric phase is
+\begin{equation}
+  \Phi_{ABE}[\gamma]
+  =\oint_\gamma\Abe
+  =\Phi_{AB}+\Phi_B+\Phi_E.
+\end{equation}
+The curvature of the Berry--Euler part is
+\begin{equation}
+  \Fbe=\dd(\mathcal A_B+\mathcal A_E)
+  =\mathcal F_B+s_E\mathcal R_E,
+\end{equation}
+where $\mathcal F_B=\dd\mathcal A_B$ and $\mathcal R_E=\dd\omega_E$ in the Abelianized sector used here.
+
+\section{Information constant, operator domain, and zero-level fluctuations}
+
+The project constant is
+\begin{equation}
+  \boxed{\kappaI=\frac{\ln2}{24\pi}.}
+  \label{eq:kappa}
+\end{equation}
+As a mathematical point, the constant alone is not yet a nontrivial dynamical operator. If one writes $\Iop=\kappaI\mathbf 1$, then $\Iop$ produces only a global phase in the corresponding evolution. A nontrivial generator requires an operator-valued channel, for instance a winding/intention operator $\Wop_s$:
+\begin{equation}
+  \boxed{\Iop_s=\kappaI\Wop_s.}
+  \label{eq:intention_operator_static}
+\end{equation}
+To introduce dynamics from the zero level, write
+\begin{equation}
+  \boxed{\Iop_s(\tau)=\kappaI\Wop_s+\delta\Iop_0(\tau).}
+  \label{eq:intention_operator_dynamic}
+\end{equation}
+The term $\delta\Iop_0(\tau)$ represents zero-level fluctuations. Formally it may be deterministic, stochastic, semiclassical, or operator-valued. For a unitary Hamiltonian sector the Hermitian part is used:
+\begin{equation}
+  \Iop_{H,s}(\tau)=\frac12\left(\Iop_s(\tau)+\Iop_s(\tau)^\dagger\right).
+\end{equation}
+
+\subsection{Meaning of a defined domain}
+
+The domain of an operator is the set of states on which the operator is legally defined. It is not the numerical value $\ln2/(24\pi)$. In the present model a minimal domain is
+\begin{equation}
+\boxed{
+\Dom(\Iop_s)=
+\left\{\Psi_s\in L^2(\Q,L_s):
+\Wop_s\Psi_s\in L^2(\Q,L_s),\quad
+\Psi_s\text{ satisfies the holonomy boundary rule}
+\right\}.}
+\label{eq:domain}
+\end{equation}
+The holonomy boundary rule is
+\begin{equation}
+  \Psi_s(\gamma(1))
+  =\exp\left(\ii\Phi_{ABE}[\gamma]\right)\Psi_s(\gamma(0)).
+  \label{eq:holonomy_boundary}
+\end{equation}
+If spin-half closure is imposed, one may additionally use
+\begin{equation}
+  \Psi(\chi+2\pi)=-\Psi(\chi),
+  \qquad
+  \Psi(\chi+4\pi)=\Psi(\chi),
+  \label{eq:spin_half_boundary}
+\end{equation}
+subject to the chosen spinorial convention.
+
+\section{Twin-prime seed and Collatz/Kolac rhythm}
+
+For a twin-prime seed $s=(p,p+2)$, define a scalar seed, for example,
+\begin{equation}
+  n_s=p(p+2).
+\end{equation}
+Then define the Collatz map
+\begin{equation}
+  C(n)=
+  \begin{cases}
+    n/2, & n\equiv0\pmod 2,\\
+    3n+1, & n\equiv1\pmod 2.
+  \end{cases}
+\end{equation}
+The Collatz orbit is
+\begin{equation}
+  n_{k+1}=C(n_k),\qquad n_0=n_s.
+\end{equation}
+The formalism only requires a positive rhythm functional
+\begin{equation}
+  \rho_s(k)=\rho[n_k,n_{k+1},\ldots]>0.
+\end{equation}
+A bounded reference choice used in the simulations is a parity/log-scale rhythm. Its role is not canonical; it is a numerical placeholder. The formal requirement is that $\rho_s(k)$ clocks the phase generator.
+
+The accumulated intention/information phase over $K$ Collatz steps is
+\begin{equation}
+  \boxed{
+  \ThI(s,K)=\sum_{k=0}^{K-1}\rho_s(k)\,\langle\Iop_s(k)\rangle.}
+  \label{eq:intention_phase}
+\end{equation}
+In a fully operator-valued version, the corresponding phase propagator is ordered:
+\begin{equation}
+  U_\Phi(K,0)=
+  \mathcal T\exp\left[-\ii\sum_{k=0}^{K-1}\rho_s(k)\Iop_s(k)\right].
+  \label{eq:phase_propagator}
+\end{equation}
+
+\section{Euler--Berry constraint binding $\epsilon$, $D$, and phase}
+
+The requested Euler--Berry constraint is most cleanly expressed as a closure equation. Let $\Sigma$ be a spanning surface with boundary $\partial\Sigma=\gamma$. Let
+\begin{equation}
+  \Phi_B[\gamma]=\oint_\gamma\mathcal A_B=\int_\Sigma\mathcal F_B,
+\end{equation}
+and, under the chosen Abelian spin/Euler convention,
+\begin{equation}
+  \Phi_E[\gamma]=\oint_\gamma s_E\omega_E=s_E\int_\Sigma\mathcal R_E.
+\end{equation}
+The total phase including Aharonov--Bohm and intention is
+\begin{equation}
+  \Phi_{\mathrm{tot}}(s,K,\gamma)
+  =\Phi_{AB}[\gamma]+\Phi_B[\gamma]+\Phi_E[\gamma]+\ThI(s,K).
+\end{equation}
+Define the topological closure sector $D\in\mathbb Z$ and the phase defect $\epsEB\in\mathbb R$ by
+\begin{equation}
+\boxed{
+  \Phi_{\mathrm{tot}}(s,K,\gamma)
+  =2\pi\left(D+\epsEB\right).}
+  \label{eq:euler_berry_constraint_phase}
+\end{equation}
+Equivalently,
+\begin{equation}
+\boxed{
+  \epsEB
+  =\frac{1}{2\pi}
+  \left[
+    \Phi_{AB}+\int_\Sigma\left(\mathcal F_B+s_E\mathcal R_E\right)+\ThI(s,K)
+  \right]-D.}
+  \label{eq:euler_berry_constraint_defect}
+\end{equation}
+Exact holonomic closure means
+\begin{equation}
+  \boxed{\epsEB=0.}
+\end{equation}
+A practical numerical or empirical tolerance version is
+\begin{equation}
+  \boxed{|\epsEB|\leq \epsilon_\star.}
+\end{equation}
+
+\subsection{Euler and Berry quantization interpretation}
+
+If the Berry curvature belongs to a line bundle with first Chern number
+\begin{equation}
+  c_1(L_B)[\Sigma]=\frac{1}{2\pi}\int_\Sigma\mathcal F_B\in\mathbb Z,
+\end{equation}
+and if the Euler curvature obeys a Gauss--Bonnet-type convention
+\begin{equation}
+  \frac{1}{2\pi}\int_\Sigma\mathcal R_E=\chi(\Sigma),
+\end{equation}
+then the Berry--Euler part contributes
+\begin{equation}
+  \frac{1}{2\pi}\int_\Sigma(\mathcal F_B+s_E\mathcal R_E)
+  =c_1(L_B)[\Sigma]+s_E\chi(\Sigma).
+\end{equation}
+For $s_E=1/2$, this contribution naturally carries half-integer structure whenever $\chi(\Sigma)$ is odd. This is the formal location where the Euler/Berry constraint can bind spin-half closure, the phase defect $\epsilon$, and the discrete sector $D$.
+
+\section{Derivation I: canonical phase rotor embedding}
+
+Consider the Lagrangian
+\begin{equation}
+\boxed{
+  L_s
+  =\frac12 g_{ab}(q)\dot q^a\dot q^b
+  +\frac{I_\phi}{2}\left(D_\tau\chi\right)^2
+  +J_{I,s}(\tau,k)D_\tau\chi
+  -V_s(q,\tau,k),}
+  \label{eq:lagrangian}
+\end{equation}
+where
+\begin{equation}
+  D_\tau\chi=\dot\chi+\Abe_a\dot q^a.
+\end{equation}
+The intention charge is
+\begin{equation}
+  J_{I,s}(\tau,k)=\hbar\rho_s(k)\Iop_s(\tau,k),
+\end{equation}
+or its expectation/scalar reduction in a semiclassical sector.
+
+The canonical momentum conjugate to $\chi$ is
+\begin{align}
+  J
+  &=\frac{\partial L_s}{\partial\dot\chi}\\
+  &=I_\phi D_\tau\chi+J_{I,s}.
+  \label{eq:J_momentum}
+\end{align}
+Thus
+\begin{equation}
+  D_\tau\chi=\frac{J-J_{I,s}}{I_\phi}.
+  \label{eq:Dchi_solved}
+\end{equation}
+The momentum conjugate to $q^a$ is
+\begin{align}
+  p_a
+  &=\frac{\partial L_s}{\partial\dot q^a}\\
+  &=g_{ab}\dot q^b+\frac{\partial}{\partial\dot q^a}\left[\frac{I_\phi}{2}(D_\tau\chi)^2+J_{I,s}D_\tau\chi\right]\\
+  &=g_{ab}\dot q^b+\bigl(I_\phi D_\tau\chi+J_{I,s}\bigr)\Abe_a\\
+  &=g_{ab}\dot q^b+J\Abe_a.
+  \label{eq:p_momentum}
+\end{align}
+Therefore the horizontal/covariant momentum is
+\begin{equation}
+  \Pi_a=p_a-J\Abe_a=g_{ab}\dot q^b,
+  \label{eq:cov_momentum}
+\end{equation}
+and hence
+\begin{equation}
+  \dot q^a=g^{ab}\Pi_b.
+\end{equation}
+
+The Hamiltonian is
+\begin{align}
+  H_s
+  &=p_a\dot q^a+J\dot\chi-L_s.
+\end{align}
+Using $\dot\chi=D_\tau\chi-\Abe_a\dot q^a$ and $p_a\dot q^a-J\Abe_a\dot q^a=\Pi_a\dot q^a$, one obtains
+\begin{align}
+  H_s
+  &=\Pi_a\dot q^a+J D_\tau\chi
+  -\frac12 g_{ab}\dot q^a\dot q^b
+  -\frac{I_\phi}{2}(D_\tau\chi)^2
+  -J_{I,s}D_\tau\chi+V_s\\
+  &=\frac12 g^{ab}\Pi_a\Pi_b
+  +\left(J-J_{I,s}\right)D_\tau\chi
+  -\frac{I_\phi}{2}(D_\tau\chi)^2+V_s.
+\end{align}
+Substituting Eq.~\eqref{eq:Dchi_solved} gives
+\begin{equation}
+\boxed{
+  H_s
+  =\frac{(J-J_{I,s})^2}{2I_\phi}
+  +\frac12 g^{ab}(p_a-J\Abe_a)(p_b-J\Abe_b)
+  +V_s(q,\tau,k).}
+  \label{eq:canonical_hamiltonian}
+\end{equation}
+This is the canonical rotor version of the model.
+
+Its phase-free part is
+\begin{equation}
+  \boxed{H_{\Phi}^{\mathrm{rotor}}=\frac{(J-J_{I,s})^2}{2I_\phi}.}
+\end{equation}
+Its horizontal part is
+\begin{equation}
+  \boxed{H_\perp=\frac12g^{ab}\Pi_a\Pi_b+V_s.}
+\end{equation}
+
+\section{Derivation II: discrete Floquet phase generator}
+
+Because the Collatz/Kolac rhythm is naturally discrete, a Floquet formulation is often cleaner. Define the phase propagator per step by
+\begin{equation}
+\boxed{
+  U_\Phi(k+1,k)
+  =\exp\left[-\ii\rho_s(k)\Iop_s(k)\right].}
+  \label{eq:floquet_step}
+\end{equation}
+If
+\begin{equation}
+  U_\Phi(k+1,k)=\exp\left[-\frac{\ii}{\hbar}\Delta\tau_k H_\Phi(k)\right],
+\end{equation}
+then the effective phase Hamiltonian is
+\begin{equation}
+\boxed{
+  H_{\Phi,\mathcal I,C,s}(k)
+  =\frac{\hbar}{\Delta\tau_k}\rho_s(k)\Iop_s(k).}
+  \label{eq:floquet_phase_hamiltonian}
+\end{equation}
+Substituting Eq.~\eqref{eq:intention_operator_dynamic},
+\begin{equation}
+\boxed{
+  H_{\Phi,\mathcal I,C,s}(\tau,k)
+  =\frac{\hbar}{\Delta\tau_k}\rho_s(k)
+  \left[\kappaI\Wop_s+\delta\Iop_0(\tau)\right].}
+  \label{eq:floquet_phase_hamiltonian_dynamic}
+\end{equation}
+This is the form used in Eq.~\eqref{eq:compact_hamiltonian}.
+
+\section{Covariant quantum Hamiltonian}
+
+Quantize the phase charge by
+\begin{equation}
+  \Jop=-\ii\hbar\frac{\partial}{\partial\chi}.
+\end{equation}
+The horizontal momentum becomes
+\begin{equation}
+\boxed{
+  \hat\Pi_a^{(s,k)}
+  =-\ii\hbar\nabla_a
+  -\hbar\alpha_s(k)\Abe_a
+  -\lambda_s(k)\mathcal I_a(q).}
+  \label{eq:quantum_cov_momentum}
+\end{equation}
+Here $\alpha_s(k)$ is the effective phase charge/winding sector and $\mathcal I_a$ is the geometric trace of the intention channel on $\Q$. In a fixed $\Jop$ eigen-sector one may identify $\alpha_s(k)$ with the corresponding phase charge.
+
+The full discrete-time Hamiltonian is
+\begin{equation}
+\boxed{
+\Hs(\tau,k)=
+\frac{\hbar}{\Delta\tau_k}\rho_s(k)
+\left[\kappaI\Wop_s+\delta\Iop_0(\tau)\right]
++
+\frac12 g^{ab}\hat\Pi_a^{(s,k)}\hat\Pi_b^{(s,k)}
++V_s(q,\tau,k).}
+\end{equation}
+The same structure in canonical rotor embedding is
+\begin{equation}
+\boxed{
+\Hs^{\mathrm{rotor}}(\tau,k)=
+\frac{(\Jop-\hbar\rho_s(k)\Iop_s(\tau,k))^2}{2I_\phi}
++
+\frac12 g^{ab}(\hat p_a-\Jop\Abe_a)(\hat p_b-\Jop\Abe_b)
++V_s.}
+\end{equation}
+
+\section{Consistency conditions}
+
+For the scaffold to be mathematically meaningful, the following conditions are required.
+
+\begin{enumerate}[leftmargin=*]
+  \item \textbf{Domain condition:} $\Dom(\Iop_s)$ must be fixed, at least by Eq.~\eqref{eq:domain}.
+  \item \textbf{Hermiticity condition:} the Hamiltonian part of $\Iop_s$ must be self-adjoint or replaced by its self-adjoint part.
+  \item \textbf{Rhythm condition:} $\rho_s(k)>0$ must be defined for every step in the selected Collatz orbit.
+  \item \textbf{Closure condition:} the Euler--Berry defect must obey Eq.~\eqref{eq:euler_berry_constraint_defect}; exact closure means $\epsEB=0$.
+  \item \textbf{Bundle condition:} the wavefunction must obey the ABE holonomy rule Eq.~\eqref{eq:holonomy_boundary}.
+  \item \textbf{No false energy claim:} AB, Berry, and Euler phases are connections/holonomies. They become Hamiltonian terms only after a generator, rotor inertia, or Floquet time step is specified.
+\end{enumerate}
+
+\section{Reference simulations}
+
+The package contains three reference simulations. They are internal consistency checks, not physical evidence.
+
+\subsection{Collatz phase accumulation}
+
+The script \texttt{scripts/collatz\_phase\_sim.py} uses the twin-prime seed $(17,19)$, scalar seed $n_s=323$, and $80$ Collatz steps. It computes a bounded Collatz rhythm $\rho_s(k)$, a scalar proxy for $W_s(k)$, and the accumulated intention phase. The resulting closure values are read from \texttt{results/collatz\_phase\_result.json}.
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.88\linewidth]{figures/collatz_orbit.png}
+\caption{Collatz orbit from the twin-prime scalar seed $17\cdot19=323$.}
+\end{figure}
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.88\linewidth]{figures/collatz_rhythm.png}
+\caption{Reference bounded Collatz rhythm $\rho_s(k)$.}
+\end{figure}
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.88\linewidth]{figures/intention_phase_accumulation.png}
+\caption{Accumulated scalar intention/information phase $\Theta_I$.}
+\end{figure}
+
+For the default run,
+\begin{align}
+  \kappa_I&=0.009193150006360484,\\
+  \Theta_I&=0.3033889217620433,\\
+  \Phi_{\mathrm{tot}}&=4.484981575351837,\\
+  D&=1,\\
+  \epsilon&=-0.2861930126066793.
+\end{align}
+The unitary modulus error for $e^{\ii\Phi_{\mathrm{tot}}}$ is zero to displayed precision.
+
+\subsection{Euler--Berry closure scan}
+
+The script \texttt{scripts/euler\_berry\_constraint\_scan.py} scans Berry phase values and Euler characteristics $\chi\in\{-2,-1,0,1,2\}$. It computes
+\begin{equation}
+  \epsilon=\frac{\Phi_{AB}+\Phi_B+s_E2\pi\chi+\Theta_I}{2\pi}-D.
+\end{equation}
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.88\linewidth]{figures/euler_berry_constraint_scan.png}
+\caption{Absolute Euler--Berry closure defect across a small phase/topology grid.}
+\end{figure}
+
+For the default scan, the closest closure point is approximately
+\begin{equation}
+  \chi=-2,\qquad \Phi_B=-0.7330382858376185,
+  \qquad D=-1,
+  \qquad \epsilon\approx -4.8355820958301265\times10^{-4}.
+\end{equation}
+
+\subsection{Finite matrix Hamiltonian check}
+
+The script \texttt{scripts/hamiltonian\_matrix\_demo.py} constructs a finite-dimensional Hermitian matrix model containing a phase term and a nearest-neighbor holonomy coupling. It checks Hermiticity, unitarity of the generated propagator, norm conservation, and energy expectation under a time-independent reference Hamiltonian.
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.88\linewidth]{figures/unitary_norm_check.png}
+\caption{Norm preservation under the finite-dimensional unitary propagator.}
+\end{figure}
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.88\linewidth]{figures/energy_expectation_demo.png}
+\caption{Energy expectation for the time-independent finite matrix reference model.}
+\end{figure}
+
+Default numerical checks:
+\begin{align}
+  \|H-H^\dagger\|&=0,\\
+  \|U^\dagger U-I\|&\approx6.2610\times10^{-15},\\
+  \max_k\left|\|\psi_k\|-1\right|&\approx6.9944\times10^{-15}.
+\end{align}
+These values indicate numerical Hermiticity/unitarity in the reference finite model.
+
+\section{Interpretation}
+
+The formal pipeline is
+\begin{equation}
+\boxed{
+  (p,p+2)
+  \longrightarrow
+  n_s
+  \longrightarrow
+  \{n_k\}_{k\ge0}
+  \longrightarrow
+  \rho_s(k)
+  \longrightarrow
+  \Iop_s(k)
+  \longrightarrow
+  \Phi
+  \longrightarrow
+  \text{ABE holonomic relational dynamics}.}
+\end{equation}
+The free part is therefore not a free-particle Hamiltonian. It is the free phase/intention generator:
+\begin{equation}
+\boxed{
+  H_{\mathrm{free}}
+  =H_{\Phi,\mathcal I,C,s}.}
+\end{equation}
+The ordinary-looking kinetic term belongs to the horizontal geometry and is already covariantly deformed by Aharonov--Bohm, Berry, Euler, and intention-trace connections.
+
+\section{Minimal next formal tasks}
+
+\begin{enumerate}[leftmargin=*]
+  \item Fix the canonical project definition of $D$.
+  \item Choose whether the primary Hamiltonian is the rotor embedding Eq.~\eqref{eq:canonical_hamiltonian} or the Floquet embedding Eq.~\eqref{eq:floquet_phase_hamiltonian_dynamic}.
+  \item Replace scalar $W_s(k)$ in simulations with an explicit finite operator $\Wop_s$.
+  \item Define the fluctuation law for $\delta\Iop_0(\tau)$: deterministic, stochastic, semiclassical, or operator-valued.
+  \item Define a project-canonical Collatz rhythm $\rho_s(k)$.
+  \item Add automated tests for Hermiticity, domain admissibility, closure defect, and unitary propagation.
+\end{enumerate}
+
+\appendix
+\section{Source code: Collatz phase simulation}
+\lstinputlisting[caption={collatz\_phase\_sim.py}]{scripts/collatz_phase_sim.py}
+
+\section{Source code: Euler--Berry constraint scan}
+\lstinputlisting[caption={euler\_berry\_constraint\_scan.py}]{scripts/euler_berry_constraint_scan.py}
+
+\section{Source code: finite Hamiltonian matrix demo}
+\lstinputlisting[caption={hamiltonian\_matrix\_demo.py}]{scripts/hamiltonian_matrix_demo.py}
+
+\section{Source code: run all}
+\lstinputlisting[caption={run\_all.py}]{scripts/run_all.py}
+
+\end{document}

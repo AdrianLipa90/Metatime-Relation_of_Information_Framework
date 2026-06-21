@@ -1,0 +1,13 @@
+{
+  "kappa": 0.009193150006360484,
+  "seed": [
+    11,
+    13
+  ],
+  "steps": 80,
+  "best_D": -5,
+  "best_abs_epsilon": 0.2135735933580536,
+  "final_phi_intention": -0.10032981019907834,
+  "matrix_max_hermiticity_error": 0.0,
+  "matrix_max_norm_deviation": 2.886579864025407e-15
+}

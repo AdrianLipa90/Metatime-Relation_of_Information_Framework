@@ -1,0 +1,3 @@
+PASS
+seeds_checked=8
+kappa=0.009193150006360484

@@ -1,0 +1,274 @@
+version: 1
+repository: AdrianLipa90/Metatime
+branch: Agent6
+role: seed_equation_priority_register
+entries:
+  - id: EQ-0001
+    label: canonical_state_space_equation
+    priority: 0
+    status: open_foundational
+    class: canon
+    likely_current_source:
+      - MetaTheory_260218_073120.txt
+      - README.md
+    question: What is the exact canonical foundational state space of Metatime?
+    downstream_blocks:
+      - metatime_object
+      - closure
+      - evolution
+      - holonomy
+      - spectrum
+
+  - id: EQ-0002
+    label: canonical_metatime_object_equation
+    priority: 0
+    status: open_foundational
+    class: canon
+    likely_current_source:
+      - README.md
+      - documents/Neutrinotime14.pdf
+      - MetaTheory_260218_073120.txt
+    question: What exact object is metatime at the foundational layer?
+    downstream_blocks:
+      - evolution
+      - sector transport
+      - cosmology
+
+  - id: EQ-0003
+    label: primitive_closure_equation
+    priority: 0
+    status: open_foundational
+    class: canon
+    likely_current_source:
+      - MetaTheory_260218_073120.txt
+      - documents/White_threads.pdf
+      - documents/Metatime_with_Euler_extension (8).pdf
+    question: What exact law determines admissibility before holonomy and fitted sector corrections?
+    downstream_blocks:
+      - evolution
+      - holonomy
+      - white_threads
+      - constants
+
+  - id: EQ-0004
+    label: primitive_update_or_evolution_equation
+    priority: 0
+    status: open_foundational
+    class: canon
+    likely_current_source:
+      - MetaTheory_260218_073120.txt
+      - simulations/Metatime_Framework(1).py
+    question: What is the first valid evolution law of the system?
+    downstream_blocks:
+      - tau
+      - transport
+      - sector dynamics
+
+  - id: EQ-0005
+    label: minimal_metric_equation
+    priority: 1
+    status: pending_upstream_freeze
+    class: derivation
+    likely_current_source:
+      - README.md
+      - documents/Calabi_Yau.pdf
+      - documents/Calabi_Yau2.pdf
+    question: What is the minimal metric structure used canonically?
+    depends_on:
+      - EQ-0001
+
+  - id: EQ-0006
+    label: kahler_form_equation
+    priority: 1
+    status: pending_upstream_freeze
+    class: derivation
+    likely_current_source:
+      - README.md
+      - documents/Calabi_Yau.pdf
+    question: What symplectic/Kähler form is used canonically?
+    depends_on:
+      - EQ-0001
+      - EQ-0005
+
+  - id: EQ-0007
+    label: tau_definition_equation
+    priority: 2
+    status: pending_upstream_freeze
+    class: derivation
+    likely_current_source:
+      - README.md
+      - documents/Neutrinotime14.pdf
+      - Derivation of tau_i.pdf
+    question: How is tau defined exactly and how does it relate to physical time?
+    depends_on:
+      - EQ-0001
+      - EQ-0002
+      - EQ-0004
+
+  - id: EQ-0008
+    label: arithmetic_seed_equation
+    priority: 3
+    status: downstream_pending
+    class: derivation
+    likely_current_source:
+      - MetaTheory_260218_073120.txt
+      - data/collatzprimetwins.ipynb
+      - documents/Collatz_emergence1.pdf
+    question: What exact arithmetic object seeds the spectral ladder?
+    depends_on:
+      - EQ-0001
+      - EQ-0004
+
+  - id: EQ-0009
+    label: lambda_spectrum_mapping_equation
+    priority: 3
+    status: downstream_pending
+    class: derivation
+    likely_current_source:
+      - README.md
+      - MetaTheory_260218_073120.txt
+      - documents/Formal_SM.pdf
+    question: How are arithmetic orbit objects mapped into lambda_i or equivalent spectral seeds?
+    depends_on:
+      - EQ-0008
+
+  - id: EQ-0010
+    label: berry_connection_equation
+    priority: 4
+    status: downstream_pending
+    class: derivation
+    likely_current_source:
+      - README.md
+      - documents/Neutrinotime14.pdf
+      - documents/White_threads.pdf
+    question: What exact Berry connection is used on the chosen canonical manifold?
+    depends_on:
+      - EQ-0005
+      - EQ-0006
+      - EQ-0007
+
+  - id: EQ-0011
+    label: holonomy_equation
+    priority: 4
+    status: downstream_pending
+    class: derivation
+    likely_current_source:
+      - README.md
+      - documents/White_threads.pdf
+    question: What exact holonomy operator is used and along what paths?
+    depends_on:
+      - EQ-0010
+
+  - id: EQ-0012
+    label: white_thread_coupling_equation
+    priority: 5
+    status: downstream_pending
+    class: derivation
+    likely_current_source:
+      - README.md
+      - documents/White_threads.pdf
+      - documents/Coherence_law_application.pdf
+    question: How are pairwise W_ij or F_ij corrections derived from transport rather than inserted heuristically?
+    depends_on:
+      - EQ-0011
+
+  - id: EQ-0013
+    label: mass_equation
+    priority: 6
+    status: downstream_pending
+    class: sector_derivation
+    likely_current_source:
+      - README.md
+      - documents/Formal_SM.pdf
+      - NoParamSM/noparamSMsolver.py
+    question: What is the exact canonical model-space mass equation?
+    depends_on:
+      - EQ-0009
+      - EQ-0012
+
+  - id: EQ-0014
+    label: calibration_scale_equation
+    priority: 6
+    status: downstream_pending
+    class: calibrated_derivation
+    likely_current_source:
+      - README.md
+      - documents/Corrections (3).pdf
+      - documents/Neutrinotime14.pdf
+    question: Which quantities are strictly derived and which are fixed by calibration?
+    depends_on:
+      - EQ-0013
+
+  - id: EQ-0015
+    label: neutrino_sector_equations
+    priority: 7
+    status: downstream_pending
+    class: sector_inheritance
+    likely_current_source:
+      - documents/Neutrinotime14.pdf
+      - simulations/Metatime_Framework(1).py
+    question: What neutrino equations are the first valid sector inheritance layer?
+    depends_on:
+      - EQ-0007
+      - EQ-0010
+      - EQ-0013
+      - EQ-0014
+
+  - id: EQ-0016
+    label: charged_lepton_and_quark_sector_equations
+    priority: 7
+    status: downstream_pending
+    class: sector_inheritance
+    likely_current_source:
+      - documents/Formal_SM.pdf
+      - NoParamSM/noparamSMsolver.py
+      - simulations/Standard Model/full solver.py
+    question: What lepton and quark sector equations inherit canonically from the spectrum layer?
+    depends_on:
+      - EQ-0013
+      - EQ-0014
+
+  - id: EQ-0017
+    label: hadron_composite_equations
+    priority: 7
+    status: downstream_pending
+    class: sector_inheritance
+    likely_current_source:
+      - documents/Formal_SM.pdf
+      - simulations/Toy-Model White-Thread Matrix F_ij — Next Steps/Module: Extend to Full SM Baryons and Mesons.py
+    question: How are composite hadron objects derived from quark-level transport or F_ij structures?
+    depends_on:
+      - EQ-0012
+      - EQ-0016
+
+  - id: EQ-0018
+    label: cosmology_and_lambda_equations
+    priority: 7
+    status: downstream_pending
+    class: sector_inheritance
+    likely_current_source:
+      - documents/Lambda_meta.pdf
+      - documents/CMB_Dynamics-3-1.pdf
+      - documents/CMB_fixed2.pdf
+    question: Which cosmology equations truly inherit from the canonical Metatime chain?
+    depends_on:
+      - EQ-0002
+      - EQ-0007
+      - EQ-0014
+
+  - id: EQ-0019
+    label: phenomenology_interface_equations
+    priority: 8
+    status: terminal_layer
+    class: phenomenology
+    likely_current_source:
+      - README.md
+      - data/
+      - simulations/
+    question: Which fit-facing equations and observational interfaces should be frozen last?
+    depends_on:
+      - EQ-0015
+      - EQ-0016
+      - EQ-0017
+      - EQ-0018
+note: This register is a seed prioritization object, not a final canonical equation registry.

@@ -1,0 +1,27 @@
+NEW SM TOPO-SPECTRAL SOLVER — SUMMARY
+O_I_ref = 0.009170, sigma_O_I = 6.487569e-04, ensemble_n = 2000
+
+Leptons (mean ± std) [MeV]:
+  e: 0.510997 ± 0.000066 (PDG: 0.5109989461)
+  mu: 105.658142 ± 0.006872 (PDG: 105.6583745)
+  tau: 1776.858048 ± 0.057781 (PDG: 1776.86)
+
+Quarks (mean ± std) [MeV] (u,d,s shown):
+  u: 2.159991 ± 0.000281 (PDG: 2.16)
+  d: 4.673514 ± 0.082454 (PDG: 4.67)
+  s: 93.510773 ± 0.304077 (PDG: 93.5)
+
+Nucleons (MeV):
+  proton: 935.995161 ± 65.092863 (PDG: 938.27208816)
+  neutron: 937.295003 ± 64.924803 (PDG: 939.56542052)
+
+Bindings per nucleon [MeV]:
+  16O: 7.860519 ± 0.232253 (ref: 7.976)
+  56Fe: 8.831899 ± 0.260954 (ref: 8.79)
+  208Pb: 7.844389 ± 0.231776 (ref: 7.867)
+
+Quick checks: {'lepton_e': True, 'lepton_mu': True, 'lepton_tau': True, '16O_binding': True}
+
+Saved results to newsm_results/newsm_results.json
+/tmp/ipython-input-1631216711.py:330: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  json.dump({'timestamp': datetime.utcnow().isoformat(), 'results': results, 'checks': checks}, f, indent=2)
