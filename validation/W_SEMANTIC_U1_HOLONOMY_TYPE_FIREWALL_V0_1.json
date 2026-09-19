@@ -1,0 +1,15 @@
+{
+  "schema": "W_SEMANTIC_U1_HOLONOMY_CROSSWALK_V0_1",
+  "date": "2026-09-19",
+  "base_sha": "7498d8c6349573f8d58895145342e849d36983c8",
+  "status": "APPEND_ONLY_CROSSWALK_CANDIDATE",
+  "epistemic": "CHYBA",
+  "canon_allowed": false,
+  "semantic_definition": "W_sem[gamma]=exp(i integral_gamma A_sem)",
+  "rules": {
+    "legacy_rewritten": false,
+    "unsuperscripted_W_discouraged_when_ambiguous": true,
+    "physical_identification_promoted": false
+  },
+  "document": "docs/W_SEMANTIC_U1_HOLONOMY_TYPE_FIREWALL_V0_1.md"
+}
